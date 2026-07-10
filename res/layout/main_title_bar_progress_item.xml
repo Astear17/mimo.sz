@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/post_root_view" android:background="@drawable/home_title_bar_radius_bg" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" android:paddingStart="@dimen/d_12_dp" android:paddingEnd="@dimen/d_12_dp">
+        <ImageView android:id="@id/share_progress_icon" android:visibility="gone" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:src="@drawable/share_icon_post" android:layout_centerVertical="true" android:layout_marginStart="@dimen/d_12_dp" />
+        <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/black" android:id="@id/upload_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kino_upload_posting" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/d_8_dp" android:layout_toStartOf="@id/progress_state_container" android:layout_alignParentStart="true" style="@style/TextStyleRobotoMedium" />
+        <RelativeLayout android:id="@id/progress_state_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/d_8_dp" android:layout_marginEnd="@dimen/d_8_dp" android:layout_toStartOf="@id/post_icon_container">
+            <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/black" android:id="@id/progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@style/TextStyleRobotoMedium" />
+            <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/color_0070D8" android:gravity="center" android:id="@id/post_retry" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/d_30_dp" android:text="@string/kino_upload_post_alert_fetchfail_retry" android:layout_centerVertical="true" style="@style/TextStyleRobotoMedium" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:id="@id/post_icon_container" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/post_close" android:visibility="gone" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:src="@drawable/main_post_close" />
+            <ImageView android:id="@id/share_progress_loading" android:visibility="visible" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:src="@drawable/main_post_loading" />
+            <ImageView android:id="@id/share_progress_complete" android:visibility="gone" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:src="@drawable/main_post_complete" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

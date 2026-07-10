@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/tip_root" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/tip_view_root" android:background="@drawable/bg_guide" android:paddingLeft="@dimen/editor_d_18_dp" android:paddingTop="@dimen/editor_d_8_dp" android:paddingRight="@dimen/editor_d_18_dp" android:paddingBottom="@dimen/editor_d_8_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/editor_d_10_dp">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/editor_d_14_dp" android:textStyle="normal" android:textColor="@color/black" android:id="@id/tvGuideTips" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/vsGuideImTip" android:layout="@layout/view_guide_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_4_dp" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="right" android:id="@id/indicator" android:layout_width="@dimen/editor_d_16_dp" android:layout_height="@dimen/editor_d_16_dp" android:layout_marginTop="-0.5dp" android:src="@drawable/bg_guide_indicator" />
+</LinearLayout>

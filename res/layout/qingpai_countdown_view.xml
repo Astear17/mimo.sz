@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/editor_d_100_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/qingpai_countdown_Tv" android:layout_width="@dimen/editor_d_200_dp" android:layout_height="@dimen/editor_d_200_dp" android:shadowColor="@color/black_30" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="20.0" />
+</RelativeLayout>

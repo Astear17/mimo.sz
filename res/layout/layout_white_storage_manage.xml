@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layout_setting_item_root" android:layout_width="match_parent" android:layout_height="48.0dp" android:paddingHorizontal="20.0dp" android:paddingVertical="12.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/white_90" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ac103_fpv_settings_storage_management_left_panel_title" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/body_1_600" />
+    <TextView android:textColor="@color/white_60" android:id="@id/tv_white_storage_manage_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/iv_white_storage_manage_arrow" app:layout_constraintTop_toTopOf="parent" style="@style/body_1_400" />
+    <ImageView android:id="@id/iv_white_storage_manage_arrow" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/dji_set_arrow_right" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

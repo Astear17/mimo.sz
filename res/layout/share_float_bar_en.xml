@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/color_222222" android:layout_width="match_parent" android:layout_height="@dimen/d_65_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <HorizontalScrollView android:id="@id/share_scroll" android:scrollbars="none" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" android:paddingStart="@dimen/d_10_dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp">
+            <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/share_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kino_upload_post_share" android:layout_marginStart="@dimen/d_12_dp" android:layout_marginEnd="@dimen/d_12_dp" style="@style/TextStyleRobotoRegular" />
+            <ImageView android:id="@id/douyin" android:visibility="gone" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:src="@drawable/douyin" android:layout_marginEnd="@dimen/d_16_dp" />
+            <ImageView android:id="@id/share_fb" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:src="@drawable/share_fb" android:layout_marginEnd="@dimen/d_16_dp" />
+            <ImageView android:id="@id/share_ins" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:src="@drawable/share_ins" android:layout_marginEnd="@dimen/d_16_dp" />
+            <ImageView android:id="@id/share_twiter" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:src="@drawable/share_twiter" android:layout_marginEnd="@dimen/d_16_dp" />
+            <ImageView android:id="@id/share_whatsapp" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:src="@drawable/share_whatsapp" android:layout_marginEnd="@dimen/d_16_dp" />
+            <ImageView android:id="@id/share_moment" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:src="@drawable/share_moment" android:layout_marginEnd="@dimen/d_16_dp" />
+            <ImageView android:id="@id/share_wechat" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:src="@drawable/share_wechat" android:layout_marginEnd="@dimen/d_16_dp" />
+            <ImageView android:id="@id/share_qq" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:src="@drawable/share_qq" android:layout_marginEnd="@dimen/d_16_dp" />
+            <ImageView android:id="@id/share_weibo" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:src="@drawable/share_weibo" android:layout_marginEnd="@dimen/d_16_dp" />
+            <ImageView android:id="@id/share_more" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:src="@drawable/share_more" android:layout_marginEnd="@dimen/d_16_dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <View android:layout_gravity="center|bottom" android:id="@id/share_bottom_line" android:layout_width="@dimen/d_25_dp" android:layout_height="@dimen/d_2_dp" android:layout_marginBottom="@dimen/d_10_dp" />
+</FrameLayout>

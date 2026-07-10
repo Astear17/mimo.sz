@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_weight="1.0">
+        <TextView android:id="@id/setting_ui_item_title" android:text="N/A" style="@style/setting_ui_item_title_noweight" />
+        <TextView android:id="@id/setting_ui_item_desc" android:visibility="gone" android:layout_width="match_parent" style="@style/setting_ui_item_desc" />
+    </LinearLayout>
+    <ImageView android:id="@id/setting_ui_item_teaching" android:paddingLeft="@dimen/d_8_dp" android:paddingRight="@dimen/d_8_dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <dji.base.ui.widget.dji.setting.DJISpinnerButton android:textSize="@dimen/d_12_dp" android:ellipsize="end" android:id="@id/setting_ui_item_spinner_btn" android:paddingLeft="@dimen/d_3_dp" android:paddingRight="@dimen/d_3_dp" android:lines="1" android:textAllCaps="false" app:autoSizeMaxTextSize="@dimen/d_12_dp" app:autoSizeMinTextSize="@dimen/d_6_dp" app:autoSizeStepGranularity="@dimen/d_1_dp" app:autoSizeTextType="uniform" style="@style/hgui_setting_ui_item_spinner_btn" />
+</LinearLayout>

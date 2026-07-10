@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:background="@color/C_000000_0" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0.0dp">
+        <lct.lomo.mediaeditor.game.view.FloatLinearLayout android:orientation="vertical" android:id="@id/home_game_collapsing_bar" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|exitUntilCollapsed" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <com.google.android.material.tabs.TabLayout android:id="@id/home_game_tab" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_52_dp" android:layout_marginTop="@dimen/editor_d_6_dp" app:tabBackground="@null" app:tabGravity="center" app:tabIndicator="@drawable/shape_game_tab_indicator" app:tabIndicatorColor="@color/transparent" app:tabIndicatorFullWidth="false" app:tabIndicatorGravity="bottom" app:tabIndicatorHeight="@dimen/editor_d_2_dp" app:tabMode="scrollable" app:tabRippleColor="@null" />
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/home_game_viewpager" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+    <lct.lomo.mediaeditor.game.view.GameLoadingView android:id="@id/home_game_loading" android:layout_width="match_parent" android:layout_height="match_parent" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

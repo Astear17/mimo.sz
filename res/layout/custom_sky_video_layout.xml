@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/template_bottom_sheet_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lct.lomo.sdk.editor.customtemp.filter.MultipleToningCustomVideoView android:id="@id/recyler_view" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_40_dp" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@id/sky_menu_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_54_dp" layout="@layout/mediaeditor_sky_menu_layout" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sky_menu_layout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_44_dp" android:layout_marginRight="@dimen/editor_d_30_dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/white" android:gravity="right" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dp" android:text="@string/light_editor_sky_colour" android:maxLines="1" style="@style/H_4_normal" />
+                <com.lctsdk.mediaeditor.tabviews.filter.seekbar.SkyOrdSeekbar android:layout_gravity="center" android:id="@id/colour_seekbar" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_66_dp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/seekbars_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/white" android:gravity="right" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dp" android:text="@string/light_editor_sky_light" android:maxLines="1" style="@style/H_4_normal" />
+                <com.lctsdk.mediaeditor.tabviews.filter.seekbar.SkyOrdSeekbar android:layout_gravity="center" android:id="@id/light_seekbar" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_66_dp" android:layout_centerHorizontal="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <include android:id="@id/mediaedit_menu_bottom_layout_id" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/multiple_template_margin_bottom" layout="@layout/custom_menu_bottom_layout" />
+</LinearLayout>

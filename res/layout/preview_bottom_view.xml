@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_110_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/white" android:id="@id/high_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_12_dp" style="@style/H_5_normal" />
+    <lct.lomo.sdk.editor.widget.BaseRecyclerView android:id="@id/preview_bottom_recycle_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_16_dp" />
+</LinearLayout>

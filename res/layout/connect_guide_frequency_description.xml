@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/frequency_container" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TV.Roboto.Regular" android:textSize="@dimen/d_14_dp" android:textColor="@color/white" android:id="@id/frequency_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_20_dp" android:text="@string/mimo_connection_connection_help_unsupport_5p8g_main_content" />
+    <include layout="@layout/connect_ac101_frequency_set_guide" />
+    <include layout="@layout/connect_hg210_frequency_set_guide" />
+</LinearLayout>

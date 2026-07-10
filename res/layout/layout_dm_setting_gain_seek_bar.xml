@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="start" android:id="@id/seekbar_title" android:layout_width="wrap_content" style="@style/v2_settings_item_title" />
+        <TextView android:layout_gravity="end" android:id="@id/seekbar_desc" android:layout_width="wrap_content" style="@style/v2_settings_item_title" />
+    </GridLayout>
+    <com.dji.mimo.accessory.dm300.CircleTickMarkSeekBar android:id="@id/circle_tick_mark_seekbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp" android:maxHeight="@dimen/d_2_dp" android:progressDrawable="@drawable/dm300_setting_seek_bar_progress" android:minHeight="@dimen/d_2_dp" android:thumb="@drawable/seekbar_circle_thumb_radius_10_color_eaeaea" android:thumbOffset="0.0dp" android:splitTrack="false" />
+</LinearLayout>

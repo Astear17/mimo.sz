@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/filter_toning_layout" android:paddingTop="@dimen/editor_d_16_dp" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <com.lctsdk.mediaeditor.tabviews.filter.tablayout.view.SingleRectTabLayout android:layout_gravity="center_horizontal" android:id="@id/filter_menu_tab" android:paddingLeft="@dimen/editor_d_18_dp" android:paddingRight="@dimen/editor_d_18_dp" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_32_dp" />
+        <lct.lomo.sdk.editor.customtemp.filter.MultipleFilterCustomMenu android:id="@id/filter_menu_view" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_dp" android:layout_weight="1.0" />
+        <lct.lomo.sdk.editor.customtemp.filter.MultipleToningCustomMenu android:id="@id/toning_menu_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_dp" android:layout_weight="1.0" />
+        <lct.lomo.sdk.editor.customtemp.filter.MultipleBeautyCustomMenu android:id="@id/beauty_menu_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_dp" android:layout_weight="1.0" />
+        <lct.lomo.sdk.editor.customtemp.filter.MultipleColorCorrectCustomMenu android:id="@id/color_correct_menu_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_dp" android:layout_weight="1.0" />
+        <lct.lomo.sdk.editor.customtemp.filter.MultipleUnderwaterCustomMenu android:id="@id/under_water_menu_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_dp" android:layout_weight="1.0" />
+    </LinearLayout>
+</merge>

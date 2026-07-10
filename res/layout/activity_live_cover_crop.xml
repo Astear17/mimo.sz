@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dji.base.ui.widget.gallery.CropImageView android:id="@id/crop_image_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/bottom_bar" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bottom_bar" android:background="@android:color/black" android:paddingTop="12.0dp" android:paddingBottom="32.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:paddingStart="24.0dp" android:paddingEnd="24.0dp">
+        <com.handheld.uikit.components.button.CustomButton android:id="@id/btn_cancel" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="4.0dp" app:customButtonColor="gray_white" app:customButtonSize="large" app:customButtonState="normal" app:customButtonText="@string/app_cancel" />
+        <com.handheld.uikit.components.button.CustomButton android:id="@id/btn_confirm" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="4.0dp" app:customButtonColor="white" app:customButtonSize="large" app:customButtonState="normal" app:customButtonText="@string/app_confirm" />
+    </LinearLayout>
+</RelativeLayout>

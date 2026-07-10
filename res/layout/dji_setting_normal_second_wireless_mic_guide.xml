@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/black_70" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.base.ui.widget.dji.DJIImageView android:id="@id/wireless_mic_help_close_button" android:padding="@dimen/d_12_dp" android:layout_width="@dimen/d_48_dp" android:layout_height="@dimen/d_48_dp" android:layout_marginTop="@dimen/d_10_dp" android:src="@drawable/ic_navigation_close_white" android:layout_marginEnd="@dimen/d_16_dp" android:layout_alignParentEnd="true" />
+    <RelativeLayout android:id="@id/microphone_help_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/d_13_dp" android:gravity="center" android:id="@id/microphone_help_entry_text_title" android:layout_width="@dimen/d_307_dp" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_27_dp" android:text="@string/hg211_fpv_setting_connect_wireless_mic_tutorial_mask2_title" android:layout_above="@id/microphone_help_entry_image" android:layout_centerHorizontal="true" style="@style/TextStyleRobotoBold" />
+        <dji.base.ui.widget.dji.DJIImageView android:id="@id/microphone_help_entry_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hg211_microphone_help" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/d_13_dp" android:gravity="center" android:id="@id/microphone_help_entry_text" android:layout_width="@dimen/d_505_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_20_dp" android:text="@string/hg211_fpv_setting_connect_wireless_mic_tutorial_mask2_content" android:layout_below="@id/microphone_help_entry_image" android:layout_centerHorizontal="true" style="@style/TextStyleRobotoRegular" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_item" android:background="@color/C_1A1A1F_100" android:layout_width="@dimen/editor_d_60_dp" android:layout_height="@dimen/editor_d_60_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/mediaeditor_model_bottom_material_im" android:layout_width="@dimen/editor_d_60_dp" android:layout_height="@dimen/editor_d_60_dp" android:scaleType="centerCrop" app:radiusColor="@color/C_1A1A1F_100" app:roundRadius="4.0dp" />
+    <ImageView android:id="@id/mediaeditor_model_bottom_bg_im" android:background="@drawable/preview_video_blue_concor_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:textColor="@color/C_FFFFFF_100" android:id="@id/mediaeditor_model_bottom_item_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#80000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="8.0" style="@style/custom_preview_item_theme" />
+    <ImageView android:id="@id/model_image_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_3_dp" android:layout_marginTop="@dimen/editor_d_4_dp" android:src="@drawable/editor_ic_model_image_type" />
+</RelativeLayout>

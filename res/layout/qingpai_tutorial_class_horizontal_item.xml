@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/C_000000_100" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/video_record_category_horizontal_item" android:background="@drawable/qingpai_tutorial_horizontal_class_item_shape" android:layout_width="@dimen/editor_d_75_dp" android:layout_height="@dimen/editor_d_24_dp" android:layout_marginLeft="@dimen/editor_d_4_5_dp" android:layout_marginTop="@dimen/editor_d_6_dp" android:layout_marginRight="@dimen/editor_d_4_5_dp" android:layout_marginBottom="@dimen/editor_d_6_dp" android:singleLine="true" style="@style/H_3_normal" />
+</RelativeLayout>

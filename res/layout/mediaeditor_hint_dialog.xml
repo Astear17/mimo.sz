@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/d_45_dp" android:paddingEnd="@dimen/d_45_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/mediaeditor_dialog_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/hint_dialog_title" android:layout_width="match_parent" android:layout_height="90.0dp" android:paddingStart="@dimen/editor_d_16_dp" android:paddingEnd="@dimen/editor_d_16_dp" style="@style/H_3_bold" />
+        <View android:background="@color/C_E4E4E4_100" android:layout_width="match_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/C_999999_100" android:gravity="center" android:id="@id/hint_dialog_cancel" android:layout_width="0.0dp" android:layout_height="@dimen/editor_d_50_dp" android:layout_weight="1.0" style="@style/H_3_normal" />
+            <View android:background="@color/C_E4E4E4_100" android:layout_width="1.0px" android:layout_height="match_parent" />
+            <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/hint_dialog_confirm" android:layout_width="0.0dp" android:layout_height="@dimen/editor_d_50_dp" android:layout_weight="1.0" style="@style/H_3_bold" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

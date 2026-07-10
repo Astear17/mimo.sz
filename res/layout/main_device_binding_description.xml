@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/black_101010" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/title" layout="@layout/setting_title_layout" />
+    <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/normal_grey_text_color" android:layout_gravity="center" android:layout_width="@dimen/d_307_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_24_dp" android:text="@string/mimo_common_device_management_account_link_dialog_content" android:layout_below="@id/title" android:layout_centerHorizontal="true" style="@style/TextStyleRobotoRegular" />
+    <Button android:textSize="@dimen/d_16_dp" android:layout_gravity="center_horizontal" android:id="@id/ok_button" android:background="@drawable/device_mgt_button_next_bg" android:layout_width="@dimen/d_343_dp" android:layout_height="@dimen/d_50_dp" android:layout_marginBottom="@dimen/d_20_dp" android:text="@string/mimo_common_device_management_account_link_dialog_btn" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:fontFamily="@style/TextStyleRobotoRegular" />
+</RelativeLayout>

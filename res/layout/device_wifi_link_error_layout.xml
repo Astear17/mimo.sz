@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/device_connect_title_iv" layout="@layout/device_common_title_layout" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/device_connect_wifi_info_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_38_dp" android:layout_marginTop="@dimen/editor_d_105_dp" android:layout_marginRight="@dimen/editor_d_38_dp">
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/tv_wifi_ssid" android:paddingLeft="@dimen/editor_d_5_dp" android:paddingRight="@dimen/editor_d_5_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/editor_d_49_dp" android:text="@string/light_connection_manual_wifi_connection_ssid_small_dialog_content" style="@style/H_3_normal" />
+        <View android:background="@color/C_E4E4E4_100" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" />
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/tv_wifi_pwd" android:paddingLeft="@dimen/editor_d_5_dp" android:paddingRight="@dimen/editor_d_5_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/editor_d_49_dp" android:singleLine="true" style="@style/H_3_normal" />
+    </LinearLayout>
+    <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/device_submit" android:background="@drawable/layer_device_connect_bg" android:layout_width="@dimen/editor_d_135_dp" android:layout_height="@dimen/editor_d_44_dp" android:layout_marginBottom="@dimen/editor_d_44_dp" android:text="@string/light_device_handheld_connect_failed_pop_set" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/H_3_normal" />
+    <com.lct.base.device.home.view.ConnectHelpView android:id="@id/device_connect_help_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_18_dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

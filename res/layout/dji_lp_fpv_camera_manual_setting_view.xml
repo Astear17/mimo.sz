@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dji.lomo.fpv.om3.manualmode.DJILPFpvCameraManualModeSwitch android:id="@id/camera_manual_mode" android:layout_width="@dimen/d_102_dp" android:layout_height="@dimen/d_30_dp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/view_split3" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/d_5_dp" app:layout_constraintBottom_toTopOf="@id/camera_manual_iso_picker" app:layout_constraintTop_toBottomOf="@id/camera_manual_mode" />
+    <dji.lomo.fpv.om3.manualmode.DJILPFpvCameraManualPicker android:id="@id/camera_manual_iso_picker" android:layout_width="match_parent" android:layout_height="@dimen/fpv_osd_setting_view_picker_height" app:layout_constraintBottom_toTopOf="@id/view_split1" app:layout_constraintTop_toBottomOf="@id/view_split3" />
+    <View android:id="@id/view_split1" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="0.5dp" app:layout_constraintBottom_toTopOf="@id/camera_manual_shutter_picker" app:layout_constraintTop_toBottomOf="@id/camera_manual_iso_picker" />
+    <dji.lomo.fpv.om3.manualmode.DJILPFpvCameraManualPicker android:id="@id/camera_manual_shutter_picker" android:layout_width="match_parent" android:layout_height="@dimen/fpv_osd_setting_view_picker_height" app:layout_constraintBottom_toTopOf="@id/view_split2" app:layout_constraintTop_toBottomOf="@id/view_split1" />
+    <View android:id="@id/view_split2" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="0.5dp" app:layout_constraintBottom_toTopOf="@id/camera_manual_ev_picker" app:layout_constraintTop_toBottomOf="@id/camera_manual_shutter_picker" />
+    <dji.lomo.fpv.om3.manualmode.DJILPFpvCameraManualEvPicker android:id="@id/camera_manual_ev_picker" android:layout_width="match_parent" android:layout_height="@dimen/fpv_osd_setting_view_picker_height" app:layout_constraintTop_toBottomOf="@id/view_split2" />
+</merge>

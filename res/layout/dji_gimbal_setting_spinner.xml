@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:paddingTop="@dimen/d_12_dp" android:paddingBottom="@dimen/d_12_dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/white_5" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    <dji.base.ui.widget.DJITypefaceSpinner android:id="@id/setting_spinner_view" setting_ui:typeFace="@string/ui_typeface_roboto_condensed_bold" style="@style/dji_setting_item_ll" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lct.uilib.widget.RoundRadiusLayout android:id="@id/export_config_file_btn" android:layout_width="match_parent" android:layout_height="match_parent" app:radiusColor="@color/white" app:roundRadius="@dimen/editor_d_6_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:background="@color/C_FFFFFF_15" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="@dimen/editor_d_4_dp">
+        <ImageView android:id="@id/export_ic" android:visibility="visible" android:layout_width="@dimen/editor_d_21_dp" android:layout_height="@dimen/editor_d_21_dp" android:src="@drawable/editor_export_template_config_icon" />
+        <TextView android:textSize="@dimen/editor_d_17_dp" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:id="@id/export_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_model_template_export_json" android:maxLines="1" android:layout_marginStart="@dimen/editor_d_5_dp" />
+    </LinearLayout>
+</com.lct.uilib.widget.RoundRadiusLayout>

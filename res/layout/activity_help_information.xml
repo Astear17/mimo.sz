@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/black_101010" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/title" layout="@layout/dji_help_info_title_layout" />
+    <include android:id="@id/notice_view_group" android:layout_width="@dimen/d_307_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_30_dp" android:layout_below="@id/title" android:layout_centerHorizontal="true" layout="@layout/dji_help_info_notice_layout" />
+</RelativeLayout>

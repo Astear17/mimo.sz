@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_101010" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/mediaedit_select_dialog_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/mediaedit_select_dialog_cancel" android:padding="@dimen/d_10_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_10_dp" android:layout_marginBottom="@dimen/d_6_dp" android:src="@drawable/mediaeditor_ic_closed" android:layout_marginStart="@dimen/d_6_dp" />
+    </LinearLayout>
+    <dji.lomo.mediaeditor.importmedia.select.SelectRecyclerView android:id="@id/mediaedit_select_dialog_recyclerview" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/mediaedit_select_dialog_layout" android:overScrollMode="never" />
+    <ViewStub android:id="@id/mediaedit_dialog_empty_view" android:layout="@layout/mediaedit_mimo_select_dialog_empty_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_224_dp" />
+</RelativeLayout>

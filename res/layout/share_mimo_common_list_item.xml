@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/share_item_layout" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp">
+        <lct.lomo.sdk.editor.widget.MediaSimpleDraweeView android:id="@id/share_list_item_titler_active_icon" android:visibility="gone" android:layout_width="@dimen/d_18_dp" android:layout_height="@dimen/d_18_dp" android:layout_marginRight="@dimen/d_4_dp" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/share_list_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kino_upload_post_challenge" android:lines="1" android:layout_toRightOf="@id/share_list_item_titler_active_icon" android:layout_centerVertical="true" android:lineSpacingMultiplier="1.2" android:layout_marginEnd="@dimen/d_18_dp" style="@style/TextStyleRobotoRegular" />
+        <ImageView android:id="@id/share_list_item_iv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mediaedit_ic_enter" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <CheckBox android:id="@id/share_list_item_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/ShareBlackCheckBoxTheme" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/color_666666" android:ellipsize="end" android:id="@id/story_save_detail_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dp" android:layout_marginRight="@dimen/d_45_dp" android:lines="1" android:lineSpacingMultiplier="1.2" style="@style/TextStyleRobotoRegular" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/C_000000_100" android:paddingLeft="@dimen/editor_d_16_dp" android:paddingTop="@dimen/editor_d_26_dp" android:paddingRight="@dimen/editor_d_16_dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/back_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mediaedit_icon_back_cross" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/search_edit_layout" android:padding="@dimen/editor_d_5_dp" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_36_dp" android:layout_weight="1.0">
+            <ImageView android:layout_width="@dimen/editor_d_18_dp" android:layout_height="@dimen/editor_d_18_dp" android:src="@drawable/mediaedit_ic_search" />
+            <EditText android:textColor="@color/white" android:textColorHint="@color/C_7C7C7F_100" android:gravity="top" android:id="@id/search_et" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/kino_upload_post_event_inputholder" android:singleLine="true" android:maxLength="50" android:layout_weight="1.0" android:textCursorDrawable="@drawable/mediaedit_share_tag_edit_cursor" style="@style/H_4_normal" />
+            <ImageView android:id="@id/search_et_clear" android:padding="@dimen/editor_d_5_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mediaedit_ic_import_close" />
+        </LinearLayout>
+        <TextView android:textColor="@color/blue" android:id="@id/cancel_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kino_upload_post_challenge_create_done" android:layout_marginStart="@dimen/editor_d_16_dp" style="@style/H_3_normal" />
+    </LinearLayout>
+    <ListView android:id="@id/list_view" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="#24ffffff" android:dividerHeight="1.0px" />
+</LinearLayout>

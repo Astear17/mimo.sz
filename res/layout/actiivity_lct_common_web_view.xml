@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/C_000000_100" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/title_layout" android:paddingTop="@dimen/editor_d_10_dp" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_64_dp" android:paddingStart="@dimen/editor_d_10_dp">
+        <ImageView android:id="@id/back_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lcti_ic_usercenter_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/activity_webview_avatar" android:visibility="gone" android:layout_width="@dimen/editor_d_22_dp" android:layout_height="@dimen/editor_d_22_dp" />
+            <TextView android:textStyle="bold" android:textColor="@color/white" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_8_dp" style="@style/H_1_normal" />
+        </LinearLayout>
+    </RelativeLayout>
+    <WebView android:id="@id/webview" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

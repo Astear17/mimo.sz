@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/main_loading_image_footer_white" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_7_5_dp" android:layout_marginBottom="@dimen/editor_d_7_5_dp" android:layout_centerInParent="true" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/foot_progress_loading_image_white" android:layout_width="@dimen/editor_d_28_dp" android:layout_height="@dimen/editor_d_28_dp" android:indeterminateDrawable="@drawable/uilib_dialog_loading_progress_black" android:layout_centerInParent="true" />
+    <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/no_more_model" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_30_dp" android:layout_marginBottom="@dimen/editor_d_7_5_dp" android:text="@string/light_personalCenter_report_myWorks_more" android:layout_centerHorizontal="true" />
+    <View android:gravity="center" android:id="@id/no_network" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_7_5_dp" android:layout_centerHorizontal="true" />
+</RelativeLayout>

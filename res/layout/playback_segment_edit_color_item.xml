@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/segment_color_item_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.dji.playback.segment.editor.view.widget.EditorCircleView android:id="@id/segment_color_item_iv" android:clickable="true" android:layout_width="@dimen/d_52_dp" android:layout_height="@dimen/d_52_dp" android:layout_marginLeft="@dimen/d_16_dp" android:layout_marginRight="@dimen/d_16_dp" android:layout_marginBottom="8.0dp" />
+    <TextView android:textSize="@dimen/d_11_dp" android:textColor="@color/playback_segment_editor_class_tv" android:layout_gravity="center_horizontal" android:id="@id/segment_color_item_tv" android:paddingTop="@dimen/d_2_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/general_playback_single_file_edit_beauty_auto_btn" />
+</androidx.appcompat.widget.LinearLayoutCompat>

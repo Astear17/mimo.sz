@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/share_upload_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_30_dp" android:layout_toRightOf="@id/share_upload_layout">
+        <RelativeLayout android:id="@id/title_fl" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:id="@id/title_other" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_editor_share_synthesis_share_third_text" style="@style/H_2_normal" />
+            <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_editor_share_synthesis_share_original_text" android:layout_below="@id/title_other" style="@style/H_5_normal" />
+        </RelativeLayout>
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_23_dp">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/share_other_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" />
+        </HorizontalScrollView>
+    </LinearLayout>
+</LinearLayout>

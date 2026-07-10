@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="4.0dp" />
+    <stroke android:width="@dimen/playback_video_track_select_rect_stroke_width" android:color="@color/playback_video_track_select_rect_color" />
+</shape>

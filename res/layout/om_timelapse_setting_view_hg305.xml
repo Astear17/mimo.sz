@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.lomo.camera.business.timelapse.DJILPTimelapseSettingViewHg305 android:orientation="vertical" android:background="@drawable/fpv_timelapse_settings_overlay_window_background" android:paddingTop="@dimen/d_20_dp" android:paddingBottom="@dimen/d_20_dp" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="@dimen/d_20_dp" android:paddingEnd="@dimen/d_20_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="center" android:id="@id/timelapse_set_time" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/om_timelapse_addtime_view_hg305" />
+    <RelativeLayout android:id="@id/timelapse_user_define_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recy_motionlapse_points_array" android:visibility="visible" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:overScrollMode="never" android:paddingEnd="0.0dp" />
+    </RelativeLayout>
+</dji.lomo.camera.business.timelapse.DJILPTimelapseSettingViewHg305>

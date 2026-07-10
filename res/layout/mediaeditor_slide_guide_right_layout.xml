@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="@color/C_000000_100" android:gravity="center" android:layout_gravity="center_horizontal" android:background="@drawable/ic_play_back_tip" android:paddingLeft="@dimen/editor_d_12_dp" android:paddingRight="@dimen/editor_d_12_dp" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_50_dp" android:layout_marginRight="@dimen/editor_d_30_dp" android:layout_marginBottom="@dimen/editor_d_8_dp" android:text="@string/light_play_back_recommoned_tips" android:layout_above="@id/rl_bottom" android:layout_alignParentRight="true" style="@style/H_4_normal"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

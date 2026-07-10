@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/white" android:id="@id/basic_tab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_20_dp" android:text="@string/light_editor_oq101_more_basic_title" android:layout_marginStart="@dimen/editor_d_20_dp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/H_3_bold" />
+    <TextView android:textColor="@color/white_60" android:id="@id/scene_tab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_editor_oq101_more_set_title" android:layout_marginStart="@dimen/editor_d_24_dp" app:layout_constraintBottom_toBottomOf="@id/basic_tab" app:layout_constraintLeft_toRightOf="@id/basic_tab" app:layout_constraintTop_toTopOf="@id/basic_tab" style="@style/H_3_bold" />
+    <ImageView android:id="@id/more_info_close" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:layout_marginTop="@dimen/editor_d_16_dp" android:src="@drawable/more_setting_header_close_icon" android:layout_marginEnd="@dimen/editor_d_20_dp" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

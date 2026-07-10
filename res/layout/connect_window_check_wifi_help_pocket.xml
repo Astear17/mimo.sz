@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/d_10_dp" android:layout_marginEnd="@dimen/d_10_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_connect_help_dialog" android:paddingBottom="@dimen/d_30_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_10_dp" android:layout_marginEnd="@dimen/d_10_dp">
+        <TextView android:textAppearance="@style/TV.RobotoCondensed.Bold" android:textSize="@dimen/d_16_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_title" android:paddingTop="@dimen/d_30_dp" android:paddingBottom="@dimen/d_30_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ac101_connection_common_authentication_confirm_btn" />
+        <include layout="@layout/connect_help_dialog_pocket_item" />
+    </LinearLayout>
+    <View android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="8.0dp" />
+    <TextView android:textAppearance="@style/TV.RobotoCondensed.Bold" android:textSize="@dimen/d_18_dp" android:textColor="@color/dji_device_color_1088F2" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_confirm" android:background="@drawable/bg_connect_help_dialog" android:layout_width="match_parent" android:layout_height="@dimen/d_56_dp" android:text="@string/ac101_connection_common_authentication_confirm_btn" android:layout_marginStart="@dimen/d_10_dp" android:layout_marginEnd="@dimen/d_10_dp" />
+    <View android:id="@id/bottom_divider_line" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/d_8_dp" />
+</LinearLayout>

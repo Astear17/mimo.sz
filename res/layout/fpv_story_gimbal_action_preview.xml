@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|center" android:id="@id/gimbal_action_preview_image" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:src="@drawable/fpv_story_gimbal_action_none_normal" android:scaleType="fitCenter" android:layout_marginStart="@dimen/d_12_dp" />
+    <TextView android:textSize="@dimen/d_12_dp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/gimbal_action_preview_duration" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:paddingStart="@dimen/d_8_dp" android:paddingEnd="@dimen/d_8_dp" style="@style/TextStyleRobotoCondensedBold" />
+    <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/color_1088F2" android:gravity="center" android:id="@id/gimbal_action_preview_exit" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/mimo_story_preview_gimbal_motion_quit_btn" android:paddingStart="@dimen/d_12_dp" android:paddingEnd="@dimen/d_12_dp" style="@style/TextStyleRobotoRegular" />
+</merge>

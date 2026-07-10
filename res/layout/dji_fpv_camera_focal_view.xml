@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="@dimen/d_48_dp" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/camera_focal_unlimited" android:padding="@dimen/d_6_dp" android:layout_width="@dimen/d_40_dp" android:layout_height="@dimen/d_40_dp" android:src="@drawable/dji_fpv_camera_focal_unlimited" android:scaleType="fitCenter" android:layout_marginStart="@dimen/d_4_dp" android:layout_marginEnd="@dimen/d_4_dp" />
+    <ImageView android:id="@id/camera_focal_macro" android:padding="@dimen/d_6_dp" android:layout_width="@dimen/d_40_dp" android:layout_height="@dimen/d_40_dp" android:src="@drawable/dji_fpv_camera_focal_macro" android:scaleType="fitCenter" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/d_4_dp" android:layout_marginEnd="@dimen/d_4_dp" />
+    <dji.lomo.fpv.ui.base.camera.focal.DJIRulerView android:id="@id/camera_focal_ruler" android:layout_width="@dimen/d_40_dp" android:layout_height="match_parent" android:layout_above="@id/camera_focal_macro" android:layout_below="@id/camera_focal_unlimited" android:layout_marginStart="@dimen/d_4_dp" android:layout_marginEnd="@dimen/d_4_dp" app:scaleColor="@color/white" app:scalePadding="@dimen/d_4_dp" app:selectDrawable="@drawable/dji_fpv_camera_focal_btn" />
+    <ImageView android:layout_width="@dimen/d_48_dp" android:layout_height="@dimen/d_21_dp" android:src="@drawable/dji_fpv_camera_focal_btn" android:scaleType="fitCenter" android:layout_centerVertical="true" />
+</merge>

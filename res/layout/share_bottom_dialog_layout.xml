@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_22_dp" android:layout_marginRight="@dimen/editor_d_22_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/share_container_1" android:background="@drawable/mediaedit_compose_upload_share_dialog" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_94_dp">
+        <ImageView android:id="@id/share_wechat_logo" android:layout_width="0.0dp" android:layout_height="wrap_content" android:src="@drawable/media_compose_share_wechat" android:layout_weight="1.0" />
+        <ImageView android:id="@id/share_moment_logo" android:layout_width="0.0dp" android:layout_height="wrap_content" android:src="@drawable/media_compose_share_moment" android:layout_weight="1.0" />
+        <ImageView android:id="@id/share_weibo_logo" android:layout_width="0.0dp" android:layout_height="wrap_content" android:src="@drawable/media_compose_share_weibo" android:layout_weight="1.0" />
+        <ImageView android:id="@id/share_copy_logo" android:layout_width="0.0dp" android:layout_height="wrap_content" android:src="@drawable/media_compose_share_copy" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/share_cancel" android:background="@drawable/mediaedit_compose_upload_share_dialog" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp" android:layout_marginTop="@dimen/editor_d_12_dp" android:text="@string/common_dialog_cancel" style="@style/H_3_bold" />
+</LinearLayout>

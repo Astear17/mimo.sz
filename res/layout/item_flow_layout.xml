@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="#a0000000" android:gravity="center" android:id="@id/text" android:background="@drawable/score_submit_flow_not_select_view_shape" android:paddingLeft="@dimen/editor_d_10_dp" android:paddingTop="@dimen/editor_d_6_dp" android:paddingRight="@dimen/editor_d_10_dp" android:paddingBottom="@dimen/editor_d_6_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="hahah" android:layout_centerHorizontal="true" style="@style/H_5_normal"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

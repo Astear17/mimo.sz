@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_19_dp" android:textStyle="bold" android:textColor="@color/color_333333" android:gravity="center" android:id="@id/mediaedit_bottom_dialog_save" android:layout_width="match_parent" android:layout_height="@dimen/d_64_dp" android:text="COVER" />
+    <View android:background="@color/color_e4e4e4" android:layout_width="match_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/d_16_dp" android:layout_marginRight="@dimen/d_16_dp" />
+    <TextView android:textSize="@dimen/d_19_dp" android:textStyle="bold" android:textColor="@color/color_333333" android:gravity="center" android:id="@id/mediaedit_bottom_dialog_exit" android:layout_width="match_parent" android:layout_height="@dimen/d_64_dp" android:text="@string/kino_upload_post_exit" />
+    <View android:background="@color/color_f4f4f4" android:layout_width="match_parent" android:layout_height="@dimen/d_10_dp" />
+    <TextView android:textSize="@dimen/d_19_dp" android:textStyle="bold" android:textColor="@color/color_f7544e" android:gravity="center" android:id="@id/mediaedit_bottom_dialog_cancel" android:layout_width="match_parent" android:layout_height="@dimen/d_49_dp" android:text="@string/kino_upload_cancel" />
+</LinearLayout>

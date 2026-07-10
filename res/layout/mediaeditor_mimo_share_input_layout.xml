@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.lomo.usercenter.widget.LimitEditText android:textSize="@dimen/d_14_dp" android:textColor="@color/white" android:textColorHint="@color/white" android:gravity="top" android:id="@id/share_desc" android:background="@color/transparent" android:paddingBottom="@dimen/d_22_dp" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/kino_upload_post_description" android:minLines="2" android:maxLength="100" android:lineSpacingMultiplier="1.2" android:textCursorDrawable="@drawable/media_edit_curs_color" style="@style/TextStyleRobotoMedium" />
+    <TextView android:textSize="@dimen/d_11_dp" android:textColor="@color/color_666666" android:id="@id/share_desc_num" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0/100" android:layout_alignBottom="@id/share_desc" android:layout_alignParentRight="true" style="@style/TextStyleRobotoCondensedRegular" />
+</RelativeLayout>

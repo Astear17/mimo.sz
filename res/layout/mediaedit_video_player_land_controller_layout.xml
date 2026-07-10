@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lct.lomo.sdk.editor.video.view.VideoLoadingView android:id="@id/video_loading_view" android:background="@color/C_000000_80" android:padding="@dimen/editor_d_5_dp" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="@dimen/editor_d_40_dp" android:layout_height="@dimen/editor_d_40_dp" android:layout_centerInParent="true" />
+    <com.lct.wide.editor.gesture.PanoramaTouchGestureLayout android:id="@id/panorama_gesture_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.lctsdk.mediaeditor.player.controller.gesture.MultiTouchGestureLayout android:id="@id/story_video_gesture_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <lct.lomo.sdk.editor.customtemp.subtitle.multiple.MultiplePasterLayout android:id="@id/custom_paster_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ugc_author_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <TextView android:textColor="@color/white" android:id="@id/ugc_author" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_ugc_author_sign_1" android:shadowColor="@color/black_50" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="1.0" style="@style/H_4_normal" />
+        <FrameLayout android:background="@drawable/ugc_ava_bg" android:layout_width="@dimen/editor_d_17_dp" android:layout_height="@dimen/editor_d_17_dp" android:layout_marginStart="@dimen/editor_d_4_dp">
+            <ImageView android:layout_gravity="center" android:id="@id/ugc_author_icon" android:layout_width="@dimen/editor_d_16_dp" android:layout_height="@dimen/editor_d_16_dp" />
+        </FrameLayout>
+        <TextView android:textColor="@color/white" android:id="@id/ugc_author_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:shadowColor="@color/black_50" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_marginStart="@dimen/editor_d_4_dp" style="@style/H_4_normal" />
+    </LinearLayout>
+</RelativeLayout>

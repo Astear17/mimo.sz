@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/mediaeditor_paint_dialog_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/C_E4E4E4_100" android:id="@id/mediaedit_title_profile_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_13_dp" android:layout_marginBottom="@dimen/editor_d_17_dp" android:text="@string/light_editor_resolution_select_resolution" style="@style/H_3_normal" />
+    <lct.lomo.sdk.editor.widget.BaseRecyclerView android:id="@id/select_dialog_recyclerview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+</LinearLayout>

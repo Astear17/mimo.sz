@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/om_fpv_navation" app:startDestination="@id/fpvBlankFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include app:graph="@navigation/aistory_navation" />
+    <include app:graph="@navigation/gcm_navigation" />
+    <action android:id="@id/action_fpv_to_aistory_fragment" app:destination="@id/aistory_navation" />
+    <action android:id="@id/action_fpv_to_gcm_fragment" app:destination="@id/gcm_navigation" />
+    <fragment android:label="FpvBlankFragment" android:name="dji.lomo.fpv.om.navigation.FpvBlankNaviFragment" android:id="@id/fpvBlankFragment" />
+    <action android:id="@id/action_fpv_to_blank_navi" app:destination="@id/fpvBlankFragment" />
+</navigation>

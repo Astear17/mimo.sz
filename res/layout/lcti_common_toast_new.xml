@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/toast_root_layout" android:layout_width="@dimen/light_d_300_dp" android:layout_height="@dimen/light_d_300_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_width="@dimen/light_d_300_dp" android:layout_height="@dimen/light_d_300_dp">
+        <com.lct.util.widget.ShadowLayout android:gravity="center" android:layout_gravity="center" android:id="@id/shadowLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:bgColor="@color/C_000000_30" app:blurRadius="@dimen/light_d_8_dp" app:shadowColor="@color/C_000000_30" app:shadowRadius="@dimen/light_d_6_dp" app:xOffset="@dimen/light_d_0_dp" app:yOffset="@dimen/light_d_0_dp">
+            <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:layout_gravity="center" android:id="@id/toast_message" android:background="@drawable/light_toast_bg" android:paddingLeft="@dimen/light_d_15_dp" android:paddingRight="@dimen/light_d_15_dp" android:layout_width="@dimen/light_d_135_dp" android:layout_height="@dimen/light_d_57_dp" android:maxWidth="@dimen/light_d_400_dp" android:minWidth="@dimen/light_d_200_dp" android:maxLines="2" style="@style/H_3_normal" />
+        </com.lct.util.widget.ShadowLayout>
+    </LinearLayout>
+</LinearLayout>

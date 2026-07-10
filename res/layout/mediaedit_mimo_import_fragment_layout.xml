@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/mediaedit_importmedia_root" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/mediaedit_importmedia_media_title" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/d_30_dp" layout="@layout/mediaedit_importmedia_import_fragment_titlebar_layout" />
+    <dji.lomo.mediaeditor.importmedia.medialist.MediaEmptyView android:id="@id/mediaedit_empty_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.34" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:layout_width="match_parent" android:layout_height="@dimen/d_0_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/mediaedit_importmedia_media_title">
+        <dji.lomo.mediaeditor.importmedia.medialist.MediaRecycleView android:id="@id/mediaedit_importmedia_media_rv" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="@dimen/d_0_dp" android:overScrollMode="never" app:layout_constraintBottom_toTopOf="@id/mediaedit_importmedia_bottom_layout_od" app:layout_constraintTop_toTopOf="parent" />
+        <dji.lomo.mediaeditor.importmedia.bottom.EditNewBottomView android:id="@id/mediaedit_importmedia_bottom_layout_od" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="@dimen/d_70_dp" app:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

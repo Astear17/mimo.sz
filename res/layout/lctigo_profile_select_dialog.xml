@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/lctigo_dialog_bg" android:layout_width="@dimen/editor_d_280_dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_16_dp" android:layout_marginTop="@dimen/editor_d_24_dp" android:layout_marginRight="@dimen/editor_d_16_dp" android:layout_marginBottom="@dimen/editor_d_24_dp" android:text="@string/light_editor_resolution_select_description" style="@style/H_3_normal" />
+    <View android:background="@color/mediaeditor_dialog_divider_color" android:layout_width="match_parent" android:layout_height="0.5dp" />
+    <FrameLayout android:id="@id/mediaeidt_select_720" android:background="@color/C_FAFAFA_100" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_52_dp">
+        <TextView android:textColor="@color/C_000000_100" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/editor_d_16_dp" android:text="@string/light_editor_resolution_select_720P" android:drawablePadding="@dimen/editor_d_3_dp" style="@style/H_3_normal" />
+        <ImageView android:layout_gravity="right|center" android:id="@id/mediaeidt_image_720" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/editor_d_16_dp" android:src="@drawable/mediaeidt_ratiobtn_selected" />
+    </FrameLayout>
+    <View android:background="@color/mediaeditor_dialog_divider_color" android:layout_width="match_parent" android:layout_height="0.5dp" />
+    <FrameLayout android:id="@id/mediaeidt_select_1080" android:background="@color/C_FAFAFA_100" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_52_dp">
+        <TextView android:textColor="@color/C_000000_100" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/editor_d_16_dp" android:text="@string/light_editor_resolution_select_1080P" android:drawablePadding="@dimen/editor_d_3_dp" style="@style/H_3_normal" />
+        <ImageView android:layout_gravity="right|center" android:id="@id/mediaeidt_image_1080" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/editor_d_16_dp" android:src="@drawable/mediaeidt_ratiobtn_selected" />
+    </FrameLayout>
+    <View android:background="@color/mediaeditor_dialog_divider_color" android:layout_width="match_parent" android:layout_height="0.5dp" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="@dimen/editor_d_52_dp">
+        <TextView android:textColor="@color/lctgo_aplly_all_dialog_grey_color" android:gravity="center" android:id="@id/lctgo_exit_editor_cancel" android:layout_width="@dimen/editor_d_140_dp" android:layout_height="match_parent" android:text="@string/light_editor_resolution_select_btn_cancel" style="@style/H_3_normal" />
+        <View android:background="@color/mediaeditor_dialog_divider_color" android:layout_width="0.5dp" android:layout_height="match_parent" />
+        <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/lctgo_exit_editor_exit" android:layout_width="@dimen/editor_d_140_dp" android:layout_height="match_parent" android:text="@string/light_editor_resolution_select_btn_ok" style="@style/H_3_normal" />
+    </LinearLayout>
+</LinearLayout>

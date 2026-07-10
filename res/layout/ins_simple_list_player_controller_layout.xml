@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/model_item_video_play" android:visibility="gone" android:layout_width="@dimen/editor_d_18_dp" android:layout_height="@dimen/editor_d_18_dp" android:layout_marginLeft="@dimen/editor_d_6_dp" android:layout_marginBottom="@dimen/editor_d_6_dp" android:src="@drawable/ic_play_min_normal" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/custom_main_bg_color" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.sdk.editor.widget.FilterImageView android:id="@id/img" android:background="@drawable/tail_item_im_bg_corner" android:layout_width="@dimen/editor_d_53_dp" android:layout_height="@dimen/editor_d_53_dp" android:layout_marginLeft="@dimen/editor_d_4_dp" android:layout_marginRight="@dimen/editor_d_4_dp" android:scaleType="centerInside" app:radiusColor="@color/custom_main_bg_color" app:roundRadius="@dimen/editor_d_4_dp" />
+    <TextView android:textColor="#ffffff" android:ellipsize="end" android:gravity="center" android:id="@id/title_tv" android:background="@color/custom_main_bg_color" android:visibility="gone" android:layout_width="@dimen/editor_d_80_dp" android:layout_height="@dimen/editor_d_20_dp" android:layout_marginTop="@dimen/editor_d_12_dp" android:text="NONE" android:singleLine="true" android:layout_below="@id/img" android:layout_alignLeft="@id/img" style="@style/H_4_bold" />
+</RelativeLayout>

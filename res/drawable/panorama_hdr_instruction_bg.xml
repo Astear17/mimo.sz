@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/playback_video_hdr_bt_bg_33000000" />
+    <corners android:radius="@dimen/editor_d_30_dp" />
+</shape>

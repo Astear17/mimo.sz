@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="@dimen/editor_d_46_dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.sdk.editor.music.view.OprateImageView android:id="@id/oprate_item_image" android:layout_width="@dimen/editor_d_25_dp" android:layout_height="@dimen/editor_d_25_dp" android:scaleType="centerInside" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textColor="@color/C_7C7C7F_100" android:gravity="center" android:id="@id/oprate_item_title_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_3_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/oprate_item_image" style="@style/H_5_normal" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ins_qingpai_title_bar" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_64_dp">
+        <ImageView android:id="@id/iv_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_22_dp" android:layout_marginTop="@dimen/editor_d_17_dp" android:src="@drawable/icon_close_black" android:layout_alignParentLeft="true" />
+        <TextView android:textColor="@color/black" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_afflatus_classification_title" android:layout_centerInParent="true" style="@style/H_1_normal" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_qingpai_list" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/editor_d_15_dp" android:layout_marginRight="@dimen/editor_d_15_dp" android:layout_below="@id/ins_qingpai_title_bar" android:splitMotionEvents="false" />
+    <lct.lomo.sdk.editor.music.musicview.EditorEmptyView android:id="@id/rv_qingpai_error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/loading_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/ins_qingpai_title_bar">
+        <ProgressBar android:id="@id/progress_bar" android:layout_width="@dimen/editor_d_28_dp" android:layout_height="@dimen/editor_d_28_dp" android:indeterminateDrawable="@drawable/uilib_dialog_loading_progress" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

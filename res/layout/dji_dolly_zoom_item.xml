@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@color/fpv_connect_view_background" android:layout_width="@dimen/d_277_dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/text_tips" android:background="@color/fpv_connect_view_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_7_dp" android:layout_marginBottom="@dimen/d_7_dp" android:layout_marginStart="@dimen/d_9_dp">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white" android:id="@id/tv_dolly_zoom_main" android:visibility="visible" android:layout_width="@dimen/d_233_dp" android:layout_height="wrap_content" style="@style/TextStyleRobotoCondensedBold" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tv_dolly_zoom_vic" android:visibility="gone" android:layout_width="@dimen/d_233_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_6_dp" style="@style/TextStyleRobotoCondensedRegular" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/dolly_zoom_tips_img_close" android:visibility="visible" android:layout_width="@dimen/d_16_dp" android:layout_height="@dimen/d_16_dp" android:layout_marginTop="@dimen/d_7_dp" android:src="@drawable/ic_close_small" android:layout_marginEnd="@dimen/d_7_dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

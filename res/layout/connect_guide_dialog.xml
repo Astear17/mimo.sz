@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/window_container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/view_connect_card_dialog_bg">
+        <TextView android:id="@id/tv_title" style="@style/TV.ConnectCard.Dialog.Title" />
+        <TextView android:id="@id/tv_msg" style="@style/TV.ConnectCard.Dialog.Msg" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_24_dp">
+            <TextView android:textAppearance="@style/TV.RobotoCondensed.Bold" android:textSize="@dimen/d_15_dp" android:textColor="@color/dji_device_color_1088F2" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_guide_tip" android:paddingLeft="20.0dp" android:paddingRight="20.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_connection_connection_help_wlan_plus_closed_turorial_btn" android:drawablePadding="@dimen/d_5_dp" android:lineSpacingExtra="@dimen/d_5_dp" android:drawableStart="@drawable/icon_connect_guide_click_tip" />
+        </LinearLayout>
+        <View style="@style/view_connect_card_dialog_horizontal_divider" />
+        <LinearLayout style="@style/view_connect_card_dialog_button_container">
+            <TextView android:id="@id/tv_left" style="@style/view_connect_card_dialog_button_cancel" />
+            <View android:id="@id/separator" style="@style/view_connect_card_dialog_vertical_divider" />
+            <TextView android:id="@id/tv_right" style="@style/view_connect_card_dialog_button_confirm" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

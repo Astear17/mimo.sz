@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.sdk.editor.widget.TintImageView android:id="@id/cloud_resource_none" android:paddingLeft="@dimen/editor_d_5_dp" android:paddingRight="@dimen/editor_d_5_dp" android:paddingBottom="@dimen/editor_d_5_dp" android:layout_width="@dimen/editor_d_34_dp" android:layout_height="@dimen/editor_d_29_dp" android:layout_marginLeft="@dimen/editor_d_17_dp" android:src="@drawable/resource_category_none" app:disableColor="@color/white_30" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="@id/cloud_resource_class_list" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/cloud_resource_class_list" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_60_dp" android:layout_marginBottom="@dimen/editor_d_10_dp" app:layout_constraintBottom_toTopOf="@id/cloud_resource_list" app:layout_constraintLeft_toLeftOf="parent" />
+    <lct.lomo.sdk.editor.widget.BaseRecyclerView android:id="@id/cloud_resource_list" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_15_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+</merge>

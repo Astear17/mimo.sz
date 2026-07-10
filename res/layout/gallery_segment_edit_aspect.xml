@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:tag="layout/gallery_segment_edit_aspect_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="end" android:layout_width="match_parent" android:layout_height="@dimen/d_20_dp" android:layout_marginTop="@dimen/d_8_dp">
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:id="@id/control_aspect_reset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/d_24_dp">
+            <TextView android:textSize="@dimen/d_10_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_aspect_reset" android:layout_width="wrap_content" android:layout_height="@dimen/d_20_dp" android:text="@string/ac204_playback_dashboard_import_time_reset_title" android:layout_marginEnd="@dimen/d_4_dp" />
+            <dji.base.ui.widget.dji.DJIImageView android:id="@id/iv_aspect_reset" android:layout_width="@dimen/d_16_dp" android:layout_height="@dimen/d_16_dp" android:src="@drawable/ic_playback_segment_edit_paint_reset" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/d_210_dp">
+        <TextView android:textSize="@dimen/d_11_dp" android:textColor="@color/white_80" android:layout_gravity="center_horizontal" android:id="@id/segment_aspect_tips_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_24_dp" android:lineHeight="@dimen/d_20_dp" />
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/segment_aspect_recyclerview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_38_dp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <Space android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layoutCutActionBar" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" android:paddingStart="@dimen/d_24_dp" android:paddingEnd="@dimen/d_24_dp">
+        <dji.base.ui.widget.dji.DJIImageView android:id="@id/iv_aspect_cancel" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/gallery_segment_edit_close" />
+        <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white_90" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/mimo_playback_single_clip_edit_canvas_title" android:layout_weight="1.0" />
+        <dji.base.ui.widget.dji.DJIImageView android:id="@id/iv_aspect_confirm" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/gallery_segment_edit_comfirm" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

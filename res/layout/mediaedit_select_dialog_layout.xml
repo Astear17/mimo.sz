@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/mediaedit_select_dialog_layout" android:background="@color/C_111116_100" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_64_dp">
+        <ImageView android:id="@id/mediaedit_select_dialog_cancel" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:src="@drawable/mediaedit_import_close_icon" android:layout_centerVertical="true" android:layout_marginStart="@dimen/editor_d_22_dp" />
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/select_tab" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/editor_d_6_dp" android:layout_marginRight="@dimen/editor_d_60_dp" android:layout_toRightOf="@id/mediaedit_select_dialog_cancel" android:layout_alignTop="@id/mediaedit_select_dialog_cancel" android:layout_alignBottom="@id/mediaedit_select_dialog_cancel" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <lct.lomo.mediaeditor.importmedia.select.TabSelectView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/select_tab_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/mediaedit_select_dialog_layout">
+        <lct.lomo.mediaeditor.importmedia.select.SelectRecyclerView android:id="@id/mediaedit_select_dialog_recyclerview" android:background="@color/C_111116_100" android:paddingTop="@dimen/editor_d_23_dp" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/mediaedit_dialog_empty_view" android:layout="@layout/mediaedit_select_dialog_empty_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_224_dp" />
+</RelativeLayout>

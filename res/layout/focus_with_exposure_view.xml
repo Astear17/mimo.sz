@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lctsdk.camera.cameraview.layer.AutoFocusLayout android:id="@id/focus_view_with" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <com.lctsdk.camera.cameraview.layer.view.ExposureSeekbar android:id="@id/exposure_seekbar_with" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_120_dp" android:layout_centerVertical="true" android:layout_toEndOf="@id/focus_view_with" />
+</RelativeLayout>

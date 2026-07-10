@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <lct.lomo.sdk.editor.shadow.ShadowLayout android:layout_gravity="center" android:id="@id/shadowLayout" android:background="@drawable/mediaedit_common_toast_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" app:bgColor="@color/white" app:blurRadius="@dimen/editor_d_8_dp" app:shadowColor="@color/C_000000_20" app:shadowRadius="@dimen/editor_d_6_dp" app:xOffset="@dimen/editor_d_0_dp" app:yOffset="@dimen/editor_d_0_dp">
+            <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:layout_gravity="center" android:id="@id/mediaeditor_toast_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_15_dp" android:layout_marginRight="@dimen/editor_d_15_dp" android:minWidth="@dimen/editor_d_200_dp" android:minHeight="@dimen/editor_d_57_dp" style="@style/H_3_normal" />
+        </lct.lomo.sdk.editor.shadow.ShadowLayout>
+    </LinearLayout>
+</LinearLayout>

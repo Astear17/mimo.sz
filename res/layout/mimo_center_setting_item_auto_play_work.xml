@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mimo_center_set_auto_play_work_container" style="@style/MimoCenterItemContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/mimo_center_set_auto_play_work_title" android:text="@string/mimo_common_setting_videoplay_list" android:layout_toStartOf="@id/mimo_center_set_auto_play_work_checkbox" style="@style/TV.MimoCenter.Item.Title.Black" />
+    <CheckBox android:id="@id/mimo_center_set_auto_play_work_checkbox" android:checked="true" style="@style/TV.MimoCenter.Item.CheckBox.New" />
+</RelativeLayout>

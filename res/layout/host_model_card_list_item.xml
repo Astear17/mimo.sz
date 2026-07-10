@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lct.uilib.widget.RoundRadiusLayout android:id="@id/rl_model_item" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true">
+        <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:layout_gravity="center" android:id="@id/model_item_model_cover" android:background="@color/C_29292D_100" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:radiusColor="@color/C_111116_100" />
+        <ImageView android:layout_gravity="center" android:id="@id/model_item_video_play" android:layout_width="@dimen/editor_d_54_dp" android:layout_height="@dimen/editor_d_54_dp" android:src="@drawable/model_preview_ic_play" android:layout_centerInParent="true" />
+        <FrameLayout android:id="@id/model_item_video_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <FrameLayout android:id="@id/model_item_video_controller" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </com.lct.uilib.widget.RoundRadiusLayout>
+    <View android:background="@drawable/model_preview_bottom_gradual" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_180_dp" android:layout_alignParentBottom="true" />
+    <include android:id="@id/model_info_layout" layout="@layout/model_preview_model_info" />
+</RelativeLayout>

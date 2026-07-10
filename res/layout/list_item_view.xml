@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.base.ui.widget.dji.DJILinearLayout android:id="@id/list_item_ly" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.base.ui.widget.dji.DJIView android:layout_width="15.0dp" android:layout_height="wrap_content" />
+    <CheckBox android:id="@id/left_checkbox" android:background="@drawable/dlg_single_checkbox" android:visibility="gone" android:layout_width="@dimen/progress_round_width" android:layout_height="@dimen/progress_round_width" android:checked="false" android:button="@null" />
+    <dji.base.ui.widget.dji.DJITextView android:textSize="@dimen/text_dp_13" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/left_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_weight="1.0" />
+    <dji.base.ui.widget.dji.DJITextView android:textSize="@dimen/text_dp_13" android:gravity="right|center" android:layout_gravity="center_vertical" android:id="@id/right_tv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginRight="5.0dp" android:layout_weight="1.0" />
+    <CheckBox android:layout_gravity="right" android:id="@id/right_checkbox" android:background="@drawable/dlg_single_checkbox" android:visibility="gone" android:layout_width="@dimen/progress_round_width" android:layout_height="@dimen/progress_round_width" android:layout_marginRight="5.0dp" android:checked="false" android:button="@null" />
+    <dji.base.ui.widget.dji.DJIView android:layout_width="15.0dp" android:layout_height="wrap_content" />
+</dji.base.ui.widget.dji.DJILinearLayout>

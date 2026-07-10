@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dji.playback.ui.mino.mimo2light.RoundRadiusLayout android:id="@id/frame_rl" android:layout_width="@dimen/d_56_dp" android:layout_height="@dimen/d_56_dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:roundRadius="@dimen/d_4_dp">
+        <View android:background="@color/color_333333" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <dji.publics.DJIUI.DJIImageView android:layout_gravity="center" android:id="@id/frame_iv" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/gallery_segment_edit_frame_icon_1" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/frame_select_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/playback_segment_editor_filter_item_board" />
+    </com.dji.playback.ui.mino.mimo2light.RoundRadiusLayout>
+    <ImageView android:layout_gravity="right" android:id="@id/ivLimit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pic_limit" app:layout_constraintRight_toRightOf="@id/frame_rl" app:layout_constraintTop_toTopOf="@id/frame_rl" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/d_11_dp" android:textColor="@color/white_40" android:gravity="center" android:id="@id/frame_name_tv" android:layout_width="@dimen/d_56_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_7_dp" android:text="@string/general_playback_beautify_clear_effect_none_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/frame_rl" />
+</androidx.constraintlayout.widget.ConstraintLayout>

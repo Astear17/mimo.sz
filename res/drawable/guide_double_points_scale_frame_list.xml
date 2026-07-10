@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0001" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0002" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0003" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0004" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0005" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0006" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0007" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0008" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0009" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0010" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0011" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0012" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0013" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0014" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0015" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0016" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0017" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0018" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0019" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0020" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0021" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0022" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0023" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0024" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0025" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0026" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0027" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0028" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0029" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0030" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0031" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0032" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0033" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0034" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0035" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0036" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0037" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0038" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0039" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0040" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0041" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0042" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0043" />
+    <item android:duration="30" android:drawable="@drawable/guide_double_points_scale_0044" />
+</animation-list>

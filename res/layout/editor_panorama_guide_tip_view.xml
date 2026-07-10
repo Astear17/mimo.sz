@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lctsdk.mediaeditor.wide.guide.view.HoleView android:id="@id/guide_hole_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/guide_jump_tv" android:background="@drawable/panorama_key_frame_guide_jump_btn_shape" android:paddingTop="@dimen/editor_d_2_dp" android:paddingBottom="@dimen/editor_d_2_dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_16_dp" android:minWidth="@dimen/editor_d_58_dp" android:text="@string/light_editor_oq101_newtoast_key_pass" android:layout_alignParentTop="true" android:paddingStart="@dimen/editor_d_16_dp" android:paddingEnd="@dimen/editor_d_16_dp" android:layout_marginEnd="@dimen/editor_d_26_dp" android:layout_alignParentEnd="true" style="@style/H_4_normal" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie_anim_view" android:layout_width="@dimen/editor_d_310_dp" android:layout_height="@dimen/editor_d_310_dp" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/tip_view_ll" android:background="@drawable/shape_guide_tip_bg" android:paddingLeft="@dimen/editor_d_16_dp" android:paddingTop="@dimen/editor_d_12_dp" android:paddingRight="@dimen/editor_d_16_dp" android:paddingBottom="@dimen/editor_d_12_dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <LinearLayout android:gravity="center" android:id="@id/step_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/editor_d_8_dp">
+            <TextView android:textColor="@color/C_29292D_100" android:id="@id/cur_step_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" style="@style/H_3_normal" />
+            <TextView android:textColor="@color/C_7C7C7F_100" android:id="@id/num_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_2_dp" android:text="/" style="@style/H_5_normal" />
+            <TextView android:textColor="@color/C_7C7C7F_100" android:id="@id/total_step_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_2_dp" android:text="5" style="@style/H_5_normal" />
+        </LinearLayout>
+        <TextView android:textColor="@color/C_29292D_100" android:gravity="bottom" android:id="@id/tv_guide_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/editor_d_254_dp" android:text="@string/light_guide_editor_video_frame_describe" style="@style/H_3_normal" />
+    </LinearLayout>
+</RelativeLayout>

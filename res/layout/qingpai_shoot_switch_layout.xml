@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="match_parent" app:cardBackgroundColor="@android:color/transparent" app:cardCornerRadius="@dimen/editor_d_50_dp" app:cardElevation="@dimen/editor_d_0_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin">
+    <com.lct.lightui.other.viewpager.XBanner android:id="@id/shoot_banner" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" app:isAutoPlay="false" app:isClickSide="false" app:isClipChildrenMode="true" app:isShowIndicatorOnlyOne="true" app:pageChangeDuration="400" app:pointsVisibility="false" />
+</androidx.cardview.widget.CardView>

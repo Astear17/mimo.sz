@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/template_limit_item_name_bg_color" />
+    <corners android:bottomLeftRadius="@dimen/editor_d_8_dp" android:bottomRightRadius="@dimen/editor_d_8_dp" />
+</shape>

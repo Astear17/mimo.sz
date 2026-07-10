@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lct.panorama.view.PanoramaEditPlayAndResetView android:id="@id/live_photo_play_and_reset" android:paddingBottom="@dimen/d_14_dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <RadioGroup android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/live_photo_rg_operation" android:paddingBottom="@dimen/d_18_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/live_photo_divider_transparent_32_w" android:showDividers="middle">
+        <RadioButton android:textSize="@dimen/d_12_dp" android:textColor="@color/selector_live_photo_editor_operation_text_color" android:gravity="center" android:id="@id/live_photo_editor_cut" android:background="@drawable/live_photo_editor_operation_bg" android:layout_width="@dimen/d_52_dp" android:layout_height="@dimen/d_26_dp" android:checked="true" android:button="@null" android:text="@string/editor_playback_cloud_album_live_edit_reselect_tab_title" />
+        <RadioButton android:textSize="@dimen/d_12_dp" android:textColor="@color/selector_live_photo_editor_operation_text_color" android:gravity="center" android:id="@id/live_photo_editor_cover" android:background="@drawable/live_photo_editor_operation_bg" android:layout_width="@dimen/d_52_dp" android:layout_height="@dimen/d_26_dp" android:button="@null" android:text="@string/editor_playback_cloud_album_live_edit_cover_tab_title" />
+    </RadioGroup>
+</LinearLayout>

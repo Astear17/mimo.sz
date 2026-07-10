@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.lomo.fpv.ui.base.gimbal.DJIFpvGimbalQuickSettingView android:orientation="horizontal" android:background="@color/black_80" android:layout_width="@dimen/d_192_dp" android:layout_height="@dimen/d_60_dp" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/gimbal_quick_set_config_layout" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:id="@id/iv_gimbal_quick_set_config" android:layout_width="@dimen/d_60_dp" android:layout_height="wrap_content" android:layout_margin="@dimen/d_3_dp" android:src="@drawable/dji_gimbal_quick_follow" android:scaleType="center" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/d_8_dp" android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/gimbal_quick_set_config_content" android:layout_width="@dimen/d_60_dp" android:layout_height="wrap_content" android:text="@string/dji_fpv_notify_gimbal_slow_follow" android:layout_below="@id/iv_gimbal_quick_set_config" android:layout_centerHorizontal="true" style="@style/TextStyleRobotoBold" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/quick_gimbal_mode_layout" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:id="@id/iv_quick_gimbal_mode" android:layout_width="@dimen/d_60_dp" android:layout_height="wrap_content" android:layout_margin="@dimen/d_3_dp" android:src="@drawable/dji_gimbal_pitch_lock" android:scaleType="center" android:layout_centerHorizontal="true" app:layout_constraintLeft_toLeftOf="parent" />
+        <TextView android:textSize="@dimen/d_8_dp" android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/quick_gimbal_mode_content" android:layout_width="@dimen/d_60_dp" android:layout_height="wrap_content" android:text="@string/dji_fpv_notify_gimbal_free" android:layout_below="@id/iv_quick_gimbal_mode" android:layout_centerHorizontal="true" style="@style/TextStyleRobotoBold" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_quick_gimbal_help" android:padding="@dimen/d_9_dp" android:clickable="true" android:layout_width="@dimen/d_60_dp" android:layout_height="@dimen/d_45_dp" android:src="@drawable/dji_ic_quick_gimbal_help" android:scaleType="fitCenter" app:layout_constraintRight_toRightOf="parent" />
+</dji.lomo.fpv.ui.base.gimbal.DJIFpvGimbalQuickSettingView>

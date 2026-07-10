@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.base.ui.widget.dji.DJILinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/dlg_helptext_below" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginTop="30.0dp" android:layout_marginRight="20.0dp" layout="@layout/help_text_view" />
+    <include android:layout_gravity="center_horizontal" android:id="@id/dlg_checkbox_below" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginTop="30.0dp" android:layout_marginRight="20.0dp" layout="@layout/check_text_view" />
+</dji.base.ui.widget.dji.DJILinearLayout>

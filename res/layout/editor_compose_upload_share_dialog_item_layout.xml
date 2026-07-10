@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/share_item_iv" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" android:src="@drawable/media_compose_share_weibo" />
+</LinearLayout>

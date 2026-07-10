@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.dji.playback.preview.widget.PlaybackActionImageView android:id="@id/iv_remove_slow_motion_point" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/playback_slow_motion_remove_point" />
+    <com.dji.playback.preview.widget.PlaybackActionImageView android:id="@id/iv_add_slow_motion_point" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/playback_slow_motion_add_point" android:layout_marginStart="@dimen/d_10_dp" />
+</LinearLayout>

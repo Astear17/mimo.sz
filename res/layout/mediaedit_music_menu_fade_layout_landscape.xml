@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/music_fade_in" android:layout_marginRight="@dimen/editor_d_8_dp" android:text="@string/kino_editor_music_fade_in" style="@style/Music_menu_fade_button_landscape" />
+    <CheckBox android:id="@id/music_fade_out" android:text="@string/kino_editor_music_fade_out" style="@style/Music_menu_fade_button_landscape" />
+</LinearLayout>

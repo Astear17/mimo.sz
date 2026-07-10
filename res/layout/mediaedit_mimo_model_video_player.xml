@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/d_206_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/video_container" android:layout_width="match_parent" android:layout_height="@dimen/d_200_dp" android:layout_centerInParent="true" />
+    <ProgressBar android:id="@id/model_seek_bar" android:layout_width="match_parent" android:layout_height="@dimen/d_6_dp" android:max="100" android:progressDrawable="@drawable/mediaedit_video_progress_shape" android:layout_below="@id/video_container" style="@android:style/Widget.ProgressBar.Horizontal" />
+    <ImageView android:id="@id/model_player_pause" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lctm_mediaedit_video_play_icon" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/model_player_bg" android:background="@drawable/mediaedit_model_player_empty_bg" android:layout_width="match_parent" android:layout_height="@dimen/d_206_dp" />
+    <RelativeLayout android:id="@id/network_error_layout" android:background="@color/color_171717" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/net_work_error" android:layout_width="@dimen/d_60_dp" android:layout_height="@dimen/d_60_dp" android:layout_marginTop="@dimen/d_58_dp" android:src="@drawable/mimo_ic_no_network" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/text_dp_14" android:textColor="@color/color_666666" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_16_dp" android:layout_marginTop="@dimen/d_12_dp" android:layout_marginRight="@dimen/d_16_dp" android:text="@string/mimo_community_video_nonetwork" android:layout_below="@id/net_work_error" android:layout_centerHorizontal="true" style="@style/TextStyleRobotoRegular" />
+    </RelativeLayout>
+</RelativeLayout>

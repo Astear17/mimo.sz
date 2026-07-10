@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/lctigo_dialog_bg" android:layout_width="@dimen/editor_d_280_dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/lctgo_aplly_all_dialog_grey_color" android:gravity="center" android:id="@id/titile" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_52_dp" android:text="@string/light_editor_toast_savedraft_des" style="@style/H_3_normal" />
+    <View android:background="@color/mediaeditor_dialog_divider_color" android:layout_width="match_parent" android:layout_height="0.5dp" />
+    <TextView android:textColor="@color/lctgo_aplly_all_dialog_grey_color" android:gravity="center" android:id="@id/exit" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_52_dp" android:text="@string/light_editor_toast_savedraft_no" style="@style/H_3_normal" />
+    <View android:background="@color/mediaeditor_dialog_divider_color" android:layout_width="match_parent" android:layout_height="0.5dp" />
+    <TextView android:textColor="@color/lctgo_aplly_all_dialog_grey_color" android:gravity="center" android:id="@id/exit_save" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_52_dp" android:text="@string/light_editor_toast_savedraft_yes" style="@style/H_3_normal" />
+    <View android:background="@color/mediaeditor_dialog_divider_color" android:layout_width="match_parent" android:layout_height="0.5dp" />
+    <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/cancel" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_52_dp" android:text="@string/light_editor_resolution_select_btn_cancel" style="@style/H_3_normal" />
+</LinearLayout>

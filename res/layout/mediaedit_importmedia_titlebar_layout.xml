@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/editor_d_64_dp" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mediaedit_importmedia_title_bar_back" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:src="@drawable/mediaedit_import_close_icon" android:layout_centerVertical="true" android:layout_marginStart="@dimen/editor_d_22_dp" />
+    <RelativeLayout android:id="@id/select_tab" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toRightOf="@id/mediaedit_importmedia_title_bar_back" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/tabs_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_15_dp" android:layout_marginRight="@dimen/editor_d_15_dp" android:layout_centerInParent="true">
+            <lct.lomo.mediaeditor.importmedia.titlebar.TabTextView android:textColor="@color/editor_media_tab_unselect_text_color" android:gravity="center" android:id="@id/device_tab_text" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_21_dp" android:text="@string/lightcut_home_device" android:includeFontPadding="false" android:layout_marginEnd="@dimen/editor_d_12_dp" style="@style/album_select_font_style" />
+            <lct.lomo.mediaeditor.importmedia.titlebar.TabTextView android:textColor="@color/editor_media_tab_unselect_text_color" android:gravity="center" android:id="@id/tv_downloaded_tab" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_21_dp" android:text="@string/light_asset_album_download" android:includeFontPadding="false" android:layout_marginStart="@dimen/editor_d_12_dp" android:layout_marginEnd="@dimen/editor_d_12_dp" style="@style/album_select_font_style" />
+            <lct.lomo.mediaeditor.importmedia.select.TabSelectView android:id="@id/select_tab_text" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_21_dp" android:layout_marginStart="@dimen/editor_d_12_dp" />
+        </LinearLayout>
+        <ProgressBar android:id="@id/select_tab_loading" android:visibility="gone" android:layout_width="@dimen/editor_d_16_dp" android:layout_height="@dimen/editor_d_16_dp" android:layout_marginRight="@dimen/editor_d_8_dp" android:layout_toLeftOf="@id/tabs_container" android:layout_centerVertical="true" android:indeterminateTint="@color/white" style="?android:progressBarStyleSmall" />
+    </RelativeLayout>
+</RelativeLayout>

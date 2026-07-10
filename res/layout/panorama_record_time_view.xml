@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/panorama_record_time_bg" android:paddingLeft="@dimen/editor_d_12_dp" android:paddingRight="@dimen/editor_d_12_dp" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_30_dp">
+        <View android:id="@id/red_dot" android:background="@drawable/panorama_record_time_red_dot" android:layout_width="@dimen/editor_d_10_dp" android:layout_height="@dimen/editor_d_10_dp" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/editor_d_4_dp" />
+        <TextView android:textSize="@dimen/editor_d_16_dp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/record_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:shadowColor="#4d000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="2.0" android:layout_centerVertical="true" android:layout_toEndOf="@id/red_dot" />
+    </RelativeLayout>
+</merge>

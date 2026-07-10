@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/tip_root" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/delete_icon" android:layout_width="@dimen/editor_d_36_dp" android:layout_height="@dimen/editor_d_36_dp" android:src="@drawable/panorama_editor_delete_gray" />
+</FrameLayout>

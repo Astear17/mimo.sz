@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/mediaeditor_sticker_guide_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/mediaeditor_gesture_guide_content_color" android:gravity="center" android:layout_gravity="center" android:id="@id/subtitle_gesture_guide_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_10_dp" android:layout_marginRight="@dimen/editor_d_10_dp" android:maxWidth="@dimen/editor_d_236_dp" android:text="@string/light_useguide_textEdit_content" style="@style/H_3_normal" />
+</FrameLayout>

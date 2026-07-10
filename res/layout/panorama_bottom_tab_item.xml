@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white_60" android:ellipsize="marquee" android:id="@id/tabTextView" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/d_70_dp" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

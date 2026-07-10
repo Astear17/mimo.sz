@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/C_000000" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/editor_d_64_dp">
+            <ImageView android:id="@id/hw_illustrate_back" android:paddingLeft="@dimen/editor_d_20_dp" android:paddingTop="@dimen/editor_d_16_dp" android:paddingRight="@dimen/editor_d_16_dp" android:paddingBottom="@dimen/editor_d_16_dp" android:layout_width="@dimen/editor_d_64_dp" android:layout_height="@dimen/editor_d_64_dp" android:src="@drawable/dashboard_import_return" />
+            <TextView android:textSize="@dimen/editor_d_16_dp" android:textStyle="bold" android:textColor="@color/white_90" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/general_playback_single_clip_edit_cloud_authorize_dialog_title" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/hw_illustrate_content_bg" android:padding="@dimen/editor_d_16_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_20_dp" android:layout_marginRight="@dimen/editor_d_20_dp">
+            <TextView android:textSize="@dimen/editor_d_12_dp" android:textColor="@color/C_e7FFFFFF" android:gravity="left|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ac204_playback_dashboard_huawei_tips_title" android:lineSpacingExtra="@dimen/editor_d_4_dp" />
+            <TextView android:textSize="@dimen/editor_d_12_dp" android:textColor="@color/C_e7FFFFFF" android:gravity="left|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_4_dp" android:text="@string/ac204_playback_dashboard_huawei_tips_title1" android:lineSpacingExtra="@dimen/editor_d_4_dp" />
+            <TextView android:textSize="@dimen/editor_d_12_dp" android:textColor="@color/C_e7FFFFFF" android:gravity="left|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_4_dp" android:text="@string/ac204_playback_dashboard_huawei_tips_title2" android:lineSpacingExtra="@dimen/editor_d_4_dp" />
+            <TextView android:textSize="@dimen/editor_d_12_dp" android:textColor="@color/C_e7FFFFFF" android:gravity="left|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_4_dp" android:text="@string/ac204_playback_dashboard_huawei_tips_title3" android:lineSpacingExtra="@dimen/editor_d_4_dp" />
+            <TextView android:textSize="@dimen/editor_d_12_dp" android:textColor="@color/C_e7FFFFFF" android:gravity="left|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_4_dp" android:text="@string/ac204_playback_dashboard_huawei_tips_title4" android:lineSpacingExtra="@dimen/editor_d_4_dp" />
+            <TextView android:textSize="@dimen/editor_d_12_dp" android:textColor="@color/C_e7FFFFFF" android:gravity="left|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_4_dp" android:text="@string/ac204_playback_dashboard_huawei_tips_title5" android:lineSpacingExtra="@dimen/editor_d_4_dp" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

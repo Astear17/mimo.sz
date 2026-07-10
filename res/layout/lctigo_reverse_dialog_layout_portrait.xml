@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/mediaeditor_reverse_dialog_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.sdk.editor.video.reverse.lctgodialog.LctIGOReverseProgressBar android:id="@id/lctgo_editor_reverse_progress_bar" android:layout_width="@dimen/editor_d_72_dp" android:layout_height="@dimen/editor_d_72_dp" android:layout_marginTop="@dimen/editor_d_126_dp" app:innerCicleColor="@color/progress_inner_cicle_color" app:outCicleColor="@color/white" app:percentTextStyle="@string/typeface_roboto_regular" app:progressTextColor="@color/white" app:progressTextSize="@dimen/editor_d_13_dp" app:roundWidth="@dimen/editor_d_4_dp" />
+    <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/lctgo_editor_reverse_cancel" android:padding="@dimen/editor_d_5_dp" android:layout_width="@dimen/editor_d_125_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_27_dp" android:text="@string/kino_editor_exit_alert_cancel" style="@style/H_3_normal" />
+</LinearLayout>

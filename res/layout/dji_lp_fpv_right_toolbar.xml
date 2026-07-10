@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.lomo.fpv.om3.view.tktoolbar.DJILPFpvRightToolbar android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_frame_assistant" android:padding="@dimen/d_10_dp" android:layout_width="@dimen/d_48_dp" android:layout_height="@dimen/d_48_dp" android:src="@drawable/ic_lpfpv_frame_assistant" android:scaleType="fitCenter" />
+    <ImageView android:id="@id/iv_auto_zoom" android:padding="@dimen/d_10_dp" android:layout_width="@dimen/d_48_dp" android:layout_height="@dimen/d_48_dp" android:src="@drawable/ic_lpfpv_auto_zoom" android:scaleType="fitCenter" android:layout_marginStart="@dimen/d_14_dp" />
+</dji.lomo.fpv.om3.view.tktoolbar.DJILPFpvRightToolbar>

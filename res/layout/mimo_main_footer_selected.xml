@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/d_50_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/main_loading_image_footer" android:layout_width="@dimen/d_35_dp" android:layout_height="wrap_content" android:src="@drawable/base_loading_frame_list" android:layout_centerInParent="true" />
+</RelativeLayout>

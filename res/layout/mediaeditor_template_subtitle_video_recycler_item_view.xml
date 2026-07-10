@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lctsdk.mediaeditor.tabviews.video.RoundRadiusLayout android:id="@id/root_layout" android:layout_width="match_parent" android:layout_height="@dimen/mediaeditor_video_track_item_template_track_height" app:roundRadius="@dimen/lct_sdk_track_conner"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lctsdk.mediaeditor.tabviews.video.VideoItemImageContainerLayout android:layout_gravity="right" android:orientation="horizontal" android:id="@id/editor_video_item_frame_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ImageView android:id="@id/cover_image" android:visibility="gone" android:layout_width="@dimen/mediaeditor_video_track_item_template_track_height" android:layout_height="@dimen/mediaeditor_video_track_item_template_track_height" />
+    <ImageView android:id="@id/cover_selected" android:background="@drawable/mediaeditor_video_track_item_drag_selected" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</com.lctsdk.mediaeditor.tabviews.video.RoundRadiusLayout>

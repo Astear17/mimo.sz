@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/lctigo_toast_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/mediaeditor_toast_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_24_dp" android:layout_marginTop="8.5dp" android:layout_marginRight="@dimen/editor_d_24_dp" android:layout_marginBottom="7.5dp" android:maxWidth="@dimen/editor_d_280_dp" style="@style/H_5_normal" />
+</LinearLayout>

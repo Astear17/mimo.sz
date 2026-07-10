@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_0001" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_0002" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_0003" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_0004" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_0005" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_0006" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_0007" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_0008" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_0009" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_0010" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_0011" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_0012" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_0013" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_0014" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_0015" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_0016" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_0017" />
+</animation-list>

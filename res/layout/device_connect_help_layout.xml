@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/C_1FA3F6_100" android:id="@id/device_connect_help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_device_connection_support" android:drawableLeft="@drawable/device_connect_help_icon" android:drawablePadding="@dimen/editor_d_2_dp" style="@style/H_4_normal" />
+</LinearLayout>

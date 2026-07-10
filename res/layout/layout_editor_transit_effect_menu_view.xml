@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/transit_effect_menu" android:background="@drawable/wide_quick_edit_view_bg" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_211_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/transit_effect_menu_rl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_38_dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp" app:layout_constraintBottom_toBottomOf="parent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/transit_effect_done" android:layout_width="@dimen/editor_d_47_dp" android:layout_height="@dimen/editor_d_32_dp" android:src="@drawable/custom_bottom_third_tab_right_new" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/editor_d_25_dp" android:layout_alignParentEnd="true" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:gravity="center" android:id="@id/transit_effect_apply_all" android:background="@drawable/shape_gray_btn_bg" android:paddingTop="@dimen/editor_d_3_dp" android:paddingBottom="@dimen/editor_d_3_dp" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_28_dp" android:text="@string/light_editor_oq101_key_effect_all" android:layout_centerInParent="true" android:paddingStart="@dimen/editor_d_12_dp" android:paddingEnd="@dimen/editor_d_16_dp" style="@style/H_4_normal" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:background="@drawable/device_white_page_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/white_page_icon" android:layout_width="wrap_content" android:layout_height="@dimen/d_56_dp" android:layout_marginTop="@dimen/d_150_dp" android:src="@drawable/device_white_page_icon" android:layout_centerHorizontal="true" />
+    <TextView android:textAppearance="@style/TextStyleRobotoBlack" android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dji_device_45dp" android:text="@string/connection_common_not_Mimo_device_small_dialog_content" android:singleLine="false" android:layout_below="@id/white_page_icon" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/dji_device_15dp" android:layout_marginEnd="@dimen/dji_device_15dp" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mimo_center_clear_craft_cache_container" android:background="#141414" style="@style/MimoCenterItemContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/mimo_center_clear_craft_cache_title_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/mimo_center_clear_craft_cache_title" android:text="@string/mimo_common_clear_draft_cache_title" android:layout_toStartOf="@id/mimo_center_clear_craft_cache_size" style="@style/TV.MimoCenter.Item.Title" />
+        <TextView android:id="@id/mimo_center_clear_craft_cache_size" android:layout_toStartOf="@id/mimo_center_clear_craft_cache_arrow" style="@style/TV.MimoCenter.Item.TipInfo" />
+        <ImageView android:id="@id/mimo_center_clear_craft_cache_arrow" style="@style/ImageView_MimoCenter_Item_RightArrow" />
+    </RelativeLayout>
+    <TextView android:id="@id/mimo_center_clear_craft_cache_desc" android:text="@string/mimo_common_clear_draft_cache_content" android:layout_below="@id/mimo_center_clear_craft_cache_title_container" android:layout_marginEnd="@dimen/d_16_dp" style="@style/TV.MimoCenter.Item.Description" />
+</RelativeLayout>

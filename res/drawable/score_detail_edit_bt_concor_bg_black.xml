@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+    <item android:bottom="@dimen/editor_d_13_dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/C_000000_10" />
+            <padding android:left="@dimen/editor_d_5_dp" android:right="@dimen/editor_d_5_dp" android:bottom="@dimen/editor_d_10_dp" />
+            <corners android:radius="@dimen/editor_d_4_dp" />
+            <stroke android:width="@dimen/editor_d_1_dp" android:color="@color/black" />
+        </shape>
+    </item>
+</layer-list>

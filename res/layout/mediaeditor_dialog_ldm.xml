@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/lct_dialog_root_view" android:background="@drawable/mediaeditor_back_dialog_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/editor_d_28_dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/mediaeditor_back_content_color" android:id="@id/dialog_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_16_dp" android:includeFontPadding="false" style="@style/H_3_bold" />
+        <TextView android:textColor="@color/mediaeditor_back_content_color" android:ellipsize="end" android:gravity="center" android:id="@id/dialog_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_more_settint_data_ldm_opening_run_function_dialog_content" android:includeFontPadding="false" android:lineSpacingMultiplier="1.1" android:paddingStart="@dimen/editor_d_16_dp" android:paddingEnd="@dimen/editor_d_16_dp" style="@style/H_3_normal" />
+        <View android:id="@id/dialog_hor_line" android:background="@color/mediaeditor_dialog_auto_play_btn_content_split" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="@dimen/editor_d_28_dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp">
+            <TextView android:textColor="@color/C_1FA3F6_100" android:gravity="center" android:id="@id/dialog_pos_btn" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/light_more_settint_data_ldm_opening_run_function_dialog_confirm_btn" android:layout_weight="1.0" style="@style/H_3_bold" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="24.0dp" android:width="80.0dp" android:drawable="@color/white_8" />
+    <item android:gravity="center" android:height="24.0dp" android:width="24.0dp" android:drawable="@drawable/ic_uikit_refresh" />
+</layer-list>

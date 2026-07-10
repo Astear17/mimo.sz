@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/live_stream_layout_title" />
+    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <RelativeLayout android:gravity="center" android:id="@id/finish_container" android:layout_width="@dimen/d_170_dp" android:layout_height="@dimen/d_170_dp" android:layout_centerInParent="true" android:layout_centerHorizontal="true">
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/success_anim_view" android:visibility="visible" android:layout_width="@dimen/d_130_dp" android:layout_height="@dimen/d_130_dp" android:layout_centerInParent="true" app:lottie_autoPlay="false" app:lottie_fileName="live_stream_success_anim.json" app:lottie_loop="false" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/living_stream_finish_tip" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_25_dp" android:text="@string/ac101_fpv_living_complete_page_content" android:layout_below="@id/finish_container" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/d_30_dp" android:layout_marginEnd="@dimen/d_30_dp" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/live_stream_living_view_live_video" android:background="@drawable/live_stream_text_radius_bg_4dp" android:layout_width="@dimen/d_200_dp" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_110_dp" android:layout_marginStart="@dimen/d_30_dp" android:layout_marginEnd="@dimen/d_30_dp">
+        <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white" android:gravity="center" android:padding="@dimen/d_10_dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ac101_fpv_living_page_view_live_video_btn" android:drawableLeft="@drawable/live_stream_living_view_live_video_icon" android:drawablePadding="@dimen/d_10_dp" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textAppearance="@style/TextStyleRobotoBold" android:textSize="@dimen/d_16_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/finish_page" android:background="@drawable/live_stream_button_bg_blue" android:layout_width="match_parent" android:layout_height="@dimen/d_50_dp" android:layout_margin="@dimen/d_16_dp" android:text="@string/ac101_fpv_living_complete_page_complete_btn" />
+</LinearLayout>

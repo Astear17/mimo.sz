@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/editor_d_0_5_dp" android:color="@color/model_bottom_item_selected" />
+    <solid android:color="@android:color/transparent" />
+    <corners android:radius="@dimen/mediaedit_model_item_select_bg_corners" />
+</shape>

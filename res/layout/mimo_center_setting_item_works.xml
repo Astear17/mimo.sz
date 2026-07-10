@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/iv_mimo_center_item_works_container" android:background="@drawable/mimo_center_item_radius_bottom_bg" android:paddingTop="@dimen/d_20_dp" android:paddingBottom="@dimen/d_20_dp" style="@style/MimoCenterItemContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tv_mimo_center_item_works_title" android:text="@string/mimo_common_mytab_work_and_likes_title" android:layout_toStartOf="@id/rl_mimo_center_item_works_sub_nail_container" style="@style/TV.MimoCenter.Item.Title" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rl_mimo_center_item_works_sub_nail_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/mimo_center_works_cover_one" android:visibility="gone" fresco:placeholderImage="@drawable/personal_ic_header_empty" fresco:roundAsCircle="true" style="@style/MimoCenterUserWorksCover" />
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/mimo_center_works_cover_two" fresco:placeholderImage="@drawable/personal_ic_header_empty" fresco:roundAsCircle="true" style="@style/MimoCenterUserWorksCover" />
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/mimo_center_works_cover_three" android:layout_marginEnd="@dimen/d_0_dp" fresco:placeholderImage="@drawable/personal_ic_header_empty" fresco:roundAsCircle="true" style="@style/MimoCenterUserWorksCover" />
+        <ImageView android:id="@id/iv_mimo_center_item_works_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mimo_center_item_arrow" />
+    </LinearLayout>
+</RelativeLayout>

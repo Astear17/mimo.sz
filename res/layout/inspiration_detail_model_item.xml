@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="@dimen/editor_d_275_dp" android:layout_height="@dimen/editor_d_275_dp" app:cardCornerRadius="@dimen/editor_d_10_dp" app:cardElevation="@dimen/editor_d_0_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.lctsdk.mediaeditor.tabviews.video.RoundRadiusLayout android:id="@id/inspiration_model_item" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" app:roundRadius="@dimen/editor_d_10_dp">
+            <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/inspiration_item_model_cover" android:background="@color/C_F4F4F4_100" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:radiusColor="@color/C_F4F4F4_100" app:roundRadius="@dimen/editor_d_10_dp" />
+            <ImageView android:layout_gravity="center" android:id="@id/inspiration_item_video_play" android:layout_width="@dimen/editor_d_50_dp" android:layout_height="@dimen/editor_d_50_dp" android:src="@drawable/model_preview_ic_play" android:layout_centerInParent="true" />
+            <FrameLayout android:id="@id/inspiration_item_video_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <FrameLayout android:id="@id/inspiration_item_video_controller" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <ImageView android:id="@id/official" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_12_dp" android:layout_marginTop="@dimen/editor_d_12_dp" android:src="@drawable/ic_official_normal" />
+        </com.lctsdk.mediaeditor.tabviews.video.RoundRadiusLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/privacy_checkbox" android:background="@color/transparent" android:layout_width="16.0dp" android:layout_height="16.0dp" android:button="@drawable/usercenter_login_checkbox_bg" />
+    <TextView android:textSize="@dimen/d_11_dp" android:textColor="@color/black_80" android:textColorHighlight="@color/color_101010" android:id="@id/privacy_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_8_dp" android:includeFontPadding="false" android:lineHeight="@dimen/d_16_dp" />
+</LinearLayout>

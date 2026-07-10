@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/C_29292D_100" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lctsdk.mediaeditor.player.editor.LctMixerEditorPlayer android:id="@id/video_view" android:layout_width="@dimen/editor_d_0_dp" android:layout_height="@dimen/editor_d_0_dp" app:layout_constraintBottom_toTopOf="@id/whole_bottom" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout android:id="@id/whole_bottom" android:background="@color/C_1A1A1F_100" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_145_dp" app:layout_constraintBottom_toBottomOf="parent">
+        <RelativeLayout android:id="@id/crop_video_main" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_94_dp" android:layout_above="@id/mediaeditor_sotry_corp_bottom">
+            <lct.lomo.sdk.editor.template.cut.CropFrameRecycleView android:id="@id/crop_video_rv" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_49_dp" android:layout_centerInParent="true" />
+            <lct.lomo.sdk.editor.template.cut.CropFrameView android:id="@id/crop_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <com.lctsdk.mediaeditor.tabviews.secondary.StoryCropBottomView android:id="@id/mediaeditor_sotry_corp_bottom" android:background="@color/C_1A1A1F_100" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

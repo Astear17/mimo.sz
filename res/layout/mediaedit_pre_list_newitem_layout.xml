@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/editor_d_54_dp" android:layout_height="@dimen/editor_d_54_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/pre_list_item_image" android:background="@color/mediaedit_pre_list_item_layout_itembg" android:layout_width="@dimen/editor_d_44_dp" android:layout_height="@dimen/editor_d_44_dp" android:scaleType="centerCrop" android:layout_alignParentBottom="true" android:layout_centerVertical="true" app:radiusColor="@color/mediaedit_pre_list_item_layout_itembg" app:roundRadius="@dimen/mediaedit_pre_list_newitem_layout_radius" />
+    <ImageView android:background="@drawable/mediaedit_model_item_default_bg" android:visibility="visible" android:layout_width="@dimen/editor_d_44_dp" android:layout_height="@dimen/editor_d_44_dp" android:layout_alignParentBottom="true" android:alpha="0.1" />
+    <RelativeLayout android:id="@id/delete" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:layout_alignParentRight="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mediaedit_model_item_delete" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/pre_list_item_highlight_tag" android:visibility="gone" android:layout_width="@dimen/editor_d_8_dp" android:layout_height="@dimen/editor_d_10_dp" android:layout_marginBottom="@dimen/editor_d_1_dp" android:src="@drawable/mediaedit_model_item_highlight_tag" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/editor_d_12_dp" />
+</RelativeLayout>

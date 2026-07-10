@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/lens_tab_layout" android:layout_width="match_parent" android:layout_height="@dimen/d_30_dp" android:layout_marginTop="@dimen/d_2_dp">
+        <androidx.appcompat.widget.Toolbar android:theme="@style/AppTheme.AppBarOverlay" android:id="@id/lens_tab_toolbar" android:layout_width="match_parent" android:layout_height="@dimen/d_30_dp" android:layout_marginStart="@dimen/d_16_dp" android:layout_marginEnd="@dimen/d_16_dp" app:contentInsetStart="0.0dp" app:popupTheme="@style/AppTheme.PopupOverlay" />
+        <dji.creation.aistory.widget.magicindicator.MagicIndicator android:layout_gravity="center" android:id="@id/lens_tab_indicator" android:layout_width="wrap_content" android:layout_height="@dimen/d_30_dp" android:layout_marginStart="@dimen/d_16_dp" android:layout_marginEnd="@dimen/d_16_dp" />
+    </FrameLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/lens_view_pager" android:layout_width="match_parent" android:layout_height="match_parent" />
+</merge>

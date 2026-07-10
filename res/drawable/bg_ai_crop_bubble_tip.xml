@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="@dimen/editor_d_8_dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#ffffffff" />
+            <corners android:radius="@dimen/editor_d_4_dp" />
+            <padding android:left="@dimen/editor_d_16_dp" android:top="@dimen/editor_d_0_dp" android:right="@dimen/editor_d_16_dp" android:bottom="@dimen/editor_d_5_dp" />
+        </shape>
+    </item>
+    <item android:gravity="center|bottom" android:height="@dimen/editor_d_13_dp" android:width="@dimen/editor_d_13_dp">
+        <rotate android:fromDegrees="45.0" android:toDegrees="45.0" android:pivotX="50.0%" android:pivotY="50.0%">
+            <shape android:shape="rectangle">
+                <solid android:color="#ffffffff" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

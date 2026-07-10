@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_171717" android:layout_width="match_parent" android:layout_height="@dimen/d_79_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/model_recycle_view_bottom" android:background="@color/color_171717" android:paddingLeft="@dimen/d_8_dp" android:paddingRight="@dimen/d_16_dp" android:layout_width="match_parent" android:layout_height="@dimen/d_79_dp" android:layout_alignParentBottom="true" />
+    <View android:id="@id/model__preview_bottom_float_view" android:background="@drawable/mediaedit_model_item_select_white_bg" android:layout_width="@dimen/d_49_dp" android:layout_height="@dimen/d_49_dp" android:layout_marginLeft="@dimen/d_8_dp" android:layout_marginBottom="@dimen/d_14_dp" android:layout_alignParentBottom="true" android:alpha="0.6" />
+</RelativeLayout>

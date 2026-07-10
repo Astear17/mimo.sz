@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/design_bottom_sheet2" android:background="@drawable/shape_sheet_dialog_bg" android:layout_width="match_parent" android:layout_height="match_parent" style="?bottomSheetStyle">
+            <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="@dimen/editor_d_33_dp" android:id="@id/text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="这是Dialog的内容部分" />
+                    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:id="@id/recycle" android:background="@color/C_1B85C8_100" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/editor_d_80_dp" />
+                </FrameLayout>
+            </androidx.core.widget.NestedScrollView>
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

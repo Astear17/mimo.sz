@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mimo_center_set_mobile_network_container" style="@style/MimoCenterItemContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/mimo_center_set_mobile_network_title" android:text="@string/kino_setting_cellularData" android:layout_toStartOf="@id/mimo_center_set_mobile_network_checkbox" style="@style/TV.MimoCenter.Item.Title.Black" />
+    <CheckBox android:id="@id/mimo_center_set_mobile_network_checkbox" style="@style/TV.MimoCenter.Item.CheckBox.New" />
+</RelativeLayout>

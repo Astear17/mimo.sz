@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.sdk.editor.customtemp.filter.MultipleToningCustomVideoView android:id="@id/recyler_view" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_18_dp" app:layout_constraintTop_toTopOf="parent" />
+    <include android:id="@id/toning_menu_layout" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_68_dp" android:layout_marginTop="@dimen/editor_d_4_dp" app:layout_constraintBottom_toTopOf="@id/toning_tab_seekbar" app:layout_constraintTop_toBottomOf="@id/recyler_view" app:layout_constraintVertical_chainStyle="packed" layout="@layout/panorama_toning_menu_layout" />
+    <com.lctsdk.mediaeditor.tabviews.filter.seekbar.ToningSeekbar android:id="@id/toning_tab_seekbar" android:layout_width="@dimen/editor_d_250_dp" android:layout_height="@dimen/editor_d_24_dp" app:layout_constraintBottom_toTopOf="@id/mediaedit_menu_bottom_layout_id" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toning_menu_layout" />
+    <include android:id="@id/mediaedit_menu_bottom_layout_id" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_49_dp" app:layout_constraintBottom_toBottomOf="parent" layout="@layout/panorama_menu_bottom_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

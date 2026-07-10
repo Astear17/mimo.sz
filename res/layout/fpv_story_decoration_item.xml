@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.base.ui.widget.ratio.RatioFrameLayout android:layout_width="wrap_content" android:layout_height="match_parent" app:aspectRatio="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/fpv_story_decoration_item_image" android:background="@drawable/fpv_story_decoration_item_background" android:padding="@dimen/d_2_dp" android:layout_width="match_parent" android:layout_height="match_parent" app:actualImageScaleType="fitCenter" />
+</dji.base.ui.widget.ratio.RatioFrameLayout>

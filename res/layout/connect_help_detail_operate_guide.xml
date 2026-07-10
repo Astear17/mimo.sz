@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/connect_help_detail_operate_container" android:background="@drawable/device_button_radius_bg" android:padding="@dimen/d_16_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tv_operate_guide_title" android:text="@string/mimo_fpv_connection_help_om_connect_way_title" style="@style/TV.ConnectHelp.Detail.Title" />
+    <TextView android:id="@id/tv_operate_guide_content_one" android:text="@string/mimo_fpv_connection_help_om_connect_way_content1" style="@style/TV.ConnectHelp.Detail.Description" />
+    <TextView android:id="@id/tv_operate_guide_content_two" android:text="@string/mimo_fpv_connection_help_om_connect_way_content2" style="@style/TV.ConnectHelp.Detail.Description" />
+    <TextView android:id="@id/tv_operate_guide_content_three" android:text="@string/mimo_fpv_connection_help_om_connect_way_content3" style="@style/TV.ConnectHelp.Detail.Description" />
+</LinearLayout>

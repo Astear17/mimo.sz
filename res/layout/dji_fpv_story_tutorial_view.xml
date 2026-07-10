@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/story_tutorial_hint" android:paddingTop="@dimen/d_10_dp" android:paddingBottom="@dimen/d_10_dp" android:focusable="true" android:clickable="true" android:layout_width="@dimen/home_bar_size" android:layout_height="@dimen/home_bar_size" android:src="@drawable/ic_story_tutorial_hint" android:scaleType="fitCenter" android:paddingStart="@dimen/d_12_dp" android:paddingEnd="@dimen/d_12_dp" />
+    <FrameLayout android:id="@id/story_tutorial_video_container" android:background="@color/black_30" android:paddingTop="@dimen/d_32_dp" android:visibility="gone" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/d_10_dp" android:layout_marginStart="@dimen/d_12_dp">
+        <dji.lomo.fpv.story.widget.FpvStorySimpleVideoView android:id="@id/story_tutorial_video" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ImageView android:layout_gravity="center" android:id="@id/story_tutorial_video_play" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/mediaedit_ic_video_inline_play_center" android:scaleType="fitCenter" />
+        <TextView android:textSize="@dimen/d_14_dp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/story_tutorial_title" android:background="@color/black_20" android:layout_width="match_parent" android:layout_height="@dimen/d_32_dp" android:layout_marginTop="-32.0dp" android:text="@string/mimo_fpv_story_tips_show_video_tutorial" style="@style/TextStyleRobotoCondensedBold" />
+        <ImageView android:layout_gravity="end|bottom" android:id="@id/story_tutorial_close" android:paddingTop="@dimen/d_18_dp" android:focusable="true" android:clickable="true" android:layout_width="@dimen/d_48_dp" android:layout_height="@dimen/d_48_dp" android:src="@drawable/ic_story_tutorial_close" android:scaleType="centerInside" android:paddingStart="@dimen/d_18_dp" />
+    </FrameLayout>
+</merge>

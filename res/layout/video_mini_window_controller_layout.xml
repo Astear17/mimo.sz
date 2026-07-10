@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/bottom_progress" android:layout_width="match_parent" android:layout_height="1.5999756dp" android:max="1000" android:progressDrawable="@drawable/video_bottom_progress" android:layout_alignParentBottom="true" style="?android:progressBarStyleHorizontal" />
+    <include android:id="@id/error_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/video_load_fail" />
+    <ProgressBar android:id="@id/video_loading" android:visibility="gone" android:layout_width="42.0dp" android:layout_height="42.0dp" android:indeterminateDrawable="@drawable/video_loading_anim" android:layout_centerInParent="true" style="?android:progressBarStyleLarge" />
+    <ImageView android:id="@id/video_btn_start" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_video_controller_play" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/video_btn_back_tiny" android:padding="@dimen/d_2_dp" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:src="@drawable/ic_video_full_scrrent" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

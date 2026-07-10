@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/model_player_play" android:visibility="gone" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/lctm_ic_play" />
+    <ImageView android:layout_gravity="bottom" android:id="@id/model_player_volume" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_4_dp" android:src="@drawable/host_model_card_volume_open" android:layout_marginStart="@dimen/editor_d_8_dp" />
+    <ProgressBar android:layout_gravity="bottom" android:id="@id/model_player_progress" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_1_5_dp" android:max="1000" android:progressDrawable="@drawable/host_card_progress_indeterminate_horizontal" style="?android:progressBarStyleHorizontal" />
+</FrameLayout>

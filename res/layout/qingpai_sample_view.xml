@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_layout" android:layout_width="@dimen/editor_d_1000_dp" android:layout_height="@dimen/editor_d_1000_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lct.lomo.sdk.editor.customtemp.qingpai.view.sample.QingPaiSampleDragLayout android:id="@id/qingpai_sample_drag_layout" android:layout_width="@dimen/editor_d_1000_dp" android:layout_height="@dimen/editor_d_1000_dp">
+        <RelativeLayout android:id="@id/sample_drag_view" android:layout_width="@dimen/editor_d_100_dp" android:layout_height="@dimen/editor_d_155_dp">
+            <RelativeLayout android:id="@id/qingpai_sample_class" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_28_dp">
+                <lct.lomo.sdk.editor.customtemp.qingpai.view.QingPaiTutorialClassRecyclerView android:id="@id/qingpai_sample_class_list" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_28_dp" android:layout_marginRight="@dimen/editor_d_20_dp" android:layout_toLeftOf="@id/qingpai_sample_isexpand_view" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/qingpai_sample_class_lable" android:background="@drawable/qingpai_tutorial_horizontal_class_shape" android:paddingLeft="@dimen/editor_d_10_dp" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_28_dp" android:layout_toLeftOf="@id/qingpai_sample_isexpand_view">
+                    <TextView android:textColor="@color/white" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/tv_sample_class_lable" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:shadowColor="@color/black_60" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="1.0" style="@style/H_3_normal" />
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_sample_class_icon" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:src="@drawable/qingpai_tutorial_class_icon" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/qingpai_sample_isexpand_view" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_28_dp" android:layout_marginRight="@dimen/editor_d_12_dp" android:layout_alignParentRight="true">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/qingpai_sample_class_collapse" android:background="@drawable/qingpai_sample_class_collapse" android:layout_width="@dimen/editor_d_14_dp" android:layout_height="@dimen/editor_d_20_dp" android:layout_marginRight="@dimen/editor_d_5_dp" />
+                    <TextView android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/qingpai_sample_action_lable" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_20_dp" android:text="@string/light_afflatus_preview_example_retract" android:shadowColor="@color/black_60" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="1.0" style="@style/H_4_normal" />
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/qingpai_sample_class_expand" android:background="@drawable/qingpai_sample_class_expand" android:layout_width="@dimen/editor_d_14_dp" android:layout_height="@dimen/editor_d_18_5_dp" />
+                </LinearLayout>
+            </RelativeLayout>
+            <lct.lomo.sdk.editor.customtemp.qingpai.view.QingPaiTutorialRecyclerView android:id="@id/qingpai_sample_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_42_dp" />
+            <lct.lomo.sdk.editor.customtemp.qingpai.view.sample.QingpaiSkySampleRecyclerView android:id="@id/qingpai_sky_sample_list" android:visibility="gone" android:layout_width="@dimen/editor_d_128_dp" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <FrameLayout android:id="@id/qingpai_sample_drag" android:layout_width="@dimen/editor_d_48_dp" android:layout_height="@dimen/editor_d_48_dp" android:layout_marginLeft="@dimen/editor_d_131_dp" android:layout_marginTop="@dimen/editor_d_47_dp">
+                <ImageView android:layout_gravity="left" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:src="@drawable/qingpai_sample_drag_icon" />
+            </FrameLayout>
+            <ImageView android:id="@id/qingpai_sky_sample_close_iv" android:visibility="gone" android:layout_width="@dimen/editor_d_20_dp" android:layout_height="@dimen/editor_d_20_dp" android:layout_marginLeft="@dimen/editor_d_120_dp" android:layout_marginTop="@dimen/editor_d_30_dp" android:src="@drawable/ic_close_dark" />
+            <RelativeLayout android:id="@id/qingpai_tutorial_no_net_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center|bottom" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_166_dp">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/qingpai_no_net" />
+                    <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_3_dp" android:text="@string/light_afflatus_sample_list_network_anomaly" style="@style/H_3_normal" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </lct.lomo.sdk.editor.customtemp.qingpai.view.sample.QingPaiSampleDragLayout>
+</FrameLayout>

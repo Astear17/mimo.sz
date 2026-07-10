@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0001" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0002" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0003" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0004" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0005" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0006" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0007" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0008" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0009" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0010" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0011" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0012" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0013" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0014" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0015" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0016" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0017" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0018" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0019" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0020" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0021" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0022" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0023" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0024" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0025" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0026" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0027" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0028" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0029" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0030" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0031" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0032" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0033" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0034" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0035" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0036" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0037" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0038" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0039" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0040" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0041" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0042" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0043" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0044" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0045" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0046" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0047" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0048" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0049" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0050" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0051" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0052" />
+    <item android:duration="30" android:drawable="@drawable/guide_scale_time_axis_ration_0053" />
+</animation-list>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/window_container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:paddingTop="@dimen/d_24_dp" style="@style/view_connect_card_dialog_bg">
+        <ProgressBar android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:layout_marginBottom="12.0dp" android:indeterminate="true" android:indeterminateDrawable="@drawable/progressbar_dialog_loading_hint" />
+        <TextView android:id="@id/tv_msg" style="@style/TV.ConnectCard.Dialog.Msg" />
+        <View android:id="@id/separator_horizon" style="@style/view_connect_card_dialog_horizontal_divider" />
+        <LinearLayout android:id="@id/dialog_bt_area" style="@style/view_connect_card_dialog_button_container">
+            <TextView android:id="@id/tv_left" style="@style/view_connect_card_dialog_button_cancel" />
+            <View android:id="@id/separator" style="@style/view_connect_card_dialog_vertical_divider" />
+            <TextView android:id="@id/tv_right" style="@style/view_connect_card_dialog_button_confirm" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

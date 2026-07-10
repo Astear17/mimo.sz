@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/window_container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/bg_custom_alert_dialog" android:paddingTop="24.0dp" android:layout_width="280.0dp" android:layout_height="wrap_content">
+        <include layout="@layout/uikit_merge_custom_alert_dialog" />
+        <View android:id="@id/separator_horizontal" android:background="@color/dialog_divider" android:layout_width="match_parent" android:layout_height="1.0dp" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="48.0dp">
+            <TextView android:textColor="@color/black_60" android:gravity="center" android:id="@id/tv_opt_left" android:layout_width="0.0dp" android:layout_height="match_parent" android:maxLines="2" android:layout_weight="1.0" style="@style/body_1_400" />
+            <View android:id="@id/separator_vertical" android:background="@color/dialog_divider" android:layout_width="1.0dp" android:layout_height="match_parent" />
+            <TextView android:textColor="@color/black_100" android:gravity="center" android:id="@id/tv_opt_right" android:layout_width="0.0dp" android:layout_height="match_parent" android:maxLines="2" android:layout_weight="1.0" style="@style/body_1_600" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

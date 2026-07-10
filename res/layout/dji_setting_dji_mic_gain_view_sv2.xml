@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.lomo.fpv.ui.normal.settings.photo.itemview.audio.DJIMicAudioGainSettingViewSV2 android:id="@id/dji_setting_stage_general_root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/dji_setting_stage_ll">
+        <dji.lomo.fpv.ui.normal.settings.photo.itemview.gain.DJIMicGianCustomSliderView android:layout_height="wrap_content" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_8_dp" setting_ui:title_text="@string/hg212_fpv_dji_mic_tx1_gain" setting_ui:title_text_size="@dimen/d_13_dp" setting_ui:typeFace="@string/ui_typeface_roboto_condensed_bold" style="@style/dji_setting_item_ll" />
+    </LinearLayout>
+</dji.lomo.fpv.ui.normal.settings.photo.itemview.audio.DJIMicAudioGainSettingViewSV2>

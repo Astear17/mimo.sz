@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dji.widget2.progressbar.RingProgress android:layout_gravity="center" android:id="@id/playback_preview_download_progress" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" app:ring_circle_starting_degree="270" app:ring_finished_color="@android:color/white" app:ring_finished_stroke_width="@dimen/d_2_dp" app:ring_unfinished_color="#979797" app:ring_unfinished_stroke_width="@dimen/d_2_dp" />
+    <View android:layout_gravity="center" android:background="@android:color/white" android:layout_width="@dimen/d_6_dp" android:layout_height="@dimen/d_6_dp" />
+</merge>

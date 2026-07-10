@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="37.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/iv_back" android:padding="10.0dp" android:focusable="true" android:clickable="true" android:layout_width="28.0dp" android:layout_height="36.0dp" android:src="@drawable/hyberry_back_icon" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/hyberry_color_666666" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dp" />
+    </LinearLayout>
+    <View android:background="@color/hyberry_color_fofofo" android:layout_width="0.5dp" android:layout_height="16.0dp" android:layout_marginRight="37.0dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/iv_close" android:padding="5.0dp" android:focusable="true" android:clickable="true" android:layout_width="20.5dp" android:layout_height="20.5dp" android:layout_marginRight="8.399994dp" android:src="@drawable/hyberry_close_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:background="@color/hyberry_color_E1E1E1" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_alignParentBottom="true" />
+</RelativeLayout>

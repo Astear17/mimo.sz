@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/f_share_root" android:layout_width="@dimen/editor_d_49_dp" android:layout_height="@dimen/editor_d_74_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/share_channel_layout" android:layout_width="@dimen/editor_d_49_dp" android:layout_height="@dimen/editor_d_49_dp">
+        <ImageView android:layout_gravity="center" android:id="@id/f_share_channel_iv" android:layout_width="@dimen/editor_d_49_dp" android:layout_height="@dimen/editor_d_49_dp" android:src="@drawable/media_compose_share_wechat_upload" android:scaleType="fitCenter" />
+    </FrameLayout>
+    <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/f_share_channel_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_7_5_dp" style="@style/H_5_normal" />
+</LinearLayout>

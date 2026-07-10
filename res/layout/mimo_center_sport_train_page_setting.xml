@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_8_dp" layout="@layout/activity_layout_title_bar" />
+    <LinearLayout style="@style/SportTrain.Set.Item.Type.Container">
+        <include layout="@layout/mimo_sport_train_set_item_data_record" />
+    </LinearLayout>
+    <LinearLayout style="@style/SportTrain.Set.Item.Type.Container">
+        <include layout="@layout/mimo_sport_train_set_item_unit_exchange" />
+    </LinearLayout>
+</LinearLayout>

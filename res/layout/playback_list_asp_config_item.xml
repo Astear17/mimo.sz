@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/black_80" android:gravity="start" android:id="@id/asp_title" android:paddingTop="@dimen/d_13_dp" android:paddingBottom="@dimen/d_12_dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_20_dp" android:layout_marginEnd="@dimen/d_12_dp" android:textFontWeight="600" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/asp_status" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/asp_status" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:src="@drawable/playback_list_configure_item_selector" android:layout_marginEnd="@dimen/d_20_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/asp_title" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

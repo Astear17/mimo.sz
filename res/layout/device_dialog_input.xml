@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/window_container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@color/dji_device_color_white" android:layout_width="300.0dp" android:layout_height="200.0dp">
+        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#000" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <EditText android:textSize="15.0sp" android:textColor="#333333" android:gravity="center" android:layout_gravity="center" android:id="@id/et_msg" android:paddingLeft="20.0dp" android:paddingRight="20.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/connect_wifi_dialog_input_pwd" />
+        </LinearLayout>
+        <View android:background="@color/dji_device_color_F4F4F4" android:layout_width="match_parent" android:layout_height="5.0dp" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50.0dp">
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#000" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_left" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/device_dialog_cancel" android:layout_weight="1.0" />
+            <View android:id="@id/separator" android:background="@color/dji_device_color_F4F4F4" android:layout_width="2.0dp" android:layout_height="match_parent" />
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/upgrade_progress_text" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_right" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/device_dialog_confirm" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/editor_d_13_dp" android:textColor="@color/white" android:id="@id/preview_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/editor_d_56_dp" android:layout_toLeftOf="@id/preview_switch" android:layout_centerVertical="true" android:layout_marginStart="@dimen/editor_d_16_dp" android:layout_alignParentStart="true" />
+    <com.kyleduo.switchbutton.SwitchButton android:id="@id/preview_switch" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/editor_d_16_dp" android:layout_alignParentEnd="true" style="@style/more_setting_switch_theme" />
+</RelativeLayout>

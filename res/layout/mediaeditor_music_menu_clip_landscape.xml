@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/edit_menu_volumn_bg_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include android:id="@id/mediaedit_menu_bottom_layout_id" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_49_dp" android:layout_marginTop="@dimen/editor_d_60_dp" android:layout_alignParentBottom="true" layout="@layout/mediaeditor_menu_bottom_layout_landscape" />
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/mediaedit_menu_bottom_layout_id" layout="@layout/mediaeditor_music_clip_layout_landscape" />
+    </FrameLayout>
+</RelativeLayout>

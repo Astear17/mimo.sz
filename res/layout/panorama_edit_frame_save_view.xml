@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/tab_container" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_36_dp">
+        <com.google.android.material.tabs.TabLayout android:id="@id/frame_tabs" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tabGravity="center" app:tabIndicatorColor="@color/white" app:tabIndicatorFullWidth="false" app:tabIndicatorHeight="@dimen/editor_d_2_dp" app:tabPaddingBottom="@dimen/editor_d_10_dp" app:tabPaddingEnd="@dimen/editor_d_15_dp" app:tabPaddingStart="@dimen/editor_d_15_dp" app:tabSelectedTextColor="@color/white" app:tabTextColor="@color/white_60" />
+        <View android:background="#303233" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_1_dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/frame_tabs" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout android:id="@id/frame_control_rl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_20_dp">
+        <FrameLayout android:id="@id/left_jump_fl" android:layout_width="@dimen/editor_d_36_dp" android:layout_height="@dimen/editor_d_36_dp" android:layout_marginStart="@dimen/editor_d_20_dp" android:layout_alignParentStart="true">
+            <View android:background="@drawable/panorama_segment_edit_frame_arrow_bg_shape" android:layout_width="@dimen/editor_d_36_dp" android:layout_height="@dimen/editor_d_36_dp" />
+            <ImageView android:layout_gravity="center" android:id="@id/iv_frame_left_jump" android:layout_width="@dimen/editor_d_16_dp" android:layout_height="@dimen/editor_d_14_dp" android:src="@drawable/panorama_segment_edit_left_btn_icon" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/right_jump_fl" android:layout_width="@dimen/editor_d_36_dp" android:layout_height="@dimen/editor_d_36_dp" android:layout_marginEnd="@dimen/editor_d_20_dp" android:layout_alignParentEnd="true">
+            <View android:background="@drawable/panorama_segment_edit_frame_arrow_bg_shape" android:layout_width="@dimen/editor_d_36_dp" android:layout_height="@dimen/editor_d_36_dp" />
+            <ImageView android:layout_gravity="center" android:id="@id/iv_frame_right_jump" android:layout_width="@dimen/editor_d_16_dp" android:layout_height="@dimen/editor_d_14_dp" android:src="@drawable/panorama_segment_edit_right_btn_icon" />
+        </FrameLayout>
+        <CheckBox android:id="@id/save_restart_or_pause" android:background="@android:color/transparent" android:padding="@dimen/editor_d_10_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_alignTop="@id/right_jump_fl" android:layout_alignBottom="@id/right_jump_fl" android:layout_centerInParent="true" android:drawableStart="@drawable/lctm_mediaeditor_play_selector" />
+    </RelativeLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

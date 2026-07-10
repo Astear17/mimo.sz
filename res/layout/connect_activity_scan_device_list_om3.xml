@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/upgrade_layout_title" />
+    <VideoView android:layout_gravity="center_horizontal" android:id="@id/connect_device_video" android:layout_width="match_parent" android:layout_height="@dimen/d_180_dp" />
+    <TextView android:textAppearance="@style/TV.RobotoCondensed.Regular" android:textSize="@dimen/dji_device_13sp" android:textColor="@color/dji_device_text_999" android:paddingLeft="@dimen/dji_device_16dp" android:paddingRight="@dimen/dji_device_16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dji_device_10dp" android:text="@string/connect_device_help_page_description_one_om3" />
+    <TextView android:textAppearance="@style/TV.RobotoCondensed.Regular" android:textSize="@dimen/dji_device_13sp" android:textColor="@color/dji_device_text_999" android:paddingLeft="@dimen/dji_device_16dp" android:paddingRight="@dimen/dji_device_16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dji_device_10dp" android:text="@string/connect_device_help_page_description_two_om3" />
+    <TextView android:textAppearance="@style/TV.RobotoCondensed.Regular" android:textSize="@dimen/dji_device_13sp" android:textColor="@color/dji_device_text_999" android:paddingLeft="@dimen/dji_device_16dp" android:paddingRight="@dimen/dji_device_16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dji_device_10dp" android:text="@string/connect_device_help_page_description_three_om3" />
+    <RelativeLayout android:gravity="fill_horizontal" android:id="@id/scan_refresh_container" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/d_49_dp">
+        <ImageView android:id="@id/scan_iv_refresh" android:background="@drawable/connect_searching_00035" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <TextView android:textAppearance="@style/TV.Roboto.Bold" android:textSize="@dimen/dji_device_17sp" android:textColor="@color/dji_device_color_CCC" android:gravity="center" android:id="@id/scan_tv_refresh" android:background="@color/upgrade_bg_transparent" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/connect_search_searching" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:paddingLeft="@dimen/dji_device_16dp" android:paddingRight="@dimen/dji_device_16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/connect_scan_recyclerView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </RelativeLayout>
+    <include layout="@layout/connect_layout_search_device_empty" />
+</LinearLayout>

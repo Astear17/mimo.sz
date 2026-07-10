@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@color/black_101010" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/om_setting_device_name" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" layout="@layout/setting_item_edit_with_prefix" />
+    <include android:id="@id/op_oa_setting_device_name" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" layout="@layout/setting_item_edit" />
+    <include android:id="@id/setting_binding_account" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" layout="@layout/setting_item_text" />
+    <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_17_dp" android:layout_marginBottom="@dimen/d_17_dp" android:src="@drawable/device_detail_info_divider" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_12_dp" />
+    <include android:id="@id/setting_time_activated" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" layout="@layout/setting_item_present" />
+    <include android:id="@id/setting_device_serial_number" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" layout="@layout/setting_item_present" />
+    <include android:id="@id/setting_device_firmware_version" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" layout="@layout/setting_item_update" />
+</LinearLayout>

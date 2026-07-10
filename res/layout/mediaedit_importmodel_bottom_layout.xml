@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/importmedia_import_view" android:background="@color/C_000000_100" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/white" android:id="@id/model_select_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_22_dp" android:layout_marginTop="@dimen/editor_d_6_dp" android:layout_marginBottom="@dimen/editor_d_5_dp" style="@style/H_5_normal" />
+    <lct.lomo.sdk.editor.widget.SdkLanguageTextView android:enabled="false" android:textColor="@color/C_FFFFFF_100" android:ellipsize="end" android:id="@id/model_select_index" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_6_dp" android:layout_marginRight="@dimen/editor_d_22_dp" android:lines="1" android:layout_alignParentRight="true" style="@style/H_5_normal" />
+    <lct.lomo.mediaeditor.model.bottom.ModelBottomRecyclerView android:id="@id/model_select_rv" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/editor_d_82_dp" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/model_next_layout" android:layout_width="@dimen/editor_d_130_dp" android:layout_height="match_parent" android:layout_alignParentBottom="true" android:splitMotionEvents="false" android:layout_alignParentEnd="true">
+        <View android:background="@color/C_000000_100" android:layout_width="@dimen/editor_d_25_dp" android:layout_height="@dimen/editor_d_65_dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/shader_left" android:background="@drawable/model_bottom_shader" android:layout_width="@dimen/editor_d_54_dp" android:layout_height="@dimen/editor_d_65_dp" android:layout_alignParentBottom="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/editor_d_64_dp" android:layout_height="@dimen/editor_d_65_dp" android:layout_marginLeft="@dimen/editor_d_53_dp" android:layout_alignParentBottom="true">
+            <View android:background="@color/C_000000_100" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+            <lct.lomo.sdk.editor.widget.SdkLanguageTextView android:enabled="false" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/model_next" android:background="@drawable/mediaedit_edit_model_import_next_bg" android:layout_width="@dimen/editor_d_64_dp" android:layout_height="@dimen/editor_d_54_dp" android:text="@string/light_model_videochoose_next" android:lines="1" style="@style/H_3_normal" />
+        </LinearLayout>
+        <View android:id="@id/model_bottom_next_layer" android:background="@color/black" android:layout_width="@dimen/editor_d_64_dp" android:layout_height="@dimen/editor_d_54_dp" android:layout_marginLeft="@dimen/editor_d_53_dp" android:layout_alignParentBottom="true" android:alpha="0.5" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/TextStyleRobotoBold" android:textSize="@dimen/user_guide_text_size" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_content" android:background="@color/transparent" android:paddingLeft="@dimen/user_guide_left_right_padding" android:paddingTop="@dimen/user_guide_top_bottom_padding" android:paddingRight="@dimen/user_guide_left_right_padding" android:paddingBottom="@dimen/user_guide_top_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/om507_fpv_multi_people_tracking_guide_tip" android:lineSpacingExtra="@dimen/user_guide_text_line_space" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_slide" android:layout_width="@dimen/d_100_dp" android:layout_height="@dimen/d_100_dp" android:src="@drawable/dji_user_guide_slide_hand" android:scaleType="fitCenter" android:layout_marginStart="@dimen/d_40_dp" app:scale="0.3" />
+</LinearLayout>

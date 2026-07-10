@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/d_16_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_24_dp" android:layout_marginEnd="@dimen/d_24_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_20_dp" android:textColor="@color/white" android:id="@id/main_device_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_12_dp" android:text="@string/mimo_home_videoplay_title" style="@style/TextStyleRobotoBold" />
+    <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_40" android:gravity="center" android:id="@id/main_device_more" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_12_dp" android:text="@string/mimo_homepage_more" android:drawableEnd="@drawable/set_item_arrow" android:layout_alignParentEnd="true" style="@style/TextStyleRobotoMedium" />
+</RelativeLayout>

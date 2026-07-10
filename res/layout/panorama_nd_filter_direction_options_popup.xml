@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/panorama_nd_filter_direction_options_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/panorama_nd_filter_options_divider" android:showDividers="middle" android:paddingStart="@dimen/editor_d_12_dp" android:paddingEnd="@dimen/editor_d_12_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

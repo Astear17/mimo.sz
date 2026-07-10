@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_101010" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/title_layout" android:paddingTop="@dimen/d_10_dp" android:layout_width="match_parent" android:layout_height="@dimen/d_64_dp" android:paddingStart="@dimen/d_10_dp">
+        <ImageView android:id="@id/back_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dji_ic_usercenter_back" android:tint="@color/black" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/close_iv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <dji.lomo.main.view.CustomImageView android:id="@id/activity_webview_avatar" android:visibility="gone" android:layout_width="@dimen/d_22_dp" android:layout_height="@dimen/d_22_dp" style="@style/fresco_header_view_style" />
+            <TextView android:textSize="@dimen/d_19_dp" android:textColor="@color/white" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_8_dp" style="@style/TextStyleRobotoCondensedBold" />
+        </LinearLayout>
+    </RelativeLayout>
+    <WebView android:id="@id/webview" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_32_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/mediaeditor_item_icon_iv" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:layout_marginLeft="11.0dp" android:src="@drawable/mediaeditor_time_line_down_arrow" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/putAwayCheckBoxTheme" />
+    <TextView android:textColor="@color/white" android:id="@id/mediaeditor_item_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_6_dp" android:layout_toRightOf="@id/mediaeditor_item_icon_iv" android:layout_centerVertical="true" style="@style/H_3_normal" />
+    <CheckBox android:textSize="@dimen/editor_d_14_dp" android:textColor="@color/C_F22443_100" android:id="@id/mediaeditor_item_select_btn" android:paddingLeft="@dimen/editor_d_11_dp" android:paddingRight="@dimen/editor_d_11_dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:button="@null" android:text="@string/light_material_select_all_btn" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textFontWeight="500" />
+</RelativeLayout>

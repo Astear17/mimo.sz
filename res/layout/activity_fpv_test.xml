@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/background_white_1" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_fpv_test" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="@color/background_black_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.handheld.uikit.components.button.CustomButton android:id="@id/btn_test_bg_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dp" android:layout_weight="1.0" app:customButtonColor="gray_white" app:customButtonText="白色背景" />
+            <com.handheld.uikit.components.button.CustomButton android:id="@id/btn_test_bg_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dp" android:layout_weight="1.0" app:customButtonColor="black" app:customButtonText="黑色背景" />
+        </LinearLayout>
+        <dji.lomo.fpv.ui.base.camera.control.DJICameraShutterView android:id="@id/shutter_view_1" android:layout_width="60.0dp" android:layout_height="60.0dp" />
+        <dji.lomo.fpv.ui.base.camera.control.DJICameraShutterView android:id="@id/shutter_view_2" android:layout_width="60.0dp" android:layout_height="60.0dp" />
+        <dji.lomo.fpv.ui.base.camera.control.DJICameraShutterView android:id="@id/shutter_view_3" android:layout_width="60.0dp" android:layout_height="60.0dp" />
+        <dji.lomo.fpv.ui.base.camera.control.DJICameraShutterView android:id="@id/shutter_view_4" android:layout_width="60.0dp" android:layout_height="60.0dp" />
+        <dji.lomo.fpv.ui.base.camera.control.DJICameraShutterView android:id="@id/shutter_view_5" android:layout_width="60.0dp" android:layout_height="60.0dp" />
+        <dji.lomo.fpv.ui.base.camera.control.DJICameraShutterView android:id="@id/shutter_view_6" android:layout_width="60.0dp" android:layout_height="60.0dp" />
+        <dji.lomo.fpv.ui.base.camera.control.DJICameraShutterView android:id="@id/shutter_view_7" android:layout_width="60.0dp" android:layout_height="60.0dp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mimo_center_set_product_improvement_container" style="@style/MimoCenterItemContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/mimo_center_set_item_product_improvement_arrow">
+        <TextView android:id="@id/mimo_center_set_item_product_improvement_title" android:text="@string/mimo_person_prodouct_plan" style="@style/TV.MimoCenter.Item.Title.Black" />
+        <TextView android:id="@id/mimo_center_set_item_product_improvement_description" android:text="@string/mimo_person_prodouct_plan_details_android" style="@style/TV.MimoCenter.Item.Description" />
+    </LinearLayout>
+    <ImageView android:id="@id/mimo_center_set_item_product_improvement_arrow" android:src="@drawable/mimo_center_item_arrow_right" style="@style/ImageView_MimoCenter_Item_RightArrow" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/black_80" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_interactive_guide_start_stop_container_view_pager" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/text_dp_18" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_title_interactive_user_guide_view_pager" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hg305_fpv_tutorial_ending_dialog_title" style="@style/TextStyleRobotoBold" />
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/tv_desc_interactive_user_guide_view_pager" android:layout_width="@dimen/d_320_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_30_dp" android:text="@string/hg305se_fpv_novice_teaching_over_medium_dialog_content" />
+        <TextView android:textSize="@dimen/text_dp_16" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_start_stop_interactive_user_guide_view_pager" android:background="@color/white" android:layout_width="@dimen/d_260_dp" android:layout_height="@dimen/d_44_dp" android:layout_marginTop="@dimen/d_32_dp" android:text="@string/hg305_fpv_tutorial_ending_dialog_button_sec1" style="@style/TextStyleRobotoMedium" />
+        <TextView android:textColor="@color/blue_link" android:id="@id/tv_interactive_guide_restart_view_pager" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_24_dp" android:text="@string/hg305_fpv_tutorial_ending_dialog_button_sec2" android:drawableLeft="@drawable/ic_interactive_guide_restart_blue" android:drawablePadding="@dimen/d_8_dp" />
+    </LinearLayout>
+</FrameLayout>

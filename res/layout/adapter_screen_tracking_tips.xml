@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_screen_tracking_tips" android:layout_width="match_parent" android:layout_height="0.0dp" android:scaleType="fitXY" app:layout_constraintHeight_percent="0.7" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/black_40" android:gravity="center_horizontal" android:id="@id/tv_screen_tracking_tips" android:paddingLeft="@dimen/d_16_dp" android:paddingTop="@dimen/d_10_dp" android:paddingRight="@dimen/d_16_dp" android:paddingBottom="@dimen/d_26_dp" android:layout_width="match_parent" android:layout_height="0.0dp" android:text="@string/hg307_fpv_backstage_tracking_started_text" app:layout_constraintHeight_percent="0.3" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_screen_tracking_tips" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="@dimen/editor_d_60_dp" android:layout_height="@dimen/editor_d_56_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lct.wide.editor.free.ui.ProgressImageView android:id="@id/iv_panorama_free_menu_item" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:scaleType="centerInside" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_panorama_free_menu_search" android:layout_width="@dimen/editor_d_12_dp" android:layout_height="@dimen/editor_d_12_dp" android:layout_marginStart="@dimen/editor_d_28_dp" app:layout_constraintStart_toStartOf="@id/iv_panorama_free_menu_item" />
+    <TextView android:textSize="@dimen/editor_d_9_dp" android:textColor="@color/C_999999_100" android:ellipsize="end" android:gravity="center" android:id="@id/tv_panorama_free_menu_item" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_2_dp" android:maxLines="2" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_panorama_free_menu_item" />
+</androidx.constraintlayout.widget.ConstraintLayout>

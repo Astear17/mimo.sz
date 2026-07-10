@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/C_000000_20" android:padding="@dimen/editor_d_22_dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_placeholder" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_dp" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/custom_music_tab_dialog_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/tv_local_music" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp" android:text="@string/light_editor_music_local_locallibrary_title" style="@style/H_4_normal" />
+            <View android:background="@color/C_E4E4E4_100" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" />
+            <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/tv_file_manager_music" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp" android:text="@string/light_editor_music_local_add_filesmanage" style="@style/H_4_normal" />
+            <View android:background="@color/C_E4E4E4_100" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" />
+            <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/tv_file_manager_video" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp" android:text="@string/light_editor_music_local_extractingfromvideo" style="@style/H_4_normal" />
+        </LinearLayout>
+        <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/tv_cancel" android:background="@drawable/custom_music_tab_dialog_bg" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp" android:layout_marginTop="@dimen/editor_d_12_dp" android:text="@string/light_editor_music_local_manage_cancel" style="@style/H_3_bold" />
+    </LinearLayout>
+</LinearLayout>

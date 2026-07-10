@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/refreshLayout" android:layout_width="match_parent" android:layout_height="match_parent" app:srlEnablePreviewInEditMode="false">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/d_70_dp">
+            <ImageView android:id="@id/header_iv" android:layout_width="@dimen/d_40_dp" android:layout_height="@dimen/d_40_dp" android:src="@drawable/personal_refresh_loading_anim" android:scaleType="centerInside" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <dji.lomo.main.personal.custom.JudgeNestedScrollView android:orientation="vertical" android:id="@id/homeview" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:id="@id/top" layout="@layout/personal_top_layout" />
+                <include android:id="@id/navs" layout="@layout/personal_navs_layout_new" />
+                <dji.lomo.main.personal.custom.MyGridView android:id="@id/grid_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/d_4_dp" android:layout_marginRight="@dimen/d_4_dp" android:horizontalSpacing="@dimen/d_2_dp" android:verticalSpacing="@dimen/d_2_dp" android:numColumns="2" />
+                <include android:id="@id/no_data" android:visibility="gone" layout="@layout/personal_empty_layout" />
+                <include android:id="@id/no_more_footer" android:visibility="gone" layout="@layout/mimo_main_footer_no_more" />
+            </LinearLayout>
+        </dji.lomo.main.personal.custom.JudgeNestedScrollView>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/d_70_dp">
+            <ImageView android:id="@id/footer_iv" android:layout_width="@dimen/d_40_dp" android:layout_height="@dimen/d_40_dp" android:src="@drawable/personal_refresh_loading_anim" android:scaleType="centerInside" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</FrameLayout>

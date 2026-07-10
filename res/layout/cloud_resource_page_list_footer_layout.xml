@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/editor_d_54_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:background="@drawable/audio_effect_list_no_more_logo" android:layout_width="@dimen/editor_d_3_dp" android:layout_height="@dimen/editor_d_3_dp" android:layout_marginRight="@dimen/editor_d_7_dp" />
+        <TextView android:textSize="@dimen/editor_d_13_dp" android:textColor="@color/white_45" android:layout_gravity="center" android:id="@id/cloud_resource_page_list_footer_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_personalCenter_report_myWorks_more" />
+        <View android:background="@drawable/audio_effect_list_no_more_logo" android:layout_width="@dimen/editor_d_3_dp" android:layout_height="@dimen/editor_d_3_dp" android:layout_marginLeft="@dimen/editor_d_7_dp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

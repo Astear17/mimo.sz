@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/edit_menu_bg_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lct.lomo.sdk.editor.widget.BaseRecyclerView android:id="@id/mediaeditor_menu_transition_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_22_dp" android:layout_above="@id/mediaedit_menu_bottom_layout_id" />
+    <RelativeLayout android:id="@id/rl_transition_tab" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_68_dp" android:layout_above="@id/mediaedit_menu_bottom_layout_id">
+        <lct.lomo.sdk.editor.widget.SdkLanguageTextView android:textColor="@color/C_7C7C7F_100" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_22_dp" android:text="@string/light_guide_editor_video_transition_time" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/H_5_normal" />
+        <lct.lomo.sdk.editor.widget.SdkLanguageTextView android:textColor="@color/white" android:id="@id/title_left_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_14_dp" android:text="0.1s" android:layout_toRightOf="@id/title_tv" android:layout_centerVertical="true" style="@style/H_3_normal" />
+        <com.lctsdk.mediaeditor.tabviews.filter.seekbar.TransitionSeekbar android:id="@id/transition_tab_seekbar" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@id/tv_seekbar_ends" android:layout_toRightOf="@id/title_left_time" />
+        <lct.lomo.sdk.editor.widget.SdkLanguageTextView android:textColor="@color/white" android:id="@id/tv_seekbar_ends" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/editor_d_22_dp" android:text="5.0s" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/H_3_normal" />
+    </RelativeLayout>
+    <include android:id="@id/mediaedit_menu_bottom_layout_id" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp" android:layout_alignParentBottom="true" layout="@layout/mediaeditor_menu_bottom_layout" />
+</RelativeLayout>

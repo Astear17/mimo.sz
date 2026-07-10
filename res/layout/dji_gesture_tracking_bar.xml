@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@color/yellow_meter" android:layout_width="wrap_content" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/black" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/gesture_bar_info_tv" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/hg303_fpv_top_tips_waitting_gesture_content" android:layout_marginStart="@dimen/d_16_dp" android:layout_marginEnd="@dimen/d_16_dp" style="@style/TextStyleRobotoCondensedBold" />
+</merge>

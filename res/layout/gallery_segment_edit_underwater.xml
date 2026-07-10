@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Space android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/d_36_dp" />
+    <TextView android:textSize="@dimen/d_11_dp" android:textColor="@color/white_60" android:layout_width="wrap_content" android:layout_height="@dimen/d_34_dp" android:text="@string/general_playback_underwater_color_enhancement_introduction_tag" />
+    <com.dji.playback.segment.editor.view.widget.EditorCircleView android:id="@id/segmentUnderwaterCircleView" android:clickable="true" android:layout_width="@dimen/d_52_dp" android:layout_height="@dimen/d_52_dp" android:layout_marginLeft="@dimen/d_16_dp" android:layout_marginRight="@dimen/d_16_dp" android:layout_marginBottom="@dimen/d_48_dp" />
+    <com.dji.playback.segment.editor.view.widget.EditorSlider android:id="@id/segmentUnderwaterValueSeekBar" android:layout_width="match_parent" android:layout_height="@dimen/d_60_dp" style="@style/GallerySeekBarStyle" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layoutUnderwaterActionBar" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" android:paddingStart="@dimen/d_24_dp" android:paddingEnd="@dimen/d_24_dp">
+        <dji.publics.DJIUI.DJIStateImageView android:id="@id/ivUnderwaterCancel" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/gallery_segment_edit_close" />
+        <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white_90" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/general_playback_single_clip_edit_underwater_color_enhancement_title" android:layout_weight="1.0" />
+        <dji.publics.DJIUI.DJIStateImageView android:id="@id/ivUnderwaterConfirm" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/gallery_segment_edit_comfirm" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

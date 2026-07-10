@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/black_90" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/fpv_eis_loading_content" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/fpv_eis_loading_icon_iv" android:layout_width="@dimen/d_48_dp" android:layout_height="@dimen/d_48_dp" android:layout_marginBottom="@dimen/d_16_dp" android:src="@drawable/ic_video_eis" android:scaleType="centerInside" />
+        <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white_100" android:gravity="center" android:id="@id/fpv_eis_loading_progress_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_16_dp" style="@style/TextStyleRobotoCondensedBold" />
+        <ProgressBar android:id="@id/fpv_eis_loading_progress_bar" android:layout_width="match_parent" android:layout_height="@dimen/d_5_dp" android:layout_marginTop="@dimen/d_25_dp" android:max="100" android:indeterminate="false" android:progressDrawable="@drawable/dji_om_fpv_eis_loading_drawable" android:layout_marginStart="@dimen/d_75_dp" android:layout_marginEnd="@dimen/d_75_dp" style="?android:progressBarStyleHorizontal" />
+    </LinearLayout>
+    <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView android:id="@id/fpv_eis_loading_result" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
+    <com.dji.pano.sphere.DJISpherePanoView android:id="@id/fpv_eis_sphere_result" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ImageView android:layout_gravity="right|top" android:id="@id/fpv_eis_loading_progress_close" android:visibility="gone" android:layout_width="@dimen/d_48_dp" android:layout_height="@dimen/d_48_dp" android:src="@drawable/dji_ic_setting_close" android:scaleType="center" />
+</FrameLayout>

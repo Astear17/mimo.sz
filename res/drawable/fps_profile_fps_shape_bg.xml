@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/fps_profile_fps_shape_bg_radius_tl" android:topRightRadius="@dimen/fps_profile_fps_shape_bg_radius_tr" android:bottomLeftRadius="@dimen/fps_profile_fps_shape_bg_radius_bl" android:bottomRightRadius="@dimen/fps_profile_fps_shape_bg_radius_br" />
+    <solid android:color="@color/fps_profile_fps_shape_bg" />
+</shape>

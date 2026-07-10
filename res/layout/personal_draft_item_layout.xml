@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/draft_item" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/draft_im" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:radiusColor="@color/white" app:roundRadius="@dimen/editor_d_10_dp" />
+    <TextView android:textStyle="bold" android:textColor="@color/black" android:ellipsize="end" android:gravity="center" android:id="@id/draft_type_lable" android:background="@drawable/personal_draft_lable_shape" android:paddingLeft="@dimen/editor_d_6_dp" android:paddingRight="@dimen/editor_d_6_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_5_dp" android:layout_marginTop="@dimen/editor_d_5_dp" android:lines="1" style="@style/H_5_normal" />
+    <TextView android:textColor="@color/black" android:ellipsize="end" android:id="@id/draft_time" android:layout_width="@dimen/editor_d_120_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_12_dp" android:layout_marginBottom="@dimen/editor_d_19_dp" android:lines="1" android:layout_below="@id/draft_im" style="@style/H_4_bold" />
+    <ImageView android:id="@id/draft_delete_iv" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:layout_marginTop="@dimen/editor_d_8_dp" android:src="@drawable/ic_more_black" android:layout_below="@id/draft_im" android:layout_alignParentRight="true" />
+</RelativeLayout>

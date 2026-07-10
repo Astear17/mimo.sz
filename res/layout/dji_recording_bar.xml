@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/recording_bar_container" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center_vertical" android:background="@drawable/dji_recording_red_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_marginStart="@dimen/d_16_dp" android:layout_marginEnd="@dimen/d_8_dp" />
+        <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white_80" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/recording_bar_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00:00" android:layout_marginEnd="@dimen/d_16_dp" style="@style/TextStyleRobotoCondensedBold" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_microphone" android:background="@drawable/dji_ic_microphone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_marginEnd="@dimen/d_4_dp" />
+        <dji.base.ui.widget.audio.DJIMicroPhoneView android:layout_gravity="center_vertical" android:id="@id/recording_bar_microphone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/d_16_dp" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/pre_recording_bar_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/pre_recording_dot" android:background="@drawable/dji_pre_recording_red_dot" android:layout_width="@dimen/d_10_dp" android:layout_height="@dimen/d_10_dp" android:scaleType="center" android:layout_marginStart="@dimen/d_8_dp" android:layout_marginEnd="@dimen/d_8_dp" />
+            <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white_80" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/pre_recording_bar_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PRE +0s" android:layout_marginEnd="@dimen/d_16_dp" style="@style/TextStyleRobotoCondensedBold" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/pre_recording_closed" android:background="@drawable/dji_pre_recording_closed" android:layout_width="@dimen/d_20_dp" android:layout_height="@dimen/d_20_dp" android:layout_marginTop="@dimen/d_4_dp" android:layout_marginBottom="@dimen/d_4_dp" android:scaleType="center" android:layout_marginEnd="@dimen/d_4_dp" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/video_tracking_bar_container" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/video_tracking_bar_dot" android:background="@drawable/dji_fpv_video_tracking_icon" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:layout_marginTop="@dimen/d_4_dp" android:layout_marginBottom="@dimen/d_4_dp" android:scaleType="center" android:layout_marginStart="@dimen/d_8_dp" android:layout_marginEnd="@dimen/d_8_dp" />
+            <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/video_tracking_bar_tip_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ac204_fpv_tracking_title" android:layout_marginEnd="@dimen/d_16_dp" style="@style/TextStyleRobotoCondensedBold" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/video_tracking_bar_closed" android:background="@drawable/dji_fpv_video_tracking_closed" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:layout_marginTop="@dimen/d_4_dp" android:layout_marginBottom="@dimen/d_4_dp" android:scaleType="center" android:layout_marginEnd="@dimen/d_4_dp" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

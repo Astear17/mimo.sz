@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mimo_center_user_info_container" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/mimo_center_user_info_sub_container" android:background="@drawable/mimo_center_item_radius_top_bg" android:paddingTop="@dimen/d_22_dp" android:paddingBottom="@dimen/d_22_dp" android:layout_width="match_parent" android:layout_height="@dimen/d_116_dp" android:paddingStart="@dimen/d_20_dp" android:paddingEnd="@dimen/d_20_dp">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/mimo_center_user_info_avatar" android:layout_width="@dimen/d_72_dp" android:layout_height="@dimen/d_72_dp" android:layout_centerVertical="true" android:layout_alignParentStart="true" fresco:placeholderImage="@drawable/personal_ic_header_empty" fresco:roundAsCircle="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/user_info_sub_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/d_20_dp" android:layout_toStartOf="@id/mimo_center_user_info_arrow" android:layout_toEndOf="@id/mimo_center_user_info_avatar">
+            <TextView android:textAppearance="@style/TV.Roboto.Medium" android:textSize="@dimen/d_20_dp" android:textColor="@color/white_60" android:ellipsize="end" android:id="@id/mimo_center_user_info_name" android:paddingTop="@dimen/d_5_dp" android:paddingBottom="@dimen/d_5_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_common_mytab_notlogin_title" android:maxEms="12" android:singleLine="true" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_40" android:textColorHint="@color/color_999999" android:id="@id/mimo_center_user_info_introduction" android:visibility="gone" android:text="@string/kino_account_introduce_name" android:maxLines="2" android:includeFontPadding="false" android:lineSpacingExtra="@dimen/d_5_dp" style="@style/TV.MimoCenter.Item.Description" />
+        </LinearLayout>
+        <ImageView android:id="@id/mimo_center_user_info_arrow" android:visibility="gone" style="@style/ImageView_MimoCenter_Item_RightArrow" />
+    </RelativeLayout>
+    <include android:id="@id/mimo_center_user_info_works_container" layout="@layout/mimo_center_setting_item_works" />
+</LinearLayout>

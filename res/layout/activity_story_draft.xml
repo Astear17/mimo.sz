@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/story_draft_root" android:background="@color/color_171717" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="insideOverlay" android:id="@id/story_draft_recycler" android:paddingTop="@dimen/d_48_dp" android:paddingBottom="@dimen/d_62_dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/d_4_dp" android:paddingEnd="@dimen/d_4_dp" />
+    <dji.lomo.fpv.story.draft.DJIStoryDraftTitleView android:id="@id/story_draft_top_bar" android:background="@color/color_232323" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" />
+    <dji.lomo.fpv.story.draft.DJIStoryDraftBottomView android:layout_gravity="bottom" android:id="@id/story_draft_bottom" android:background="@color/color_232323" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_50_dp" />
+    <dji.lomo.fpv.story.draft.DJIStoryDraftExportingView android:id="@id/story_draft_export_loading_content" android:background="@color/fpv_overlay_window_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

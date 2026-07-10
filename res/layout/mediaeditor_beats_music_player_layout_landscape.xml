@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/editor_beats_blur_bg" android:layout_width="match_parent" android:layout_height="249.0dp" android:scaleType="centerCrop" />
+    <View android:background="@color/mediaeditor_beats_blur_cover_color" android:layout_width="match_parent" android:layout_height="249.0dp" />
+    <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/editor_beats_icon" android:layout_width="@dimen/editor_d_103_dp" android:layout_height="@dimen/editor_d_103_dp" android:layout_marginTop="@dimen/editor_d_42_dp" android:layout_centerHorizontal="true" app:radiusColor="@color/mediaeditor_bg_color_portrait" app:roundRadius="@dimen/editor_d_4_dp" />
+    <TextView android:textColor="@color/white" android:id="@id/music_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_18_dp" android:layout_below="@id/editor_beats_icon" android:layout_centerHorizontal="true" style="@style/H_3_normal" />
+    <ImageView android:id="@id/action_btn" android:layout_width="@dimen/editor_d_23_dp" android:layout_height="@dimen/editor_d_23_dp" android:layout_marginTop="@dimen/editor_d_30_dp" android:src="@drawable/lctm_mediaedit_video_play_icon" android:scaleType="centerInside" android:layout_below="@id/music_name" android:layout_centerHorizontal="true" />
+</merge>

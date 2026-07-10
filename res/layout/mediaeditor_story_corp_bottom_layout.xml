@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lct.lomo.sdk.editor.music.view.OprateImageView android:id="@id/mediaeditor_story_closed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_16_dp" android:src="@drawable/ic_close_normal_new" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textColor="@color/custom_main_edit_video_ratake" android:gravity="center" android:id="@id/mediaeditor_story_retake" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_30_dp" android:text="@string/light_model_videotrim_chchange" android:layout_centerInParent="true" style="@style/H_4_bold" />
+    <ImageView android:id="@id/mediaeditor_story_done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/editor_d_16_dp" android:src="@drawable/custom_bottom_right_new" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

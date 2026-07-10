@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lctsdk.mediaeditor.player.controller.PalaceClipView android:id="@id/video_palace_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.lct.wide.editor.gesture.PanoramaTouchGestureView android:id="@id/video_gesture_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.lct.wide.editor.gesture.tracking.PanoramaMultiTrackGestureLayout android:id="@id/track_gesture_layout" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.lct.wide.editor.gesture.PanoramaMultiTouchView android:id="@id/panorama_multi_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+</RelativeLayout>

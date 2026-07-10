@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/progress_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/dji_settings_audio_gain_custom_slider_ly" android:layout_width="match_parent" android:layout_height="@dimen/d_50_dp" android:splitMotionEvents="false">
+        <ImageView android:id="@id/dji_settings_audio_gain_custom_slider_down" android:paddingTop="@dimen/d_13_dp" android:paddingBottom="@dimen/d_15_dp" android:layout_width="@dimen/d_48_dp" android:layout_height="match_parent" android:src="@drawable/dji_ic_ev_sub" android:scaleType="fitCenter" android:paddingStart="@dimen/d_15_dp" android:paddingEnd="@dimen/d_15_dp" />
+        <dji.base.ui.widget.DJIItemViewSeekbar android:id="@id/dji_settings_audio_gain_custom_slider_seekbar" android:paddingTop="@dimen/d_5_dp" android:paddingBottom="@dimen/d_5_dp" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/d_10_dp" android:layout_marginEnd="@dimen/d_10_dp" />
+        <ImageView android:id="@id/dji_settings_audio_gain_custom_slider_up" android:paddingTop="@dimen/d_13_dp" android:paddingBottom="@dimen/d_15_dp" android:layout_width="@dimen/d_48_dp" android:layout_height="match_parent" android:src="@drawable/dji_ic_ev_add" android:scaleType="fitCenter" android:paddingStart="@dimen/d_15_dp" android:paddingEnd="@dimen/d_15_dp" />
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="@dimen/d_15_dp" />
+</LinearLayout>

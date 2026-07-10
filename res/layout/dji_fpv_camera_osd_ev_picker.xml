@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/camera_osd_ev_picker" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_40" android:gravity="start|top" android:id="@id/camera_osd_picker_title" android:paddingTop="@dimen/d_8_dp" android:paddingBottom="@dimen/d_1_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/d_12_dp" android:paddingEnd="0.0dp" style="@style/TextStyleRobotoCondensedBold" />
+    <ImageView android:layout_gravity="start|bottom" android:id="@id/camera_osd_ev_sub" android:padding="@dimen/d_12_dp" android:focusable="true" android:clickable="true" android:layout_width="@dimen/d_48_dp" android:layout_height="@dimen/d_48_dp" android:src="@drawable/dji_ic_ev_sub" android:scaleType="fitCenter" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <TextView android:textSize="@dimen/d_15_dp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/camera_osd_ev_value" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TextStyleRobotoCondensedBold" />
+        <dji.base.ui.widget.DJIEVStripView android:id="@id/camera_osd_ev_strip" android:paddingTop="@dimen/d_3_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="end|bottom" android:id="@id/camera_osd_ev_plus" android:padding="@dimen/d_12_dp" android:focusable="true" android:clickable="true" android:layout_width="@dimen/d_48_dp" android:layout_height="@dimen/d_48_dp" android:src="@drawable/dji_ic_ev_add" android:scaleType="fitCenter" />
+</merge>

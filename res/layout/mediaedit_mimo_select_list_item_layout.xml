@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/select_list_item_icon_iv_id" android:background="@color/color_101010" android:layout_width="@dimen/d_55_dp" android:layout_height="@dimen/d_55_dp" android:scaleType="centerCrop" android:layout_centerVertical="true" android:layout_marginStart="@dimen/d_16_dp" fresco:roundRadius="@dimen/d_3_dp" />
+    <TextView android:textSize="@dimen/d_14_dp" android:textColor="#ffffffff" android:id="@id/select_list_item_title_tv" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginStart="@dimen/d_12_dp" android:layout_toStartOf="@id/select_list_item_title_num_id" android:layout_toEndOf="@id/select_list_item_icon_iv_id" style="@style/TextStyleRobotoMedium" />
+    <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/mediaeditor_color_666666" android:id="@id/select_list_item_title_num_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginStart="@dimen/d_16_dp" android:layout_marginEnd="@dimen/d_16_dp" android:layout_alignParentEnd="true" style="@style/TextStyleRobotoRegular" />
+</RelativeLayout>

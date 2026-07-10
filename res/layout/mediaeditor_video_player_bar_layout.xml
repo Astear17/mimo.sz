@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/editor_d_30_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lctsdk.mediaeditor.player.controller.UndoView android:id="@id/mediaeditor_undo_view" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/editor_d_22_dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <CheckBox android:id="@id/restart_or_pause" android:background="@android:color/transparent" android:padding="@dimen/editor_d_10_dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerInParent="true" android:drawableStart="@drawable/lctm_mediaeditor_play_selector" />
+    <lct.lomo.sdk.editor.customtemp.controller.VideoProgressSeekBar android:id="@id/progress_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_40_dp" android:layout_marginLeft="@dimen/editor_d_04_dp" android:layout_marginRight="@dimen/editor_d_2_dp" android:layout_toLeftOf="@id/time_layout" android:layout_toRightOf="@id/restart_or_pause" android:layout_centerVertical="true" />
+    <LinearLayout android:id="@id/time_layout" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/editor_d_17_5_dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/mmediaeditor_player_duration_size" android:id="@id/position" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" style="@style/video_player_edit_time_style" />
+        <TextView android:id="@id/position_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" / " style="@style/video_player_edit_time_style" />
+        <TextView android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" style="@style/video_player_edit_time_style" />
+    </LinearLayout>
+</RelativeLayout>

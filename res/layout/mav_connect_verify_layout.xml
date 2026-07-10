@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/lctm_dialog_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/device_connect_title_iv" layout="@layout/device_common_title_layout" />
+    <ImageView android:id="@id/verify_layout" android:layout_width="@dimen/editor_d_200_dp" android:layout_height="@dimen/editor_d_127_dp" android:layout_marginTop="@dimen/editor_d_112_dp" android:src="@drawable/light_handle_conn_mav3_verify_icon" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/anim_imageView" android:layout_width="@dimen/editor_d_44_dp" android:layout_height="@dimen/editor_d_44_dp" android:layout_marginLeft="@dimen/editor_d_87_dp" android:layout_marginTop="@dimen/editor_d_80_dp" android:layout_alignLeft="@id/verify_layout" android:layout_alignTop="@id/verify_layout" />
+    <TextView android:textColor="@color/black" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_24_dp" android:text="@string/light_connection_camera_reject_authentication_undmav3" android:layout_below="@id/verify_layout" android:layout_centerHorizontal="true" android:paddingStart="@dimen/editor_d_10_dp" android:paddingEnd="@dimen/editor_d_10_dp" style="@style/H_4_normal" />
+    <com.lct.base.device.home.view.ConnectHelpView android:id="@id/device_connect_help_button" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_18_dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

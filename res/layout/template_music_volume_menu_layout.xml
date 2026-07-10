@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/template_bottom_sheet_bg" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_180_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/volume" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_20_dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_39_dp" android:text="@string/light_model_videopreview_volume" android:maxLines="1" android:layout_marginStart="@dimen/editor_d_22_dp" style="@style/H_4_normal" />
+        <lct.lomo.sdk.editor.widget.VolumeSeekbar android:id="@id/volume_seekbar" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_70_dp" android:layout_marginStart="@dimen/editor_d_61_dp" android:layout_marginEnd="@dimen/editor_d_55_dp" />
+    </LinearLayout>
+    <include android:id="@id/bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_12_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" layout="@layout/custom_menu_bottom_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

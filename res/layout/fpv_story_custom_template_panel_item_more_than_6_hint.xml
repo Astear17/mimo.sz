@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/d_172_dp" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_12_dp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/more_than_six" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/mimo_story_more_than_6_unavailable_tip_content" android:paddingStart="@dimen/d_8_dp" android:paddingEnd="@dimen/d_8_dp" style="@style/TextStyleRobotoRegular" />
+</FrameLayout>

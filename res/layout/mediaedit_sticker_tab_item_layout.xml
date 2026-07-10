@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/editor_d_30_dp" android:layout_height="wrap_content" android:layout_marginStart="@dimen/editor_d_20_dp" android:layout_marginEnd="@dimen/editor_d_20_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/tab_img" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" />
+    <ImageView android:layout_gravity="center" android:id="@id/tab_img_selected" android:visibility="invisible" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" />
+    <ImageView android:id="@id/tab_img_point_iv" android:background="@drawable/mediaeditor_filter_item_point_bg" android:visibility="invisible" android:layout_width="@dimen/editor_d_5_dp" android:layout_height="@dimen/editor_d_5_dp" android:layout_marginTop="@dimen/editor_d_5_dp" android:layout_below="@id/tab_img" android:layout_centerHorizontal="true" />
+</RelativeLayout>

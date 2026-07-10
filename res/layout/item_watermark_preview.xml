@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/watermark_preview_content" android:background="@color/watermark_preview_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/watermark_preview_image" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/watermark_preview_overlay" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <dji.lomo.fpv.om.ui.watermark.WatermarkOrientationSwitchView android:layout_gravity="start|bottom" android:id="@id/watermark_orientation_switch" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.mediaeditor.game.view.NestedScrollableHost android:id="@id/model_viewpager_wapper" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_dp" android:layout_marginTop="@dimen/editor_d_6_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <lct.lomo.mediaeditor.widget.ViewPagerWrapper android:id="@id/model_viewpager" android:saveEnabled="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </lct.lomo.mediaeditor.game.view.NestedScrollableHost>
+    <lct.lomo.mediaeditor.widget.LctMEmptyView android:layout_gravity="center" android:id="@id/editor_mode_emptyView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/connect_help_detail_operate_container" android:background="@drawable/open_tracking_activity_radius_bg" android:padding="@dimen/d_16_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tv_search_guide_title" android:text="@string/mimo_fpv_om_camera_open_tracking_usage_auto_focus_title" style="@style/TV.ConnectHelp.Detail.Title" />
+    <TextView android:id="@id/tv_fpv_om_camera_open_tracking_usage_auto_focus_1" android:text="@string/mimo_fpv_om_camera_open_tracking_usage_auto_focus_description1" style="@style/TV.ConnectHelp.Detail.Description" />
+    <TextView android:id="@id/tv_fpv_om_camera_open_tracking_usage_auto_focus_2" android:text="@string/mimo_fpv_om_camera_open_tracking_usage_auto_focus_description2" style="@style/TV.ConnectHelp.Detail.Description" />
+    <ImageView android:id="@id/image_step3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_12_dp" android:layout_marginTop="@dimen/d_12_dp" android:src="@drawable/open_tracking_tip_step3" />
+</LinearLayout>

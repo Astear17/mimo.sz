@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.lomo.fpv.om3.view.camera.quick.view.root.ThreeRecyclerView android:layout_gravity="center_horizontal" android:id="@id/recycler_view" android:focusable="true" android:focusableInTouchMode="true" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <androidx.appcompat.widget.AppCompatImageButton android:layout_gravity="end|top" android:id="@id/btn_close" android:background="@color/transparent" android:padding="@dimen/d_12_dp" android:layout_width="@dimen/d_48_dp" android:layout_height="@dimen/d_48_dp" android:src="@drawable/ic_navigation_close_white" android:scaleType="fitCenter" />
+</FrameLayout>

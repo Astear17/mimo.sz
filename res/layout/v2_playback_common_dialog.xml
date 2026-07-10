@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/v2_playback_common_dialog_edge" android:layout_width="@dimen/d_284_dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/playback_dialog_text" android:gravity="center" android:id="@id/v2_playback_common_dialog_title" android:layout_width="wrap_content" android:layout_height="@dimen/d_20_dp" android:layout_marginLeft="@dimen/d_20_dp" android:layout_marginTop="20.0dp" android:layout_marginRight="@dimen/d_20_dp" android:text="0" />
+    <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="@color/playback_dialog_text" android:id="@id/v2_playback_common_dialog_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_20_dp" android:layout_marginTop="@dimen/d_10_dp" android:layout_marginRight="@dimen/d_20_dp" android:layout_marginBottom="10.0dp" android:text="0" />
+    <CheckBox android:textColor="@color/playback_dialog_text" android:id="@id/v2_playback_common_dialog_checkbox" android:paddingLeft="@dimen/dp_5_in_sw320dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_15_dp" android:layout_marginRight="@dimen/d_20_dp" android:layout_marginBottom="@dimen/d_10_dp" android:text="@string/v2_playback_not_show_again" style="@style/v2_playback_checkbox" />
+    <View android:background="@color/playback_divider_color" android:layout_width="match_parent" android:layout_height="5.0dp" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50.0dp">
+        <dji.publics.DJIUI.DJIStateTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:id="@id/v2_playback_common_dialog_cancel" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/app_cancel" android:layout_weight="5.0" />
+        <View android:id="@id/v2_playback_common_dialog_divider" android:background="@color/playback_divider_color" android:layout_width="1.0dp" android:layout_height="match_parent" />
+        <dji.publics.DJIUI.DJIStateTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#1088f2" android:gravity="center" android:id="@id/v2_playback_common_dialog_ok" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/app_enter" android:layout_weight="5.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/d_16_dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/black" android:gravity="center" android:id="@id/male" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" android:text="@string/kino_register_gender_male" android:textFontWeight="600" style="@style/TextStyleRobotoRegular" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@color/gray_white_2" android:layout_width="match_parent" android:layout_height="@dimen/d_0.5_dp" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/black" android:gravity="center" android:id="@id/female" android:background="@color/white" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" android:text="@string/kino_register_gender_female" android:textFontWeight="600" style="@style/TextStyleRobotoRegular" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@color/gray_white_2" android:layout_width="match_parent" android:layout_height="@dimen/d_0.5_dp" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/black" android:gravity="center" android:id="@id/secrecy" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" android:text="@string/kino_register_gender_secrecy" android:textFontWeight="600" style="@style/TextStyleRobotoRegular" />
+    <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/black_80" android:gravity="center" android:id="@id/cancel" android:background="@drawable/dialog_privacy_double_check_bg" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" android:layout_marginTop="@dimen/d_8_dp" android:text="@string/kino_register_gender_cancel" style="@style/TextStyleRobotoMedium" />
+</LinearLayout>

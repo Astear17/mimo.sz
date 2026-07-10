@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/background_white_1" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/color_ffffff" android:id="@id/select_item_text" android:paddingTop="@dimen/d_13_dp" android:paddingBottom="@dimen/d_13_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/d_24_dp" android:layout_marginEnd="@dimen/d_24_dp" android:textFontWeight="600" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black_101010" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/title" layout="@layout/setting_title_layout" />
+    <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/devices_list_title" android:layout_width="234.0dp" android:layout_height="19.0dp" android:layout_marginTop="@dimen/d_10_dp" android:text="@string/mimo_common_device_management_device_list_title" android:layout_marginStart="@dimen/d_16_dp" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/devices_list" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/d_16_dp" android:layout_marginStart="@dimen/d_16_dp" android:layout_marginEnd="@dimen/d_16_dp" />
+    <include android:id="@id/devices_empty_layout" android:visibility="gone" layout="@layout/main_device_notice_layout" />
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lct.lomo.sdk.editor.widget.MediaSimpleDraweeView android:layout_width="@dimen/editor_d_49_dp" android:layout_height="@dimen/editor_d_49_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:id="@id/user_info_title_bar" android:background="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_4_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_24_dp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tv_user_info_mime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_28_dp" android:layout_marginBottom="@dimen/d_28_dp" android:text="@string/mimo_home_icon_mine_content" android:layout_centerVertical="true" />
+    <dji.lomo.main.view.MessageImageView android:id="@id/user_info_message" android:layout_width="@dimen/d_35_dp" android:layout_height="@dimen/d_35_dp" android:src="@drawable/personal_ic_message" android:scaleType="center" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

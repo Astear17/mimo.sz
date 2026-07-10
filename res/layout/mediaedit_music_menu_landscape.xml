@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/mediaeditor_bottom_music_bg_color" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/mediaedit_music_menu_cat_layout_id" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_49_dp" android:layout_above="@id/music_menu_select_all_time" layout="@layout/mediaedit_music_menu_cat_layout" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="9.5dp">
+        <TextView android:textColor="@color/white" android:id="@id/music_menu_select_all_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_8_dp" android:layout_centerHorizontal="true" style="@style/H_3_normal" />
+        <ImageView android:id="@id/meidaeidt_closed" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" android:layout_marginLeft="@dimen/editor_d_14_dp" android:layout_marginRight="@dimen/editor_d_30_dp" android:src="@drawable/ic_close_normal_new" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        <LinearLayout android:gravity="bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/meidaeidt_done" android:layout_toRightOf="@id/meidaeidt_closed" android:layout_alignParentBottom="true">
+            <include android:id="@id/music_fade_group" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/mediaedit_music_menu_fade_layout_landscape" />
+            <include android:id="@id/music_change_id" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_22_dp" layout="@layout/mediaedit_music_menu_change_layout_landscape" />
+        </LinearLayout>
+        <ImageView android:id="@id/meidaeidt_done" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" android:layout_marginLeft="@dimen/editor_d_30_dp" android:layout_marginRight="@dimen/editor_d_14_dp" android:src="@drawable/custom_bottom_right_new" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

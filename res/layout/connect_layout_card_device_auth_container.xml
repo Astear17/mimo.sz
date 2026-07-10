@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/connect_card_device_auth_container" android:background="@drawable/connect_card_bg" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_16_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/connect_card_device_auth_title_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_16_dp" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/connect_card_device_auth_help" android:visibility="gone" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/connect_card_help_icon" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/black" android:gravity="center" android:id="@id/connect_card_device_auth_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ac101_connection_common_authentication_title" android:layout_centerInParent="true" style="@style/TextStyleRobotoBold" />
+        <ImageView android:id="@id/connect_card_device_auth_close" android:visibility="gone" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/connect_card_close_icon" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/black_40" android:gravity="center" android:id="@id/connect_card_device_auth_desc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_6_dp" android:text="@string/mimo_connection_common_authentication_content" android:layout_below="@id/connect_card_device_auth_title_container" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/connect_card_device_auth_code_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginStart="@dimen/d_17_dp" android:layout_marginEnd="@dimen/d_17_dp">
+        <TextView android:id="@id/connect_card_device_auth_code_one" style="@style/connect_card_auth_code_view" />
+        <Space style="@style/connect_card_auth_code_view_space" />
+        <TextView android:id="@id/connect_card_device_auth_code_two" style="@style/connect_card_auth_code_view" />
+        <Space style="@style/connect_card_auth_code_view_space" />
+        <TextView android:id="@id/connect_card_device_auth_code_three" style="@style/connect_card_auth_code_view" />
+        <Space style="@style/connect_card_auth_code_view_space" />
+        <TextView android:id="@id/connect_card_device_auth_code_four" style="@style/connect_card_auth_code_view" />
+    </LinearLayout>
+    <ImageView android:gravity="center" android:id="@id/connect_card_auth_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginStart="@dimen/d_17_dp" android:layout_marginEnd="@dimen/d_17_dp" />
+    <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/black" android:gravity="center" android:id="@id/connect_card_device_auth_cancel" android:background="@drawable/connect_card_device_bottom_button_radius_bg_gray" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" android:layout_marginTop="@dimen/d_2_dp" android:layout_marginBottom="@dimen/d_16_dp" android:text="@string/ac101_connection_common_authentication_btn" android:layout_alignParentBottom="true" style="@style/TextStyleRobotoBold" />
+</RelativeLayout>

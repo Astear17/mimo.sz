@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_95_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_search_no_content_desc" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_20_dp" android:layout_marginTop="@dimen/editor_d_12_dp" android:layout_marginBottom="@dimen/editor_d_28_dp" android:text="@string/light_community_template_search_no_result" style="@style/H_4_normal" />
+    <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/tv_recommend_title" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_23_dp" android:layout_marginLeft="@dimen/editor_d_18_dp" android:layout_marginBottom="@dimen/editor_d_12_dp" android:text="@string/light_community_template_search_topic_recommend" style="@style/H_3_bold" />
+</LinearLayout>

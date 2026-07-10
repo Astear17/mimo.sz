@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/common_sheet_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <View android:background="@color/color_f4f4f4" android:layout_width="match_parent" android:layout_height="@dimen/d_4_dp" />
+    <dji.base.ui.widget.DJITypefaceTextView android:textSize="@dimen/d_19_dp" android:textColor="@android:color/black" android:gravity="center" android:id="@id/webview_cancel" android:layout_width="match_parent" android:layout_height="@dimen/d_49_dp" android:text="@string/kino_register_gender_cancel" android:layout_centerHorizontal="true" app:typeFace="@string/ui_typeface_roboto_condensed_bold" />
+</LinearLayout>

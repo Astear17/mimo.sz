@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/loading_view" android:visibility="visible" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" style="?android:progressBarStyleInverse" />
+    <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/gray_indicator" android:gravity="center_vertical" android:id="@id/tv_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_6_dp" />
+</merge>

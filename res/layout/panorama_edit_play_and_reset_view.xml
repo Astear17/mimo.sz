@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBox android:id="@id/save_restart_or_pause" android:background="@android:color/transparent" android:paddingTop="@dimen/d_11_dp" android:paddingBottom="@dimen/d_14_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerInParent="true" android:drawableStart="@drawable/lctm_mediaeditor_play_selector" android:paddingHorizontal="10.0dp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_editor_reset" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginEnd="@dimen/d_24_dp" android:paddingVertical="@dimen/d_10_dp" app:layout_constraintBottom_toBottomOf="@id/save_restart_or_pause" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/save_restart_or_pause">
+        <TextView android:textSize="@dimen/d_10_dp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/editor_playback_cloud_album_live_edit_reset_btn" android:layout_marginEnd="@dimen/d_4_dp" />
+        <ImageView android:background="@drawable/live_photo_editor_reset" android:layout_width="@dimen/d_16_dp" android:layout_height="@dimen/d_16_dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/category_list_img" android:visibility="gone" android:layout_width="@dimen/editor_d_23_dp" android:layout_height="@dimen/editor_d_23_dp" />
+    <TextView android:textColor="@color/white" android:id="@id/category_list_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_3_dp" android:layout_marginRight="@dimen/editor_d_3_dp" style="@style/H_4_normal" />
+</LinearLayout>

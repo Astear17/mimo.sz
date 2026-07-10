@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/volume_left_time" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:layout_marginBottom="@dimen/editor_d_2_dp" android:src="@drawable/mediaedit_ic_music_mute" android:layout_alignBottom="@id/music_menu_seek" android:layout_alignParentLeft="true" />
+    <lct.lomo.sdk.editor.widget.VolumeSeekbar android:id="@id/music_menu_seek" android:paddingBottom="@dimen/editor_d_1_dp" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_36_dp" android:layout_toLeftOf="@id/volume_right_time" android:layout_toRightOf="@id/volume_left_time" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/volume_right_time" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:layout_marginBottom="@dimen/editor_d_2_dp" android:src="@drawable/mediaedit_ic_music_mute_loudly" android:layout_alignBottom="@id/music_menu_seek" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/tv_guide_tip" android:background="@drawable/shape_guide_tip_bg" android:paddingLeft="@dimen/editor_d_12_dp" android:paddingRight="@dimen/editor_d_12_dp" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_50_dp" android:text="选择画幅比例" android:layout_below="@id/guide_line_view" style="@style/H_3_normal" />
+</LinearLayout>

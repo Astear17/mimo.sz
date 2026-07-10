@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.base.ui.widget.ratio.RatioFrameLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/story_custom_template_panel_item_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:roundedCornerRadius="@dimen/d_5_dp" />
+    <View android:id="@id/story_custom_template_panel_item_selection" android:background="@drawable/fpv_story_custom_template_panel_item_image_foreground" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ImageView android:layout_gravity="end|bottom" android:id="@id/story_custom_template_panel_item_play" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:src="@drawable/fpv_story_custom_template_panel_item_play_state" android:scaleType="fitCenter" />
+</dji.base.ui.widget.ratio.RatioFrameLayout>

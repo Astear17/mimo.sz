@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/notch_screen_rootview" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/status_bar" android:background="@color/mediaedit_fit_screen_layout_bg" android:layout_width="match_parent" android:layout_height="0.0dp" />
+    <FrameLayout android:id="@id/root_content" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

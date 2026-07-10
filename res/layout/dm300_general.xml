@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/white_90" android:id="@id/dm300_general_settings_title" android:text="@string/dm300rx_common_parameter_setting_general_list_title" style="@style/v2_settings_group_title" />
+    <LinearLayout android:id="@id/dm300_general_settings_group_layout" style="@style/v2_settings_group_layout">
+        <FrameLayout android:id="@id/dm300_about_device_layout" style="@style/v2_settings_single_item_layout">
+            <TextView android:textAppearance="@style/TextStyleRobotoRegular" android:textSize="@dimen/d_15_dp" android:textColor="@color/white_90" android:layout_gravity="center_vertical" android:id="@id/dm300_about_device_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dm300rx_common_parameter_setting_aboutdevice_list_title" android:drawablePadding="@dimen/d_12_dp" />
+            <ImageView android:layout_gravity="right|center" android:id="@id/dm300_about_device_next_icon" style="@style/v2_settings_item_next_icon" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

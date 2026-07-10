@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/questionnaire" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <WebView android:id="@id/web_questionnaire" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/lay_linear_no_network" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <dji.base.ui.widget.dji.DJIImageView android:layout_gravity="right|top" android:id="@id/questionnaire_no_network_close_btn" android:padding="@dimen/d_9_dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_title_close" />
+        <ImageView android:id="@id/iv_no_network" android:layout_width="@dimen/d_60_dp" android:layout_height="@dimen/d_60_dp" android:layout_marginTop="@dimen/d_179_dp" android:src="@drawable/mimo_ic_no_network" />
+        <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/color_666666" android:id="@id/tv_no_network" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp" android:text="@string/kino_network_error" style="@style/TextStyleRobotoRegular" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/lay_linear_get_content_fail" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <dji.base.ui.widget.dji.DJIImageView android:layout_gravity="right|top" android:id="@id/questionnaire_get_content_fail_close_btn" android:padding="@dimen/d_9_dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_title_close" />
+        <ImageView android:id="@id/iv_fail" android:layout_width="@dimen/d_60_dp" android:layout_height="@dimen/d_60_dp" android:layout_marginTop="@dimen/d_179_dp" android:src="@drawable/mimo_ic_no_data" android:scaleType="centerInside" />
+        <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/color_666666" android:id="@id/tv_no_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp" android:text="@string/mimo_usercenter_feedback_connectFail_content" style="@style/TextStyleRobotoRegular" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

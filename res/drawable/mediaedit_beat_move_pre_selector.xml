@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:drawable="@drawable/mediaeditor_beat_move_pre_arrow" />
+    <item android:state_enabled="false" android:drawable="@drawable/mediaeditor_beat_move_pre_arrow_disable" />
+</selector>

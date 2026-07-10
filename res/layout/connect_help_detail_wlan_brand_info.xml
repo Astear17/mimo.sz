@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/connect_help_detail_wlan_plus_sub_container" android:background="@color/color_222222" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/connect_help_detail_common_guide_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/connect_help_detail_hg211_common_description" android:visibility="gone" android:layout_marginBottom="@dimen/d_8_dp" android:text="@string/hg211_connection_connection_help_unable_connect_device_action_sheet_content" style="@style/TV.ConnectHelp.Detail.Description" />
+        <TextView android:id="@id/connect_help_detail_common_guide_description" android:layout_marginBottom="@dimen/d_8_dp" android:text="@string/mimo_connection_connection_help_wlan_plus_closed_main_content" style="@style/TV.ConnectHelp.Detail.Description" />
+        <View android:id="@id/connect_help_detail_common_guide_line" android:background="@color/dji_device_color_24FFFFFF" android:layout_width="match_parent" android:layout_height="0.5dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/connect_help_detail_huawei_guide_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_marginTop="@dimen/d_16_dp" android:text="@string/mimo_connection_connection_help_wlan_plus_closed_huawei_title" style="@style/TV.ConnectHelp.Detail.Description" />
+        <TextView android:id="@id/connect_help_detail_huawei_guide_version1" android:layout_marginTop="@dimen/d_16_dp" android:text="@string/mimo_connection_connection_help_wlan_plus_closed_huawei_version_910_content" style="@style/TV.ConnectHelp.Detail.Description" />
+        <TextView android:id="@id/connect_help_detail_huawei_guide_version2" android:layout_marginTop="@dimen/d_16_dp" android:text="@string/mimo_connection_connection_help_wlan_plus_closed_huawei_version_900_content" style="@style/TV.ConnectHelp.Detail.Description" />
+        <TextView android:id="@id/connect_help_detail_huawei_guide_version3" android:layout_marginTop="@dimen/d_16_dp" android:text="@string/mimo_connection_connection_help_wlan_plus_closed_huawei_version_below_900_content" style="@style/TV.ConnectHelp.Detail.Description" />
+        <View android:background="@color/dji_device_color_24FFFFFF" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="@dimen/d_16_dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/connect_help_detail_xiaomi_guide_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_marginTop="@dimen/d_16_dp" android:text="@string/mimo_connection_connection_help_wlan_plus_closed_turorial_page_xiaomi_title" style="@style/TV.ConnectHelp.Detail.Description" />
+        <TextView android:id="@id/connect_help_detail_xiaomi_guide_version1" android:layout_marginTop="@dimen/d_16_dp" android:text="@string/mimo_connection_connection_help_wlan_plus_closed_xiaomi_version_10_content" style="@style/TV.ConnectHelp.Detail.Description" />
+        <TextView android:id="@id/connect_help_detail_xiaomi_guide_version2" android:layout_marginTop="@dimen/d_16_dp" android:text="@string/mimo_connection_connection_help_wlan_plus_closed_xiaomi_version_below_10_content" style="@style/TV.ConnectHelp.Detail.Description" />
+        <View android:background="@color/dji_device_color_24FFFFFF" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="@dimen/d_16_dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/connect_help_detail_samsung_guide_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_marginTop="@dimen/d_16_dp" android:text="@string/mimo_connection_connection_help_wlan_plus_closed_samsung_title" style="@style/TV.ConnectHelp.Detail.Description" />
+        <TextView android:id="@id/connect_help_detail_samsung_guide_version" android:layout_marginTop="@dimen/d_16_dp" android:text="@string/mimo_connection_connection_help_wlan_plus_closed_samsung_content" style="@style/TV.ConnectHelp.Detail.Description" />
+        <View android:background="@color/dji_device_color_24FFFFFF" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="@dimen/d_16_dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/connect_help_detail_oppo_guide_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_marginTop="@dimen/d_16_dp" android:text="@string/mimo_connection_connection_help_wlan_plus_closed_oppo_title" style="@style/TV.ConnectHelp.Detail.Description" />
+        <TextView android:id="@id/connect_help_detail_oppo_guide_version" android:layout_marginTop="@dimen/d_16_dp" android:text="@string/mimo_connection_connection_help_wlan_plus_closed_oppo_content" style="@style/TV.ConnectHelp.Detail.Description" />
+        <View android:background="@color/dji_device_color_24FFFFFF" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="@dimen/d_16_dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/connect_help_detail_vivo_guide_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_marginTop="@dimen/d_16_dp" android:text="@string/mimo_connection_connection_help_wlan_plus_closed_vivo_title" style="@style/TV.ConnectHelp.Detail.Description" />
+        <TextView android:id="@id/connect_help_detail_vivo_guide_version" android:layout_marginTop="@dimen/d_16_dp" android:text="@string/mimo_connection_connection_help_wlan_plus_closed_vivo_content" style="@style/TV.ConnectHelp.Detail.Description" />
+        <View android:background="@color/dji_device_color_24FFFFFF" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="@dimen/d_16_dp" />
+    </LinearLayout>
+</LinearLayout>

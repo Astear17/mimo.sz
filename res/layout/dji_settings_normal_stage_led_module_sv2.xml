@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.lomo.fpv.om3.view.settings.gimbal.DJILPSettingGimbalLedControlSV2 android:id="@id/dji_setting_stage_led_module_root" android:layout_width="match_parent" android:layout_height="match_parent" setting_ui:title_text="@string/mimo_fpv_light_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <dji.lomo.fpv.om3.gimble.view.DJISettingStageBlankScrollView style="@style/dji_setting_stage_sv">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <dji.lomo.fpv.om3.view.gimbal.NfcLedControlView android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_10_dp" setting_ui:titleText="@string/mimo_fpv_light_nfc_title" setting_ui:typeFace="@string/ui_typeface_roboto_condensed_bold" style="@style/dji_setting_item_ll" />
+            <dji.lomo.fpv.om3.view.gimbal.TkLedControlView android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_10_dp" setting_ui:titleText="@string/mimo_fpv_light_tracking_title" setting_ui:typeFace="@string/ui_typeface_roboto_condensed_bold" style="@style/dji_setting_item_ll" />
+        </LinearLayout>
+    </dji.lomo.fpv.om3.gimble.view.DJISettingStageBlankScrollView>
+</dji.lomo.fpv.om3.view.settings.gimbal.DJILPSettingGimbalLedControlSV2>

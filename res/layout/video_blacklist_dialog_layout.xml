@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/d_10_dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_17_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_blacklist" android:background="@drawable/mimo_action_sheet_item_bg" android:layout_width="match_parent" android:layout_height="@dimen/d_56_dp" android:text="@string/mimo_upload_post_setprivate_uninterested" style="@style/TextStyleRobotoRegular" />
+    <TextView android:textSize="@dimen/d_18_dp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_cancel" android:background="@drawable/mimo_action_sheet_item_bg" android:layout_width="match_parent" android:layout_height="@dimen/d_56_dp" android:layout_marginTop="@dimen/d_8_dp" android:text="@string/kino_upload_cancel" style="@style/TextStyleRobotoMedium" />
+</LinearLayout>

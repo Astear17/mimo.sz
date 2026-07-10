@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.dji.playback.ui.playbackPreviewActivity.widget.LCTAdaptiveTextView android:textColor="@color/setting_ui_btn" android:gravity="center" android:id="@id/setting_ui_widget_popupwindow_list_tv" android:paddingLeft="@dimen/d_10_dp" android:paddingRight="@dimen/d_10_dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="hello world" />
+</FrameLayout>

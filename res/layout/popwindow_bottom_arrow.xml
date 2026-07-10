@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:id="@id/ll_container" android:background="@drawable/guide_pop_window_shape" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/black" android:gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_12_dp" android:layout_marginTop="@dimen/editor_d_6_dp" android:layout_marginRight="@dimen/editor_d_12_dp" android:layout_marginBottom="@dimen/editor_d_6_dp" android:text="标题文案" app:layout_constraintStart_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/H_4_bold" />
+    </LinearLayout>
+    <ImageView android:id="@id/model_welcome_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/model_welcome_dialog_arrow" android:layout_below="@id/ll_container" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ll_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

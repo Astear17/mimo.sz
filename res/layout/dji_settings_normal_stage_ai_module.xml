@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.lomo.fpv.ui.normal.settings.aimodule.DJIFpvSettingStageAIModuleView android:id="@id/dji_setting_stage_ai_module_root" android:layout_width="match_parent" android:layout_height="match_parent" setting_ui:title_drawable="@drawable/ic_ai_module_quto" setting_ui:title_text="@string/om507_ai_module_rx_settings_main_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <dji.lomo.fpv.om3.gimble.view.DJISettingStageBlankScrollView style="@style/dji_setting_stage_sv">
+        <dji.lomo.fpv.om3.gimble.view.DJILPSettingGimbalAIModuleView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </dji.lomo.fpv.om3.gimble.view.DJISettingStageBlankScrollView>
+</dji.lomo.fpv.ui.normal.settings.aimodule.DJIFpvSettingStageAIModuleView>

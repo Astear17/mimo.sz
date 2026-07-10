@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@id/radio_noice_reduction" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/selector_rbtn_noice_reduction_strong" />
+    <TextView android:textSize="@dimen/d_10_dp" android:textStyle="bold" android:textColor="@color/textview_" android:layout_gravity="center_horizontal" android:id="@id/tv_noice_reduction" android:background="@drawable/textview_drawable" android:paddingLeft="@dimen/d_8_dp" android:paddingTop="@dimen/d_1_dp" android:paddingRight="@dimen/d_8_dp" android:paddingBottom="@dimen/d_1_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" android:text="@string/dm300tx_common_parameter_setting_denosing_low_list_title" />
+</merge>

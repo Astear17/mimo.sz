@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/tab_list" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/tab_left" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:gravity="center" android:id="@id/title_view" android:padding="@dimen/editor_d_14_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kino_editor_sticker_title" android:layout_marginEnd="@dimen/editor_d_14_dp" android:layout_alignParentEnd="true" style="@style/H_4_normal" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/tab_right" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:gravity="center" android:id="@id/sticker_view" android:padding="@dimen/editor_d_14_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kino_editor_sticker_sticker" android:layout_marginStart="@dimen/editor_d_14_dp" android:layout_alignParentStart="true" style="@style/H_4_normal" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/cursor" android:background="@android:color/white" android:visibility="gone" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_2_dp" />
+</merge>

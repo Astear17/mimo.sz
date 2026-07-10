@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white_90" android:id="@id/dm300_setting_general_device_name" android:layout_marginLeft="@dimen/d_4_dp" android:layout_marginTop="@dimen/d_24_dp" android:layout_marginBottom="@dimen/d_16_dp" android:text="RX" style="@style/v2_settings_item_info_value" />
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/d_8_dp" android:paddingBottom="@dimen/d_8_dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/v2_settings_group_layout">
+        <LinearLayout android:id="@id/dm300_device_sn_layout" style="@style/v2_settings_item_layout">
+            <TextView android:layout_gravity="center_vertical" android:id="@id/dm300_device_sn_key" android:text="@string/dm300rx_common_device_sn_list_title" android:paddingEnd="@dimen/d_16_dp" style="@style/v2_settings_item_info_key" />
+            <TextView android:layout_gravity="center_vertical" android:id="@id/dm300_device_sn_value" android:text="@string/dm300_device_sn_value" style="@style/v2_settings_item_info_value" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/dm300_firmware_version_layout" style="@style/v2_settings_item_layout">
+            <TextView android:layout_gravity="center_vertical" android:id="@id/dm300_firmware_version_key" android:text="@string/dm300rx_common_device_firmware_list_title" style="@style/v2_settings_item_info_key" />
+            <TextView android:layout_gravity="center_vertical" android:id="@id/dm300_firmware_version_value" android:text="@string/dm300_firmware_version_value" style="@style/v2_settings_item_info_value" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

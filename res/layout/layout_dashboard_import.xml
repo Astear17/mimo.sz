@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/C_000000" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/d_64_dp">
+            <ImageView android:id="@id/dashboard_import_return" android:padding="@dimen/d_16_dp" android:layout_width="@dimen/d_64_dp" android:layout_height="@dimen/d_64_dp" android:src="@drawable/dashboard_import_return" />
+            <TextView android:textSize="@dimen/d_16_dp" android:textStyle="bold" android:textColor="@color/white_90" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ac204_playback_dashboard_import_title" />
+            <ImageView android:layout_gravity="right" android:id="@id/dashboard_privacy_set" android:padding="@dimen/d_16_dp" android:layout_width="@dimen/d_64_dp" android:layout_height="@dimen/d_64_dp" android:layout_marginRight="@dimen/d_8_dp" android:src="@drawable/enter_dashboard_privacy_set" />
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/dashboard_import_file_list" android:paddingBottom="@dimen/d_80_dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/dashboard_import_file_manual_layout" android:background="@color/black" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/d_64_dp" android:layout_weight="0.0">
+            <ImageView android:id="@id/dashboard_import_manual_return" android:padding="@dimen/d_16_dp" android:layout_width="@dimen/d_64_dp" android:layout_height="@dimen/d_64_dp" android:src="@drawable/dashboard_import_return" />
+            <TextView android:textSize="@dimen/d_16_dp" android:textStyle="bold" android:textColor="@color/white_90" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ac204_playback_dashboard_import_title" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <ScrollView android:background="@drawable/dashboard_rounded_corner_bg" android:padding="@dimen/d_20_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/d_20_dp">
+                <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white_60" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_10_dp" android:text="@string/ac204_playback_dashboard_import_fit_normal_content1" />
+                        <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_90" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ac204_playback_dashboard_import_fit_normal_content2" />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/d_10_dp" android:src="@drawable/dashboard_import_fit_file" />
+                        <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white_60" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_40_dp" android:layout_marginBottom="@dimen/d_10_dp" android:text="@string/ac204_playback_dashboard_import_fit_normal_content3" />
+                        <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_90" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ac204_playback_dashboard_import_fit_normal_content8" />
+                        <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_90" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_10_dp" android:text="@string/ac204_playback_dashboard_import_fit_normal_content9" />
+                        <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_90" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_10_dp" android:text="@string/ac204_playback_dashboard_import_fit_normal_content10" />
+                        <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_90" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ac204_playback_dashboard_import_fit_normal_content6" />
+                        <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_90" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_10_dp" android:text="@string/ac204_playback_dashboard_import_fit_normal_content7" />
+                        <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_90" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ac204_playback_dashboard_import_fit_normal_content4" />
+                        <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_90" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_10_dp" android:text="@string/ac204_playback_dashboard_import_fit_android_cn_content" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </FrameLayout>
+            </ScrollView>
+        </LinearLayout>
+        <Button android:textSize="@dimen/d_15_dp" android:textStyle="bold" android:textColor="#1a1a1a" android:id="@id/dashboard_import_file_select_file" android:background="@drawable/dashboard_btn_rounded_corner_bg" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" android:layout_marginTop="@dimen/d_10_dp" android:layout_marginBottom="@dimen/d_50_dp" android:text="@string/ac204_playback_dashboard_import_file_select_file" android:layout_weight="0.0" android:layout_marginStart="@dimen/d_20_dp" android:layout_marginEnd="@dimen/d_20_dp" />
+    </LinearLayout>
+</FrameLayout>

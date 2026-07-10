@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/fpv_overlay_window_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/fpv_gesture_info_ly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <ImageView android:id="@id/fpv_gesture_info_iv" android:layout_width="@dimen/d_307_dp" android:layout_height="@dimen/d_144_dp" android:src="@drawable/dji_fpv_gesture_info_recognition" android:scaleType="centerInside" />
+            <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/dlg_text_help_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hg302_fpv_setting_gesturing_tracking_turorial_or_mask_content" android:layout_centerInParent="true" style="@style/TextStyleRobotoRegular" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/fpv_gesture_info_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_10_dp" android:layout_toRightOf="@id/fpv_gesture_info_ly" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/d_18_dp" android:textColor="@color/white" android:layout_width="@dimen/d_275_dp" android:layout_height="wrap_content" android:text="@string/hg302_fpv_setting_gesturing_tracking_turorial_mask_title" style="@style/TextStyleRobotoBold" />
+            <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:layout_width="@dimen/d_275_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_5_dp" android:text="@string/hg302_fpv_setting_gesturing_tracking_turorial_gesturing_type_mask_content" style="@style/TextStyleRobotoRegular" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/d_275_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_19_dp">
+                <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="· " />
+                <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:layout_width="@dimen/d_275_dp" android:layout_height="wrap_content" android:text="@string/hg302_fpv_setting_gesturing_tracking_turorial_count_down_mask_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/d_275_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_19_dp">
+                <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="· " />
+                <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:layout_width="@dimen/d_275_dp" android:layout_height="wrap_content" android:text="@string/hg302_fpv_fpv_mode_gesturingt_tracking_unavailable_warning_toast_content" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:id="@id/fpv_gesture_info_close" android:layout_width="@dimen/d_48_dp" android:layout_height="@dimen/d_48_dp" android:layout_margin="@dimen/d_10_dp" android:layout_marginTop="@dimen/d_19_dp" android:src="@drawable/dji_ic_setting_close" android:scaleType="center" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

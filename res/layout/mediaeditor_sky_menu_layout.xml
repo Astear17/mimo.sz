@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="@dimen/editor_d_0_dp" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/mediaeditor_toning_menu_item" />
+    <include android:id="@id/mediaeditor_sky_menu_colour" android:layout_width="@dimen/editor_d_0_dp" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/mediaeditor_toning_menu_item" />
+    <include android:id="@id/mediaeditor_sky_menu_radius" android:layout_width="@dimen/editor_d_0_dp" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/mediaeditor_toning_menu_item" />
+    <include android:id="@id/mediaeditor_sky_menu_border" android:layout_width="@dimen/editor_d_0_dp" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/mediaeditor_toning_menu_item" />
+    <include android:id="@id/mediaeditor_sky_menu_light" android:layout_width="@dimen/editor_d_0_dp" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/mediaeditor_toning_menu_item" />
+    <include android:layout_width="@dimen/editor_d_0_dp" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/mediaeditor_toning_menu_item" />
+</LinearLayout>

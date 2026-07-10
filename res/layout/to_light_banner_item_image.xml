@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dji.playback.ui.mino.mimo2light.RoundRadiusLayout android:id="@id/to_light_banner_round" android:layout_width="match_parent" android:layout_height="match_parent" app:roundRadius="@dimen/d_8_dp">
+        <ImageView android:id="@id/to_light_custom_image_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" />
+    </com.dji.playback.ui.mino.mimo2light.RoundRadiusLayout>
+</RelativeLayout>

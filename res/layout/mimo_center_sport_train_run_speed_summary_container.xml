@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/run_speed_summary_container" android:background="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/d_120_dp" android:textColor="@color/color_ffcc00" android:gravity="center" android:id="@id/run_speed_summary_speed" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="12.3" android:layout_centerHorizontal="true" app:fontFamily="@font/roboto_bold_condensed_italic" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/run_speed_summary_speed">
+        <TextView android:textSize="@dimen/d_24_dp" android:textColor="@color/white_40" android:id="@id/run_speed_summary_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="km/h" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:fontFamily="@font/roboto_condensed_bold" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/run_speed_summary_gps_container" android:background="@drawable/mimo_sport_train_type_signal_bg" android:paddingTop="@dimen/d_4_dp" android:paddingBottom="@dimen/d_4_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/run_speed_summary_unit" android:layout_alignBottom="@id/run_speed_summary_unit" android:layout_centerVertical="true" android:paddingStart="@dimen/d_8_dp" android:paddingEnd="@dimen/d_8_dp" android:layout_alignParentEnd="true">
+            <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white" android:id="@id/run_speed_summary_gps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GPS" android:fontFamily="@font/roboto_condensed_bold" />
+            <ImageView android:id="@id/run_speed_summary_gps_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mimo_center_sport_train_icon_signal_strong" android:layout_marginStart="@dimen/d_4_dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

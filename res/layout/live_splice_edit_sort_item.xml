@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/editor_d_54_dp" android:layout_height="@dimen/editor_d_54_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lctsdk.mediaeditor.widget.RadiusCardView android:id="@id/cardview" android:background="@color/custom_main_bg_color" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" app:rcv_bottomLeftRadiu="@dimen/editor_d_4_dp" app:rcv_bottomRightRadiu="@dimen/editor_d_4_dp" app:rcv_topLeftRadiu="@dimen/editor_d_4_dp" app:rcv_topRightRadiu="@dimen/editor_d_4_dp">
+        <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/iv_material" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:radiusColor="@color/custom_main_bg_color" app:roundRadius="@dimen/editor_d_4_dp" />
+    </com.lctsdk.mediaeditor.widget.RadiusCardView>
+    <ImageView android:id="@id/iv_select_bg" android:background="@drawable/preview_video_pre_concor_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" android:elevation="@dimen/editor_d_2_dp" />
+    <ImageView android:id="@id/iv_drag_pos" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/custom_sort_item_shape" android:layout_centerInParent="true" android:elevation="@dimen/editor_d_2_dp" />
+</RelativeLayout>

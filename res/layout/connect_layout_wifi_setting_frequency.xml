@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/pwd_item" android:background="@color/transparent" android:paddingLeft="15.0dp" android:paddingRight="15.0dp" android:layout_width="match_parent" android:layout_height="50.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="left|center" android:layout_gravity="center" android:id="@id/tv_freq_tag" android:background="@color/transparent" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="WiFi" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:background="@color/transparent" android:layout_width="0.0dp" android:layout_height="50.0dp" android:layout_weight="1.0">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_24g_value" android:background="@drawable/device_text_view_border" android:padding="3.0dp" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_toStartOf="@id/tv_58g_value" />
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_58g_value" android:background="@drawable/device_text_view_border" android:padding="3.0dp" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_marginStart="15.0dp" android:layout_alignParentEnd="true" />
+    </LinearLayout>
+</LinearLayout>

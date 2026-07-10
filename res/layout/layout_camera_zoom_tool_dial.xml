@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_center_cursor" android:tag="layout/layout_camera_zoom_tool_dial_0" android:background="@drawable/bg_zoom_dial_center_cursor" android:layout_width="@dimen/zoom_dial_center_cursor_width" android:layout_height="@dimen/zoom_dial_center_cursor_height" android:layout_marginTop="12.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/brand_fill" android:gravity="center" android:id="@id/tv_current_ratio" android:tag="layout/layout_camera_zoom_tool_dial_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp" android:text="1x" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_center_cursor" />
+</merge>

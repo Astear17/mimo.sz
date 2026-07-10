@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/d_16_dp" android:paddingBottom="@dimen/d_16_dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/d_4_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="start" android:orientation="vertical" android:id="@id/tx_name_group" android:layout_width="@dimen/d_0_dp" android:layout_height="wrap_content" android:textAlignment="viewStart" android:paddingEnd="@dimen/d_12_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/tx_mute" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textAppearance="@style/TextStyleRobotoRegular" android:textSize="@dimen/d_17_dp" android:textColor="@color/white" android:id="@id/product_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" android:textFontWeight="600" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp">
+            <com.dji.mimo.accessory.dm303.tx.DMBatteryImageView android:id="@id/tx_battery" android:padding="0.0dp" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" />
+            <com.dji.mimo.accessory.dm303.tx.DMSignalImageView android:id="@id/tx_signal" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:src="@drawable/tx_signal_4" android:layout_marginStart="@dimen/d_8_dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/tx_record" android:layout_width="@dimen/d_56_dp" android:layout_height="@dimen/d_56_dp" android:src="@drawable/dm_setting_tx_record_selector" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/tx_mute" android:layout_width="@dimen/d_56_dp" android:layout_height="@dimen/d_56_dp" android:layout_marginRight="@dimen/d_12_dp" android:src="@drawable/dm_setting_tx_mute_selector" app:layout_constraintEnd_toStartOf="@id/tx_record" app:layout_constraintTop_toTopOf="@id/tx_record" />
+</androidx.constraintlayout.widget.ConstraintLayout>

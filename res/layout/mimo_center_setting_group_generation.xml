@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/set_generate_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_24_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/mimo_common_mytab_my_normal_setting_title" style="@style/TV.MimoCenter.Set.Title.Gray" />
+    <LinearLayout style="@style/TV.MimoCenter.Item.Type.Container.White">
+        <include layout="@layout/mimo_center_setting_item_reset_user_guide" />
+    </LinearLayout>
+</LinearLayout>

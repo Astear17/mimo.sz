@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black_101010" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/upgrade_layout_title" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/connect_history_rv" android:padding="15.0dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" />
+        <include layout="@layout/connect_layout_search_device_empty" />
+        <include layout="@layout/connect_layout_search_open_bluetooth_tip" />
+        <RelativeLayout android:gravity="center" android:id="@id/search_anim_container" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="@dimen/dji_device_17sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_connection_device_searching_content" android:layout_centerInParent="true" />
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/search_anim_view" android:visibility="visible" android:layout_width="@dimen/d_282_dp" android:layout_height="@dimen/d_282_dp" android:layout_centerInParent="true" android:foregroundGravity="center" app:lottie_autoPlay="false" app:lottie_fileName="bluetooth_search_anim.json" app:lottie_loop="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <TextView android:textAppearance="@style/TV.RobotoCondensed.Bold" android:textSize="@dimen/d_16_dp" android:textColor="@color/dji_device_white" android:gravity="center" android:id="@id/bt_connect_help" android:background="@drawable/device_button_radius_bg_conner3dp" android:layout_width="match_parent" android:layout_height="@dimen/d_50_dp" android:layout_marginBottom="@dimen/d_16_dp" android:text="@string/mimo_connection_connection_help_btn" android:layout_marginStart="@dimen/d_16_dp" android:layout_marginEnd="@dimen/d_16_dp" />
+</LinearLayout>

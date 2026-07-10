@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/gallery_segment_edit_audio_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="end" android:id="@id/control_audio_reset_layout" android:layout_width="match_parent" android:layout_height="@dimen/d_20_dp" android:layout_marginTop="@dimen/d_8_dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:id="@id/control_audio_reset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/d_24_dp">
+            <TextView android:textSize="@dimen/d_10_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_audio_reset" android:layout_width="wrap_content" android:layout_height="@dimen/d_20_dp" android:text="@string/ac204_playback_dashboard_import_time_reset_title" android:layout_marginEnd="@dimen/d_4_dp" />
+            <dji.base.ui.widget.dji.DJIImageView android:id="@id/iv_audio_reset" android:layout_width="@dimen/d_16_dp" android:layout_height="@dimen/d_16_dp" android:src="@drawable/ic_playback_segment_edit_paint_reset" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.dji.playback.segment.editor.view.widget.PlaybackRadioGroup android:gravity="center_vertical" android:id="@id/segment_audio_radio_group" android:layout_width="wrap_content" android:layout_height="@dimen/d_44_dp" android:layout_marginTop="@dimen/d_20_dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/control_audio_reset_layout" />
+    <LinearLayout android:gravity="bottom" android:id="@id/segment_audio_basic_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/layoutCutActionBar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/control_audio_reset_layout">
+        <ImageView android:id="@id/segment_audio_basic_volume_mute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_6_dp" android:src="@drawable/ic_playback_segment_edit_audio_off" />
+        <lct.lomo.sdk.editor.widget.VolumeSeekbar android:id="@id/segment_audio_basic_volume_seekbar" android:layout_width="@dimen/d_268_dp" android:layout_height="@dimen/d_63_dp" android:layout_marginStart="@dimen/d_9_dp" android:layout_marginEnd="@dimen/d_9_dp" />
+        <ImageView android:id="@id/segment_audio_basic_volume_max" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_6_dp" android:src="@drawable/ic_playback_segment_edit_audio_on" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/segment_audio_mix_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/layoutCutActionBar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/segment_audio_radio_group">
+        <LinearLayout android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/d_11_dp" android:textColor="@color/white_80" android:layout_width="@dimen/d_82_dp" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_7_dp" android:text="@string/mimo_playback_single_clip_edit_sound_mix_mic_content" />
+            <lct.lomo.sdk.editor.widget.VolumeSeekbar android:id="@id/segment_audio_mix_mic_volume_seekbar" android:layout_width="@dimen/d_268_dp" android:layout_height="@dimen/d_63_dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/d_11_dp" android:textColor="@color/white_80" android:layout_width="@dimen/d_82_dp" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_7_dp" android:text="@string/mimo_playback_single_clip_edit_sound_mix_camera_content" android:maxLines="2" />
+            <lct.lomo.sdk.editor.widget.VolumeSeekbar android:id="@id/segment_audio_mix_camera_volume_seekbar" android:layout_width="@dimen/d_268_dp" android:layout_height="@dimen/d_63_dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layoutCutActionBar" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" android:paddingStart="@dimen/d_24_dp" android:paddingEnd="@dimen/d_24_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <dji.base.ui.widget.dji.DJIImageView android:id="@id/iv_audio_cancel" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/gallery_segment_edit_close" />
+        <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white_90" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/mimo_playback_single_clip_edit_sound_title" android:layout_weight="1.0" />
+        <dji.base.ui.widget.dji.DJIImageView android:id="@id/iv_audio_confirm" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/gallery_segment_edit_comfirm" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

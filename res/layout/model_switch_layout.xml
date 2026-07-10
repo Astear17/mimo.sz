@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_32_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/model_switch_rl" android:background="@drawable/model_switch_bg" android:paddingLeft="@dimen/editor_d_7_dp" android:paddingRight="@dimen/editor_d_10_dp" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_32_dp">
+        <RelativeLayout android:id="@id/rl_icon" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_32_dp">
+            <ImageView android:id="@id/model_switch_iv_03" android:layout_width="@dimen/editor_d_18_dp" android:layout_height="@dimen/editor_d_18_dp" android:layout_marginLeft="@dimen/editor_d_6_dp" android:src="@drawable/mediaeditor_magic_smart" android:layout_centerVertical="true" android:layout_alignStart="@id/model_switch_iv_01" />
+            <ImageView android:id="@id/model_switch_iv_02" android:layout_width="@dimen/editor_d_18_dp" android:layout_height="@dimen/editor_d_18_dp" android:layout_marginLeft="@dimen/editor_d_3_dp" android:src="@drawable/mediaeditor_magic_smart" android:layout_centerVertical="true" android:layout_alignStart="@id/model_switch_iv_01" />
+            <ImageView android:id="@id/model_switch_iv_01" android:layout_width="@dimen/editor_d_18_dp" android:layout_height="@dimen/editor_d_18_dp" android:src="@drawable/mediaeditor_magic_sequential" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/model_switch_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_5_dp" android:text="@string/light_ai_protagonist_mode_description_title" android:layout_toRightOf="@id/rl_icon" android:layout_centerVertical="true" style="@style/H_5_normal" />
+    </RelativeLayout>
+    <ImageView android:id="@id/model_switch_tips" android:layout_width="@dimen/editor_d_18_dp" android:layout_height="@dimen/editor_d_18_dp" android:layout_marginLeft="@dimen/editor_d_5_dp" android:src="@drawable/mediaeditor_magic_tips" android:layout_toRightOf="@id/model_switch_rl" android:layout_centerVertical="true" />
+</RelativeLayout>

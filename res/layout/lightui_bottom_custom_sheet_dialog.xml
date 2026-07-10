@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/lightui_dialog_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_12_dp" app:layout_constraintBottom_toTopOf="@id/cancel_btn">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/list_content_rv" android:layout_width="match_parent" android:layout_height="wrap_content" app:layoutManager="LinearLayoutManager" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/cancel_btn" android:background="@drawable/lightui_dialog_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp" android:layout_marginBottom="@dimen/editor_d_12_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/H_3_bold" />
+</androidx.constraintlayout.widget.ConstraintLayout>

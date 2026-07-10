@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/lctauto_dialog_root_view" android:background="@drawable/goto_score_dialog_shape" android:paddingTop="@dimen/light_d_10_dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/ic_flag" android:visibility="gone" android:layout_width="@dimen/light_d_57_dp" android:layout_height="@dimen/light_d_57_dp" android:layout_marginTop="@dimen/light_d_28_dp" android:src="@drawable/ic_gotoscore_flag" android:layout_centerHorizontal="true" />
+            <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/mediaedit_select_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/light_d_12_dp" android:layout_marginBottom="@dimen/light_d_24_dp" android:text="@string/light_store_score_dialog_content" android:lines="1" android:layout_below="@id/ic_flag" android:layout_centerHorizontal="true" style="@style/H_2_bold" />
+        </RelativeLayout>
+        <View android:background="@color/C_E4E4E4_100" android:layout_width="match_parent" android:layout_height="0.5dp" />
+        <RelativeLayout android:id="@id/rl_score" android:layout_width="match_parent" android:layout_height="@dimen/light_d_50_dp">
+            <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/goto_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_store_score_dialog_ok_btn" android:layout_centerInParent="true" style="@style/H_3_normal" />
+            <ImageView android:layout_width="@dimen/light_d_24_dp" android:layout_height="@dimen/light_d_24_dp" android:layout_marginLeft="@dimen/light_d_10_dp" android:src="@drawable/icon_score_dialog_star" android:layout_toRightOf="@id/goto_score" android:layout_centerVertical="true" />
+            <ImageView android:layout_width="@dimen/light_d_24_dp" android:layout_height="@dimen/light_d_24_dp" android:layout_marginRight="@dimen/light_d_10_dp" android:src="@drawable/icon_score_dialog_star" android:layout_toLeftOf="@id/goto_score" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:background="@color/C_E4E4E4_100" android:layout_width="match_parent" android:layout_height="0.5dp" />
+        <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/next" android:layout_width="match_parent" android:layout_height="@dimen/light_d_50_dp" android:text="@string/light_store_score_dialog_cancel_btn" style="@style/H_3_normal" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_white_1" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/personal_titlebar_other_layout" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@id/pull_refresh_view" layout="@layout/other_user_fragmengt_info" />
+        <RelativeLayout android:id="@id/navs_vice" android:background="@color/background_white_1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_55_dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/d_55_dp">
+                <RelativeLayout android:id="@id/rl_works_vice" android:layout_width="0.0dp" android:layout_height="@dimen/d_55_dp" android:layout_weight="1.0">
+                    <dji.base.ui.widget.DJITypefaceTextView android:textColor="@color/black" android:gravity="center" android:id="@id/tv_works_vice" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/kino_account_work_text" android:layout_centerInParent="true" app:typeFace="@string/ui_typeface_roboto_condensed_bold" style="@style/title_6_600" />
+                    <View android:id="@id/v_works_vice" android:background="@color/color_ffffff" android:visibility="gone" android:layout_width="@dimen/d_24_dp" android:layout_height="2.5dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_likes_vice" android:layout_width="0.0dp" android:layout_height="@dimen/d_55_dp" android:layout_weight="1.0">
+                    <dji.base.ui.widget.DJITypefaceTextView android:textColor="@color/black_60" android:gravity="center" android:id="@id/tv_likes_vice" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/kino_account_likes_text" android:layout_centerInParent="true" app:typeFace="@string/ui_typeface_roboto_condensed_bold" style="@style/title_6_600" />
+                    <View android:id="@id/v_likes_vice" android:background="@color/color_ffffff" android:visibility="gone" android:layout_width="@dimen/d_24_dp" android:layout_height="2.5dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:background="@color/color_282828" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_1_dp" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/mediaeditor_white_dialog_bg" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_44_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/loading_img" android:layout_width="@dimen/editor_d_27_dp" android:layout_height="@dimen/editor_d_27_dp" android:src="@drawable/drawable_voice_loading" android:layout_marginStart="@dimen/editor_d_12_dp" />
+    <TextView android:textColor="@color/C_000000_60" android:layout_gravity="center" android:id="@id/loading_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_ai_voice_detection_loading" android:layout_marginStart="@dimen/editor_d_8_dp" style="@style/H_3_normal" />
+    <ImageView android:layout_gravity="center" android:id="@id/loading_close" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:src="@drawable/loading_close" android:layout_marginStart="@dimen/editor_d_3_dp" android:layout_marginEnd="@dimen/editor_d_10_5_dp" />
+</LinearLayout>

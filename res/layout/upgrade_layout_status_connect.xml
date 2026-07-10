@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_status_root" android:background="@color/dji_device_status_bg_blue" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_status_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dji_device_16dp" android:layout_marginRight="@dimen/dji_device_16dp" android:src="@drawable/upgrade_status_connect" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/dji_device_17sp" android:textStyle="bold" android:textColor="@color/dji_device_white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_status_info" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/dji_device_36dp" android:text="@string/upgrade_status_device_was_connected" android:layout_centerVertical="true" />
+</RelativeLayout>

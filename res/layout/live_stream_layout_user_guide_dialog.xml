@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:background="@drawable/live_stream_btn_bg" android:paddingBottom="@dimen/d_30_dp" android:layout_width="match_parent" android:layout_height="@dimen/d_450_dp" android:layout_marginStart="@dimen/d_16_dp" android:layout_marginEnd="@dimen/d_16_dp">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/user_guide_rv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_16_dp" android:layout_above="@id/user_guide_indicator" />
+        <dji.base.ui.widget.indicator.ScrollingPagerIndicator android:layout_gravity="center|bottom" android:id="@id/user_guide_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:spi_dotColor="#979797" app:spi_dotSelectedColor="#979797" app:spi_dotSelectedSize="7.0dp" app:spi_dotSize="6.0dp" app:spi_looped="false" app:spi_visibleDotCount="3" />
+        <ImageView android:id="@id/user_guide_close" android:layout_width="@dimen/d_16_dp" android:layout_height="@dimen/d_16_dp" android:layout_marginTop="@dimen/d_16_dp" android:src="@drawable/live_stream_icon_guide_close" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/d_16_dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:id="@id/user_guide_bottom" android:layout_width="match_parent" android:layout_height="@dimen/d_22_dp" />
+</LinearLayout>

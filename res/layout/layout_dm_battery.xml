@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_8_dp" android:textColor="@color/white_80" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_dm_battery_title" android:background="@drawable/round_rectangle_gray" android:paddingTop="@dimen/d_1_dp" android:paddingBottom="@dimen/d_1_dp" android:layout_width="@dimen/d_28_dp" android:layout_height="wrap_content" android:text="tx" />
+    <com.dji.mimo.accessory.dm303.tx.DMBatteryImageView android:id="@id/iv_dm_battery" android:paddingTop="@dimen/d_2_dp" android:paddingBottom="@dimen/d_2_dp" android:layout_width="@dimen/d_20_dp" android:layout_height="@dimen/d_20_dp" android:layout_marginLeft="@dimen/d_6_dp" android:paddingStart="@dimen/d_1_dp" android:paddingEnd="@dimen/d_1_dp" />
+</merge>

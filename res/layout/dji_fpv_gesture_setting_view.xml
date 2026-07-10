@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:id="@id/fpv_gesture_setting_root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/fpv_gesture_setting_ly" android:background="@color/black_80" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <dji.lomo.fpv.om3.view.rightbar.gesture.DJILPFpvRightBarGestureTrackingView android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_8_dp" app:descText="@string/hg302_fpv_setting_cell_title_gesture_tracking" app:titleText="@string/hg302_fpv_setting_cell_title_gesture_tracking" app:typeFace="@string/ui_typeface_roboto_condensed_bold" style="@style/dji_setting_item_ll" />
+            <dji.base.ui.widget.DJIItemViewDetail android:gravity="top" android:id="@id/title_detail" android:paddingBottom="@dimen/d_12_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-10.0dp" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_16_dp" app:detailText="@string/hg303_fpv_pano_gesture_switch_tips" app:typeFace="@string/ui_typeface_roboto_condensed_regular" style="@style/dji_setting_item_ll" />
+        </LinearLayout>
+        <include android:id="@id/layout_gesture_mode_select" layout="@layout/dji_rightbar_gesture_mode_select_om3" />
+    </LinearLayout>
+</merge>

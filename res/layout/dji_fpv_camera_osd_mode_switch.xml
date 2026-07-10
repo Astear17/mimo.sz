@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_18_dp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/camera_osd_mode_m" android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/dji_camera_mode_m" android:layout_weight="1.0" style="@style/TextStyleRobotoCondensedBold" />
+    <ImageView android:id="@id/camera_osd_mode_auto" android:padding="@dimen/d_8_dp" android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="match_parent" android:src="@drawable/dji_ic_camera_mode_auto_nor" android:scaleType="center" android:layout_weight="1.0" />
+</merge>

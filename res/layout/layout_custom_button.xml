@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_custom_button_container" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <Button android:layout_gravity="center" android:id="@id/custom_button" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="0.0dp" android:textAllCaps="false" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/custom_button_loading_light" android:layout_width="24.0dp" android:layout_height="24.0dp" android:indeterminate="true" android:indeterminateDrawable="@drawable/loading_small_light" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/custom_button_loading_dark" android:layout_width="24.0dp" android:layout_height="24.0dp" android:indeterminate="true" android:indeterminateDrawable="@drawable/loading_small_dark" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

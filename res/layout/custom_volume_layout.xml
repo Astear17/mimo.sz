@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/template_bottom_sheet_bg" android:layout_width="match_parent" android:layout_height="@dimen/template_common_bottom_sheet"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lct.lomo.sdk.editor.widget.BaseRecyclerView android:id="@id/recycler_view" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_40_dp" android:layout_marginTop="@dimen/editor_d_24_dp" android:overScrollMode="never" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/volume_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_44_dp" android:layout_marginTop="@dimen/editor_d_13_dp" android:layout_marginRight="@dimen/editor_d_30_dp">
+        <TextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/editor_d_5_dp" android:layout_marginBottom="@dimen/editor_d_7_dp" android:text="@string/light_mystory_editor_original_volume" android:maxLines="1" style="@style/H_4_normal" />
+        <lct.lomo.sdk.editor.widget.VolumeSeekbar android:id="@id/volume_seekbar" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_70_dp" />
+    </LinearLayout>
+    <include android:id="@id/mediaedit_menu_bottom_layout_id" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_64_dp" layout="@layout/custom_menu_bottom_layout" />
+</LinearLayout>

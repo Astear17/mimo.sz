@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/lct_dialog_root_view" android:padding="@dimen/editor_d_22_dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/mediaeditor_dialog_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/tv_title" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_64_dp" android:text="@string/light_model_story_more_delete_title" android:lines="1" android:paddingStart="@dimen/editor_d_16_dp" android:paddingEnd="@dimen/editor_d_16_dp" style="@style/H_3_normal" />
+        <View android:id="@id/line" android:background="@color/C_E4E4E4_100" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" />
+        <TextView android:textColor="@color/C_F22443_100" android:gravity="center" android:id="@id/tv_delete" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp" android:text="@string/light_model_story_more_delete_delete" style="@style/H_3_normal" />
+    </LinearLayout>
+    <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/tv_cancel" android:background="@drawable/mediaeditor_dialog_bg" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp" android:layout_marginTop="@dimen/editor_d_12_dp" android:text="@string/light_model_story_more_delete_cancel" style="@style/H_3_normal" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#99000000" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ProgressBar android:id="@id/progressbar" android:layout_width="@dimen/editor_d_28_dp" android:layout_height="@dimen/editor_d_28_dp" android:indeterminateDrawable="@drawable/shape_model_loading_progress" />
+        <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:id="@id/tv_buffering_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dp" android:text="@string/editor_playback_cloud_album_loading_toast" />
+        <ImageView android:id="@id/iv_buffering_close" android:layout_width="32.0dp" android:layout_height="32.0dp" android:layout_marginTop="32.0dp" android:src="@drawable/ic_buffering_close" android:contentDescription="@null" />
+    </LinearLayout>
+</FrameLayout>

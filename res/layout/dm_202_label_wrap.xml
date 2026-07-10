@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/setting_container" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" app:layout_constraintTop_toBottomOf="@id/setting_container">
+        <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/product_label_1" android:background="@drawable/dm_setting_label_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/d_20_dp" android:paddingStart="@dimen/d_8_dp" android:paddingEnd="@dimen/d_8_dp" android:textFontWeight="500" />
+        <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/product_label_2" android:background="@drawable/dm_setting_label_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/d_20_dp" android:paddingStart="@dimen/d_8_dp" android:paddingEnd="@dimen/d_8_dp" android:layout_marginStart="@dimen/d_8_dp" android:textFontWeight="500" />
+        <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/product_label_3" android:background="@drawable/dm_setting_label_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/d_20_dp" android:paddingStart="@dimen/d_8_dp" android:paddingEnd="@dimen/d_8_dp" android:layout_marginStart="@dimen/d_8_dp" android:textFontWeight="500" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

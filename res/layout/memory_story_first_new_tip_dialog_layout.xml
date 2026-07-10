@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/model_welcome_root" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/model_welcome_text" android:background="@drawable/memory_model_welcome_text_bg" android:paddingLeft="@dimen/editor_d_16_dp" android:paddingRight="@dimen/editor_d_16_dp" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_28_dp" android:layout_marginBottom="@dimen/editor_d_08_dp" android:lines="1" style="@style/H_4_bold" />
+    <ImageView android:id="@id/model_welcome_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_red_arrow" android:layout_below="@id/model_welcome_text" />
+</RelativeLayout>

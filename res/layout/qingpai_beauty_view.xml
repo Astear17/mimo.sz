@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="horizontal" android:paddingBottom="@dimen/editor_d_8_dp" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_70_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/qingpai_beauty_view_close" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/white_70" android:id="@id/qingpai_beauty_view_close_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_afflatus_beautify_off_btn" android:shadowColor="@color/black_30" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="1.0" style="@style/H_4_normal" />
+        <View android:id="@id/qingpai_beauty_view_close_line" android:background="@color/white" android:layout_width="@dimen/editor_d_1_dp" android:layout_height="@dimen/editor_d_0_dp" android:layout_marginTop="@dimen/editor_d_6_dp" android:layout_marginBottom="@dimen/editor_d_12_dp" />
+        <View android:id="@id/qingpai_beauty_view_close_text_point" android:background="@drawable/shape_white_point" android:layout_width="@dimen/editor_d_5_dp" android:layout_height="@dimen/editor_d_5_dp" />
+    </LinearLayout>
+    <View android:layout_width="@dimen/editor_d_0_dp" android:layout_height="@dimen/editor_d_0_dp" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/qingpai_beauty_view_light" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/white_70" android:id="@id/qingpai_beauty_view_light_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_afflatus_beautify_low_btn" android:shadowColor="@color/black_30" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="1.0" style="@style/H_4_normal" />
+        <View android:id="@id/qingpai_beauty_view_light_line" android:background="@color/white" android:layout_width="@dimen/editor_d_1_dp" android:layout_height="@dimen/editor_d_0_dp" android:layout_marginTop="@dimen/editor_d_6_dp" android:layout_marginBottom="@dimen/editor_d_12_dp" />
+        <View android:id="@id/qingpai_beauty_view_light_text_point" android:background="@drawable/shape_white_point" android:layout_width="@dimen/editor_d_5_dp" android:layout_height="@dimen/editor_d_5_dp" />
+    </LinearLayout>
+    <View android:layout_width="@dimen/editor_d_0_dp" android:layout_height="@dimen/editor_d_0_dp" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/qingpai_beauty_view_normal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/white" android:id="@id/qingpai_beauty_view_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_afflatus_beautify_medium_btn" android:shadowColor="@color/black_30" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="1.0" style="@style/H_4_normal" />
+        <View android:id="@id/qingpai_beauty_view_normal_line" android:background="@color/white" android:layout_width="@dimen/editor_d_1_dp" android:layout_height="@dimen/editor_d_6_dp" android:layout_marginTop="@dimen/editor_d_6_dp" android:layout_marginBottom="@dimen/editor_d_12_dp" />
+        <View android:id="@id/qingpai_beauty_view_normal_text_point" android:background="@drawable/shape_white_point" android:layout_width="@dimen/editor_d_5_dp" android:layout_height="@dimen/editor_d_5_dp" />
+    </LinearLayout>
+    <View android:layout_width="@dimen/editor_d_0_dp" android:layout_height="@dimen/editor_d_0_dp" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/qingpai_beauty_view_hard" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/white_70" android:id="@id/qingpai_beauty_view_hard_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_afflatus_beautify_high_btn" android:shadowColor="@color/black_30" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="1.0" style="@style/H_4_normal" />
+        <View android:id="@id/qingpai_beauty_view_hard_line" android:background="@color/white" android:layout_width="@dimen/editor_d_1_dp" android:layout_height="@dimen/editor_d_0_dp" android:layout_marginTop="@dimen/editor_d_6_dp" android:layout_marginBottom="@dimen/editor_d_12_dp" />
+        <View android:id="@id/qingpai_beauty_view_hard_text_point" android:background="@drawable/shape_white_point" android:layout_width="@dimen/editor_d_5_dp" android:layout_height="@dimen/editor_d_5_dp" />
+    </LinearLayout>
+</LinearLayout>

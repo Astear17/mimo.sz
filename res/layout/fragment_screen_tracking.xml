@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/rootView" android:background="@color/bkg_screen_tracking_fragment" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="@dimen/d_30_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layout_permission_check" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/layout_screen_tracking_permission" />
+    <include android:id="@id/layout_start_screen_tracking" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/layout_screen_tracking_start" />
+    <com.dji.screentracking.view.DJIBkgLockTipView android:id="@id/bkg_lock_tip_view" android:background="@color/black_40" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

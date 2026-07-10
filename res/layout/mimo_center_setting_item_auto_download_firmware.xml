@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mimo_center_set_auto_download_firmware_container" style="@style/MimoCenterItemContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/mimo_center_set_auto_download_firmware_title" android:text="@string/mimo_setting_firmvareDownloadWifi_content" android:layout_toStartOf="@id/mimo_center_set_auto_download_firmware_checkbox" style="@style/TV.MimoCenter.Item.Title.Black" />
+    <CheckBox android:id="@id/mimo_center_set_auto_download_firmware_checkbox" style="@style/TV.MimoCenter.Item.CheckBox.New" />
+</RelativeLayout>

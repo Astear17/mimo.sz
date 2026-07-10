@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/d_42_dp" android:paddingStart="@dimen/d_8_dp" android:paddingEnd="@dimen/d_10_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/radio_group_title" layout="@layout/lp_setting_item_title" />
+    <RadioGroup android:id="@id/radio_group" style="@style/lp_setting_radio_group">
+        <RadioButton android:id="@id/radio_group_left_btn" android:background="@drawable/lp_setting_radio_left_button_bg" android:layout_width="@dimen/d_50_dp" style="@style/lp_setting_radio_button" />
+        <View style="@style/lp_setting_radio_group_divider" />
+        <RadioButton android:id="@id/radio_group_right_btn" android:background="@drawable/lp_setting_radio_right_button_bg" android:layout_width="@dimen/d_50_dp" style="@style/lp_setting_radio_button" />
+    </RadioGroup>
+</LinearLayout>

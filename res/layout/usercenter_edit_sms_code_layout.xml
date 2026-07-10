@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.handheld.uikit.components.input.AccountVerifyInputView android:id="@id/sms_code_input_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:countDownSecond="60" app:hintText="@string/kino_phone_vertificationcode_placeholder_text" app:uiTheme="light" app:verificationCodeText="@string/kino_phone_vertificationcode_text" app:verifyInputMode="verificationCode" />
+</RelativeLayout>

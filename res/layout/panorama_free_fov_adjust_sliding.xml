@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="@dimen/editor_d_36_dp" android:layout_height="@dimen/editor_d_438_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/panorama_fov_adjust_layout" android:background="@drawable/shape_fov_adjust_sliding_bg" android:visibility="gone" android:layout_width="@dimen/editor_d_36_dp" android:layout_height="@dimen/editor_d_235_dp">
+        <ImageView android:id="@id/panorama_fov_adjust_icon_in" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:layout_marginTop="@dimen/editor_d_8_dp" android:src="@drawable/panorama_free_fov_adjust_sliding_in" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/panorama_fov_adjust_icon_out" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:layout_marginBottom="@dimen/editor_d_8_dp" android:src="@drawable/panorama_free_fov_adjust_sliding_out" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:layout_gravity="center_horizontal" android:id="@id/panorama_fov_adjust_slider" android:background="@drawable/shape_fov_adjust_sliding_slider" android:visibility="gone" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" />
+    <ImageView android:layout_gravity="center" android:id="@id/panorama_fov_adjust" android:background="@drawable/shape_fov_adjust_bg" android:padding="@dimen/editor_d_2_dp" android:layout_width="@dimen/editor_d_36_dp" android:layout_height="@dimen/editor_d_36_dp" android:layout_marginTop="@dimen/editor_d_8_dp" android:src="@drawable/panorama_free_fov_adjust_sliding_in" />
+</merge>

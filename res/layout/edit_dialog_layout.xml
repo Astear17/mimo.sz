@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="@dimen/d_15_dp" android:textColor="@color/normal_black_text_color" android:gravity="center_vertical" android:id="@id/comment_edit" android:background="@color/comments_edit_bg_color" android:paddingLeft="@dimen/d_23_dp" android:paddingRight="@dimen/d_23_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_16_dp" android:layout_marginTop="@dimen/d_12_dp" android:layout_marginRight="@dimen/d_16_dp" android:layout_marginBottom="@dimen/d_12_dp" android:minHeight="@dimen/d_36_dp" android:hint="@string/mimo_community_activity_comment_placeholder" android:cursorVisible="true" android:maxLines="3" android:layout_toLeftOf="@id/comment_submit" android:layout_centerVertical="true" android:textCursorDrawable="@null" />
+    <ImageView android:id="@id/comment_submit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/d_16_dp" android:src="@drawable/comment_submit_btn_selector" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

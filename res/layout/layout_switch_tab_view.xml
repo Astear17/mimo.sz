@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="40.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/layout_left_tab" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+            <TextView android:textSize="16.0sp" android:textColor="@color/brand_fill" android:gravity="center_vertical" android:id="@id/tv_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/title_6_600" />
+            <ImageView android:id="@id/iv_left_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_tab_indicator_selected" />
+        </LinearLayout>
+        <View android:id="@id/left_mask" android:background="@color/black_50" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/layout_right_tab" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textColor="@color/white_100" android:gravity="center_vertical" android:id="@id/tv_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/title_6_600" />
+            <ImageView android:id="@id/iv_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_tab_indicator_unselected" />
+        </LinearLayout>
+        <View android:id="@id/right_mask" android:background="@color/black_50" android:focusable="false" android:visibility="visible" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+</LinearLayout>

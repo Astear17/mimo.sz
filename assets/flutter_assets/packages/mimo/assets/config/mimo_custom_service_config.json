@@ -1,0 +1,12 @@
+{
+  "mine_tab_service_avatar": {
+    "country": {
+      "AU,NZ,PR,US,MX,CA,AT,BE,BG,HR,CZ,DK,EE,FI,FR,DE,GR,HU,IE,IT,LV,LI,LT,LU,MT,MC,NL,NO,PL,PT,SK,SI,ES,SE,CH,GB,BR": "https://terra-1-g.djicdn.com/9d976d7d500e4372a6949315722d264f/mimo-support/service_white.webp",
+      "CN,HK,TW,MC,ID,IN,SG,JP,KR,AE": "https://terra-1-g.djicdn.com/9d976d7d500e4372a6949315722d264f/mimo-support/service_yellow.webp"
+    },
+    "lang": {
+      "en,de,fr,it,es": "https://terra-1-g.djicdn.com/9d976d7d500e4372a6949315722d264f/mimo-support/service_white.webp",
+      "zh,ja,ko": "https://terra-1-g.djicdn.com/9d976d7d500e4372a6949315722d264f/mimo-support/service_yellow.webp"
+    }
+  }
+}

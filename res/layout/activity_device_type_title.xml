@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/device_title_rl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_24_dp" android:layout_marginRight="@dimen/editor_d_24_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/black" android:id="@id/device_type_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_connection_common_fixed_entrance_my_device" android:layout_centerVertical="true" style="@style/H_1_bold" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/device_loading_pb" android:visibility="gone" android:layout_width="@dimen/editor_d_20_dp" android:layout_height="@dimen/editor_d_20_dp" android:layout_marginRight="@dimen/editor_d_5_dp" android:indeterminateDrawable="@drawable/device_loading_progress" android:layout_toLeftOf="@id/scan_device_tv" android:layout_centerVertical="true" />
+    <TextView android:textColor="@color/black" android:id="@id/scan_device_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/H_4_normal" />
+</RelativeLayout>

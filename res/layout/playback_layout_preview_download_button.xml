@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dji.playback.preview.widget.PlaybackActionImageView android:id="@id/image_content_button" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/v3_ic_playback_file_not_download_topbar" android:scaleType="centerInside" android:contentDescription="@null" app:tint="@color/white" />
+    <com.dji.playback.preview.widget.PlaybackPreviewDownloadProgressBtn android:id="@id/progress_button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</merge>

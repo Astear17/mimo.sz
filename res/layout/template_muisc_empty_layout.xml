@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/music_collection_empty" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/empty_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/model_music_mine_empty" />
+    <TextView android:textColor="@color/white_45" android:id="@id/empty_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_8_dp" android:text="@string/light_model_music_no_import_txet" style="@style/H_4_normal" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/black" android:layout_width="match_parent" android:layout_height="@dimen/d_56_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/sport_train_type_tab_ride" android:background="@drawable/mimo_sport_train_type_item_selected_bg" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/d_32_dp" android:minWidth="@dimen/d_112_dp" android:layout_marginEnd="@dimen/d_16_dp" android:paddingHorizontal="@dimen/d_16_dp">
+        <ImageView android:id="@id/sport_train_type_tab_ride_icon" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:src="@drawable/mimo_center_sport_train_icon_bike_selected" />
+        <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/black" android:id="@id/sport_train_type_tab_ride_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_common_sports_bike_record_title" android:fontFamily="@font/roboto_condensed_bold" android:layout_marginStart="@dimen/d_4_dp" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/sport_train_type_tab_run" android:background="@drawable/mimo_sport_train_type_item_unselected_bg" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/d_32_dp" android:minWidth="@dimen/d_112_dp" android:paddingHorizontal="@dimen/d_16_dp">
+        <ImageView android:id="@id/sport_train_type_tab_run_icon" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:src="@drawable/mimo_center_sport_train_icon_run_unselected" />
+        <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white_60" android:id="@id/sport_train_type_tab_run_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_common_sports_run_record_title" android:fontFamily="@font/roboto_condensed_bold" android:layout_marginStart="@dimen/d_4_dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/mimo_dialog_bg" android:paddingTop="@dimen/d_28_dp" android:layout_width="@dimen/d_280_dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_community_video_more_deleteconfirm_description" android:includeFontPadding="false" android:maxLength="32" android:lineSpacingMultiplier="1.1" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_16_dp" style="@style/TextStyleRobotoRegular" />
+    <View android:id="@id/dialog_hor_line" android:background="#24ffffff" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="@dimen/d_28_dp" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/d_50_dp">
+        <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/white_90" android:gravity="center" android:id="@id/cancel" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/mimo_community_comment_deleteconfirm_button_no" android:layout_weight="1.0" style="@style/TextStyleRobotoMedium" />
+        <View android:id="@id/dialog_sep_line" android:background="#24ffffff" android:layout_width="0.5dp" android:layout_height="match_parent" />
+        <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/color_1fa3f6" android:gravity="center" android:id="@id/delete" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/mimo_community_comment_deleteconfirm_button_yes" android:layout_weight="1.0" style="@style/TextStyleRobotoMedium" />
+    </LinearLayout>
+</LinearLayout>

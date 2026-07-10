@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/upload_container" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_99_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/upload_float_show_bar" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_56_dp">
+        <FrameLayout android:id="@id/upload_float_container" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <com.lct.uilib.widget.view.ShadowLinnerLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/editor_d_17_dp" android:paddingRight="@dimen/editor_d_17_dp" android:layout_width="@dimen/editor_d_146_dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/editor_d_22_dp" android:layout_marginRight="@dimen/editor_d_22_dp" app:bgColor="@color/white" app:blurRadius="@dimen/editor_d_5_dp" app:parentColor="@color/C_FAFAFA_100" app:shadowColor="@color/mediaedit_color_B3F3F3F3" app:shadowRadius="@dimen/editor_d_36_dp" app:xOffset="@dimen/editor_d_0_dp" app:yOffset="@dimen/editor_d_5_dp">
+                <com.lct.uilib.widget.RoundRadiusImageView android:id="@id/upload_float_image" android:visibility="gone" android:layout_width="@dimen/editor_d_36_dp" android:layout_height="@dimen/editor_d_36_dp" android:layout_marginLeft="@dimen/editor_d_22_dp" android:layout_marginTop="@dimen/editor_d_2_dp" android:scaleType="centerCrop" app:radiusColor="@color/white" app:roundRadius="@dimen/editor_d_3_dp" />
+                <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/upload_float_text" android:layout_width="@dimen/editor_d_0_dp" android:layout_height="match_parent" android:layout_marginTop="@dimen/editor_d_2_dp" android:text="@string/light_upload_post_success_toast" android:layout_weight="1.0" style="@style/H_3_normal" />
+                <TextView android:textColor="@color/C_F22443_100" android:gravity="right|center" android:id="@id/upload_float_retry" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="@dimen/editor_d_2_dp" android:text="@string/light_upload_post_failed_retry" style="@style/H_4_normal" />
+            </com.lct.uilib.widget.view.ShadowLinnerLayout>
+            <View android:layout_gravity="center|bottom" android:id="@id/upload_float_bottom_line" android:background="@drawable/shape_upload_float_bottom_line" android:visibility="gone" android:layout_width="@dimen/editor_d_27_dp" android:layout_height="@dimen/editor_d_3_dp" android:layout_marginBottom="@dimen/editor_d_4_dp" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/share_container_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+</FrameLayout>

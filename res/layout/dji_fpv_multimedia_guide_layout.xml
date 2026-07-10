@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/transparent_alpha_60" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/player_container" android:layout_width="@dimen/d_300_dp" android:layout_height="@dimen/d_200_dp" android:layout_centerInParent="true">
+        <VideoView android:id="@id/video_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <TextView android:gravity="center_horizontal" android:id="@id/subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_20_dp" android:layout_alignParentBottom="true" android:paddingStart="@dimen/d_30_dp" android:paddingEnd="@dimen/d_30_dp" />
+    </RelativeLayout>
+    <TextView android:textAppearance="@style/TextStyleRobotoBold" android:textSize="@dimen/d_18_dp" android:textColor="@color/white" android:id="@id/page_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/d_20_dp" android:text="上一步" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+    <TextView android:textAppearance="@style/TextStyleRobotoBold" android:textSize="@dimen/d_18_dp" android:textColor="@color/white" android:id="@id/page_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/d_20_dp" android:text="如何拍摄创意全景" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:textAppearance="@style/TextStyleRobotoBold" android:textSize="@dimen/d_18_dp" android:textColor="@color/white" android:id="@id/page_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/d_20_dp" android:text="下一步" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_alignParentEnd="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/checked_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/d_20_dp" android:layout_alignParentBottom="true" android:layout_alignParentStart="true">
+        <ImageView android:id="@id/check_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/base_checkbox" />
+        <TextView android:textSize="@dimen/d_18_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/tip_operate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下次不再提示" android:layout_marginStart="@dimen/d_10_dp" />
+    </LinearLayout>
+</RelativeLayout>

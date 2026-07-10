@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lctsdk.mediaeditor.tabviews.video.RoundRadiusLayout android:id="@id/progress_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" app:roundRadius="@dimen/editor_d_3_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/progress_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/shape_progress_bg" />
+    <lct.lomo.sdk.editor.widget.progress.RoundCornerImageView android:id="@id/progress" android:layout_width="0.0dp" android:layout_height="match_parent" android:src="@drawable/lcti_progress_gradient" android:scaleType="centerCrop" />
+</com.lctsdk.mediaeditor.tabviews.video.RoundRadiusLayout>

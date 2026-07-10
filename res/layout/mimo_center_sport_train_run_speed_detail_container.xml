@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/run_speed_detail_container" android:background="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/d_28_dp" android:textColor="@color/white_90" android:id="@id/run_speed_detail_data_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:24" android:fontFamily="@font/roboto_condensed_bold" />
+            <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_60" android:id="@id/run_speed_detail_label_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_common_sports_run_time_title" android:fontFamily="@font/roboto_condensed_bold" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/d_28_dp" android:textColor="@color/white_90" android:id="@id/run_speed_detail_data_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5.27 Km" android:fontFamily="@font/roboto_condensed_bold" />
+            <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_60" android:id="@id/run_speed_detail_label_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_common_sports_run_speed_title" android:fontFamily="@font/roboto_condensed_bold" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/d_28_dp" android:textColor="@color/white_90" android:id="@id/run_speed_detail_data_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="12 Spm" android:fontFamily="@font/roboto_condensed_bold" />
+            <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_60" android:id="@id/run_speed_detail_label_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_common_sports_run_cadence_title" android:fontFamily="@font/roboto_condensed_bold" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/d_28_dp" android:textColor="@color/white_90" android:id="@id/run_speed_detail_data_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5 %" android:fontFamily="@font/roboto_condensed_bold" />
+            <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_60" android:id="@id/run_speed_detail_label_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_common_sports_bike_slope_title" android:fontFamily="@font/roboto_condensed_bold" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/d_28_dp" android:textColor="@color/white_90" android:id="@id/run_speed_detail_data_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="120 M" android:fontFamily="@font/roboto_condensed_bold" />
+            <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_60" android:id="@id/run_speed_detail_label_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_common_sports_bike_altitude_title" android:fontFamily="@font/roboto_condensed_bold" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/d_28_dp" android:textColor="@color/white_90" android:id="@id/run_speed_detail_data_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:fontFamily="@font/roboto_condensed_bold" />
+            <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_60" android:id="@id/run_speed_detail_label_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_common_sports_bike_heartrate_title" android:fontFamily="@font/roboto_condensed_bold" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

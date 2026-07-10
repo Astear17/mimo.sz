@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_10_dp" android:layout_marginBottom="@dimen/editor_d_12_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_error_icon" android:layout_width="@dimen/editor_d_96_dp" android:layout_height="@dimen/editor_d_96_dp" android:src="@drawable/light_ic_no_content" />
+    <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/tv_error_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_4_dp" android:text="@string/light_community_template_search_hotlist_retry" android:includeFontPadding="false" android:alpha="0.45" style="@style/H_3_normal" />
+    <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/tv_retry" android:background="@drawable/shape_community_template_search_hotlist_retry_bg" android:paddingLeft="@dimen/editor_d_20_dp" android:paddingRight="@dimen/editor_d_20_dp" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_28_dp" android:layout_marginTop="@dimen/editor_d_40_dp" android:minWidth="@dimen/editor_d_72_dp" android:text="@string/light_community_template_search_hotlist_retry_btn" style="@style/H_4_normal" />
+</LinearLayout>

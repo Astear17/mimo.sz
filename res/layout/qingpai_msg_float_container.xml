@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/shape_qingpai_msg_float_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lct.lomo.sdk.editor.customtemp.qingpai.view.QingPaiMsgFloatRecyclerView android:id="@id/qingpai_float_msg_container_recyclerview" android:layout_width="@dimen/editor_d_240_dp" android:layout_height="@dimen/editor_d_32_dp" />
+    <ImageView android:layout_gravity="right" android:id="@id/qingpai_float_msg_container_close" android:padding="@dimen/editor_d_4_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/qingpai_tip_close" />
+</FrameLayout>

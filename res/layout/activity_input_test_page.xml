@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/background_black_1" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:background="@color/black_100" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/page_padding_horizontal">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/darker_gray" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" android:text="Input Components Demo" android:elevation="2.0dp" android:letterSpacing="0.05" android:paddingVertical="8.0dp" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white_100" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:layout_marginBottom="8.0dp" android:text="🌙 Dark Theme (Default)" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white_60" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="Account Input Components - Dark Theme" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="Username" />
+            <com.handheld.uikit.components.input.AccountInputView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" app:hintText="Enter username" app:inputMode="plainText" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="Password" />
+            <com.handheld.uikit.components.input.AccountInputView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" app:hintText="Please enter password" app:inputMode="password" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="Verification Code" />
+            <com.handheld.uikit.components.input.AccountVerifyInputView android:id="@id/input_view_get_code_dark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" app:hintText="验证码" app:verificationCodeText="获取验证码" app:verifyInputMode="verificationCode" />
+            <com.handheld.uikit.components.input.AccountVerifyInputView android:id="@id/input_view_get_img_code_dark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dp" app:hintText="图片验证码" app:verifyInputMode="verificationImage" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white_100" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" android:text="☀️ Light Theme" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white_60" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="Account Input Components - Light Theme" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="Username" />
+            <com.handheld.uikit.components.input.AccountInputView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" app:hintText="Enter username" app:inputMode="plainText" app:uiTheme="light" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="Password" />
+            <com.handheld.uikit.components.input.AccountInputView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" app:hintText="Please enter password" app:inputMode="password" app:uiTheme="light" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="Verification Code" />
+            <com.handheld.uikit.components.input.AccountVerifyInputView android:id="@id/input_view_get_code_light" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" app:hintText="验证码" app:uiTheme="light" app:verificationCodeText="获取验证码" app:verifyInputMode="verificationCode" />
+            <com.handheld.uikit.components.input.AccountVerifyInputView android:id="@id/input_view_get_img_code_light" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dp" app:hintText="图片验证码" app:uiTheme="light" app:verifyInputMode="verificationImage" />
+            <View android:background="@color/white_20" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="24.0dp" android:layout_marginBottom="16.0dp" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white_100" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:text="📝 Text-Box Components" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white_60" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="Multi-line text input with character counter" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="Dark Theme BoxInputView" />
+            <com.handheld.uikit.components.input.BoxInputView android:id="@id/box_input_dark" android:layout_width="match_parent" android:layout_height="200.0dp" android:layout_marginBottom="20.0dp" app:hintText="输入个人简介（Dark Theme）" app:maxLength="200" app:showCounter="true" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="Light Theme BoxInputView" />
+            <com.handheld.uikit.components.input.BoxInputView android:id="@id/box_input_light" android:layout_width="match_parent" android:layout_height="200.0dp" android:layout_marginBottom="32.0dp" app:hintText="输入个人简介（Light Theme）" app:maxLength="200" app:showCounter="true" app:uiTheme="light" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white_100" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:text="🔄 Theme Comparison" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white_60" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="Side-by-side comparison of Dark vs Light themes" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="8.0dp">
+                    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:text="Dark Theme" />
+                    <com.handheld.uikit.components.input.AccountInputView android:layout_width="match_parent" android:layout_height="wrap_content" app:hintText="Username" app:inputMode="plainText" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="8.0dp">
+                    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:text="Light Theme" />
+                    <com.handheld.uikit.components.input.AccountInputView android:layout_width="match_parent" android:layout_height="wrap_content" app:hintText="Username" app:inputMode="plainText" app:uiTheme="light" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="8.0dp">
+                    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:text="Dark Theme" />
+                    <com.handheld.uikit.components.input.AccountInputView android:layout_width="match_parent" android:layout_height="wrap_content" app:hintText="Password" app:inputMode="password" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="8.0dp">
+                    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:text="Light Theme" />
+                    <com.handheld.uikit.components.input.AccountInputView android:layout_width="match_parent" android:layout_height="wrap_content" app:hintText="Password" app:inputMode="password" app:uiTheme="light" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="8.0dp">
+                    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:text="Dark Theme" />
+                    <com.handheld.uikit.components.input.AccountVerifyInputView android:layout_width="match_parent" android:layout_height="wrap_content" app:hintText="验证码" app:verificationCodeText="获取验证码" app:verifyInputMode="verificationCode" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="8.0dp">
+                    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:text="Light Theme" />
+                    <com.handheld.uikit.components.input.AccountVerifyInputView android:layout_width="match_parent" android:layout_height="wrap_content" app:hintText="验证码" app:uiTheme="light" app:verificationCodeText="获取验证码" app:verifyInputMode="verificationCode" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="8.0dp">
+                    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:text="Dark Theme" />
+                    <com.handheld.uikit.components.input.BoxInputView android:layout_width="match_parent" android:layout_height="120.0dp" app:hintText="个人简介" app:maxLength="100" app:showCounter="true" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="8.0dp">
+                    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:text="Light Theme" />
+                    <com.handheld.uikit.components.input.BoxInputView android:layout_width="match_parent" android:layout_height="120.0dp" app:hintText="个人简介" app:maxLength="100" app:showCounter="true" app:uiTheme="light" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

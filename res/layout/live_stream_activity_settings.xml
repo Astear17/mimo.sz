@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:visibility="visible" layout="@layout/live_stream_layout_title" />
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_view_container" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" android:overScrollMode="never" android:layout_marginStart="@dimen/d_16_dp" android:layout_marginEnd="@dimen/d_16_dp">
+        <LinearLayout android:orientation="vertical" android:id="@id/live_setting_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/settings_network_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/network_title" android:text="@string/ac101_fpv_live_setting_page_select_wlan_cell_tip" style="@style/live_stream_item_title_style" />
+                <RelativeLayout style="@style/live_stream_item_background_style">
+                    <ImageView android:id="@id/wifi_connected_icon" android:visibility="gone" android:src="@drawable/live_stream_scan_wifi_linked_icon" android:layout_marginEnd="@dimen/d_8_dp" android:layout_alignParentStart="true" style="@style/live_stream_item_left_icon_style" />
+                    <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white_90" android:gravity="center_vertical" android:id="@id/network_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_fpv_live_camera_network_setting_connect_tips_content" android:layout_toEndOf="@id/wifi_connected_icon" />
+                    <ImageView android:id="@id/network_operation" style="@style/live_stream_item_right_arrow_style" />
+                    <ImageView android:id="@id/wifi_connecting_anim_icon" android:visibility="visible" android:src="@drawable/live_stream_wifi_connecting_icon" style="@style/live_stream_item_right_icon_style" />
+                </RelativeLayout>
+            </LinearLayout>
+            <TextView android:id="@id/tv_quick_live_stream_wifi_hint" android:text="@string/mimo_fpv_live_douyin_wifi_content" style="@style/live_stream_quick_hint_style" />
+            <LinearLayout android:id="@id/settings_rtmp_container" style="@style/live_stream_item_container_style">
+                <TextView android:id="@id/rtmp_title" android:text="@string/ac101_fpv_live_setting_page_rtmp_input_cell_tip" style="@style/live_stream_item_title_style" />
+                <EditText android:id="@id/rtmp_description" android:hint="@string/ac101_fpv_live_setting_page_rtmp_input_cell_default" android:maxLines="3" android:scrollHorizontally="false" android:singleLine="false" android:lineSpacingExtra="@dimen/d_3_dp" android:inputType="textUri|textMultiLine" android:importantForAutofill="no" style="@style/live_stream_item_background_edit_style" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/settings_video_info_container" style="@style/live_stream_item_container_style">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/video_info_title" android:text="@string/ac101_fpv_live_setting_page_set_live_name_cell_tip" style="@style/live_stream_item_title_style" />
+                    <TextView android:textSize="@dimen/d_10_dp" android:textColor="@color/white_60" android:gravity="center" android:id="@id/video_info_size" android:paddingBottom="@dimen/d_4_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLength="50" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <EditText android:id="@id/video_info_description" android:hint="@string/ac101_fpv_live_setting_page_set_live_name_cell_default" android:singleLine="true" style="@style/live_stream_item_background_edit_style" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/settings_youtube_kids_container" style="@style/live_stream_item_container_style">
+                <TextView android:id="@id/youtube_kids_title" android:text="@string/mimo_fpv_live_child_settings_small_dialog_title" style="@style/live_stream_item_title_style" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/live_stream_set_rv_youtube_kids" style="@style/live_stream_item_rv_background_style" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/settings_share_scope_container" style="@style/live_stream_item_container_style">
+                <TextView android:id="@id/share_scope_title" android:text="@string/ac101_fpv_live_setting_page_share_setting_cell_tip" style="@style/live_stream_item_title_style" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/live_stream_set_rv_share_scope" style="@style/live_stream_item_rv_background_style" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/settings_resolution_container" style="@style/live_stream_item_container_style">
+                <TextView android:id="@id/resolution_title" android:text="@string/ac101_fpv_live_setting_page_resolution_setting_cell_tip" style="@style/live_stream_item_title_style" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/live_stream_set_rv_resolution" style="@style/live_stream_item_rv_background_style" />
+            </LinearLayout>
+            <TextView android:id="@id/tv_quick_live_stream_res_hint" android:text="@string/mimo_fpv_live_douyin_resolution_content" style="@style/live_stream_quick_hint_style" />
+            <LinearLayout android:id="@id/settings_fps_container" style="@style/live_stream_item_container_style">
+                <TextView android:id="@id/fps_title" android:text="@string/fpv_replay_video_frame_rate_navigation" style="@style/live_stream_item_title_style" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/live_stream_set_rv_fps" style="@style/live_stream_item_rv_background_style" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/settings_rate_container" style="@style/live_stream_item_container_style">
+                <TextView android:id="@id/rate_title" android:text="@string/mimo_fpv_live_quality_setting_title" style="@style/live_stream_item_title_style" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/live_stream_set_rv_rate" style="@style/live_stream_item_rv_background_style" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/settings_watermark_container" style="@style/live_stream_item_container_style">
+                <TextView android:id="@id/watermark_title" android:text="@string/mimo_fpv_live_watermark_setting_title" android:drawablePadding="@dimen/d_5_dp" android:drawableEnd="@drawable/live_stream_icon_guide" style="@style/live_stream_item_title_style" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/live_stream_set_rv_watermark" style="@style/live_stream_item_rv_background_style" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/settings_eis_container" style="@style/live_stream_item_container_style">
+                <TextView android:id="@id/eis_title" android:text="@string/ac103_fpv_video_eis_left_panel_title" style="@style/live_stream_item_title_style" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/live_stream_set_rv_eis" style="@style/live_stream_item_rv_background_style" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/settings_fov_container" style="@style/live_stream_item_container_style">
+                <TextView android:id="@id/fov_title" android:text="@string/hg211_fpv_live_live_setting_fov_drop_list_title" style="@style/live_stream_item_title_style" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/live_stream_set_rv_fov" style="@style/live_stream_item_rv_background_style" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/settings_orientation_container" style="@style/live_stream_item_container_style">
+                <TextView android:id="@id/orientation_title" android:text="@string/mimo_livestream_setting_orientation_title" style="@style/live_stream_item_title_style" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/live_stream_set_rv_orientation" style="@style/live_stream_item_rv_background_style" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/settings_save_container" android:visibility="visible" style="@style/live_stream_item_container_style">
+                <TextView android:id="@id/save_title" android:text="@string/ac101_fpv_live_setting_page_save_copy_tip" style="@style/live_stream_item_title_style" />
+                <RelativeLayout style="@style/live_stream_item_background_style">
+                    <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white_90" android:gravity="left|center" android:id="@id/save_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ac101_fpv_live_setting_page_save_copy_cell_content" android:singleLine="false" android:layout_toLeftOf="@id/save_operate_switch" android:layout_alignParentStart="true" />
+                    <Switch android:id="@id/save_operate_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:layout_alignParentRight="true" android:track="@drawable/mimo_settings_switch_track" android:layout_marginStart="@dimen/d_10_dp" android:layout_alignParentEnd="true" android:thumbTint="@color/white" style="@style/live_stream_switch_style" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/settings_cover_container" style="@style/live_stream_item_container_style">
+                <TextView android:id="@id/cover_title" android:text="@string/mimo_fpv_live_live_setting_kuaishou_cover_title" style="@style/live_stream_item_title_style" />
+                <RelativeLayout style="@style/live_stream_item_live_stream_cover_style">
+                    <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white_90" android:gravity="left|center" android:id="@id/live_stream_cover_tip" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mimo_fpv_live_kuai_photo_insert_tip_title" android:layout_centerVertical="true" android:layout_toStartOf="@id/cover_icon" android:layout_alignParentStart="true" />
+                    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/cover_icon" android:background="@drawable/live_stream_setting_item_right_solid_bg" android:layout_width="@dimen/d_102_dp" android:layout_height="@dimen/d_102_dp" android:src="@drawable/live_stream_setting_cover_select" android:scaleType="centerCrop" android:layout_centerVertical="true" android:layout_marginStart="@dimen/d_30_dp" android:layout_alignParentEnd="true" app:roundedCornerRadius="@dimen/d_50_dp" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/settings_account_container" style="@style/live_stream_item_container_style">
+                <TextView android:id="@id/account_title" android:text="@string/ac101_fpv_live_setting_page_account_setting_cell_tip" style="@style/live_stream_item_title_style" />
+                <LinearLayout android:orientation="vertical" style="@style/live_stream_item_background_style">
+                    <RelativeLayout android:gravity="center_vertical" android:id="@id/live_stream_user_info_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/account_icon" android:background="@drawable/live_stream_setting_account_photo_radius_bg" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/live_stream_account_default_photo" android:scaleType="centerCrop" android:layout_centerVertical="true" android:layout_alignParentStart="true" app:roundAsCircle="true" />
+                        <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white_90" android:gravity="left|center" android:id="@id/account_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_16_dp" android:text="@string/ac101_fpv_live_setting_page_account_setting_cell_tip" android:layout_toLeftOf="@id/account_operation" android:layout_toRightOf="@id/account_icon" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                        <ImageView android:id="@id/account_operation" style="@style/live_stream_item_right_arrow_style" />
+                    </RelativeLayout>
+                    <TextView android:textSize="@dimen/d_11_dp" android:textColor="@color/dji_color_666666" android:gravity="left|center" android:id="@id/account_exchange_tip" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_16_dp" android:text="@string/ac101_fpv_live_setting_page_shift_facebook_account_tip_android" android:lineSpacingMultiplier="1.25" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/settings_wechat_auth_container" style="@style/live_stream_item_container_style">
+                <TextView android:id="@id/textView" android:text="@string/hg211_fpv_live_weixin_list_authorization_small_dialog_title" style="@style/live_stream_item_title_style" />
+                <RelativeLayout android:id="@id/live_stream_wechat_auth_operator" style="@style/live_stream_item_background_style">
+                    <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white_90" android:id="@id/tv_settings_wechat_auth_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hg211_fpv_live_weixin_setting_authorization_not_yet_small_dialog_title" android:layout_alignParentStart="true" />
+                    <ImageView android:id="@id/tv_setting_wechat_auth" style="@style/live_stream_item_right_arrow_style" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <TextView android:textAppearance="@style/TextStyleRobotoBold" android:textSize="@dimen/d_12_dp" android:textColor="@color/color_1fa3f6" android:gravity="center" android:id="@id/tv_live_rtmp_fetch" android:padding="@dimen/d_5_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_15_dp" android:text="@string/ac101_fpv_live_setting_page_tutorial_btn" android:layout_marginStart="@dimen/d_15_dp" android:layout_marginEnd="@dimen/d_15_dp" />
+    <TextView android:textAppearance="@style/TextStyleRobotoBold" android:textSize="@dimen/d_12_dp" android:textColor="@color/color_1fa3f6" android:gravity="center" android:id="@id/tv_live_youtube_tip" android:padding="@dimen/d_5_dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_15_dp" android:text="@string/mimo_fpv_live_setting_page_tutorial_btn" android:layout_marginStart="@dimen/d_15_dp" android:layout_marginEnd="@dimen/d_15_dp" />
+    <TextView android:textAppearance="@style/TextStyleRobotoBold" android:textSize="@dimen/d_16_dp" android:textColor="@color/black" android:gravity="center" android:id="@id/start_live_setting" android:background="@drawable/live_stream_button_bg_gray_8dp_radius" android:layout_width="match_parent" android:layout_height="@dimen/d_50_dp" android:layout_margin="@dimen/d_16_dp" android:text="@string/ac101_fpv_live_setting_page_start_live_btn" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lct.lomo.sdk.editor.locallut.web.GeneralWebView android:id="@id/web_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/loading_layout" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/local_lut_loading_radius_bg" android:layout_width="@dimen/editor_d_56_dp" android:layout_height="@dimen/editor_d_56_dp">
+            <ProgressBar android:id="@id/loading_progress_bar" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:indeterminateDrawable="@drawable/device_loading_progress" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/empty_layout" android:background="@color/black" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@id/title_bar" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_64_dp">
+            <ImageView android:id="@id/empty_back" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:src="@drawable/local_lut_title_back" android:layout_centerVertical="true" android:layout_marginStart="@dimen/editor_d_24_dp" />
+            <TextView android:textSize="@dimen/editor_d_16_dp" android:textStyle="bold" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/editor_playback_single_clip_edit_filter_localcube_page_title" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/iv_empty_icon" android:layout_width="@dimen/editor_d_48_dp" android:layout_height="@dimen/editor_d_48_dp" android:layout_marginTop="@dimen/editor_d_132_dp" android:src="@drawable/lut_community_network_error" />
+        <TextView android:textSize="@dimen/editor_d_13_dp" android:textColor="@color/C_7C7C7F_100" android:id="@id/tv_empty_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_8_dp" android:text="@string/editor_playback_colorclub_network_disconnected_toast" />
+        <Button android:textSize="@dimen/editor_d_13_dp" android:textColor="@color/C_FFFFFF_80" android:id="@id/bt_retry" android:background="@drawable/lut_community_web_error_retry_bg" android:layout_width="@dimen/editor_d_74_dp" android:layout_height="@dimen/editor_d_28_dp" android:layout_marginTop="@dimen/editor_d_24_dp" android:text="@string/editor_playback_colorclub_network_disconnected_retry_btn" />
+    </LinearLayout>
+    <lct.lomo.sdk.editor.locallut.web.GeneralWebProgressView android:layout_gravity="top" android:id="@id/web_progress" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</FrameLayout>

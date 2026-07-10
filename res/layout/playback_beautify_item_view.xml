@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/d_48_dp" android:layout_height="@dimen/d_64_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/playback_beautify_item_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" android:src="@drawable/playback_beauty_auto_norm" android:layout_marginStart="@dimen/d_8_dp" android:layout_marginEnd="@dimen/d_8_dp" />
+    <TextView android:textSize="@dimen/d_8_dp" android:textColor="@color/white_75" android:id="@id/playback_beautify_item_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_2_dp" android:text="@string/general_playback_single_file_edit_beauty_auto_btn" />
+    <ImageView android:id="@id/playback_beautify_item_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_4_dp" android:layout_marginBottom="@dimen/d_2_dp" android:src="@drawable/playback_beautify_dot" />
+</merge>

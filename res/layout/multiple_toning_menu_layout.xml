@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView android:paddingLeft="@dimen/editor_d_12_dp" android:paddingRight="@dimen/editor_d_12_dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include android:id="@id/mediaeditor_toning_menu_exposure" android:layout_width="@dimen/editor_d_59_dp" android:layout_height="wrap_content" layout="@layout/multiple_toning_menu_item" />
+        <include android:id="@id/mediaeditor_toning_menu_brightness" android:layout_width="@dimen/editor_d_59_dp" android:layout_height="wrap_content" layout="@layout/multiple_toning_menu_item" />
+        <include android:id="@id/mediaeditor_toning_menu_contrast" android:layout_width="@dimen/editor_d_59_dp" android:layout_height="wrap_content" layout="@layout/multiple_toning_menu_item" />
+        <include android:id="@id/mediaeditor_toning_menu_highlights" android:layout_width="@dimen/editor_d_59_dp" android:layout_height="wrap_content" layout="@layout/multiple_toning_menu_item" />
+        <include android:id="@id/mediaeditor_toning_menu_shadows" android:layout_width="@dimen/editor_d_59_dp" android:layout_height="wrap_content" layout="@layout/multiple_toning_menu_item" />
+        <include android:id="@id/mediaeditor_toning_menu_whitePoints" android:layout_width="@dimen/editor_d_59_dp" android:layout_height="wrap_content" layout="@layout/multiple_toning_menu_item" />
+        <include android:id="@id/mediaeditor_toning_menu_blackPoints" android:layout_width="@dimen/editor_d_59_dp" android:layout_height="wrap_content" layout="@layout/multiple_toning_menu_item" />
+        <include android:id="@id/mediaeditor_toning_menu_temperate" android:layout_width="@dimen/editor_d_59_dp" android:layout_height="wrap_content" layout="@layout/multiple_toning_menu_item" />
+        <include android:id="@id/mediaeditor_toning_menu_color_tint" android:layout_width="@dimen/editor_d_59_dp" android:layout_height="wrap_content" layout="@layout/multiple_toning_menu_item" />
+        <include android:id="@id/mediaeditor_toning_menu_saturation" android:layout_width="@dimen/editor_d_59_dp" android:layout_height="wrap_content" layout="@layout/multiple_toning_menu_item" />
+        <include android:id="@id/mediaeditor_toning_menu_vibrance" android:layout_width="@dimen/editor_d_59_dp" android:layout_height="wrap_content" layout="@layout/multiple_toning_menu_item" />
+        <include android:id="@id/mediaeditor_toning_menu_sharp_tune" android:layout_width="@dimen/editor_d_59_dp" android:layout_height="wrap_content" layout="@layout/multiple_toning_menu_item" />
+        <include android:id="@id/mediaeditor_toning_menu_vignetting" android:layout_width="@dimen/editor_d_59_dp" android:layout_height="wrap_content" layout="@layout/multiple_toning_menu_item" />
+    </LinearLayout>
+</HorizontalScrollView>

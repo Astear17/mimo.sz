@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/lct_dialog_root_view" android:padding="@dimen/editor_d_18_dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/mediaeditor_dialog_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/black" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_24_dp" android:text="@string/light_memory_introduce_title_text" android:lines="1" style="@style/H_1_bold" />
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/editor_d_96_dp" android:layout_height="@dimen/editor_d_96_dp" android:layout_marginTop="@dimen/editor_d_10_dp" android:src="@drawable/mediaeditor_ai_tag_montage" />
+        <TextView android:textColor="@color/black" android:gravity="center" android:paddingLeft="@dimen/editor_d_30_dp" android:paddingRight="@dimen/editor_d_30_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_10_dp" android:text="@string/light_memory_introduce_text" android:lineSpacingExtra="@dimen/editor_d_1_dp" style="@style/H_3_normal" />
+        <TextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/mediaeditor_memory_title_iv" android:background="@drawable/mediaeditor_memory_title_right_bg" android:paddingLeft="@dimen/editor_d_30_dp" android:paddingRight="@dimen/editor_d_30_dp" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_44_dp" android:layout_marginTop="@dimen/editor_d_32_dp" android:layout_marginBottom="@dimen/editor_d_32_dp" android:text="@string/light_memory_introduce_text_btn" style="@style/H_3_normal" />
+    </LinearLayout>
+</LinearLayout>

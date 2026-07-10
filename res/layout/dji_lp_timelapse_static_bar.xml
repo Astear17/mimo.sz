@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/timelapse_bar_layout" android:background="@color/fpv_overlay_window_background" android:paddingLeft="@dimen/d_16_dp" android:layout_width="@dimen/d_275_dp" android:layout_height="@dimen/d_28_dp" android:layout_marginBottom="@dimen/d_0_dp" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_timelapse_recording" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dji_recording_red_dot" android:scaleType="center" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_timelapse_mode_state" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_marginStart="@dimen/d_15_dp" />
+        <TextView android:textSize="@dimen/d_12_dp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/timelapse_bar_interval" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="@dimen/d_10_dp" style="@style/TextStyleRobotoCondensedBold" />
+        <TextView android:textSize="@dimen/d_12_dp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/timelapse_bar_time" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="00:00:00>00:00:00" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="@dimen/d_10_dp" android:layout_marginEnd="@dimen/d_16_dp" style="@style/TextStyleRobotoCondensedBold" />
+        <View android:id="@id/timelapse_split_line" android:background="@color/white_30" android:layout_width="@dimen/d_0.5_dp" android:layout_height="match_parent" />
+        <ImageView android:layout_gravity="end" android:id="@id/timelapse_static_bar_triangle" android:padding="@dimen/d_8_dp" android:layout_width="@dimen/d_40_dp" android:layout_height="match_parent" android:src="@drawable/fpv_timelapse_dropdown_triangle" android:layout_weight="0.0" />
+    </LinearLayout>
+</merge>

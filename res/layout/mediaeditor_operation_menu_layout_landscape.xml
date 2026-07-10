@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lct.lomo.sdk.editor.widget.LandRecyclerView android:id="@id/mediaedit_segment_operation_video_rc_id" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_12_dp" android:layout_centerVertical="true" />
+    <lct.lomo.sdk.editor.widget.LandRecyclerView android:id="@id/mediaedit_segment_operation_img_meun_id" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <lct.lomo.sdk.editor.widget.LandRecyclerView android:id="@id/mediaedit_segment_operation_opening_meun_id" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <lct.lomo.sdk.editor.widget.TransitionRecycleView android:layout_gravity="center" android:id="@id/mediaedit_segment_transition_operation_meun_id" android:visibility="gone" style="@style/edit_menu_layout_style" />
+</merge>

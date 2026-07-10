@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.lomo.fpv.ui.base.settings.gimbal.DJIFpvFineTuneRollAxisView android:layout_gravity="center" android:layout_width="@dimen/d_320_dp" android:layout_height="@dimen/d_96_dp" />
+    <LinearLayout android:layout_gravity="center|bottom" android:orientation="vertical" android:background="@drawable/dji_fpv_fine_tune_roll_tools_bg" android:layout_width="@dimen/d_240_dp" android:layout_height="@dimen/d_91_dp" android:layout_marginBottom="@dimen/d_16_dp" android:divider="@drawable/dji_fpv_settings_divider" android:showDividers="middle">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp">
+            <ImageView android:id="@id/fpv_fine_tune_roll_sub" android:background="@drawable/dji_fpv_fine_tune_roll_sub_bg" android:padding="@dimen/d_14_dp" android:focusable="true" android:clickable="true" android:layout_width="@dimen/d_48_dp" android:layout_height="match_parent" android:src="@drawable/dji_ic_ev_sub" android:scaleType="centerInside" />
+            <TextView android:textSize="@dimen/d_16_dp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/fpv_fine_tune_roll_value" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" style="@style/TextStyleRobotoCondensedBold" />
+            <ImageView android:id="@id/fpv_fine_tune_roll_add" android:background="@drawable/dji_fpv_fine_tune_roll_add_bg" android:padding="@dimen/d_14_dp" android:focusable="true" android:clickable="true" android:layout_width="@dimen/d_48_dp" android:layout_height="match_parent" android:src="@drawable/dji_ic_ev_add" android:scaleType="centerInside" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/d_16_dp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/fpv_fine_tune_roll_done" android:background="@drawable/dji_fpv_fine_tune_roll_done_bg" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/d_42_dp" android:text="@string/dji_fpv_fine_tune_roll_done" style="@style/TextStyleRobotoCondensedBold" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,230 @@
+{
+    "basic": {
+        "dev_type":              "RC",
+        "dev_role":              "master_RC",
+        "lte_enable":            1,
+        "sdr_enable":            1,
+        "wifi_enable":           1,
+        "sdr_agent_host_id":     "0x0e00",
+        "wifi_agent_host_id":    "0x1b01",
+        "lte_agent_host_id":     "0x0e06",
+        "local_router_host_id":  "0x0e00",
+        "peer_wlm_host_id":      "0x0907",
+        "wifi_hw_controller":    "0x0000",
+        "osd_receiver_host_id":  "0x0200",
+        "osd_sync_freq":         5,
+        "add_test_helper":       0
+    },
+    "master_internal_com": {
+        "share_info_sync_freq":  10,
+        "delay_start_time_ms":   4800
+    },
+    "device_manager": {
+        "dev_state_update_freq": 10,
+        "register_interval_ms":  600
+    },
+    "link_mode": {
+        "max_rectify_cnt":       5,
+        "rectify_interval_ms":   800,
+        "link_mode_policy":      "flexible",
+        "default_link_mode": {
+            "command":     "SDR_ONLY",
+            "liveview":    "SDR_ONLY",
+            "common_data": "SDR_ONLY"
+        }
+    },
+    "bandwidth": {
+        "lte_max_bw_bps": 3600000,
+        "min_bw_bps": {
+            "common_command": 50000,
+            "rt_command":     50000,
+            "liveview":       512000,
+            "common_data":    512000
+        }
+    },
+    "rc_hosts": ["0x0200", "0x0203", "0x0205", "0x0207", "0x0600", "0x0d01", "0x0d02", "0x0e00", "0x0e06", "0x0e07", "0x1a06", "0x1b01"],
+    "glass_hosts": ["0x1c00", "0x1c01", "0x1c07", "0x1d00"],
+    "route_switch": {
+        "1": {"scene": "SDR_ONLY",
+              "steps": ["0x0e06"]},
+        "2": {"scene": "LTE_ONLY",
+              "steps": ["0x0e06"]},
+        "3": {"scene": "WIFI_ONLY",
+              "steps": ["0x0e06"]},
+        "4": {"scene": "HYBRID_GENERIC",
+              "steps": ["0x0e06"]}
+    },
+    "share_info": {
+        "enable":         1,
+        "channel":        "shm_mmap",
+        "shm_file":       "/tmp/wlm_shm",
+        "shm_size_bytes": 1024,
+        "shm_key":        123
+    },
+    "internal_com": {
+        "host_id":     0,
+        "listen_port": 50000,
+        "targets": {
+            "1": {"protocol": "udp", "target_ip": "192.168.100.2", "target_port": 50000, "host_id": 1},
+            "2": {"protocol": "udp", "target_ip": "192.168.100.3", "target_port": 50000, "host_id": 2}
+        }
+    },
+    "wl_manager_library": {
+        "common": {
+            "debug": false,
+            "hybrid_type_lte_sdr": true,
+            "hybrid_type_sdr_wifi": false,
+            "hybrid_type_lte_wifi": false
+        },
+        "modules": {
+                "0x0e06": {
+                    "module_name": "LTE_SERVICE",
+                    "datas": {
+                                "data0": {
+                                        "wl_data_type": "liveview1",
+                                        "link_number": 1,
+                                        "recv_mode": "link_lte",
+                                        "send_mode": "link_lte",
+                                        "link_lte": {
+                                                "enable": true,
+                                                "output": {"type": "msgq", "host":false, "size": 4096000, "index": 2}
+                                        },
+                                        "params":{
+                                            "mode_lte_only": {
+                                                "recv_source": "wlm_share",
+                                                "send_target": "wlm_share"
+                                            },
+                                            "mode_sdr_only": {
+                                                "recv_source": "wlm_share",
+                                                "send_target": "wlm_share"
+                                            },
+                                            "mode_wifi_only": {
+                                                "recv_source": "wlm_share",
+                                                "send_target": "wlm_share"
+                                            }
+                                        }
+                                }
+                    }
+                },
+                "0x0e00": {
+                    "module_name": "SDR_AGENT",
+                    "datas": {
+                                "data0": {
+                                        "wl_data_type": "liveview1",
+                                        "link_number": 1,
+                                        "recv_mode": "link_sdr",
+                                        "send_mode": "link_sdr",
+                                        "link_sdr": {
+                                                "enable": true,
+                                                "output": {"type": "msgq", "host":false, "size": 4096000, "index": 1}
+                                        },
+                                        "params":{
+                                            "mode_lte_only": {
+                                                "recv_source": "wlm_share",
+                                                "send_target": "wlm_share"
+                                            },
+                                            "mode_sdr_only": {
+                                                "recv_source": "wlm_share",
+                                                "send_target": "wlm_share"
+                                            },
+                                            "mode_wifi_only": {
+                                                "recv_source": "wlm_share",
+                                                "send_target": "wlm_share"
+                                            }
+                                        }
+                                }
+                    }
+                },
+                "0x0e07": {
+                    "module_name": "WLM_GND",
+                    "datas": {
+                                "data0": {
+                                        "wl_data_type": "liveview1",
+                                        "link_number": 2,
+                                        "recv_mode": "controlled",
+                                        "send_mode": "controlled",
+                                        "link_sdr": {
+                                                "enable": true,
+                                                "input": {"type": "msgq", "host":true, "size": 4096000, "index": 1}
+                                        },
+                                        "link_lte": {
+                                                "enable": true,
+                                                "input": {"type": "msgq", "host":true, "size": 4096000, "index": 2}
+                                        },
+                                        "params":{
+                                            "mode_lte_only": {
+                                                "recv_source": "wlm_share",
+                                                "send_target": "wlm_share"
+                                            },
+                                            "mode_sdr_only": {
+                                                "recv_source": "wlm_share",
+                                                "send_target": "wlm_share"
+                                            },
+                                            "mode_wifi_only": {
+                                                "recv_source": "wlm_share",
+                                                "send_target": "wlm_share"
+                                            }
+                                        }
+                                }
+                    }
+                }
+        }
+    },
+    "lte_service": {
+         "config": {
+            "type": "gnd",
+            "local_wlm_host_id": "0x0e07",
+            "peer_wlm_host_id": "0x0907",
+            "lteweb": {
+                "role": "GND",
+                "op_type": "bind",
+                "bind_config": {
+                    "use_fixed_pair_info": 0,
+                    "pair_info_accessible": 0,
+                    "pair_info_request_host_id": "0x0900",
+                    "fixed_pair_info": {
+                        "uav_sn": "uav123456",
+                        "mrc_sn": "mac123456",
+                        "arc_sn": "arc123456",
+                        "aes_rand": 6
+                    }
+                }
+            }
+        }
+    },
+    "product": {
+        "max_dev_num": 11
+    },
+    "0": {
+        "dev_type": "RC",
+        "dev_name": "UN_KNOWN",
+        "wlm_host_id": "0x0e07",
+        "lte_host_id": "0x0e06",
+        "wifi_host_id": "0x1b01",
+        "dev_hosts": ["0x0e00", "0x0600", "0x0d01"]
+    },
+    "1": {
+        "dev_type": "UAV",
+        "dev_name": "WM260_UAV",
+        "wlm_host_id": "0x0907",
+        "lte_host_id": "0x0806",
+        "wifi_host_id": "0x0000",
+        "dev_hosts": ["0x0100", "0x0800", "0x0900", "0x1d00", "0x1d01"]
+    },
+    "7": {
+        "dev_type": "RC",
+        "dev_name": "RC_N1",
+        "wlm_host_id": "0x0e07",
+        "lte_host_id": "0x0e06",
+        "wifi_host_id": "0x1b01",
+        "dev_hosts": ["0x0e00", "0x0600", "0x0d01"]
+    },
+    "9": {
+        "dev_type": "RC",
+        "dev_name": "RM510",
+        "wlm_host_id": "0x0e07",
+        "lte_host_id": "0x0e06",
+        "wifi_host_id": "0x0000",
+        "dev_hosts": ["0x0204", "0x0205", "0x0600", "0x0607", "0x0d00", "0x0d01", "0x0d02", "0x0d03", "0x0d05", "0x0e00", "0x0e04", "0x1a06", "0x1b01", "0x1d02", "0x1d03"]
+    }
+}

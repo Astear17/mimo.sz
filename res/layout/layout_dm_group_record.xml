@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/d_16_dp" android:paddingBottom="@dimen/d_16_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_12_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/group_record_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:textAlignment="viewStart" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/group_record_btn" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:text="@string/dm303rx_common_parameter_setting_rx_all_tx_record_list_title" style="@style/dm_setting_title" />
+        <TextView android:layout_marginTop="4.0dp" android:text="@string/dm303rx_common_parameter_setting_rx_all_tx_record_list_content" style="@style/dm_setting_desc" />
+    </LinearLayout>
+    <com.dji.mimo.accessory.dm303.rx.DMRxGroupRecordButton android:id="@id/group_record_btn" android:layout_width="@dimen/d_56_dp" android:layout_height="@dimen/d_56_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

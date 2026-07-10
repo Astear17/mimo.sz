@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_frame" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/d_64_dp" android:layout_marginStart="@dimen/d_24_dp" android:layout_marginEnd="@dimen/d_24_dp" style="@style/v2_common_header_layout">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/dm202_return_btn" style="@style/v2_common_header_return" />
+        <TextView android:id="@id/dm202_header_title" android:text="@string/hg212_fpv_dji_mic_setting" style="@style/v2_common_header_title" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/jump_general" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/dm_more_setting" />
+    </FrameLayout>
+    <ScrollView android:id="@id/sv_dm202" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/d_64_dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/product_image_container" android:layout_width="match_parent" android:layout_height="@dimen/d_202_dp">
+                <include android:layout_gravity="center_horizontal" android:id="@id/disconnect_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_170_dp" layout="@layout/connected_status_view" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/tx_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp" android:layout_marginStart="@dimen/d_20_dp" android:layout_marginEnd="@dimen/d_20_dp">
+                <TextView android:layout_gravity="start|center" android:layout_marginBottom="@dimen/d_16_dp" android:text="@string/dm300tx_common_parameter_setting_TX_list_title" style="@style/dm_setting_module_title" />
+                <LinearLayout android:orientation="vertical" android:id="@id/dm202_tx_setting" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/fragment_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

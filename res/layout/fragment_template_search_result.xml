@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lct.lomo.mediaeditor.widget.SearchFrameLayout android:id="@id/search_result_root_container" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.liaoinstan.springview.widget.SpringView android:id="@id/model_spring_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/list_container" android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/model_recycle_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/editor_d_6_dp" android:layout_marginRight="@dimen/editor_d_6_dp" android:overScrollMode="never" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <include android:layout_gravity="center" android:id="@id/layout_error" android:background="@color/C_FAFAFA_100" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.4" layout="@layout/layout_template_search_error" />
+            <LinearLayout android:orientation="vertical" android:id="@id/vg_search_loading" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.4">
+                <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/pb_loading" android:layout_width="@dimen/editor_d_40_dp" android:layout_height="@dimen/editor_d_40_dp" android:indeterminateDrawable="@drawable/search_loading_progress" />
+                <TextView android:textColor="@color/C_000000_100" android:layout_gravity="center_horizontal" android:id="@id/tv_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_15_dp" android:text="@string/light_community_template_search_loading" style="@style/H_3_normal" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.liaoinstan.springview.widget.SpringView>
+</lct.lomo.mediaeditor.widget.SearchFrameLayout>

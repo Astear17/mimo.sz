@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/home_academy_card_tab_text_selector" android:gravity="center_vertical" android:layout_gravity="start|center" android:id="@id/home_academy_card_tab_item_title" android:paddingTop="@dimen/d_4_dp" android:paddingBottom="@dimen/d_4_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_16_dp" style="@style/TextStyleRobotoMedium"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

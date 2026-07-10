@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/background_white_1" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/state_title_bar" layout="@layout/usercenter_titlebar_layout" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/state_net_error_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_179_dp" android:layout_below="@id/state_title_bar" android:layout_centerHorizontal="true">
+        <ImageView android:layout_width="@dimen/d_60_dp" android:layout_height="@dimen/d_60_dp" android:src="@drawable/mimo_ic_no_network" />
+        <TextView android:textSize="@dimen/text_dp_14" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp" android:text="@string/net_work_error" style="@style/TextStyleRobotoRegular" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:scrollbarSize="@dimen/d_3_dp" android:scrollbarThumbVertical="@drawable/usercenter_state_choose_bar" android:scrollbarStyle="outsideOverlay" android:id="@id/recycle_view" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/state_title_bar" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/view_progress_sound_present" android:background="@drawable/video_regulate_pogress_bg" android:padding="12.0dp" android:visibility="invisible" android:layout_width="180.0dp" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/view_sound_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_video_sound" />
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/view_progress_sound_bar" android:layout_width="match_parent" android:layout_height="2.0dp" android:layout_marginLeft="10.0dp" android:max="100" android:progressDrawable="@drawable/video_regulate_progress" style="?android:progressBarStyleHorizontal" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/view_progress_video_present" android:background="@drawable/video_regulate_pogress_bg" android:padding="10.0dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/view_progress_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:src="@drawable/ic_video_gesture_next" />
+        <TextView android:textSize="16.0dp" android:textStyle="bold" android:textColor="#ffffff" android:layout_gravity="center_horizontal" android:id="@id/view_progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00/00:00" />
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/view_progress_bar" android:layout_width="160.0dp" android:layout_height="2.0dp" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" android:max="100" android:progressDrawable="@drawable/video_regulate_progress" android:layout_alignParentBottom="true" style="?android:progressBarStyleHorizontal" />
+    </LinearLayout>
+</FrameLayout>

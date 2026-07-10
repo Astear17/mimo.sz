@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/template_bottom_sheet_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/tab_top" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_32_dp" android:layout_marginTop="@dimen/editor_d_12_dp">
+        <lct.lomo.sdk.editor.customtemp.music.view.TemplateMusicClassTab android:id="@id/music_class_type" android:layout_width="@dimen/editor_d_200_dp" android:layout_height="@dimen/editor_d_32_dp" android:layout_marginLeft="@dimen/editor_d_22_dp" />
+        <lct.lomo.sdk.editor.customtemp.music.view.MusicTabRightIconView android:id="@id/music_tab_right_icon" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_32_dp" android:layout_marginBottom="@dimen/editor_d_5_dp" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_middle" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_80_dp" android:layout_marginTop="@dimen/editor_d_16_dp" android:layout_below="@id/tab_top">
+        <lct.lomo.sdk.editor.customtemp.music.view.MusicRecommendView android:layout_gravity="center" android:id="@id/music_recommend_recyclerview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <lct.lomo.sdk.editor.widget.BaseRecyclerView android:layout_gravity="center" android:id="@id/music_store_recyclerview" android:visibility="gone" android:layout_width="@dimen/editor_d_200_dp" android:layout_height="@dimen/editor_d_80_dp" android:layout_centerHorizontal="true" />
+        <lct.lomo.sdk.editor.customtemp.music.view.MusicMineView android:layout_gravity="center" android:id="@id/music_mine_recyclerview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <lct.lomo.sdk.editor.customtemp.music.view.MusicEmptyView android:id="@id/music_empty" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <lct.lomo.sdk.editor.customtemp.music.view.MusicTabBottomOperateView android:id="@id/music_bottom_operate_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/bottom" android:layout_below="@id/rl_middle" android:layout_centerVertical="true" />
+    <FrameLayout android:id="@id/loading_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center" android:id="@id/loading_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mediaeditor_base_loading_frame_list" />
+    </FrameLayout>
+    <include android:id="@id/bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/multiple_template_margin_bottom" android:layout_alignParentBottom="true" layout="@layout/custom_menu_bottom_layout" />
+</RelativeLayout>

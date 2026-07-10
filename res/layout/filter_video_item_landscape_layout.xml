@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.sdk.editor.widget.FilterImageView android:id="@id/img" android:background="@color/C_1A1A1F_100" android:layout_width="@dimen/editor_d_53_dp" android:layout_height="@dimen/editor_d_53_dp" android:layout_marginLeft="@dimen/editor_d_4_dp" android:layout_marginRight="@dimen/editor_d_4_dp" android:scaleType="centerInside" app:radiusColor="@color/custom_main_bg_color" app:roundRadius="@dimen/editor_d_4_dp" />
+    <TextView android:textSize="@dimen/editor_d_9_dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:id="@id/title_tv" android:background="@drawable/filter_video_item_bt_concor_bg" android:layout_width="@dimen/editor_d_53_dp" android:layout_height="@dimen/editor_d_15_dp" android:text="NONE" android:layout_alignLeft="@id/img" android:layout_alignBottom="@id/img" />
+    <ImageView android:id="@id/selected_iv" android:background="@drawable/preview_video_blue_concor_bg" android:visibility="gone" android:layout_width="@dimen/editor_d_53_dp" android:layout_height="@dimen/editor_d_53_dp" android:layout_marginLeft="@dimen/editor_d_4_dp" android:layout_marginRight="@dimen/editor_d_4_dp" />
+</RelativeLayout>

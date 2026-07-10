@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/fpv_camera_zoom_container" android:background="@color/transparent" android:layout_width="@dimen/d_48_dp" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/d_10_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/fpv_camera_zoom_ratio" android:background="@drawable/bg_oval_white_color" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:text="1.0x" android:layout_centerInParent="true" />
+</RelativeLayout>

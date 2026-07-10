@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/mediaeditor_sticker_edit_button_bg" />
+    <corners android:radius="@dimen/editor_d_10_dp" />
+    <stroke android:width="@dimen/editor_d_0_5_dp" android:color="@color/C_000000_10" />
+</shape>

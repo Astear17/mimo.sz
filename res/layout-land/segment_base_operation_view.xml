@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="@dimen/d_49_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageButton android:layout_gravity="start|top" android:id="@id/img_close_segment_operation" android:background="@android:color/transparent" android:padding="@dimen/d_8_dp" android:layout_width="@dimen/d_48_dp" android:layout_height="@dimen/d_48_dp" android:src="@drawable/playback_segment_editor_close" android:scaleType="fitXY" />
+    <androidx.appcompat.widget.AppCompatImageButton android:layout_gravity="end|top" android:id="@id/img_ok_segment_operation" android:background="@android:color/transparent" android:padding="@dimen/d_8_dp" android:layout_width="@dimen/d_48_dp" android:layout_height="@dimen/d_48_dp" android:src="@drawable/playback_segment_editor_check" android:scaleType="centerInside" />
+    <View android:layout_gravity="bottom" android:background="@color/white_10" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginStart="@dimen/d_16_dp" android:layout_marginEnd="@dimen/d_16_dp" />
+</FrameLayout>

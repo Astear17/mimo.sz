@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_ai_example" android:layout_width="@dimen/editor_d_56_dp" android:layout_height="@dimen/editor_d_56_dp" android:src="@drawable/ic_ai_example_correct1" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_ai_example_type" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:layout_margin="@dimen/editor_d_2_dp" android:src="@drawable/ic_ai_correct" app:layout_constraintBottom_toBottomOf="@id/iv_ai_example" app:layout_constraintEnd_toEndOf="parent" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/editor_d_9_dp" android:textColor="@color/C_FFFFFF_50" android:ellipsize="end" android:id="@id/tv_ai_example_desc" android:layout_width="@dimen/editor_d_56_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_2_dp" android:maxLines="1" app:layout_constraintTop_toBottomOf="@id/iv_ai_example" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/ll_rounded_switch_container" android:padding="@dimen/spacing_2dp" android:layout_width="match_parent" android:layout_height="@dimen/rounded_tab_bar_height_medium" android:minWidth="@dimen/rounded_tab_bar_min_width">
+        <TextView android:gravity="center" android:id="@id/tv_rounded_left_tab" android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" style="@style/body_2_600" />
+        <TextView android:gravity="center" android:id="@id/tv_rounded_right_tab" android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" style="@style/body_2_600" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/dialog_root_view" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/root_layout" android:background="@drawable/mediaeditor_dialog_bg" android:paddingTop="@dimen/editor_d_28_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/editor_d_150_dp">
+        <TextView android:textColor="@color/C_000000_100" android:id="@id/dialog_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_16_dp" android:includeFontPadding="false" style="@style/H_4_normal" />
+        <TextView android:typeface="normal" android:textColor="@color/C_000000_100" android:ellipsize="end" android:gravity="center" android:id="@id/dialog_desc" android:layout_width="wrap_content" android:layout_height="0.0dp" android:includeFontPadding="false" android:layout_weight="1.0" android:lineSpacingMultiplier="1.1" android:paddingStart="@dimen/editor_d_16_dp" android:paddingEnd="@dimen/editor_d_16_dp" style="@style/H_2_bold" />
+        <View android:id="@id/dialog_hor_line" android:background="@color/C_E4E4E4_100" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" android:layout_marginTop="@dimen/editor_d_28_dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bottom_layout" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp">
+            <TextView android:typeface="normal" android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/dialog_neg_btn" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/common_dialog_cancel" android:layout_weight="1.0" style="@style/H_3_bold" />
+            <View android:id="@id/dialog_sep_line" android:background="@color/C_E4E4E4_100" android:layout_width="0.5dp" android:layout_height="match_parent" />
+            <TextView android:typeface="normal" android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/dialog_pos_btn" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/common_dialog_yes" android:layout_weight="1.0" style="@style/H_3_bold" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

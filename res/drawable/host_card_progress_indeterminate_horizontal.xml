@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:drawable="@color/transparent" />
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <solid android:color="@color/white_70" />
+                <corners android:radius="@dimen/editor_d_1_5dp" />
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@id/secondaryProgress" android:drawable="@color/transparent" />
+</layer-list>

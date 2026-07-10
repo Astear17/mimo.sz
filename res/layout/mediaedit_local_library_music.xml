@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_music_item" android:background="@color/mediaeditor_music_list_bg_color" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_71_dp" android:paddingStart="@dimen/editor_d_16_dp" android:paddingEnd="@dimen/editor_d_12_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/layout_start" android:layout_width="@dimen/editor_d_55_dp" android:layout_height="@dimen/editor_d_55_dp" android:layout_centerVertical="true">
+        <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/iv_music_cover" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/mediaeditor_local_music_list_icon_bg" />
+        <ImageView android:id="@id/iv_music_cover_circle" android:visibility="visible" android:layout_width="@dimen/editor_d_55_dp" android:layout_height="@dimen/editor_d_55_dp" android:src="@drawable/mediaedit_local_library_music_default" android:layout_centerVertical="true" />
+        <ImageView android:layout_gravity="center" android:id="@id/iv_left" android:visibility="invisible" android:src="@drawable/lctm_mediaedit_video_play_icon" android:scaleType="centerInside" style="@style/music_list_op_btn_style" />
+    </FrameLayout>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/editor_d_12_dp" android:layout_marginEnd="@dimen/editor_d_12_dp" android:layout_toStartOf="@id/btn_right" android:layout_toEndOf="@id/layout_start" layout="@layout/mediaedit_music_include_music_play_detail" />
+    <RelativeLayout android:layout_width="@dimen/editor_d_35_dp" android:layout_height="@dimen/editor_d_35_dp" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/editor_d_8_dp" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/has_use" android:visibility="gone" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" android:src="@drawable/mediaeditor_music_item_ic_in_use" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/btn_download" android:visibility="gone" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" android:src="@drawable/mediaeditor_music_item_icon_download" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/btn_import" android:visibility="gone" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" android:src="@drawable/mediaeditor_music_use" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:gravity="center" android:id="@id/btn_right" android:paddingLeft="@dimen/editor_d_8_dp" android:paddingRight="@dimen/editor_d_8_dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_30_dp" android:minWidth="@dimen/editor_d_30_dp" android:lines="1" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/music_list_item_song_use_style" />
+</RelativeLayout>

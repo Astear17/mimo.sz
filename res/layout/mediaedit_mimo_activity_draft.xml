@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/mediaeditor_color_171717" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/draft_title_bar_id" app:layout_constraintTop_toTopOf="parent" layout="@layout/mediaedit_mimo_draft_title_bar" />
+    <RelativeLayout android:id="@id/media_no_draft" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/draft_title_bar_id" app:layout_constraintVertical_bias="0.34">
+        <ImageView android:id="@id/no_draft_im" android:layout_width="@dimen/d_60_dp" android:layout_height="@dimen/d_60_dp" android:src="@drawable/mediaedit_empty_no_draft" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/color_666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp" android:text="@string/mimo_editor_draft_none" android:layout_below="@id/no_draft_im" android:layout_centerHorizontal="true" style="@style/TextStyleRobotoRegular" />
+    </RelativeLayout>
+    <dji.lomo.mediaeditor.draft.MimoLoadingView android:id="@id/draft_view_loading" android:background="#cc000000" android:padding="@dimen/d_10_dp" android:layout_width="@dimen/d_40_dp" android:layout_height="@dimen/d_40_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <dji.lomo.mediaeditor.draft.DraftRecycleView android:id="@id/media_draft_rv" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toTopOf="@id/delete_layout" app:layout_constraintTop_toBottomOf="@id/draft_title_bar_id" />
+    <FrameLayout android:id="@id/delete_layout" android:background="@color/color_101010" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent">
+        <TextView android:textSize="@dimen/d_16_dp" android:textStyle="bold" android:textColor="@color/mediaeditor_color_999999" android:gravity="center" android:id="@id/delete_tv" android:background="@color/color_222222" android:layout_width="match_parent" android:layout_height="@dimen/d_50_dp" android:layout_margin="@dimen/d_16_dp" android:text="@string/mimo_editor_draft_delete" style="@style/TextStyleRobotoMedium" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

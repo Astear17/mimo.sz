@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/ic_fpv_settings_tab_general_selected_om" />
+    <item android:state_pressed="true" android:drawable="@drawable/ic_fpv_settings_tab_general_selected_om" />
+    <item android:state_focused="true" android:drawable="@drawable/ic_fpv_settings_tab_general_selected_om" />
+    <item android:drawable="@drawable/ic_fpv_settings_tab_general_normal_om" />
+</selector>

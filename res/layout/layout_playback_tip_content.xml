@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/hint_content_root" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/playback_tip_close_icon" android:padding="@dimen/d_7_dp" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:layout_marginLeft="@dimen/d_8_dp" android:src="@drawable/ic_playback_close" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/text_dp_15" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/playback_tip_content_text_view" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/d_9_dp" android:text="@string/wifi_mode_file_download_gallery_tips_btn" android:maxLines="1" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/text_dp_15" android:textStyle="bold" android:textColor="@color/blue_fpv" android:gravity="center_vertical" android:id="@id/playback_tip_action_view" android:paddingLeft="@dimen/d_8_dp" android:paddingRight="@dimen/d_8_dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/d_8_dp" android:layout_marginRight="@dimen/d_8_dp" />
+</LinearLayout>

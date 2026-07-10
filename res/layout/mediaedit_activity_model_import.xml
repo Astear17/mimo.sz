@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/mediaedit_mediaedit_activity_model_import_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sothree="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.mediaeditor.importmedia.titlebar.EditTitleBar android:id="@id/mediaedit_importmedia_title_bar" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/cl_album_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/mediaedit_importmedia_title_bar">
+        <LinearLayout android:orientation="vertical" android:id="@id/mediaedit_importmedia_header_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <lct.lomo.mediaeditor.widget.FilterSelectedLayout android:id="@id/mediaedit_importmedia_filter_layout_id" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_40_dp" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/header_tip" android:background="@drawable/shape_mediaedit_import_sky_tip_bg" android:padding="@dimen/editor_d_8_dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_6_dp" android:layout_marginRight="@dimen/editor_d_6_dp" android:layout_marginBottom="@dimen/editor_d_7_dp">
+                <ImageView android:layout_width="@dimen/editor_d_20_dp" android:layout_height="@dimen/editor_d_20_dp" android:src="@drawable/ic_mediaedit_import_sky_tip_tip" />
+                <TextView android:textColor="@color/C_111116_100" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_2_dp" android:text="@string/light_material_select_loading_finish_btn" style="@style/H_4_normal" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.liaoinstan.springview.widget.SpringView android:id="@id/model_spring_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/mediaedit_importmedia_header_layout">
+            <lct.lomo.mediaeditor.model.material.MediaModelRecycleView android:id="@id/model_importmedia_media_rv" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" />
+        </com.liaoinstan.springview.widget.SpringView>
+        <FrameLayout android:id="@id/mediaedit_empty_view_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <lct.lomo.mediaeditor.importmedia.view.MediaFilterProgressView android:id="@id/mediaedit_filter_progress_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_112_dp" android:layout_centerInParent="true" />
+        <lct.lomo.mediaeditor.memory.MemoryView android:id="@id/mediaedit_import_memory_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_165_dp" android:layout_below="@id/mediaedit_importmedia_header_layout" />
+    </RelativeLayout>
+    <lct.lomo.mediaeditor.importmedia.view.DeviceConnectContainer android:id="@id/v_device_tab_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/mediaedit_importmedia_title_bar" />
+</RelativeLayout>

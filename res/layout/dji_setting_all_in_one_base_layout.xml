@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black_90" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.handheld.uikit.components.titlebar.TitleBar android:id="@id/all_in_one_title" android:layout_width="match_parent" android:layout_height="64.0dp" app:leftIcon="@drawable/ic_nav_bar_back_light" app:titleText="@string/mimo_fpv_teaching_finish_enter_btn" app:uiTheme="dark" />
+    <include android:id="@id/all_in_one_portrait" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" layout="@layout/dji_setting_all_in_one_portrait" />
+</LinearLayout>

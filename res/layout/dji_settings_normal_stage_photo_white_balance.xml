@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.lomo.fpv.ui.normal.settings.photo.DJIFpvSettingStagePhotoWhiteBalanceSV2 android:fillViewport="true" style="@style/dji_setting_stage_sv"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.lomo.fpv.ui.normal.settings.photo.itemview.whitebalance.WhiteBalanceListView android:layout_width="match_parent" android:layout_height="wrap_content" />
+</dji.lomo.fpv.ui.normal.settings.photo.DJIFpvSettingStagePhotoWhiteBalanceSV2>

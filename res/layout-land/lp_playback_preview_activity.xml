@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/v2_playback_preview_container" android:background="#000" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <RelativeLayout android:id="@id/lp_playback_header" android:paddingLeft="8.0dp" android:paddingRight="8.0dp" android:layout_width="match_parent" android:layout_height="@dimen/d_68_dp">
+        <dji.base.ui.widget.DJIStateImageView android:id="@id/lp_playback_preview_return" android:padding="6.0dp" android:layout_width="40.0dp" android:layout_height="match_parent" android:src="@drawable/lp_mine_back_pic" android:scaleType="fitCenter" android:layout_alignParentStart="true" />
+        <dji.base.ui.widget.dji.DJITextView android:textSize="@dimen/d_17_dp" android:textColor="#fff" android:gravity="center_vertical" android:id="@id/lp_playback_title" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerHorizontal="true" style="@style/TextStyleRobotoRegular" />
+        <dji.base.ui.widget.DJIStateImageView android:id="@id/lp_playback_preview_info" android:padding="6.0dp" android:visibility="visible" android:layout_width="40.0dp" android:layout_height="match_parent" android:src="@drawable/lp_playback_preview_info" android:scaleType="fitCenter" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/lp_playback_function_bar" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_48_dp" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+        <dji.base.ui.widget.DJIStateImageView android:id="@id/v2_playback_preview_share" android:padding="@dimen/d_10_dp" android:visibility="invisible" android:layout_width="50.0dp" android:layout_height="50.0dp" android:layout_marginBottom="@dimen/d_6_dp" android:src="@drawable/lp_playback_preview_share_enable_true" android:scaleType="centerCrop" />
+        <dji.base.ui.widget.DJIStateImageView android:id="@id/v2_playback_preview_favorite" android:padding="@dimen/d_10_dp" android:layout_width="50.0dp" android:layout_height="50.0dp" android:layout_marginBottom="@dimen/d_6_dp" android:src="@drawable/lp_uncollected_sign" android:scaleType="centerCrop" />
+        <dji.base.ui.widget.DJIStateImageView android:id="@id/v2_playback_preview_delete" android:padding="@dimen/d_10_dp" android:layout_width="50.0dp" android:layout_height="50.0dp" android:layout_marginBottom="@dimen/d_6_dp" android:src="@drawable/lp_playback_preview_delete" android:scaleType="centerCrop" />
+    </LinearLayout>
+</RelativeLayout>

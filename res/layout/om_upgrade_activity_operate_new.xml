@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/upgrade_layout_title" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_60_dp">
+            <RelativeLayout android:id="@id/progress_state_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_25_dp" android:layout_marginEnd="@dimen/d_25_dp">
+                <RelativeLayout android:id="@id/circle_container" android:layout_width="@dimen/device_dp_upgrade_circle" android:layout_height="@dimen/device_dp_upgrade_circle" android:layout_centerHorizontal="true">
+                    <com.dji.device.upgrade.ui.CircleProgressBar android:id="@id/upgrade_circle_progressbar" android:layout_width="@dimen/device_dp_upgrade_circle" android:layout_height="@dimen/device_dp_upgrade_circle" android:layout_centerInParent="true" custom:normal_color="@color/dji_device_color_4CFFFFFF" custom:progress_color="@color/color_1fa3f6" custom:progress_style="STROKE" custom:stroke_width_int="15" custom:text="" custom:text_color="@color/white" custom:text_size="@dimen/d_30_dp" />
+                    <ImageView android:id="@id/iv_upgrade_success_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/upgrade_operate_success_icon" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <TextView android:textAppearance="@style/TV.Roboto.Medium" android:textSize="@dimen/d_16_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_upgrade_tip_state" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_20_dp" android:layout_marginBottom="@dimen/d_14_dp" android:text="@string/upgrade_text_install_firmware" android:layout_below="@id/circle_container" />
+                <include layout="@layout/upgrade_layout_install_success" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/version_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_52_dp" android:layout_below="@id/progress_state_container" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/d_16_dp" android:layout_marginEnd="@dimen/d_16_dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+                    <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_10_dp">
+                        <TextView android:textAppearance="@style/TV.Roboto.Medium" android:textSize="@dimen/d_16_dp" android:textColor="@color/white" android:id="@id/upgrade_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/d_8_dp" android:layout_toStartOf="@id/upgrade_size" android:layout_alignParentStart="true" />
+                        <TextView android:textAppearance="@style/TV.Roboto.Medium" android:textSize="@dimen/d_16_dp" android:textColor="@color/white" android:id="@id/upgrade_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                    <TextView android:textSize="@dimen/d_13_dp" android:textStyle="bold" android:textColor="@color/dji_device_red_F7534E" android:id="@id/tv_warning_tip" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dji_device_10dp" android:text="@string/upgrade_page_txt_disconnect_tip" />
+                    <View android:background="@color/dji_device_color_24FFFFFF" android:layout_width="match_parent" android:layout_height="@dimen/dji_device_0.5dp" android:layout_marginBottom="@dimen/dji_device_15dp" />
+                    <TextView android:textAppearance="@style/TV.RobotoCondensed.Regular" android:textSize="@dimen/d_13_dp" android:textColor="@color/dji_device_color_999999" android:id="@id/upgrade_description" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginBottom="@dimen/dji_device_15dp" android:layout_weight="1.0" />
+                </LinearLayout>
+                <RelativeLayout android:gravity="center" android:orientation="horizontal" android:id="@id/auto_load_select_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_16_dp">
+                    <ImageView android:id="@id/upgrade_set_select" android:layout_width="@dimen/d_18_dp" android:layout_height="@dimen/d_18_dp" android:src="@drawable/upgrade_icon_sure" />
+                    <TextView android:textAppearance="@style/TV.Roboto.Regular" android:textSize="@dimen/d_13_dp" android:textColor="@color/white" android:id="@id/upgrade_select_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/upgrade_set_tips" android:layout_toRightOf="@id/upgrade_set_select" android:layout_marginStart="@dimen/dji_device_10dp" />
+                </RelativeLayout>
+                <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_upgrading_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_16_dp" android:text="@string/mimo_app_update_info_not_return" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="right" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="0.0dp" android:weightSum="2.0" android:layout_alignParentTop="true" android:layout_marginStart="0.0dp" android:layout_alignParentStart="true">
+            <TextView android:textColor="@color/color_f7534e" android:gravity="left" android:id="@id/tv_log" android:background="@color/transparent_alpha_33" android:padding="@dimen/dji_device_10dp" android:visibility="gone" android:scrollbars="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:textAppearance="@style/TV.RobotoCondensed.Bold" android:textSize="@dimen/d_16_dp" android:textColor="@color/dji_device_white" android:gravity="center" android:id="@id/upgrade_operate" android:background="@drawable/device_button_radius_bg_conner3dp" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginBottom="@dimen/d_16_dp" android:text="@string/upgrade_text_download" android:layout_marginStart="@dimen/d_16_dp" android:layout_marginEnd="@dimen/d_16_dp" />
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.lomo.fpv.ui.normal.settings.photo.itemview.frequency.WorkFrequencyView android:id="@id/dji_setting_general_wifi_work_freq" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_8_dp" style="@style/dji_setting_item_ll"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

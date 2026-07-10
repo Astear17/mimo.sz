@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_12_dp" android:paddingStart="@dimen/d_44_dp" android:paddingEnd="@dimen/d_44_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start" android:id="@id/time_code_reset_btn" android:layout_width="@dimen/d_64_dp" android:layout_height="@dimen/d_64_dp" android:src="@drawable/time_code_reset" />
+    <ImageView android:layout_gravity="end" android:id="@id/time_code_sync_btn" android:layout_width="@dimen/d_64_dp" android:layout_height="@dimen/d_64_dp" android:src="@drawable/time_code_sync" />
+</FrameLayout>

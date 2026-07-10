@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/list_item_root_view" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <dji.lomo.main.view.CustomImageView android:id="@id/list_item_image" android:clickable="false" android:layout_width="@dimen/d_80_dp" android:layout_height="@dimen/d_80_dp" fresco:actualImageScaleType="centerCrop" fresco:failureImage="@drawable/recommend_device_list_cover_bg_shape" fresco:layout_constraintLeft_toLeftOf="parent" fresco:layout_constraintTop_toTopOf="parent" fresco:placeholderImage="@drawable/recommend_device_list_cover_bg_shape" fresco:roundedCornerRadius="@dimen/d_8_dp" />
+    <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:id="@id/list_item_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/d_8_dp" fresco:layout_constraintBottom_toBottomOf="@id/list_item_image" fresco:layout_constraintLeft_toLeftOf="@id/list_item_image" style="@style/TextStyleRobotoMedium" />
+</androidx.constraintlayout.widget.ConstraintLayout>

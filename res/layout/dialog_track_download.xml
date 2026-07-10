@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_track_download_card" android:layout_width="@dimen/editor_d_300_dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/editor_d_15_dp" android:textStyle="bold" android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_24_dp" android:layout_marginBottom="@dimen/editor_d_24_dp" android:text="" android:layout_marginHorizontal="@dimen/editor_d_24_dp" />
+    <View android:background="@color/C_E4E4E4_50" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/editor_d_15_dp" android:textStyle="bold" android:textColor="@color/C_7C7C7F_100" android:gravity="center" android:id="@id/tv_cancel" android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" android:paddingVertical="@dimen/editor_d_15_dp" />
+        <View android:background="@color/C_E4E4E4_50" android:layout_width="@dimen/editor_d_0_5_dp" android:layout_height="match_parent" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/editor_d_15_dp" android:textStyle="bold" android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/tv_download" android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" android:paddingVertical="@dimen/editor_d_15_dp" />
+    </LinearLayout>
+</LinearLayout>

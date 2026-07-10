@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/editor_d_51_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mediaeditor_item_select_btn" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:layout_marginLeft="@dimen/editor_d_6_dp" android:src="@drawable/mediaeditor_ic_timer" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textColor="@color/white" android:id="@id/mediaeditor_item_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_2_dp" android:layout_toRightOf="@id/mediaeditor_item_select_btn" android:layout_centerVertical="true" style="@style/H_4_normal" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/small_memory_list_id" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/editor_d_16_dp" android:layout_toLeftOf="@id/mediaeditor_item_icon_iv" android:layout_centerVertical="true" />
+    <CheckBox android:id="@id/mediaeditor_item_icon_iv" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:layout_marginRight="@dimen/editor_d_10_dp" android:src="@drawable/mediaeditor_time_line_down_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/putAwayCheckBoxTheme" />
+</RelativeLayout>

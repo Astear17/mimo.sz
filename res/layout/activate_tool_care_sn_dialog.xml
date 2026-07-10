@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/window_container" android:background="@color/black_60" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@color/black_60" style="@style/view_connect_card_dialog_bg">
+        <TextView android:textColor="@color/white" android:id="@id/title" android:text="CARE 联测 SN" style="@style/TV.ConnectCard.Dialog.Title" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_info_container" android:background="@drawable/connect_wifi_info_bg" android:layout_width="match_parent" android:layout_height="@dimen/d_36_dp" android:layout_marginTop="@dimen/d_15_dp" android:layout_marginBottom="@dimen/d_10_dp" android:paddingStart="@dimen/d_5_dp" android:paddingEnd="@dimen/d_5_dp" android:layout_marginStart="37.5dp" android:layout_marginEnd="37.5dp">
+            <EditText android:textAppearance="@style/TV.RobotoCondensed.Regular" android:textSize="@dimen/d_15_dp" android:textColor="@color/white" android:textColorHint="@color/white_60" android:gravity="center" android:id="@id/et_care_sn" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/d_32_dp" android:hint="请输入测试信息" android:singleLine="true" android:layout_weight="1.0" android:inputType="text" />
+        </LinearLayout>
+        <View style="@style/view_connect_card_dialog_horizontal_divider" />
+        <LinearLayout style="@style/view_connect_card_dialog_button_container">
+            <TextView android:id="@id/tv_cancel" android:visibility="gone" style="@style/view_connect_card_dialog_button_cancel" />
+            <View android:id="@id/separator" style="@style/view_connect_card_dialog_vertical_divider" />
+            <TextView android:textColor="@color/white" android:id="@id/tv_confirm" style="@style/view_connect_card_dialog_button_confirm" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

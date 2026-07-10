@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="@dimen/d_40_dp" android:layout_height="@dimen/d_40_dp" android:alpha="0.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/fpv_camera_control_playback_preview_img" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <FrameLayout android:id="@id/layout_fpv_playback_preview_mask" android:background="@drawable/bg_fpv_preview_mask" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/s_24_dp" android:indeterminate="true" android:indeterminateDrawable="@drawable/loading_light_24" />
+    </FrameLayout>
+</merge>

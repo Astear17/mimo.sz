@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|top" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <dji.base.ui.widget.MimoLoadingView android:layout_gravity="center_horizontal" android:id="@id/empty_view_loading" android:background="#cc000000" android:visibility="visible" android:layout_width="@dimen/d_40_dp" android:layout_height="@dimen/d_40_dp" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/empty_view_image" android:visibility="visible" android:layout_width="@dimen/d_60_dp" android:layout_height="@dimen/d_60_dp" android:layout_marginTop="@dimen/d_80_dp" />
+        <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/color_666666" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/empty_view_title" android:paddingLeft="@dimen/d_10_dp" android:paddingTop="@dimen/d_12_dp" android:paddingRight="@dimen/d_10_dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</merge>

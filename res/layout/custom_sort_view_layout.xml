@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/sort_root_layout" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:id="@id/recycler_view" android:paddingTop="@dimen/editor_d_16_dp" android:paddingBottom="@dimen/editor_d_9_dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:overScrollMode="never" />
+    <com.lctsdk.mediaeditor.widget.RadiusCardView android:id="@id/drag_view" android:background="@color/custom_main_bg_color" android:focusable="false" android:visibility="invisible" android:clickable="false" android:layout_width="@dimen/editor_d_64_dp" android:layout_height="@dimen/editor_d_64_dp" app:rcv_bottomLeftRadiu="@dimen/mediaeditor_corner_radius" app:rcv_bottomRightRadiu="@dimen/mediaeditor_corner_radius" app:rcv_topLeftRadiu="@dimen/mediaeditor_corner_radius" app:rcv_topRightRadiu="@dimen/mediaeditor_corner_radius">
+        <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/drag_image_view" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:alpha="0.8" app:radiusColor="@color/custom_main_bg_color" app:roundRadius="@dimen/mediaeditor_corner_radius" />
+    </com.lctsdk.mediaeditor.widget.RadiusCardView>
+    <lct.lomo.sdk.editor.customtemp.sort.CustomSortCursorView android:id="@id/drag_cursor_view" android:focusable="false" android:visibility="invisible" android:clickable="false" android:layout_width="@dimen/editor_d_8_dp" android:layout_height="@dimen/editor_d_66_dp" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:bottomLeftRadius="@dimen/commom_corners_left" android:bottomRightRadius="@dimen/commom_corners_right" />
+    <solid android:color="@color/commom_main_color" />
+</shape>

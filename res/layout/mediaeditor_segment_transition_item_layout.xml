@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.sdk.editor.widget.SelectionBoxView android:id="@id/img" android:background="@color/mediaeditor_menu_item_color_bg" android:layout_width="@dimen/editor_d_80_dp" android:layout_height="@dimen/editor_d_80_dp" android:scaleType="centerInside" app:radiusColor="@color/mediaeditor_bg_color" app:roundRadius="@dimen/editor_d_3_dp" />
+    <lct.lomo.sdk.editor.widget.SdkLanguageTextView android:textColor="@color/C_7C7C7F_100" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_8_dp" android:layout_below="@id/img" android:layout_centerHorizontal="true" style="@style/H_5_normal" />
+</RelativeLayout>

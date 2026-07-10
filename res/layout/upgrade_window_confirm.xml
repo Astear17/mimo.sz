@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/window_container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:paddingTop="@dimen/d_24_dp" style="@style/view_connect_card_dialog_bg">
+        <TextView android:id="@id/tv_title" android:layout_marginTop="0.0dp" style="@style/TV.ConnectCard.Dialog.Title" />
+        <TextView android:id="@id/tv_msg" style="@style/TV.ConnectCard.Dialog.Msg" />
+        <View style="@style/view_connect_card_dialog_horizontal_divider" />
+        <LinearLayout style="@style/view_connect_card_dialog_button_container">
+            <TextView android:id="@id/tv_left" style="@style/view_connect_card_dialog_button_cancel" />
+            <View android:id="@id/separator" style="@style/view_connect_card_dialog_vertical_divider" />
+            <TextView android:id="@id/tv_right" style="@style/view_connect_card_dialog_button_confirm" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

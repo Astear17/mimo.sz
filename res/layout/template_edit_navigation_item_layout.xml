@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center|bottom" android:id="@id/navigate_item_click_area" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_72_dp">
+        <lct.lomo.sdk.editor.music.view.OprateImageView android:id="@id/navigate_item_image" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:scaleType="centerInside" app:layout_constraintBottom_toTopOf="@id/navigate_item_title" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+        <TextView android:textSize="@dimen/editor_d_11_dp" android:textColor="@color/C_7C7C7F_100" android:gravity="center_horizontal" android:id="@id/navigate_item_title" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_32_dp" android:layout_marginBottom="@dimen/editor_d_3_dp" android:lines="2" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" style="@style/video_operate_item_text_style" />
+        <ImageView android:id="@id/navigate_item_new_icon" android:visibility="gone" android:layout_width="@dimen/editor_d_27_dp" android:layout_height="@dimen/editor_d_13_dp" android:layout_marginBottom="@dimen/editor_d_22_dp" android:src="@drawable/ic_newfunction_normal" android:layout_marginStart="@dimen/editor_d_15_dp" app:layout_constraintBottom_toBottomOf="@id/navigate_item_image" app:layout_constraintStart_toStartOf="@id/navigate_item_image" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_dialog_rounded" android:layout_width="280.0dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dp" android:textColor="#000000" android:gravity="center" android:id="@id/tv_message" android:paddingTop="@dimen/d_12_dp" android:paddingBottom="@dimen/d_12_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp" android:lineHeight="24.0dp" android:textFontWeight="600" />
+    <View android:background="#e6e6e6" android:layout_width="match_parent" android:layout_height="1.0px" />
+    <TextView android:textSize="15.0dp" android:textColor="#000000" android:gravity="center" android:id="@id/btn_continue" android:paddingTop="@dimen/d_12_dp" android:paddingBottom="@dimen/d_12_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp" android:textFontWeight="500" />
+    <View android:background="#e6e6e6" android:layout_width="match_parent" android:layout_height="1.0px" />
+    <TextView android:textSize="15.0dp" android:textColor="@color/black_60" android:gravity="center" android:id="@id/btn_cancel" android:paddingTop="@dimen/d_12_dp" android:paddingBottom="@dimen/d_12_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/device_dialog_cancel" android:paddingStart="24.0dp" android:paddingEnd="24.0dp" android:textFontWeight="500" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_16_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:background="@drawable/connect_card_bg" android:layout_width="match_parent" android:layout_height="386.0dp" android:layout_above="@id/connect_card_bottom">
+        <include layout="@layout/connect_layout_card_device_empty_container" />
+        <include layout="@layout/connect_layout_card_device_single_container" />
+        <include layout="@layout/connect_layout_card_device_list_container" />
+        <include layout="@layout/connect_layout_card_device_auth_container" />
+    </RelativeLayout>
+    <View android:id="@id/connect_card_bottom" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/d_22_dp" android:layout_alignParentBottom="true" />
+</RelativeLayout>

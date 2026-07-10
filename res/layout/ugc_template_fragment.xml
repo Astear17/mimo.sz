@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.liaoinstan.springview.widget.SpringView android:id="@id/refreshLayout" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycle_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/editor_d_6_dp" android:layout_marginRight="@dimen/editor_d_6_dp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/empty_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_72_dp">
+            <ImageView android:layout_width="@dimen/editor_d_96_dp" android:layout_height="@dimen/editor_d_96_dp" android:src="@drawable/personal_empty_draft" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_account_template_null" style="@style/H_3_normal" />
+            <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/tv_edit" android:background="@drawable/ugc_template_empty_btn_shape" android:layout_width="@dimen/editor_d_135_dp" android:layout_height="@dimen/editor_d_44_dp" android:layout_marginTop="@dimen/editor_d_24_dp" android:text="@string/light_account_template_start" style="@style/H_3_normal" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.liaoinstan.springview.widget.SpringView>

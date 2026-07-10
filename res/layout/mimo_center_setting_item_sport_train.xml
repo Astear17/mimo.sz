@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/iv_mimo_center_item_sport_train_container" style="@style/MimoCenterItemContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/iv_mimo_center_item_sport_train_title" android:text="@string/mimo_common_sports_title" android:layout_toStartOf="@id/iv_mimo_center_sport_train_arrow" style="@style/TV.MimoCenter.Item.Title.Black" />
+    <ImageView android:id="@id/iv_mimo_center_sport_train_arrow" style="@style/ImageView_MimoCenter_Item_RightArrow" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/media_edit_preview_root_view" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/preview_list" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/editor_d_64_dp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/back" android:paddingLeft="@dimen/editor_d_10_dp" android:paddingRight="@dimen/editor_d_10_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_10_dp" android:src="@drawable/base_close_icon" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/delete" android:paddingLeft="@dimen/editor_d_10_dp" android:paddingRight="@dimen/editor_d_10_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/editor_d_10_dp" android:src="@drawable/mediaeditor_ic_delete" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/count" android:layout_width="@dimen/editor_d_72_dp" android:layout_height="@dimen/editor_d_32_dp" android:layout_marginRight="@dimen/editor_d_22_dp" android:text="1/2" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/H_3_normal" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

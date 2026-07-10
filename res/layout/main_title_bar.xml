@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.lomo.main.view.titlebar.MainTitleBar android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/home_bar_container" android:background="@color/black" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:splitMotionEvents="false">
+        <FrameLayout android:visibility="invisible" android:layout_width="@dimen/d_62_dp" android:layout_height="wrap_content" android:layout_alignParentStart="true">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/main_title_left_icon" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:layout_marginTop="@dimen/d_12_dp" android:src="@drawable/title_left_nor" android:scaleType="center" />
+            <TextView android:textSize="@dimen/d_10_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_39_dp" android:text="@string/mimo_home_icon_devide_content" />
+        </FrameLayout>
+        <FrameLayout android:visibility="invisible" android:layout_width="@dimen/d_62_dp" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/main_title_right_icon" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:layout_marginTop="@dimen/d_12_dp" android:src="@drawable/mimo_main_noric_college_normal" android:scaleType="center" />
+            <TextView android:textSize="@dimen/d_10_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_39_dp" android:text="@string/mimo_home_icon_academy_content" />
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/community_tabs" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_26_dp" android:layout_marginBottom="@dimen/d_8_dp" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/d_18_dp" android:textStyle="bold" android:textColor="@color/main_title_selected_color" android:id="@id/selected_tab" android:padding="0.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kino_homepage_recommend" android:includeFontPadding="false" android:layout_marginEnd="@dimen/d_36_dp" style="@style/TextStyleRobotoCondensedBold" />
+            <TextView android:textSize="@dimen/d_18_dp" android:textStyle="bold" android:textColor="@color/main_title_unselected_color" android:id="@id/follow_tab" android:padding="0.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kino_homepage_follow" android:includeFontPadding="false" style="@style/TextStyleRobotoCondensedBold" />
+        </LinearLayout>
+        <View android:id="@id/community_title_indicator" android:background="@color/white" android:visibility="gone" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_3_dp" android:layout_below="@id/community_tabs" android:layout_marginStart="@dimen/d_118_dp" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="start|center" android:id="@id/home_main_title_bar_sub_container" android:background="@color/black" android:paddingTop="@dimen/d_28_dp" android:paddingBottom="@dimen/d_28_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:paddingStart="@dimen/d_24_dp" android:paddingEnd="@dimen/d_24_dp">
+        <ImageView android:layout_width="wrap_content" android:layout_height="@dimen/d_32_dp" android:src="@drawable/home_bar_app_name_icon" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/title_bar_loading_icon" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/home_bar_refresh_loading_icon" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</dji.lomo.main.view.titlebar.MainTitleBar>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/dashboard_main_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_44_dp">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_dashboard_class_list" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/tab_container" android:layout_width="match_parent" android:layout_height="@dimen/d_26_dp" android:layout_marginTop="@dimen/d_16_dp">
+            <com.dji.playback.segment.editor.view.widget.PlaybackTabLayout android:id="@id/themes_tabs" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tabGravity="center" app:tabIndicator="@drawable/dashboard_tab_indicator" app:tabIndicatorColor="@color/transparent" app:tabIndicatorHeight="@dimen/d_26_dp" app:tabMinWidth="0.0dp" app:tabMode="scrollable" app:tabPaddingBottom="@dimen/d_4_dp" app:tabPaddingEnd="@dimen/d_12_dp" app:tabPaddingStart="@dimen/d_12_dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_dashboard_list" android:layout_width="wrap_content" android:layout_height="@dimen/d_96_dp" android:layout_marginTop="@dimen/d_20_dp" android:layout_marginBottom="@dimen/d_16_dp" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layoutDashboardActionBar" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" android:layout_marginBottom="@dimen/d_20_dp" android:paddingStart="@dimen/d_24_dp" android:paddingEnd="@dimen/d_24_dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <dji.publics.DJIUI.DJIStateImageView android:id="@id/ivDashboardCancel" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/gallery_segment_edit_close" />
+            <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white_90" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/mimo_playback_clip_editing_dashboard_title" android:layout_weight="1.0" />
+            <dji.publics.DJIUI.DJIStateImageView android:id="@id/ivDashboardConfirm" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/gallery_segment_edit_comfirm" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </LinearLayout>
+    <FrameLayout android:id="@id/dashboard_edit_container" android:background="@color/black" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:gravity="center" android:id="@id/dashboard_edit_text_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/d_18_dp" android:paddingEnd="@dimen/d_24_dp" android:paddingVertical="@dimen/d_6_dp">
+        <com.dji.playback.segment.editor.view.widget.PlaybackBaseEditText android:id="@id/dashboard_edittext" android:layout_width="0.0dp" android:layout_height="@dimen/d_36_dp" android:layout_weight="1.0" />
+        <ImageView android:id="@id/dashboard_edit_text_confirm" android:padding="@dimen/d_3_dp" android:layout_width="@dimen/d_36_dp" android:layout_height="@dimen/d_36_dp" android:src="@drawable/gallery_segment_edit_comfirm" android:layout_marginStart="@dimen/d_16_dp" />
+    </LinearLayout>
+    <include android:id="@id/dashboard_player_control" layout="@layout/item_preview_dashboard_modify_data" />
+</FrameLayout>

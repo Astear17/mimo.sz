@@ -1,0 +1,509 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>connect_help_osmo</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit; background-repeat: inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror-linenumber { }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit; background-repeat: inherit; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; }
+a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom-width: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+svg[id^="mermaidChart"] { line-height: 1em; }
+mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    padding-bottom: .3em;
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+   padding-bottom: .3em;
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border-top: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table tr th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr th:first-child,
+table tr td:first-child {
+    margin-top: 0;
+}
+table tr th:last-child,
+table tr td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+.html-for-mac .context-menu {
+    --item-hover-bg-color: #E6F0FE;
+}
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+
+</style>
+</head>
+<body class='typora-export' >
+<div  id='write'  class = 'is-mac'><h4><a name="支持硬件机型" class="md-header-anchor"></a><span>支持硬件机型</span></h4><h5><a name="osmo-mobile-3dji-om-4dji-om-5osmo-mobile-seosmo-mobile-6" class="md-header-anchor"></a><strong><span>Osmo Mobile 3、DJI OM 4、DJI OM 5、Osmo Mobile SE、Osmo Mobile 6</span></strong></h5><h4><a name="连接步骤" class="md-header-anchor"></a><strong><span>连接步骤</span></strong></h4><h5><a name="步骤一" class="md-header-anchor"></a><strong><span>步骤一</span></strong></h5><ol start='' ><li><span>请确保已激活设备</span></li><li><span>请确保开启手机蓝牙（地理位置）</span></li></ol><h5><a name="步骤二" class="md-header-anchor"></a><strong><span>步骤二</span></strong></h5><p><span>方法一：运行畅片 App，首页右上角点击【我的设备】，进入后可搜索设备，搜索成功后，选择连接前缀为 OM 的设备，然后在设备上确认完成连接授权。</span></p><p><span>方法二：运行畅片 App，开启硬件设备，弹出可连接的设备时，选择连接前缀为 OM 的设备，然后在设备上确认完成连接授权。</span></p><p><span>方法三：初次连接后，二次连接时（硬件设备正常情况下）可触发自动连接。</span></p><h4><a name="连接问题" class="md-header-anchor"></a><strong><span>连接问题</span></strong></h4><h5><a name="连接过程中出现连接超时连接失败提示" class="md-header-anchor"></a><strong><span>连接过程中出现“连接超时/连接失败”提示</span></strong></h5><ol start='' ><li><span>请将DJI设备关机重启，并将畅片 App 重启后，尝试再次连接</span></li><li><span>重置设备连接状态后，尝试再次连接</span></li></ol><h5><a name="无法搜索到设备" class="md-header-anchor"></a><strong><span>无法搜索到设备</span></strong></h5><ol start='' ><li><p><span>检查设备是否开机</span></p></li><li><p><span>请确保蓝牙（地理位置）开启</span></p></li><li><p><span>检查设备是否连接到其他手机</span></p></li><li><p><span>尝试重置蓝牙连接</span></p><p><span>DJI OM 4或Osmo Mobile 3：同时按下「模式切换按键</span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAQAAACQ9RH5AAAEb0lEQVR4AcXBCagfBAHA4e+5zc1wkjLFxYKUQsUxEtRMaJAhiZGIR4ZgliWECU0i0YI8SEyHSkrNFHm5OefcnDuck5mB4EhRvEgqhZGQoPPOnHPb2y9EZB3q3t7/bX6fMTnRCms96BFP+YunPOJB91nqehc6y3Gm2yWme0WSJEmSJMlL1rraSfYxjtZIkiRJkiRJkmzxkF843Dg4XzLiHLMdbZZDzXK02Y73LReYa6F1/ilJkuRJPzXDAA61UXK1jzPkYKe40mNGJElG3O0rxmSSxyVP2tPo7OcMi7wtSfKob9vDTrpC8o6Zds7evmOtbZLkKSfaCcfaKpljbA51o42SZNSmWi/5gyFjt5/LvCUZtWHJa2YY1AFusNkonSLJZX7kWjdbaLl73WW+G801x6mOdqDRO8ioTPeKJEmSJEmS5E0PmeeHjjHJuHhQkmz2N6vNd6PrXOV6t1jkXk97Q5Ik2egBlzrOZAM4TrLNUrNN8FGmmukMV1jp75Ikb7nTmfY1JudJ7jN6Bzrd9Z40IskWa5xmkp10reRiO29/33O3tyXZ4BqftxNWSk43Vns52UpbJFstcIhRekZyhMFMd5H1khELzbBDQ96R7GNwE53tWcmbduizkpeMlwnO8qLs0Fcl64yn/dxqh86VLDLLl33ObnSVZKskL7rAJLvFakmSJCvsYTd4RdKsZjc9SW6xG4xIq3rP1i5KkntNt0tNkSa0rfe907QkedXpdqG9pClt94Mk/5LMM9kuMmRE2tQHliV51D2Sxx1sF3ldeq4PvNZQ8q4pLrRVXvU1u8Sfpfvb7rAkszHbi7LVHLvAMul3bff9JD/xnhkek9xoonF2iXRh2/02yULv28vtkjWmGldnSqe23cNJnveBIZdLnnCAcfQl6YutaHF3dWe3t7YJyTafst05NstzDjJupklTW9utDTe/O1vaYUmO8p9O8La84HDjZpN0f0ta3O0tbnmnJ5njvx3rddlgpnHygrSgRd3W/Ib7fT9Pssz/mmWDbDDTuHhC+lXzm99wNzevq5I84//NtEE2OMQ4eECa27JWtbpVLe+mJG/4MDO9LOt9xsBWSJf0627opm5pXr9JstWHO9Jb8rRPG9Bi6dJua3HLWt7S7mlCkik+3PHelYdMMZBh6WctbVmrWt2K1jY1yT4+yhlG5E5DBnCDNKc7WtKKVnV39zU52WYPH+3HkssM4GLp7Ja0spUta0l3Jw1t8fHmSc4wZt+QpremBd3WHQ13UtKEf/h4Ez0gGx1ljKbYIg11TN/t6+2ZJFfakX09Ky/Y3xhdI0mSJNnbjh3iTbnfHsZkyGJJkm1DI1P+aprROU1yuTEacqktkmxyqyOM3rWyzQnG7EjrJEkedrY9jcYk6+RlBxrAN/1JkuRxhxiNGV6VNQZ0jAU2TWxS8rxPG41TJecb2LSJb0lyndEZlo0OM6DJtslm+aXRmWq9zDWgL0hOdp6JRutww2Ya0PGyxQS73bmy3ifgCvmjT8BCGTaAfwOzHSv9BKT/fQAAAABJRU5ErkJggg==" style="zoom:32%;" /><span> 」+「拍摄按键 </span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAQAAACQ9RH5AAACOUlEQVR42u2YoW5qQRCGvxRR2mCqK5qK8goYmpDUnwcghKDQqGJw4KnmJZBYfBUoElQNghBESdOg7k12N+Wk7eweDqdMby5z5MzwM5vZ/58dONnJ/ne7IKLPiDkrtmxZMWdEn4iLn4K8osGQN/4I3xtDGlxlC3pJh1cRMv690uEyG9AcTRaxn57So0qFIgUKFKlQpcc0FrGgSe5Q2GueY5AtbsXIW1ox+GeuD4EtfdT6Qp2zYPwZdV4+6i6lha3xbn5iS5t84qw8bbYm751aOlj7z5eU984ts3TZtf0P2VY74SbVad0wcVWX9muphYMtpO6PgoNeJG+znOvkZcpqd1UvXYcnvFxN11Llgzmg7NqsmYyl7DE/ZkI/bXfcCdis4+5tPhPgvLvXnbAUWE6uZ8bzdcfhAfloOHL0s9QDA2Zs2DBjwEOAzSyRNvzAQxPU8kTcMf6iSWPuPBktEzP0y7zVW1kK7ll/K4dr7j3yYfXaMypEjjbkateiEq89VVsqiWTgJxPQFf1j7xAwFvN6xt+XgUcmoCq2VGj+kNqsarwjGXhuAiqCdxAEHgiZFeOdy8ArE1AUvLMg8EzILBrvSga2zCop0iYIvBGVyrL/7wNWO2q15lK7Tn0T0Ds+gUROm7KmzGmIMtVEQk0WFQcBtdFnN+ydH3fY24237WOPt2oDveITRu3RpvhMVXyYf15FnO9xgQ5cRSguXxTXTd8t2CZ0vyzYuq6VMlywKa4UVZeoqmvjk53sX7G/E6qiUldW0/kAAAAASUVORK5CYII=" style="zoom:32%;" /><span>」+「M 按键 </span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAQAAACQ9RH5AAAC/UlEQVR42u2YP2gTURzHPyZg/5DBIihYpQQlg12rXULJ1DGIFIdQQnCIuGUyCFmkARchgpuLo0MhWYSsjmKp0AzlIIsNGCFkabEtseDP4Z7Xy593d32NPcS8m+7d/fK598vvfX+/94PJmIz/fcyQpkKdJl169OjSpE6FNDN/CzlHjhqHiOY6pEaOufFCZylxoEW6rwNKzI4HGiVP2/XTDcpkSJEgRowEKTKUabjeaJMnel7sPFsuZIG49s04BRd+i/nzYJedte6RJeL7foQse866l02x6xwjCD2KTAe2mqZID0E4Zt0Ma395h+SZbZN0lPX62Z1sr3aHBSNvLbCjVr18tpBqK2zMOD5iCt0OHmZRFckdw9WerrqjIjzg5sqrkEqeWwOSKszywVTKdvOzschPUbk7gJqV1L7t30BXuBZQ0a8ObC57X5f8DW1Nzg7ML7EV4Ksv85GVgbms0nCf9JFT4hgZAgs1X+16hwyBI0pIc96mNQShMDS/hCC88rR9jowAQwFBqHmneTvfxjVg4YnWdo1fGnBc5WuPUiGtZAMt+ITVkZb3OFJvrIx4aktJWg9+jSBseICFfRaHnt7iu/N8FLiMIFT04DqCkPEEC1+5PlIc9eAMglDXg5sIQkoLbrCNIHxy/V9RPiAIu0poR4FTCEJTD+4iCAkt2OIO+wjCJpf6/p4fLPJFC04gCF092FbWmBa8BzxQ0fsSgKfKwY+AXS04ptTfGNxyiarwmFVOEIQXAFjmYD9Xt9TdewThp5LXP263zF3tF1wtR/o/O1G87Wi4ZR5cftup5dzf4JtKeDedOct8O1UQhHIAMCxxxDH3XTOWuYCk1W4NAoaHrPXd68ENP8n0SxItz+xkmScJv7RoBg6QFr0LATNwwEJAX/qYggOWPqfF3lTf7G2qVHnrafmGKlXumhV7p+Vt8aLL29AK+hCPMKEd2kI8poZ4MB9sRUxdXCsixOZLiO2mUQ22HTaGGmwbfZX1WBpsIbYUQ22ihto2nozJ+FfGbznxXkv1QmCdAAAAAElFTkSuQmCC" style="zoom:32%;" /><span>」并持续 1 秒。重置成功后再次连接Osmo设备。</span></p><p><span>Osmo Mobile 6、Osmo Mobile SE或DJI OM 5：同时按下「扳机键</span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAQAAACQ9RH5AAAEb0lEQVR4AcXBCagfBAHA4e+5zc1wkjLFxYKUQsUxEtRMaJAhiZGIR4ZgliWECU0i0YI8SEyHSkrNFHm5OefcnDuck5mB4EhRvEgqhZGQoPPOnHPb2y9EZB3q3t7/bX6fMTnRCms96BFP+YunPOJB91nqehc6y3Gm2yWme0WSJEmSJMlL1rraSfYxjtZIkiRJkiRJkmzxkF843Dg4XzLiHLMdbZZDzXK02Y73LReYa6F1/ilJkuRJPzXDAA61UXK1jzPkYKe40mNGJElG3O0rxmSSxyVP2tPo7OcMi7wtSfKob9vDTrpC8o6Zds7evmOtbZLkKSfaCcfaKpljbA51o42SZNSmWi/5gyFjt5/LvCUZtWHJa2YY1AFusNkonSLJZX7kWjdbaLl73WW+G801x6mOdqDRO8ioTPeKJEmSJEmS5E0PmeeHjjHJuHhQkmz2N6vNd6PrXOV6t1jkXk97Q5Ik2egBlzrOZAM4TrLNUrNN8FGmmukMV1jp75Ikb7nTmfY1JudJ7jN6Bzrd9Z40IskWa5xmkp10reRiO29/33O3tyXZ4BqftxNWSk43Vns52UpbJFstcIhRekZyhMFMd5H1khELzbBDQ96R7GNwE53tWcmbduizkpeMlwnO8qLs0Fcl64yn/dxqh86VLDLLl33ObnSVZKskL7rAJLvFakmSJCvsYTd4RdKsZjc9SW6xG4xIq3rP1i5KkntNt0tNkSa0rfe907QkedXpdqG9pClt94Mk/5LMM9kuMmRE2tQHliV51D2Sxx1sF3ldeq4PvNZQ8q4pLrRVXvU1u8Sfpfvb7rAkszHbi7LVHLvAMul3bff9JD/xnhkek9xoonF2iXRh2/02yULv28vtkjWmGldnSqe23cNJnveBIZdLnnCAcfQl6YutaHF3dWe3t7YJyTafst05NstzDjJupklTW9utDTe/O1vaYUmO8p9O8La84HDjZpN0f0ta3O0tbnmnJ5njvx3rddlgpnHygrSgRd3W/Ib7fT9Pssz/mmWDbDDTuHhC+lXzm99wNzevq5I84//NtEE2OMQ4eECa27JWtbpVLe+mJG/4MDO9LOt9xsBWSJf0627opm5pXr9JstWHO9Jb8rRPG9Bi6dJua3HLWt7S7mlCkik+3PHelYdMMZBh6WctbVmrWt2K1jY1yT4+yhlG5E5DBnCDNKc7WtKKVnV39zU52WYPH+3HkssM4GLp7Ja0spUta0l3Jw1t8fHmSc4wZt+QpremBd3WHQ13UtKEf/h4Ez0gGx1ljKbYIg11TN/t6+2ZJFfakX09Ky/Y3xhdI0mSJNnbjh3iTbnfHsZkyGJJkm1DI1P+aprROU1yuTEacqktkmxyqyOM3rWyzQnG7EjrJEkedrY9jcYk6+RlBxrAN/1JkuRxhxiNGV6VNQZ0jAU2TWxS8rxPG41TJecb2LSJb0lyndEZlo0OM6DJtslm+aXRmWq9zDWgL0hOdp6JRutww2Ya0PGyxQS73bmy3ifgCvmjT8BCGTaAfwOzHSv9BKT/fQAAAABJRU5ErkJggg==" style="zoom:32%;" /><span> 」+「拍摄按键 </span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAQAAACQ9RH5AAACOUlEQVR42u2YoW5qQRCGvxRR2mCqK5qK8goYmpDUnwcghKDQqGJw4KnmJZBYfBUoElQNghBESdOg7k12N+Wk7eweDqdMby5z5MzwM5vZ/58dONnJ/ne7IKLPiDkrtmxZMWdEn4iLn4K8osGQN/4I3xtDGlxlC3pJh1cRMv690uEyG9AcTRaxn57So0qFIgUKFKlQpcc0FrGgSe5Q2GueY5AtbsXIW1ox+GeuD4EtfdT6Qp2zYPwZdV4+6i6lha3xbn5iS5t84qw8bbYm751aOlj7z5eU984ts3TZtf0P2VY74SbVad0wcVWX9muphYMtpO6PgoNeJG+znOvkZcpqd1UvXYcnvFxN11Llgzmg7NqsmYyl7DE/ZkI/bXfcCdis4+5tPhPgvLvXnbAUWE6uZ8bzdcfhAfloOHL0s9QDA2Zs2DBjwEOAzSyRNvzAQxPU8kTcMf6iSWPuPBktEzP0y7zVW1kK7ll/K4dr7j3yYfXaMypEjjbkateiEq89VVsqiWTgJxPQFf1j7xAwFvN6xt+XgUcmoCq2VGj+kNqsarwjGXhuAiqCdxAEHgiZFeOdy8ArE1AUvLMg8EzILBrvSga2zCop0iYIvBGVyrL/7wNWO2q15lK7Tn0T0Ds+gUROm7KmzGmIMtVEQk0WFQcBtdFnN+ydH3fY24237WOPt2oDveITRu3RpvhMVXyYf15FnO9xgQ5cRSguXxTXTd8t2CZ0vyzYuq6VMlywKa4UVZeoqmvjk53sX7G/E6qiUldW0/kAAAAASUVORK5CYII=" style="zoom:32%;" /><span>」+「切换按键 </span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAQAAACQ9RH5AAADyElEQVR42u2YTUhUURTHfziLVEaiTQoSIYKaUblJFxmIRBDEbNqJ6NBCgiCMIBFEx8Zm08IwqmW2KkKwnZs+VtnCzWgUgotQaBxHidBER7DT4l3G+77mvTdaQ+R5q3feO+//7r3n438OHMqh/O9SRoRRplhgjSxZ1lhgilEilP0pyGNEmWQTcbk2mSTKsYMFLWeAdVdI/VpngPKDAQ3RQ0r79BwjdNBGHWHC1NFGByPMaW+k6CG0X9hqZjTIXmpc36yhV4OfoXo/sC25tS7SRYnn+yV0sZhbd0uhsJ1sIQhZ+ij1bVVKH1kEYYvOwmCNP8/QGti2lYyy7gy+ycZqZzlZ0G6dZFatuiWYS6UUbNjxeT3d9POIh9zmGqcd3wkr6JR/NwspT844rPY4CeZt0fuJO1Q5rDqjPNxncPUol2q1pZFBNnI+O80Er0nyQ2m2uWsDaFVu1uMvSxnbfNf2/0m1D0M0mZ6cYYzvCMJH6ixWfeo3fWSzARW35gBqJoOwwzAVLkH0gF8IqzRY9EZcD3iXAiMndzmc1goX89peYhlhiRMmbZfK4R7lI6qSY4lp85MIq9R67lYjPxCeW7KZkUij+U0nEYRek24QYZsLvhzzMl+ptOh6EYTJ/GXeqLc1pgDaQLjvOwdUOJQPo17noQoRlTZ0SSAsuyQS98h4ZfJjI5VE3A0eIghxk27epvGWcYRn2v0IgjDqbjCFIHRomgYE4Uwg2KhKKXvu1IEgTLmbLCAIbZqmGyEdCLYxx8s2aVS6NgRhwd1oDUFU9rlBjBhvEJaIEeOGz9P9rOXwz+qk6xCENXczI7MajtTOrvaJXdp9n65+jatKZWR/X8AQ0z4QC7TdLxDGTCXSA1jfaijhrYJ964Nv6TKN0K/de2611bmqSCOkHWptfkkjdGv3ns5lD6d2dnyerl4mBaFe03iG0yiCMGLSNQXmW3GEeZPGM4FEVG2ySmWAtiTMMkLCpJvzSplORQKOkuSJb+D7CBscD1YknMviLQThii/YC2QRBoOWRWciEOIdwrILjdWlllWEpOlgfBIBZ+pTyTeEda7mtb3ICsKKhRT7pD57ZO+ISXueFMIucZcPVDDMDkKG5sLI3h697bN59nsE4SePOWV6co4hRd2TthYgAL11J/Qh7uUIfZo3vGSCD7lGdoNB2+cDEfr8LUwFN/lia2HmSZgCqMAWxrtpO8t1EjzlEf10Wyj8Ppq2IrapRWzMraOII39vFFHE4UsRx01OA7ZZ4rYBW1y50gEO2Io4UizqELWoY+NDOZR/RX4DSBF0lik26VQAAAAASUVORK5CYII=" style="zoom:32%;" /><span>」并持续 1 秒。重置成功后再次连接Osmo设备。</span></p></li></ol></div>
+</body>
+</html>

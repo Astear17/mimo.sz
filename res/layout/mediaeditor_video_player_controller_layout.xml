@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lct.lomo.sdk.editor.video.view.VideoLoadingView android:id="@id/video_loading_view" android:background="@color/C_000000_80" android:padding="@dimen/editor_d_5_dp" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="@dimen/editor_d_40_dp" android:layout_height="@dimen/editor_d_40_dp" android:layout_centerInParent="true" />
+    <com.lctsdk.mediaeditor.player.controller.gesture.MultiTouchGestureLayout android:id="@id/video_gesture_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <lct.lomo.sdk.editor.customtemp.subtitle.multiple.MultiplePasterLayout android:id="@id/custom_paster_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</RelativeLayout>

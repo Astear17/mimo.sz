@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/editor_d_20_dp" android:topRightRadius="@dimen/editor_d_20_dp" />
+    <solid android:color="@color/mediaeditor_color_1A1A1A" />
+</shape>

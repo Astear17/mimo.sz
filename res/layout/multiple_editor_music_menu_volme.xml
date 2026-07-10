@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/edit_menu_bg_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/editor_d_70_dp" android:layout_marginBottom="@dimen/editor_d_23_dp" android:layout_above="@id/mediaedit_menu_bottom_layout_id" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/volume_left_time" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" android:layout_marginLeft="@dimen/editor_d_22_dp" android:layout_marginBottom="@dimen/editor_d_8_dp" android:src="@drawable/mediaedit_music_off" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        <lct.lomo.sdk.editor.widget.VolumeSeekbar android:id="@id/volume_seekbar" android:layout_width="@dimen/editor_d_265_dp" android:layout_height="@dimen/editor_d_70_dp" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/volume_right_time" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" android:layout_marginRight="@dimen/editor_d_22_dp" android:layout_marginBottom="@dimen/editor_d_8_dp" android:src="@drawable/mediaedit_music_on" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <include android:id="@id/mediaedit_menu_bottom_layout_id" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_49_dp" android:layout_alignParentBottom="true" layout="@layout/mediaeditor_menu_bottom_layout" />
+</RelativeLayout>

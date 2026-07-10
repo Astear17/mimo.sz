@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:background="@color/black_80" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/lay_vp" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <dji.base.ui.widget.indicator.ScrollingPagerIndicator android:layout_gravity="center|bottom" android:id="@id/recycler_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_16_dp" app:spi_dotColor="@color/white_50" app:spi_dotSelectedColor="@color/white" app:spi_dotSelectedSize="7.0dp" app:spi_dotSize="6.0dp" app:spi_looped="false" app:spi_visibleDotCount="11" />
+    <ImageView android:layout_gravity="end|top" android:id="@id/iv_close" android:background="@drawable/bg_btn_close_fpv_auto_recognition" android:padding="@dimen/d_6_dp" android:layout_width="@dimen/d_28_dp" android:layout_height="@dimen/d_28_dp" android:layout_marginTop="@dimen/d_16_dp" android:src="@drawable/ic_close_small" android:layout_marginEnd="@dimen/d_16_dp" />
+</FrameLayout>

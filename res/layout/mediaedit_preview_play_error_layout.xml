@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/proxy_play_retry_layout" android:background="@color/C_111116_100" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/editor_d_22_dp" android:paddingBottom="@dimen/editor_d_22_dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/editor_d_96_dp" android:layout_height="@dimen/editor_d_96_dp" android:src="@drawable/proxy_play_loading_fail" />
+            <TextView android:textColor="@color/white_45" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_afflatus_preview_download_fail_text" />
+            <TextView android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/proxy_play_retry" android:background="@drawable/mediaedit_proxy_play_retry_bg" android:layout_width="@dimen/editor_d_72_dp" android:layout_height="@dimen/editor_d_28_dp" android:layout_marginTop="@dimen/editor_d_32_dp" android:text="@string/light_myStory_retry_button" style="@style/H_4_normal" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout android:id="@id/proxy_play_error_layout" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="@dimen/editor_d_13_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/proxy_play_error_tv" android:background="@drawable/mediaedit_preview_error_tips_bg" android:paddingTop="@dimen/editor_d_9_dp" android:paddingBottom="@dimen/editor_d_9_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_30_dp" android:layout_marginRight="@dimen/editor_d_30_dp" android:text="@string/light_playback_download_disable_file_loop_recorded_toast" android:layout_centerInParent="true" android:paddingStart="@dimen/editor_d_15_dp" android:paddingEnd="@dimen/editor_d_15_dp" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

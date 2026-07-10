@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@drawable/live_stream_btn_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/d_16_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/user_guide_item_image_container" android:layout_width="match_parent" android:layout_height="@dimen/d_201_dp">
+        <ImageView android:layout_gravity="center" android:id="@id/user_guide_item_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" />
+    </RelativeLayout>
+    <TextView android:textAppearance="@style/TV.Roboto.Bold" android:textSize="@dimen/d_16_dp" android:textColor="@color/black" android:gravity="left" android:layout_gravity="right" android:id="@id/user_guide_item_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_16_dp" android:singleLine="false" android:layout_below="@id/user_guide_item_image_container" android:paddingStart="@dimen/d_10_dp" android:paddingEnd="@dimen/d_10_dp" />
+    <TextView android:textAppearance="@style/TV.Roboto.Regular" android:textSize="@dimen/d_12_dp" android:textColor="@color/black_40" android:ellipsize="end" android:gravity="left" android:layout_gravity="center|top" android:id="@id/user_guide_item_description" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="@dimen/d_100_dp" android:layout_marginTop="@dimen/d_16_dp" android:maxLines="4" android:layout_below="@id/user_guide_item_title" android:lineSpacingMultiplier="1.25" android:paddingStart="@dimen/d_10_dp" android:paddingEnd="@dimen/d_10_dp" />
+</RelativeLayout>

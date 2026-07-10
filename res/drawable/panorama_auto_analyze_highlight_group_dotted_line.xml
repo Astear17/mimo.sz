@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="line"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/editor_d_0_5_dp" android:color="@color/panorama_auto_analyze_highlight_group_dotted_line_stroke" android:dashWidth="@dimen/editor_d_3_dp" android:dashGap="@dimen/editor_d_2_dp" />
+</shape>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/device_connect_title_iv" layout="@layout/device_common_title_layout" />
+    <ImageView android:id="@id/device_logo" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_96_dp" android:layout_marginTop="@dimen/editor_d_96_dp" android:src="@drawable/light_handle_conn_om3_icon" android:layout_centerHorizontal="true" />
+    <include android:id="@id/device_connect_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_8_dp" android:layout_below="@id/device_logo" android:layout_centerHorizontal="true" layout="@layout/device_common_label_layout" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_2_dp" android:layout_below="@id/device_connect_label" android:layout_centerHorizontal="true">
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/device_connect_tips" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_17_dp" android:text="@string/light_device_handheld_find_pop_describe_action" style="@style/H_5_normal" />
+    </LinearLayout>
+    <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/device_submit" android:background="@drawable/layer_device_connect_bg" android:layout_width="@dimen/editor_d_135_dp" android:layout_height="@dimen/editor_d_44_dp" android:layout_marginBottom="@dimen/editor_d_44_dp" android:text="@string/light_device_handheld_connect_failed_pop_retry" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/H_3_normal" />
+    <com.lct.base.device.home.view.ConnectHelpView android:id="@id/device_connect_help_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_18_dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/model_import_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/model_import_back" android:padding="@dimen/d_10_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_10_dp" android:layout_marginBottom="@dimen/d_6_dp" android:src="@drawable/mediaedit_icon_back_cross" android:layout_marginStart="@dimen/d_6_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/model_import_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/model_import_back" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/model_import_back">
+            <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/color_ffffff" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/model_import_mimo_roll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/d_140_dp" android:text="@string/mimo_editor_select_add" android:maxLines="1" style="@style/TextStyleRobotoMedium" />
+            <ImageView android:layout_gravity="center_vertical" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mediaedit_import_down_arrow" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:id="@id/model_import_tab" android:layout_width="match_parent" android:layout_height="@dimen/d_30_dp" android:layout_below="@id/model_import_title" layout="@layout/mediaedit_importmedia_import_fragment_titlebar_layout" />
+    <dji.lomo.mediaeditor.model.material.MediaModelRecycleView android:id="@id/model_importmedia_media_rv" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/model_import_tab" android:overScrollMode="never" />
+    <dji.lomo.mediaeditor.importmedia.medialist.MediaEmptyView android:id="@id/mediaedit_empty_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+</RelativeLayout>

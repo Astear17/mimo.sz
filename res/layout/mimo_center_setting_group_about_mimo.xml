@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_24_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/kino_setting_about_dji_mimo" style="@style/TV.MimoCenter.Set.Title.Gray" />
+    <LinearLayout style="@style/TV.MimoCenter.Item.Type.Container.White">
+        <RelativeLayout android:id="@id/mimo_center_setting_rate_app_container" style="@style/MimoCenterItemContainer">
+            <TextView android:id="@id/mimo_center_rate_app_text" android:text="@string/kino_setting_rate_dji_mimo" style="@style/TV.MimoCenter.Item.Title.Black" />
+            <ImageView android:src="@drawable/mimo_center_item_arrow_right" style="@style/ImageView_MimoCenter_Item_RightArrow" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/mimo_center_setting_user_agreement_container" style="@style/MimoCenterItemContainer">
+            <TextView android:id="@id/mimo_center_user_agreement_text" android:text="@string/kino_setting_user_agreenment" style="@style/TV.MimoCenter.Item.Title.Black" />
+            <ImageView android:src="@drawable/mimo_center_item_arrow_right" style="@style/ImageView_MimoCenter_Item_RightArrow" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/mimo_center_setting_product_terms_container" style="@style/MimoCenterItemContainer">
+            <TextView android:id="@id/mimo_center_product_terms_text" android:text="@string/mimo_activate_terms_page_title" style="@style/TV.MimoCenter.Item.Title.Black" />
+            <ImageView android:src="@drawable/mimo_center_item_arrow_right" style="@style/ImageView_MimoCenter_Item_RightArrow" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/mimo_center_setting_app_update_container" style="@style/MimoCenterItemContainer">
+            <TextView android:id="@id/mimo_center_app_update_text" android:text="@string/mimo_home_personal_setting_update_check" style="@style/TV.MimoCenter.Item.Title.Black" />
+            <ImageView android:src="@drawable/mimo_center_item_arrow_right" style="@style/ImageView_MimoCenter_Item_RightArrow" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/mimo_center_setting_firmware_update_container" style="@style/MimoCenterItemContainer">
+            <TextView android:id="@id/mimo_center_firmware_text" android:text="@string/mimo_common_mytab_setting_aboutmimo_check_device_version_title" style="@style/TV.MimoCenter.Item.Title.Black" />
+            <ImageView android:src="@drawable/mimo_center_item_arrow_right" style="@style/ImageView_MimoCenter_Item_RightArrow" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_white_1" android:paddingTop="@dimen/d_7_dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/personal_titlebar_layout" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@id/pull_refresh_view" android:visibility="visible" layout="@layout/personal_user_info_layout_back" />
+        <RelativeLayout android:id="@id/navs_vice" android:background="@color/background_white_1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_55_dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/d_55_dp">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/rl_works_vice" android:layout_width="0.0dp" android:layout_height="@dimen/d_55_dp" android:layout_weight="1.0">
+                    <dji.base.ui.widget.DJITypefaceTextView android:textColor="@color/black" android:gravity="center" android:id="@id/tv_works_vice" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/kino_account_work_text" app:layout_constraintEnd_toStartOf="@id/works_vice_right_placeholder" app:typeFace="@string/ui_typeface_roboto_condensed_bold" style="@style/title_6_600" />
+                    <View android:id="@id/works_vice_right_placeholder" android:layout_width="0.0dp" android:layout_height="match_parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintWidth_percent="0.25" />
+                    <View android:id="@id/v_works_vice" android:background="@color/color_ffffff" android:visibility="gone" android:layout_width="@dimen/d_24_dp" android:layout_height="2.5dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="@id/tv_works_vice" app:layout_constraintRight_toRightOf="@id/tv_works_vice" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/rl_likes_vice" android:layout_width="0.0dp" android:layout_height="@dimen/d_55_dp" android:layout_weight="1.0">
+                    <View android:id="@id/works_vice_left_placeholder" android:layout_width="0.0dp" android:layout_height="match_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintWidth_percent="0.25" />
+                    <dji.base.ui.widget.DJITypefaceTextView android:textColor="@color/black_60" android:gravity="center" android:id="@id/tv_likes_vice" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/kino_account_likes_text" app:layout_constraintStart_toEndOf="@id/works_vice_left_placeholder" app:typeFace="@string/ui_typeface_roboto_condensed_bold" style="@style/title_6_600" />
+                    <View android:id="@id/v_likes_vice" android:background="@color/color_ffffff" android:visibility="gone" android:layout_width="@dimen/d_24_dp" android:layout_height="2.5dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="@id/tv_likes_vice" app:layout_constraintRight_toRightOf="@id/tv_likes_vice" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+            <View android:background="@color/color_282828" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_1_dp" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

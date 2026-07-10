@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/video_round_rect_bg" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/video_btn_error_play" android:padding="@dimen/d_4_dp" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:src="@drawable/ic_uikit_refresh" />
+    <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/video_error_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_14_dp" android:text="@string/hg305_master_photography_fpv_abnormal_prompt_load_fail_cover_content" />
+</LinearLayout>

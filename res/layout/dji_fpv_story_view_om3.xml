@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.lomo.fpv.story.widget.FpvStoryCountDownView android:gravity="center" android:id="@id/fpv_story_count_down" android:padding="@dimen/d_24_dp" android:visibility="gone" android:layout_width="@dimen/fpv_story_control_panel_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/fpv_story_custom_template_panel_title_height" android:layout_above="@id/fpv_story_segment_bar_recycle_container" android:layout_centerHorizontal="true" />
+    <dji.lomo.fpv.om3.story.DJILPFpvStorySegmentPreview android:id="@id/fpv_story_segment_preview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/fpv_story_segment_bar_recycle_container" android:layout_width="@dimen/d_500_dp" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <dji.lomo.fpv.story.segment.FpvStorySegmentRecycleView android:id="@id/fpv_story_segment_bar_recycleview" android:fadingEdgeLength="20.0dp" android:layout_width="wrap_content" android:layout_height="@dimen/d_32_dp" android:layout_marginBottom="@dimen/d_22_dp" android:layout_centerInParent="true" android:requiresFadingEdge="horizontal" />
+    </RelativeLayout>
+    <dji.lomo.fpv.story.segment.FpvStorySegmentTutorialView android:id="@id/fpv_story_segment_tutorial" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/fpv_story_segment_bar_recycle_container" android:layout_centerHorizontal="true" />
+    <dji.lomo.fpv.story.custom.FpvStoryCustomPanelControllerLayout android:id="@id/fpv_story_custom_panel_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/home_bar_size" android:layout_marginEnd="@dimen/home_bar_size" />
+    <dji.lomo.fpv.om3.story.DJILPStoryShutterView android:textSize="@dimen/d_20_dp" android:id="@id/fpv_story_shutter" android:visibility="gone" android:layout_width="@dimen/d_72_dp" android:layout_height="@dimen/d_72_dp" android:layout_centerVertical="true" android:layout_marginStart="@dimen/camera_mode_scroller_width" android:layout_alignParentStart="true" style="@style/TextStyleRobotoRegular" />
+    <dji.lomo.fpv.om3.story.DJILPFpvStoryTutorialView android:id="@id/fpv_story_tutorial_view" android:visibility="gone" android:layout_width="@dimen/d_177_dp" android:layout_height="@dimen/d_135_dp" android:layout_marginStart="@dimen/d_48_dp" />
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/home_bar_size" android:layout_height="match_parent" android:splitMotionEvents="false" android:layout_alignParentStart="true">
+        <dji.lomo.fpv.om3.story.DJILPStoryBackButton android:id="@id/fpv_story_back" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/home_bar_size" android:layout_height="@dimen/home_bar_size" />
+        <Space android:layout_width="@dimen/home_bar_size" android:layout_height="0.0dp" android:layout_weight="1.0" />
+        <Space android:layout_width="@dimen/home_bar_size" android:layout_height="0.0dp" android:layout_weight="1.0" />
+        <Space android:layout_width="@dimen/home_bar_size" android:layout_height="0.0dp" android:layout_weight="1.0" />
+        <Space android:id="@id/space" android:layout_width="@dimen/home_bar_size" android:layout_height="@dimen/home_bar_size" />
+    </LinearLayout>
+    <dji.lomo.fpv.story.widget.FpvStoryCustomHintPager android:id="@id/fpv_story_hint_pager" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false" />
+    <dji.lomo.fpv.om3.story.DJILPFpvStoryTemplateView android:id="@id/fpv_story_template" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false" />
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/editor_d_5_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/local_lut_import" android:background="@drawable/bg_corner4_white_translucent" android:layout_width="@dimen/editor_d_54_dp" android:layout_height="@dimen/editor_d_54_dp">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:layout_marginTop="@dimen/editor_d_4_dp" android:src="@drawable/local_cube_iv" android:layout_marginHorizontal="@dimen/editor_d_11_dp" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/editor_d_10_dp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:background="@drawable/bg_text_corner4_white_translucent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mimo_playback_single_clip_edit_filter_localcube_add_btn" android:maxLines="1" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <View android:background="@color/C_FFFFFF_20" android:layout_width="@dimen/editor_d_0_5_dp" android:layout_height="@dimen/editor_d_30_dp" android:layout_marginStart="@dimen/editor_d_16_dp" android:layout_marginEnd="@dimen/editor_d_8_dp" />
+</LinearLayout>

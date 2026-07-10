@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/background_white_1" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" android:text="组件库展示页面" android:elevation="2.0dp" android:letterSpacing="0.05" android:paddingVertical="8.0dp" />
+            <LinearLayout android:orientation="vertical" android:background="@color/background_white_1" android:paddingBottom="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/page_padding_horizontal">
+                <Button android:id="@id/btn_demo_title_bar" android:text="Title Bar" style="@style/button_large_brand" />
+                <Button android:id="@id/btn_demo_button" android:layout_marginTop="30.0dp" android:text="Custom Button" style="@style/button_large_brand" />
+                <Button android:id="@id/btn_demo_featurepopup" android:layout_marginTop="30.0dp" android:text="Feature Popup" style="@style/button_large_brand" />
+                <Button android:id="@id/btn_demo_toast" android:layout_marginTop="30.0dp" android:text="Toast" style="@style/button_large_brand" />
+                <Button android:id="@id/btn_demo_dialog" android:layout_marginTop="30.0dp" android:text="Dialog" style="@style/button_large_brand" />
+                <Button android:id="@id/btn_demo_input" android:layout_marginTop="30.0dp" android:text="Input" style="@style/button_large_brand" />
+                <Button android:id="@id/btn_demo_list" android:layout_marginTop="30.0dp" android:text="List" style="@style/button_large_brand" />
+                <Button android:id="@id/btn_demo_segment_control" android:layout_marginTop="30.0dp" android:text="Segment Control" style="@style/button_large_brand" />
+                <Button android:id="@id/btn_demo_switch" android:layout_marginTop="30.0dp" android:text="Switch" style="@style/button_large_brand" />
+                <Button android:id="@id/btn_demo_progress" android:layout_marginTop="30.0dp" android:text="Progress" style="@style/button_large_brand" />
+                <Button android:id="@id/btn_demo_popover" android:layout_marginTop="30.0dp" android:text="Popover" style="@style/button_large_brand" />
+                <Button android:id="@id/btn_demo_mix" android:layout_marginTop="30.0dp" android:text="Mix(开发自测用，忽略)" style="@style/button_large_brand" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

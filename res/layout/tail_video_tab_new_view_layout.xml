@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/custom_main_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_preview_tail" android:layout_width="match_parent" android:layout_height="match_parent">
+        <lct.lomo.sdk.editor.widget.BaseRecyclerView android:id="@id/rv_movie_head_and_end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_24_dp" android:layout_above="@id/mediaedit_menu_bottom_layout_id" />
+        <RelativeLayout android:id="@id/no_content_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@id/error_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_20_dp" android:layout_centerHorizontal="true" />
+            <TextView android:textColor="@color/C_7C7C7F_100" android:gravity="center_horizontal" android:id="@id/error_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_130_dp" android:text="@string/light_home_no_result_content" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/loading_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_49_dp" android:src="@drawable/mediaeditor_base_loading_frame_list" android:layout_centerInParent="true" />
+        <include android:id="@id/mediaedit_menu_bottom_layout_id" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp" android:layout_alignParentBottom="true" layout="@layout/custom_menu_bottom_layout" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/editor_d_45_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/sticker_icon" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:src="@drawable/selector_short_cut_sticker" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/editor_d_9_dp" android:textColor="@color/C_FFFFFF_100" android:gravity="center_horizontal" android:id="@id/sticker_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_24_dp" android:maxWidth="@dimen/editor_d_55_dp" android:layout_centerHorizontal="true" />
+</RelativeLayout>

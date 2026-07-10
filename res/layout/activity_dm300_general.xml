@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/d_20_dp" android:paddingEnd="@dimen/d_20_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/d_64_dp" style="@style/v2_common_header_layout">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/dm300_return_btn" style="@style/v2_common_header_return" />
+        <TextView android:id="@id/dm300_header_title" android:text="@string/dm300rx_common_parameter_setting_aboutdevice_list_title" style="@style/v2_common_header_title" />
+    </FrameLayout>
+    <LinearLayout android:id="@id/dm300_device_name_layout" android:background="@drawable/v2_settings_group_layout_bg" style="@style/v2_settings_single_item_layout">
+        <TextView android:layout_gravity="center_vertical" android:id="@id/dm300_device_name_key" android:text="@string/dm300rx_common_device_name_list_title" style="@style/v2_settings_item_info_key" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/dm300_device_name_value" android:text="@string/dm300rx_common_parameter_setting_mic_mini_title" style="@style/v2_settings_item_info_value" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/dm300_bind_account_layout" android:visibility="gone" style="@style/v2_settings_item_layout">
+        <TextView android:id="@id/dm300_bind_account_key" android:text="@string/dm300_bind_account" style="@style/v2_settings_item_info_key" />
+        <TextView android:id="@id/dm300_bind_account_value" android:text="@string/dm300_bind_account_value" style="@style/v2_settings_item_info_value" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/dm300_activation_time_layout" android:visibility="gone" style="@style/v2_settings_item_layout">
+        <TextView android:id="@id/dm300_activation_time_key" android:text="@string/dm300_activation_time" style="@style/v2_settings_item_info_key" />
+        <TextView android:id="@id/dm300_activation_time_value" android:text="@string/dm300_activation_time_value" style="@style/v2_settings_item_info_value" />
+    </LinearLayout>
+    <com.dji.mimo.accessory.dm300.DMSettingGeneralDeviceInfo android:orientation="vertical" android:id="@id/setting_general_device_rx_info" android:layout_width="match_parent" android:layout_height="wrap_content" app:dm_setting_title="@string/dm300rx_common_parameter_setting_rx_title" />
+    <com.dji.mimo.accessory.dm300.DMSettingGeneralDeviceInfo android:orientation="vertical" android:id="@id/setting_general_device_tx1_info" android:layout_width="match_parent" android:layout_height="wrap_content" app:dm_setting_title="@string/dm300tx_common_parameter_setting_tx1_title" />
+    <com.dji.mimo.accessory.dm300.DMSettingGeneralDeviceInfo android:orientation="vertical" android:id="@id/setting_general_device_tx2_info" android:layout_width="match_parent" android:layout_height="wrap_content" app:dm_setting_title="@string/dm300tx_common_parameter_setting_tx2_title" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/mimo_dialog_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/white" android:id="@id/common_dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_24_dp" android:layout_marginBottom="@dimen/d_20_dp" style="@style/TextStyleRobotoMedium" />
+    <RelativeLayout android:layout_width="@dimen/d_258_dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_16_dp" android:layout_marginRight="@dimen/d_16_dp">
+        <EditText android:textSize="@dimen/d_15_dp" android:textColor="@color/color_ffffff" android:textColorHint="@color/color_666666" android:gravity="start|center" android:id="@id/captcha_code" android:background="@null" android:paddingTop="@dimen/d_20_dp" android:paddingBottom="@dimen/d_20_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:textCursorDrawable="@drawable/edit_curs_color" android:layout_marginEnd="@dimen/d_21_dp" style="@style/TextStyleRobotoRegular" />
+        <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/captcha_image" android:layout_width="@dimen/d_75_dp" android:layout_height="@dimen/d_30_dp" android:scaleType="fitXY" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:roundRadius="@dimen/d_2.5_dp" />
+        <View android:background="@color/captcha_dialog_divider" android:layout_width="match_parent" android:layout_height="@dimen/d_0.5_dp" android:layout_below="@id/captcha_code" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/d_44_dp" android:layout_marginTop="@dimen/d_32_dp" android:layout_marginBottom="@dimen/d_16_dp" android:layout_below="@id/common_dialog_line">
+        <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/common_dialog_left_button" android:background="@drawable/captcha_dialog_cancelbtn_shape" android:layout_width="@dimen/d_124_dp" android:layout_height="match_parent" android:layout_marginRight="@dimen/d_8_dp" style="@style/TextStyleRobotoMedium" />
+        <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/common_dialog_right_button" android:background="@drawable/captcha_dialog_okbtn_shape" android:layout_width="@dimen/d_124_dp" android:layout_height="match_parent" style="@style/TextStyleRobotoMedium" />
+    </LinearLayout>
+</LinearLayout>

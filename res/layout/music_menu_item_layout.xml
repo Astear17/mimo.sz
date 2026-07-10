@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lct.lomo.sdk.editor.music.view.OprateImageView android:layout_gravity="center_horizontal" android:id="@id/music_menu_iv" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:scaleType="centerInside" />
+    <TextView android:textColor="@color/white_45" android:layout_gravity="center" android:id="@id/music_menu_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_3_dp" style="@style/H_5_normal" />
+</LinearLayout>

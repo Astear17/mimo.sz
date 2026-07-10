@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/d_24_dp" android:width="@dimen/d_50_dp" />
+    <corners android:radius="@dimen/d_50_dp" />
+    <solid android:color="@color/dji_device_upgrade_download_btn_blue" />
+    <stroke android:width="1.0dp" android:color="@color/dji_device_upgrade_download_btn_blue" />
+</shape>

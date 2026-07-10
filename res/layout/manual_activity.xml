@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dji.device.activate.page.manual.ui.CustomRecyclerView android:id="@id/container" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <dji.base.ui.widget.indicator.ScrollingPagerIndicator android:layout_gravity="center|bottom" android:id="@id/recycler_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_32_dp" app:spi_dotColor="#979797" app:spi_dotSelectedColor="#979797" app:spi_dotSelectedSize="7.0dp" app:spi_dotSize="6.0dp" app:spi_looped="false" app:spi_visibleDotCount="11" />
+</FrameLayout>

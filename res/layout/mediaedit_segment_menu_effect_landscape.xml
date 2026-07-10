@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/edit_menu_volumn_bg_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lct.lomo.sdk.editor.widget.ImgEffectsRecyclerView android:id="@id/mediaedit_menu_effect_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/mediaedit_menu_bottom_layout_id" android:layout_centerHorizontal="true" />
+    <include android:id="@id/mediaedit_menu_bottom_layout_id" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_40_dp" android:layout_alignParentBottom="true" layout="@layout/mediaeditor_menu_bottom_layout_landscape" />
+</RelativeLayout>

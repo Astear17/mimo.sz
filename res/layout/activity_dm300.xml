@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/d_20_dp" android:paddingEnd="@dimen/d_20_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fragment_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/dm300_header" android:layout_width="match_parent" android:layout_height="@dimen/d_64_dp" style="@style/v2_common_header_layout">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/dm300_return_btn" style="@style/v2_common_header_return" />
+        <TextView android:id="@id/dm300_header_title" android:text="@string/dm300rx_common_parameter_setting_headline_list_title" style="@style/v2_common_header_title" />
+        <TextView android:id="@id/dm300_connect_btn" android:text="@string/dm300rx_common_parameter_setting_quit_list_btn" style="@style/v2_common_header_right_btn" />
+    </FrameLayout>
+    <ScrollView android:id="@id/dm300_sv" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.dji.mimo.accessory.dm300.DMSettingTopProductView android:id="@id/dm_setting_top_product" android:background="@drawable/v2_settings_group_layout_bg" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <com.dji.mimo.accessory.dm300.DMSettingRealTimeView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_20_dp" style="@style/v2_settings_group_layout" />
+            <include android:id="@id/dm300_rx_setting" layout="@layout/dm300_rx" />
+            <include android:id="@id/dm300_tx_setting" layout="@layout/dm300_tx" />
+            <include layout="@layout/dm300_general" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

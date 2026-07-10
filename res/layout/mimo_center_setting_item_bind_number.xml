@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mimo_center_bind_number_container" style="@style/MimoCenterItemContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/mimo_center_bind_number_title" android:text="@string/mimo_common_account_change_mobilephone_number_title" android:layout_marginEnd="@dimen/d_16_dp" android:layout_toStartOf="@id/mimo_center_bind_number_tip" style="@style/TV.MimoCenter.Item.Title.Black" />
+    <TextView android:gravity="end" android:id="@id/mimo_center_bind_number_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toStartOf="@id/mimo_center_bind_number_arrow" style="@style/TV.MimoCenter.Item.Description.Clamped" />
+    <ImageView android:id="@id/mimo_center_bind_number_arrow" android:src="@drawable/mimo_center_item_arrow_right" style="@style/ImageView_MimoCenter_Item_RightArrow" />
+</RelativeLayout>

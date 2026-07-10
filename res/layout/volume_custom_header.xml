@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_item" android:layout_width="@dimen/editor_d_40_dp" android:layout_height="@dimen/editor_d_40_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:gravity="center" android:id="@id/volume_off_on" android:clickable="false" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:checked="false" android:button="@drawable/mediaeditor_model_preview_header_checked" android:layout_centerInParent="true" />
+</RelativeLayout>

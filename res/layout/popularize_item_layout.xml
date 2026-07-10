@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/editor_d_37_5_dp" android:paddingRight="@dimen/editor_d_37_5_dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:id="@id/popularize_item_retry" android:background="@drawable/popularize_no_net_shape" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_popularize_item_retry_iv" android:layout_width="@dimen/editor_d_96_dp" android:layout_height="@dimen/editor_d_96_dp" android:src="@drawable/ic_host_no_network" />
+            <TextView android:textColor="@color/white_45" android:layout_gravity="center_horizontal" android:id="@id/popularize_item_retry_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_4_dp" android:text="@string/light_afflatus_novice_guide_retry_btn" style="@style/H_4_normal" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.lctsdk.mediaeditor.tabviews.video.RoundRadiusLayout android:id="@id/popularize_item_video" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" app:radiusColor="@color/C_000000_80" app:roundRadius="@dimen/editor_d_10_dp">
+        <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:layout_gravity="center" android:id="@id/popularize_item_cover" android:layout_width="match_parent" android:layout_height="match_parent" app:roundRadius="@dimen/editor_d_10_dp" />
+        <FrameLayout android:id="@id/popularize_item_video_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <FrameLayout android:id="@id/popularize_item_video_controller" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </com.lctsdk.mediaeditor.tabviews.video.RoundRadiusLayout>
+    <androidx.cardview.widget.CardView android:id="@id/popularize_item_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="@dimen/editor_d_15_dp" app:cardElevation="@dimen/editor_d_0_dp">
+        <ImageView android:id="@id/popularize_item_iv" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

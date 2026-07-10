@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/mediaedit_draft_to_create_btn_bg_corners" />
+    <solid android:color="@color/white" />
+</shape>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ai_data_load_dialog_head" android:paddingBottom="@dimen/editor_d_80_dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center" android:id="@id/ai_data_load_dialog_icon" android:layout_width="@dimen/editor_d_90_dp" android:layout_height="@dimen/editor_d_90_dp" android:src="@drawable/ai_data_loading_frame_list" />
+        <com.lct.lightui.other.viewpager.XBanner android:id="@id/ai_data_load_dialog_banner" android:visibility="gone" android:clickable="false" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_100_dp" app:AutoPlayTime="900" app:isAutoPlay="true" app:isClickSide="false" app:isClipChildrenMode="true" app:isHandLoop="true" app:isShowNumberIndicator="false" app:pageChangeDuration="900" app:pointsVisibility="false" app:viewpagerMargin="@dimen/editor_d_05_dp" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_10_dp">
+            <TextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ai_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/H_3_normal" />
+            <TextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/ai_data_load_dialog_progress_tv" android:layout_width="@dimen/editor_d_50_dp" android:layout_height="wrap_content" android:text="0%" style="@style/H_3_normal" />
+            <TextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/ai_data_load_dialog_progress_tv2" android:visibility="gone" android:layout_width="@dimen/editor_d_50_dp" android:layout_height="wrap_content" style="@style/H_3_normal" />
+        </LinearLayout>
+        <TextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/ai_data_load_dialog_time_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_2_dp" style="@style/H_4_normal" />
+        <LinearLayout android:orientation="vertical" android:id="@id/tips_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_32_dp" android:paddingStart="@dimen/editor_d_40_dp" android:paddingEnd="@dimen/editor_d_40_dp">
+            <View android:background="@color/white_20" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" />
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ai_dialog_tips" />
+                <lct.lomo.sdk.editor.widget.TextViewVerticalScrollContainer android:id="@id/text_view_vertical_scroll_container" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_38_dp" android:layout_marginStart="@dimen/editor_d_5_dp" />
+            </LinearLayout>
+            <View android:background="@color/white_20" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" />
+        </LinearLayout>
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/ai_data_load_dialog_progress_ratio" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_22_dp" android:layout_marginTop="@dimen/editor_d_70_dp" android:layout_marginRight="@dimen/editor_d_22_dp" android:text="@string/light_ai_wait_work_dialog_text" style="@style/H_3_normal" />
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/ai_data_load_dialog_processing_step" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_10_dp" style="@style/H_3_normal" />
+    </LinearLayout>
+    <TextView android:gravity="center" android:id="@id/dialog_neg_btn" android:visibility="gone" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:layout_marginTop="@dimen/editor_d_20_dp" android:drawableStart="@drawable/ai_dialog_full_back" android:layout_marginStart="@dimen/editor_d_22_dp" android:layout_alignParentStart="true" />
+</RelativeLayout>

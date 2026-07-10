@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/black_90" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:RulerView="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+        <dji.lomo.fpv.om3.gimble.view.DJIRulerView android:layout_width="35.0mm" android:layout_height="@dimen/d_30_dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" RulerView:ruler_type="upper" />
+        <ImageView android:layout_width="35.0mm" android:layout_height="2.1159973mm" android:src="@drawable/fpv_phone_holder_calibrate_holder" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <dji.lomo.fpv.om3.gimble.view.DJIRulerView android:layout_width="35.0mm" android:layout_height="@dimen/d_30_dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" RulerView:ruler_type="lower" />
+        <ImageView android:layout_width="35.0mm" android:layout_height="2.1159973mm" android:src="@drawable/fpv_phone_holder_calibrate_holder" android:scaleType="fitXY" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:rotation="180.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/fpv_phone_holder_content" android:layout_width="wrap_content" android:layout_height="@dimen/d_287_dp" android:layout_centerInParent="true">
+            <LinearLayout android:layout_gravity="center" android:id="@id/fpv_phone_holder_image_content_hor" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:layout_width="@dimen/d_153_dp" android:layout_height="@dimen/d_215_dp" android:layout_marginBottom="@dimen/d_4_dp" android:src="@drawable/fpv_phone_holder_calibrate_correct_hor" android:scaleType="fitCenter" />
+                <ImageView android:layout_gravity="center" android:layout_width="@dimen/d_153_dp" android:layout_height="@dimen/d_215_dp" android:layout_marginLeft="@dimen/d_60_dp" android:src="@drawable/fpv_phone_holder_calibrate_error_hor" android:scaleType="fitCenter" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:id="@id/fpv_phone_holder_image_content_ver" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:layout_width="@dimen/d_215_dp" android:layout_height="@dimen/d_215_dp" android:layout_marginBottom="@dimen/d_4_dp" android:src="@drawable/fpv_phone_holder_calibrate_correct_ver" android:scaleType="fitCenter" android:rotation="270.0" />
+                <ImageView android:layout_gravity="center" android:layout_width="@dimen/d_215_dp" android:layout_height="@dimen/d_215_dp" android:layout_marginLeft="@dimen/d_20_dp" android:src="@drawable/fpv_phone_holder_calibrate_error_ver" android:scaleType="fitCenter" android:rotation="270.0" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/white" android:gravity="left" android:layout_gravity="center" android:id="@id/fpv_phone_holder_text" android:layout_width="@dimen/d_287_dp" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_26_dp" android:text="@string/hg303_fpv_fixture_calibration_mask_tutorial_content" style="@style/TextStyleRobotoMedium" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white" android:layout_gravity="end" android:id="@id/fpv_phone_holder_calibrate_close" android:padding="@dimen/d_20_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hg303_fpv_common_confirm_btn" style="@style/TextStyleRobotoMedium" />
+</FrameLayout>

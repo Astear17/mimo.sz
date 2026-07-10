@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/bg_connected_status" android:paddingTop="8.0dp" android:paddingBottom="8.0dp" android:layout_width="wrap_content" android:layout_height="@dimen/d_32_dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextStyleRobotoRegular" android:textSize="11.0dp" android:textColor="#41d95f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connect_scan_connected_en" android:textFontWeight="600" />
+    <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ic_device_linked" android:layout_marginStart="4.0dp" />
+</LinearLayout>

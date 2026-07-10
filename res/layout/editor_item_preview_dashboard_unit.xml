@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/editor_d_72_dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lct.dashboard.menu.SelectedImageView android:layout_gravity="center_horizontal" android:id="@id/img_icon" android:background="@drawable/editor_ic_dashboard_bg" android:padding="@dimen/editor_d_12_dp" android:layout_width="@dimen/editor_d_56_dp" android:layout_height="@dimen/editor_d_56_dp" android:layout_marginBottom="@dimen/editor_d_12_dp" android:src="@drawable/editor_ic_dashboard_speed_normal" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/editor_d_11_dp" android:textColor="@color/white_60" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/tv_item_template_select_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/editor_ac204_playback_dashboard_type_pace_title" android:maxLines="2" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/C_131414_100" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/more_setting_base_header" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/more_setting_base_header_layout" />
+    <include android:id="@id/more_setting_base" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_580_dp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/more_setting_base_header" layout="@layout/more_setting_base_layout" />
+    <include android:id="@id/more_setting_scene" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/more_setting_base_header" layout="@layout/more_setting_scene_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/root_view" android:tag="layout/item_gcm_empty_video_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/gcm_draft_edit" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_gcm_no_video" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/hg307_fpv_gcm_summary_btn_continue_subtitle" style="@style/TextStyleRobotoRegular" />
+</LinearLayout>

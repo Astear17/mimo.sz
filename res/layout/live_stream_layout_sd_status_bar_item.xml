@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/white" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/sd_state_bar_tv" android:background="@drawable/live_stream_sd_status_bar_gradient_radius_bg" android:padding="@dimen/d_15_dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/ac101_fpv_live_setting_page_sd_card_error_tip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

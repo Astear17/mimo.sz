@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/template_bottom_sheet_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/custom_closed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_14_dp" android:src="@drawable/ic_close_normal_new" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/retake" android:background="@drawable/shape_custom_clip_retake_btn" android:paddingLeft="@dimen/editor_d_10_dp" android:paddingRight="@dimen/editor_d_10_dp" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_28_dp" android:text="@string/light_model_videotrim_chchange" android:drawableLeft="@drawable/ic_clip_replace" android:layout_centerInParent="true" style="@style/H_5_normal" />
+    <RelativeLayout android:id="@id/custom_apply_all" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/editor_d_25_dp" android:layout_marginRight="@dimen/editor_d_25_dp" android:layout_toLeftOf="@id/custom_done" android:layout_toRightOf="@id/custom_closed" android:layout_centerInParent="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/shape_custom_clip_retake_btn" android:paddingRight="@dimen/editor_d_10_dp" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_26_dp" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/editor_d_20_dp" android:layout_height="@dimen/editor_d_20_dp" android:layout_marginLeft="@dimen/editor_d_3_dp" android:src="@drawable/custom_apply_all_icon" />
+            <TextView android:textColor="@color/C_F22443_100" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_8_dp" android:text="@string/light_editor_tab1_function_apllyall_confirm" style="@style/H_5_normal" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:id="@id/custom_done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/editor_d_14_dp" android:src="@drawable/custom_bottom_right_new" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

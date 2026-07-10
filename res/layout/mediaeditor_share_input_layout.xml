@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/editor_d_22_dp" android:paddingRight="@dimen/editor_d_22_dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lct.lomo.mediaeditor.widget.LimitEditText android:scrollbarThumbVertical="@drawable/shape_share_text_scrollbar" android:textColor="@color/black" android:textColorHint="@color/black_45" android:gravity="top" android:id="@id/share_desc" android:background="@color/transparent" android:paddingBottom="@dimen/editor_d_22_dp" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/light_upload_post_description" android:minLines="2" android:maxLength="100" android:lineSpacingMultiplier="1.2" android:textCursorDrawable="@drawable/media_edit_curs_color" style="@style/H_3_normal" />
+    <TextView android:textColor="@color/C_F22443_100" android:id="@id/share_desc_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/share_desc" android:layout_alignParentRight="true" style="@style/H_5_normal" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/top" android:layout_width="match_parent" android:layout_height="@dimen/d_70_dp">
+        <ImageView android:id="@id/back" android:padding="@dimen/d_10_dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mediaeditor_ic_closed" android:layout_centerVertical="true" android:layout_marginStart="@dimen/d_6_dp" />
+        <ImageView android:id="@id/full_screen" android:padding="@dimen/d_2_dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mediaedit_ic_video_fullsrceen" android:layout_marginEnd="@dimen/d_14_dp" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/preview_delete_btn" android:padding="@dimen/d_10_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mediaedit_icon_preview_delete" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/d_14_dp" android:layout_toStartOf="@id/preview_select_btn" />
+        <ImageView android:id="@id/preview_select_btn" android:padding="@dimen/d_10_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/d_6_dp" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/extract_music" android:background="@drawable/extract_music_bg" android:paddingLeft="@dimen/d_21_dp" android:paddingRight="@dimen/d_21_dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/d_32_dp" android:layout_marginTop="@dimen/d_22_dp" android:layout_marginRight="@dimen/d_22_dp" android:layout_marginBottom="@dimen/d_18_dp" android:text="@string/mimo_editor_music_local_extractingfromvideo_extractingmusic" android:layout_alignParentEnd="true" style="@style/edit_done_title_bar_text_style" />
+    </RelativeLayout>
+    <ImageView android:id="@id/restart_or_pause" android:padding="@dimen/d_10_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mediaeditor_ic_video_inline_play_center" android:layout_centerInParent="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <dji.lomo.mediaeditor.widget.TimeBar android:layout_gravity="center" android:id="@id/timeBar" android:layout_width="match_parent" android:layout_height="@dimen/d_36_dp" android:layout_marginLeft="@dimen/d_14_dp" android:layout_marginRight="@dimen/d_14_dp" android:layout_marginBottom="@dimen/d_9_dp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingLeft="@dimen/editor_d_16_dp" android:paddingRight="@dimen/editor_d_16_dp" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_32_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/audio_effect_page_tab_title_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/audio_effect_page_tab_img" android:visibility="gone" android:layout_width="@dimen/editor_d_18_dp" android:layout_height="@dimen/editor_d_18_dp" android:layout_marginEnd="@dimen/editor_d_3_dp" />
+        <TextView android:textSize="@dimen/editor_d_13_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/audio_effect_page_tab_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+    </LinearLayout>
+    <ImageView android:id="@id/audio_effect_page_tab_img_point_iv" android:background="@drawable/mediaeditor_filter_item_point_bg" android:visibility="invisible" android:layout_width="@dimen/editor_d_5_dp" android:layout_height="@dimen/editor_d_5_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

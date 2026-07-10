@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/shake_directionLock_layout" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/panorama_single_fragment_image_effects" style="@style/H_4_normal" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/more_setting_card_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_8_dp">
+        <include android:id="@id/more_setting_scene_diff_color" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_44_dp" layout="@layout/more_setting_switch_item_layout" />
+        <View android:id="@id/more_setting_scene_split_line" android:background="@color/color_303233" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_1_dp" android:layout_marginLeft="@dimen/editor_d_16_dp" android:layout_marginRight="@dimen/editor_d_16_dp" />
+        <include android:id="@id/more_setting_scene_tonal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/more_setting_switch_with_content_layout" />
+    </LinearLayout>
+</LinearLayout>

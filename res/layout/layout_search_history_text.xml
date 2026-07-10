@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="@color/C_000000_100" android:ellipsize="end" android:gravity="center" android:id="@id/tvHistoryItem" android:background="@drawable/shape_template_search_history_item_bg" android:paddingLeft="@dimen/editor_d_10_dp" android:paddingRight="@dimen/editor_d_10_dp" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_30_dp" android:maxLines="1" android:includeFontPadding="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:bottomLeftRadius="@dimen/panorama_filter_cusor_select_leftradius" android:bottomRightRadius="@dimen/panorama_filter_cusor_select_rightradius" />
+    <solid android:color="@color/panorama_filter_cusor_select_solid" />
+</shape>

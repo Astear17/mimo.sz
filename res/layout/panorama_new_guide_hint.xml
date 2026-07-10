@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@color/black_100" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/hint_anim" android:layout_width="280.0dp" android:layout_height="133.0dp" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/hint_tv_layout" android:background="@drawable/panorama_new_hint_tx_bg" android:paddingTop="@dimen/editor_d_12_dp" android:paddingBottom="@dimen/editor_d_12_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_24_dp" android:layout_marginRight="@dimen/editor_d_24_dp" android:paddingStart="@dimen/editor_d_16_dp" android:paddingEnd="@dimen/editor_d_16_dp">
+        <TextView android:textColor="@color/C_29292D_100" android:id="@id/current_step" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/H_3_normal" />
+        <TextView android:textColor="@color/C_7C7C7F_100" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/panorama_single_fragment_hint_separator" style="@style/H_6_normal" />
+        <TextView android:id="@id/all_step" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/H_6_normal" />
+        <TextView android:textColor="@color/C_29292D_100" android:id="@id/step_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/editor_d_8_dp" style="@style/H_3_normal" />
+    </LinearLayout>
+</merge>

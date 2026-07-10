@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_item" android:visibility="gone" android:layout_width="@dimen/editor_d_0_dp" android:layout_height="@dimen/editor_d_64_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:gravity="center" android:id="@id/volume_off_on" android:clickable="false" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" android:layout_marginTop="@dimen/editor_d_10_dp" android:checked="false" android:button="@drawable/mediaeditor_model_preview_header_checked" android:layout_centerHorizontal="true" />
+    <TextView android:textColor="@color/white_45" android:gravity="center" android:id="@id/volume_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/light_mystory_original" android:layout_below="@id/volume_off_on" android:layout_centerHorizontal="true" style="@style/H_5_normal" />
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/story_custom_template_handler" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_30_dp">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:src="@drawable/fpv_story_custom_panel_handler" android:scaleType="fitCenter" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/story_custom_template_panel_shown" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@drawable/fpv_story_custom_template_panel_divider" android:layout_below="@id/story_custom_template_handler" android:showDividers="middle" android:dividerPadding="@dimen/d_16_dp">
+        <HorizontalScrollView android:scrollbars="none" android:fadingEdgeLength="@dimen/d_12_dp" android:layout_width="match_parent" android:layout_height="@dimen/d_32_dp" android:layout_marginTop="@dimen/d_10_dp" android:fillViewport="true" android:requiresFadingEdge="horizontal">
+            <LinearLayout android:orientation="horizontal" android:id="@id/story_custom_template_categories" android:layout_width="wrap_content" android:layout_height="match_parent" />
+        </HorizontalScrollView>
+        <LinearLayout android:orientation="horizontal" android:id="@id/story_custom_template_title_bar" android:layout_width="match_parent" android:layout_height="@dimen/fpv_story_custom_template_panel_title_height" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_16_dp">
+            <TextView android:textSize="@dimen/d_14_dp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/story_custom_template_name" android:layout_width="0.0dp" android:layout_height="match_parent" android:maxLines="1" android:layout_weight="1.0" android:paddingEnd="@dimen/d_8_dp" style="@style/TextStyleRobotoRegular" />
+            <TextView android:textSize="@dimen/d_9_dp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/story_custom_template_index" android:layout_width="wrap_content" android:layout_height="match_parent" style="@style/TextStyleRobotoRegular" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/story_custom_template_recycler" android:padding="@dimen/d_12_dp" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/story_custom_template_create_hint" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/blue" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/mimo_story_add_new_story_custom_template_turorial_pop" android:drawablePadding="@dimen/d_6_dp" android:drawableEnd="@drawable/fpv_story_custom_template_create_hint" android:paddingStart="@dimen/d_8_dp" android:paddingEnd="@dimen/d_8_dp" style="@style/TextStyleRobotoRegular" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/story_custom_template_header_handler" android:layout_width="match_parent" android:layout_height="@dimen/d_30_dp" android:layout_above="@id/story_custom_template_panel_hide">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:src="@drawable/fpv_story_custom_panel_handler" android:scaleType="fitCenter" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/story_custom_template_panel_hide" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/fpv_story_custom_template_panel_title_height" android:layout_alignParentBottom="true" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_16_dp">
+        <TextView android:textSize="@dimen/d_14_dp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/story_custom_template_header_name" android:layout_width="0.0dp" android:layout_height="match_parent" android:maxLines="1" android:layout_weight="1.0" android:paddingEnd="@dimen/d_8_dp" style="@style/TextStyleRobotoRegular" />
+        <TextView android:textSize="@dimen/d_9_dp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/story_custom_template_header_index" android:layout_width="wrap_content" android:layout_height="match_parent" style="@style/TextStyleRobotoRegular" />
+    </LinearLayout>
+</merge>

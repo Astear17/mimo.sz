@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/editor_d_20_dp" android:layout_marginEnd="@dimen/editor_d_20_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/editor_d_14_dp" android:textColor="@color/white_60" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_16_dp" android:text="@string/editor_ac204_playback_dashboard_import_tab_title1" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/editor_dashboard_rounded_corner_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/editor_d_20_dp" android:paddingEnd="@dimen/editor_d_20_dp">
+        <include android:id="@id/rb_hw" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_54_dp" layout="@layout/editor_import_data_type_item_layout" />
+        <View android:id="@id/line_hw" android:background="@color/editor_C_303233" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" />
+        <include android:id="@id/rb_garmin_cn" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_54_dp" layout="@layout/editor_import_data_type_item_layout" />
+        <View android:id="@id/line_garmin_cn" android:background="@color/editor_C_303233" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" />
+        <include android:id="@id/rb_garmin" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_54_dp" layout="@layout/editor_import_data_type_item_layout" />
+        <View android:background="@color/editor_C_303233" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" />
+        <include android:id="@id/igp_sport_cn" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_54_dp" layout="@layout/editor_import_data_type_item_layout" />
+        <View android:id="@id/line_igp_sport_cn" android:background="@color/editor_C_303233" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" />
+        <include android:id="@id/igp_sport_en" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_54_dp" layout="@layout/editor_import_data_type_item_layout" />
+        <View android:id="@id/line_igp_sport_en" android:background="@color/editor_C_303233" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" />
+        <include android:id="@id/magene_cn" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_54_dp" layout="@layout/editor_import_data_type_item_layout" />
+        <View android:id="@id/line_magene_cn" android:background="@color/editor_C_303233" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" />
+        <include android:id="@id/magene_en" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_54_dp" layout="@layout/editor_import_data_type_item_layout" />
+        <View android:id="@id/line_magene_en" android:background="@color/editor_C_303233" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" />
+        <include android:id="@id/rb_coros" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_54_dp" layout="@layout/editor_import_data_type_item_layout" />
+        <View android:background="@color/editor_C_303233" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" />
+        <include android:id="@id/suunto_cn" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_54_dp" layout="@layout/editor_import_data_type_item_layout" />
+        <View android:id="@id/line_suunto_cn" android:background="@color/editor_C_303233" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" />
+        <include android:id="@id/suunto_en" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_54_dp" layout="@layout/editor_import_data_type_item_layout" />
+        <View android:id="@id/line_suunto_en" android:background="@color/editor_C_303233" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" />
+        <include android:id="@id/rb_xingzhe" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_54_dp" layout="@layout/editor_import_data_type_item_layout" />
+        <View android:id="@id/line_xingzhe" android:background="@color/editor_C_303233" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" />
+        <include android:id="@id/rb_import_local" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_54_dp" layout="@layout/editor_import_data_type_item_layout" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_35_dp" android:layout_marginBottom="@dimen/editor_d_16_dp">
+        <TextView android:textSize="@dimen/editor_d_14_dp" android:textColor="@color/white_60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/editor_ac204_playback_dashboard_import_tab_title2" />
+    </LinearLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/dashboard_import_defualt_data_item" android:background="@drawable/editor_dashboard_rounded_corner_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_6_dp" android:minHeight="@dimen/editor_d_80_dp" android:paddingStart="@dimen/editor_d_20_dp" android:paddingEnd="@dimen/editor_d_20_dp">
+        <ImageView android:id="@id/dashboard_import_defualt_data_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/editor_dashboard_check_icon_default" android:layout_weight="0.0" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/editor_d_16_dp">
+            <TextView android:textSize="@dimen/editor_d_15_dp" android:textColor="@color/white_90" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_4_dp" android:text="@string/editor_ac204_playback_dashboard_import_tab_video_title" android:maxLines="1" />
+            <com.lct.dashboard.ui.EndEllipsizeTextView android:textSize="@dimen/editor_d_10_dp" android:textColor="@color/white_60" android:id="@id/video_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:maxLines="1" />
+            <TextView android:textSize="@dimen/editor_d_10_dp" android:textColor="@color/white_60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/editor_ac204_playback_dashboard_import_tab_content22" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/dashboard_import_loading_layout" android:background="@drawable/editor_dashboard_rounded_corner_bg" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_80_dp" android:layout_marginTop="@dimen/editor_d_6_dp" android:paddingStart="@dimen/editor_d_20_dp" android:paddingEnd="@dimen/editor_d_20_dp">
+        <ImageView android:id="@id/dashboard_import_loading_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/editor_dashboard_import_loading_icon" android:layout_weight="0.0" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/editor_d_12_dp">
+            <TextView android:textSize="@dimen/editor_d_15_dp" android:textColor="@color/white_90" android:id="@id/dashboard_import_loading_file_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_4_dp" android:text="File Name" android:maxLines="1" />
+            <TextView android:textSize="@dimen/editor_d_10_dp" android:textColor="@color/white_60" android:id="@id/dashboard_import_loading_file_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Size" android:maxLines="1" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</LinearLayout>

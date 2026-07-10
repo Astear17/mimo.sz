@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/tutorial_dialog_layout" android:layout_width="@dimen/editor_d_303_dp" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.4">
+        <FrameLayout android:background="@drawable/auto_audio_guide_dialog_video_bg" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_538_dp">
+            <LinearLayout android:orientation="vertical" android:id="@id/tutorial_layout" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.lct.uilib.widget.RoundRadiusLayout android:layout_gravity="center" android:id="@id/rl_model_item" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerHorizontal="true" app:roundRadius="@dimen/editor_d_10_dp">
+                    <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/video_cover" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:layout_centerHorizontal="true" app:radiusColor="@color/white" app:roundRadius="@dimen/editor_d_10_dp" />
+                    <FrameLayout android:id="@id/video_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+                    <FrameLayout android:id="@id/video_controller" android:layout_width="match_parent" android:layout_height="match_parent" />
+                    <ImageView android:layout_gravity="center" android:id="@id/play_icon" android:visibility="gone" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/lctm_ic_play" />
+                </com.lct.uilib.widget.RoundRadiusLayout>
+            </LinearLayout>
+            <FrameLayout android:id="@id/load_layout" android:background="@drawable/auto_audio_guide_dialog_video_bg" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="@dimen/editor_d_72_dp" android:layout_height="@dimen/editor_d_72_dp" android:indeterminateDrawable="@drawable/qingpai_guide_loading_progress" />
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/reload" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/empty_view_image" android:layout_width="@dimen/editor_d_96_dp" android:layout_height="@dimen/editor_d_96_dp" android:src="@drawable/light_ic_no_network" />
+                    <TextView android:textColor="@color/white_45" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/empty_view_title" android:paddingLeft="@dimen/editor_d_10_dp" android:paddingTop="@dimen/editor_d_12_dp" android:paddingRight="@dimen/editor_d_10_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/H_3_normal" />
+                </LinearLayout>
+            </FrameLayout>
+        </FrameLayout>
+        <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/start" android:background="@drawable/auto_audio_guide_dialog_close_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_8_dp" android:drawableStart="@drawable/light_close_icon_white" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

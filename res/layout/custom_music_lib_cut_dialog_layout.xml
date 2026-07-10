@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_out" android:background="@color/C_000000_80" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <RelativeLayout android:id="@id/music_layout" android:background="@drawable/shape_music_cut_dialog_bg" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_213_dp" android:layout_alignParentBottom="true">
+        <TextView android:textColor="@color/white" android:id="@id/tv_music_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_18_dp" android:layout_centerHorizontal="true" style="@style/H_4_normal" />
+        <lct.lomo.sdk.editor.music.view.MusicLibClipViewLayout android:id="@id/music_clip_view_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_12_dp" android:layout_above="@id/tv_lable" />
+        <TextView android:textColor="@color/white_45" android:id="@id/tv_lable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_model_music_volume_describe" android:layout_above="@id/music_clip_bottom" android:layout_centerHorizontal="true" style="@style/H_5_normal" />
+        <RelativeLayout android:id="@id/music_clip_bottom" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_49_dp" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/music_clip_close" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:layout_marginLeft="@dimen/editor_d_22_dp" android:src="@drawable/ic_close_normal" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/music_clip_yes" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:layout_marginRight="@dimen/editor_d_22_dp" android:src="@drawable/custom_bottom_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

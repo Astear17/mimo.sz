@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_232323" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/personal_titlebar_other_layout" />
+    <include android:id="@id/pull_refresh_view" layout="@layout/personal_user_info_other_layout_new" />
+</LinearLayout>

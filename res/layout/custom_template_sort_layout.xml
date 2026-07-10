@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/sort_root_layout" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_272_dp" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_edit_more" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_32_dp" android:layout_alignParentTop="true">
+        <RelativeLayout android:id="@id/rl_edit_more_forclick" android:background="@drawable/custom_temp_recommend_item_bg" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/editor_d_86_dp" android:layout_height="@dimen/editor_d_32_dp" android:layout_marginRight="@dimen/editor_d_22_dp" android:layout_alignParentRight="true">
+            <ImageView android:id="@id/iv_sort_edit" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:layout_marginLeft="@dimen/editor_d_8_dp" android:src="@drawable/mediaeditor_editor_more" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/tv_sort_edit" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/editor_d_8_dp" android:text="@string/light_model_videopreview_editormore" android:layout_toRightOf="@id/iv_sort_edit" android:layout_centerVertical="true" style="@style/H_5_normal" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <lct.lomo.sdk.editor.customtemp.sort.CustomSortView android:id="@id/custom_sort_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/mediaedit_menu_bottom_layout_id" android:layout_below="@id/rl_edit_more" android:layout_centerHorizontal="true" />
+    <include android:id="@id/mediaedit_menu_bottom_layout_id" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_49_dp" android:layout_alignParentBottom="true" layout="@layout/mediaeditor_menu_bottom_layout" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.github.ybq.android.spinkit.SpinKitView android:layout_gravity="center" android:id="@id/story_draft_export_loading" android:background="@color/story_compose_loading_bg_color" android:padding="@dimen/d_11_dp" android:layout_width="@dimen/d_49_dp" android:layout_height="@dimen/d_49_dp" app:SpinKit_Color="@android:color/white" style="@style/SpinKitView.CubeGrid" />
+    <TextView android:textSize="@dimen/d_30_dp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/story_draft_export_loading_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_62_dp" style="@style/TextStyleRobotoCondensedBold" />
+    <TextView android:textSize="@dimen/d_19_dp" android:textColor="@color/blue" android:gravity="center" android:layout_gravity="end" android:id="@id/story_draft_export_loading_cancel" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/d_48_dp" android:text="@string/mimo_fpv_story_drafts_page_title_cancel_btn" android:paddingStart="@dimen/d_12_dp" android:paddingEnd="@dimen/d_16_dp" style="@style/TextStyleRobotoCondensedBold" />
+</merge>

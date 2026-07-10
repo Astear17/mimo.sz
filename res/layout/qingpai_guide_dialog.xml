@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/model_welcome_root" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.sdk.editor.shadow.ShadowLayout android:gravity="end" android:id="@id/shadowLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_09_dp" app:bgColor="@color/white" app:blurRadius="@dimen/editor_d_8_dp" app:shadowColor="@color/C_000000_20" app:shadowRadius="@dimen/editor_d_6_dp" app:xOffset="@dimen/editor_d_0_dp" app:yOffset="@dimen/editor_d_0_dp">
+        <TextView android:textColor="@color/C_000000_100" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/model_welcome_text" android:background="@drawable/model_welcome_text_bg" android:paddingLeft="@dimen/editor_d_12_dp" android:paddingRight="@dimen/editor_d_12_dp" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_43_dp" android:lines="1" style="@style/H_4_normal" />
+    </lct.lomo.sdk.editor.shadow.ShadowLayout>
+    <ImageView android:id="@id/model_welcome_arrow" android:layout_width="@dimen/editor_d_16_dp" android:layout_height="@dimen/editor_d_10_dp" android:src="@drawable/guide_dialog_shadow_arrow" android:layout_below="@id/shadowLayout" />
+</RelativeLayout>

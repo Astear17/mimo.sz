@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_selfie_dialog" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/selfie_dialog_two_title_tv" style="@style/selfieDialogTitleStyle" />
+    <View android:background="@color/grey_2" android:layout_width="match_parent" android:layout_height="@dimen/d_1_dp" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@id/line" android:background="@color/grey_2" android:layout_width="@dimen/d_1_dp" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/black" android:id="@id/selfie_dialog_two_left_btn" android:paddingTop="@dimen/d_15_dp" android:paddingBottom="@dimen/d_15_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/d_25_dp" android:paddingEnd="@dimen/d_25_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/line" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/black" android:id="@id/selfie_dialog_two_right_btn" android:paddingTop="@dimen/d_15_dp" android:paddingBottom="@dimen/d_15_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/d_25_dp" android:paddingEnd="@dimen/d_25_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/line" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

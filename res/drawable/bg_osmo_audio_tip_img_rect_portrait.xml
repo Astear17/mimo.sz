@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/color_osmo_audio_tip" />
+    <corners android:topLeftRadius="@dimen/d_20_dp" android:topRightRadius="@dimen/d_20_dp" />
+</shape>

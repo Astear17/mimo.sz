@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/fpv_overlay_window_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/phone_fixation_content_portrait" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/dji_fpv_phone_fixation_dialog_fragment_portrait" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/phone_fixation_content_landscape" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/dji_fpv_phone_fixation_dialog_fragment_landscape" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

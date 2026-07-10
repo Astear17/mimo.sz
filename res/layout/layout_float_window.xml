@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@drawable/shape_float_window" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/llyt_container" android:background="@drawable/shape_float_window" android:layout_width="@dimen/d_120_dp" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="end|center" android:id="@id/iv_float_window_back_mimo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_18_dp" android:src="@drawable/ic_float_window_back" android:scaleType="center" />
+        <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:gravity="left|center" android:layout_gravity="center_vertical" android:id="@id/tv_float_window_tracking_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_8_dp" android:layout_marginTop="@dimen/d_10_dp" android:layout_marginRight="@dimen/d_18_dp" android:layout_marginBottom="@dimen/d_10_dp" android:maxWidth="@dimen/d_100_dp" android:text="@string/hg307_fpv_backstage_tracking_window_prepared" style="@style/TextStyleRobotoBold" />
+    </LinearLayout>
+</merge>

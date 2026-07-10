@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mikhaellopez.circularprogressbar.CircularProgressBar android:id="@id/circular_progressbar" android:layout_width="match_parent" android:layout_height="match_parent" app:cpb_background_progressbar_color="#1affffff" app:cpb_background_progressbar_width="2.0dp" app:cpb_progress_direction="to_right" app:cpb_progressbar_color="@color/playback_circle_left" app:cpb_progressbar_width="2.0dp" app:cpb_round_border="false" />
+    <TextView android:textSize="18.0dp" android:textColor="#ffffff" android:layout_gravity="center" android:id="@id/text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+    <ImageView android:layout_gravity="center" android:id="@id/img" android:layout_width="32.0dp" android:layout_height="32.0dp" />
+</FrameLayout>

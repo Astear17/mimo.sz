@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center" android:id="@id/playback_timeline_cut_indicator" android:background="@drawable/playback_cut_indicator" android:layout_width="@dimen/playback_timeline_indicator_width" android:layout_height="match_parent" />
+</merge>

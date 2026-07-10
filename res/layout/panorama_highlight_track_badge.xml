@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:paddingRight="@dimen/light_d_8_dp" android:paddingBottom="@dimen/light_d_2_dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/panorama_highlight_track_badge_icon" android:layout_width="@dimen/light_d_18_dp" android:layout_height="@dimen/light_d_18_dp" android:layout_marginTop="@dimen/light_d_1_5_dp" android:src="@drawable/panorama_highlight_track_badge" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toLeftOf="@id/panorama_highlight_track_badge_timer" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/light_d_12_dp" android:textStyle="bold" android:textColor="@color/C_FFFFFF_100" android:id="@id/panorama_highlight_track_badge_timer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:shadowColor="@color/C_000000_50" android:shadowRadius="2.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

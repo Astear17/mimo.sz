@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/editor_d_6_dp" />
+            <padding android:left="@dimen/editor_d_18_dp" android:top="1.0dp" android:right="@dimen/editor_d_18_dp" android:bottom="1.0dp" />
+            <solid android:color="@color/mediaeditor_bottom_menu_edit_bg_color" />
+        </shape>
+    </item>
+</layer-list>

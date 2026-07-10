@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/black_60" android:layout_width="@dimen/d_150_dp" android:layout_height="@dimen/d_150_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:padding="0.0dp" android:layout_width="@dimen/d_50_dp" android:layout_height="@dimen/d_50_dp" android:layout_marginTop="@dimen/d_30_dp" android:indeterminate="true" style="@style/ShieldLoadingProgress" />
+    <TextView android:textSize="@dimen/d_15_dp" android:textColor="@android:color/white" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_13_dp" android:layout_marginBottom="@dimen/d_8_dp" android:text="@string/mimo_activate_osmo_shied_loading_content" android:paddingStart="@dimen/d_8_dp" android:paddingEnd="@dimen/d_8_dp" style="@style/TextStyleRobotoRegular" />
+</LinearLayout>

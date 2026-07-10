@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/lctauto_dialog_root_view" android:background="@color/C_000000_30" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="vertical" android:paddingLeft="@dimen/light_d_22_dp" android:paddingRight="@dimen/light_d_22_dp" android:paddingBottom="@dimen/light_d_22_dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/dialog_content_container" android:background="@drawable/light_dialog_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/light_d_10_dp" />
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/dialog_cancel_tv" android:background="@drawable/light_dialog_bg" android:layout_width="match_parent" android:layout_height="@dimen/light_d_50_dp" android:text="@string/light_dialog_cancel" android:layout_weight="1.0" style="@style/H_3_normal" />
+    </LinearLayout>
+</FrameLayout>

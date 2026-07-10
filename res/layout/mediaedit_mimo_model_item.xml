@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/d_105_dp" android:layout_height="@dimen/d_135_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/model_item_im" android:layout_width="@dimen/d_105_dp" android:layout_height="@dimen/d_105_dp" app:roundRadiusLeftTop="@dimen/d_3_dp" app:roundRadiusRightTop="@dimen/d_3_dp" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/d_105_dp" android:layout_height="@dimen/d_105_dp">
+        <ImageView android:layout_gravity="center_vertical" android:visibility="gone" android:layout_width="@dimen/d_9_dp" android:layout_height="@dimen/d_28_dp" android:src="@drawable/model_leaf_left" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/color_ffffff" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/model_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/d_89_dp" android:shadowColor="@color/black_50" android:shadowDx="0.0" android:shadowDy="2.0" android:shadowRadius="1.0" android:layout_weight="1.0" style="@style/TextStyleRobotoCondensedBold" />
+        <ImageView android:layout_gravity="center_vertical" android:visibility="gone" android:layout_width="@dimen/d_9_dp" android:layout_height="@dimen/d_28_dp" android:src="@drawable/model_leaf_right" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/model_item_bg" android:background="@drawable/mediaedit_model_select_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <lct.lomo.sdk.editor.widget.SdkLanguageTextView android:textSize="@dimen/d_13_dp" android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/model_item_use" android:background="@color/color_1fa3f6" android:layout_width="match_parent" android:layout_height="@dimen/d_30_dp" android:text="@string/mimo_model_show_use" android:layout_alignParentBottom="true" style="@style/TextStyleRobotoMedium" />
+    </RelativeLayout>
+    <RelativeLayout android:paddingBottom="@dimen/d_7_dp" android:layout_width="@dimen/d_105_dp" android:layout_height="@dimen/d_105_dp">
+        <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/model_item_shot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/black_50" android:shadowDx="0.0" android:shadowDy="2.0" android:shadowRadius="1.0" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/d_5_dp" android:layout_alignParentStart="true" style="@style/TextStyleRobotoCondensedRegular" />
+        <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/model_item_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/black_50" android:shadowDx="0.0" android:shadowDy="2.0" android:shadowRadius="1.0" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/d_5_dp" android:layout_alignParentEnd="true" style="@style/TextStyleRobotoCondensedRegular" />
+    </RelativeLayout>
+</RelativeLayout>

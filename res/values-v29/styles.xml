@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AoaTheme" parent="@style/MimoTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="Base.Theme.SplashScreen" parent="@android:style/Theme.DeviceDefault.DayNight">
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:enforceStatusBarContrast">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+    </style>
+    <style name="Base.Theme.SplashScreen.Light" parent="@style/Base.Theme.SplashScreen" />
+    <style name="MimoTheme" parent="@style/Theme.AppCompat">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:fontFamily">@font/fontfamily_roboto</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="MyTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="NetdiskTheme" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:fontFamily">@font/fontfamily_roboto</item>
+        <item name="android:statusBarColor">@color/background_white_1</item>
+        <item name="android:navigationBarColor">@color/background_white_1</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="SupportAppTheme" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:fontFamily">@font/fontfamily_roboto</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="SupportAppTheme.Light" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:fontFamily">@font/fontfamily_roboto</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="SupportAppTheme.Transparent" parent="@style/Theme.AppCompat">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:fontFamily">@font/fontfamily_roboto</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="WLFirmwareUpgradeTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:fontFamily">@font/fontfamily_roboto</item>
+        <item name="android:statusBarColor">@color/background_white_1</item>
+        <item name="android:navigationBarColor">@color/background_white_1</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="authsdk_app_theme_day" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="authsdk_app_theme_light" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:forceDarkAllowed">true</item>
+    </style>
+</resources>

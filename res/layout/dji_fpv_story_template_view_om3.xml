@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@color/black_70" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false">
+        <FrameLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <dji.lomo.fpv.om3.story.DJILPFpvStoryTemplatePreviewView android:layout_gravity="center" android:id="@id/story_template_preview" android:layout_width="@dimen/d_307_dp" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_79_dp" android:layout_marginEnd="@dimen/d_82_dp" />
+            <TextView android:textSize="@dimen/d_14_dp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="end|top" android:id="@id/story_template_to_draft" android:background="@drawable/fpv_story_draft_bg" android:paddingTop="@dimen/d_12_dp" android:paddingBottom="@dimen/d_12_dp" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/home_bar_size" android:text="@string/mimo_fpv_story_drafts_page_title_content" android:paddingStart="@dimen/d_20_dp" android:paddingEnd="@dimen/d_20_dp" style="@style/TextStyleRobotoBold" />
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/story_template_scroll" android:background="@color/black_20" android:fadingEdge="none" android:layout_width="@dimen/d_158_dp" android:layout_height="match_parent" android:paddingStart="@dimen/d_24_dp" android:paddingEnd="@dimen/d_24_dp" />
+        <View android:background="@color/black_40" android:layout_width="@dimen/camera_mode_scroller_width" android:layout_height="match_parent" />
+    </LinearLayout>
+    <ImageView android:id="@id/story_template_back_home" android:padding="@dimen/home_bar_item_padding" android:focusable="true" android:clickable="true" android:layout_width="@dimen/home_bar_size" android:layout_height="@dimen/home_bar_size" android:src="@drawable/dji_ic_setting_back" android:scaleType="centerInside" />
+</merge>

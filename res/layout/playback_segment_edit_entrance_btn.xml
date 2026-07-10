@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJIStateImageView android:id="@id/imgIv" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/playback_segment_edit_cut_off" app:layout_constraintBottom_toTopOf="@id/bottomContainer" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/bottomContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/imgIv">
+        <TextView android:textSize="@dimen/d_10_dp" android:textColor="@drawable/playback_segment_edit_name_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/nameText" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_4_dp" android:maxLines="2" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/cloudIv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/playback_segment_edit_cloud" android:scaleType="fitCenter" android:layout_marginStart="@dimen/d_2_dp" app:layout_constraintBottom_toBottomOf="@id/nameText" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/nameText" app:layout_constraintTop_toTopOf="@id/nameText" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

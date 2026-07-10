@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_101010" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/title" layout="@layout/setting_title_layout" />
+    <include android:id="@id/privacy_device_mark" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" layout="@layout/setting_item_switch" />
+    <View android:background="@color/color_e4e4e4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/d_16_dp" android:layout_marginRight="@dimen/d_16_dp" />
+    <include android:id="@id/privacy_gps" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" layout="@layout/setting_item_switch" />
+    <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/color_666666" android:paddingLeft="@dimen/d_16_dp" android:paddingRight="@dimen/d_16_dp" android:paddingBottom="@dimen/d_12_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/kino_uc_setting_privacy_GPS_description_name" style="@style/TextStyleRobotoRegular" />
+    <include android:id="@id/privacy_device_info" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" layout="@layout/setting_item_switch" />
+    <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/color_666666" android:paddingLeft="@dimen/d_16_dp" android:paddingRight="@dimen/d_16_dp" android:paddingBottom="@dimen/d_12_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mimo_home_personal_setting_privacy_deviceInfo_description_name" style="@style/TextStyleRobotoRegular" />
+    <include android:id="@id/privacy_water_mark" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" layout="@layout/setting_item_switch" />
+    <include android:id="@id/privacy_media_file" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" layout="@layout/setting_item_switch" />
+    <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/color_666666" android:paddingLeft="@dimen/d_16_dp" android:paddingRight="@dimen/d_16_dp" android:paddingBottom="@dimen/d_12_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ac202_common_common_202photoandvideo_content" style="@style/TextStyleRobotoRegular" />
+    <include android:id="@id/privacy_product_improvement_new" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" layout="@layout/setting_item_text" />
+    <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/color_666666" android:id="@id/privacy_product_improvement_text" android:paddingLeft="@dimen/d_16_dp" android:paddingRight="@dimen/d_16_dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TextStyleRobotoRegular" />
+    <include android:id="@id/privacy_change_password" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" android:layout_marginTop="@dimen/d_35_dp" layout="@layout/setting_item_text" />
+    <include android:id="@id/privacy_change_phone_number" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" android:layout_marginTop="@dimen/d_35_dp" layout="@layout/setting_item_text" />
+    <View android:background="@color/color_e4e4e4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/d_16_dp" android:layout_marginRight="@dimen/d_16_dp" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_101010" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/title" layout="@layout/setting_title_layout" />
+    <dji.lomo.main.view.CacheItemView android:id="@id/cache_music" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" />
+    <dji.lomo.main.view.CacheItemView android:id="@id/cache_video" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" />
+    <dji.lomo.main.view.CacheItemView android:id="@id/cache_device" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" />
+    <dji.lomo.main.view.CacheItemView android:id="@id/cache_template" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" />
+    <dji.lomo.main.view.CacheItemView android:id="@id/cache_editor" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" />
+    <dji.lomo.main.view.CacheItemView android:id="@id/cache_photo_album" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" />
+    <dji.lomo.main.view.CacheItemView android:id="@id/cache_other" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" />
+    <dji.lomo.main.view.CacheItemView android:id="@id/cache_all" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" />
+</LinearLayout>

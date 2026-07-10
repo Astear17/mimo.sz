@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/bgd_preview_master_shot_waiting" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="@dimen/d_55_dp" android:width="@dimen/d_75_dp" android:drawable="@drawable/ic_wait_master_shot_preview" />
+</layer-list>

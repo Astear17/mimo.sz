@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/title_layout" android:background="@color/background_white_1" android:layout_width="match_parent" android:layout_height="@dimen/d_64_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/page_back" android:paddingTop="@dimen/d_16_dp" android:paddingBottom="@dimen/d_16_dp" android:layout_width="@dimen/d_56_dp" android:layout_height="wrap_content" android:src="@drawable/ic_common_title_back" android:paddingStart="@dimen/d_24_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textColor="@color/black_90" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/page_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_centerInParent="true" android:layout_marginStart="@dimen/d_56_dp" android:layout_marginEnd="@dimen/d_56_dp" style="@style/title_6_600" />
+</RelativeLayout>

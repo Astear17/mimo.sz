@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="@dimen/editor_d_280_dp" android:layout_height="@dimen/editor_d_280_dp">
+        <lct.lomo.mediaeditor.draft.LctMLoadingView android:id="@id/empty_view_loading" android:background="@color/transparent" android:visibility="gone" android:layout_width="@dimen/editor_d_49_dp" android:layout_height="@dimen/editor_d_49_dp" android:layout_centerInParent="true" />
+        <lct.lomo.mediaeditor.model.view.SdkModelLoadingProgressView android:id="@id/empty_view_progress" android:visibility="gone" android:layout_width="@dimen/editor_d_49_dp" android:layout_height="@dimen/editor_d_49_dp" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/empty_view_image" android:visibility="visible" android:layout_width="@dimen/editor_d_96_dp" android:layout_height="@dimen/editor_d_96_dp" android:layout_centerInParent="true" />
+        <TextView android:textColor="@color/black_45" android:gravity="center" android:id="@id/empty_view_title" android:paddingLeft="@dimen/editor_d_10_dp" android:paddingRight="@dimen/editor_d_10_dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_10_dp" android:layout_below="@id/empty_view_image" android:layout_centerHorizontal="true" style="@style/H_3_normal" />
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/game_id_buoy_hide_notice_view" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/top_notice_bg" android:background="@drawable/c_buoycircle_hide_float_top" android:layout_width="match_parent" android:layout_height="100.0dp" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="30.0dp" android:layout_marginTop="8.0dp" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/game_id_buoy_hide_notice_bg" android:paddingLeft="8.0dp" android:paddingRight="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/c_buoycircle_hide_float_eye_off_gray" />
+            <TextView android:textSize="13.0sp" android:textColor="#ffffff" android:layout_gravity="center_vertical" android:id="@id/top_notice_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:text="@string/c_buoycircle_auto_hide_notice" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

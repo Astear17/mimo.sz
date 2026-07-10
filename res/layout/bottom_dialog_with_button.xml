@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/transparent" android:paddingBottom="@dimen/d_56_dp" android:layout_width="@dimen/d_350_dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bottom_dialog_background" android:paddingTop="@dimen/d_24_dp" android:paddingBottom="@dimen/d_20_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/d_24_dp" android:paddingEnd="@dimen/d_24_dp">
+        <TextView android:textSize="@dimen/d_15_dp" android:textColor="#000000" android:id="@id/dialog_title" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TextStyleRobotoBold" />
+        <TextView android:textSize="@dimen/d_13_dp" android:textColor="#cc000000" android:id="@id/dialog_content" android:paddingTop="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TextStyleRobotoRegular" />
+    </LinearLayout>
+    <View android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="8.0dp" />
+    <Button android:textColor="#99000000" android:id="@id/dialog_button" android:background="@drawable/bottom_dialog_background" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" android:text="@string/dm300rx_common_device_upgrade_confirm_btn" style="@style/TextStyleRobotoBold" />
+</LinearLayout>

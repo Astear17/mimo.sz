@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/watermark_index_img_layout" android:background="@drawable/editor_bg_watermark_item" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_40_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/waterMarkItemIv" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="@dimen/editor_d_40_dp" />
+    <ImageView android:layout_gravity="right" android:id="@id/ivLimit" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

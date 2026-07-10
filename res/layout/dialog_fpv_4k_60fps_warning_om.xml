@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/bg_custom_alert_dialog" android:paddingTop="@dimen/d_28_dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/black_100" android:layout_gravity="center" android:id="@id/warning_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_15_dp" android:layout_marginRight="@dimen/d_15_dp" android:layout_marginBottom="@dimen/d_16_dp" android:text="@string/mimo_fpv_4k_60p_warning" android:includeFontPadding="false" style="@style/TextStyleRobotoMedium" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_15_dp">
+            <ImageView android:id="@id/check_box_no_more" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:src="@drawable/ic_radio_normal" />
+            <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/black_80" android:layout_gravity="center_vertical" android:id="@id/tv_no_more_warning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_3_dp" android:text="@string/mimo_fpv_live_youtube_tutorials_page_not_show_again_checkbox_content" android:includeFontPadding="false" android:lineSpacingMultiplier="1.1" style="@style/TextStyleRobotoRegular" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/d_50_dp">
+            <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/black_100" android:gravity="center" android:id="@id/dialog_pos_btn" android:layout_width="match_parent" android:layout_height="@dimen/d_50_dp" android:text="@string/mimo_model_more_confirm" style="@style/TextStyleRobotoMedium" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

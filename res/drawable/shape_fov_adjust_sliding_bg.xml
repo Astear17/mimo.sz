@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/shape_fov_adjust_sliding_bg_solid" />
+    <stroke android:width="@dimen/editor_d_1_dp" android:color="@color/shape_fov_adjust_sliding_bg_stroke" />
+    <corners android:radius="@dimen/shape_fov_adjust_sliding_bg_corners" />
+</shape>

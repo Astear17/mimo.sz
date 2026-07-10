@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.base.ui.widget.orientation.DJIRotationLinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/transparent" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.5" />
+    <TextView android:textAppearance="@style/TextStyleRobotoBold" android:textSize="@dimen/user_guide_text_size" android:textColor="@color/white" android:gravity="left|center" android:id="@id/fvp_user_guide_slide_tv" android:background="@color/transparent" android:paddingLeft="@dimen/user_guide_left_right_padding" android:paddingTop="@dimen/user_guide_top_bottom_padding" android:paddingRight="@dimen/user_guide_left_right_padding" android:paddingBottom="@dimen/user_guide_top_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_guide_slide_tip" android:lineSpacingExtra="@dimen/user_guide_text_line_space" />
+    <ImageView android:id="@id/fvp_user_guide_slide" android:layout_width="@dimen/d_280_dp" android:layout_height="0.0dp" android:layout_weight="7.5" />
+</dji.base.ui.widget.orientation.DJIRotationLinearLayout>

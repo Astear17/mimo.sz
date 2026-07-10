@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/mm_dialog_root_view" android:background="@drawable/mm_light_dialog_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/editor_d_28_dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/editor_d_16_dp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_16_dp" android:text="@string/unmo_model_more_title" android:includeFontPadding="false" style="@style/TextStyleRobotoMedium" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_15_dp">
+                <ImageView android:id="@id/iv_next" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:src="@drawable/ic_radio_click" />
+                <TextView android:textSize="@dimen/editor_d_15_dp" android:textColor="@color/white" android:id="@id/dialog_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_3_dp" android:text="@string/unmo_model_more_note" android:includeFontPadding="false" android:lineSpacingMultiplier="1.1" style="@style/TextStyleRobotoRegular" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/dialog_hor_line" android:background="@color/m_f_template_list_dialog_line_bg" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" android:layout_marginTop="@dimen/editor_d_28_dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp">
+            <TextView android:textSize="@dimen/editor_d_16_dp" android:textColor="@color/white_90" android:gravity="center" android:id="@id/dialog_neg_btn" android:layout_width="@dimen/editor_d_0_dp" android:layout_height="match_parent" android:text="@string/unmo_model_more_cancel" android:layout_weight="1.0" style="@style/TextStyleRobotoMedium" />
+            <View android:id="@id/dialog_sep_line" android:background="@color/m_f_template_list_dialog_line_bg" android:layout_width="@dimen/editor_d_0_5_dp" android:layout_height="match_parent" />
+            <TextView android:textSize="@dimen/editor_d_16_dp" android:textColor="@color/m_f_template_list_dialog_confirm" android:gravity="center" android:id="@id/dialog_pos_btn" android:layout_width="@dimen/editor_d_0_dp" android:layout_height="match_parent" android:text="@string/unmo_model_more_confirm" android:layout_weight="1.0" style="@style/TextStyleRobotoMedium" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

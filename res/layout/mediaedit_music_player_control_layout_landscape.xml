@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_music_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/H_4_bold" />
+        <TextView android:textColor="@color/C_7C7C7F_100" android:id="@id/tv_music_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/H_4_normal" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_13_dp">
+            <ImageView android:id="@id/play_edit" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:layout_marginLeft="35.5dp" android:src="@drawable/mediaedit_icon_edit_selector" android:scaleType="centerInside" android:layout_alignParentLeft="true" />
+            <ImageView android:id="@id/iv_delete_music" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:layout_marginRight="35.5dp" android:src="@drawable/mediaeditor_ic_delete" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

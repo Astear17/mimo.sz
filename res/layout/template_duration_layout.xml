@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_12_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/template_duration_lay" android:background="@color/C_000000_50" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:id="@id/template_duration_switchable" android:visibility="gone" android:layout_width="@dimen/editor_d_8_dp" android:layout_height="@dimen/editor_d_8_dp" android:layout_marginLeft="@dimen/editor_d_2_dp" android:src="@drawable/icon_template_duration_switchable" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="8.0dp" android:textColor="@color/white" android:id="@id/template_duration_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_4_dp" android:layout_marginRight="@dimen/editor_d_4_dp" android:layout_marginBottom="@dimen/editor_d_0_5_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/template_duration_switchable" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lct.lomo.mediaeditor.game.view.GameSubTabLayout android:layout_width="match_parent" android:layout_height="@dimen/editor_d_45_dp" android:layout_marginLeft="@dimen/editor_d_13_dp" android:layout_marginRight="@dimen/editor_d_13_dp" android:layerType="software" app:tabMinWidth="@dimen/editor_d_60_dp" app:tabPaddingEnd="@dimen/editor_d_0_dp" app:tabPaddingStart="@dimen/editor_d_0_dp" app:tabTextAppearance="@style/TabLayoutTextStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

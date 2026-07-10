@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/lct_dialog_root_view" android:padding="@dimen/editor_d_22_dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/mediaeditor_dialog_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/mediaedit_select_title" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_64_dp" android:text="@string/light_editor_resolution_select_description" android:lines="1" android:paddingStart="@dimen/editor_d_16_dp" android:paddingEnd="@dimen/editor_d_16_dp" style="@style/H_4_normal" />
+        <View android:background="@color/C_E4E4E4_100" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" />
+        <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/mediaedit_select_720" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp" android:text="@string/light_editor_resolution_select_720P" style="@style/H_3_normal" />
+        <View android:background="@color/C_E4E4E4_100" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" />
+        <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/mediaedit_select_1080" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp" android:text="@string/light_editor_resolution_select_1080P" style="@style/H_3_normal" />
+        <LinearLayout android:orientation="vertical" android:id="@id/mediaedit_select_4k" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:background="@color/C_E4E4E4_100" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" />
+            <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp" android:text="@string/light_editor_resolution_select_4k" style="@style/H_3_normal" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/mediaedit_select_cancel" android:background="@drawable/mediaeditor_dialog_bg" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp" android:layout_marginTop="@dimen/editor_d_12_dp" android:text="@string/light_editor_resolution_select_btn_cancel" style="@style/H_3_bold" />
+</LinearLayout>

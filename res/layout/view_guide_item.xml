@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/editor_d_10_dp">
+        <ImageView android:id="@id/first_icon" android:layout_width="@dimen/editor_d_35_dp" android:layout_height="wrap_content" android:src="@drawable/audio_editor_voice_black" />
+        <TextView android:textSize="@dimen/editor_d_9_dp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/first_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_model_videopreview_volume" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_10_dp" android:layout_marginRight="@dimen/editor_d_10_dp">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/audio_editor_split_black" />
+        <TextView android:textSize="@dimen/editor_d_9_dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_model_music_division" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_10_dp">
+        <ImageView android:id="@id/third_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/editor_rhythm_black" />
+        <TextView android:textSize="@dimen/editor_d_9_dp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/third_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_editor_tabmusic_function_beats" />
+    </LinearLayout>
+</LinearLayout>

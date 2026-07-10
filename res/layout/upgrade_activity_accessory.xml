@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black_101010" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <ImageView android:id="@id/icon" android:layout_width="@dimen/d_233_dp" android:layout_height="@dimen/d_135_dp" android:src="@drawable/device_plugin_upgrade_icon" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/tip" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_25_dp" android:text="@string/hg211_fpv_tips_mic_updating_small_dialog_content" android:layout_below="@id/icon" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/d_25_dp" android:layout_marginEnd="@dimen/d_25_dp" />
+    </RelativeLayout>
+    <TextView android:textAppearance="@style/TextStyleRobotoBold" android:textSize="@dimen/d_16_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/finish_page" android:background="@drawable/device_button_radius_bg_conner3dp" android:layout_width="match_parent" android:layout_height="@dimen/d_50_dp" android:layout_margin="@dimen/d_16_dp" android:text="@string/ac101_connection_common_authentication_confirm_btn" />
+</LinearLayout>

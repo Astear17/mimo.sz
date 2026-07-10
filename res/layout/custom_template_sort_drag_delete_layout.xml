@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/editor_d_49_dp" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/white" android:id="@id/sort_delete_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_story_editor_delete_sorting_describe" android:layout_centerInParent="true" style="@style/H_4_normal" />
+    <ImageView android:enabled="false" android:id="@id/sort_delete_icon" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" android:layout_marginRight="@dimen/editor_d_10_dp" android:src="@drawable/mediaedit_sort_drag_delete_icon_selector" android:layout_toLeftOf="@id/sort_delete_tip" android:layout_centerVertical="true" />
+</RelativeLayout>

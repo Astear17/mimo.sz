@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_24_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/kino_setting_clearCache" style="@style/TV.MimoCenter.Set.Title.Gray" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TV.MimoCenter.Item.Type.Container.White">
+        <LinearLayout android:orientation="vertical" android:id="@id/mimo_center_setting_clean_all_cache_container" style="@style/MimoCenterItemContainer">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp">
+                <TextView android:id="@id/mimo_center_clean_all_cache_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mimo_common_clear_all_cache_title" style="@style/TV.MimoCenter.Item.Title.Black" />
+                <TextView android:gravity="end" android:id="@id/mimo_center_clean_all_cache_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/mimo_center_clean_all_cache_arrow" style="@style/TV.MimoCenter.Item.Description.Clamped" />
+                <ImageView android:id="@id/mimo_center_clean_all_cache_arrow" android:src="@drawable/mimo_center_item_arrow_right" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/ImageView_MimoCenter_Item_RightArrow" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/mimo_center_setting_clean_app_cache_container" style="@style/MimoCenterItemContainer">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp">
+                <TextView android:id="@id/mimo_center_clean_app_cache_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mimo_common_clear_app_cache_title" android:layout_toStartOf="@id/mimo_center_clean_app_cache_size" style="@style/TV.MimoCenter.Item.Title.Black" />
+                <TextView android:gravity="end" android:id="@id/mimo_center_clean_app_cache_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/mimo_center_clean_app_cache_arrow" style="@style/TV.MimoCenter.Item.Description.Clamped" />
+                <ImageView android:id="@id/mimo_center_clean_app_cache_arrow" android:src="@drawable/mimo_center_item_arrow_right" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/ImageView_MimoCenter_Item_RightArrow" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/mimo_center_clean_app_cache_hint" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mimo_common_clear_app_cache_content" android:layout_toStartOf="@id/mimo_center_clean_app_cache_arrow" style="@style/TV.MimoCenter.Item.Description.TwoLines" />
+                <ImageView android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/mimo_center_setting_clean_preview_cache_container" style="@style/MimoCenterItemContainer">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp">
+                <TextView android:id="@id/mimo_center_clean_preview_cache_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mimo_common_clear_lowres_cache_title" android:layout_toStartOf="@id/mimo_center_clean_preview_cache_size" style="@style/TV.MimoCenter.Item.Title.Black" />
+                <TextView android:gravity="end" android:id="@id/mimo_center_clean_preview_cache_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/mimo_center_clean_preview_cache_arrow" style="@style/TV.MimoCenter.Item.Description.Clamped" />
+                <ImageView android:id="@id/mimo_center_clean_preview_cache_arrow" android:src="@drawable/mimo_center_item_arrow_right" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/ImageView_MimoCenter_Item_RightArrow" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/mimo_center_clean_preview_cache_hint" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mimo_common_clear_lowres_cache_content" android:layout_toStartOf="@id/mimo_center_clean_preview_cache_arrow" style="@style/TV.MimoCenter.Item.Description.TwoLines" />
+                <ImageView android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/mimo_center_setting_clean_draft_cache_container" style="@style/MimoCenterItemContainer">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp">
+                <TextView android:id="@id/mimo_center_clean_draft_cache_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mimo_common_clear_draft_cache_title" android:layout_toStartOf="@id/mimo_center_clean_draft_cache_size" style="@style/TV.MimoCenter.Item.Title.Black" />
+                <TextView android:gravity="end" android:id="@id/mimo_center_clean_draft_cache_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/mimo_center_clean_draft_cache_arrow" style="@style/TV.MimoCenter.Item.Description.Clamped" />
+                <ImageView android:id="@id/mimo_center_clean_draft_cache_arrow" android:src="@drawable/mimo_center_item_arrow_right" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/ImageView_MimoCenter_Item_RightArrow" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/mimo_center_clean_draft_cache_hint" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mimo_common_clear_draft_cache_content" android:layout_toStartOf="@id/mimo_center_clean_draft_cache_arrow" style="@style/TV.MimoCenter.Item.Description.TwoLines" />
+                <ImageView android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

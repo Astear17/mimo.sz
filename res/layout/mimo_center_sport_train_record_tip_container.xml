@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/d_16_dp" android:paddingBottom="@dimen/d_16_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/d_24_dp" android:paddingEnd="@dimen/d_24_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/white_60" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_common_sports_gps_tips_title2" android:layout_marginEnd="@dimen/d_8_dp" />
+    <ImageView android:id="@id/iv_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mimo_center_sport_train_icon_record_tip" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" style="@style/dji_setting_stage_sv"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <dji.lomo.fpv.om.ui.settings.tracking.DJIOmFpvSettingTrackingLL android:layout_marginBottom="20.0dp" android:splitMotionEvents="false" style="@style/dji_setting_stage_ll">
+        <TextView android:text="@string/om507_fpv_setting_gimbal_setting_smart_follow_module_title" style="@style/om_fpv_setting_sub_title" />
+        <LinearLayout style="@style/mimo_divide_ll">
+            <com.handheld.uikit.components.item.SettingItemView android:id="@id/dji_setting_item_gimbal_follow_speed" android:layout_width="match_parent" android:layout_height="wrap_content" setting_ui:rightIcon="@drawable/ic_setting_item_arrow_right_24_light" setting_ui:rightText="@string/gimbal_quick_config_slow" setting_ui:rightType="text" setting_ui:settingItemBackground="@drawable/bg_round_om_fpv_setting" setting_ui:titleText="@string/hg210_fpv_gimbal_mode_turotial_mask2_flllow_flexible_title" />
+            <dji.lomo.fpv.om3.view.gimbal.LPFpvSettingGimbalAIControl android:orientation="vertical" android:id="@id/llyt_gimbal_ai_contorl_setting" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <dji.lomo.fpv.om.ui.settings.tracking.OmTrackingCompositionHoldSpinner android:layout_width="match_parent" android:layout_height="wrap_content" setting_ui:title_text="@string/mimo_fpv_tk_setting_general_target_position" />
+                <dji.lomo.fpv.om3.view.gimbal.DJILPTiltTackingSwitchView setting_ui:descText="@string/om507_gimbal_settings_ai_settings_power_off_tilt_tracking_description" setting_ui:titleText="@string/om507_gimbal_settings_ai_settings_power_off_tilt_tracking_title" style="@style/om_fpv_setting_switch" />
+            </dji.lomo.fpv.om3.view.gimbal.LPFpvSettingGimbalAIControl>
+            <dji.lomo.fpv.om.ui.settings.tracking.DJILPFpvSettingSelfTrackingSwitchView android:id="@id/dji_setting_item_self_tracking" setting_ui:descText="@string/hg305_fpv_settings_selfie_tracking_small_dialog_content" setting_ui:titleText="@string/mimo_fpv_tk_setting_follow_selfie" style="@style/om_fpv_setting_switch" />
+        </LinearLayout>
+        <TextView android:id="@id/tv_ai_module_title" android:layout_marginTop="@dimen/om_fpv_setting_vertical_space" android:text="@string/om507_gimbal_settings_ai_settings_title" style="@style/om_fpv_setting_sub_title" />
+        <LinearLayout android:id="@id/tv_ai_module_ll" style="@style/mimo_divide_ll">
+            <com.handheld.uikit.components.item.SettingItemView android:id="@id/dji_setting_item_tk_speed" android:layout_width="match_parent" android:layout_height="wrap_content" setting_ui:rightIcon="@drawable/ic_setting_item_arrow_right_24_light" setting_ui:rightText="@string/not_available" setting_ui:rightType="text" setting_ui:settingItemBackground="@drawable/bg_round_om_fpv_setting" setting_ui:titleText="@string/hg210_fpv_gimbal_mode_turotial_mask2_flllow_flexible_title" />
+            <dji.lomo.fpv.om.ui.settings.tracking.OmAIModuleView style="@style/mimo_divide_ll" />
+        </LinearLayout>
+    </dji.lomo.fpv.om.ui.settings.tracking.DJIOmFpvSettingTrackingLL>
+</androidx.core.widget.NestedScrollView>

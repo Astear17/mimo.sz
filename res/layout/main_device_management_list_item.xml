@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/single_device_container" android:background="@drawable/device_list_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/device_image" android:layout_width="@dimen/d_70_dp" android:layout_height="@dimen/d_70_dp" android:layout_marginTop="@dimen/d_15_dp" android:layout_marginBottom="@dimen/d_15_dp" android:layout_centerVertical="true" android:layout_marginStart="@dimen/d_20_dp" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginStart="@dimen/d_20_dp" android:layout_toStartOf="@id/goto_action" android:layout_toEndOf="@id/device_image">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/text_dp_15" android:textColor="@color/white" android:gravity="center_vertical" android:layout_gravity="start" android:id="@id/device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:drawablePadding="@dimen/d_8_dp" android:drawableEnd="@drawable/nonconnection_dot" android:autoSizeTextType="uniform" android:autoSizeStepGranularity="@dimen/d_1_dp" android:autoSizeMinTextSize="@dimen/text_dp_10" android:autoSizeMaxTextSize="@dimen/text_dp_15" style="@style/TextStyleRobotoRegular" />
+        <TextView android:textSize="@dimen/text_dp_12" android:textColor="@color/white_60" android:gravity="center_vertical" android:layout_gravity="start" android:id="@id/device_type" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_5_dp" android:layout_below="@id/device_name" style="@style/TextStyleRobotoRegular" />
+    </RelativeLayout>
+    <ImageView android:id="@id/goto_action" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:src="@drawable/set_item_arrow" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/d_16_dp" android:layout_alignParentEnd="true" />
+</RelativeLayout>

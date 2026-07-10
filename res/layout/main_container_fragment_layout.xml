@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main_container_layout" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/main_title_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/main_title_bar" />
+    <FrameLayout android:id="@id/main_content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/main_title_bar" />
+    <RelativeLayout android:id="@id/connect_container" android:background="@color/transparent" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_70_dp" android:layout_marginTop="@dimen/d_16_dp" android:layout_marginStart="@dimen/d_10_dp" android:layout_marginEnd="@dimen/d_10_dp" />
+</RelativeLayout>

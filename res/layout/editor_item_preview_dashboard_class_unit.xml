@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_32_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/editor_item_preview_dashboard_class_unit_tvsize" android:textColor="@color/editor_ic_dashboard_class_item_tv_selector" android:gravity="center" android:id="@id/editor_tv_item_dashboard_class_name" android:background="@drawable/editor_bg_dashboard_class_normal" android:paddingLeft="@dimen/editor_item_preview_dashboard_class_unit_wh" android:paddingRight="@dimen/editor_item_preview_dashboard_class_unit_wh" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_28_dp" android:text="@string/editor_ac204_playback_dashboard_tab_all_title" />
+</LinearLayout>

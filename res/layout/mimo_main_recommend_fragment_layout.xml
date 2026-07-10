@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.lomo.main.view.spring.MainPullView android:id="@id/main_springview" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/home_card_content_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <dji.base.ui.widget.titlebar.MainTitleBarContainer android:id="@id/mimo_main_status_bar_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_20_dp" android:layout_marginEnd="@dimen/d_20_dp" />
+            <dji.base.ui.widget.titlebar.MainTitleBarContainer android:id="@id/main_title_bar_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_20_dp" android:layout_marginEnd="@dimen/d_20_dp" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/title_bar_divider_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:id="@id/upgrade_bar_divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_20_dp" />
+            <View android:id="@id/upload_bar_divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_20_dp" />
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/mimo_main_device_recyclerview" android:paddingBottom="@dimen/d_50_dp" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    </LinearLayout>
+</dji.lomo.main.view.spring.MainPullView>

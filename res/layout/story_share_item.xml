@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/editor_d_36_dp" android:layout_height="@dimen/editor_d_36_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/share_iv" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/select_iv" android:visibility="gone" android:layout_width="@dimen/editor_d_12_dp" android:layout_height="@dimen/editor_d_12_dp" android:src="@drawable/story_share_select" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

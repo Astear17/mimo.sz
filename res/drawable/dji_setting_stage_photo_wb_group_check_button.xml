@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:drawable="@drawable/ic_dji_setting_wb_group_check_button" />
+    <item android:state_selected="true" android:drawable="@drawable/ic_dji_setting_wb_group_check_button" />
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/d_24_dp" android:width="@dimen/d_24_dp" />
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+</selector>

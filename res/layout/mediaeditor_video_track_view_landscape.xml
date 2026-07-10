@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lctsdk.mediaeditor.tabviews.video.RulerRenderView android:id="@id/editor_ruler_render_view" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_26_dp" android:layout_marginTop="@dimen/editor_d_8_dp" />
+    <com.lctsdk.mediaeditor.tabviews.sticker.StickerTagLineView android:id="@id/editor_sticker_tag_line" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_4_dp" android:layout_marginTop="@dimen/editor_d_29_dp" />
+    <com.lctsdk.mediaeditor.tabviews.video.VideoRecyclerView android:id="@id/editor_video_recycler_view" android:paddingTop="@dimen/editor_d_34_dp" android:scrollbars="none" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:overScrollMode="never" />
+</RelativeLayout>

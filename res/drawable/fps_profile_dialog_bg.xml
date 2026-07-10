@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:bottomLeftRadius="@dimen/mediaeditor_export_bl_margin" android:bottomRightRadius="@dimen/mediaeditor_export_br_margin" />
+    <solid android:color="@color/mediaeditor_export_bg_color" />
+</shape>

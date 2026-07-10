@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/page_title_bar" android:background="@color/black" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_marginBottom="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/page_back" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/d_30_dp" android:src="@drawable/live_stream_icon_back" android:scaleType="centerInside" android:layout_centerVertical="true" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_16_dp" android:layout_alignParentStart="true" />
+    <TextView android:textAppearance="@style/TextStyleRobotoMedium" android:textSize="@dimen/d_16_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/page_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/page_guide_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/live_stream_icon_guide" android:scaleType="centerInside" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_16_dp" android:layout_alignParentEnd="true" />
+</RelativeLayout>

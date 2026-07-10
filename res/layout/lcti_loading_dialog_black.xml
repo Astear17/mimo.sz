@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lct.util.widget.ShadowLayout android:gravity="center" android:layout_gravity="center" android:layout_width="@dimen/light_d_59_dp" android:layout_height="@dimen/light_d_59_dp" app:bgColor="@color/white_30" app:blurRadius="@dimen/light_d_2_dp" app:shadowColor="@color/black_20" app:shadowRadius="@dimen/light_d_6_dp" app:xOffset="@dimen/light_d_0_dp" app:yOffset="@dimen/light_d_0_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="center" android:id="@id/progressbar" android:layout_width="@dimen/light_d_28_dp" android:layout_height="@dimen/light_d_28_dp" android:indeterminateDrawable="@drawable/uilib_dialog_loading_progress_black" />
+</com.lct.util.widget.ShadowLayout>

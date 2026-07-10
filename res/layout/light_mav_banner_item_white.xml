@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lct.uilib.widget.view.CornerImageView android:id="@id/banner_image_mav3" android:layout_width="@dimen/editor_d_154_dp" android:layout_height="@dimen/editor_d_142_dp" android:layout_marginTop="@dimen/editor_d_36_dp" android:scaleType="centerCrop" android:layout_centerHorizontal="true" app:radiusColor="@color/C_FAFAFA_100" app:roundRadius="@dimen/editor_d_10_dp" />
+    <TextView android:textColor="@color/black" android:id="@id/banner_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_16_dp" android:layout_below="@id/banner_image_mav3" android:layout_centerHorizontal="true" style="@style/H_3_bold" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/dji_loading_dialog_bg" android:layout_width="@dimen/d_56_dp" android:layout_height="@dimen/d_56_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/loading_image" android:layout_width="@dimen/d_20_dp" android:layout_height="@dimen/d_20_dp" android:src="@drawable/dji_loading_new" android:scaleType="fitCenter" android:animation="@anim/dji_loading_rotation" android:contentDescription="Loading" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

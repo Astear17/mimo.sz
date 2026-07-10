@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/connect_empty_device_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/empty_anim_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_50_dp">
+        <TextView android:textSize="@dimen/dji_device_17sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_connection_device_searching_content" android:layout_centerInParent="true" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/search_empty_anim" android:visibility="visible" android:layout_width="@dimen/d_282_dp" android:layout_height="@dimen/d_282_dp" app:lottie_autoPlay="true" app:lottie_fileName="bluetooth_search_anim.json" app:lottie_loop="true" />
+    </RelativeLayout>
+    <TextView android:textAppearance="@style/TV.Roboto.Regular" android:textSize="@dimen/dji_device_16sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_empty_tip1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_34_dp" android:text="@string/mimo_connection_device_searching_none_title" />
+    <TextView android:textAppearance="@style/TV.Roboto.Regular" android:textSize="@dimen/dji_device_14sp" android:textColor="@color/dji_device_color_666666" android:gravity="center" android:id="@id/tv_empty_tip2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_24_dp" android:text="@string/mimo_connection_device_searching_none_content" android:paddingStart="@dimen/d_24_dp" android:paddingEnd="@dimen/d_24_dp" />
+</LinearLayout>

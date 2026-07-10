@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/lctigo_dialog_bg" android:layout_width="@dimen/editor_d_280_dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_24_dp" android:text="@string/kino_editor_exit_alert_title" style="@style/H_3_normal" />
+    <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_16_dp" android:layout_marginTop="@dimen/editor_d_12_dp" android:layout_marginRight="@dimen/editor_d_16_dp" android:layout_marginBottom="@dimen/editor_d_24_dp" android:text="@string/light_editor_back_alert_description" style="@style/H_4_normal" />
+    <View android:background="@color/mediaeditor_dialog_divider_color" android:layout_width="match_parent" android:layout_height="0.5dp" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/lctgo_aplly_all_dialog_grey_color" android:gravity="center" android:id="@id/lctgo_exit_editor_cancel" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_16_dp" android:layout_marginTop="@dimen/editor_d_15_dp" android:layout_marginRight="@dimen/editor_d_16_dp" android:layout_marginBottom="@dimen/editor_d_15_dp" android:text="@string/kino_editor_exit_alert_cancel" android:layout_weight="1.0" style="@style/H_3_normal" />
+        <View android:background="@color/mediaeditor_dialog_divider_color" android:layout_width="0.5dp" android:layout_height="match_parent" />
+        <TextView android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/lctgo_exit_editor_exit" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_16_dp" android:layout_marginTop="@dimen/editor_d_15_dp" android:layout_marginRight="@dimen/editor_d_16_dp" android:layout_marginBottom="@dimen/editor_d_15_dp" android:text="@string/kino_editor_exit_alert_exit" android:layout_weight="1.0" style="@style/H_3_normal" />
+    </LinearLayout>
+</LinearLayout>

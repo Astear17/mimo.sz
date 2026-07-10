@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/light_icon" android:layout_width="@dimen/d_41_dp" android:layout_height="@dimen/d_41_dp" android:layout_marginLeft="@dimen/d_24_dp" android:src="@drawable/light_down_icon" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_6_dp" android:layout_toRightOf="@id/light_icon" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/color_111116" android:id="@id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="畅片" />
+            <View android:layout_gravity="center_vertical" android:background="@color/black" android:layout_width="@dimen/d_1_dp" android:layout_height="@dimen/d_10_dp" android:layout_marginLeft="@dimen/d_2_dp" android:layout_marginRight="@dimen/d_2_dp" />
+            <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/color_111116" android:id="@id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="畅快剪辑，即可出片" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/color_999999" android:id="@id/text3" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全方位支持DJI OM系列" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/down_text" android:background="@drawable/web_view_down_shape" android:visibility="visible" android:layout_width="@dimen/d_90_dp" android:layout_height="@dimen/d_32_dp" android:layout_marginRight="@dimen/d_24_dp" android:text="立即体验" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:background="@color/color_e4e4e4" android:layout_width="match_parent" android:layout_height="@dimen/d_1_dp" />
+</RelativeLayout>

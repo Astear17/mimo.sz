@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/editor_d_4_dp" android:layout_width="@dimen/editor_d_56_dp" android:layout_height="@dimen/editor_d_50_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.sdk.editor.music.view.OprateImageView android:id="@id/ivIcon" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/editor_d_11_dp" android:textColor="@color/C_7C7C7F_100" android:gravity="center|top" android:id="@id/ttvTitle" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ivIcon" />
+    <View android:id="@id/point" android:background="@drawable/mediaeditor_opreate_item_point_bg" android:visibility="gone" android:layout_width="@dimen/editor_d_5_dp" android:layout_height="@dimen/editor_d_5_dp" android:layout_marginTop="6.0dp" app:layout_constraintStart_toEndOf="@id/ivIcon" app:layout_constraintTop_toTopOf="@id/ivIcon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

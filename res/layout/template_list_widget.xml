@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lct.lomo.sdk.editor.multiple.entrance.widget.class_widget.TemplateClassRecyclerView android:id="@id/template_class_recycler_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_12_dp" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_12_dp" android:layout_below="@id/template_class_recycler_view">
+        <lct.lomo.sdk.editor.multiple.entrance.widget.template_widget.TemplateRecyclerView android:id="@id/template_recycler_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <lct.lomo.sdk.editor.multiple.entrance.widget.more_btn.TemplateMoreBtn android:id="@id/recommend_more" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" />
+    </FrameLayout>
+</RelativeLayout>

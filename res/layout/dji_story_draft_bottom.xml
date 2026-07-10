@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="start" android:id="@id/story_draft_bottom_export" android:paddingTop="@dimen/d_8_dp" android:paddingBottom="@dimen/d_8_dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/selector_story_draft_bottom_export" android:scaleType="centerInside" android:paddingStart="@dimen/d_14_dp" android:paddingEnd="@dimen/d_14_dp" app:layout_constraintStart_toStartOf="parent" />
+    <ImageView android:layout_gravity="end" android:id="@id/story_draft_bottom_delete" android:paddingTop="@dimen/d_8_dp" android:paddingBottom="@dimen/d_8_dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/selector_story_draft_bottom_delete" android:scaleType="centerInside" android:paddingStart="@dimen/d_14_dp" android:paddingEnd="@dimen/d_14_dp" app:layout_constraintEnd_toEndOf="parent" />
+</merge>

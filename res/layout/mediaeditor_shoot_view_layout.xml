@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin">
+    <ImageView android:id="@id/qingpai_main_detail_shoot_iv" android:layout_width="@dimen/editor_d_88_dp" android:layout_height="@dimen/editor_d_88_dp" android:src="@drawable/segment_shoot_start" android:layout_centerInParent="true" />
+    <lct.lomo.sdk.editor.customtemp.qingpai.view.shoot.ShootSwitch android:id="@id/shoot_switch_view" android:visibility="gone" android:clickable="false" android:layout_width="@dimen/editor_d_70_dp" android:layout_height="@dimen/editor_d_70_dp" android:layout_centerInParent="true" />
+</RelativeLayout>

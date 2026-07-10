@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/camera_metering_layout_root" android:visibility="visible" android:layout_width="131.0dp" android:layout_height="200.0dp" android:divider="@drawable/camera_divider_transparent_8" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:id="@id/camera_ev_left_seekbar" android:visibility="invisible" android:layout_width="30.0dp" android:layout_height="200.0dp" />
+    <ImageView android:id="@id/camera_focus_image" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camera_metering_focus_success" android:scaleType="centerInside" />
+    <com.lctsdk.camera.cameraview.widget.VerticalSeekBar android:id="@id/camera_ev_right_seekbar" android:visibility="visible" android:layout_width="30.0dp" android:layout_height="200.0dp" android:progress="50" android:progressDrawable="@null" android:thumb="@drawable/camera_photometer_brightness" android:thumbOffset="3.0dp" android:splitTrack="true" />
+</LinearLayout>

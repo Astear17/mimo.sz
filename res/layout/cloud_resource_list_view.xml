@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.liaoinstan.springview.widget.SpringView android:id="@id/cloud_resource_list_refresh_layout" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lct.lomo.sdk.editor.widget.BaseRecyclerView android:id="@id/list" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/editor_d_12_dp" android:paddingEnd="@dimen/editor_d_12_dp" />
+</com.liaoinstan.springview.widget.SpringView>

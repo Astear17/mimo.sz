@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginTop="@dimen/d_36_dp" android:layout_weight="1.0">
+        <dji.base.ui.widget.ratio.RatioImageView android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/fpv_story_hint_tips1_1" android:scaleType="fitCenter" app:aspectRatio="1.436" />
+        <ImageView android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:layout_margin="@dimen/d_30_dp" android:src="@drawable/fpv_story_hint_arrow" android:scaleType="fitCenter" />
+        <dji.base.ui.widget.ratio.RatioImageView android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/fpv_story_hint_tips1_2" android:scaleType="fitCenter" app:aspectRatio="1.436" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/d_12_dp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="@dimen/d_66_dp" android:layout_marginTop="@dimen/d_35_dp" android:text="@string/mimo_story_creat_template_turorial_mask_title_step1" android:paddingStart="@dimen/d_126_dp" android:paddingEnd="@dimen/d_126_dp" style="@style/TextStyleRobotoRegular" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.liaoinstan.springview.widget.SpringView android:id="@id/music_springview" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/music_recycle_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <lct.lomo.sdk.editor.music.musicview.EditorEmptyView android:id="@id/music_emptyView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</com.liaoinstan.springview.widget.SpringView>

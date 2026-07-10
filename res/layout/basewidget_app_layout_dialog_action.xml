@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_content_divider" android:background="@color/white_10" android:layout_width="match_parent" android:layout_height="@dimen/s_1_dp" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <dji.publics.DJIUI.DJIStateTextView android:textSize="@dimen/s_16_dp" android:textStyle="normal" android:textColor="@color/black_80" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_negative" android:layout_width="0.0dp" android:layout_height="@dimen/s_24_dp" android:layout_marginTop="@dimen/s_12_dp" android:layout_marginBottom="@dimen/s_12_dp" android:layout_weight="1.0" android:paddingStart="@dimen/s_16_dp" android:paddingEnd="@dimen/s_16_dp" />
+        <View android:id="@id/view_action_divider_1" android:background="@color/white_10" android:layout_width="@dimen/s_1_dp" android:layout_height="match_parent" />
+        <dji.publics.DJIUI.DJIStateTextView android:textSize="@dimen/s_16_dp" android:textStyle="bold" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_neutral" android:layout_width="0.0dp" android:layout_height="@dimen/s_24_dp" android:layout_marginTop="@dimen/s_12_dp" android:layout_marginBottom="@dimen/s_12_dp" android:layout_weight="1.0" android:paddingStart="@dimen/s_16_dp" android:paddingEnd="@dimen/s_16_dp" />
+        <View android:id="@id/view_action_divider_2" android:background="@color/white_10" android:layout_width="@dimen/s_1_dp" android:layout_height="match_parent" />
+        <dji.publics.DJIUI.DJIStateTextView android:textSize="@dimen/s_15_dp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_positive" android:layout_width="0.0dp" android:layout_height="@dimen/s_24_dp" android:layout_marginTop="@dimen/s_12_dp" android:layout_marginBottom="@dimen/s_12_dp" android:layout_weight="1.0" android:paddingStart="@dimen/s_16_dp" android:paddingEnd="@dimen/s_16_dp" />
+    </LinearLayout>
+</LinearLayout>

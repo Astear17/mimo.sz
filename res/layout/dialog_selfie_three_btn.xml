@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_selfie_dialog" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/selfie_dialog_two_title_tv" style="@style/selfieDialogTitleStyle" />
+    <TextView android:id="@id/selfie_dialog_two_btn_first_btn" style="@style/selfieDialogThreeBtnStyle" />
+    <TextView android:id="@id/selfie_dialog_two_btn_second_btn" style="@style/selfieDialogThreeBtnStyle" />
+    <TextView android:id="@id/selfie_dialog_two_btn_third_btn" style="@style/selfieDialogThreeBtnStyle" />
+</LinearLayout>

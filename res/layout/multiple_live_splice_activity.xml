@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/live_splice_root_view" android:background="@color/C_000000_100" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lctsdk.mediaeditor.livesplice.LiveSpliceMainEditLayout android:id="@id/splice_main_edit_layout" android:layout_width="match_parent" android:layout_height="@dimen/template_common_bottom_sheet" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toTopOf="@id/splice_main_edit_layout" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.lctsdk.mediaeditor.VideoEditorView android:id="@id/multiple_splice_video" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.lctsdk.mediaeditor.livesplice.LiveSpliceTitleBar android:id="@id/multiple_splice_title" android:background="@drawable/multiple_template_title_bar_bg" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.lctsdk.mediaeditor.livesplice.widget.LiveSplicePreviewButton android:id="@id/live_splice_preview_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_16_dp" android:layout_marginStart="@dimen/editor_d_16_dp" app:layout_constraintBottom_toTopOf="@id/splice_main_edit_layout" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

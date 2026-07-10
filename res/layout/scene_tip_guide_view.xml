@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@color/dji_color_D1222222" android:layout_width="@dimen/d_288_dp" android:layout_height="@dimen/d_66_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center|top" android:id="@id/sceneTipTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp" android:layout_marginBottom="@dimen/d_12_dp" android:minHeight="@dimen/d_40_dp" android:text="@string/hg305_master_photography_fpv_guide_subject" android:layout_marginHorizontal="@dimen/d_12_dp" />
+    <View android:layout_gravity="center|bottom" android:id="@id/sceneTipIndicator" android:background="@color/white_50" android:layout_width="@dimen/d_25_dp" android:layout_height="@dimen/d_2_dp" android:layout_marginBottom="@dimen/d_4_dp" />
+</merge>

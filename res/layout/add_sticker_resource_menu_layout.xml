@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/template_navigation_lctibaseactivity" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_310_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lctsdk.mediaeditor.tabviews.paster.cloud.CloudResourcePageView android:id="@id/resource_page_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <lct.lomo.sdk.editor.widget.TintImageView android:id="@id/error_state_done" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_8_dp" android:src="@drawable/mediaedit_ic_done" android:layout_alignParentTop="true" android:paddingStart="@dimen/editor_d_10_dp" android:paddingEnd="@dimen/editor_d_0_dp" android:layout_marginEnd="@dimen/editor_d_15_dp" android:layout_alignParentEnd="true" app:defaultColor="@color/mediaeditor_bottom_menu_done_color" app:disableColor="@color/mediaeditor_bottom_menu_done_color" />
+    <LinearLayout android:orientation="vertical" android:id="@id/no_network_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/editor_d_96_dp" android:layout_height="@dimen/editor_d_96_dp" android:src="@drawable/editor_ic_no_network" />
+        <TextView android:textSize="@dimen/editor_d_13_dp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kino_editor_network_error" />
+        <TextView android:textSize="@dimen/editor_d_13_dp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/retry" android:background="@drawable/cloud_sticker_retry_button_bg" android:layout_width="@dimen/editor_d_78_dp" android:layout_height="@dimen/editor_d_32_dp" android:layout_marginTop="@dimen/editor_d_22_dp" android:text="@string/kino_editor_network_error_retry" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/editor_sticker_empty_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_width="@dimen/editor_d_96_dp" android:layout_height="@dimen/editor_d_96_dp" android:src="@drawable/cloud_list_empty_state_logo" />
+        <TextView android:textSize="@dimen/editor_d_13_dp" android:textColor="@color/white_45" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_8_dp" android:text="@string/light_home_no_result_content" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/loading_image_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.5">
+        <ImageView android:layout_gravity="center" android:id="@id/loading_image" android:layout_width="@dimen/cloud_resource_loading_iamge_size" android:layout_height="@dimen/cloud_resource_loading_iamge_size" android:src="@drawable/mediaeditor_base_loading_frame_list" />
+    </FrameLayout>
+</RelativeLayout>

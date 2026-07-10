@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.lomo.main.view.video.VideoLayout android:id="@id/selected_video" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+    <RelativeLayout android:id="@id/ill_video_layout" android:background="@color/color_171717" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_211_dp" android:layout_marginTop="@dimen/d_166_dp">
+        <ImageView android:id="@id/video_ill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_44_dp" android:src="@drawable/video_ill_discovery" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/text_dp_13" android:textColor="@color/color_666666" android:gravity="center" android:id="@id/error_tv" android:layout_width="@dimen/d_231_dp" android:layout_height="wrap_content" android:text="@string/mimo_community_video_error_toast1" android:layout_below="@id/video_ill" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/text_dp_13" android:textColor="@color/color_666666" android:gravity="center" android:layout_width="@dimen/d_231_dp" android:layout_height="wrap_content" android:text="@string/mimo_community_video_error_toast2" android:layout_below="@id/error_tv" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom_info_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_49_dp" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/selected_header_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/d_60_dp">
+            <LinearLayout android:id="@id/header_layout" android:paddingLeft="@dimen/d_16_dp" android:paddingRight="@dimen/d_14_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_5_dp" android:layout_alignParentLeft="true">
+                <dji.lomo.main.view.CustomImageView android:id="@id/selected_header" android:layout_width="@dimen/d_42_dp" android:layout_height="@dimen/d_42_dp" style="@style/fresco_header_view_style" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/selected_name_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.5dp" android:layout_toRightOf="@id/header_layout">
+                <ImageView android:id="@id/selected_name_at" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_2_dp" android:layout_marginRight="@dimen/d_2_dp" android:src="@drawable/selected_name_at" />
+                <TextView android:textSize="@dimen/d_17_dp" android:textColor="@color/white" android:id="@id/selected_name" style="@style/name_date_count_text_style" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:id="@id/selected_follow_layout" android:visibility="gone" android:layout_width="@dimen/d_42_dp" android:layout_height="@dimen/d_28_dp" android:layout_marginLeft="@dimen/d_16_dp" android:layout_marginTop="@dimen/d_33_dp">
+                <ImageView android:id="@id/selected_follow_sign" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selected_follow_sign" />
+            </LinearLayout>
+            <dji.lomo.main.view.CustomTextView android:textSize="@dimen/d_13_dp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/selected_video_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_6_dp" android:layout_marginRight="7.5dp" android:layout_marginBottom="@dimen/d_18_dp" android:maxLines="2" android:layout_toRightOf="@id/header_layout" android:layout_below="@id/selected_name_layout" />
+            <ImageView android:id="@id/description_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/d_5_dp" android:layout_marginBottom="@dimen/d_2_dp" android:src="@drawable/description_down_arrow" android:layout_alignRight="@id/selected_video_description" android:layout_alignBottom="@id/selected_video_description" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/selected_operation_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/d_60_dp" android:layout_marginRight="@dimen/d_16_dp">
+            <ImageView android:id="@id/selected_share_sign" android:paddingTop="@dimen/d_10_dp" android:paddingBottom="@dimen/d_10_dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selected_share" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/comment_layout" android:paddingTop="@dimen/d_10_dp" android:paddingRight="@dimen/d_20_dp" android:paddingBottom="@dimen/d_10_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/selected_share_sign" android:layout_centerVertical="true">
+                <ImageView android:layout_gravity="center" android:id="@id/selected_comment_sign" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selected_comment_sign" android:layout_toLeftOf="@id/selected_comment_count" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/selected_comment_count" android:layout_marginLeft="@dimen/d_3_dp" android:minWidth="@dimen/d_13_dp" android:layout_centerVertical="true" style="@style/name_date_count_text_style" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/praise_layout" android:paddingRight="@dimen/d_16_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/comment_layout">
+                <ImageView android:layout_gravity="center" android:id="@id/selected_praise_sign" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="-24.0dp" android:layout_toLeftOf="@id/selected_praise_count" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/selected_praise_count" android:layout_marginLeft="@dimen/d_3_dp" android:minWidth="@dimen/d_15_dp" android:layout_toLeftOf="@id/selected_comment_sign" android:layout_centerVertical="true" style="@style/name_date_count_text_style" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:background="@drawable/mediaeditor_white_dialog_bg" android:layout_width="@dimen/editor_d_57_dp" android:layout_height="@dimen/editor_d_57_dp">
+        <ProgressBar android:layout_gravity="center" android:id="@id/progressbar" android:layout_width="@dimen/editor_d_28_dp" android:layout_height="@dimen/editor_d_28_dp" android:indeterminateDrawable="@drawable/shape_model_loading_progress" />
+    </FrameLayout>
+</FrameLayout>

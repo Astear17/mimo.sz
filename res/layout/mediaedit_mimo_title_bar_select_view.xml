@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_19_dp" android:textColor="#333333" android:id="@id/mediaedit_importmedia_title_bar_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/title_bar_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_5_dp" android:layout_toRightOf="@id/mediaedit_importmedia_title_bar_select" android:layout_centerVertical="true" />
+</RelativeLayout>

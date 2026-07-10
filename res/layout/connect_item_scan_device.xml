@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/dji_device_color_101010" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/tag_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/empty" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <View android:background="@color/dji_device_color_24FFFFFF" android:layout_width="match_parent" android:layout_height="0.5dp" />
+            <View android:layout_width="match_parent" android:layout_height="30.0dp" />
+        </LinearLayout>
+        <TextView android:textAppearance="@style/TV.RobotoCondensed.Bold" android:textSize="@dimen/dji_device_13sp" android:textColor="@color/dji_device_color_999999" android:gravity="left" android:id="@id/connect_mode_tag" android:paddingBottom="@dimen/d_12_dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <View android:background="@color/dji_device_color_24FFFFFF" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/scan_device_item" android:layout_width="match_parent" android:layout_height="@dimen/d_68_dp">
+        <TextView android:textAppearance="@style/TV.RobotoCondensed.Bold" android:textSize="@dimen/d_16_dp" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:gravity="left|center" android:layout_gravity="center" android:id="@id/device_name" android:layout_width="0.0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/d_90_dp" android:layout_height="wrap_content" android:foregroundGravity="center_vertical">
+            <TextView android:textAppearance="@style/TV.RobotoCondensed.Bold" android:textSize="@dimen/d_16_dp" android:textColor="@color/upgrade_progress_text" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/device_connect" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:foregroundGravity="center" />
+            <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/connect_anim_view" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foregroundGravity="center_vertical" android:alpha="0.3" app:lottie_autoPlay="false" app:lottie_fileName="connect_item_load_anim.json" app:lottie_loop="true" />
+        </FrameLayout>
+    </LinearLayout>
+    <View android:background="@color/dji_device_color_24FFFFFF" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" />
+</LinearLayout>

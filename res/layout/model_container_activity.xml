@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/model_container_root_view" android:background="@color/C_000000_100" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/model_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/bottom" android:splitMotionEvents="false" />
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom" android:background="@color/mediaedit_import_shadow_bottom_layer_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <lct.lomo.mediaeditor.model.view.EditModelBottomView android:id="@id/model_bottom_view" android:paddingBottom="@dimen/mediaedit_model_bottom_view_padding" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_96_dp" android:splitMotionEvents="false" />
+    </LinearLayout>
+    <include android:id="@id/ai_example" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/bottom" android:layout_marginHorizontal="@dimen/editor_d_21_dp" layout="@layout/ai_bullet_time_example" />
+    <TextView android:textColor="@color/black" android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/model_tip" android:background="@drawable/media_edit_count_hit_shape" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_32_dp" android:layout_marginBottom="@dimen/editor_d_20_dp" android:layout_above="@id/bottom" android:layout_centerHorizontal="true" android:paddingStart="@dimen/editor_d_10_dp" android:paddingEnd="@dimen/editor_d_10_dp" android:translationZ="@dimen/editor_d_1_dp" style="@style/H_4_normal" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="@dimen/d_98_dp" android:layout_height="@dimen/d_40_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/radio_noice_reduction" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:layout_marginStart="8.0dp" />
+    <TextView android:textAppearance="@style/TextStyleRobotoCondensedRegular" android:textSize="@dimen/d_13_dp" android:textColor="@color/textview_" android:layout_gravity="center_vertical" android:id="@id/tv_noice_reduction" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_margin="8.0dp" android:text="@string/dm300tx_common_parameter_setting_denosing_low_list_title" android:maxLines="1" android:layout_weight="1.0" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="@dimen/d_1_dp" android:autoSizeMaxTextSize="@dimen/d_13_dp" android:textFontWeight="600" />
+</merge>

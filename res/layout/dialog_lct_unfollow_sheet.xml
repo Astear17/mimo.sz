@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lct.uilib.widget.view.CustomImageView android:id="@id/webview_ava" android:layout_width="@dimen/editor_d_36_dp" android:layout_height="@dimen/editor_d_36_dp" android:layout_marginTop="@dimen/editor_d_26_dp" />
+    <com.lct.uilib.widget.LctITypefaceTextView android:textColor="@color/C_E4E4E4_100" android:id="@id/webview_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_10_dp" app:typeFace="@string/typeface_roboto_condensed_bold" style="@style/H_3_normal" />
+    <View android:background="@color/C_E4E4E4_100" android:layout_width="match_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/editor_d_16_dp" android:layout_marginTop="@dimen/editor_d_24_dp" android:layout_marginRight="@dimen/editor_d_16_dp" />
+    <com.lct.uilib.widget.LctITypefaceTextView android:textColor="@color/C_F22443_100" android:gravity="center" android:id="@id/webview_unfollow" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_64_dp" android:text="@string/kino_account_unfollow_text" android:layout_centerHorizontal="true" app:typeFace="@string/typeface_roboto_condensed_bold" style="@style/H_1_normal" />
+    <View android:background="@color/C_F4F4F4_100" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_4_dp" />
+    <com.lct.uilib.widget.LctITypefaceTextView android:textColor="@android:color/black" android:gravity="center" android:id="@id/webview_cancel" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_49_dp" android:text="@string/kino_register_gender_cancel" android:layout_centerHorizontal="true" app:typeFace="@string/typeface_roboto_condensed_bold" style="@style/H_1_normal" />
+</LinearLayout>

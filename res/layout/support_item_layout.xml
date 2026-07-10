@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/d_100_dp" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_16_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/icon" android:layout_width="@dimen/d_100_dp" android:layout_height="@dimen/d_100_dp" android:scaleType="centerInside" android:layout_centerVertical="true" />
+    <RelativeLayout android:layout_gravity="center_vertical" android:paddingTop="@dimen/d_10_dp" android:paddingBottom="@dimen/d_10_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/icon">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_centerVertical="true" android:layout_toStartOf="@id/arrow_icon">
+            <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/color_999999" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp" android:layout_marginEnd="@dimen/d_20_dp" />
+        </LinearLayout>
+        <ImageView android:id="@id/arrow_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/set_item_arrow" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:layout_gravity="bottom" android:background="@color/white_14" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_alignParentBottom="true" android:layout_toEndOf="@id/icon" />
+</RelativeLayout>

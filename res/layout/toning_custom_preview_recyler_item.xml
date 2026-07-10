@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_item" android:background="@drawable/preview_video_item_bg" android:layout_width="@dimen/editor_d_36_dp" android:layout_height="@dimen/editor_d_36_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/mediaeditor_model_bottom_material_im" android:layout_width="@dimen/editor_d_40_dp" android:layout_height="@dimen/editor_d_40_dp" android:scaleType="centerCrop" app:radiusColor="@color/C_1A1A1F_100" app:roundRadius="@dimen/filter_tab_item_image_radius" />
+    <ImageView android:id="@id/mediaeditor_model_bottom_bg_im" android:background="@drawable/preview_video_pre_concor_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</RelativeLayout>

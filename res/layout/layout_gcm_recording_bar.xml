@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center_vertical" android:id="@id/gcm_pre_recording_progress" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:indeterminateTint="@color/white" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_gcm_recording_dot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_gcm_recording_dot" />
+    <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_gcm_recording_progress" android:paddingLeft="@dimen/d_12_dp" android:paddingRight="@dimen/d_16_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hg307_fpv_gcm_setting_bar_text" style="@style/TextStyleRobotoMedium" />
+</merge>

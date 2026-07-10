@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DevInfor>
+    <!-- 历史 Mob ShareSDK 配置已移除：工程未引用 ShareSDK SDK，分享走微信等独立接入。保留空壳避免误打包旧密钥。 -->
+</DevInfor>

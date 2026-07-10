@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "description": "埋点事件ID配置，用于定义需要上报的统计事件",
+  "fw_event_ids": [
+    "fw_0101_action_result",
+    "fw_0800_livestreaming",
+    "fw_0801_bootinfo",
+    "fw_0802_upgrade_success",
+    "fw_0801_platform_suspend_power",
+    "fw_0801_platform_power_consume"
+  ],
+  "mimo_event_ids": [
+    "mimo_open_app",
+    "mimo_live_start",
+    "mimo_take_video",
+    "mimo_connect",
+    "connect_gallery_active",
+    "download_gallery_active",
+    "gallery_download_batch_click",
+    "gallery_download_single_click",
+    "gallery_single_clip_edit_export_click",
+    "gallery_single_clip_edit_export_page_exposure"
+  ]
+}

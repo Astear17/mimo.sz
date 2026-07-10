@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mimo_center_set_device_activate_container" style="@style/MimoCenterItemContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/mimo_center_set_device_activate_checkbox">
+        <TextView android:id="@id/mimo_center_set_device_activate_title" android:text="@string/kino_uc_setting_privacy_deviceInfo_name" style="@style/TV.MimoCenter.Item.Title.Black" />
+        <TextView android:id="@id/mimo_center_set_device_activate_description" android:text="@string/kino_uc_setting_privacy_deviceInfo_description_name" style="@style/TV.MimoCenter.Item.Description" />
+    </LinearLayout>
+    <CheckBox android:id="@id/mimo_center_set_device_activate_checkbox" style="@style/TV.MimoCenter.Item.CheckBox.New" />
+</RelativeLayout>

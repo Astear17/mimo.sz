@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="50" android:drawable="@drawable/custom_template_item_recommend_playing0001" />
+    <item android:duration="50" android:drawable="@drawable/custom_template_item_recommend_playing0002" />
+    <item android:duration="50" android:drawable="@drawable/custom_template_item_recommend_playing0003" />
+    <item android:duration="50" android:drawable="@drawable/custom_template_item_recommend_playing0004" />
+    <item android:duration="50" android:drawable="@drawable/custom_template_item_recommend_playing0005" />
+    <item android:duration="50" android:drawable="@drawable/custom_template_item_recommend_playing0006" />
+    <item android:duration="50" android:drawable="@drawable/custom_template_item_recommend_playing0007" />
+    <item android:duration="50" android:drawable="@drawable/custom_template_item_recommend_playing0008" />
+    <item android:duration="50" android:drawable="@drawable/custom_template_item_recommend_playing0009" />
+    <item android:duration="50" android:drawable="@drawable/custom_template_item_recommend_playing00010" />
+    <item android:duration="50" android:drawable="@drawable/custom_template_item_recommend_playing00011" />
+    <item android:duration="50" android:drawable="@drawable/custom_template_item_recommend_playing00012" />
+    <item android:duration="50" android:drawable="@drawable/custom_template_item_recommend_playing00013" />
+    <item android:duration="50" android:drawable="@drawable/custom_template_item_recommend_playing00014" />
+    <item android:duration="50" android:drawable="@drawable/custom_template_item_recommend_playing00015" />
+    <item android:duration="50" android:drawable="@drawable/custom_template_item_recommend_playing00016" />
+    <item android:duration="50" android:drawable="@drawable/custom_template_item_recommend_playing00017" />
+    <item android:duration="50" android:drawable="@drawable/custom_template_item_recommend_playing00018" />
+    <item android:duration="50" android:drawable="@drawable/custom_template_item_recommend_playing00019" />
+</animation-list>

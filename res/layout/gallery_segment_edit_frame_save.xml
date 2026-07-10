@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@color/playback_segment_editor_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Space android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/tab_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_36_dp">
+        <com.google.android.material.tabs.TabLayout android:id="@id/frame_tabs" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tabGravity="center" app:tabIndicatorColor="@color/white" app:tabPaddingBottom="@dimen/d_4_dp" app:tabPaddingEnd="@dimen/d_10_dp" app:tabPaddingStart="@dimen/d_10_dp" app:tabSelectedTextColor="@color/white" app:tabTextColor="@color/white_60" />
+        <View android:background="@color/white_60" android:layout_width="match_parent" android:layout_height="@dimen/d_1_dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/frame_tabs" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout android:id="@id/frame_control_rl" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/left_jump_fl" android:layout_width="@dimen/d_36_dp" android:layout_height="@dimen/d_36_dp" android:layout_marginStart="@dimen/d_20_dp" android:layout_alignParentStart="true">
+            <View android:background="@drawable/gallery_segment_edit_frame_arrow_bg_shape" android:layout_width="@dimen/d_36_dp" android:layout_height="@dimen/d_36_dp" />
+            <dji.publics.DJIUI.DJIStateImageView android:layout_gravity="center" android:id="@id/iv_frame_left_jump" android:layout_width="@dimen/d_16_dp" android:layout_height="@dimen/d_14_dp" android:src="@drawable/gallery_segment_edit_left_btn_icon" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/right_jump_fl" android:layout_width="@dimen/d_36_dp" android:layout_height="@dimen/d_36_dp" android:layout_marginEnd="@dimen/d_20_dp" android:layout_alignParentEnd="true">
+            <View android:background="@drawable/gallery_segment_edit_frame_arrow_bg_shape" android:layout_width="@dimen/d_36_dp" android:layout_height="@dimen/d_36_dp" />
+            <dji.publics.DJIUI.DJIStateImageView android:layout_gravity="center" android:id="@id/iv_frame_right_jump" android:layout_width="@dimen/d_16_dp" android:layout_height="@dimen/d_14_dp" android:src="@drawable/gallery_segment_edit_right_btn_icon" />
+        </FrameLayout>
+        <com.dji.playback.ui.playbackPreviewActivityNew.widget.PlaybackControlViewNew android:id="@id/video_frame_play_view" android:padding="@dimen/d_4_dp" android:layout_width="@dimen/d_40_dp" android:layout_height="@dimen/d_40_dp" android:src="@drawable/v3_ic_playback_play" android:scaleType="centerInside" android:layout_centerInParent="true" android:contentDescription="@null" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/frame_player_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.dji.playback.ui.view.videoseekbar.PlaybackVideoSeekView android:id="@id/video_frame_seek_view" android:background="@drawable/playback_play_view_bg" android:layout_width="match_parent" android:layout_height="@dimen/d_83_dp" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/pic_frame_list_rv" android:visibility="visible" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/d_79_dp" android:layout_marginTop="@dimen/d_17_dp" android:paddingStart="@dimen/d_4_dp" android:paddingEnd="@dimen/d_4_dp" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutCutActionBar" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" android:layout_marginTop="@dimen/d_8_dp" android:paddingStart="@dimen/d_24_dp" android:paddingEnd="@dimen/d_24_dp">
+        <dji.publics.DJIUI.DJIStateImageView android:id="@id/iv_frame_cancel" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/gallery_segment_edit_arrow_left" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white_90" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/mimo_playback_screenshot_entrance_title" android:layout_weight="1.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <dji.publics.DJIUI.DJIStateImageView android:id="@id/iv_frame_confirm" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/gallery_segment_edit_download_icon" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ProgressBar android:id="@id/export_loading_progress" android:visibility="gone" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:indeterminateDrawable="@drawable/progressbar_circle_white" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

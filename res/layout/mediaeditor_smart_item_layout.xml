@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/line" android:background="@color/white_20" android:visibility="gone" android:layout_width="@dimen/editor_d_1_dp" android:layout_height="@dimen/editor_d_22_dp" android:layout_centerVertical="true" android:layout_marginStart="@dimen/editor_d_12_dp" android:layout_marginEnd="@dimen/editor_d_6_dp" android:layout_toEndOf="@id/card" android:layout_alignParentEnd="true" />
+    <FrameLayout android:id="@id/card" android:layout_width="@dimen/editor_d_64_dp" android:layout_height="@dimen/editor_d_64_dp">
+        <com.lctsdk.mediaeditor.widget.RadiusCardView android:id="@id/cardview" android:background="@color/white_10" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="@dimen/editor_d_0_dp" app:rcv_bottomLeftRadiu="@dimen/editor_d_4_dp" app:rcv_bottomRightRadiu="@dimen/editor_d_4_dp" app:rcv_topLeftRadiu="@dimen/editor_d_4_dp" app:rcv_topRightRadiu="@dimen/editor_d_4_dp">
+            <ImageView android:id="@id/smart_item_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            <View android:id="@id/smart_item_image_pre" android:background="@color/C_000000_70" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+            <ImageView android:layout_gravity="center" android:id="@id/smart_item_retry" android:padding="@dimen/editor_d_35_dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/mediaeditor_smart_retry_icon" />
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/smart_edit_ll" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:layout_gravity="center" android:visibility="visible" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" android:src="@drawable/preview_video_selected" />
+                <TextView android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_5_dp" android:text="编辑" style="@style/H_5_normal" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="right|bottom" android:id="@id/collection_iv" android:paddingLeft="@dimen/editor_d_8_dp" android:paddingTop="@dimen/editor_d_6_dp" android:paddingRight="@dimen/editor_d_8_dp" android:paddingBottom="@dimen/editor_d_6_dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/light_model_collection_no" />
+        </com.lctsdk.mediaeditor.widget.RadiusCardView>
+        <ImageView android:layout_gravity="center" android:id="@id/smart_item_bg" android:background="@drawable/custom_template_recommend_select" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="@dimen/editor_d_2_dp" />
+    </FrameLayout>
+    <TextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/smart_item_name" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_4_dp" android:layout_below="@id/card" style="@style/H_5_normal" />
+</RelativeLayout>

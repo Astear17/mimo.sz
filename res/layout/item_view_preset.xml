@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/d_8_dp" android:paddingBottom="@dimen/d_8_dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/view_preset_c1_gray" />
+    <TextView android:textSize="15.0dp" android:textColor="@color/view_preset_text_color" android:id="@id/tv_name" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_weight="1.0" />
+    <ImageView android:id="@id/iv_share" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/view_preset_share" />
+    <ImageView android:id="@id/iv_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/view_preset_delete" />
+</LinearLayout>

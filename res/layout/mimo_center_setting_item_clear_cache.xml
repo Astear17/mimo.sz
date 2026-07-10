@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mimo_center_clear_cache_container" style="@style/MimoCenterItemContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mimo_center_clear_cache_icon" android:src="@drawable/mimo_center_item_icon_clear_cache" style="@style/ImageView_MimoCenter_Item_Icon" />
+    <TextView android:id="@id/mimo_center_clear_cache_title" android:text="@string/kino_setting_clearCache" android:layout_toStartOf="@id/mimo_center_clear_cache_tip" android:layout_toEndOf="@id/mimo_center_clear_cache_icon" style="@style/TV.MimoCenter.Item.Title.Black" />
+    <TextView android:id="@id/mimo_center_clear_cache_tip" android:layout_toStartOf="@id/mimo_center_clear_cache_arrow" style="@style/TV.MimoCenter.Item.TipInfo" />
+    <ImageView android:id="@id/mimo_center_clear_cache_arrow" style="@style/ImageView_MimoCenter_Item_RightArrow" />
+</RelativeLayout>

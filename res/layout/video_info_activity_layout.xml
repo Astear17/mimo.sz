@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_black" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dji.lomo.main.view.spring.RecommendSpringView android:id="@id/video_info_refresh_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <dji.lomo.main.view.list.CustomRecyclerView android:id="@id/video_info_list" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" app:viewPagerStyle="true" />
+    </dji.lomo.main.view.spring.RecommendSpringView>
+    <LinearLayout android:orientation="vertical" android:id="@id/selected_error_refresh_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <ImageView android:id="@id/video_info_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selected_empty" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/color_666666" android:layout_gravity="center_horizontal" android:id="@id/video_text" android:paddingTop="@dimen/d_22_dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="0.0dp" android:text="@string/kino_community_common_empty_tip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <SeekBar android:id="@id/seek_bar" android:background="@null" android:padding="0.0dp" android:layout_width="match_parent" android:layout_height="1.0dp" android:progressDrawable="@drawable/video_seekbar_drawable" android:thumb="@null" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/page_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_10_dp" android:layout_marginTop="@dimen/d_20_dp" android:layout_marginBottom="@dimen/d_20_dp" android:src="@drawable/title_back" android:layout_alignParentLeft="true" />
+    <View android:id="@id/loading_view" android:background="@drawable/video_loading" android:visibility="gone" android:layout_width="@dimen/d_187_dp" android:layout_height="@dimen/d_1_dp" android:layout_alignParentBottom="true" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/video_rejected_layout" android:background="@color/video_error_bg_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_184_dp">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_44_dp" android:layout_marginBottom="@dimen/d_5_dp" android:src="@drawable/video_rejected_logo" />
+        <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/rejected_video_text_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_57_dp" android:layout_marginRight="@dimen/d_57_dp" android:layout_marginBottom="@dimen/d_49_dp" android:text="@string/video_rejected_text" />
+    </LinearLayout>
+</RelativeLayout>

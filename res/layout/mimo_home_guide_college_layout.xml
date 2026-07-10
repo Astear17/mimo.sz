@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/home_user_guide_college_container" style="@style/home_user_guide_root_view_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/home_user_guide_college_image" android:src="@drawable/home_user_guide_item_college_en" android:layout_above="@id/home_user_guide_college_bottom_margin_view" style="@style/home_user_guide_single_image_style" />
+    <TextView android:id="@id/home_user_guide_college_bottom_margin_view" android:layout_marginBottom="@dimen/d_200_dp" style="@style/home_user_guide_bottom_margin_view_style" />
+</RelativeLayout>

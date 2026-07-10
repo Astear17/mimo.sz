@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/story_voice_icon" android:paddingTop="@dimen/d_10_dp" android:layout_width="@dimen/d_50_dp" android:layout_height="@dimen/d_50_dp" android:src="@drawable/dji_ic_story_voice_disable" android:paddingStart="@dimen/d_10_dp" android:paddingEnd="@dimen/d_10_dp" />
+    <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/story_voice_des" android:paddingTop="@dimen/d_10_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_fpv_story_mute_list_title" android:paddingEnd="@dimen/d_10_dp" />
+</LinearLayout>

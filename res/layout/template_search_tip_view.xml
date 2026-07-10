@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lct.uilib.widget.bannerview.BannerViewPager android:orientation="vertical" android:id="@id/banner_view_pager" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:textColor="@color/template_search_input_hint_color" android:gravity="center_vertical" android:id="@id/tv_default_hint" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/light_community_use_template_search_default" style="@style/H_3_normal" />
+</FrameLayout>

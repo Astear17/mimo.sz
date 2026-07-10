@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="#2a2a2a" />
+                    <corners android:radius="@dimen/editor_d_12_dp" />
+                </shape>
+            </item>
+            <item>
+                <color android:color="#20000000" />
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#2a2a2a" />
+            <corners android:radius="@dimen/editor_d_12_dp" />
+        </shape>
+    </item>
+</selector>

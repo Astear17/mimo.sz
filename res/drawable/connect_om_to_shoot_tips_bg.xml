@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/mediaeditor_color_ffecdd" android:endColor="@color/mediaeditor_color_FFD1AD" android:angle="270.0" />
+    <corners android:radius="@dimen/editor_d_14_dp" />
+</shape>

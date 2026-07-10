@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/playback_video_hdr_bt_bg" android:layout_width="wrap_content" android:layout_height="@dimen/d_25_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:background="@drawable/segment_edit_hdr_bt" android:layout_width="@dimen/d_20_dp" android:layout_height="@dimen/d_20_dp" android:layout_marginLeft="@dimen/d_6_dp" />
+    <TextView android:textSize="@dimen/d_13_dp" android:textStyle="bold" android:textColor="@color/playback_video_hdr_bt_content_FFFFFF" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_playback_single_clip_edit_hdr_title" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/hdr_instruction" android:background="@drawable/segment_edit_hdr_instruction" android:layout_width="@dimen/d_20_dp" android:layout_height="@dimen/d_20_dp" android:layout_marginRight="@dimen/d_7_dp" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/colorTransparent" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText android:textSize="@dimen/d_15_dp" android:textColor="@color/black_100" android:textColorHint="@color/black_40" android:ellipsize="end" android:gravity="start|center" android:id="@id/number_et" android:background="@null" android:paddingTop="@dimen/d_16_dp" android:paddingBottom="@dimen/d_16_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="1" android:textCursorDrawable="@drawable/edit_curs_color" android:paddingStart="@dimen/d_0_dp" android:paddingEnd="@dimen/d_30_dp" android:textFontWeight="600" style="@style/TextStyleRobotoRegular" />
+    <FrameLayout android:id="@id/line_parent" android:background="@color/color_333333" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="1.0px">
+        <View android:layout_gravity="center" android:id="@id/red_line" android:background="@color/color_f7534e" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/color_f7534e" android:gravity="left|center" android:id="@id/error_tv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_15_dp" android:text="@string/kino_uc_phone_illegal_text" style="@style/TextStyleRobotoRegular" />
+</LinearLayout>

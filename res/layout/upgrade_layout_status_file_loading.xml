@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/ll_status_root" android:background="@drawable/home_title_bar_radius_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:paddingStart="@dimen/d_16_dp" android:layout_toStartOf="@id/iv_status_right" android:layout_alignParentStart="true">
+        <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tv_status_version_info" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAllCaps="true" style="@style/TextViewHomeTopBarTitle" />
+        <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tv_status_info" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_3_dp" android:text="@string/ac101_upgrade_commom_firmware_downloading_tip_content" android:singleLine="true" style="@style/TextViewHomeTopBarDescription" />
+    </LinearLayout>
+    <ImageView android:id="@id/iv_status_right" android:visibility="visible" android:layout_width="@dimen/dji_device_24dp" android:layout_height="@dimen/dji_device_24dp" android:src="@drawable/upgrade_status_open" android:layout_centerInParent="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dji_device_5dp" android:layout_marginEnd="@dimen/dji_device_10dp" android:layout_alignParentEnd="true" />
+</RelativeLayout>

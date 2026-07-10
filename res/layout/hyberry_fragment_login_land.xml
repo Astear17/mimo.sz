@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/hyberry_fragment_bg" android:layout_width="470.0dp" android:layout_height="wrap_content">
+        <com.huya.berry.gamesdk.wup.widgets.CommonTopBar android:id="@id/ctb_title_bar" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/hyberry_login_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textColor="@color/hyberry_color_999999" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" android:text="@string/hyberry_login_tips" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/hyberry_common_frame" android:layout_width="280.0dp" android:layout_height="wrap_content" android:layout_marginTop="13.0dp">
+                <EditText android:textSize="14.0sp" android:textColor="@color/hyberry_color_333333" android:textColorHint="@color/hyberry_color_999999" android:gravity="center_vertical" android:id="@id/edit_phone" android:background="@null" android:paddingLeft="8.0dp" android:paddingRight="8.0dp" android:layout_width="0.0dp" android:layout_height="36.0dp" android:text="" android:hint="@string/hyberry_login_phone_hint" android:maxLength="11" android:drawableLeft="@drawable/hyberry_selector_phone_icon" android:drawablePadding="8.0dp" android:layout_weight="1.0" android:inputType="number" android:imeOptions="flagNoExtractUi" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="9.0dp" android:src="@drawable/hyberry_delete" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="280.0dp" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+                <EditText android:textSize="14.0sp" android:textColor="@color/hyberry_color_333333" android:textColorHint="@color/hyberry_color_999999" android:gravity="center_vertical" android:id="@id/edit_verify_code" android:background="@drawable/hyberry_common_frame" android:paddingLeft="8.0dp" android:paddingRight="8.0dp" android:layout_width="0.0dp" android:layout_height="36.0dp" android:text="" android:hint="请输入验证码" android:drawableLeft="@drawable/hyberry_selector_code_icon" android:drawablePadding="8.0dp" android:layout_weight="1.0" android:inputType="number" android:imeOptions="flagNoExtractUi" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/hyberry_color_white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_get_verify_code" android:background="@drawable/hyberry_common_button_bg" android:layout_width="88.0dp" android:layout_height="36.0dp" android:layout_marginLeft="10.0dp" android:text="获取验证码" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="280.0dp" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+                <CheckBox android:textSize="12.0sp" android:textColor="@color/hyberry_color_666666" android:id="@id/cb_rule" android:paddingLeft="0.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@null" android:text="@string/hyberry_is_agree_rule" android:drawableLeft="@drawable/hyberry_common_checkbox" android:drawablePadding="5.0dp" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/hyberry_color_4A90E2" android:id="@id/tv_login_rule" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hyberry_login_rule" />
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textColor="@color/hyberry_color_white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_login" android:background="@drawable/hyberry_common_button_circle_bg" android:layout_width="280.0dp" android:layout_height="38.0dp" android:layout_marginTop="14.0dp" android:layout_marginBottom="23.0dp" android:text="登录" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

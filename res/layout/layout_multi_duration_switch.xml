@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="@dimen/editor_d_0_5_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/shape_multi_duration_shortcut_fg"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lctsdk.mediaeditor.tabviews.video.RoundRadiusLayout android:id="@id/music_switch_layout" android:layout_width="match_parent" android:layout_height="match_parent" app:roundRadius="@dimen/editor_d_8_dp">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/color_correct_subtitle_layout" android:background="@color/C_29292D_96" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="@dimen/editor_d_85_dp">
+            <TextView android:textSize="@dimen/editor_d_10_dp" android:textColor="@color/C_FFFFFF_50" android:id="@id/music_switch_title" android:background="@color/C_000000_30" android:paddingLeft="@dimen/editor_d_14_dp" android:paddingTop="@dimen/editor_d_4_dp" android:paddingBottom="@dimen/editor_d_4_dp" android:layout_width="@dimen/editor_d_0_dp" android:layout_height="wrap_content" android:text="@string/light_ai_more_duration_switch_btn" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout android:orientation="vertical" android:id="@id/music_switch_items" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/shape_multi_duration_menu_divider" android:minWidth="@dimen/editor_d_85_dp" android:showDividers="middle" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/music_switch_title" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.lctsdk.mediaeditor.tabviews.video.RoundRadiusLayout>
+</FrameLayout>

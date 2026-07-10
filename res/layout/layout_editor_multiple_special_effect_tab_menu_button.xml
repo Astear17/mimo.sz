@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/multiple_menu_button_empty_first" android:focusable="false" android:visibility="invisible" android:clickable="false" android:layout_marginBottom="@dimen/editor_d_61_dp" android:layout_marginStart="@dimen/editor_d_9_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/multiple_menu_button_add_special_effect" style="@style/TextComponentsStickersEntrancePanelBtnGroup" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/multiple_menu_button_add_special_effect" android:layout_marginBottom="@dimen/editor_d_61_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/multiple_menu_button_empty_first" app:layout_constraintRight_toLeftOf="@id/multiple_menu_button_empty_last" style="@style/TextComponentsPasterEntrancePanelBtnGroup">
+        <androidx.appcompat.widget.AppCompatImageView android:src="@drawable/editor_add_special_effect_dark" style="@style/TextComponentsStickersEntrancePanelBtnImage" />
+        <TextView android:text="@string/light_editor_effecttab_addeffect" style="@style/TextComponentsStickersEntrancePanelBtnText" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View android:id="@id/multiple_menu_button_empty_last" android:focusable="false" android:visibility="invisible" android:clickable="false" android:layout_marginEnd="@dimen/editor_d_9_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/multiple_menu_button_add_special_effect" app:layout_constraintRight_toRightOf="parent" style="@style/TextComponentsStickersEntrancePanelBtnGroup" />
+</androidx.constraintlayout.widget.ConstraintLayout>

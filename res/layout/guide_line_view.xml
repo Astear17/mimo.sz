@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/view_guide_line" android:background="@drawable/shape_guide_line_up_down_bg" android:layout_width="@dimen/editor_d_2_dp" android:layout_height="@dimen/editor_d_36_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

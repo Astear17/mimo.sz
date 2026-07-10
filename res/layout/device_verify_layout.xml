@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/verify_code_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/device_verify_bg" android:layout_centerHorizontal="true" />
+    <TextView android:textColor="@color/C_1FA3F6_100" android:gravity="center" android:id="@id/tv_verify_code" android:layout_width="@dimen/editor_d_76_dp" android:layout_height="@dimen/editor_d_24_dp" android:layout_marginTop="@dimen/editor_d_38_dp" android:layout_centerHorizontal="true" style="@style/H_1_bold" />
+    <TextView android:textColor="@color/black" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_24_dp" android:text="@string/light_connection_common_first_time_confirm" android:layout_below="@id/verify_code_iv" android:layout_marginStart="@dimen/editor_d_10_dp" android:layout_marginEnd="@dimen/editor_d_10_dp" style="@style/H_4_normal" />
+</RelativeLayout>

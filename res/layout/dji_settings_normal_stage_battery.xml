@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.lomo.fpv.ui.normal.settings.general.DJIFpvSettingStageGeneralBatterySV2 android:id="@id/dji_setting_stage_general_root" android:layout_width="match_parent" android:layout_height="match_parent" setting_ui:title_text="@string/dji_setting_general"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/dji_setting_battery_info" />
+</dji.lomo.fpv.ui.normal.settings.general.DJIFpvSettingStageGeneralBatterySV2>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="20" android:drawable="@drawable/segment_continue_shooting_00067" />
+    <item android:duration="20" android:drawable="@drawable/segment_continue_shooting_00066" />
+    <item android:duration="20" android:drawable="@drawable/segment_continue_shooting_00065" />
+    <item android:duration="20" android:drawable="@drawable/segment_continue_shooting_00064" />
+    <item android:duration="20" android:drawable="@drawable/segment_continue_shooting_00063" />
+    <item android:duration="20" android:drawable="@drawable/segment_continue_shooting_00062" />
+    <item android:duration="20" android:drawable="@drawable/segment_continue_shooting_00061" />
+    <item android:duration="20" android:drawable="@drawable/segment_continue_shooting_00060" />
+    <item android:duration="20" android:drawable="@drawable/segment_continue_shooting_00059" />
+    <item android:duration="20" android:drawable="@drawable/segment_continue_shooting_00058" />
+    <item android:duration="20" android:drawable="@drawable/segment_continue_shooting_00057" />
+    <item android:duration="20" android:drawable="@drawable/segment_continue_shooting_00056" />
+</animation-list>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_card_container" android:layout_width="wrap_content" android:layout_height="@dimen/d_24_dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/panorama_player_time_line_bg" android:layout_width="wrap_content" android:layout_height="@dimen/d_20_dp" android:paddingStart="@dimen/d_8_dp" android:paddingEnd="@dimen/d_8_dp">
+            <TextView android:gravity="center" android:id="@id/currentMsText" android:layout_width="wrap_content" android:layout_height="match_parent" style="@style/video_player_edit_time_style" />
+            <TextView android:gravity="center" android:id="@id/durationMsText" android:layout_width="wrap_content" android:layout_height="match_parent" style="@style/video_player_edit_time_style" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.dji.playback.ui.view.videoseekbar.ThumbnailSeekBar android:id="@id/thumbnailSeekBar" android:layout_width="match_parent" android:layout_height="@dimen/d_50_dp" android:layout_marginTop="@dimen/d_4_dp" app:layout_constraintTop_toBottomOf="@id/ll_card_container" />
+    <com.lct.panorama.ui.highlights.view.VideoHighlightsTrackLayer android:orientation="horizontal" android:id="@id/video_highlights_track_layer" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/thumbnailSeekBar" app:layout_constraintStart_toStartOf="parent" />
+    <ImageView android:id="@id/center_indicator" android:background="@drawable/editor_trackview_line_shape" android:layout_width="@dimen/d_5_dp" android:layout_height="@dimen/d_58_dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ll_card_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

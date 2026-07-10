@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/left_jump_fl" android:layout_width="@dimen/editor_d_36_dp" android:layout_height="@dimen/editor_d_36_dp" android:layout_marginStart="@dimen/editor_d_20_dp" android:layout_alignParentStart="true" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <View android:background="@drawable/panorama_segment_edit_frame_arrow_bg_shape" android:layout_width="@dimen/editor_d_36_dp" android:layout_height="@dimen/editor_d_36_dp" />
+        <ImageView android:layout_gravity="center" android:id="@id/iv_frame_left_jump" android:layout_width="@dimen/editor_d_16_dp" android:layout_height="@dimen/editor_d_14_dp" android:src="@drawable/panorama_segment_edit_left_btn_icon" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/right_jump_fl" android:layout_width="@dimen/editor_d_36_dp" android:layout_height="@dimen/editor_d_36_dp" android:layout_marginEnd="@dimen/editor_d_20_dp" android:layout_alignParentEnd="true" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <View android:background="@drawable/panorama_segment_edit_frame_arrow_bg_shape" android:layout_width="@dimen/editor_d_36_dp" android:layout_height="@dimen/editor_d_36_dp" />
+        <ImageView android:layout_gravity="center" android:id="@id/iv_frame_right_jump" android:layout_width="@dimen/editor_d_16_dp" android:layout_height="@dimen/editor_d_14_dp" android:src="@drawable/panorama_segment_edit_right_btn_icon" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

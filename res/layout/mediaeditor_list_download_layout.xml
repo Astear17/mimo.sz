@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/download_status_icon" android:visibility="gone" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:src="@drawable/mediaeditor_preview_download_icon" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" />
+    <ProgressBar android:id="@id/download_status_progressbar" android:background="@drawable/mediaeditor_device_download_progressbar_background" android:visibility="gone" android:layout_width="@dimen/editor_d_20_dp" android:layout_height="@dimen/editor_d_20_dp" android:max="100" android:indeterminate="false" android:progressDrawable="@drawable/mediaeditor_device_download_progressbar_progress" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+</androidx.constraintlayout.widget.ConstraintLayout>

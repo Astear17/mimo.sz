@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_17_dp" android:textColor="@color/color_333333" android:gravity="center" android:id="@id/dialog_common_sheet_item_textview" android:layout_width="match_parent" android:layout_height="@dimen/d_64_dp" />
+    <View android:id="@id/dialog_common_sheet_item_line" android:background="@color/color_f4f4f4" android:layout_width="match_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/d_16_dp" android:layout_marginRight="@dimen/d_16_dp" />
+</LinearLayout>

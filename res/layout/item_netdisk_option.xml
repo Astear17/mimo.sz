@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/d_8_dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_netdisk_icon" android:layout_width="@dimen/d_72_dp" android:layout_height="@dimen/d_72_dp" android:src="@drawable/ic_netdisk_quark" />
+    <TextView android:textColor="@color/black_80" android:gravity="center|top" android:id="@id/tv_netdisk_name" android:layout_width="match_parent" android:layout_height="@dimen/d_32_dp" android:text="夸克网盘" style="@style/body_3_400" />
+</LinearLayout>

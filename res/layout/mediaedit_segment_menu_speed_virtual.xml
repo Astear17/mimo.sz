@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/edit_menu_bg_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/speed_menu_title" android:visibility="gone" android:text="@string/kino_editor_clip_speed" style="@style/base_edit_tab_layout_text_virtual_style" />
+    <TextView android:id="@id/speed_menu_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_15_dp" android:layout_centerHorizontal="true" style="@style/H_3_normal" />
+    <RelativeLayout android:id="@id/mediaedit_speedbar_layout_id" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_60_dp" android:layout_marginLeft="@dimen/editor_d_16_dp" android:layout_marginRight="@dimen/editor_d_16_dp" android:layout_marginBottom="@dimen/editor_d_68_dp" android:layout_above="@id/mediaedit_menu_bottom_layout_id">
+        <TextView android:textColor="@color/C_FFFFFF_100" android:gravity="center|bottom" android:id="@id/left_title" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="@dimen/editor_d_2_dp" android:text="@string/kino_editor_clip_speed_low" android:layout_alignParentLeft="true" style="@style/H_3_normal" />
+        <TextView android:textColor="@color/C_FFFFFF_100" android:gravity="center|bottom" android:id="@id/right_title" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="@dimen/editor_d_2_dp" android:text="@string/light_editor_clip_speed_high" android:layout_alignParentRight="true" style="@style/H_3_normal" />
+        <lct.lomo.sdk.editor.widget.SpeedSeekbar android:id="@id/speed_seekbar" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_60_dp" android:layout_marginLeft="@dimen/editor_d_10_dp" android:layout_marginRight="@dimen/editor_d_10_dp" android:layout_toLeftOf="@id/right_title" android:layout_toRightOf="@id/left_title" />
+    </RelativeLayout>
+    <include android:id="@id/mediaedit_menu_bottom_layout_id" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp" android:layout_alignParentBottom="true" layout="@layout/mediaeditor_menu_bottom_layout" />
+</RelativeLayout>

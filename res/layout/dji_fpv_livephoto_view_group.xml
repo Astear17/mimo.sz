@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/bg_fpv_livephoto_group" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.lomo.fpv.widget.CheckableImageView android:layout_gravity="center_vertical" android:id="@id/fpv_live_photo_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_fpv_livephoto_on" android:layout_marginStart="@dimen/d_4_dp" />
+    <TextView android:textSize="@dimen/d_11_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/fpv_live_photo_des_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_fpv_live_title" android:layout_marginStart="@dimen/d_2_dp" android:layout_marginEnd="@dimen/d_8_dp" android:layout_marginVertical="@dimen/d_7_dp" android:textFontWeight="400" />
+</LinearLayout>

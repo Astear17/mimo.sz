@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/title" layout="@layout/setting_title_layout" />
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/d_108_dp" android:layout_height="@dimen/d_108_dp" android:layout_marginTop="@dimen/d_35_dp" android:src="@drawable/about_kino_icon" />
+    <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/color_ffffff" android:layout_gravity="center_horizontal" android:id="@id/about_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_20_dp" style="@style/TextStyleRobotoRegular" />
+    <include android:id="@id/about_rate_kino" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" android:layout_marginTop="@dimen/d_43_dp" layout="@layout/setting_item_text" />
+    <include android:id="@id/about_user_agreement" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" layout="@layout/setting_item_text" />
+    <include android:id="@id/about_activate_term" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" layout="@layout/setting_item_text" />
+    <include android:id="@id/app_update" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" layout="@layout/setting_item_text" />
+    <include android:id="@id/firmware_update_detect" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" layout="@layout/setting_item_text" />
+    <View android:background="@color/color_e4e4e4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/d_16_dp" android:layout_marginRight="@dimen/d_16_dp" />
+    <Space android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/d_11_dp" android:textColor="@color/color_666666" android:layout_gravity="center_horizontal" android:id="@id/about_copy_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_24_dp" android:text="@string/about_copy_right" style="@style/TextStyleRobotoCondensedRegular" />
+</LinearLayout>

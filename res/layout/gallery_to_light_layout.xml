@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/to_light_root" android:layout_width="match_parent" android:layout_height="@dimen/d_82_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dji.playback.ui.mino.mimo2light.RoundRadiusLayout android:id="@id/to_light_round_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/d_5_dp" android:layout_marginTop="@dimen/d_5_dp" android:layout_marginRight="@dimen/d_5_dp" android:layout_marginBottom="@dimen/d_5_dp" app:roundRadius="@dimen/d_8_dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@id/to_light_pic" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
+            <com.dji.playback.ui.mino.mimo2light.banner.BannerView android:id="@id/to_light_banner" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <View android:background="@drawable/gallery_to_light_view_shape" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.1" />
+        </RelativeLayout>
+    </com.dji.playback.ui.mino.mimo2light.RoundRadiusLayout>
+</RelativeLayout>

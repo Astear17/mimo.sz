@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mediaedit_main_titlebar_back_iv" android:paddingLeft="@dimen/editor_d_10_dp" android:paddingTop="@dimen/editor_d_5_dp" android:paddingRight="@dimen/editor_d_5_dp" android:paddingBottom="@dimen/editor_d_5_dp" android:layout_width="@dimen/editor_d_45_dp" android:layout_height="@dimen/editor_d_40_dp" android:src="@drawable/mediaedit_icon_back_cross" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/mediaedit_main_titlebar_share_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/editor_d_16_dp" android:src="@drawable/ic_buttonshare_click_go" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</merge>

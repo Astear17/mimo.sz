@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@id/panel_container" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lct.lomo.sdk.editor.music.chooser.view.FlowLayout android:id="@id/items_container" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_expand_collapse" android:background="@drawable/bg_expand_button" android:layout_width="@dimen/d_28_dp" android:layout_height="@dimen/d_28_dp" android:src="@drawable/ic_music_history_arrow_down" android:scaleType="centerInside" android:layout_marginStart="8.0dp" />
+</LinearLayout>

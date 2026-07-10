@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dji.lomo.fpv.om3.view.zoom.HuaweiZoomInfoView android:id="@id/zoom_info" android:layout_width="@dimen/d_0_dp" android:layout_height="@dimen/d_0_dp" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/d_54_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/zoom_value_show" android:layout_width="match_parent" android:layout_height="@dimen/d_80_dp" android:layout_marginBottom="@dimen/d_8_dp" style="@style/TextStyleRobotoRegular" />
+    <dji.lomo.fpv.om3.view.zoom.DJILPCameraZoomSeekBarNew android:id="@id/zoom_info_seekbar" android:layout_width="@dimen/d_262_dp" android:layout_height="50.0dp" android:paddingStart="@dimen/d_20_dp" android:paddingEnd="@dimen/d_20_dp" app:drawable_bigColor="@color/white" app:drawable_bigSize="@dimen/d_6_dp" app:drawable_hotspotColor="@color/white" app:drawable_hotspotSize="@dimen/d_30_dp" app:drawable_normalColor="@color/white_50" app:drawable_normalSize="2.5dp" app:drawable_strokeWidth="@dimen/d_2_dp" app:drawable_textColor="@color/white" app:drawable_textSize="@dimen/d_20_dp" app:hotAreaShrink="@dimen/d_30_dp" app:ratioShrink="singleDot" />
+</LinearLayout>

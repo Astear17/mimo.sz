@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/playback_recycler_preload_progress" android:layout_width="@dimen/d_52_dp" android:layout_height="@dimen/d_52_dp" android:indeterminate="true" android:indeterminateDrawable="@drawable/playback_preview_loading" android:indeterminateDuration="1500" />
+    <ImageView android:id="@id/playback_recycler_preload_failed_img" android:layout_width="@dimen/d_48_dp" android:layout_height="@dimen/d_48_dp" android:src="@drawable/v3_playback_list_empty_no_data" android:scaleType="fitCenter" />
+    <TextView android:textSize="@dimen/d_14_dp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/playback_recycler_preload_failed_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_24_dp" android:text="@string/general_playback_page_loading_loading_failure_btn" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_16_dp" style="@style/TextStyleRobotoBold" />
+    <ImageView android:id="@id/playback_recycler_preload_empty_img" android:layout_width="@dimen/d_48_dp" android:layout_height="@dimen/d_48_dp" android:src="@drawable/v3_playback_list_empty_disconnect" />
+    <TextView android:textSize="@dimen/d_14_dp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/playback_recycler_preload_empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_16_dp" android:text="@string/general_playback_device_gallery_empty_list_device_disconnect_hint" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_16_dp" style="@style/TextStyleRobotoBold" />
+</LinearLayout>

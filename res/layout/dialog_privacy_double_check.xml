@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/dialog_privacy_double_check_bg" android:layout_width="280.0dp" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/d_15_dp" android:textStyle="bold" android:textColor="#000000" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dp" android:layout_marginTop="24.0dp" android:layout_marginRight="40.0dp" android:text="@string/login_policy_popup_title" android:maxLines="2" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:lineHeight="@dimen/d_20_dp" />
+            <ImageView android:id="@id/iv_close" android:paddingTop="@dimen/d_12_dp" android:paddingRight="@dimen/d_12_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/usercenter_login_alert_close" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/d_13_dp" android:textColor="#cc000000" android:textColorHighlight="@color/white" android:gravity="center" android:id="@id/tv_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" android:layout_marginHorizontal="@dimen/d_24_dp" android:lineHeight="@dimen/d_20_dp" />
+        <TextView android:textSize="@dimen/d_15_dp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_confirm" android:background="@drawable/sim_one_click_alert_confirm_btn_bg" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" android:layout_marginTop="@dimen/d_20_dp" android:layout_marginBottom="@dimen/d_20_dp" android:text="@string/login_policy_popup_button" android:layout_marginHorizontal="@dimen/d_24_dp" android:lineHeight="@dimen/d_20_dp" />
+    </LinearLayout>
+</FrameLayout>

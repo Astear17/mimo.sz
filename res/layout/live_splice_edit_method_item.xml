@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/editor_d_54_dp" android:layout_height="@dimen/editor_d_54_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lctsdk.mediaeditor.widget.RadiusCardView android:id="@id/live_splice_method_item_cv" android:layout_width="match_parent" android:layout_height="match_parent" app:rcv_bottomLeftRadiu="@dimen/editor_d_4_dp" app:rcv_bottomRightRadiu="@dimen/editor_d_4_dp" app:rcv_topLeftRadiu="@dimen/editor_d_4_dp" app:rcv_topRightRadiu="@dimen/editor_d_4_dp">
+        <ImageView android:id="@id/live_splice_method_item_iv" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+        <View android:id="@id/live_splice_method_item_mask" android:background="@drawable/preview_video_red_concor_bg" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </com.lctsdk.mediaeditor.widget.RadiusCardView>
+</FrameLayout>

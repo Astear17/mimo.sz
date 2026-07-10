@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:paddingHorizontal="24.0dp" style="@style/title_6_600" />
+    <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/tv_msg" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginBottom="20.0dp" android:layout_weight="1.0" android:paddingHorizontal="24.0dp" style="@style/body_2_400" />
+    <FrameLayout android:id="@id/layout_custom_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" android:paddingHorizontal="24.0dp" />
+</merge>

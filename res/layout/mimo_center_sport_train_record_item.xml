@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/sport_train_record_item_container" android:background="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/d_20_dp" android:paddingEnd="@dimen/d_20_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/mimo_center_item_radius_bg" android:paddingTop="@dimen/d_12_dp" android:paddingBottom="@dimen/d_12_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_16_dp">
+        <ImageView android:id="@id/sport_train_record_item_select_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mimo_center_sport_train_icon_record_unselected" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/d_12_dp" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/sport_train_record_item_share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mimo_center_sport_train_icon_record_share" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/sport_train_record_item_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/sport_train_record_item_share" android:layout_toEndOf="@id/sport_train_record_item_select_icon">
+            <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white_90" android:id="@id/sport_train_record_item_title" android:fontFamily="@font/roboto_condensed_bold" style="@style/TV.MimoCenter.Item.Title" />
+            <TextView android:textColor="@color/white_60" android:id="@id/sport_train_record_item_description" style="@style/TV.MimoCenter.Item.Description" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:layout_width="match_parent" android:layout_height="@dimen/d_8_dp" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/container" android:tag="layout/fragment_empty_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/iv_quick_enter_master" android:layout_width="@dimen/d_44_dp" android:layout_height="@dimen/d_44_dp" android:layout_marginStart="@dimen/d_48_dp" app:layout_constraintStart_toStartOf="parent" layout="@layout/layout_enter_master_view" />
+    <FrameLayout android:id="@id/story_update_tips" android:background="@drawable/ic_story_master_update_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_72_dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_quick_enter_master">
+        <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_11_dp" android:layout_marginBottom="@dimen/d_12_dp" android:maxWidth="@dimen/d_200_dp" android:text="@string/mimo_shotguide_new_template_tips_dialog_content" android:layout_marginStart="@dimen/d_15_dp" android:layout_marginEnd="@dimen/d_15_dp" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

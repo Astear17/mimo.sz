@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/mediaedit_segment_sort_layout" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_132_dp" android:layout_toLeftOf="@id/mediaedit_segment_sort_menu_layout" android:layout_alignParentBottom="true">
+        <com.lctsdk.mediaeditor.tabviews.video.VideoTrackParentLayout android:id="@id/editor_track_layout" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.lctsdk.mediaeditor.tabviews.video.VideoTrackView android:id="@id/editor_video_track_view" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+            <com.lctsdk.mediaeditor.multitrack.audio.MultipleCollectScroller android:id="@id/wave_scroll_view" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_24_dp" android:layout_marginTop="@dimen/editor_d_101_dp" />
+        </com.lctsdk.mediaeditor.tabviews.video.VideoTrackParentLayout>
+        <View android:id="@id/editor_trackview_line" android:background="@drawable/editor_trackview_line_shape" android:visibility="invisible" android:layout_width="@dimen/editor_d_2_dp" android:layout_height="@dimen/editor_d_75_dp" android:layout_marginTop="@dimen/editor_d_26_dp" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/editor_video_track_add" android:visibility="invisible" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" android:layout_marginRight="@dimen/editor_d_4_dp" android:layout_marginBottom="45.5dp" android:src="@drawable/mediaedit_ic_segment_add" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <lct.lomo.sdk.editor.segmentedit.operationmeun.OperationMenuLayout android:id="@id/mediaedit_segment_sort_menu_layout" android:background="@color/C_29292D_100" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toLeftOf="@id/operation_menu_divider" />
+    <View android:id="@id/operation_menu_divider" android:background="@color/mediaeditor_bg_color_landscape" android:layout_width="0.5dp" android:layout_height="match_parent" android:layout_alignParentRight="true" />
+</RelativeLayout>

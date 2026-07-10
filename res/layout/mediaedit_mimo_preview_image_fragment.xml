@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dji.lomo.mediaeditor.preview.view.PreviewImageView android:id="@id/media_preview_photo" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ImageView android:id="@id/back" android:padding="@dimen/d_10_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_10_dp" android:src="@drawable/mediaeditor_ic_closed" android:layout_marginStart="@dimen/d_6_dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <CheckBox android:id="@id/preview_select_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/d_16_dp" app:layout_constraintBottom_toBottomOf="@id/back" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/back" style="@style/PreviewCheckBoxTheme" />
+</androidx.constraintlayout.widget.ConstraintLayout>

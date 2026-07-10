@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/lct_dialog_root_view" android:background="@drawable/mediaeditor_dialog_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/editor_d_28_dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/editor_d_15_dp" android:textStyle="bold" android:textColor="@color/C_000000_100" android:id="@id/dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_16_dp" android:includeFontPadding="false" style="@style/H_2_normal" />
+        <TextView android:textColor="@color/C_000000_100" android:ellipsize="end" android:gravity="center" android:id="@id/dialog_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingMultiplier="1.1" android:paddingStart="@dimen/editor_d_16_dp" android:paddingEnd="@dimen/editor_d_16_dp" style="@style/H_4_normal" />
+        <View android:id="@id/dialog_hor_line" android:background="@color/C_E4E4E4_100" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="@dimen/editor_d_28_dp" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp">
+            <TextView android:textColor="@color/C_999999_100" android:gravity="center" android:id="@id/btn_left" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="退出重选" android:layout_weight="1.0" style="@style/H_3_normal" />
+            <View android:background="@color/C_E4E4E4_100" android:layout_width="0.5dp" android:layout_height="match_parent" />
+            <TextView android:textStyle="bold" android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/btn_right" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="重新截取" android:layout_weight="1.0" style="@style/H_3_normal" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

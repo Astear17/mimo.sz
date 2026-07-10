@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/mediaedit_mimo_title_bar" />
+    <EditText android:textSize="@dimen/d_17_dp" android:textColor="@color/color_333333" android:textColorHint="@color/color_cccccc" android:gravity="top" android:id="@id/mediaedit_create_tag_title" android:background="@drawable/mediaedit_shape_edit_bg" android:paddingLeft="@dimen/d_10_dp" android:paddingTop="@dimen/d_16_dp" android:paddingBottom="@dimen/d_16_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_16_dp" android:layout_marginRight="@dimen/d_16_dp" android:lines="1" />
+    <RelativeLayout android:background="@drawable/mediaedit_shape_edit_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_16_dp" android:layout_marginTop="@dimen/d_15_dp" android:layout_marginRight="@dimen/d_16_dp">
+        <EditText android:textSize="@dimen/d_17_dp" android:textColor="@color/color_333333" android:textColorHint="@color/color_cccccc" android:gravity="top" android:id="@id/mediaedit_create_tag_desc" android:background="@color/transparent" android:paddingLeft="@dimen/d_10_dp" android:paddingTop="@dimen/d_16_dp" android:paddingBottom="@dimen/d_16_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="5" android:lineSpacingMultiplier="1.2" />
+        <TextView android:textSize="@dimen/d_17_dp" android:textColor="@color/color_cccccc" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

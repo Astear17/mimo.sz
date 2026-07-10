@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.base.ui.widget.dji.DJIRelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/d_20_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.base.ui.widget.dji.DJILinearLayout android:background="@drawable/dji_bg_timelapse_bar" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerHorizontal="true">
+        <dji.base.ui.widget.dji.DJIImageView android:layout_gravity="center" android:id="@id/iv_short_video_recording" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dji_recording_red_dot" android:layout_marginStart="@dimen/d_6_dp" />
+        <dji.base.ui.widget.dji.DJITextView android:gravity="center" android:layout_gravity="center" android:id="@id/tv_short_video_time" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="14/30s" android:layout_marginStart="@dimen/d_6_dp" android:layout_marginEnd="@dimen/d_6_dp" android:layout_toEndOf="@id/iv_short_video_recording" />
+    </dji.base.ui.widget.dji.DJILinearLayout>
+</dji.base.ui.widget.dji.DJIRelativeLayout>

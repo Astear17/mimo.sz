@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/story_toast_bg_color" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_15_dp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_width="@dimen/d_183_dp" android:layout_height="@dimen/d_64_dp" android:text="@string/dji_story_save_success" style="@style/TextStyleRobotoBold" />
+</FrameLayout>

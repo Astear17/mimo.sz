@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/panorama_auto_clear_action_view_bg" android:paddingLeft="@dimen/editor_d_12_dp" android:paddingTop="@dimen/editor_d_8_dp" android:paddingRight="@dimen/editor_d_12_dp" android:paddingBottom="@dimen/editor_d_8_dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:src="@drawable/panorama_auto_clear_action_delete_logo" />
+        <TextView android:textSize="@dimen/editor_d_9_dp" android:textColor="@color/black" android:id="@id/panorama_clear_action_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/panorama_single_fragment_clear_freeview" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

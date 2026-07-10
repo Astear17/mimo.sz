@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dji.videoplayer.view.VideoPlayerTrackView android:id="@id/videoGuideView" android:clickable="true" android:layout_width="@dimen/d_320_dp" android:layout_height="@dimen/d_180_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="h,16:9" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:video_autoSetCoverController="true" app:video_autoSetVideoController="true" app:video_needRequestAudioFocus="true" />
+    <dji.base.ui.widget.DJIStateImageView android:id="@id/closeIv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_6_dp" android:src="@drawable/ic_fold" android:layout_marginEnd="@dimen/d_6_dp" app:layout_constraintEnd_toEndOf="@id/videoGuideView" app:layout_constraintTop_toTopOf="@id/videoGuideView" />
+</merge>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="50" android:drawable="@drawable/like0001" />
+    <item android:duration="50" android:drawable="@drawable/like0002" />
+    <item android:duration="50" android:drawable="@drawable/like0003" />
+    <item android:duration="50" android:drawable="@drawable/like0004" />
+    <item android:duration="50" android:drawable="@drawable/like0005" />
+    <item android:duration="50" android:drawable="@drawable/like0006" />
+    <item android:duration="50" android:drawable="@drawable/like0007" />
+    <item android:duration="50" android:drawable="@drawable/like0008" />
+    <item android:duration="50" android:drawable="@drawable/like0009" />
+    <item android:duration="50" android:drawable="@drawable/like0010" />
+    <item android:duration="50" android:drawable="@drawable/like0011" />
+    <item android:duration="50" android:drawable="@drawable/like0012" />
+    <item android:duration="50" android:drawable="@drawable/like0013" />
+    <item android:duration="50" android:drawable="@drawable/like0014" />
+    <item android:duration="50" android:drawable="@drawable/like0015" />
+    <item android:duration="50" android:drawable="@drawable/like0015" />
+    <item android:duration="50" android:drawable="@drawable/like0016" />
+    <item android:duration="50" android:drawable="@drawable/like0017" />
+    <item android:duration="50" android:drawable="@drawable/like0018" />
+    <item android:duration="50" android:drawable="@drawable/like0019" />
+    <item android:duration="50" android:drawable="@drawable/like0020" />
+    <item android:duration="50" android:drawable="@drawable/like0021" />
+    <item android:duration="50" android:drawable="@drawable/like0022" />
+    <item android:duration="50" android:drawable="@drawable/like0023" />
+    <item android:duration="50" android:drawable="@drawable/like0024" />
+    <item android:duration="50" android:drawable="@drawable/like0025" />
+    <item android:duration="50" android:drawable="@drawable/like0026" />
+    <item android:duration="50" android:drawable="@drawable/like0027" />
+    <item android:duration="50" android:drawable="@drawable/like0028" />
+    <item android:duration="50" android:drawable="@drawable/like0029" />
+    <item android:duration="50" android:drawable="@drawable/like0030" />
+</animation-list>

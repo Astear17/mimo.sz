@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.base.ui.widget.RoundRadiusLayout android:id="@id/progress_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" app:roundRadius="@dimen/d_25_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/progress_bg_text" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/mimo_myStory_loading_button" />
+    <ImageView android:id="@id/progress_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/shape_light_progress_bg" />
+    <dji.base.ui.widget.RoundCornerImageView android:id="@id/progress" android:background="@drawable/mediaeditor_share_save_bg_color" android:layout_width="0.0dp" android:layout_height="match_parent" android:scaleType="centerCrop" />
+</dji.base.ui.widget.RoundRadiusLayout>

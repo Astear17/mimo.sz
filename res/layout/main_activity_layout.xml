@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/activity_main_ly" android:paddingBottom="@dimen/d_24_dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/main_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <RelativeLayout android:id="@id/main_tab_bar_container" android:layout_width="match_parent" android:layout_height="@dimen/d_58_dp" android:layout_alignParentBottom="true">
+        <RelativeLayout android:background="@color/black" android:layout_width="match_parent" android:layout_height="@dimen/d_54_dp" android:layout_alignParentBottom="true">
+            <dji.lomo.main.view.tabbar.MainTabBar android:id="@id/main_tabbar" android:layout_width="match_parent" android:layout_height="@dimen/d_50_dp" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:id="@id/main_tab_bar_camera_container" android:layout_width="wrap_content" android:layout_height="@dimen/d_58_dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/main_tab_bar_camera_bg" android:visibility="visible" android:layout_width="@dimen/d_58_dp" android:layout_height="@dimen/d_58_dp" android:src="@drawable/tab_bar_camera_icon_disconnect_bg" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/tabbar_camera_connect_state_icon" android:visibility="visible" android:layout_width="@dimen/d_48_dp" android:layout_height="@dimen/d_48_dp" android:src="@drawable/tab_bar_camera_icon_disconnect" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

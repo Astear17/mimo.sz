@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/C_000000_100" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/media_edit_preview_list_video_cover" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/media_edit_preview_list_video_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/media_edit_preview_list_video_controller" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

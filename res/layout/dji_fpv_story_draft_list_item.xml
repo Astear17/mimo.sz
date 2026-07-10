@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.base.ui.widget.ratio.RatioRelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:aspectRatio="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/story_draft_item_img" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/story_draft_item_title" android:paddingTop="@dimen/d_2_dp" android:paddingBottom="@dimen/d_5_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/black_80" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_alignParentBottom="true" android:textAllCaps="true" android:paddingStart="@dimen/d_4_dp" android:paddingEnd="@dimen/d_4_dp" android:layout_alignParentEnd="true" style="@style/TextStyleRobotoBold" />
+    <View android:id="@id/story_draft_item_pressed" android:background="@drawable/selector_story_draft_item_select" android:layout_width="match_parent" android:layout_height="match_parent" />
+</dji.base.ui.widget.ratio.RatioRelativeLayout>

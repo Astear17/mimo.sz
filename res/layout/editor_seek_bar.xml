@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/bg" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
+    <ImageView android:id="@id/img" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/playback_seek_bar_bg" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/circle" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/playback_seek_bar_circle" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/editor_d_25_dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/black" android:id="@id/title_first" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_upload_campaign_share_contribute_click" style="@style/H_2_normal" />
+    <TextView android:textColor="@color/black" android:id="@id/title_second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_upload_campaign_share_contribute_title" android:layout_below="@id/title_first" style="@style/H_5_normal" />
+    <RelativeLayout android:id="@id/share_channel_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_9_dp" android:layout_below="@id/title_second">
+        <ImageView android:id="@id/share_channel_iv" android:layout_width="@dimen/editor_d_49_dp" android:layout_height="@dimen/editor_d_49_dp" android:src="@drawable/media_compose_share_campaign" android:scaleType="fitCenter" android:layout_below="@id/campaign_channel_pop_iv" />
+        <ImageView android:id="@id/campaign_channel_pop_iv" android:visibility="invisible" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_16_dp" android:layout_marginBottom="@dimen/editor_d_02_5_dp" android:src="@drawable/media_compose_share_campaign_hot_pop" android:scaleType="fitCenter" android:layout_alignLeft="@id/share_channel_iv" android:layout_alignRight="@id/share_channel_iv" />
+        <View android:background="@color/C_E4E4E4_100" android:layout_width="@dimen/editor_d_1_dp" android:layout_height="@dimen/editor_d_22_dp" android:layout_marginLeft="@dimen/editor_d_25_dp" android:layout_marginTop="@dimen/editor_d_29_dp" android:layout_toRightOf="@id/share_channel_iv" />
+    </RelativeLayout>
+    <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/share_channel_tv" android:layout_width="@dimen/editor_d_49_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_7_5_dp" android:layout_below="@id/share_channel_layout" style="@style/H_5_normal" />
+</RelativeLayout>

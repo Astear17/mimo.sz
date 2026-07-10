@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/C_000000_100" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.sdk.editor.customtemp.CustomTitleBar android:id="@id/title" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.lctsdk.mediaeditor.player.editor.LctMixerEditorPlayer android:id="@id/video_view" android:layout_width="@dimen/editor_d_0_dp" android:layout_height="@dimen/editor_d_0_dp" app:layout_constraintBottom_toTopOf="@id/mediaeditor_crop_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/title">
+        <com.lctsdk.mediaeditor.player.controller.GestureRectView android:id="@id/rect_line" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/editor_d_30_dp" />
+        <FrameLayout android:id="@id/gesture_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/editor_d_30_dp" />
+    </com.lctsdk.mediaeditor.player.editor.LctMixerEditorPlayer>
+    <RelativeLayout android:id="@id/mediaeditor_crop_content" android:layout_width="0.0dp" android:layout_height="@dimen/mmediaeditor_main_tabview_height" app:layout_constraintBottom_toTopOf="@id/mediaeditor_sotry_corp_bottom" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent">
+        <TextView android:textColor="@color/C_29292D_100" android:gravity="center" android:id="@id/mediaeditor_crop_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_12_dp" android:text="@string/light_model_videotrim_trim" android:layout_centerHorizontal="true" android:paddingHorizontal="@dimen/editor_d_16_dp" style="@style/H_3_bold" />
+        <FrameLayout android:id="@id/crop_video_main" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_54_dp" android:layout_marginTop="@dimen/editor_d_33_dp" android:layout_below="@id/mediaeditor_crop_title">
+            <lct.lomo.sdk.editor.template.cut.CropFrameRecycleView android:id="@id/crop_video_rv" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <lct.lomo.sdk.editor.template.cut.CropFrameView android:id="@id/crop_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </FrameLayout>
+    </RelativeLayout>
+    <com.lctsdk.mediaeditor.tabviews.secondary.StoryCropBottomView android:id="@id/mediaeditor_sotry_corp_bottom" android:background="@color/custom_bottom_bg" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

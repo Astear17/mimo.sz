@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/guide_point" android:background="@drawable/mediaeditor_subtitle_item_guide_point_bg" android:visibility="invisible" android:layout_width="@dimen/editor_d_5_dp" android:layout_height="@dimen/editor_d_5_dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textColor="@color/mediaeditor_selector_subtitle_tab_text_color" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_1_dp" android:maxLines="1" android:includeFontPadding="false" app:layout_constraintEnd_toStartOf="@id/guide_point" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/H_3_normal" />
+    <ImageView android:id="@id/tab_img_point_iv" android:background="@drawable/mediaeditor_subtitle_item_point_bg" android:visibility="invisible" android:layout_width="@dimen/editor_d_5_dp" android:layout_height="@dimen/editor_d_5_dp" android:layout_marginTop="@dimen/editor_d_5_dp" app:layout_constraintEnd_toEndOf="@android:id/text1" app:layout_constraintStart_toStartOf="@android:id/text1" app:layout_constraintTop_toBottomOf="@android:id/text1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

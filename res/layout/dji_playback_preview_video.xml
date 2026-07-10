@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/video_container" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <dji.base.ui.widget.VideoViewByTexture android:id="@id/video_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+        <dji.lomo.fpv.om3.playback.preview.widget.MediaControllerView android:id="@id/video_controller" android:background="@android:color/transparent" android:paddingTop="@dimen/d_68_dp" android:paddingBottom="@dimen/d_48_dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

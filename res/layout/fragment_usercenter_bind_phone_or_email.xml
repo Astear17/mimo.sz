@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/background_white_1" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp" layout="@layout/usercenter_titlebar_layout" />
+    <include layout="@layout/usercenter_bottom_layout" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="60.0dp" android:layout_below="@id/title">
+        <RelativeLayout android:background="@drawable/usercenter_login_edit_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_22_dp" android:layout_marginRight="@dimen/d_22_dp" android:minHeight="@dimen/d_56_dp">
+            <com.handheld.uikit.components.input.AccountInputView android:id="@id/phonenum_et" android:layout_width="match_parent" android:layout_height="wrap_content" app:hintText="@string/kino_phone_placeholder_text" app:inputMode="plainText" app:uiTheme="light" />
+        </RelativeLayout>
+        <include android:id="@id/num_code_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_22_dp" android:layout_marginTop="@dimen/d_16_dp" android:layout_marginRight="@dimen/d_22_dp" layout="@layout/usercenter_edit_sms_code_layout" />
+    </LinearLayout>
+</RelativeLayout>

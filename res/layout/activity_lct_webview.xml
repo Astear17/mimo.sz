@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/whole" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/title_layout" android:paddingTop="@dimen/editor_d_10_dp" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_64_dp" android:paddingStart="@dimen/editor_d_22_dp" android:paddingEnd="@dimen/editor_d_22_dp">
+        <ImageView android:id="@id/back_iv" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" android:src="@drawable/light_title_back" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/close_iv" android:visibility="gone" android:layout_width="@dimen/editor_d_36_dp" android:layout_height="@dimen/editor_d_54_dp" android:src="@drawable/lct_webview_close" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_marginStart="@dimen/editor_d_4_dp" android:layout_toEndOf="@id/back_iv" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_70_dp" android:layout_marginRight="@dimen/editor_d_70_dp" android:layout_centerInParent="true">
+            <com.lct.uilib.widget.view.CustomImageView android:id="@id/activity_webview_ava" android:visibility="gone" android:layout_width="@dimen/editor_d_22_dp" android:layout_height="@dimen/editor_d_22_dp" />
+            <TextView android:textColor="@color/black" android:ellipsize="end" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_marginStart="@dimen/editor_d_8_dp" style="@style/H_3_bold" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_dropdown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:paddingStart="@dimen/editor_d_30_dp">
+            <TextView android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/tv_dropdown_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/H_3_bold" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_unfold" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:src="@drawable/lctm_ic_title_bar_unfold_white" />
+        </LinearLayout>
+        <ImageView android:id="@id/h5_title_share_btn" android:visibility="gone" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" android:src="@drawable/common_share_light" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_feedback" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_64_dp" android:paddingStart="@dimen/editor_d_22_dp" android:paddingEnd="@dimen/editor_d_22_dp">
+        <TextView android:textColor="@color/black" android:id="@id/tv_feedback" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_setting_faq_feedback" android:layout_centerVertical="true" style="@style/H_3_normal" />
+        <TextView android:textColor="@color/black_45" android:id="@id/tv_feedback_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/editor_d_4_dp" android:text="@string/light_setting_feedback_tip" android:includeFontPadding="false" android:layout_centerVertical="true" android:layout_toStartOf="@id/set_arrow" style="@style/H_3_normal" />
+        <ImageView android:id="@id/set_arrow" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:src="@drawable/light_arrow_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/layout_divider" android:background="@color/color_dropdown_menu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:paddingStart="@dimen/editor_d_16_dp" android:paddingEnd="@dimen/editor_d_16_dp">
+        <View android:background="@color/C_29292D_100" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/webview_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/layout_no_network" android:background="@color/white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/editor_d_260_dp" android:layout_height="@dimen/editor_d_260_dp" android:layout_marginTop="@dimen/editor_d_130_dp">
+                <ImageView android:id="@id/iv_no_network" android:visibility="visible" android:layout_width="@dimen/editor_d_96_dp" android:layout_height="@dimen/editor_d_96_dp" android:src="@drawable/light_ic_no_network" android:layout_centerInParent="true" />
+                <TextView android:textColor="@color/black_45" android:id="@id/tv_no_network" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_10_dp" android:text="@string/network_error" android:layout_below="@id/iv_no_network" android:layout_centerHorizontal="true" style="@style/H_3_normal" />
+            </RelativeLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/ll_getcontent_fail" android:background="@color/white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/editor_d_260_dp" android:layout_height="@dimen/editor_d_260_dp" android:layout_marginTop="@dimen/editor_d_130_dp">
+                <ImageView android:id="@id/iv_fail" android:visibility="visible" android:layout_width="@dimen/editor_d_96_dp" android:layout_height="@dimen/editor_d_96_dp" android:src="@drawable/light_ic_no_content" android:layout_centerInParent="true" />
+                <TextView android:textColor="@color/black_45" android:id="@id/tv_no_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_10_dp" android:text="@string/network_error" android:layout_below="@id/iv_fail" android:layout_centerHorizontal="true" style="@style/H_3_normal" />
+            </RelativeLayout>
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view_dropdown" android:background="@color/white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+</LinearLayout>

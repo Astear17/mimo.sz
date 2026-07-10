@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="end|center" android:orientation="horizontal" android:background="@drawable/improvement_lottery_background" android:paddingTop="@dimen/d_4_dp" android:paddingBottom="@dimen/d_4_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/d_6_dp" android:paddingEnd="@dimen/d_6_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="@dimen/d_12_dp" android:layout_height="@dimen/d_12_dp" android:src="@drawable/improvement_lottery_gift_icon" android:layout_marginEnd="@dimen/d_4_dp" />
+    <TextView android:textSize="@dimen/d_10_dp" android:textColor="@color/color_4b1200" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_common_lottery_list_btn" />
+    <ImageView android:layout_width="@dimen/d_12_dp" android:layout_height="@dimen/d_12_dp" android:src="@drawable/improvement_lottery_forward_icon" />
+</LinearLayout>

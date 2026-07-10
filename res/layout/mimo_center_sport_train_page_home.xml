@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/activity_layout_title_bar" />
+        <RelativeLayout android:id="@id/sport_train_home_container" android:paddingTop="@dimen/d_16_dp" android:paddingBottom="@dimen/d_74_dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include android:id="@id/sport_train_type_tab_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/mimo_center_sport_train_type_container" />
+            <include android:id="@id/sport_train_operate_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/mimo_center_sport_train_operate_container" />
+            <include android:id="@id/sport_train_ride_speed_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/sport_train_operate_container" android:layout_below="@id/sport_train_type_tab_container" layout="@layout/mimo_center_sport_train_ride_speed_container" />
+            <include android:id="@id/sport_train_run_speed_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/sport_train_operate_container" android:layout_below="@id/sport_train_type_tab_container" layout="@layout/mimo_center_sport_train_run_speed_container" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:id="@id/sport_train_home_countdown_container" android:background="@color/transparent_alpha_80" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/d_120_dp" android:textColor="@color/white_90" android:gravity="center" android:id="@id/sport_train_home_countdown_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

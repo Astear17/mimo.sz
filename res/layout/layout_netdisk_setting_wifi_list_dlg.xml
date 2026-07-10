@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/live_stream_wifi_list_root_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/network_list_title_container" android:layout_width="match_parent" android:layout_height="60.0dp" android:paddingVertical="@dimen/d_18_dp">
+            <TextView android:textColor="@color/black_100" android:gravity="center_vertical" android:id="@id/network_list_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_common_cloud_wifi_setting_title" android:layout_marginStart="@dimen/d_20_dp" style="@style/title_6_600" />
+            <ProgressBar android:id="@id/pb_toast" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:indeterminate="true" android:indeterminateDrawable="@drawable/loading_small_dark" android:layout_marginStart="@dimen/d_4_dp" />
+        </LinearLayout>
+        <View android:background="@color/divider_dark" android:layout_width="match_parent" android:layout_height="@dimen/d_1_dp" />
+        <com.dji.livestream.ui.MaxHeightRecyclerView android:id="@id/network_recyclerView" android:background="@color/white_100" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="@dimen/d_220_dp" />
+        <View android:background="@color/divider_dark" android:layout_width="match_parent" android:layout_height="@dimen/d_1_dp" />
+        <com.handheld.uikit.components.item.SettingItemView android:id="@id/setting_item_manual_connect" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" app:rightIcon="@drawable/ic_setting_item_arrow_right_24_dark" app:rightType="text" app:settingItemBackground="@color/transparent" app:titleText="@string/mimo_common_cloud_manul_title" app:uiTheme="light" />
+    </LinearLayout>
+</LinearLayout>

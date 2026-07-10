@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SeekBar android:id="@id/setting_ui_progress_seekbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="100" android:layout_weight="1.0" android:layout_centerVertical="true" style="@style/setting_ui_widget_seekbar"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

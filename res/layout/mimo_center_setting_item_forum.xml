@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/iv_mimo_center_item_forum_container" style="@style/MimoCenterItemContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_mimo_center_item_forum_icon" android:src="@drawable/mimo_center_item_icon_forum" style="@style/ImageView_MimoCenter_Item_Icon" />
+    <TextView android:id="@id/iv_mimo_center_item_forum_title" android:text="@string/mimo_homepage_entrance_bbs" android:layout_toStartOf="@id/iv_mimo_center_forum_arrow" android:layout_toEndOf="@id/iv_mimo_center_item_forum_icon" style="@style/TV.MimoCenter.Item.Title.Black" />
+    <ImageView android:id="@id/iv_mimo_center_forum_arrow" style="@style/ImageView_MimoCenter_Item_RightArrow" />
+</RelativeLayout>

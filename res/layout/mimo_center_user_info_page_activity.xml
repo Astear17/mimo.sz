@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/background_white_1" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/upgrade_layout_title" />
+    <FrameLayout android:id="@id/mimo_center_user_fragment_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/page_title_bar" />
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/upgrade_layout_title" />
+    <ScrollView android:id="@id/scrollview_normal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/enter_to_fpv_button_container" android:layout_below="@id/page_title_bar">
+        <LinearLayout android:orientation="vertical" android:id="@id/help_detail_root_container" android:background="@color/black" android:paddingLeft="@dimen/d_16_dp" android:paddingRight="@dimen/d_16_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_10_dp">
+            <include layout="@layout/connect_help_detail_operate_guide" />
+            <include layout="@layout/connect_help_detail_guide_line" />
+            <include layout="@layout/connect_help_detail_search_guide" />
+            <include layout="@layout/connect_help_detail_guide_line" />
+            <include layout="@layout/connect_help_detail_timeout_guide" />
+            <include layout="@layout/connect_help_detail_guide_line" />
+            <include layout="@layout/connect_help_detail_auto_connect_guide" />
+            <include android:id="@id/connect_help_detail_auto_connect_line" layout="@layout/connect_help_detail_guide_line" />
+            <include layout="@layout/connect_help_detail_wlan_guide" />
+            <include android:id="@id/connect_help_detail_wlan_plus_line" layout="@layout/connect_help_detail_guide_line" />
+            <include layout="@layout/connect_help_detail_reset_guide" />
+            <include android:id="@id/connect_help_detail_device_name_line" layout="@layout/connect_help_detail_guide_line" />
+            <include layout="@layout/connect_help_detail_device_name" />
+            <View android:id="@id/help_detail_root_bottom_view" android:layout_width="match_parent" android:layout_height="@dimen/d_30_dp" />
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView android:id="@id/scrollview_dm" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/enter_to_fpv_button_container" android:layout_below="@id/page_title_bar">
+        <include android:id="@id/help_detail_root_container_dm" layout="@layout/layout_connect_dm_help" />
+    </ScrollView>
+    <include layout="@layout/connect_help_detail_jump_to_fpv" />
+</RelativeLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="@color/black" android:paddingTop="@dimen/editor_d_24_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_24_dp" android:layout_marginRight="@dimen/editor_d_20_dp" android:text="@string/light_connection_common_authentication_find" style="@style/H_1_bold"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

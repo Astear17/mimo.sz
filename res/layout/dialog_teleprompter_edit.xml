@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/teleprompter_bg_dialog" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.handheld.uikit.components.titlebar.TitleBar android:id="@id/prompter_title_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" app:leftIcon="@drawable/ic_nav_bar_back_light" app:titleText="@string/mimo_fpv_teleprompter_switch_draft_title" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_teleprompter_list" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="20.0dp" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/empty_state_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/empty_state_image" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_marginBottom="16.0dp" android:src="@drawable/ic_teleprompter_empty" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/white_60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_fpv_teleprompter_darft_list_none" android:lineHeight="@dimen/dji_device_18sp" />
+            <Button android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/btn_try_template" android:background="@drawable/btn_use_prompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:text="@string/mimo_fpv_teleprompter_try_btn" android:paddingHorizontal="16.0dp" android:paddingVertical="4.0dp" />
+        </LinearLayout>
+    </FrameLayout>
+    <com.handheld.uikit.components.button.CustomButton android:id="@id/btn_create_new" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="20.0dp" android:layout_marginVertical="16.0dp" app:customButtonColor="white" app:customButtonSize="large" app:customButtonState="normal" app:customButtonText="@string/mimo_fpv_teleprompter_add_draft_btn" />
+</LinearLayout>

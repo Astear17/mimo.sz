@@ -1,0 +1,1477 @@
+{
+  "ver": "1.0",
+  "ModelStyle": [
+    {
+      "modelStyle": "light_model_show_type_travel",
+      "modelList": [
+        {
+          "SerialNumber": "0073",
+          "id": "modern_city",
+          "name": "mimo_model_modernCity",
+          "coverImgName": "model_moderncity",
+          "shotsCount": "8",
+          "duration": "24",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/228b39c4ca5440c9b94bca804c229829/720.mp4",
+          "category": "light_model_show_type_travel",
+          "shot": [
+            5700,
+            6133,
+            6133,
+            6133,
+            6200,
+            6166,
+            5400,
+            6133
+          ],
+          "photoShot": [
+            2700,
+            3133,
+            3133,
+            3133,
+            3200,
+            3166,
+            2400,
+            3133
+          ],
+          "imageEffects": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          "styleId": 0
+        },
+        {
+          "SerialNumber": "0011",
+          "id": "longdistance",
+          "name": "light_model_video_longdistance",
+          "coverImgName": "model_longdistance",
+          "shotsCount": "12",
+          "duration": "14",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/8640f719ae3c41e988951286628d42a2/720.mp4",
+          "category": "light_model_show_type_travel",
+          "shot": [
+            633,
+            433,
+            333,
+            300,
+            300,
+            300,
+            300,
+            167,
+            2133,
+            2367,
+            2367,
+            3700
+          ],
+          "photoShot": [
+            633,
+            433,
+            333,
+            300,
+            300,
+            300,
+            300,
+            167,
+            2133,
+            2367,
+            2367,
+            3700
+          ],
+          "imageEffects": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            2,
+            1,
+            2
+          ],
+          "styleId": 0
+        },
+        {
+          "SerialNumber": "0025",
+          "id": "tadventure",
+          "name": "light_model_video_tadventure",
+          "coverImgName": "model_tadventure",
+          "shotsCount": "6",
+          "duration": "15",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": " https://cn-videos.dji.net/video_trans/acecc4f8c35f447686fdce7e8a466428/720.mp4",
+          "category": "light_model_show_type_travel",
+          "shot": [
+            2567,
+            4333,
+            1967,
+            2667,
+            2033,
+            1600
+          ],
+          "photoShot": [
+            2567,
+            4333,
+            1967,
+            2667,
+            2033,
+            1600
+          ],
+          "imageEffects": [
+            1,
+            2,
+            1,
+            2,
+            3,
+            4
+          ],
+          "styleId": 0
+        },
+        {
+          "SerialNumber": "0014",
+          "id": "sunnyday",
+          "name": "light_model_video_seebreeze",
+          "coverImgName": "model_seebreeze",
+          "shotsCount": "8",
+          "duration": "18",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/43282b2e91824710a6e3541243733c18/720.mp4",
+          "category": "light_model_show_type_travel",
+          "shot": [
+            2000,
+            1500,
+            900,
+            1033,
+            1133,
+            800,
+            4600,
+            5800
+          ],
+          "photoShot": [
+            2000,
+            1500,
+            900,
+            1033,
+            1133,
+            800,
+            4600,
+            5800
+          ],
+          "imageEffects": [
+            3,
+            4,
+            0,
+            0,
+            0,
+            0,
+            3,
+            4
+          ],
+          "styleId": 0
+        },
+        {
+          "SerialNumber": "0039",
+          "id": "coupling",
+          "name": "light_model_video_coupling",
+          "coverImgName": "model_coupling",
+          "shotsCount": "2",
+          "duration": "10",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/14db18a28b5b4eada99d0e6199eaf054/720.mp4",
+          "category": "light_model_show_type_travel",
+          "shot": [
+            19000,
+            19000
+          ],
+          "photoShot": [
+            5000,
+            5000
+          ],
+          "imageEffects": [
+            2,
+            1
+          ],
+          "styleId": 0
+        },
+        {
+          "SerialNumber": "0012",
+          "id": "dreamer",
+          "name": "light_model_video_dreamer",
+          "coverImgName": "model_dreamer",
+          "shotsCount": "4",
+          "duration": "15",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/75c7cf98d1af494a8f3edd88604954a2/720.mp4",
+          "category": "light_model_show_type_life",
+          "shot": [
+            3967,
+            3067,
+            3300,
+            3633
+          ],
+          "photoShot": [
+            3967,
+            3067,
+            3300,
+            3633
+          ],
+          "imageEffects": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "styleId": 0
+        },
+        {
+          "SerialNumber": "0005",
+          "id": "monologue",
+          "name": "light_model_video_distance",
+          "coverImgName": "model_monologue",
+          "shotsCount": "4",
+          "duration": "21",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/120b1e9bcf6e49d695a1919911b1916b/720.mp4",
+          "category": "light_model_show_type_travel",
+          "shot": [
+            5000,
+            5000,
+            5000,
+            6000
+          ],
+          "photoShot": [
+            5000,
+            5000,
+            5000,
+            6000
+          ],
+          "imageEffects": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "styleId": 0
+        },
+        {
+          "SerialNumber": "0018",
+          "id": "leapinglife",
+          "name": "light_model_video_leapinglife",
+          "coverImgName": "model_leapinglife",
+          "shotsCount": "1",
+          "duration": "16",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/3b18ca417c3549969f6a9c1e97fbda44/720.mp4",
+          "category": "light_model_show_type_travel",
+          "shot": [
+            16000
+          ],
+          "photoShot": [
+            16000
+          ],
+          "imageEffects": [
+            1
+          ],
+          "styleId": 0
+        },
+        {
+          "SerialNumber": "0038",
+          "id": "quickshot",
+          "name": "light_model_video_quickshot",
+          "coverImgName": "model_quickshot",
+          "shotsCount": "1",
+          "duration": "13",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/fb1da74b26644116add539e6651f2226/1080.mp4",
+          "category": "light_model_show_type_travel",
+          "shot": [
+            41000
+          ],
+          "photoShot": [
+            13000
+          ],
+          "imageEffects": [
+            2
+          ],
+          "styleId": 0
+        },
+        {
+          "SerialNumber": "0006",
+          "id": "speedswitch",
+          "name": "light_model_video_rhythm",
+          "coverImgName": "model_fastslow",
+          "shotsCount": "8",
+          "duration": "10",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/434bc350fa7d410c840b4f72565af5e6/720.mp4",
+          "category": "light_model_show_type_travel",
+          "shot": [
+            1067,
+            4533,
+            833,
+            5333,
+            833,
+            5333,
+            1100,
+            4267
+          ],
+          "photoShot": [
+            1067,
+            1133,
+            833,
+            1333,
+            833,
+            1333,
+            1100,
+            1067
+          ],
+          "imageEffects": [
+            4,
+            4,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "styleId": 0
+        }
+      ]
+    },
+    {
+      "modelStyle": "light_model_show_type_scenery",
+      "modelList": [
+    {
+      "SerialNumber": "0052",
+      "id": "sight",
+      "name": "light_model_video_sight",
+      "coverImgName": "model_sight",
+      "shotsCount": "3",
+      "duration": "30",
+      "width": 1920,
+      "height": 1080,
+      "previewVideoURL": "https://cn-videos.dji.net/video_trans/7d92911dde354271b337b1a2d9418b20/720.mp4",
+      "category": "light_model_show_type_scenery",
+      "shot": [
+        9500,
+        9367,
+        11167
+      ],
+      "photoShot": [
+        9500,
+        9367,
+        11167
+      ],
+      "imageEffects": [
+        1,
+        2,
+        1
+      ],
+      "styleId": 1
+    },
+    {
+      "SerialNumber": "0053",
+      "id": "summer",
+      "name": "light_model_video_summer",
+      "coverImgName": "model_summer",
+      "shotsCount": "6",
+      "duration": "16",
+      "width": 1920,
+      "height": 1080,
+      "previewVideoURL": "https://cn-videos.dji.net/video_trans/0c0a86e1694542e4b3386f4fce213e4d/720.mp4",
+      "category": "light_model_show_type_scenery",
+      "shot": [
+        4100,
+        4333,
+        1967,
+        2067,
+        2133,
+        2333
+      ],
+      "photoShot": [
+        4100,
+        4333,
+        1967,
+        2067,
+        2133,
+        2333
+      ],
+      "imageEffects": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "styleId": 1
+    },
+        {
+          "SerialNumber": "0001",
+          "id": "citylight",
+          "name": "light_model_video_citylight",
+          "coverImgName": "model_citylight",
+          "shotsCount": "5",
+          "duration": "20",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/27863146ca754825aa784951c7a70bf8/720.mp4",
+          "category": "light_model_show_type_scenery",
+          "shot": [
+            3567,
+            2333,
+            3333,
+            3667,
+            5733
+          ],
+          "photoShot": [
+            3567,
+            2333,
+            3333,
+            3667,
+            5733
+          ],
+          "imageEffects": [
+            1,
+            2,
+            4,
+            3,
+            4
+          ],
+          "styleId": 1
+        },
+        {
+          "SerialNumber": "0007",
+          "id": "012monologuegirl",
+          "name": "light_model_video_girl",
+          "coverImgName": "model_lucky",
+          "shotsCount": "4",
+          "duration": "20",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/bf95913c9efa4d66b9d656998a3b972a/720.mp4",
+          "category": "light_model_show_type_scenery",
+          "shot": [
+            3967,
+            4167,
+            3400,
+            6200
+          ],
+          "photoShot": [
+            3967,
+            4167,
+            3400,
+            6200
+          ],
+          "imageEffects": [
+            3,
+            4,
+            2,
+            1
+          ],
+          "styleId": 1
+        },
+        {
+          "SerialNumber": "0040",
+          "id": "through",
+          "name": "light_model_video_through",
+          "coverImgName": "model_through",
+          "shotsCount": "2",
+          "duration": "10",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/0762409de9f14fd2a8b94d47b8ca015c/720.mp4",
+          "category": "light_model_show_type_scenery",
+          "shot": [
+            19000,
+            19000
+          ],
+          "photoShot": [
+            5000,
+            5000
+          ],
+          "imageEffects": [
+            1,
+            2
+          ],
+          "styleId": 1
+        },
+        {
+          "SerialNumber": "0017",
+          "id": "vally",
+          "name": "light_model_video_valley",
+          "coverImgName": "model_valley",
+          "shotsCount": "4",
+          "duration": "10",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/76a43c0e66c346bca59b1ee1312e9070/720.mp4",
+          "category": "light_model_show_type_scenery",
+          "shot": [
+            2000,
+            2333,
+            2000,
+            3500
+          ],
+          "photoShot": [
+            2000,
+            2333,
+            2000,
+            3500
+          ],
+          "imageEffects": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "styleId": 1
+        }
+      ]
+    },
+    {
+      "modelStyle": "light_model_show_type_life",
+      "modelList": [
+        {
+          "SerialNumber": "0081",
+          "id": "lazyafternoon",
+          "name": "mimo_model_lazyAfternoon",
+          "coverImgName": "model_lazyafternoon",
+          "shotsCount": "8",
+          "duration": "26",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/b322c6d4821f496e8635c61ea912befa/720.mp4",
+          "category": "light_model_show_type_life",
+          "shot": [
+            2567,
+            3667,
+            3233,
+            3500,
+            3467,
+            3467,
+            2167,
+            4767
+          ],
+          "photoShot": [
+            2567,
+            3667,
+            3233,
+            3500,
+            3467,
+            3467,
+            2167,
+            4767
+          ],
+          "imageEffects": [
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ],
+          "styleId": 2
+        },
+        {
+          "SerialNumber": "0060",
+          "id": "childlike",
+          "name": "mimo_model_childLike",
+          "coverImgName": "model_childlike",
+          "shotsCount": "8",
+          "duration": "21",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/9f60d8e8d66c44afaaabd67ad5eb9bb3/720.mp4",
+          "category": "light_model_show_type_life",
+          "shot": [
+            2300,
+            2500,
+            2067,
+            2867,
+            2367,
+            2467,
+            2433,
+            4333
+          ],
+          "photoShot": [
+            2300,
+            2500,
+            2067,
+            2867,
+            2367,
+            2467,
+            2433,
+            4333
+          ],
+          "imageEffects": [
+            3,
+            4,
+            3,
+            4,
+            3,
+            4,
+            3,
+            4
+          ],
+          "styleId": 2
+        },
+        {
+          "SerialNumber": "0082",
+          "id": "romantic",
+          "name": "mimo_model_romantic",
+          "coverImgName": "model_romantic",
+          "shotsCount": "4",
+          "duration": "30",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/338ec42a557b4ca7a4190558d3d87cfd/720.mp4",
+          "category": "light_model_show_type_life",
+          "shot": [
+            7867,
+            7567,
+            7967,
+            6600
+          ],
+          "photoShot": [
+            7867,
+            7567,
+            7967,
+            6600
+          ],
+          "imageEffects": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "styleId": 2
+        },
+        {
+          "SerialNumber": "0055",
+          "id": "sprintawakening",
+          "name": "light_model_video_sprintAwakening",
+          "coverImgName": "model_sprintawakening",
+          "shotsCount": "3",
+          "duration": "12",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/9c5b660f168841ba802aca58517ff9ef/720.mp4",
+          "category": "light_model_show_type_life",
+          "shot": [
+            4233,
+            4400,
+            5200
+          ],
+          "photoShot": [
+            4233,
+            4400,
+            5200
+          ],
+          "imageEffects": [
+            1,
+            2,
+            1
+          ],
+          "styleId": 2
+        },
+    {
+      "SerialNumber": "0044",
+      "id": "memory",
+      "name": "light_model_video_memory",
+      "coverImgName": "model_memory",
+      "shotsCount": "6",
+      "duration": "22",
+      "width": 1920,
+      "height": 1080,
+      "previewVideoURL": "https://cn-videos.dji.net/video_trans/db6550b998fc40ff9573672b44a779f4/720.mp4",
+      "category": "light_model_show_type_life",
+      "shot": [
+        2300,
+        2133,
+        3200,
+        4300,
+        4267,
+        5800
+      ],
+      "photoShot": [
+        2300,
+        2133,
+        3200,
+        4300,
+        4267,
+        5800
+      ],
+      "imageEffects": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ],
+      "styleId": 2
+    },
+    {
+      "SerialNumber": "0049",
+      "id": "diary",
+      "name": "light_model_video_diary",
+      "coverImgName": "model_diary",
+      "shotsCount": "5",
+      "duration": "21",
+      "width": 1920,
+      "height": 1080,
+      "previewVideoURL": "https://cn-videos.dji.net/video_trans/354f87be30254e44b63e04e7dc9ab6ac/720.mp4",
+      "category": "light_model_show_type_life",
+      "shot": [
+        1500,
+        4500,
+        4800,
+        5200,
+        5000
+      ],
+      "photoShot": [
+        1500,
+        4500,
+        4800,
+        5200,
+        5000
+      ],
+      "imageEffects": [
+        0,
+        3,
+        4,
+        3,
+        4
+      ],
+      "styleId": 2
+    },
+    {
+      "SerialNumber": "0051",
+      "id": "school",
+      "name": "light_model_video_school",
+      "coverImgName": "model_school",
+      "shotsCount": "7",
+      "duration": "17",
+      "width": 1920,
+      "height": 1080,
+      "previewVideoURL": "https://cn-videos.dji.net/video_trans/edd730e22c85494bbad93776bb30183d/720.mp4",
+      "category": "light_model_show_type_life",
+      "shot": [
+        3200,
+        3233,
+        1533,
+        1333,
+        2833,
+        2500,
+        2700
+      ],
+      "photoShot": [
+        3200,
+        3233,
+        1533,
+        1333,
+        2833,
+        2500,
+        2700
+      ],
+      "imageEffects": [
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      "styleId": 2
+    },
+        {
+          "SerialNumber": "0008",
+          "id": "001relax",
+          "name": "light_model_video_relax",
+          "coverImgName": "model_relax",
+          "shotsCount": "4",
+          "duration": "10",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/7d2bedf0eb61431995ca7f4ff139f514/720.mp4",
+          "category": "light_model_show_type_life",
+          "shot": [
+            2800,
+            3167,
+            3167,
+            2900
+          ],
+          "photoShot": [
+            2800,
+            3167,
+            3167,
+            2900
+          ],
+          "imageEffects": [
+            4,
+            3,
+            1,
+            2
+          ],
+          "styleId": 2
+        },
+        {
+          "SerialNumber": "0020",
+          "id": "gametime",
+          "name": "light_model_video_gametime",
+          "coverImgName": "model_gametime",
+          "shotsCount": "5",
+          "duration": "20",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/28d46ac794014e09ba64c80184843250/720.mp4",
+          "category": "light_model_show_type_life",
+          "shot": [
+            3833,
+            3300,
+            4767,
+            3300,
+            4700
+          ],
+          "photoShot": [
+            3833,
+            3300,
+            4767,
+            3300,
+            4700
+          ],
+          "imageEffects": [
+            1,
+            2,
+            1,
+            2,
+            1
+          ],
+          "styleId": 2
+        },
+        {
+          "SerialNumber": "0013",
+          "id": "sugar",
+          "name": "light_model_video_sugar",
+          "coverImgName": "model_sugar",
+          "shotsCount": "5",
+          "duration": "20",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/2970f25bcf7c4aaeb9803ecce64e82b8/720.mp4",
+          "category": "light_model_show_type_life",
+          "shot": [
+            3833,
+            3867,
+            3900,
+            3867,
+            2933
+          ],
+          "photoShot": [
+            3833,
+            3867,
+            3900,
+            3867,
+            2933
+          ],
+          "imageEffects": [
+            3,
+            4,
+            3,
+            4,
+            3
+          ],
+          "styleId": 2
+        },
+        {
+          "SerialNumber": "0022",
+          "id": "delicacy",
+          "name": "light_model_video_delicacy",
+          "coverImgName": "model_delicacy",
+          "shotsCount": "6",
+          "duration": "29",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/0275a31ef59041fa834c1362546e282f/720.mp4",
+          "category": "light_model_show_type_life",
+          "shot": [
+            4733,
+            3867,
+            5267,
+            5167,
+            4100,
+            6333
+          ],
+          "photoShot": [
+            4733,
+            3867,
+            5267,
+            5167,
+            4100,
+            6333
+          ],
+          "imageEffects": [
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ],
+          "styleId": 2
+        },
+        {
+          "SerialNumber": "0003",
+          "id": "013afternoon",
+          "name": "light_model_video_afternoon",
+          "coverImgName": "model_afternoon",
+          "shotsCount": "4",
+          "duration": "10",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/b5374d63b40d47b385205b0f65176ec8/720.mp4",
+          "category": "light_model_show_type_life",
+          "shot": [
+            1367,
+            1633,
+            2667,
+            4333
+          ],
+          "photoShot": [
+            1367,
+            1633,
+            2667,
+            4333
+          ],
+          "imageEffects": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "styleId": 2
+        },
+        {
+          "SerialNumber": "0015",
+          "id": "homeland",
+          "name": "light_model_video_homeland",
+          "coverImgName": "model_homeland",
+          "shotsCount": "4",
+          "duration": "19",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/4ac21b26405a417984d77128b45e6315/720.mp4",
+          "category": "light_model_show_type_life",
+          "shot": [
+            3433,
+            5900,
+            4467,
+            4833
+          ],
+          "photoShot": [
+            3433,
+            5900,
+            4467,
+            4833
+          ],
+          "imageEffects": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "styleId": 2
+        },
+        {
+          "SerialNumber": "0019",
+          "id": "newyear",
+          "name": "light_model_video_urban",
+          "coverImgName": "model_urban",
+          "shotsCount": "4",
+          "duration": "10",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/3f8d79e8013240fc946cca9d4382e977/720.mp4",
+          "category": "light_model_show_type_life",
+          "shot": [
+            1767,
+            2333,
+            2267,
+            2133
+          ],
+          "photoShot": [
+            1767,
+            2333,
+            2267,
+            2133
+          ],
+          "imageEffects": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "styleId": 2
+        }
+      ]
+    },
+    {
+      "modelStyle": "light_model_show_type_art",
+      "modelList": [
+        {
+      "SerialNumber": "0054",
+      "id": "cantStop",
+      "name": "light_model_video_cantStop",
+      "coverImgName": "model_cantstop",
+      "shotsCount": "8",
+      "duration": "18",
+      "width": 1920,
+      "height": 1080,
+      "previewVideoURL": "https://cn-videos.dji.net/video_trans/847ea98b772040a5937f297b21acd76e/720.mp4",
+      "category": "light_model_show_type_art",
+      "shot": [
+        2367,
+        2233,
+        2133,
+        2233,
+        2267,
+        2267,
+        2400,
+        2867
+      ],
+      "photoShot": [
+        2367,
+        2233,
+        2133,
+        2233,
+        2267,
+        2267,
+        2400,
+        2867
+      ],
+      "imageEffects": [
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "styleId": 3
+    },
+        {
+          "SerialNumber": "0004",
+          "id": "011dynamic",
+          "name": "light_model_video_brisk",
+          "coverImgName": "model_dynamic",
+          "shotsCount": "6",
+          "duration": "20",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/59779b7de06740419d15513ed92aaf8c/720.mp4",
+          "category": "light_model_show_type_art",
+          "shot": [
+            2000,
+            3567,
+            3767,
+            3667,
+            3633,
+            3367
+          ],
+          "photoShot": [
+            2000,
+            3567,
+            3767,
+            3667,
+            3633,
+            3367
+          ],
+          "imageEffects": [
+            3,
+            1,
+            1,
+            1,
+            3,
+            3
+          ],
+          "styleId": 3
+        },{
+          "SerialNumber": "0023",
+          "id": "film",
+          "name": "light_model_video_filmage",
+          "coverImgName": "model_film",
+          "shotsCount": "6",
+          "duration": "29",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/f509ea4fb7d945e5b4463ac81e71d933/720.mp4",
+          "category": "light_model_show_type_art",
+          "shot": [
+            5633,
+            2933,
+            5433,
+            3133,
+            2467,
+            2100
+          ],
+          "photoShot": [
+            5633,
+            2933,
+            5433,
+            3133,
+            2467,
+            2100
+          ],
+          "imageEffects": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "styleId": 3
+        },{
+          "SerialNumber": "0027",
+          "id": "confession",
+          "name": "light_model_video_incomingcall",
+          "coverImgName": "model_confession",
+          "shotsCount": "6",
+          "duration": "21",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/6793ada8d190469d949c91a0bd8bb4b2/720.mp4",
+          "category": "light_model_show_type_art",
+          "shot": [
+            2400,
+            2467,
+            5100,
+            2467,
+            2367,
+            5467
+          ],
+          "photoShot": [
+            2400,
+            2467,
+            5100,
+            2467,
+            2367,
+            5467
+          ],
+          "imageEffects": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "styleId": 3
+        },{
+          "SerialNumber": "0029",
+          "id": "eighties",
+          "name": "light_model_video_eighties",
+          "coverImgName": "model_eighties",
+          "shotsCount": "5",
+          "duration": "14",
+          "width": 1080,
+          "height": 1920,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/cf066e5abb2145d9b6d27b3f8587d5f6/720.mp4",
+          "category": "light_model_show_type_art",
+          "shot": [
+            2300,
+            2233,
+            2500,
+            2233,
+            5533
+          ],
+          "photoShot": [
+            2300,
+            2233,
+            2500,
+            2233,
+            5533
+          ],
+          "imageEffects": [
+            1,
+            1,
+            2,
+            2,
+            1
+          ],
+          "styleId": 3
+        },{
+          "SerialNumber": "0031",
+          "id": "steamwave",
+          "name": "light_model_video_steamwave",
+          "coverImgName": "model_steamwave",
+          "shotsCount": "7",
+          "duration": "15",
+          "width": 1080,
+          "height": 1920,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/d46f7ca81cf74d2e9ac28835be11ca64/720.mp4",
+          "category": "light_model_show_type_art",
+          "shot": [
+            1267,
+            1333,
+            2500,
+            2600,
+            2367,
+            2500,
+            3333
+          ],
+          "photoShot": [
+            1267,
+            1333,
+            2500,
+            2600,
+            2367,
+            2500,
+            3333
+          ],
+          "imageEffects": [
+            3,
+            3,
+            4,
+            4,
+            3,
+            3,
+            4
+          ],
+          "styleId": 3
+        },{
+          "SerialNumber": "0034",
+          "id": "fashionablelife",
+          "name": "light_model_video_fashionablelife",
+          "coverImgName": "model_fashionablelife",
+          "shotsCount": "5",
+          "duration": "9",
+          "width": 1080,
+          "height": 1920,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/c403f16068d844789d6f04a8fb6d66af/720.mp4",
+          "category": "light_model_show_type_art",
+          "shot": [
+            2200,
+            2367,
+            1700,
+            2133,
+            1000
+          ],
+          "photoShot": [
+            2200,
+            2367,
+            1700,
+            2133,
+            1000
+          ],
+          "imageEffects": [
+            3,
+            3,
+            2,
+            4,
+            1
+          ],
+          "styleId": 3
+        }
+      ]
+    },
+    {
+      "modelStyle": "light_model_show_type_sport",
+      "modelList": [
+        {
+          "SerialNumber": "0009",
+          "id": "002dancing_beats",
+          "name": "light_model_video_beats",
+          "coverImgName": "model_glitch",
+          "shotsCount": "4",
+          "duration": "10",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/073dbbb9c7034c7aa784d16576fa7bef/720.mp4",
+          "category": "light_model_show_type_sport",
+          "shot": [
+            1333,
+            1967,
+            2133,
+            3267
+          ],
+          "photoShot": [
+            1333,
+            1967,
+            2133,
+            3267
+          ],
+          "imageEffects": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "styleId": 4
+        },
+        {
+          "SerialNumber": "0010",
+          "id": "005roll",
+          "name": "light_model_video_rool",
+          "coverImgName": "model_rollzoom",
+          "shotsCount": "4",
+          "duration": "10",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/55ffa403b30146dab775b1e7ff0634f7/720.mp4",
+          "category": "light_model_show_type_sport",
+          "shot": [
+            2000,
+            2533,
+            2800,
+            3067
+          ],
+          "photoShot": [
+            2000,
+            2533,
+            2800,
+            3067
+          ],
+          "imageEffects": [
+            3,
+            4,
+            3,
+            4
+          ],
+          "styleId": 4
+        },
+        {
+          "SerialNumber": "0021",
+          "id": "limit",
+          "name": "light_model_video_limit",
+          "coverImgName": "model_limit",
+          "shotsCount": "6",
+          "duration": "16",
+          "width": 1920,
+          "height": 1080,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/4733ee81864e45d0acbc9ce59b3ba3b7/720.mp4",
+          "category": "light_model_show_type_sport",
+          "shot": [
+            2333,
+            2633,
+            3066,
+            2600,
+            3166,
+            1966
+          ],
+          "photoShot": [
+            2333,
+            2633,
+            3066,
+            2600,
+            3166,
+            1966
+          ],
+          "imageEffects": [
+            1,
+            2,
+            3,
+            4,
+            2,
+            1
+          ],
+          "styleId": 4
+        },
+        {
+          "SerialNumber": "0030",
+          "id": "enthusiasm",
+          "name": "light_model_video_enthusiasm",
+          "coverImgName": "model_enthusiasm",
+          "shotsCount": "6",
+          "duration": "26",
+          "width": 1080,
+          "height": 1920,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/d6501161c67d48478522079cf155e3e6/720.mp4",
+          "category": "light_model_show_type_sport",
+          "shot": [
+            4867,
+            4667,
+            6733,
+            4833,
+            4467,
+            3767
+          ],
+          "photoShot": [
+            4867,
+            4667,
+            6733,
+            4833,
+            4467,
+            3767
+          ],
+          "imageEffects": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "styleId": 4
+        },
+        {
+          "SerialNumber": "0036",
+          "id": "courage",
+          "name": "light_model_video_courage",
+          "coverImgName": "model_courage",
+          "shotsCount": "4",
+          "duration": "10",
+          "width": 1080,
+          "height": 1920,
+          "previewVideoURL": "https://cn-videos.dji.net/video_trans/4bd9b6746c9e4b95b465188c60bdffa6/720.mp4",
+          "category": "light_model_show_type_sport",
+          "shot": [
+            2400,
+            3467,
+            2633,
+            2033
+          ],
+          "photoShot": [
+            2400,
+            3467,
+            2633,
+            2033
+          ],
+          "imageEffects": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "styleId": 4
+        }
+      ]
+    }
+  ]
+}

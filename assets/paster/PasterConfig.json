@@ -1,0 +1,371 @@
+{
+  "stickerGroups": [
+    {
+      "iconImageName": "icon_sticker_group_text",
+      "name": "textSticker",
+      "id": 1,
+      "centerX":0.5,
+      "centerY":0.5,
+      "proportion":1,
+      "stickers": [
+
+        {
+          "id": "narration_subtitles",
+          "type": 0,
+          "subtype": 0,
+          "imageName": "",
+          "maxWidth": 0,
+          "maxHeight": 0,
+          "hasChinesePreview": 1,
+          "imageCount": 1,
+          "defaultPosition": "CENTER",
+          "rowSpacing":0,
+          "cover":"full",
+          "isFakeBold":true,
+          "centerX":0,
+          "centerY":0.45,
+          "proportion":1,
+          "compress":true,
+          "titleConfig": [
+            {
+              "text": "TITLE",
+              "defaultFont": "",
+              "defaultFontSize": 13,
+              "defaultColor": "White",
+              "defaultAlignment": "CENTER",
+              "wordSpace": 0,
+              "maxLines": 1,
+              "maxWords": 36,
+              "titleMaxWidth": 605,
+              "titleMaxHeight": 54
+            }
+          ]
+        },
+        {
+          "id": "film_subtitles",
+          "type": 0,
+          "subtype": 0,
+          "imageName": "",
+          "maxWidth": 0,
+          "maxHeight": 0,
+          "hasChinesePreview": 1,
+          "imageCount": 1,
+          "defaultPosition": "CENTER",
+          "isFakeBold":true,
+          "cover":"center_horizontal",
+          "centerX":0,
+          "centerY":0.45,
+          "proportion":1,
+          "titleConfig": [
+            {
+              "text": "TITLE",
+              "defaultFont": "Roboto-Bold",
+              "defaultFontSize": 15,
+              "defaultColor": "White",
+              "defaultAlignment": "CENTER",
+              "wordSpace": 0,
+              "maxLines": 1,
+              "maxWords": 36,
+              "titleMaxWidth": 605,
+              "titleMaxHeight": 64
+            }
+          ]
+        },
+        {
+          "id": "translate_subtitles",
+          "type": 0,
+          "subtype": 0,
+          "imageName": "",
+          "maxWidth": 0,
+          "maxHeight": 0,
+          "hasChinesePreview": 1,
+          "imageCount": 1,
+          "defaultPosition": "CENTER",
+          "isFakeBold":true,
+          "cover":"center_horizontal",
+          "centerX":0,
+          "centerY":0.45,
+          "proportion":1,
+          "titleConfig": [
+            {
+              "text": "TITLE",
+              "defaultFont": "Roboto-Bold",
+              "defaultFontSize": 15,
+              "defaultColor": "White",
+              "defaultAlignment": "CENTER",
+              "wordSpace": 0,
+              "maxLines": 1,
+              "maxWords": 36,
+              "titleMaxWidth": 605,
+              "titleMaxHeight": 64
+            }
+          ]
+        },
+        {
+          "id": "golden_subtitles",
+          "type": 0,
+          "subtype": 0,
+          "imageName": "",
+          "maxWidth": 0,
+          "maxHeight": 0,
+          "hasChinesePreview": 1,
+          "imageCount": 1,
+          "defaultPosition": "CENTER",
+          "isFakeBold":true,
+          "cover":"center_horizontal",
+          "centerX":0,
+          "centerY":0.45,
+          "proportion":1,
+          "titleConfig": [
+            {
+              "text": "TITLE",
+              "defaultFont": "",
+              "defaultFontSize": 14,
+              "defaultColor": "White",
+              "defaultAlignment": "CENTER",
+              "wordSpace": 0,
+              "maxLines": 1,
+              "maxWords": 36,
+              "titleMaxWidth": 605,
+              "titleMaxHeight": 64
+            }
+          ]
+        },
+        {
+          "id": "big",
+          "type": 0,
+          "subtype": 0,
+          "imageName": "",
+          "maxWidth": 255.5,
+          "maxHeight": 122,
+          "hasChinesePreview": 1,
+          "imageCount": 1,
+          "defaultPosition": "CENTER",
+          "thumbnail": "sticker_title_type_2_center",
+          "rowSpacing":3,
+          "isFakeBold":true,
+          "centerX":0,
+          "centerY":0,
+          "proportion":1,
+          "titleConfig": [
+            {
+              "text": "TITLE",
+              "defaultFont": "RobotoCondensed-Regular",
+              "defaultFontSize": 25,
+              "defaultColor": "White",
+              "defaultAlignment": "CENTER",
+              "wordSpace": 0,
+              "maxLines": 1,
+              "maxWords": 24,
+              "titleMaxWidth": 573,
+              "titleMaxHeight": 54
+            }
+          ]
+        },
+        {
+          "id": "palm_leaf",
+          "type": 0,
+          "subtype": 0,
+          "imageName": "me_sticker_earofwheat",
+          "maxWidth": 320,
+          "maxHeight": 240,
+          "hasChinesePreview": 1,
+          "imageCount": 1,
+          "imageSafeArea":"{0, 0.3, 0, 0.3}",
+          "defaultPosition": "CENTER",
+          "thumbnail": "sticker_title_thumbnail_type_7",
+          "isFakeBold":true,
+          "centerX":0,
+          "centerY":0,
+          "proportion":1,
+          "titleConfig": [
+            {
+              "text": "TITLE",
+              "defaultFont": "RobotoCondensed-Regular",
+              "defaultFontSize": 25,
+              "defaultColor": "White",
+              "defaultAlignment": "CENTER",
+              "wordSpace":0,
+              "maxLines": 1,
+              "maxWords": 24,
+              "titleMaxWidth": 584,
+              "titleMaxHeight": 54
+            }
+          ]
+        },
+        {
+          "id": "quotation",
+          "type": 0,
+          "subtype": 0,
+          "imageName": "me_sticker_point",
+          "maxWidth": 255,
+          "maxHeight": 202,
+          "hasChinesePreview": 1,
+          "imageCount": 1,
+          "defaultPosition": "CENTER",
+          "thumbnail": "sticker_title_type_1_center",
+          "rowSpacing":3,
+          "isFakeBold":true,
+          "centerX":0,
+          "centerY":0,
+          "proportion":1,
+          "titleConfig": [
+            {
+              "text": "TITLE",
+              "defaultFont": "RobotoCondensed-Regular",
+              "defaultFontSize": 25,
+              "defaultColor": "White",
+              "defaultAlignment": "CENTER",
+              "wordSpace": 0,
+              "maxLines": 1,
+              "maxWords": 26,
+              "titleMaxWidth": 621,
+              "titleMaxHeight": 54
+            }
+          ]
+        },
+        {
+          "id": "underline",
+          "type": 0,
+          "subtype": 0,
+          "imageName": "me_sticker_single_bottom_line",
+          "maxWidth": 255.5,
+          "maxHeight": 122,
+          "hasChinesePreview": 1,
+          "imageCount": 1,
+          "defaultPosition": "CENTER",
+          "thumbnail": "sticker_title_type_2_center",
+          "rowSpacing":0,
+          "isFakeBold":true,
+          "centerX":0,
+          "centerY":0,
+          "proportion":1,
+          "titleConfig": [
+            {
+              "text": "TITLE",
+              "defaultFont": "RobotoCondensed-Bold",
+              "defaultFontSize": 22,
+              "defaultColor": "White",
+              "defaultAlignment": "CENTER",
+              "wordSpace": 0,
+              "maxLines": 1,
+              "maxWords": 30,
+              "titleMaxWidth": 698,
+              "titleMaxHeight": 54
+            }
+          ]
+        },
+        {
+          "id": "subtitle",
+          "type": 0,
+          "subtype": 0,
+          "imageName": "top_bottom_cover",
+          "maxWidth": 520,
+          "maxHeight": 122,
+          "hasChinesePreview": 1,
+          "imageCount": 1,
+          "defaultPosition": "CENTER",
+          "thumbnail": "sticker_title_type_2_center",
+          "rowSpacing":0,
+          "cover":"full",
+          "isFakeBold":true,
+          "centerX":0,
+          "centerY":0,
+          "proportion":1,
+          "compress":true,
+          "titleConfig": [
+            {
+              "text": "TITLE",
+              "defaultFont": "",
+              "defaultFontSize": 15,
+              "defaultColor": "White",
+              "defaultAlignment": "CENTER",
+              "wordSpace": 0,
+              "maxLines": 1,
+              "maxWords": 28,
+              "titleMaxWidth": 638,
+              "titleMaxHeight": 54
+            }
+          ]
+        },
+        {
+          "id": "double_line",
+          "type": 0,
+          "subtype": 0,
+          "imageName": "me_sticker_line",
+          "maxWidth": 375,
+          "maxHeight": 300,
+          "hasChinesePreview": 1,
+          "imageCount": 1,
+          "imageSafeArea":"{0.05, 0.1, 0.05, 0.1}",
+          "defaultPosition": "CENTER",
+          "thumbnail": "sticker_title_thumbnail_type_6",
+          "isFakeBold":true,
+          "cover":"all",
+          "centerX":0,
+          "centerY":0,
+          "proportion":1,
+          "titleConfig": [
+            {
+              "text": "TITLE",
+              "defaultFont": "Roboto-Bold",
+              "defaultFontSize": 25,
+              "defaultColor": "White",
+              "defaultAlignment": "CENTER",
+              "wordSpace": 0,
+              "maxLines": 1,
+              "maxWords": 36,
+              "titleMaxWidth": 600,
+              "titleMaxHeight": 65
+            }
+          ]
+        },
+        {
+          "id": "two_dot",
+          "type": 0,
+          "subtype": 0,
+          "imageName": "me_sticker_hollow_frame",
+          "maxWidth": 255.5,
+          "maxHeight": 122,
+          "hasChinesePreview": 1,
+          "imageCount": 1,
+          "imageSafeArea":"{0.517, 0.28, 0.019, 0.27}",
+          "defaultPosition": "CENTER",
+          "thumbnail": "sticker_title_thumbnail_type_5",
+          "isFakeBold":true,
+          "cover":"center_horizontal",
+          "centerX":0,
+          "centerY":0,
+          "proportion":1,
+          "titleConfig": [
+            {
+              "text": "TITLE",
+              "defaultFont": "Roboto-Bold",
+              "defaultFontSize": 18,
+              "defaultColor": "White",
+              "defaultAlignment": "CENTER",
+              "wordSpace": 0,
+              "maxLines": 1,
+              "maxWords": 36,
+              "titleMaxWidth": 605,
+              "titleMaxHeight": 64
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "iconImageName": "icon_sticker_group_location",
+      "name": "locationSticker",
+      "id": 2,
+      "stickers": []
+    },
+    {
+      "iconImageName": "icon_sticker_group_static",
+      "name": "staticSticker",
+      "id": 3,
+      "stickers": []
+    }
+  ]
+}

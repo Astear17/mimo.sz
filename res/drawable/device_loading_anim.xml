@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="70" android:drawable="@drawable/device_bluetooth_connecting00" />
+    <item android:duration="70" android:drawable="@drawable/device_bluetooth_connecting01" />
+    <item android:duration="70" android:drawable="@drawable/device_bluetooth_connecting02" />
+    <item android:duration="70" android:drawable="@drawable/device_bluetooth_connecting03" />
+    <item android:duration="70" android:drawable="@drawable/device_bluetooth_connecting04" />
+    <item android:duration="70" android:drawable="@drawable/device_bluetooth_connecting05" />
+    <item android:duration="70" android:drawable="@drawable/device_bluetooth_connecting06" />
+    <item android:duration="70" android:drawable="@drawable/device_bluetooth_connecting07" />
+    <item android:duration="70" android:drawable="@drawable/device_bluetooth_connecting08" />
+    <item android:duration="70" android:drawable="@drawable/device_bluetooth_connecting09" />
+    <item android:duration="70" android:drawable="@drawable/device_bluetooth_connecting10" />
+    <item android:duration="70" android:drawable="@drawable/device_bluetooth_connecting11" />
+    <item android:duration="70" android:drawable="@drawable/device_bluetooth_connecting12" />
+    <item android:duration="70" android:drawable="@drawable/device_bluetooth_connecting13" />
+    <item android:duration="70" android:drawable="@drawable/device_bluetooth_connecting14" />
+    <item android:duration="70" android:drawable="@drawable/device_bluetooth_connecting15" />
+    <item android:duration="70" android:drawable="@drawable/device_bluetooth_connecting16" />
+    <item android:duration="70" android:drawable="@drawable/device_bluetooth_connecting17" />
+    <item android:duration="70" android:drawable="@drawable/device_bluetooth_connecting18" />
+    <item android:duration="70" android:drawable="@drawable/device_bluetooth_connecting19" />
+</animation-list>

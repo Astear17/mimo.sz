@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/editor_d_2_dp" android:layout_width="@dimen/editor_d_55_dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_beauty_icon" android:layout_width="@dimen/editor_d_28_dp" android:layout_height="@dimen/editor_d_28_dp" android:layout_centerHorizontal="true" />
+    <TextView android:textColor="@color/mediaeditor_toning_beauty_item_color" android:gravity="center" android:id="@id/tv_beauty_percent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_28_dp" android:layout_centerHorizontal="true" style="@style/H_2_normal" />
+    <TextView android:textColor="@color/white_45" android:ellipsize="end" android:gravity="center" android:id="@id/tv_beauty_lable" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_30_dp" android:maxLines="2" android:layout_centerHorizontal="true" style="@style/H_5_normal" />
+</RelativeLayout>

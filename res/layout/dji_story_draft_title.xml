@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@color/color_232323" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/story_draft_back" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/dji_story_title_back" android:scaleType="centerInside" android:paddingStart="@dimen/d_12_dp" android:paddingEnd="@dimen/d_12_dp" />
+    <TextView android:textSize="@dimen/d_19_dp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/story_draft_title" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/mimo_fpv_story_drafts_page_title_content" style="@style/TextStyleRobotoCondensedBold" />
+    <TextView android:textSize="@dimen/d_19_dp" android:textColor="@color/blue" android:gravity="center" android:layout_gravity="end" android:id="@id/story_draft_select" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/mimo_fpv_story_drafts_page_title_select_btn" android:paddingStart="@dimen/d_12_dp" android:paddingEnd="@dimen/d_16_dp" style="@style/TextStyleRobotoCondensedBold" />
+</merge>

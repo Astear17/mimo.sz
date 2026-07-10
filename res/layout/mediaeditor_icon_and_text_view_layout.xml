@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin">
+    <lct.lomo.sdk.editor.widget.TintImageView android:id="@id/oprate_item_image" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+    <TextView android:textColor="@color/mediaeditor_download_text_selector" android:gravity="center" android:id="@id/oprate_item_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/oprate_item_image" android:layout_centerHorizontal="true" style="@style/H_5_normal" />
+</RelativeLayout>

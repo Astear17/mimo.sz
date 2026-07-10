@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/d_102_dp" android:layout_height="@dimen/d_30_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/brand_fill" android:gravity="center" android:id="@id/timelapse_wheel_text" android:layout_width="match_parent" android:layout_height="match_parent" android:lines="1" android:textAlignment="center" android:paddingHorizontal="@dimen/d_4_dp" style="@style/body_2_400" />
+</FrameLayout>

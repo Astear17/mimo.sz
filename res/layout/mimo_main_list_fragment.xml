@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.lomo.main.view.spring.MainPullView android:id="@id/mimo_main_list_pullview" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/mimo_main_list_recyclerView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </dji.lomo.main.view.spring.MainPullView>
+    <dji.base.ui.widget.MimoEmptyView android:id="@id/mimo_emptyView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

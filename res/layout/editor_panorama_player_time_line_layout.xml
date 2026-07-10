@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/time_layout" android:paddingLeft="@dimen/editor_d_8_dp" android:paddingRight="@dimen/editor_d_8_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <TextView android:id="@id/position" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" style="@style/video_player_edit_time_style_2" />
+        <TextView android:id="@id/position_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" / " style="@style/video_player_edit_time_style_2" />
+        <TextView android:textColor="@color/C_FFFFFF_60" android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" style="@style/video_player_edit_time_style_2" />
+    </LinearLayout>
+</RelativeLayout>

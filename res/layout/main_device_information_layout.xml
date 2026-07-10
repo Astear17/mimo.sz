@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:tag="layout/main_device_information_layout_0" android:background="@color/black_101010" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/device_mgt_scrollview" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/setting_title_layout" />
+            <dji.lomo.main.view.device.DeviceManagementInfoView android:id="@id/setting_device_Info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_17_dp" />
+            <LinearLayout android:orientation="vertical" android:id="@id/old_care_info_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_30_dp" android:src="@drawable/device_detail_info_divider" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_12_dp" />
+                <dji.lomo.main.djicareserviceinfo.view.DJICareServiceInfoView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_30_dp">
+                    <ViewStub android:id="@id/care_refresh_viewstub" android:tag="binding_3" android:layout="@layout/setting_djicare_layout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                </dji.lomo.main.djicareserviceinfo.view.DJICareServiceInfoView>
+                <ImageView android:layout_gravity="center" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_30_dp" android:src="@drawable/device_detail_info_divider" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_12_dp" />
+                <dji.lomo.main.djicareserviceinfo.view.DJICareRenewServiceInfoView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_30_dp">
+                    <ViewStub android:id="@id/care_viewstub" android:tag="binding_5" android:layout="@layout/setting_djicare_renew_layout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                </dji.lomo.main.djicareserviceinfo.view.DJICareRenewServiceInfoView>
+            </LinearLayout>
+            <RelativeLayout android:id="@id/new_care_info_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_30_dp" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_12_dp">
+                <TextView android:textColor="@color/white" android:id="@id/care_info_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_common_device_management_care_more_detail_list_title" android:layout_alignParentStart="true" />
+                <TextView android:textColor="@color/blue" android:id="@id/care_info_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_common_device_management_care_more_detail_list_btn" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/find_device_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_24_dp" android:layout_marginBottom="@dimen/d_24_dp" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/black" android:gravity="center" android:id="@id/find_device_button" android:background="@drawable/mimo_device_manager_find_device" android:paddingTop="@dimen/d_5_dp" android:paddingBottom="@dimen/d_5_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_fpv_setting_audio_list_title" android:layout_centerHorizontal="true" android:paddingStart="@dimen/d_18_dp" android:paddingEnd="@dimen/d_18_dp" />
+        <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/find_device_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_15_dp" android:text="@string/mimo_common_audio_play_tips_list_content" android:layout_below="@id/find_device_button" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/d_30_dp" android:layout_marginEnd="@dimen/d_30_dp" />
+    </RelativeLayout>
+</RelativeLayout>

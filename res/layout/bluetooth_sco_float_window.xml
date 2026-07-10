@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/bluetooth_sco_float_window_bg" android:paddingTop="@dimen/d_8_dp" android:paddingBottom="@dimen/d_8_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/d_12_dp" android:paddingEnd="@dimen/d_12_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_14_dp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tv_bluetooth_sco_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

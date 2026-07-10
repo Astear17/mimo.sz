@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/mediaeditor_main_bottom_tab_bg_color" android:layout_width="@dimen/editor_d_46_dp" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/share" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" android:layout_marginTop="@dimen/editor_d_13_dp" android:src="@drawable/mediaeditor_ic_share" android:layout_centerHorizontal="true" />
+    <RadioGroup android:orientation="vertical" android:id="@id/mediaedit_tab_main" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_72_dp" android:layout_below="@id/share" android:layout_alignParentBottom="true" android:splitMotionEvents="false">
+        <RadioButton android:id="@id/mediaedit_tab_video" android:drawableTop="@drawable/mediaedit_ic_change_selector" style="@style/Edit_Bottom_RadioButton_Style_Landscape" />
+        <RadioButton android:id="@id/mediaedit_tab_multiple_music" android:drawableTop="@drawable/mediaedit_ic_music_selector" style="@style/Edit_Bottom_RadioButton_Style_Landscape" />
+        <lct.lomo.sdk.editor.tab.IconRadioButton android:id="@id/mediaedit_tab_filter" android:drawableTop="@drawable/mediaedit_ic_filter_selector" style="@style/Edit_Bottom_RadioButton_Style_Landscape" />
+        <lct.lomo.sdk.editor.tab.IconRadioButton android:id="@id/mediaedit_tab_subtitle" android:drawableTop="@drawable/mediaedit_ic_subtitle_selector" style="@style/Edit_Bottom_RadioButton_Style_Landscape" />
+        <lct.lomo.sdk.editor.tab.IconRadioButton android:id="@id/mediaedit_tab_sticker" android:drawableTop="@drawable/mediaedit_ic_sticker_selector" style="@style/Edit_Bottom_RadioButton_Style_Landscape" />
+    </RadioGroup>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/export_entrance_button_bg" android:layout_width="@dimen/d_64_dp" android:layout_height="@dimen/d_28_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/export_entrance_text" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxWidth="@dimen/d_36_dp" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="@dimen/d_8_dp" android:layout_marginVertical="@dimen/d_4_dp" style="@style/TextStyleRobotoMedium" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/export_entrance_button_state_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v3_ic_export_entrance_button" android:layout_marginStart="@dimen/d_2_dp" android:layout_marginEnd="@dimen/d_6_dp" />
+</LinearLayout>

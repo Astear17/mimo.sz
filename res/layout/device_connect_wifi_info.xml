@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/lctm_dialog_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_24_dp" android:layout_marginTop="@dimen/editor_d_24_dp" android:layout_marginRight="@dimen/editor_d_20_dp" android:text="@string/light_connection_manual_wifi_connection_small_dialog_title" style="@style/H_1_bold" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/device_connect_wifi_info_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_38_dp" android:layout_marginTop="@dimen/editor_d_52_dp" android:layout_marginRight="@dimen/editor_d_38_dp">
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/tv_wifi_ssid" android:paddingLeft="@dimen/editor_d_5_dp" android:paddingRight="@dimen/editor_d_5_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/editor_d_49_dp" android:text="@string/light_connection_manual_wifi_connection_ssid_small_dialog_content" style="@style/H_3_normal" />
+        <View android:background="@color/C_E4E4E4_100" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" />
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/tv_wifi_pwd" android:paddingLeft="@dimen/editor_d_5_dp" android:paddingRight="@dimen/editor_d_5_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/editor_d_49_dp" android:singleLine="true" style="@style/H_3_normal" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_error" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/loading_errorimg" android:layout_width="@dimen/d_36_dp" android:layout_height="@dimen/d_36_dp" android:src="@drawable/ic_load_error" />
+    <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/white" android:id="@id/error_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_24_dp" android:text="@string/hg305_master_photography_fpv_abnormal_prompt_no_network_content" />
+    <TextView android:textSize="10.0dp" android:textColor="#333333" android:id="@id/error_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_15_dp" />
+</LinearLayout>

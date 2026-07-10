@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/aspect_adapter_item_container" android:background="@drawable/dji_bg_res_fps_set_item" android:padding="@dimen/d_2_dp" android:layout_width="match_parent" android:layout_height="@dimen/d_30_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fpv_icon_aspect_auto" android:layout_centerInParent="true" />
+</RelativeLayout>

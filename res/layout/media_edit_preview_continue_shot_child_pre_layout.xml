@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/editor_d_4_dp" android:paddingEnd="@dimen/editor_d_4_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lct.uilib.widget.RoundRadiusLayout android:id="@id/child_pre_cover_rl" android:background="@color/white_10" android:layout_width="@dimen/editor_d_60_dp" android:layout_height="@dimen/editor_d_60_dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:roundRadius="@dimen/editor_d_4_dp">
+        <com.lct.uilib.widget.RoundRadiusImageView android:id="@id/child_pre_cover_iv" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/light_handle_conn_mini4_pro_icon" android:scaleType="centerCrop" app:roundRadius="@dimen/editor_d_4_dp" />
+        <RelativeLayout android:id="@id/shot_select_rl" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <View android:id="@id/shot_cover_view" android:background="@drawable/mediaedit_import_select_bg" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/shot_child_pre_cover_select_iv" android:layout_width="@dimen/editor_d_46_dp" android:layout_height="@dimen/editor_d_30_dp" android:src="@drawable/icon_red_tick" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </com.lct.uilib.widget.RoundRadiusLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

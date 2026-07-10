@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.handheld.uikit.components.titlebar.ImageDotView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" app:dotColor="red" app:dotText="9" app:iconResource="@drawable/ic_shopping_cart_32_dark" app:iconSize="32.0dp" app:uiTheme="light" />
+    <com.handheld.uikit.components.titlebar.ImageDotView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" app:dotColor="white" app:dotText="5" app:iconResource="@drawable/ic_export_list_32_dark" app:iconSize="32.0dp" app:uiTheme="dark" />
+    <com.handheld.uikit.components.titlebar.ImageDotView android:layout_width="wrap_content" android:layout_height="wrap_content" app:dotResource="@drawable/ic_uikit_success_small" app:dotText="这个文本应该被隐藏" app:iconResource="@drawable/ic_more_dot_32_light" app:iconSize="32.0dp" app:uiTheme="light" />
+</LinearLayout>

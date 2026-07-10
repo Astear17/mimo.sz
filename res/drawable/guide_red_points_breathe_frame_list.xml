@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0001" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0002" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0003" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0004" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0005" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0006" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0007" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0008" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0009" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0010" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0011" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0012" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0013" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0014" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0015" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0016" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0017" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0018" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0019" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0020" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0021" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0022" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0023" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0024" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0025" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0026" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0027" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0028" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0029" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0030" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0031" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0032" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0033" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0034" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0035" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0036" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0037" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0038" />
+    <item android:duration="30" android:drawable="@drawable/guide_red_points_breathe_0039" />
+</animation-list>

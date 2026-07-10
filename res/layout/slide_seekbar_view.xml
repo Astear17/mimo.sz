@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.base.ui.widget.dji.DJIRelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.base.ui.widget.dji.DJITextView android:id="@id/dlg_leftmenu_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/dlg_text_slide_seekbar" />
+    <dji.base.ui.dialog.widget.DJIThumbSeekBar android:id="@id/dlg_seekbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="100" android:layout_centerInParent="true" android:splitTrack="false" style="@style/DJIThumbSeekBar" />
+</dji.base.ui.widget.dji.DJIRelativeLayout>

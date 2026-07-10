@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/editor_d_66_dp" android:layout_height="@dimen/editor_d_66_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/pre_list_item_image" android:background="@color/C_000000_100" android:layout_width="@dimen/editor_d_54_dp" android:layout_height="@dimen/editor_d_54_dp" android:scaleType="centerCrop" android:layout_alignParentBottom="true" android:layout_centerVertical="true" app:radiusColor="@color/C_000000_100" app:roundRadius="@dimen/editor_d_4_dp" />
+    <ImageView android:background="@drawable/qingpai_file_item_default_bg" android:visibility="visible" android:layout_width="@dimen/editor_d_54_dp" android:layout_height="@dimen/editor_d_54_dp" android:layout_alignParentBottom="true" android:alpha="0.1" />
+    <RelativeLayout android:id="@id/delete" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:layout_alignParentRight="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/qingpai_item_delete" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

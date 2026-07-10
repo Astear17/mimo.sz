@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_101010" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support_item_ui="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/title" layout="@layout/support_title_layout" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/support_content" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/support_more_services_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_16_dp" android:layout_marginEnd="@dimen/d_16_dp">
+                    <RelativeLayout android:id="@id/title_sub_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/support_more_services" android:layout_alignParentStart="true">
+                        <TextView android:textSize="@dimen/d_17_dp" android:textColor="@color/white" android:id="@id/support_services_req_and_info_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_common_common_service_and_help_self_service_title" />
+                        <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/color_999999" android:gravity="start" android:id="@id/support_services_req_and_info_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_6_dp" android:text="@string/mimo_common_common_service_and_help_self_service_content" android:layout_below="@id/support_services_req_and_info_title" />
+                    </RelativeLayout>
+                    <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/color_999999" android:id="@id/support_more_services" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_common_common_service_and_help_more_service_title" android:layout_centerVertical="true" android:layout_marginStart="@dimen/d_4_dp" android:layout_toStartOf="@id/support_more_services_icon" />
+                    <ImageView android:id="@id/support_more_services_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/set_item_arrow" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <View android:background="@color/white_14" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="@dimen/d_10_dp" android:layout_marginStart="@dimen/d_16_dp" android:layout_marginEnd="@dimen/d_16_dp" />
+                <dji.lomo.main.support.SupportItemView android:id="@id/support_care" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" support_item_ui:desc="@string/mimo_common_common_service_and_help_care_service_content" support_item_ui:item_icon="@drawable/support_care_services" support_item_ui:title="@string/mimo_common_common_service_and_help_care_service_title" />
+                <dji.lomo.main.support.SupportItemView android:id="@id/support_self_repair" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" support_item_ui:desc="@string/mimo_common_common_service_and_help_self_service_repair_content" support_item_ui:item_icon="@drawable/support_self_repair" support_item_ui:title="@string/mimo_common_common_service_and_help_self_service_repair_title" />
+                <dji.lomo.main.support.SupportItemView android:id="@id/support_service_progress" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" support_item_ui:desc="@string/mimo_common_common_service_and_help_service_progress_content" support_item_ui:item_icon="@drawable/support_service_progress" support_item_ui:title="@string/mimo_common_common_service_and_help_service_progress_title" />
+                <dji.lomo.main.support.SupportItemView android:id="@id/support_activate_info" android:layout_width="match_parent" android:layout_height="wrap_content" support_item_ui:desc="@string/mimo_common_common_service_and_help_activation_information_query_content" support_item_ui:item_icon="@drawable/support_activate_info" support_item_ui:title="@string/mimo_common_common_service_and_help_activation_information_query_title" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_10_dp" android:layout_marginStart="@dimen/d_16_dp" android:layout_marginEnd="@dimen/d_16_dp">
+                <TextView android:textSize="@dimen/d_17_dp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_5_dp" android:text="@string/mimo_customSupport_contact_title" />
+                <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/color_999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_6_dp" android:text="@string/mimo_customSupport_contact_content" />
+            </LinearLayout>
+            <View android:background="@color/white_14" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="@dimen/d_10_dp" android:layout_marginStart="@dimen/d_16_dp" android:layout_marginEnd="@dimen/d_16_dp" />
+            <include android:id="@id/support_live_chat" android:visibility="gone" layout="@layout/support_item_layout" />
+            <include android:id="@id/support_mail" android:visibility="gone" layout="@layout/support_item_layout" />
+            <include android:id="@id/support_call" android:visibility="gone" layout="@layout/support_item_layout" />
+            <include android:id="@id/support_wechat_facebook" android:visibility="gone" layout="@layout/support_item_layout" />
+            <include android:id="@id/log_upload" layout="@layout/support_item_layout" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/support_no_content" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_customSupport_empty" android:drawableTop="@drawable/support_none" />
+    </LinearLayout>
+</LinearLayout>

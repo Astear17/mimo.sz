@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/fpv_story_anim_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/d_20_dp" android:layout_centerInParent="true" android:foregroundGravity="center" app:lottie_autoPlay="false" app:lottie_fileName="up_anim.json" app:lottie_loop="true" />
+    <TextView android:textSize="@dimen/d_13_dp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/fpv_story_segment_tutorial_tv" android:background="@drawable/fpv_story_custom_template_panel_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_12_dp" android:maxWidth="@dimen/d_480_dp" android:minWidth="@dimen/d_328_dp" android:minHeight="@dimen/d_32_dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:splitMotionEvents="false" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_16_dp" />
+</merge>

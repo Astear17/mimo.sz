@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/aistory_navation" app:startDestination="@id/hostfragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <action android:id="@id/action_to_hostfragment" app:destination="@id/hostfragment" app:launchSingleTop="true" />
+    <fragment android:label="EmptyHostFragment" android:name="dji.creation.aistory.ui.fragment.EmptyHostFragment" android:id="@id/hostfragment" />
+    <fragment android:label="TakeSameStoryFragment" android:name="dji.creation.aistory.ui.fragment.TakeSameStoryFragment" android:id="@id/takeSameStoryfragment" />
+    <action android:id="@id/action_to_takeSameStoryfragment" app:destination="@id/takeSameStoryfragment" app:enterAnim="@anim/slide_in_left" app:exitAnim="@anim/slide_out_right" app:launchSingleTop="true" app:popEnterAnim="@anim/slide_in_right" app:popExitAnim="@anim/slide_out_left" />
+    <fragment android:label="RecommendLabelStoryFragment" android:name="dji.creation.aistory.ui.fragment.RecommendLabelStoryFragment" android:id="@id/recommendLabelStoryFragment" />
+    <action android:id="@id/action_to_recommendLabelStoryFragment" app:destination="@id/recommendLabelStoryFragment" app:launchSingleTop="true" app:popUpTo="@id/recommendLabelStoryFragment" app:popUpToInclusive="true" />
+    <fragment android:label="TakingStoryFragment" android:name="dji.creation.aistory.ui.fragment.TakingStoryFragment" android:id="@id/takingStoryFragment" />
+    <action android:id="@id/action_to_takingStoryFragment" app:destination="@id/takingStoryFragment" app:launchSingleTop="true" />
+    <fragment android:label="VideoPreviewStoryFragment" android:name="dji.creation.aistory.ui.fragment.VideoPreviewStoryFragment" android:id="@id/videoPreviewStoryFragment" />
+    <action android:id="@id/action_to_videoPreviewStoryFragment" app:destination="@id/videoPreviewStoryFragment" app:launchSingleTop="true" app:popExitAnim="@anim/slide_out_left" app:popUpTo="@id/takingStoryFragment" app:popUpToInclusive="true" />
+</navigation>

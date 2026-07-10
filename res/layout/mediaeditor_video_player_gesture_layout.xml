@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lctsdk.mediaeditor.player.controller.PalaceClipView android:id="@id/video_palace_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.lctsdk.mediaeditor.player.controller.OverlayView android:id="@id/video_view_overlay" android:padding="@dimen/mmediaeditor_overlay_padding" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.lctsdk.mediaeditor.player.controller.gesture.TouchGestureView android:id="@id/video_gesture_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <CheckBox android:id="@id/video_palace_change" android:background="@android:color/transparent" android:padding="@dimen/editor_d_4_dp" android:visibility="gone" android:layout_width="@dimen/editor_d_41_dp" android:layout_height="@dimen/editor_d_41_dp" android:layout_marginRight="@dimen/editor_d_2_dp" android:layout_marginBottom="@dimen/editor_d_12_dp" android:button="@null" android:drawableRight="@drawable/lctm_mediaeditor_play_fit_selector" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

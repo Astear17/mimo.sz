@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/mimo_dialog_root_view" android:background="@drawable/bg_radius_12_color_white" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/d_28_dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/white" android:id="@id/dialog_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_16_dp" android:includeFontPadding="false" style="@style/TextStyleRobotoMedium" />
+        <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/color_101010" android:gravity="center" android:id="@id/dialog_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingMultiplier="1.1" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_16_dp" style="@style/TextStyleRobotoRegular" />
+        <View android:id="@id/dialog_hor_line" android:background="#24ffffff" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="@dimen/d_28_dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/d_50_dp">
+            <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/gray_playback" android:gravity="center" android:id="@id/dialog_neg_btn" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/common_dialog_cancel" android:layout_weight="1.0" style="@style/TextStyleRobotoMedium" />
+            <View android:id="@id/dialog_sep_line" android:background="#24ffffff" android:layout_width="0.5dp" android:layout_height="match_parent" />
+            <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/color_101010" android:gravity="center" android:id="@id/dialog_pos_btn" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/common_dialog_yes" android:layout_weight="1.0" style="@style/TextStyleRobotoMedium" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

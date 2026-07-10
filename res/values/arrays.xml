@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ai_loading_tips">
+        <item>@string/light_ai_loading_page_tips_1</item>
+        <item>@string/light_ai_loading_page_tips_2</item>
+        <item>@string/light_ai_loading_page_tips_3</item>
+        <item>@string/light_ai_loading_page_tips_4</item>
+        <item>@string/light_ai_loading_page_tips_5</item>
+        <item>@string/light_ai_loading_page_tips_6</item>
+    </string-array>
+    <array name="com.google.firebase.crashlytics.build_ids_arch" />
+    <array name="com.google.firebase.crashlytics.build_ids_build_id" />
+    <array name="com.google.firebase.crashlytics.build_ids_lib" />
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="gcm_pre_record_duration">
+        <item>@string/hg307_fpv_gcm_preparation_page_shooting_duraion_3min_text</item>
+        <item>@string/hg307_fpv_gcm_preparation_page_shooting_duraion_5min_text</item>
+        <item>@string/hg307_fpv_gcm_preparation_page_shooting_duraion_8min_text</item>
+        <item>@string/hg307_fpv_gcm_preparation_page_shooting_duraion_10min_text</item>
+    </string-array>
+    <string-array name="gimbal_focus_assist_mode_array">
+        <item>@string/hg306_fpv_focus_distance</item>
+        <item>@string/hg306_fpv_focus_peaking_switch</item>
+        <item>@string/hg306_fpv_dial_mode_off</item>
+    </string-array>
+    <string-array name="gimbal_m_button_function_array">
+        <item>@string/hg302_fpv_setting_single_tap_m_button_shift_video_photo_option</item>
+        <item>@string/hg302_fpv_setting_single_tap_quick_menu_photo_option</item>
+    </string-array>
+    <string-array name="gimbal_thumb_wheel_mode_array">
+        <item>@string/hg306_fpv_dial_mode_zoom</item>
+        <item>@string/hg306_fpv_dial_mode_focus</item>
+        <item>@string/mimo_fpv_om_sidewheel_mode_title</item>
+        <item>@string/hg306_fpv_dial_mode_off</item>
+    </string-array>
+    <string-array name="gimbal_thumb_wheel_mode_array_no_stick">
+        <item>@string/hg306_fpv_dial_mode_zoom</item>
+        <item>@string/hg306_fpv_dial_mode_focus</item>
+        <item>@string/hg306_fpv_dial_mode_off</item>
+    </string-array>
+    <string-array name="gimbal_thumb_wheel_zoom_mode_speed_array">
+        <item>@string/hg306_fpv_dial_mode_off</item>
+        <item>@string/hg306_fpv_dial_smooth_zoom_slow</item>
+        <item>@string/hg306_fpv_dial_smooth_zoom_moderate</item>
+        <item>@string/hg306_fpv_dial_smooth_zoom_fast</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+    <string-array name="lp_timelapse_duration_name_array">
+        <item>@string/timelapse_infinite</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>300</item>
+    </string-array>
+    <string-array name="lp_timelapse_duration_name_array_no_infinite">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>300</item>
+    </string-array>
+    <integer-array name="lp_timelapse_duration_value_array">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>300</item>
+    </integer-array>
+    <integer-array name="lp_timelapse_duration_value_array_no_infinite">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>300</item>
+    </integer-array>
+    <string-array name="lp_timelapse_interval_name_array">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>10</item>
+        <item>13</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>40</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="lp_timelapse_interval_name_array_save_raw">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>10</item>
+        <item>13</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>40</item>
+        <item>60</item>
+    </string-array>
+    <integer-array name="lp_timelapse_interval_value_array">
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>100</item>
+        <item>130</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>400</item>
+        <item>600</item>
+    </integer-array>
+    <integer-array name="lp_timelapse_interval_value_array_save_raw">
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>100</item>
+        <item>130</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>400</item>
+        <item>600</item>
+    </integer-array>
+    <string-array name="om3_flash_names_array">
+        <item>@string/hg302_fpv_setting_camera_flashlight_off</item>
+        <item>@string/hg302_fpv_setting_camera_flashlight_on</item>
+        <item>@string/hg302_fpv_setting_camera_flashlight_auto</item>
+        <item>@string/hg302_fpv_setting_camera_flashlight_torch</item>
+    </string-array>
+    <string-array name="om3_flash_names_array_short">
+        <item>@string/hg302_fpv_setting_camera_flashlight_off</item>
+        <item>@string/hg302_fpv_setting_camera_flashlight_torch</item>
+    </string-array>
+    <string-array name="om3_setting_gimbal_follow_mode_array">
+        <item>@string/hg302_fpv_setting_cell_title_gimbal_pan_follow</item>
+        <item>@string/hg302_fpv_setting_cell_title_gimbal_pitch_lock</item>
+        <item>@string/hg302_fpv_setting_cell_title_gimbal_fpv</item>
+        <item>@string/hg302_fpv_setting_cell_title_gimbal_roll</item>
+    </string-array>
+    <string-array name="om3_setting_gimbal_speed_array">
+        <item>@string/hg302_fpv_setting_cell_title_gimbal_stick_speed_slow</item>
+        <item>@string/hg302_fpv_setting_cell_title_gimbal_stick_speed_mid</item>
+        <item>@string/hg302_fpv_setting_cell_title_gimbal_stick_speed_fast</item>
+    </string-array>
+    <string-array name="om3_setting_grid">
+        <item>@string/hg302_fpv_setting_grid_off</item>
+        <item>@string/hg302_fpv_setting_grid_only</item>
+        <item>@string/hg302_fpv_setting_grid_diagonal</item>
+    </string-array>
+    <string-array name="om_camera_sleep_array">
+        <item>@string/mimo_fpv_om_camera_rest_setting_1min</item>
+        <item>@string/mimo_fpv_om_camera_rest_setting_3min</item>
+        <item>@string/mimo_fpv_om_camera_rest_setting_10min</item>
+        <item>@string/mimo_fpv_om_camera_rest_setting_off</item>
+    </string-array>
+    <string-array name="om_setting_camera_sleep">
+        <item>@string/mimo_fpv_om_camera_rest_setting_off</item>
+        <item>@string/mimo_fpv_om_camera_rest_setting_1min</item>
+        <item>@string/mimo_fpv_om_camera_rest_setting_3min</item>
+        <item>@string/mimo_fpv_om_camera_rest_setting_10min</item>
+    </string-array>
+    <string-array name="om_setting_composition_grid">
+        <item>@string/hg302_fpv_setting_grid_off</item>
+        <item>@string/hg302_fpv_setting_grid_only</item>
+        <item>@string/hg302_fpv_setting_grid_diagonal</item>
+    </string-array>
+    <string-array name="om_setting_composition_hold">
+        <item>@string/mimo_fpv_tk_setting_general_target_position_center</item>
+        <item>@string/mimo_fpv_tk_setting_general_target_position_here</item>
+    </string-array>
+    <string-array name="om_setting_gimbal_follow_speed">
+        <item>@string/hg302_fpv_setting_cell_title_gimbal_stick_speed_slow</item>
+        <item>@string/hg302_fpv_setting_cell_title_gimbal_stick_speed_mid</item>
+        <item>@string/hg302_fpv_setting_cell_title_gimbal_stick_speed_fast</item>
+    </string-array>
+    <string-array name="om_setting_joystick_mode">
+        <item>@string/mimo_fpv_gimbal_joystick_gimbal</item>
+        <item>@string/mimo_fpv_gimbal_pulsator_zoom</item>
+    </string-array>
+    <string-array name="om_setting_photo_ratio">
+        <item>4:3</item>
+        <item>16:9</item>
+        <item>18:9</item>
+        <item>1:1</item>
+    </string-array>
+    <string-array name="om_setting_rocker_reverse">
+        <item>@string/hg302_fpv_setting_grid_off</item>
+        <item>@string/mimo_fpv_gimbal_setting_stick_reverse_horizontal</item>
+        <item>@string/mimo_fpv_gimbal_setting_stick_reverse_vertical</item>
+        <item>@string/mimo_fpv_gimbal_setting_stick_reverse_all</item>
+    </string-array>
+    <string-array name="om_setting_slider_mode">
+        <item>@string/mimo_fpv_filter_color_mode_none</item>
+        <item>@string/mimo_fpv_gimbal_pulsator_zoom</item>
+        <item>@string/mimo_fpv_gimbal_pulsator_focus</item>
+    </string-array>
+    <string-array name="om_setting_thumb_wheel_reverse">
+        <item>@string/hg306_fpv_dial_mode_off</item>
+        <item>@string/hg306_fpv_dial_focus_reverse</item>
+        <item>@string/hg306_fpv_dial_zoom_reverse</item>
+        <item>@string/mimo_fpv_gimbal_setting_stick_reverse_all</item>
+    </string-array>
+    <string-array name="om_setting_wheel_mode">
+        <item>@string/mimo_fpv_filter_color_mode_none</item>
+        <item>@string/mimo_fpv_gimbal_pulsator_zoom</item>
+        <item>@string/mimo_fpv_gimbal_pulsator_focus</item>
+    </string-array>
+    <string-array name="om_setting_zoom_speed_array">
+        <item>@string/hg305_fpv_setting_zoom_speed_slow_list_btn</item>
+        <item>@string/hg305_fpv_setting_zoom_speed_medium_list_btn</item>
+        <item>@string/hg305_fpv_setting_zoom_speed_fast_list_btn</item>
+    </string-array>
+    <string-array name="panorama_auto_analyze_ai_loading_tips">
+        <item>@string/auto_higlights_analyze_tips_1</item>
+        <item>@string/auto_higlights_newhand_pop_tips</item>
+        <item>@string/light_ai_loading_page_tips_7</item>
+        <item>@string/light_ai_loading_page_tips_8</item>
+    </string-array>
+    <string-array name="phone_camera_wb_names_array">
+        <item>@string/hg302_fpv_setting_camera_whitebalance_auto</item>
+        <item>@string/hg302_fpv_setting_camera_whitebalance_daylight</item>
+        <item>@string/hg302_fpv_setting_camera_whitebalance_cloudy</item>
+        <item>@string/hg302_fpv_setting_camera_whitebalance_incandescent</item>
+        <item>@string/hg302_fpv_setting_camera_whitebalance_fluorescent</item>
+        <item>@string/hg302_fpv_setting_camera_whitebalance_shadow</item>
+        <item>@string/hg302_fpv_setting_camera_whitebalance_twilight</item>
+    </string-array>
+    <integer-array name="segment_edit_frame_rate_array">
+        <item>24</item>
+        <item>25</item>
+        <item>30</item>
+        <item>50</item>
+        <item>60</item>
+        <item>120</item>
+        <item>240</item>
+    </integer-array>
+    <integer-array name="segment_edit_resolution_array">
+        <item>720</item>
+        <item>1080</item>
+    </integer-array>
+    <string-array name="template_textFont_tab">
+        <item>@string/light_editor_textFont_edit</item>
+        <item>@string/light_editor_textFont_font</item>
+        <item>@string/light_editor_textFont_styleNew</item>
+        <item>@string/light_editor_textFont_effect</item>
+        <item>@string/light_editor_textFont_model</item>
+        <item>@string/light_editor_textFont_animation</item>
+        <item>@string/light_editor_textFont_position</item>
+    </string-array>
+    <string-array name="textEffect_tab">
+        <item>@string/light_editor_textEffect_in</item>
+        <item>@string/light_editor_textEffect_out</item>
+        <item>@string/light_editor_textEffect_all</item>
+    </string-array>
+    <string-array name="textFont_tab">
+        <item>@string/light_editor_textFont_edit</item>
+        <item>@string/light_editor_textFont_style</item>
+        <item>@string/light_editor_textFont_font</item>
+        <item>@string/light_editor_textFont_position</item>
+    </string-array>
+    <string-array name="textFont_tab_template">
+        <item>@string/light_editor_textFont_edit</item>
+        <item>@string/light_editor_textFont_font</item>
+        <item>@string/light_editor_textFont_position</item>
+    </string-array>
+    <string-array name="text_style_tab">
+        <item>@string/light_template_text_page_title</item>
+    </string-array>
+    <string-array name="text_tab_template">
+        <item>@string/light_editor_textFont_edit</item>
+        <item>@string/light_editor_textFont_font</item>
+        <item>@string/light_template_text_style_tab</item>
+        <item>@string/light_editor_textFont_position</item>
+    </string-array>
+</resources>

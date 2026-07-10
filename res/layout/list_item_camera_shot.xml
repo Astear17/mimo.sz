@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dji.videoplayer.view.VideoPlayerTrackView android:id="@id/videoView" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintDimensionRatio="H,16:9" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:video_autoSetCoverController="true" app:video_autoSetVideoController="true" />
+    <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/tv_jump_2_take" app:layout_constraintLeft_toLeftOf="@id/videoView" app:layout_constraintTop_toTopOf="@id/tv_jump_2_take" />
+    <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_jump_2_take" android:background="@color/blue_link" android:layout_width="@dimen/d_82_dp" android:layout_height="@dimen/d_32_dp" android:layout_marginTop="@dimen/d_12_dp" android:text="拍同款" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="@id/videoView" app:layout_constraintTop_toBottomOf="@id/videoView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

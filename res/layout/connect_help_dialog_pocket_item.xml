@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/color_222222" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/content_container_one" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="4.0">
+        <ImageView android:layout_gravity="center" android:id="@id/device_image_one" android:layout_width="@dimen/d_40_dp" android:layout_height="@dimen/d_40_dp" android:src="@drawable/icon_connect_help_step_pocket_one" android:scaleType="centerInside" />
+        <TextView android:textAppearance="@style/TV.Roboto.Regular" android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center|top" android:id="@id/device_des_one" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_16_dp" android:text="@string/mimo_connection_connection_help_find_device_name_hg210_step1_small_dilog_content" android:singleLine="false" android:paddingStart="@dimen/d_10_dp" android:paddingEnd="@dimen/d_10_dp" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/view_margin_first" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.5">
+        <ImageView android:id="@id/device_arrow_one" android:layout_width="@dimen/d_12_dp" android:layout_height="@dimen/d_12_dp" android:layout_marginTop="@dimen/d_14_dp" android:src="@drawable/icon_connect_help_arrow" android:scaleType="centerInside" android:layout_marginStart="@dimen/d_14_dp" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/content_container_two" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="4.0">
+        <ImageView android:layout_gravity="center" android:id="@id/device_image_two" android:layout_width="@dimen/d_40_dp" android:layout_height="@dimen/d_40_dp" android:src="@drawable/icon_connect_help_step_pocket_two" android:scaleType="centerInside" />
+        <TextView android:textAppearance="@style/TV.Roboto.Regular" android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center|top" android:id="@id/device_des_two" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_16_dp" android:text="@string/mimo_connection_connection_help_find_device_name_hg210_step2_small_dilog_content" android:singleLine="false" android:paddingStart="@dimen/d_10_dp" android:paddingEnd="@dimen/d_10_dp" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/view_margin_two" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.5">
+        <ImageView android:id="@id/device_arrow_two" android:layout_width="@dimen/d_12_dp" android:layout_height="@dimen/d_12_dp" android:layout_marginTop="@dimen/d_14_dp" android:src="@drawable/icon_connect_help_arrow" android:scaleType="centerInside" android:layout_marginStart="@dimen/d_14_dp" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/content_container_three" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="4.0">
+        <ImageView android:layout_gravity="center" android:id="@id/device_image_three" android:layout_width="@dimen/d_40_dp" android:layout_height="@dimen/d_40_dp" android:src="@drawable/icon_connect_help_step_pocket_three" android:scaleType="centerInside" />
+        <TextView android:textAppearance="@style/TV.Roboto.Regular" android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center|top" android:id="@id/device_des_three" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_16_dp" android:text="@string/mimo_connection_connection_help_find_device_name_hg210_step3_small_dilog_content" android:singleLine="false" android:paddingStart="@dimen/d_10_dp" android:paddingEnd="@dimen/d_10_dp" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/view_margin_three" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.5">
+        <ImageView android:id="@id/device_arrow_three" android:layout_width="@dimen/d_12_dp" android:layout_height="@dimen/d_12_dp" android:layout_marginTop="@dimen/d_14_dp" android:src="@drawable/icon_connect_help_arrow" android:scaleType="centerInside" android:layout_marginStart="@dimen/d_14_dp" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/content_container_four" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="4.0">
+        <ImageView android:layout_gravity="center" android:id="@id/device_image_four" android:layout_width="@dimen/d_40_dp" android:layout_height="@dimen/d_40_dp" android:src="@drawable/icon_connect_help_step_pocket_four" android:scaleType="centerInside" />
+        <TextView android:textAppearance="@style/TV.Roboto.Regular" android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center|top" android:id="@id/device_des_four" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_16_dp" android:text="@string/mimo_connection_connection_help_find_device_name_hg210_step4_small_dilog_content" android:singleLine="false" android:paddingStart="@dimen/d_10_dp" android:paddingEnd="@dimen/d_10_dp" />
+    </LinearLayout>
+</LinearLayout>

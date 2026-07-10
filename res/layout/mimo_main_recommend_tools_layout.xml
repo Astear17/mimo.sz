@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_16_dp" android:layout_marginTop="@dimen/d_24_dp" android:layout_marginRight="@dimen/d_16_dp" android:layout_marginBottom="@dimen/d_24_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/item_tools_left" android:background="@drawable/recommend_banner_placeholder_shape" android:layout_width="0.0dp" android:layout_height="@dimen/d_115_dp" android:layout_weight="1.5">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_33_dp" android:src="@drawable/mimo_main_icon_temptate" />
+        <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_6_dp" android:text="@string/mimo_homepage_entrance_template" />
+    </LinearLayout>
+    <View android:layout_width="@dimen/d_8_dp" android:layout_height="match_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="@dimen/d_115_dp" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/item_tools_top" android:background="@drawable/recommend_banner_placeholder_shape" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_20_dp" android:src="@drawable/mimo_main_icon_support_min" />
+            <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/d_8_dp" android:text="@string/mimo_common_common_service_and_help_sum_title" android:lines="1" />
+        </LinearLayout>
+        <View android:layout_width="match_parent" android:layout_height="@dimen/d_8_dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/item_tools_bottom" android:background="@drawable/recommend_banner_placeholder_shape" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_20_dp" android:src="@drawable/mimo_main_icon_bbs_min" />
+            <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/d_8_dp" android:text="@string/mimo_homepage_entrance_bbs" android:lines="1" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

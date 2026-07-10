@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black_20" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0dp" android:textColor="@color/white_65" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="模型库加载：" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0dp" android:textColor="@color/yellow_msg_bg" android:id="@id/test_aisdk_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="false" android:layout_centerVertical="true" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0dp" android:textColor="@color/white_65" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="识别结果：" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0dp" android:textColor="@color/green_meter_focus" android:id="@id/test_aisdk_reco_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0dp" android:textColor="@color/white_65" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="用户授权及国家码权限：" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0dp" android:textColor="@color/yellow_msg_bg" android:id="@id/test_cycle_can" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="false" android:layout_centerVertical="true" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0dp" android:textColor="@color/white_65" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="云控上传接口状态：" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0dp" android:textColor="@color/yellow_msg_bg" android:id="@id/test_cycle_cloud" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="false" android:layout_centerVertical="true" />
+    </LinearLayout>
+</LinearLayout>

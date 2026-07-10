@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/black_90" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mimo_common_pip_help_for_dji_list_title" style="@style/body_2_600" />
+    <TextView android:textColor="@color/black_90" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" android:text="@string/mimo_common_pip_analysis_and_improvement_list_title" style="@style/body_2_600" />
+    <TextView android:textColor="@color/black_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" android:text="@string/mimo_common_pip_partner_help_for_dji_list_content" style="@style/body_3_400" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/playback_gui_blocking_img" android:layout_width="@dimen/d_100_dp" android:layout_height="@dimen/d_100_dp" android:layout_marginBottom="@dimen/d_32_dp" android:src="@drawable/playback_gui_blocking" app:layout_constraintBottom_toTopOf="@id/playback_gui_blocking_tips" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
+    <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/playback_gui_blocking_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/general_playback_dji_device_in_playback_protect_statu_text" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_16_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/playback_gui_blocking_img" style="@style/TextStyleRobotoBold" />
+</merge>

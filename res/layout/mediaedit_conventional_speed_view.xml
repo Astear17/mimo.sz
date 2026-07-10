@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="true" android:layout_height="@dimen/editor_d_128_dp" style="@style/edit_menu_volumn_bg_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/speed_menu_title" android:visibility="gone" android:text="@string/kino_editor_clip_speed" style="@style/edit_menu_text_style" />
+    <TextView android:id="@id/speed_menu_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_240_dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/H_3_normal" />
+    <RelativeLayout android:id="@id/mediaedit_speedbar_layout_id" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_60_dp" android:layout_marginLeft="@dimen/editor_d_16_dp" android:layout_marginRight="@dimen/editor_d_16_dp" android:layout_marginBottom="@dimen/editor_d_68_dp">
+        <TextView android:textColor="@color/mediaeditor_speed_menu_text_color" android:gravity="center|bottom" android:id="@id/left_title" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="-2.0dp" android:layout_marginBottom="@dimen/editor_d_2_dp" android:text="@string/kino_editor_clip_speed_low" android:layout_alignParentLeft="true" style="@style/H_3_normal" />
+        <TextView android:textColor="@color/mediaeditor_speed_menu_text_color" android:gravity="center|bottom" android:id="@id/right_title" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="-2.0dp" android:layout_marginBottom="@dimen/editor_d_2_dp" android:text="@string/light_editor_clip_speed_high" android:layout_alignParentRight="true" style="@style/H_3_normal" />
+        <lct.lomo.sdk.editor.widget.SpeedSeekbar android:id="@id/speed_seekbar" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_60_dp" android:layout_toLeftOf="@id/right_title" android:layout_toRightOf="@id/left_title" />
+    </RelativeLayout>
+</RelativeLayout>

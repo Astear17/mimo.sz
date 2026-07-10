@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/to_light_dialog_parent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/to_light_close" android:layout_width="@dimen/d_26_dp" android:layout_height="@dimen/d_26_dp" android:layout_marginBottom="@dimen/d_16_dp" android:src="@drawable/to_light_ic_close" android:layout_above="@id/to_light_round_dialog_layout" android:layout_alignRight="@id/to_light_round_dialog_layout" />
+        <com.dji.playback.ui.mino.mimo2light.RoundRadiusLayout android:id="@id/to_light_round_dialog_layout" android:layout_width="wrap_content" android:layout_height="@dimen/d_425_dp" android:layout_marginLeft="@dimen/d_20_dp" android:layout_marginRight="@dimen/d_20_dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:roundRadius="@dimen/d_8_dp">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/show_pic" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <View android:background="@drawable/gallery_to_light_dialog_bg_shape" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.1" />
+            </RelativeLayout>
+        </com.dji.playback.ui.mino.mimo2light.RoundRadiusLayout>
+    </RelativeLayout>
+</FrameLayout>

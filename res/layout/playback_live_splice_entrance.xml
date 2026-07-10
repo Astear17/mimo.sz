@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/playback_live_splice_entrance_0" android:background="@drawable/playback_live_splice_entrance_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_live_splice_entrance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" android:src="@drawable/ic_playback_live_splice" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/d_9_dp" android:textColor="@color/white" android:id="@id/tv_live_splice_entrance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_playback_screenshot_livestitch_button" android:lineHeight="@dimen/d_11_dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_live_splice_entrance" />
+</androidx.constraintlayout.widget.ConstraintLayout>

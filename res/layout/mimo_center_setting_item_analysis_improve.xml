@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mimo_center_setting_analysis_container" style="@style/MimoCenterItemContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/mimo_center_setting_analysis_title" android:text="@string/mimo_common_mytab_help_mimo_setting_title" android:layout_toStartOf="@id/mimo_center_setting_analysis_arrow" style="@style/TV.MimoCenter.Item.Title.Black" />
+    <ImageView android:id="@id/mimo_center_setting_analysis_arrow" style="@style/ImageView_MimoCenter_Item_RightArrow" />
+    <ImageView android:src="@drawable/mimo_center_item_arrow_right" style="@style/ImageView_MimoCenter_Item_RightArrow" />
+</RelativeLayout>

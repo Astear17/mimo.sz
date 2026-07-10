@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="#cf000000" android:endColor="@color/C_000000_0" android:angle="90.0" android:type="linear" />
+    <corners android:bottomLeftRadius="@dimen/shape_game_card_image_mask_corners" android:bottomRightRadius="@dimen/shape_game_card_image_mask_corners" />
+</shape>

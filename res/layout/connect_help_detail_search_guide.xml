@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/connect_help_detail_search_container" android:background="@drawable/device_button_radius_bg" android:padding="@dimen/d_16_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tv_search_guide_title" android:text="@string/mimo_fpv_connection_help_om_cannot_search_device_title" style="@style/TV.ConnectHelp.Detail.Title" />
+    <TextView android:id="@id/tv_search_guide_content_one" android:text="@string/mimo_fpv_connection_help_om_cannot_search_device_content1" style="@style/TV.ConnectHelp.Detail.Description" />
+    <TextView android:id="@id/tv_search_guide_content_two" android:text="@string/mimo_fpv_connection_help_om_cannot_search_device_content2" style="@style/TV.ConnectHelp.Detail.Description" />
+    <TextView android:id="@id/tv_search_guide_content_three" android:text="@string/mimo_fpv_connection_help_om_cannot_search_device_content3" style="@style/TV.ConnectHelp.Detail.Description" />
+    <TextView android:id="@id/tv_search_guide_content_four" android:text="@string/hg211_connection_connection_help_unable_connect_device_action_sheet_content2" style="@style/TV.ConnectHelp.Detail.Description" />
+    <TextView android:id="@id/tv_search_guide_content_five" android:text="@string/mimo_fpv_connection_help_om_cannot_search_device_content4" style="@style/TV.ConnectHelp.Detail.Description" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dji.playback.ui.playbackPreviewActivity.widget.PlaybackInfoDrawerLayout android:id="@id/drawer_preview" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/preview_content_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.dji.playback.ui.playbackPreviewActivity.dashboard.ui.VideoViewByProxy android:layout_gravity="center" android:id="@id/video_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <com.dji.playback.ui.playbackPreviewActivity.dashboard.ui.MediaControllerView android:layout_gravity="center" android:id="@id/media_controller" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+    <com.dji.playback.ui.playbackPreviewActivity.widget.PlaybackInfoView android:orientation="vertical" android:id="@id/preview_bottom_info_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/preview_content_container" />
+</com.dji.playback.ui.playbackPreviewActivity.widget.PlaybackInfoDrawerLayout>

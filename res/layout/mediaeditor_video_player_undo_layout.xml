@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.sdk.editor.widget.TintImageView android:id="@id/meidaeidt_back" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" android:src="@drawable/mediaeditor_undo_pre_focus_icon" android:layout_centerVertical="true" app:defaultColor="@color/C_FFFFFF_100" app:disableColor="@color/C_FFFFFF_50" />
+    <lct.lomo.sdk.editor.widget.TintImageView android:id="@id/meidaeidt_next" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" android:layout_marginLeft="@dimen/editor_d_20_dp" android:src="@drawable/mediaeditor_undo_next_focus_icon" android:layout_toRightOf="@id/meidaeidt_back" android:layout_centerVertical="true" app:defaultColor="@color/C_FFFFFF_100" app:disableColor="@color/C_FFFFFF_50" />
+</merge>

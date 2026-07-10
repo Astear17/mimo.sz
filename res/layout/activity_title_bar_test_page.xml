@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/background_white_1" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black_100" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Title Bar" android:paddingVertical="16.0dp" style="@style/title_2_600" />
+            <LinearLayout android:orientation="vertical" android:background="@color/gray_white_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="12.0dp">
+                <com.handheld.uikit.components.titlebar.TitleBar android:id="@id/title_bar_demo_text_right" android:layout_width="match_parent" android:layout_height="wrap_content" app:leftIcon="@drawable/ic_nav_bar_back_light_32" app:rightText="右边按钮" app:titleText="右边是文字" />
+                <com.handheld.uikit.components.titlebar.TitleBar android:id="@id/title_bar_demo_icon_right" android:layout_width="match_parent" android:layout_height="64.0dp" android:layout_marginTop="10.0dp" app:leftIcon="@drawable/ic_nav_bar_close_light" app:rightIcon="@drawable/ic_nav_bar_share" app:titleText="右边是icon" />
+                <com.handheld.uikit.components.titlebar.TitleBar android:layout_width="match_parent" android:layout_height="64.0dp" android:layout_marginTop="10.0dp" app:leftIcon="@drawable/ic_nav_bar_close_light" app:rightText="右边按钮" app:showRightTextBackground="false" app:titleText="右边是文字，无背景" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@color/background_black_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dp" android:paddingVertical="12.0dp">
+                <com.handheld.uikit.components.titlebar.TitleBar android:layout_width="match_parent" android:layout_height="64.0dp" app:leftIcon="@drawable/ic_nav_bar_back_dark" app:rightText="右边按钮" app:titleText="右边是文字" app:uiTheme="light" />
+                <com.handheld.uikit.components.titlebar.TitleBar android:layout_width="match_parent" android:layout_height="64.0dp" android:layout_marginTop="10.0dp" app:leftIcon="@drawable/ic_nav_bar_back_dark" app:rightIcon="@drawable/ic_confirm_32" app:titleText="右边是icon" app:uiTheme="light" />
+                <com.handheld.uikit.components.titlebar.TitleBar android:id="@id/title_bar_test_light" android:layout_width="match_parent" android:layout_height="64.0dp" android:layout_marginTop="10.0dp" app:leftIcon="@drawable/ic_nav_bar_close_light" app:rightText="右边按钮" app:showRightTextBackground="false" app:titleText="右边是文字，无背景" app:uiTheme="light" />
+            </LinearLayout>
+            <TextView android:textColor="@color/black_100" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dp" android:text="Switch Title Bar - Light Theme" android:paddingVertical="16.0dp" style="@style/title_2_600" />
+            <LinearLayout android:orientation="vertical" android:background="@color/background_black_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:paddingVertical="12.0dp">
+                <com.handheld.uikit.components.titlebar.SwitchTitleBar android:id="@id/switch_title_bar_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="8.0dp" app:leftIcon="@drawable/ic_nav_bar_back_light" app:leftTabText="四字标题" app:rightTabText="四字标题" app:uiTheme="light" />
+                <com.handheld.uikit.components.titlebar.SwitchTitleBar android:id="@id/switch_title_bar_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:paddingVertical="8.0dp" app:leftIcon="@null" app:leftTabText="左对齐" app:rightTabText="Tab区域" app:uiTheme="light" />
+            </LinearLayout>
+            <View android:background="@color/divider_light" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginVertical="20.0dp" />
+            <TextView android:textColor="@color/black_100" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Switch Title Bar - Dark Theme" android:paddingVertical="16.0dp" style="@style/title_2_600" />
+            <LinearLayout android:orientation="vertical" android:background="@color/background_white_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:paddingVertical="12.0dp">
+                <com.handheld.uikit.components.titlebar.SwitchTitleBar android:id="@id/switch_title_bar_dark_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="8.0dp" app:leftIcon="@drawable/ic_nav_bar_back_dark" app:leftTabText="四字标题" app:rightTabText="四字标题" app:uiTheme="dark" />
+                <com.handheld.uikit.components.titlebar.SwitchTitleBar android:id="@id/switch_title_bar_dark_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:paddingVertical="8.0dp" app:leftIcon="@null" app:leftTabText="左对齐" app:rightTabText="Tab区域" app:uiTheme="dark" />
+            </LinearLayout>
+            <View android:background="@color/divider_light" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginVertical="20.0dp" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20.0dp">
+                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/black_100" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="控制按钮" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <Button android:id="@id/btn_switch_tab_1" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="切换Tab1" android:layout_weight="1.0" android:layout_marginEnd="8.0dp" />
+                    <Button android:id="@id/btn_switch_tab_2" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="切换Tab2" android:layout_weight="1.0" android:layout_marginStart="8.0dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textColor="@color/black_100" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dp" android:text="Large Switch Title Bar - Light Theme" android:paddingVertical="16.0dp" style="@style/title_2_600" />
+            <LinearLayout android:orientation="vertical" android:background="@color/background_black_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:paddingVertical="12.0dp">
+                <com.handheld.uikit.components.titlebar.LargeSwitchTitleBar android:id="@id/large_switch_title_bar_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="8.0dp" app:leftIcon="@drawable/ic_nav_bar_back_light" app:leftTabText="设备" app:rightTabText="本地" app:uiTheme="light" />
+                <com.handheld.uikit.components.titlebar.LargeSwitchTitleBar android:id="@id/large_switch_title_bar_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:paddingVertical="8.0dp" app:leftIcon="@null" app:leftTabText="左对齐" app:rightTabText="Tab区域" app:uiTheme="light" />
+            </LinearLayout>
+            <View android:background="@color/divider_light" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginVertical="20.0dp" />
+            <TextView android:textColor="@color/black_100" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Large Switch Title Bar - Dark Theme" android:paddingVertical="16.0dp" style="@style/title_2_600" />
+            <LinearLayout android:orientation="vertical" android:background="@color/background_white_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:paddingVertical="12.0dp">
+                <com.handheld.uikit.components.titlebar.LargeSwitchTitleBar android:id="@id/large_switch_title_bar_dark_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="8.0dp" app:leftIcon="@drawable/ic_nav_bar_back_dark" app:leftTabText="设备" app:rightTabText="本地" app:uiTheme="dark" />
+                <com.handheld.uikit.components.titlebar.LargeSwitchTitleBar android:id="@id/large_switch_title_bar_dark_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:paddingVertical="8.0dp" app:leftIcon="@null" app:leftTabText="左对齐" app:rightTabText="Tab区域" app:uiTheme="dark" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20.0dp">
+                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/black_100" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="动态设置 Dot 文字" />
+                <Button android:id="@id/btn_random_dot_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="随机设置 Dot 文字 (1-99)" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@color/black_80" android:id="@id/tv_status" android:background="@color/white_10" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20.0dp" android:text="状态信息将在这里显示" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

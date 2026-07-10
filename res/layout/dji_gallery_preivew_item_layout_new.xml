@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dji.playback.ui.playbackPreviewActivity.widget.PlaybackInfoDrawerLayout android:id="@id/preview_gesture_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:gravity="center" android:id="@id/preview_content_container" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.dji.playback.ui.view.subsampling.SubsamplingScaleImageView android:id="@id/subsampling_image_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <com.dji.playback.ui.playbackPreviewActivity.widget.TouchImageView android:id="@id/photo_view" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
+            <com.dji.playback.ui.view.LongPressVideoView android:layout_gravity="center" android:id="@id/video_view" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </FrameLayout>
+        <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="1.0px" />
+        <com.dji.playback.ui.playbackPreviewActivity.widget.PlaybackInfoView android:orientation="vertical" android:id="@id/preview_bottom_info_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/guideline" />
+    </com.dji.playback.ui.playbackPreviewActivity.widget.PlaybackInfoDrawerLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/view_preview_unsupported_mask" android:background="@color/black_60" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center" android:layout_width="56.0dp" android:layout_height="56.0dp" android:src="@drawable/playback_ic_otg_un_support" />
+        <TextView android:textColor="@color/white_80" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="@string/mimo_connection_usb_media_unavailable_toast" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

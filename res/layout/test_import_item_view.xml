@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/editor_d_16_dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/test_image" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_250_dp" />
+    <TextView android:id="@id/test_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_12_dp" android:layout_below="@id/test_image" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_6_dp" android:layout_below="@id/test_name">
+        <ImageView android:id="@id/test_clip_num_icon" android:layout_width="@dimen/editor_d_15_dp" android:layout_height="@dimen/editor_d_15_dp" android:src="@drawable/activate_status_icon" />
+        <TextView android:textColor="@color/C_7C7C7F_100" android:id="@id/test_clip_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_8_dp" android:text="5" style="@style/H_4_normal" />
+        <ImageView android:id="@id/test_playtime_icon" android:layout_width="@dimen/editor_d_15_dp" android:layout_height="@dimen/editor_d_15_dp" android:layout_marginLeft="@dimen/editor_d_12_dp" android:src="@drawable/activate_status_icon" />
+        <TextView android:textColor="@color/C_7C7C7F_100" android:id="@id/test_playtime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_8_dp" android:text="5" style="@style/H_4_normal" />
+    </LinearLayout>
+    <TextView android:gravity="center" android:id="@id/test_create_btn" android:background="@drawable/mediaeditor_share_save_bg_color" android:layout_width="@dimen/editor_d_65_dp" android:layout_height="@dimen/editor_d_31_dp" android:layout_marginTop="@dimen/editor_d_12_dp" android:text="CREATE" android:layout_below="@id/test_image" android:layout_alignParentRight="true" />
+</RelativeLayout>

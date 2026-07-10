@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="@dimen/d_20_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SeekBar android:id="@id/seek_bar" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxHeight="@dimen/d_3_dp" android:minHeight="@dimen/d_3_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/text_total_time" app:layout_constraintStart_toEndOf="@id/text_current_time" app:layout_constraintTop_toTopOf="parent" style="@style/GallerySeekBarStyle" />
+    <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/gallery_white" android:id="@id/text_total_time" android:layout_width="@dimen/d_40_dp" android:layout_height="wrap_content" android:text="00:00" android:layout_marginEnd="@dimen/d_21_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/gallery_white" android:id="@id/text_current_time" android:layout_width="@dimen/d_40_dp" android:layout_height="wrap_content" android:text="00:00" android:layout_marginStart="@dimen/d_21_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

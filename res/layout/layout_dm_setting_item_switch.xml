@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextStyleRobotoRegular" android:textSize="@dimen/d_15_dp" android:textColor="@color/white_90" android:id="@id/dm300_setting_switch_item_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/dm300tx_common_parameter_setting_denosingbtn_list_title" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/dm300_setting_switch_item_checkbox" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <CheckBox android:id="@id/dm300_setting_switch_item_checkbox" android:layout_marginStart="@dimen/d_12_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/v2_settings_item_checkbox" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView android:id="@id/dm300_setting_switch_item_desc" android:layout_marginTop="@dimen/d_6_dp" style="@style/dm_setting_desc" />
+</LinearLayout>

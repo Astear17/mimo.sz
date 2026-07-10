@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_6_dp" android:layout_marginRight="@dimen/editor_d_6_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_beauty_icon" android:visibility="gone" android:layout_width="@dimen/editor_d_28_dp" android:layout_height="@dimen/editor_d_28_dp" android:layout_centerHorizontal="true" />
+    <TextView android:textColor="@color/mediaeditor_toning_beauty_item_color" android:gravity="center" android:id="@id/tv_beauty_percent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_28_dp" android:layout_centerHorizontal="true" style="@style/H_2_normal" />
+    <TextView android:textColor="@color/white_45" android:ellipsize="end" android:gravity="center" android:id="@id/tv_beauty_lable" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_30_dp" android:maxLines="2" android:layout_centerHorizontal="true" style="@style/H_5_normal" />
+    <View android:id="@id/v_line" android:background="@color/white_20" android:layout_width="1.0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_12_dp" android:layout_marginBottom="@dimen/editor_d_12_dp" android:layout_alignBottom="@id/tv_beauty_lable" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+</RelativeLayout>

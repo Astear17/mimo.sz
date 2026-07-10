@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.handheld.uikit.components.input.AccountVerifyInputView android:id="@id/account_verify_input" android:layout_width="match_parent" android:layout_height="wrap_content" app:hintText="@string/kino_graph_code_placeholder_text" app:uiTheme="light" app:verifyInputMode="verificationImage" />
+    <View android:background="@color/color_333333" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1.0px" android:layout_below="@id/account_verify_input" />
+</RelativeLayout>

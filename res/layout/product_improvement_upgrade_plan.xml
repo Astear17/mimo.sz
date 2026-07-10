@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_20_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/black_90" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mimo_common_pip_old_users_super_partner_update_help_list_title" style="@style/body_1_600" />
+    <TextView android:textColor="@color/black_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" android:text="@string/mimo_common_pip_analysis_and_improvement_list_title" style="@style/body_3_400" />
+    <TextView android:textColor="@color/black_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" android:text="@string/mimo_common_pip_old_users_super_partner_update_help_list_content" style="@style/body_3_400" />
+    <TextView android:textColor="@color/black_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" android:text="@string/mimo_common_pip_old_users_super_partner_update_help2_list_content" style="@style/body_3_400" />
+    <TextView android:textColor="@color/color_blue" android:id="@id/improvement_upgrade_plan_layout_how_help" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" android:text="@string/mimo_common_pip_help_statement_list_title" style="@style/body_3_600" />
+</LinearLayout>

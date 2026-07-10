@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_viewset" android:layout_width="@dimen/editor_d_56_dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_cameraStable" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_8_dp">
+        <ImageView android:id="@id/activity_qingpai_cameraStable" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:src="@drawable/qingpai_camera_stable" />
+        <TextView android:textSize="@dimen/editor_d_9_dp" android:textColor="@color/mediaeditor_color_FAFAFA" android:id="@id/activity_qingpai_cameraStable_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_afflatus_imu" android:shadowColor="@color/mediaeditor_black_40" android:shadowRadius="2.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_girdline" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_8_dp">
+        <ImageView android:id="@id/activity_qingpai_gridline" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:src="@drawable/qingpai_gridline" />
+        <TextView android:textSize="@dimen/editor_d_9_dp" android:textColor="@color/mediaeditor_color_FAFAFA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_afflatus_guide" android:shadowColor="@color/mediaeditor_black_40" android:shadowRadius="2.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_countdown" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_8_dp">
+        <ImageView android:id="@id/activity_qingpai_countdown" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:src="@drawable/qingpai_countdown_off" />
+        <TextView android:textSize="@dimen/editor_d_9_dp" android:textColor="@color/mediaeditor_color_FAFAFA" android:gravity="center" android:id="@id/activity_qingpai_countdown_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_afflatus_countdown" android:shadowColor="@color/mediaeditor_black_40" android:shadowRadius="2.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_guide" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_8_dp">
+        <ImageView android:id="@id/activity_qingpai_guide" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:src="@drawable/qingpai_guide" />
+        <TextView android:textSize="@dimen/editor_d_9_dp" android:textColor="@color/mediaeditor_color_FAFAFA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_afflatus_course" android:shadowColor="@color/mediaeditor_black_40" android:shadowRadius="2.0" />
+    </LinearLayout>
+</LinearLayout>

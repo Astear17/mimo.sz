@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.lomo.fpv.ui.normal.settings.video.imagequality.ImageQualitySettingSV2 android:fillViewport="true" style="@style/dji_setting_stage_sv"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/dji_setting_stage_voice_control_settings" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@id/device_image_quality_sharpness_divider" layout="@layout/dji_setting_normal_stage_device_beauty_divider" />
+        <dji.lomo.fpv.ui.normal.settings.video.imagequality.newview.ImageQualitySharpnessSliderView android:id="@id/device_image_quality_snap_sharpness_denoise" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <include android:id="@id/device_image_quality_denoise_divider" layout="@layout/dji_setting_normal_stage_device_beauty_divider" />
+        <dji.lomo.fpv.ui.normal.settings.video.imagequality.newview.ImageQualityDeNoiseSliderView android:id="@id/device_image_quality_snap_slider_denoise" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <include android:id="@id/device_image_quality_bottom_divider" layout="@layout/dji_setting_normal_stage_device_beauty_divider" />
+    </LinearLayout>
+</dji.lomo.fpv.ui.normal.settings.video.imagequality.ImageQualitySettingSV2>

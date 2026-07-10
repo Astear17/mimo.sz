@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/view_root" android:layout_width="match_parent" android:layout_height="wrap_content" app:behavior_hideable="false" app:behavior_peekHeight="@dimen/editor_d_0_dp" app:layout_behavior="@string/view_pager_bottom_sheet_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/mediaeditor_music_lib_bg_shape" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_270_dp">
+        <FrameLayout android:id="@id/collapsed" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:layout_width="@dimen/editor_d_36_dp" android:layout_height="@dimen/editor_d_24_dp" android:src="@drawable/more_model_arrow" />
+        </FrameLayout>
+        <lct.lomo.sdk.editor.multiple.entrance.widget.class_widget.TemplateClassRecyclerView android:id="@id/template_class_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_5_dp" android:layout_marginBottom="@dimen/editor_d_11_dp" android:nestedScrollingEnabled="false" />
+        <lct.lomo.sdk.editor.multiple.entrance.widget.more_view.TemplateMoreViewPager android:id="@id/template_more_viewpager" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

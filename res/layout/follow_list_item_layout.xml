@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dji.lomo.main.view.CustomImageView android:id="@id/video_cover" android:layout_width="match_parent" android:layout_height="@dimen/d_94_dp" android:layout_marginTop="@dimen/d_8_dp" style="@style/fresco_cover_view_style" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" android:layout_marginBottom="@dimen/d_13_dp" android:layout_below="@id/video_cover">
+        <dji.lomo.main.view.CustomImageView android:id="@id/follow_header" android:layout_width="@dimen/d_20_dp" android:layout_height="@dimen/d_20_dp" android:layout_marginRight="@dimen/d_6_dp" android:layout_alignParentLeft="true" style="@style/fresco_header_view_style" />
+        <TextView android:textSize="@dimen/d_11_dp" android:textColor="@color/white" android:id="@id/follow_name" android:layout_toLeftOf="@id/follow_date" android:layout_toRightOf="@id/follow_header" android:layout_centerVertical="true" style="@style/name_date_count_text_style" />
+        <TextView android:textSize="@dimen/d_11_dp" android:textColor="@color/label_date_text_color" android:id="@id/follow_date" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/name_date_count_text_style" />
+    </RelativeLayout>
+</RelativeLayout>

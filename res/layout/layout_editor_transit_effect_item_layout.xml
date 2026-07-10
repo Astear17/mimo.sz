@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="@dimen/editor_d_54_dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_bg" android:background="@drawable/panorama_transit_effect_item_shape" android:layout_width="@dimen/editor_d_54_dp" android:layout_height="@dimen/editor_d_54_dp">
+        <ImageView android:layout_gravity="center" android:id="@id/icon" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textColor="@color/C_7C7C7F_100" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_4_dp" android:lines="2" style="@style/H_5_normal" />
+</LinearLayout>

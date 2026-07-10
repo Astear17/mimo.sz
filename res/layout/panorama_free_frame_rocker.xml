@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lctsdk.mediaeditor.widget.FovAdjustSlidingView android:id="@id/panorama_fov_sliding" android:layout_width="@dimen/editor_d_36_dp" android:layout_height="@dimen/editor_d_438_dp" android:layout_marginLeft="@dimen/editor_d_23_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/panorama_rocker_layout_container" android:clipChildren="false" android:layout_width="@dimen/editor_d_120_dp" android:layout_height="@dimen/editor_d_120_dp" android:layout_marginBottom="@dimen/editor_d_280_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent">
+        <com.lctsdk.mediaeditor.widget.rocker.RockerLayout android:layout_gravity="center" android:id="@id/panorama_rocker_layout" android:clipChildren="false" android:layout_width="@dimen/editor_d_220_dp" android:layout_height="@dimen/editor_d_220_dp" />
+    </FrameLayout>
+</merge>

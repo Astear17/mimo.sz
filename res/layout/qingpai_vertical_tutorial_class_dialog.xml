@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:id="@id/lct_dialog_root_view" android:background="@drawable/mediaeditor_white_dialog_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:orientation="vertical" android:paddingTop="@dimen/editor_d_35_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/editor_d_115_dp">
+        <TextView android:typeface="normal" android:textColor="@color/C_000000_100" android:id="@id/tv_qingpai_tutorial_class_horizontal_lable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_afflatus_horizontal_screen_choose_scenes" android:includeFontPadding="false" android:layout_centerHorizontal="true" style="@style/H_1_normal" />
+        <androidx.recyclerview.widget.RecyclerView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/rv_qingpai_tutorial_class_horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/editor_d_13_dp" android:layout_marginTop="@dimen/editor_d_18_dp" android:layout_marginRight="@dimen/editor_d_13_dp" android:layout_above="@id/dialog_hor_line" android:layout_below="@id/tv_qingpai_tutorial_class_horizontal_lable" />
+        <View android:id="@id/dialog_hor_line" android:background="@color/C_E4E4E4_100" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" android:layout_above="@id/bottom" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bottom" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp" android:layout_alignParentBottom="true">
+            <TextView android:typeface="normal" android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/tv_qingpai_tutorial_class_horizontal_ok" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/common_dialog_yes" android:layout_weight="1.0" style="@style/H_3_normal" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

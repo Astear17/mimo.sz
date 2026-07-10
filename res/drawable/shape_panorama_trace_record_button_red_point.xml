@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/shape_panorama_trace_record_button_red_point_corners" />
+    <solid android:color="@color/C_FA4949_100" />
+</shape>

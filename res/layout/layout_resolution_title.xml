@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/color_B3FFFFFF" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/resolution_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/d_150_dp" android:text="@string/general_playback_single_clip_edit_export_parameter_setting_resolution_original" android:maxLines="1" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/resolution_arrow_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/segment_title_arrow_icon" android:layout_marginStart="@dimen/d_9_dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

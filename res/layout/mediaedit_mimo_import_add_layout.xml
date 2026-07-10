@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.sdk.editor.widget.LctMSdkProgressView android:id="@id/import_widget_progress" android:visibility="gone" android:layout_width="@dimen/d_60_dp" android:layout_height="@dimen/d_60_dp" android:layout_centerInParent="true" app:bar_width="@dimen/d_2_dp" app:bg_color="@color/black_30" app:progress_color="@color/white" />
+    <ImageView android:id="@id/import_widget_add_id" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:src="@drawable/mediaedit_import_add" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/import_widget_download_btn" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:src="@drawable/mediaedit_import_new_icon" android:layout_alignParentBottom="true" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.lomo.fpv.ui.base.gimbal.DJIJoystickView android:layout_gravity="start|bottom" android:id="@id/left_stick" android:clipChildren="false" android:layout_width="@dimen/d_99_dp" android:layout_height="@dimen/d_99_dp" android:layout_marginBottom="@dimen/d_48_dp" android:layout_marginStart="@dimen/d_48_dp" />
+    <dji.lomo.fpv.ui.base.gimbal.DJIJoystickView android:layout_gravity="end|bottom" android:id="@id/right_stick" android:clipChildren="false" android:layout_width="@dimen/d_99_dp" android:layout_height="@dimen/d_99_dp" android:layout_marginBottom="@dimen/d_48_dp" android:layout_marginEnd="@dimen/d_48_dp" />
+</merge>

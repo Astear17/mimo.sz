@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lct.uilib.widget.RoundRadiusLayout android:id="@id/rl_model_item" android:layout_width="match_parent" android:layout_height="match_parent" app:roundRadius="@dimen/editor_d_10_dp">
+        <com.lct.uilib.widget.RoundRadiusImageView android:id="@id/model_item_model_cover" android:background="@color/C_F4F4F4_100" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:radiusColor="@color/C_FAFAFA_100" app:roundRadius="@dimen/editor_d_10_dp" />
+        <com.lct.uilib.widget.RoundRadiusImageView android:id="@id/model_item_label" android:layout_width="@dimen/editor_d_50_dp" android:layout_height="@dimen/editor_d_20_dp" android:layout_marginLeft="@dimen/editor_d_8_dp" android:layout_marginTop="@dimen/editor_d_8_dp" android:scaleType="centerCrop" app:radiusColor="@color/transparent" app:roundRadius="@dimen/editor_d_4_dp" />
+    </com.lct.uilib.widget.RoundRadiusLayout>
+    <TextView android:textColor="@color/black" android:ellipsize="end" android:id="@id/model_item_model_name" android:paddingBottom="@dimen/editor_d_6_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_8_dp" android:maxWidth="@dimen/editor_d_120_dp" android:lines="1" android:layout_below="@id/rl_model_item" android:layout_alignParentStart="true" style="@style/H_3_normal" />
+</RelativeLayout>

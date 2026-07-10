@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_white_1" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/improvement_help_desc_title" layout="@layout/common_title_layout_light" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_24_dp" android:layout_marginEnd="@dimen/d_24_dp">
+        <TextView android:textAppearance="@style/title_6_600" android:textColor="@color/black_90" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mimo_common_pip_partner_list_title_cn" />
+        <TextView android:textAppearance="@style/body_2_600" android:textColor="@color/black_90" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_16_dp" android:text="@string/mimo_common_pip_analysis_and_improvement_list_title_cn" />
+        <TextView android:textAppearance="@style/body_3_400" android:textColor="@color/black_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" android:text="@string/mimo_common_pip_partner_help_for_dji_list_content_cn" />
+        <View android:background="@color/black_6" android:layout_width="match_parent" android:layout_height="@dimen/d_1_dp" android:layout_marginTop="@dimen/d_20_dp" android:layout_marginBottom="@dimen/d_20_dp" />
+        <TextView android:textAppearance="@style/title_6_600" android:textColor="@color/black_90" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mimo_common_pip_super_partner_list_title_cn" />
+        <TextView android:textAppearance="@style/body_2_600" android:textColor="@color/black_90" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_16_dp" android:text="@string/mimo_common_pip_analysis_and_improvement_list_title_cn" />
+        <TextView android:textAppearance="@style/body_3_400" android:textColor="@color/black_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" android:text="@string/mimo_common_pip_partner_help_for_dji_list_content_cn" />
+        <TextView android:textAppearance="@style/body_2_600" android:textColor="@color/black_90" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_16_dp" android:text="@string/mimo_common_pip_list_content2_cn" />
+        <TextView android:textAppearance="@style/body_3_400" android:textColor="@color/black_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" android:text="@string/mimo_common_pip_partner_help_for_dji_list_content_cn" />
+        <TextView android:textAppearance="@style/body_2_600" android:textColor="@color/black_90" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_16_dp" android:text="@string/mimo_common_pip_list_content3_cn" />
+        <TextView android:textAppearance="@style/body_3_400" android:textColor="@color/black_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" android:text="@string/mimo_common_pip_super_partner_help_for_dji_camera_list_content_cn" />
+    </LinearLayout>
+</LinearLayout>

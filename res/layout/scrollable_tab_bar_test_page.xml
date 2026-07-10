@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/background_white_1" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/black_100" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dp" android:text="ScrollableTabBar 测试" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/black_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:text="浅色主题" />
+        <com.handheld.uikit.components.segmentcontrol.ScrollableTabBar android:id="@id/scrollable_tab_bar_light" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_marginBottom="24.0dp" app:uiTheme="light" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/black_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:text="深色主题" />
+        <com.handheld.uikit.components.segmentcontrol.ScrollableTabBar android:id="@id/scrollable_tab_bar_dark" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_marginBottom="24.0dp" app:uiTheme="dark" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp">
+                <Button android:id="@id/btn_add_tab" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="添加Tab" android:layout_weight="1.0" android:layout_marginEnd="8.0dp" />
+                <Button android:id="@id/btn_remove_tab" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="移除Tab" android:layout_weight="1.0" android:layout_marginStart="8.0dp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp">
+                <Button android:id="@id/btn_select_first" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="选择第一个" android:layout_weight="1.0" android:layout_marginEnd="8.0dp" />
+                <Button android:id="@id/btn_select_last" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="选择最后一个" android:layout_weight="1.0" android:layout_marginStart="8.0dp" />
+            </LinearLayout>
+            <Button android:id="@id/btn_clear_tabs" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:text="清空所有Tab" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/black_60" android:id="@id/tv_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="当前选中: 无" />
+    </LinearLayout>
+</ScrollView>

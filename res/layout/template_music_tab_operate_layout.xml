@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/origin_select_layout" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerVertical="true" android:layout_marginStart="@dimen/editor_d_22_dp" android:layout_alignParentStart="true">
+        <CheckBox android:id="@id/origin_select_btn" android:clickable="false" android:layout_width="@dimen/editor_d_19_dp" android:layout_height="@dimen/editor_d_19_dp" style="@style/MusicOriginCheckBoxTheme" />
+        <TextView android:textColor="@color/white" android:id="@id/origin_select_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_mystory_original" android:layout_marginStart="@dimen/editor_d_5_dp" style="@style/H_4_normal" />
+    </LinearLayout>
+    <TextView android:textColor="@color/white" android:id="@id/music_lib" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_model_music_library" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/editor_d_22_dp" android:layout_alignParentEnd="true" style="@style/H_3_normal" />
+    <TextView android:textColor="@color/white" android:id="@id/music_clip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_model_music_clip" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/editor_d_30_dp" android:layout_toStartOf="@id/music_lib" style="@style/H_3_normal" />
+    <TextView android:textColor="@color/white" android:id="@id/music_volume" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_model_videopreview_volume" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/editor_d_30_dp" android:layout_toStartOf="@id/music_clip" style="@style/H_3_normal" />
+</RelativeLayout>

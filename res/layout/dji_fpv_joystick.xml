@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_bkg" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
+    <dji.lomo.fpv.ui.base.gimbal.DJIStickButton android:layout_gravity="center" android:id="@id/btn_stick" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="center" android:id="@id/iv_center_circle" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_pic_joystick_central_circle" android:scaleType="center" />
+    <ImageView android:layout_gravity="center" android:id="@id/iv_single_arrow" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_pic_joystick_single_arrow" android:scaleType="center" />
+</merge>

@@ -1,0 +1,261 @@
+[{
+	"font"  : "SourceHanSansCN-Regular",
+	"alias" : "思源黑体-Regular",
+	"slug"  : "FNT_SourceHanSansCN-Regular"
+}, {
+	"font"  : "Muyao-Softbrush",
+	"alias" : "沐瑶软笔手写体",
+	"slug"  : "FNT_Muyao-Softbrush"
+}, {
+	"font"  : "zcoolqingkehuangyouti-Regular",
+	"alias" : "站酷庆科黄油体",
+	"slug"  : "FNT_zcoolqingkehuangyouti-Regular"
+}, {
+	"font"  : "HappyZcool-2016",
+	"alias" : "站酷快乐体",
+	"slug"  : "FNT_HappyZcool-2016"
+}, {
+	"font"  : "xiaowei",
+	"alias" : "站酷小薇LOGO体",
+	"slug"  : "FNT_xiaowei"
+}, {
+	"font"  : "zcool-gdh",
+	"alias" : "站酷高端黑",
+	"slug"  : "FNT_zcool-gdh"
+}, {
+	"font"  : "lianmengqiyilushuaizhengruiheiti-Regular",
+	"alias" : "卢帅正锐黑体",
+	"slug"  : "FNT_lianmengqiyilushuaizhengruiheiti-Regular"
+}, {
+	"font"  : "851tegakizatsu",
+	"alias" : "851手写杂字体",
+	"slug"  : "FNT_851tegakizatsu"
+}, {
+	"font"  : "SlideFonts-Regular",
+	"alias" : "演示新手书",
+	"slug"  : "FNT_SlideFonts-Regular"
+}, {
+	"font"  : "FNT_SlideFonts-Regular",
+	"alias" : "杨任东竹石体-Regular",
+	"slug"  : "FNT_YRDZST-Regular"
+}, {
+	"font"  : "baotuxiaobaiti",
+	"alias" : "包图小白体",
+	"slug"  : "FNT_baotuxiaobaiti"
+}, {
+	"font"  : "slideyouran-Regular",
+	"alias" : "演示悠然小楷",
+	"slug"  : "FNT_slideyouran-Regular"
+}, {
+	"font"  : "SlideTownsoul-Regular",
+	"alias" : "演示镇魂行楷",
+	"slug"  : "FNT_SlideTownsoul-Regular"
+}, {
+	"font"  : "Tanuki-Permanent-Marker",
+	"alias" : "たぬき油性マジック",
+	"slug"  : "FNT_Tanuki-Permanent-Marker"
+}, {
+	"font"  : "GenJyuuGothic-P-Regular",
+	"alias" : "源柔ゴシックP",
+	"slug"  : "FNT_GenJyuuGothic-P-Regular"
+}, {
+	"font"  : "Chogokuboso-Gothic",
+	"alias" : "超極細ゴシック",
+	"slug"  : "FNT_Chogokuboso-Gothic"
+}, {
+	"font"  : "ShouShuti",
+	"alias" : "智勇手书体",
+	"slug"  : "FNT_ShouShuti"
+}, {
+	"font"  : "Pangmenzhengdaoqingsongti",
+	"alias" : "庞门正道轻松体",
+	"slug"  : "FNT_Pangmenzhengdaoqingsongti"
+}, {
+	"font"  : "TanukiMagic",
+	"alias" : "手写-TanukiMagic",
+	"slug"  : "FNT_TanukiMagic"
+}, {
+	"font"  : "chocoleta",
+	"alias" : "笔刷-chocoleta",
+	"slug"  : "FNT_chocoleta"
+}, {
+	"font"  : "Dji-Bold-Bold",
+	"alias" : "等宽-Dji-Bold-Bold",
+	"slug"  : "FNT_Dji-Bold-Bold"
+}, {
+	"font"  : "ReliableDEMO",
+	"alias" : "笔刷-ReliableDEMO",
+	"slug"  : "FNT_ReliableDEMO"
+}, {
+	"font"  : "Roboto-BoldItalic",
+	"alias" : "等宽-Roboto",
+	"slug"  : "FNT_Roboto-BoldItalic"
+}, {
+	"font"  : "Selima",
+	"alias" : "笔刷-Selima",
+	"slug"  : "FNT_Selima"
+}, {
+	"font"  : "HuXiaoBo-NanShenTi2.0",
+	"alias" : "胡晓波男神体",
+	"slug"  : "FNT_HuXiaoBo-NanShenTi2.0"
+}, {
+	"font"  : "HuXiaoBo-SaoBaoTi2.0",
+	"alias" : "胡晓波骚包体",
+	"slug"  : "FNT_HuXiaoBo-SaoBaoTi2.0"
+}, {
+	"font"  : "jiangxizhuokai-Regular",
+	"alias" : "江西拙楷-Regular",
+	"slug"  : "FNT_jiangxizhuokai-Regular"
+}, {
+	"font"  : "AbrilFatface-Regular",
+	"alias" : "衬线-AbrilFatface",
+	"slug"  : "FNT_AbrilFatface-Regular"
+}, {
+	"font"  : "Bangers-Regular",
+	"alias" : "花式-Bangers",
+	"slug"  : "FNT_Bangers-Regular"
+}, {
+	"font"  : "Chewy-Regular",
+	"alias" : "手写-Chewy",
+	"slug"  : "FNT_Chewy-Regular"
+}, {
+	"font"  : "Cookie-Regular",
+	"alias" : "手写-Cookie",
+	"slug"  : "FNT_Cookie-Regular"
+}, {
+	"font"  : "Galada-Regular",
+	"alias" : "手写-Galada",
+	"slug"  : "FNT_Galada-Regular"
+}, {
+	"font"  : "BungeeInline-Regular",
+	"alias" : "等宽-BungeeInline",
+	"slug"  : "FNT_BungeeInline-Regular"
+}, {
+	"font"  : "MysteryQuest",
+	"alias" : "花式-MysteryQuest",
+	"slug"  : "FNT_MysteryQuest"
+}, {
+	"font"  : "NanumPen",
+	"alias" : "手写-NanumPen",
+	"slug"  : "FNT_NanumPen"
+}, {
+	"font"  : "Oswald-Regular",
+	"alias" : "等宽-Oswald",
+	"slug"  : "FNT_Oswald-Regular"
+}, {
+	"font"  : "Rancho-Regular",
+	"alias" : "笔刷-Rancho",
+	"slug"  : "FNT_Rancho-Regular"
+}, {
+	"font"  : "Sacramento-Regular",
+	"alias" : "手写-Sacramento",
+	"slug"  : "FNT_Sacramento-Regular"
+}, {
+	"font"  : "SairaExtraCondensed-Black",
+	"alias" : "等宽-SairaExtraCondensed-Black",
+	"slug"  : "FNT_SairaExtraCondensed-Black"
+}, {
+	"font"  : "Satisfy-Regular",
+	"alias" : "手写-Satisfy",
+	"slug"  : "FNT_Satisfy-Regular"
+}, {
+	"font"  : "SourceHanSerifCN-SemiBold",
+	"alias" : "思源中宋-SemiBold",
+	"slug"  : "FNT_SourceHanSerifCN-SemiBold"
+}, {
+	"font"  : "SourceHanSerifCN-Heavy",
+	"alias" : "思源粗宋-Heavy",
+	"slug"  : "FNT_SourceHanSerifCN-Heavy"
+}, {
+	"font"  : "IPix",
+	"alias" : "中文像素体",
+	"slug"  : "FNT_IPix"
+}, {
+	"font"  : "Mengshen-Regular",
+	"alias" : "萌神拼音体-Regular",
+	"slug"  : "FNT_Mengshen-Regular"
+}, {
+	"font"  : "XiaolaiSC",
+	"alias" : "小赖字体",
+	"slug"  : "FNT_XiaolaiSC"
+}, {
+	"font"  : "SweiMeatballCJKtc-Bold",
+	"alias" : "狮尾肉丸体",
+	"slug"  : "FNT_SweiMeatballCJKtc-Bold"
+}, {
+	"font"  : "Slidechunfeng-Regular",
+	"alias" : "演示春风楷",
+	"slug"  : "FNT_Slidechunfeng-Regular"
+}, {
+	"font"  : "QIJIC",
+	"alias" : "令东齐伋体",
+	"slug"  : "FNT_QIJIC"
+}, {
+	"font"  : "LongCang-Regular",
+	"alias" : "龙藏体",
+	"slug"  : "FNT_LongCang-Regular"
+}, {
+	"font"  : "MaShanZheng-Regular",
+	"alias" : "马善政毛笔楷书-Regular",
+	"slug"  : "FNT_MaShanZheng-Regular"
+}, {
+	"font"  : "Cafe24Decoschool",
+	"alias" : "粉笔-Cafe24Decoschool",
+	"slug"  : "FNT_Cafe24Decoschool"
+}, {
+	"font"  : "CaveatBrush-Regular",
+	"alias" : "手写-CaveatBrush",
+	"slug"  : "FNT_CaveatBrush-Regular"
+}, {
+	"font"  : "JollyLodger",
+	"alias" : "花式-JollyLodger",
+	"slug"  : "FNT_JollyLodger"
+}, {
+	"font"  : "PressStart2P-Regular",
+	"alias" : "像素-PressStart2P",
+	"slug"  : "FNT_PressStart2P-Regular"
+}, {
+	"font"  : "ShadowsIntoLight",
+	"alias" : "手写-ShadowsIntoLight",
+	"slug"  : "FNT_ShadowsIntoLight"
+}, {
+	"font"  : "OtomanopeeOne-Regular",
+	"alias" : "GL-オとマのペ",
+	"slug"  : "FNT_OtomanopeeOne-Regular"
+}, {
+	"font"  : "momozhuanji-Regular",
+	"alias" : "默陌专辑体",
+	"slug"  : "FNT_momozhuanji-Regular"
+}, {
+	"font"  : "WenYue-XinQingNianTi-W8-J",
+	"alias" : "文悦新青年",
+	"slug"  : "FNT_WenYue-XinQingNianTi-W8-J"
+}, {
+	"font"  : "Rhythmic-Regular",
+	"alias" : "Rhythmic-大写笔刷",
+	"slug"  : "FNT_Rhythmic-Regular"
+}, {
+	"font"  : "SaltedMocha-Regular",
+	"alias" : "SaltedMocha-手写",
+	"slug"  : "FNT_SaltedMocha-Regular"
+}, {
+	"font"  : "Virtuoso-Regular",
+	"alias" : "Virtuoso-笔刷",
+	"slug"  : "FNT_Virtuoso-Regular"
+}, {
+	"font"  : "HYRuiYiSongW",
+	"alias" : "汉仪瑞意宋",
+	"slug"  : "FNT_HYRuiYiSongW"
+}, {
+	"font"  : "HanyiSentyMeadow",
+	"alias" : "汉仪新蒂芳草体",
+	"slug"  : "FNT_HanyiSentyMeadow"
+}, {
+	"font"  : "WenYue-XHGuYaSong-JRFC",
+	"alias" : "文悦新恒古雅宋",
+	"slug"  : "FNT_WenYue-XHGuYaSong-JRFC"
+}, {
+	"font"  : "ZiYuZiZaiSuiXinTi",
+	"alias" : "字语自在随心体",
+	"slug"  : "FNT_ZiYuZiZaiSuiXinTi"
+}]

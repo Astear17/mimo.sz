@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/shake_directionLock_layout" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/more_setting_card_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_8_dp">
+        <include android:id="@id/sn_layout" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_44_dp" layout="@layout/more_setting_switch_item_layout" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/editor_d_12_dp" android:textColor="@color/C_7C7C7F_100" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/panorama_single_fragment_default_calibration_tips" />
+</LinearLayout>

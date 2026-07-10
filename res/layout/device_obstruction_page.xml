@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.base.ui.widget.dji.DJIRelativeLayout android:background="@color/black_101010" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.base.ui.widget.dji.DJIImageView android:id="@id/obstruction_src" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/activate_home_image_ac103" android:layout_above="@id/obstruction_reference_line" android:layout_centerHorizontal="true" />
+    <View android:id="@id/obstruction_reference_line" android:layout_width="wrap_content" android:layout_height="@dimen/d_1_dp" android:layout_centerVertical="true" />
+    <dji.base.ui.widget.dji.DJITextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white" android:id="@id/obstruction_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_10_dp" android:text="@string/ac103_fpv_tips_uvc_busy_small_dialog_content" android:layout_below="@id/obstruction_reference_line" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/d_10_dp" android:layout_marginEnd="@dimen/d_10_dp" />
+</dji.base.ui.widget.dji.DJIRelativeLayout>

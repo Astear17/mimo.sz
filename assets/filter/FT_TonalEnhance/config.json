@@ -1,0 +1,12 @@
+{
+  "objectType": "filter",
+  "version": 0,
+  "filter": {
+    "slug": "FT_TonalEnhance",
+    "service": "mika.tonal_enhance",
+    "properties": {
+      "meta": "tone_params_meta.bin",
+      "statistics": "tone_params_statistics.bin"
+    }
+  }
+}

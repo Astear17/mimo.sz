@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/dlg_stroke_dark_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/notice_for_user_title" android:paddingTop="@dimen/d_20_dp" android:paddingBottom="@dimen/d_15_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/hg303_fpv_instruction_small_dialog_title" style="@style/TextStyleRobotoBold" />
+    <ScrollView android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="@dimen/d_140_dp">
+        <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/white" android:autoLink="web" android:id="@id/notice_for_user" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/hg303_fpv_instruction_small_dialog_content" android:paddingStart="@dimen/d_22_dp" android:paddingEnd="@dimen/d_22_dp" />
+    </ScrollView>
+    <View android:id="@id/notice_for_user_line2" android:background="@color/dlg_black_divide_color" android:layout_width="match_parent" android:layout_height="@dimen/d_4_dp" android:layout_marginTop="@dimen/d_15_dp" />
+    <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/dlg_btn_highlight_bg" android:gravity="center" android:id="@id/notice_for_user_known" android:paddingTop="@dimen/d_15_dp" android:paddingBottom="@dimen/d_15_dp" android:layout_width="match_parent" android:layout_height="0.0dp" android:text="@string/hg303_fpv_instruction_small_dialog_agree_btn" android:layout_weight="1.0" style="@style/TextStyleRobotoCondensedBold" />
+</LinearLayout>

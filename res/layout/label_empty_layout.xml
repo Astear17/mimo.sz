@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/label_status_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_100_dp" />
+    <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/color_666666" android:layout_gravity="center_horizontal" android:id="@id/label_empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_22_dp" android:text="@string/kino_community_common_empty_tip" android:layout_below="@id/label_status_image" android:layout_centerHorizontal="true" />
+</LinearLayout>

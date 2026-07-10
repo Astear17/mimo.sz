@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.drawerlayout.widget.DrawerLayout android:id="@id/drawer_layout" android:background="@color/C_111116_100" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@id/editor_tutorial_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include android:id="@id/title_layout" layout="@layout/editor_turorial_title_layout" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycleView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/editor_d_36_dp" android:layout_marginRight="@dimen/editor_d_36_dp" android:layout_below="@id/title_layout" android:paddingVertical="@dimen/editor_d_24_dp" />
+            <LinearLayout android:orientation="vertical" android:id="@id/scrim_color_ll" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/editor_d_70_dp" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="end" android:layout_gravity="end" android:orientation="vertical" android:layout_width="@dimen/editor_d_200_dp" android:layout_height="match_parent">
+            <RelativeLayout android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_70_dp">
+                <ImageView android:id="@id/editor_turorial_more_scrim_iv" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" android:layout_marginTop="@dimen/editor_d_10_dp" android:src="@drawable/editor_turorial_right_more" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/editor_d_22_dp" />
+            </RelativeLayout>
+            <TextView android:background="@color/C_1A1A1F_100" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_32_dp" android:height="@dimen/editor_d_32_dp" />
+            <TextView android:textColor="@color/white" android:background="@color/C_1A1A1F_100" android:paddingLeft="@dimen/editor_d_22_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/light_editor_video_teaching_use" style="@style/H_3_bold" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/drawer_recycleview" android:background="@color/C_1A1A1F_100" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@android:color/transparent" android:dividerHeight="0.0dp" android:choiceMode="singleChoice" />
+        </LinearLayout>
+    </androidx.drawerlayout.widget.DrawerLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:id="@id/draw_open_title_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+        <ImageView android:id="@id/draw_open_back_iv" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" android:layout_marginTop="@dimen/editor_d_10_dp" android:layout_marginBottom="@dimen/editor_d_18_dp" android:src="@drawable/ic_close_normal" android:layout_marginStart="@dimen/editor_d_22_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textColor="@color/white" android:ellipsize="end" android:id="@id/draw_open_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" app:layout_constraintBottom_toBottomOf="@id/draw_open_back_iv" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/draw_open_back_iv" style="@style/H_3_bold" />
+        <ImageView android:id="@id/editor_turorial_more_iv" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" android:src="@drawable/editor_turorial_right_more" android:layout_marginEnd="@dimen/editor_d_22_dp" app:layout_constraintBottom_toBottomOf="@id/draw_open_back_iv" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/draw_open_back_iv" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

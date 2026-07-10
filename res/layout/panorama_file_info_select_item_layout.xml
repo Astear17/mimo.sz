@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/panorama_preview_low_root" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/editor_d_13_dp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/preview_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_16_dp" android:text="@string/panorama_single_fragment_HD_mode" android:maxLines="2" android:layout_toLeftOf="@id/preview_done" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/editor_d_11_dp" android:textColor="@color/C_7C7C7F_100" android:ellipsize="end" android:id="@id/preview_tip" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_4_dp" android:text="@string/panorama_single_fragment_HD_mode" android:maxLines="2" android:layout_toLeftOf="@id/preview_done" android:layout_centerVertical="true" android:layout_marginStart="@dimen/editor_d_16_dp" android:layout_marginEnd="@dimen/editor_d_64_dp" />
+    </LinearLayout>
+    <ImageView android:id="@id/preview_done" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:src="@drawable/panorama_preview_mode_done" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="16.0dp" android:layout_marginEnd="@dimen/editor_d_16_dp" android:layout_alignParentEnd="true" />
+</RelativeLayout>

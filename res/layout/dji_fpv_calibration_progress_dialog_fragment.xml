@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/black_100" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.handheld.uikit.components.progress.WLCircularProgressBar android:layout_gravity="center" android:id="@id/progress_bar_test_2" android:layout_width="160.0dp" android:layout_height="160.0dp" app:uiTheme="light" />
+    <TextView android:textColor="@color/white_90" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_24_dp" android:text="@string/dji_setting_gimbal_auto_calibration" style="@style/title_4_600" />
+    <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/white_80" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" android:maxWidth="@dimen/d_334_dp" android:text="@string/hg302_fpv_gimbal_auto_calibration_horizontal_processing_mask_content" style="@style/body_2_400" />
+</LinearLayout>

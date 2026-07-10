@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.lomo.main.personal.view.NavsLayout android:orientation="vertical" android:paddingBottom="@dimen/d_15_dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_64_dp" android:layout_marginLeft="@dimen/d_15_dp" android:layout_marginRight="@dimen/d_15_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/tab_list" android:layout_width="match_parent" android:layout_height="@dimen/d_23_dp" android:layout_marginTop="@dimen/d_10_dp" android:layout_marginBottom="@dimen/d_10_dp" />
+    <View android:id="@id/cursor" android:background="@color/color_ffffff" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_3_dp" />
+    <View android:background="@color/color_333333" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_1_dp" />
+</dji.lomo.main.personal.view.NavsLayout>

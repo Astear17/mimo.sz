@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/editor_d_300_dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lct.base.device.tk.TrackDownloadingView android:id="@id/trackDownloadingView" android:background="@drawable/bg_track_download_card" android:layout_width="@dimen/editor_d_300_dp" android:layout_height="wrap_content" android:layout_margin="@dimen/editor_d_16_dp" />
+</FrameLayout>

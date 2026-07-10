@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/black_80" android:layout_width="@dimen/d_320_dp" android:layout_height="@dimen/d_200_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_17_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/download_error_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_37_dp" android:text="TITLE" style="@style/TextStyleRobotoCondensedBold" />
+    <TextView android:textSize="@dimen/d_17_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/download_error_content" android:layout_width="@dimen/d_280_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_18_dp" android:text="dji lomo debug sig ts sgst isns tns gsst" style="@style/TextStyleRobotoCondensedBold" />
+    <View android:id="@id/mediaedit_dialog_line" android:background="@color/white_10" android:layout_width="match_parent" android:layout_height="@dimen/d_4_dp" android:layout_marginTop="@dimen/d_50_dp" android:layout_below="@id/download_error_content" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/d_49_dp" android:layout_below="@id/mediaedit_dialog_line">
+        <TextView android:textSize="@dimen/d_17_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/download_error_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_14_dp" android:text="CANCEL" android:layout_weight="1.0" android:layout_below="@id/mediaedit_dialog_line" style="@style/TextStyleRobotoCondensedBold" />
+        <View android:background="@color/white_10" android:layout_width="1.0px" android:layout_height="match_parent" />
+        <TextView android:textSize="@dimen/d_17_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/download_error_retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_14_dp" android:text="RETRE" android:layout_weight="1.0" android:layout_below="@id/mediaedit_dialog_line" style="@style/TextStyleRobotoCondensedBold" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/d_20_dp" android:paddingEnd="@dimen/d_20_dp">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/d_64_dp" style="@style/v2_common_header_layout">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/return_btn" style="@style/v2_common_header_return" />
+            <TextView android:text="@string/dm303rx_common_parameter_setting_more_setting_title" style="@style/v2_common_header_title" />
+        </FrameLayout>
+        <ScrollView android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/rx_setting_container" android:background="@drawable/v2_settings_group_layout_bg" android:paddingTop="@dimen/d_12_dp" android:paddingBottom="@dimen/d_12_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/d_20_dp" android:paddingEnd="@dimen/d_20_dp" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/factory_reset_entry" android:background="@drawable/v2_settings_group_layout_bg" android:paddingTop="@dimen/d_16_dp" android:paddingBottom="@dimen/d_16_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_24_dp" android:paddingStart="@dimen/d_20_dp" android:paddingEnd="@dimen/d_20_dp">
+                    <TextView android:textSize="16.0sp" android:textColor="@color/white_90" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/mimo_common_mic_setting_reset_list_title" android:layout_weight="1.0" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dji_set_arrow_right" android:alpha="0.3" />
+                </LinearLayout>
+                <View android:layout_width="match_parent" android:layout_height="@dimen/d_24_dp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <FrameLayout android:id="@id/fragment_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

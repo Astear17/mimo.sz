@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/d_42_dp" android:paddingStart="@dimen/d_8_dp" android:paddingEnd="@dimen/d_10_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/switch_title" layout="@layout/lp_setting_item_title" />
+    <dji.base.ui.widget.DJISwitch android:id="@id/switch_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

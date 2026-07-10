@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_19_dp" android:textColor="@color/normal_black_text_color" android:gravity="center" android:id="@id/comment_report" android:paddingTop="@dimen/d_24_dp" android:paddingBottom="@dimen/d_23_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/kino_video_share_jubao" style="@style/TextStyleRobotoCondensedBold" />
+    <View android:id="@id/report_divider" android:background="@color/video_info_dialog_divider_color" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/d_16_dp" android:layout_marginRight="@dimen/d_16_dp" />
+    <TextView android:textSize="@dimen/d_19_dp" android:textColor="@color/video_info_dialog_delete_color" android:gravity="center" android:id="@id/comment_delete" android:paddingTop="22.5dp" android:paddingBottom="22.5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mimo_community_video_more_delete" style="@style/TextStyleRobotoCondensedBold" />
+    <View android:background="@color/video_info_dialog_divider_cancel_color" android:layout_width="match_parent" android:layout_height="@dimen/d_4_dp" />
+    <TextView android:textSize="@dimen/d_19_dp" android:textColor="@color/normal_black_text_color" android:gravity="center" android:id="@id/cancel" android:paddingTop="@dimen/d_15_dp" android:paddingBottom="@dimen/d_15_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/kino_upload_cancel" style="@style/TextStyleRobotoCondensedBold" />
+</LinearLayout>

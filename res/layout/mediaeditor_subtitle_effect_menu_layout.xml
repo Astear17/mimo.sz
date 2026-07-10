@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/edit_menu_bg_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/effect_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/mediaedit_menu_bottom_layout_id">
+        <com.google.android.material.tabs.TabLayout android:layout_gravity="center" android:id="@id/subtitle_tab" android:layout_width="wrap_content" android:layout_height="wrap_content" app:tabIndicatorHeight="0.0dp" app:tabMaxWidth="@dimen/editor_d_150_dp" app:tabMinWidth="@dimen/editor_d_70_dp" app:tabMode="scrollable" app:tabPaddingEnd="0.0dp" app:tabPaddingStart="0.0dp" />
+        <lct.lomo.sdk.editor.widget.BaseRecyclerView android:id="@id/effect_recycler" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_57_dp" android:layout_marginBottom="@dimen/editor_d_30_dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/entry_exit_seekbar_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_10_dp" android:layout_above="@id/mediaedit_menu_bottom_layout_id" android:layout_centerHorizontal="true">
+        <TextView android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_13_dp" android:text="@string/light_editor_textEffect_length" style="@style/H_4_normal" />
+        <lct.lomo.sdk.editor.widget.SubtitleEntryExitEffectSeekbar android:id="@id/entry_exit_seekbar" android:layout_width="@dimen/editor_d_236_dp" android:layout_height="@dimen/editor_d_70_dp" android:layout_marginStart="@dimen/editor_d_10_dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/all_seekbar_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_10_dp" android:layout_above="@id/mediaedit_menu_bottom_layout_id" android:layout_centerHorizontal="true">
+        <TextView android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_13_dp" android:text="@string/light_editor_textEffect_cycletime" style="@style/H_4_normal" />
+        <lct.lomo.sdk.editor.widget.SubtitleCycleEffectSeekbar android:id="@id/all_seekbar" android:layout_width="@dimen/editor_d_236_dp" android:layout_height="@dimen/editor_d_70_dp" android:layout_marginStart="@dimen/editor_d_10_dp" />
+    </LinearLayout>
+    <include android:id="@id/mediaedit_menu_bottom_layout_id" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_49_dp" android:layout_alignParentBottom="true" layout="@layout/mediaeditor_menu_bottom_layout" />
+</RelativeLayout>

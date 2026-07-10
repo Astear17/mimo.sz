@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/pack_window_container" android:background="@color/color_101010" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/pack_iv_anim" android:background="@drawable/dialog_pack_loading_icon" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/pack_loading_tip_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_20_dp" android:layout_below="@id/pack_iv_anim" android:paddingStart="@dimen/d_25_dp" android:paddingEnd="@dimen/d_25_dp">
+        <TextView android:textAppearance="@style/TextStyleRobotoMedium" android:textSize="@dimen/d_15_dp" android:textColor="@color/white_60" android:gravity="center" android:id="@id/pack_loading_tip_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mimo_asset_pack_is_loading_base_file" />
+        <TextView android:textAppearance="@style/TextStyleRobotoMedium" android:textSize="@dimen/d_12_dp" android:textColor="@color/white_60" android:gravity="center" android:id="@id/pack_loading_tip_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp" android:text="" android:lineSpacingMultiplier="1.25" />
+    </LinearLayout>
+</RelativeLayout>

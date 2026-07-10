@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_white_1" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/upgrade_layout_title" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="@dimen/d_20_dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TV.RobotoCondensed.Bold" android:textSize="@dimen/d_24_dp" android:textColor="@color/black_100" android:gravity="center" android:layout_gravity="center" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/hg302_activate_install_phone_on_gimbal_page_title" android:layout_marginStart="@dimen/d_55_dp" android:layout_marginEnd="@dimen/d_55_dp" android:textFontWeight="600" />
+        <TextView android:textSize="@dimen/dji_device_13sp" android:textColor="@color/black_80" android:gravity="center" android:layout_gravity="center" android:id="@id/activate_tip" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp" android:text="@string/hg302_activate_install_phone_on_gimbal_page_sub_content" android:layout_marginStart="@dimen/d_55_dp" android:layout_marginEnd="@dimen/d_55_dp" android:lineHeight="@dimen/d_18_dp" />
+        <ImageView android:id="@id/img_clamp_phone_activate" android:visibility="visible" android:layout_width="@dimen/d_240_dp" android:layout_height="@dimen/d_240_dp" android:layout_marginTop="@dimen/d_26_dp" android:src="@drawable/activate_hg302" android:scaleType="centerInside" android:layout_centerInParent="true" />
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    <TextView android:textAppearance="@style/TV.RobotoCondensed.Bold" android:textSize="@dimen/d_15_dp" android:textColor="@color/dji_device_color_white" android:gravity="center" android:layout_gravity="bottom" android:id="@id/activate_action" android:background="@drawable/device_button_radius_bg_black_conner8dp" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" android:layout_marginBottom="@dimen/d_16_dp" android:text="@string/mimo_activate_home_action_btn" android:layout_marginStart="@dimen/d_16_dp" android:layout_marginEnd="@dimen/d_16_dp" android:textFontWeight="600" />
+</LinearLayout>

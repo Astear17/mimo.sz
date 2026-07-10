@@ -1,0 +1,338 @@
+[
+  {
+    "slug": "FT_AudioFadeInOut"
+  },
+  {
+    "slug": "FT_BezierWarpLeft"
+  },
+  {
+    "slug": "FT_BezierWarpRight"
+  },
+  {
+    "slug": "FT_BlackFade"
+  },
+  {
+    "slug": "FT_BlurToClear"
+  },
+  {
+    "slug": "FT_CameraGrid"
+  },
+  {
+    "slug": "FT_ClearToBlur"
+  },
+  {
+    "slug": "FT_ColorEmboss"
+  },
+  {
+    "slug": "FT_CopyFourScreen"
+  },
+  {
+    "slug": "FT_CopyNineScreen"
+  },
+  {
+    "slug": "FT_CopyNineScreenDeraction"
+  },
+  {
+    "slug": "FT_CurtainCoverUpDownDynamic"
+  },
+  {
+    "slug": "FT_CurtainCoverUpDownStatic"
+  },
+  {
+    "slug": "FT_EndCurtainCircle"
+  },
+  {
+    "slug": "FT_EndCurtainSlidingHorizon"
+  },
+  {
+    "slug": "FT_UnderwaterEnhancement"
+  },
+  {
+    "slug": "FT_EndCurtainSlidingVertical"
+  },
+  {
+    "slug": "FT_Enhancement"
+  },
+  {
+    "slug": "FT_FaceBeauty"
+  },
+  {
+    "slug": "FT_FadeToBlackAndClear"
+  },
+  {
+    "slug": "FT_Geometry"
+  },
+  {
+    "slug": "FT_ImageQuality"
+  },
+  {
+    "slug": "FT_LeftCenterRightSplitScreen"
+  },
+  {
+    "slug": "FT_LeftCenterRightSplitScreenLeftRight"
+  },
+  {
+    "slug": "FT_LeftRightSplitScreenLeftImage"
+  },
+  {
+    "slug": "FT_LeftRightSplitScreenRightImage"
+  },
+  {
+    "slug": "FT_Mosaic"
+  },
+  {
+    "slug": "FT_MotionBlurShakeDown"
+  },
+  {
+    "slug": "FT_MotionBlurShakeLeft"
+  },
+  {
+    "slug": "FT_MotionBlurShakeRight"
+  },
+  {
+    "slug": "FT_MotionBlurShakeUp"
+  },
+  {
+    "slug": "FT_NoiseOnly"
+  },
+  {
+    "slug": "FT_NormalizeGeometry"
+  },
+  {
+    "slug": "FT_OpenCurtainSlidingHorizon"
+  },
+  {
+    "slug": "FT_OpenCurtainSlidingVertical"
+  },
+  {
+    "slug": "FT_RadialBlurScaleShakeZoomIn"
+  },
+  {
+    "slug": "FT_RadialBlurScaleShakeZoomOut"
+  },
+  {
+    "slug": "FT_RandomShake"
+  },
+  {
+    "slug": "FT_SeparateColor"
+  },
+  {
+    "slug": "FT_SplitScreenLeftRight"
+  },
+  {
+    "slug": "FT_Spotlight"
+  },
+  {
+    "slug": "FT_StyleA06"
+  },
+  {
+    "slug": "FT_StyleA07"
+  },
+  {
+    "slug": "FT_StyleAlone"
+  },
+  {
+    "slug": "FT_StyleBai"
+  },
+  {
+    "slug": "FT_StyleBreeze"
+  },
+  {
+    "slug": "FT_StyleDiao"
+  },
+  {
+    "slug": "FT_StyleE01"
+  },
+  {
+    "slug": "FT_StyleF08"
+  },
+  {
+    "slug": "FT_StyleF10"
+  },
+  {
+    "slug": "FT_StyleF11"
+  },
+  {
+    "slug": "FT_StyleHokkaido"
+  },
+  {
+    "slug": "FT_StyleIzu"
+  },
+  {
+    "slug": "FT_StyleMemory"
+  },
+  {
+    "slug": "FT_StyleNuan"
+  },
+  {
+    "slug": "FT_StylePast"
+  },
+  {
+    "slug": "FT_StylePin"
+  },
+  {
+    "slug": "FT_StyleT07"
+  },
+  {
+    "slug": "FT_StyleVerdant"
+  },
+  {
+    "slug": "FT_StyleYan"
+  },
+  {
+    "slug": "FT_StyleYe"
+  },
+  {
+    "slug": "FT_TiltEffect"
+  },
+  {
+    "slug": "FT_TopBottomSplitScreen"
+  },
+  {
+    "slug": "FT_TopBottomSplitScreenBottomImage"
+  },
+  {
+    "slug": "FT_TopBottomSplitScreenTopImage"
+  },
+  {
+    "slug": "FT_TopCenterBottomSplitScreen"
+  },
+  {
+    "slug": "FT_TopCenterBottomSplitScreenTopBottomImage"
+  },
+  {
+    "slug": "FT_TurnToBW"
+  },
+  {
+    "slug": "FT_TurnToClear"
+  },
+  {
+    "slug": "FT_TVLine"
+  },
+  {
+    "slug": "FT_Twinkle"
+  },
+  {
+    "slug": "FT_Vignetting"
+  },
+  {
+    "slug": "FT_WhiteFade"
+  },
+  {
+    "slug": "FT_ZoomOnlyIn"
+  },
+  {
+    "slug": "FT_ZoomOnlyOut"
+  },
+  {
+    "slug": "FT_ZoomOnlyRepeat"
+  },
+  {
+    "slug": "FT_StyleT01"
+  },
+  {
+    "slug": "FT_StyleT02"
+  },
+  {
+    "slug": "FT_StyleT03"
+  },
+  {
+    "slug": "FT_StyleT04"
+  },
+  {
+    "slug": "FT_StyleT05"
+  },
+  {
+    "slug": "FT_StyleT06"
+  },
+  {
+    "slug": "FT_StyleF07"
+  },
+  {
+    "slug": "FT_StyleF09"
+  },
+  {
+    "slug": "FT_StyleMurmur"
+  },
+  {
+    "slug": "FT_StyleDense"
+  },
+  {
+    "slug": "FT_StyleBalance"
+  },
+  {
+    "slug": "FT_StyleCream"
+  },
+  {
+    "slug": "FT_StyleFilm"
+  },
+  {
+    "slug": "FT_StyleFog"
+  },
+  {
+    "slug": "FT_StyleD01"
+  },
+  {
+    "slug": "FT_StyleD02"
+  },
+  {
+    "slug": "FT_StyleD03"
+  },
+  {
+    "slug": "FT_StyleD04"
+  },
+  {
+    "slug": "FT_StyleD05"
+  },
+  {
+    "slug": "FT_StyleD06"
+  },
+  {
+    "slug": "FT_StyleD07"
+  },
+  {
+    "slug": "FT_StyleD08"
+  },
+  {
+    "slug": "FT_StyleNong"
+  },
+  {
+    "slug": "FT_StyleStartling"
+  },
+  {
+    "slug": "FT_StyleShine"
+  },
+  {
+    "slug": "FT_StyleM06"
+  },
+  {
+    "slug": "FT_StyleM07"
+  },
+  {
+    "slug": "FT_StyleClean"
+  },
+  {
+    "slug": "FT_StyleSand"
+  },
+  {
+    "slug": "FT_StyleSoft"
+  },
+  {
+    "slug": "FT_StyleAngel"
+  },
+  {
+    "slug": "FT_StyleStyle"
+  },
+  {
+    "slug": "FT_StyleJing"
+  },
+  {
+    "slug": "FT_StyleE02"
+  },
+  {
+    "slug": "FT_BG_MemoryAlbum"
+  },
+  {
+    "slug": "FT_Freeze"
+  }
+]

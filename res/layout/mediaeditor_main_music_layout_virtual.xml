@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lctsdk.mediaeditor.tabviews.music.MusicTrackLayout android:id="@id/editor_track_layout" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <lct.lomo.sdk.editor.widget.BaseRecyclerView android:id="@id/mediaeditor_operation_music_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_16_dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <View android:id="@id/editor_trackview_line" android:background="@drawable/editor_trackview_line_shape" android:visibility="visible" android:layout_width="@dimen/editor_d_2_dp" android:layout_height="@dimen/editor_d_100_dp" android:layout_marginTop="@dimen/editor_d_33_dp" android:layout_centerHorizontal="true" />
+</RelativeLayout>

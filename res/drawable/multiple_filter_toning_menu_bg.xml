@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/template_bottom_sheet_bg_solid" />
+    <corners android:radius="@dimen/filter_toning_menu_bg_corners" />
+</shape>

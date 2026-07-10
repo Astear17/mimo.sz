@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/d_36_dp" android:paddingStart="@dimen/d_24_dp" android:paddingEnd="@dimen/d_24_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center_vertical" android:layout_width="@dimen/d_16_dp" android:layout_height="@dimen/d_16_dp" android:indeterminate="true" android:indeterminateDrawable="@drawable/playback_story_import_indeterminate_drawable" android:indeterminateDuration="@integer/progress_bar_duration" android:layout_marginEnd="@dimen/d_12_dp" style="@style/Widget.AppCompat.ProgressBar" />
+    <TextView android:textSize="@dimen/d_15_dp" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/general_playback_story_quick_editing_importing_file_process" />
+</LinearLayout>

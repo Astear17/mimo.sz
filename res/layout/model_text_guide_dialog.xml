@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/model_text_guide" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/C_000000_100" android:ellipsize="end" android:gravity="center" android:id="@id/tv_model_text_guide" android:background="@drawable/model_welcome_text_bg" android:paddingLeft="@dimen/editor_d_16_dp" android:paddingRight="@dimen/editor_d_16_dp" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_32_dp" android:lines="1" style="@style/H_4_normal" />
+</RelativeLayout>

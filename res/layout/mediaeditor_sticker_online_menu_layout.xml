@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/edit_menu_bg_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/content_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <lct.lomo.sdk.editor.widget.TintImageView android:id="@id/meidaeidt_done" android:paddingLeft="@dimen/editor_d_10_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_5_dp" android:src="@drawable/mediaedit_ic_done" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/editor_d_22_dp" app:defaultColor="@color/mediaeditor_bottom_menu_done_color" app:disableColor="@color/mediaeditor_bottom_menu_done_color" />
+        <lct.lomo.sdk.editor.music.view.OprateImageView android:id="@id/meidaeidt_closed" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mediaeditor_ic_closed" />
+        <com.google.android.material.tabs.TabLayout android:id="@id/sticker_tab_layout_id" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_toStartOf="@id/meidaeidt_done" app:tabIndicatorHeight="0.0dp" app:tabMaxWidth="@dimen/editor_d_150_dp" app:tabMinWidth="@dimen/editor_d_70_dp" app:tabMode="scrollable" app:tabPaddingEnd="0.0dp" app:tabPaddingStart="0.0dp" />
+        <androidx.viewpager.widget.ViewPager android:id="@id/viewpager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/sticker_tab_layout_id" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/no_content_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/no_content_or_neterror_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_65_dp" />
+        <TextView android:textColor="@color/C_7C7C7F_100" android:layout_gravity="center_horizontal" android:id="@id/no_content_or_neterror_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_12_dp" android:text="@string/light_home_no_result_content" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/loading_image_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_49_dp" android:alpha="0.5">
+        <ImageView android:layout_gravity="center" android:id="@id/loading_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mediaeditor_base_loading_frame_list" />
+    </FrameLayout>
+</LinearLayout>

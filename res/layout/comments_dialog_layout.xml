@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_15_dp" android:textStyle="bold" android:textColor="@color/normal_black_text_color" android:gravity="center" android:id="@id/comments_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_14_dp" android:layout_marginBottom="@dimen/d_14_dp" style="@style/TextStyleRobotoCondensedBold" />
+    <dji.lomo.main.view.spring.SpringView android:id="@id/comments_list_refresh_layout" android:layout_width="match_parent" android:layout_height="@dimen/d_300_dp">
+        <dji.lomo.main.view.list.CustomRecyclerView android:id="@id/comments_list" android:layout_width="match_parent" android:layout_height="@dimen/d_300_dp" android:overScrollMode="never" />
+    </dji.lomo.main.view.spring.SpringView>
+    <EditText android:textSize="@dimen/d_15_dp" android:textColor="@color/normal_black_text_color" android:textColorHint="@color/comments_edit_text_hint_color" android:gravity="center_vertical" android:id="@id/comments_edit" android:background="@color/comments_edit_bg_color" android:paddingLeft="@dimen/d_12_dp" android:paddingRight="@dimen/d_12_dp" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="@dimen/d_36_dp" android:layout_marginLeft="@dimen/d_16_dp" android:layout_marginTop="@dimen/d_12_dp" android:layout_marginRight="@dimen/d_16_dp" android:layout_marginBottom="@dimen/d_12_dp" android:hint="@string/mimo_community_activity_comment_placeholder" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/game_loading_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/game_loading_loading_img" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:src="@drawable/game_loading" />
+        <TextView android:textSize="@dimen/editor_d_15_dp" android:textColor="@color/C_3D3D3D_100" android:layout_gravity="center_horizontal" android:id="@id/game_loading_loading_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_4_dp" android:text="@string/light_community_template_search_loading" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/game_loading_network" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/game_loading_network_img" android:layout_width="@dimen/editor_d_96_dp" android:layout_height="@dimen/editor_d_96_dp" android:src="@drawable/game_no_network" />
+        <TextView android:textSize="@dimen/editor_d_15_dp" android:textColor="@color/C_000000_45" android:layout_gravity="center_horizontal" android:id="@id/game_loading_network_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_12_dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/game_loading_data" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/game_loading_data_img" android:layout_width="@dimen/editor_d_96_dp" android:layout_height="@dimen/editor_d_96_dp" android:src="@drawable/game_no_data" />
+        <TextView android:textSize="@dimen/editor_d_15_dp" android:textColor="@color/C_000000_45" android:layout_gravity="center_horizontal" android:id="@id/game_loading_data_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_12_dp" android:text="@string/light_home_play_tab_no_content" />
+    </LinearLayout>
+</merge>

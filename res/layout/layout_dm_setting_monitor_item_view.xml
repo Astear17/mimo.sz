@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_radius_12_color_f5f5f5" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="@dimen/d_48_dp" android:minHeight="@dimen/d_48_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/TextStyleRobotoBold" android:textSize="@dimen/d_14_dp" android:textColor="@color/black" android:layout_gravity="center_horizontal" android:id="@id/monitor_tx_title" android:layout_width="wrap_content" android:layout_height="@dimen/d_20_dp" android:layout_marginTop="@dimen/d_12_dp" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/monitor_tx_button" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" />
+</LinearLayout>

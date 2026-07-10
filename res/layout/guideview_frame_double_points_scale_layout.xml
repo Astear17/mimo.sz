@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/shape_guide_frame_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_content" android:background="@drawable/guide_double_points_scale_frame_list" android:layout_width="@dimen/editor_d_120_dp" android:layout_height="@dimen/editor_d_120_dp" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+</RelativeLayout>

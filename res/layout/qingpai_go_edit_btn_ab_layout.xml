@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/qingpai_goto_edit_normal_btn" android:paddingLeft="@dimen/editor_d_14_dp" android:paddingRight="@dimen/editor_d_14_dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_36_dp" android:text="@string/light_afflatus_material_pool_go_edit_btn" style="@style/qingpai_edit_done_text_style" />
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/qingpai_goto_edit_tick_btn" android:background="@drawable/inspiration_shot_red_button_bg" android:paddingLeft="@dimen/editor_d_16_dp" android:visibility="gone" android:layout_width="@dimen/editor_d_52_dp" android:layout_height="@dimen/editor_d_36_dp" android:drawableLeft="@drawable/ic_go_edit_tick" />
+</FrameLayout>

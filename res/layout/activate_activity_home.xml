@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_white_1" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/upgrade_layout_title" />
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/d_20_dp" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/TV.RobotoCondensed.Bold" android:textSize="@dimen/d_24_dp" android:textColor="@color/black_100" android:gravity="center" android:layout_gravity="center" android:id="@id/activate_device_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activate_home_title" android:layout_marginStart="@dimen/d_55_dp" android:layout_marginEnd="@dimen/d_55_dp" android:textFontWeight="600" />
+        <TextView android:textSize="@dimen/dji_device_13sp" android:textColor="@color/black_80" android:gravity="center" android:layout_gravity="center" android:id="@id/activate_tip" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp" android:text="@string/mimo_activate_home_page_guarantee_content" android:layout_marginStart="@dimen/d_55_dp" android:layout_marginEnd="@dimen/d_55_dp" android:lineHeight="@dimen/d_18_dp" />
+        <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_26_dp">
+            <VideoView android:id="@id/activate_home_video" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/activate_home_image" android:visibility="visible" android:layout_width="@dimen/d_240_dp" android:layout_height="@dimen/d_240_dp" android:src="@drawable/activate_home_image_ac101" android:scaleType="centerInside" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/d_51_dp" android:paddingEnd="@dimen/d_51_dp">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_width="@dimen/d_64_dp" android:layout_height="@dimen/d_64_dp" android:src="@drawable/activate_device_check_real" />
+                <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/black_80" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" android:maxWidth="@dimen/d_80_dp" android:text="@string/mimo_activate_home_verification_content" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_width="@dimen/d_64_dp" android:layout_height="@dimen/d_64_dp" android:src="@drawable/activate_device_fix" />
+                <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/black_80" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" android:maxWidth="@dimen/d_80_dp" android:text="@string/mimo_activate_home_repair_content" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_width="@dimen/d_64_dp" android:layout_height="@dimen/d_64_dp" android:src="@drawable/activate_device_upgrade" />
+                <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/black_80" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" android:maxWidth="@dimen/d_80_dp" android:text="@string/mimo_activate_home_update_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/connect_usb_tip" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" android:text="@string/activate_connect_usb_alert" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_25_dp" android:layout_marginTop="@dimen/d_12_dp" android:layout_marginRight="@dimen/d_25_dp" android:layout_marginBottom="@dimen/dji_device_8dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TV.Roboto.Regular" android:textSize="@dimen/dji_device_16sp" android:textColor="@color/white" android:id="@id/activate_gdpr_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/mimo_activate_home_page_get_osmo_info_title" android:layout_weight="1.0" />
+            <Switch android:id="@id/activate_gdpr_switch" android:layout_width="wrap_content" android:layout_height="@dimen/dji_device_20dp" android:checked="true" style="@style/activate_switch_style" />
+        </LinearLayout>
+        <TextView android:textAppearance="@style/TV.Roboto.Regular" android:textSize="@dimen/dji_device_13sp" android:textColor="@color/dji_device_color_999999" android:id="@id/activate_gdpr_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dji_device_13dp" android:text="@string/mimo_activate_home_page_get_osmo_info_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_16_dp" android:layout_marginStart="@dimen/d_20_dp" android:layout_marginEnd="@dimen/d_20_dp">
+        <TextView android:enabled="false" android:textAppearance="@style/TV.RobotoCondensed.Bold" android:textSize="@dimen/d_15_dp" android:textColor="@color/white_40" android:gravity="center" android:id="@id/activate_next" android:background="@drawable/device_button_radius_bg_black_conner8dp_disable" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" android:text="@string/mimo_activate_home_action_btn" android:textFontWeight="600" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/llAuth" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp">
+            <ImageView android:id="@id/ivAuthCheck" android:layout_width="@dimen/d_16_dp" android:layout_height="@dimen/d_16_dp" android:src="@drawable/activate_icon_check_unselect" />
+            <TextView android:textSize="@dimen/d_11_dp" android:textColor="@color/black_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_activate_home_authorization_content" android:layout_marginStart="@dimen/d_8_dp" style="@style/body_3_400" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/llPolicy" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp">
+            <ImageView android:id="@id/ivPolicyCheck" android:layout_width="@dimen/d_16_dp" android:layout_height="@dimen/d_16_dp" android:src="@drawable/activate_icon_check_unselect" />
+            <TextView android:textSize="@dimen/d_11_dp" android:textColor="@color/black_80" android:id="@id/tvPolicy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_activate_home_terms_of_use_content_first" android:layout_marginStart="@dimen/d_8_dp" style="@style/body_3_400" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

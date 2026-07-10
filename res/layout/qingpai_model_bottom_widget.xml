@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lct.lomo.sdk.editor.om.widget.OMRelativeLayout android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_70_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lct.lomo.sdk.editor.customtemp.qingpai.view.classical.QingPaiModelSwitchWidget android:id="@id/modelSwitchWidget" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_31_dp" android:layout_marginTop="@dimen/editor_d_8_dp" />
+    <lct.lomo.sdk.editor.customtemp.qingpai.view.classical.QingPaiDeleteSegmentWidget android:id="@id/modelDeleteSegmentWidget" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_15_dp" />
+</lct.lomo.sdk.editor.om.widget.OMRelativeLayout>

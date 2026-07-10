@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/commom_corners_all0408" />
+    <stroke android:width="@dimen/custom_template_recommend_select_stroke" android:color="@color/commom_main_color" />
+</shape>

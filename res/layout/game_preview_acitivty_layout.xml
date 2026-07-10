@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/game_preview_root_view" android:background="@color/C_000000_100" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/game_preview_title_close" android:layout_width="@dimen/editor_d_64_dp" android:layout_height="@dimen/editor_d_64_dp" android:layout_marginBottom="@dimen/editor_d_3_dp" android:src="@drawable/model_preview_close" android:scaleType="centerInside" android:translationZ="@dimen/editor_d_1_dp" />
+    <ImageView android:id="@id/ugc_template_delete" android:visibility="gone" android:layout_width="@dimen/editor_d_64_dp" android:layout_height="@dimen/editor_d_64_dp" android:layout_marginBottom="@dimen/editor_d_3_dp" android:src="@drawable/ugc_template_delete" android:scaleType="centerInside" android:layout_alignParentRight="true" android:translationZ="@dimen/editor_d_1_dp" />
+    <lct.lomo.mediaeditor.model.view.ModelPreviewListLayout android:id="@id/game_preview_list_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_vertical" android:id="@id/game_preview_listview" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" />
+    </lct.lomo.mediaeditor.model.view.ModelPreviewListLayout>
+    <include android:id="@id/game_info_layout" android:visibility="gone" layout="@layout/game_preview_model_info" />
+    <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/animate_view" android:background="@color/C_29292D_100" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" app:radiusColor="@color/C_111116_100" app:roundRadius="@dimen/editor_d_11_dp" />
+    <lct.lomo.mediaeditor.widget.LctMEmptyView android:id="@id/mode_main_emptyView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

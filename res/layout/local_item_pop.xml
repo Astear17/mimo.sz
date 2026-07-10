@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/local_cube_pop_shape_bg" android:padding="@dimen/editor_d_12_dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/editor_d_13_dp" android:textColor="@color/white" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/local_cube_rename" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/editor_playback_single_clip_filter_localcube_list_rename_btn" />
+    <View android:layout_gravity="center_horizontal" android:background="@color/white" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_5_dp" android:layout_marginTop="@dimen/editor_d_6_dp" android:layout_marginBottom="@dimen/editor_d_6_dp" android:alpha="0.2" />
+    <TextView android:textSize="@dimen/editor_d_13_dp" android:textColor="@color/white" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/local_cube_detele_single" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/editor_playback_single_clip_filter_localcube_list_delect_single_btn" />
+</LinearLayout>

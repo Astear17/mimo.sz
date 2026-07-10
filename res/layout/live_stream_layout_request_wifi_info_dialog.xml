@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/window_container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/device_button_radius_bg" android:layout_width="@dimen/d_290_dp" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TV.Roboto.Regular" android:textSize="@dimen/d_16_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_28_dp" android:text="@string/ac101_fpv_live_setting_page_enter_password_small_dialog_content" />
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/connect_wifi_info_bg" android:layout_width="match_parent" android:layout_height="@dimen/d_36_dp" android:layout_marginTop="@dimen/d_15_dp" android:layout_marginBottom="@dimen/d_28_dp" android:paddingStart="@dimen/d_5_dp" android:paddingEnd="@dimen/d_5_dp" android:layout_marginStart="37.5dp" android:layout_marginEnd="37.5dp">
+            <EditText android:textAppearance="@style/TV.RobotoCondensed.Regular" android:textSize="@dimen/d_15_dp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/et_wifi_pwd" android:background="@null" android:layout_width="0.0dp" android:layout_height="match_parent" android:minHeight="@dimen/d_32_dp" android:singleLine="true" android:layout_weight="1.0" android:inputType="textPassword" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_pwd_hidden" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/live_stream_setting_pwd_open" />
+        </LinearLayout>
+        <View android:background="@color/dji_device_color_24FFFFFF" android:layout_width="match_parent" android:layout_height="0.5dp" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/d_50_dp">
+            <TextView android:textAppearance="@style/TV.Roboto.Medium" android:textSize="@dimen/d_16_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_left" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/device_dialog_cancel" android:layout_weight="1.0" />
+            <View android:id="@id/separator" android:background="@color/dji_device_color_24FFFFFF" android:layout_width="0.5dp" android:layout_height="match_parent" />
+            <TextView android:textAppearance="@style/TV.Roboto.Medium" android:textSize="@dimen/d_16_dp" android:textColor="@color/white_color" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_right" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/device_dialog_confirm" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

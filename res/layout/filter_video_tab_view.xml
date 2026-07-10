@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/edit_menu_bg_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/filter_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_84_dp" android:layout_above="@id/mediaedit_menu_bottom_layout_id">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/filter_class_list" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <lct.lomo.sdk.editor.widget.FilterRecyclerView android:id="@id/filter_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_9_dp" />
+    </LinearLayout>
+    <lct.lomo.sdk.editor.widget.FilterSeekbar android:id="@id/filter_seekbar" android:layout_width="@dimen/editor_d_250_dp" android:layout_height="@dimen/editor_d_30_dp" android:layout_marginBottom="@dimen/editor_d_32_dp" android:layout_above="@id/mediaedit_menu_bottom_layout_id" android:layout_centerHorizontal="true" />
+    <include android:id="@id/mediaedit_menu_bottom_layout_id" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp" android:layout_alignParentBottom="true" layout="@layout/custom_menu_bottom_layout" />
+</RelativeLayout>

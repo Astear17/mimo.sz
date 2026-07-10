@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/enter_to_fpv_button_container" android:background="@color/black_101010" android:layout_width="match_parent" android:layout_height="@dimen/d_60_dp" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/TV.Roboto.Medium" android:textSize="@dimen/d_15_dp" android:textColor="@color/dji_device_white" android:gravity="center" android:id="@id/tv_operate_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hg302_connection_connection_help_entry_camera_btn" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/device_list_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/device_type_item_arrow" android:layout_centerInParent="true" android:layout_marginStart="@dimen/d_17_dp" android:layout_marginEnd="@dimen/d_16_dp" android:layout_toEndOf="@id/tv_operate_info" app:layout_constraintBottom_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="parent" />
+</RelativeLayout>

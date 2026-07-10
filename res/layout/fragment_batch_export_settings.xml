@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20.0dp" android:paddingEnd="20.0dp">
+        <ImageView android:id="@id/batch_settings_close_btn" android:layout_width="32.0dp" android:layout_height="32.0dp" android:src="@drawable/ic_nav_bar_close_32" />
+        <TextView android:textColor="@color/white" android:gravity="center" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/mimo_playback_batch_export_settings" android:layout_weight="1.0" style="@style/body_1_600" />
+        <View android:layout_width="32.0dp" android:layout_height="32.0dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:paddingStart="20.0dp" android:paddingEnd="20.0dp">
+        <LinearLayout android:orientation="vertical" android:id="@id/batch_settings_photo_frame_card" android:background="@drawable/bg_batch_settings_card" android:paddingTop="8.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20.0dp" android:paddingEnd="20.0dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/white" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/mimo_playback_batch_export_add_photo_frame_title" android:layout_weight="1.0" android:layout_marginEnd="@dimen/d_8_dp" style="@style/body_1_600" />
+                <com.dji.playback.main.batch.BatchSwitchView android:id="@id/batch_settings_photo_frame_switch" android:layout_width="48.0dp" android:layout_height="24.0dp" />
+            </LinearLayout>
+            <TextView android:textColor="@color/white_60" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="@string/mimo_playback_batch_export_add_photo_frame_desc" style="@style/body_3_400" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/batch_settings_frame_list_rv" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:alpha="0.4" android:paddingStart="20.0dp" android:paddingEnd="20.0dp" android:layout_marginStart="-20.0dp" android:layout_marginEnd="-20.0dp" android:nestedScrollingEnabled="false" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/batch_settings_free_aspect_card" android:background="@drawable/bg_batch_settings_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_marginTop="16.0dp" android:paddingStart="20.0dp" android:paddingEnd="20.0dp">
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/white" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/mimo_playback_download_11_title" android:layout_weight="1.0" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/white_60" android:id="@id/batch_settings_free_aspect_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ic_expand_right_24_light" android:alpha="0.4" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/black_100" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/batch_settings_action_btn" android:background="@drawable/bg_batch_settings_action_btn" android:layout_width="350.0dp" android:layout_height="48.0dp" android:layout_marginTop="16.0dp" android:text="@string/mimo_playback_batch_export_save_settings_btn" />
+    <View android:layout_width="match_parent" android:layout_height="16.0dp" />
+</LinearLayout>

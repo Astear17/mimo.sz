@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.mediaeditor.widget.TemplateSearchInputView android:id="@id/search_input_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_4_dp" android:layout_marginBottom="@dimen/editor_d_14_dp" app:fixedMode="true" app:mode="display" />
+    <lct.lomo.mediaeditor.widget.SearchNestedScrollView android:id="@id/root_scroll_container" android:background="@color/C_FAFAFA_100" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/search_input_view">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.fragment.app.FragmentContainerView android:name="lct.lomo.mediaeditor.search.SearchHistoryFragment" android:id="@id/search_history_fragment_container" android:background="@color/C_FAFAFA_100" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <androidx.fragment.app.FragmentContainerView android:name="lct.lomo.mediaeditor.search.SearchGuessYouLikeFragment" android:id="@id/search_guess_you_like_fragment_container" android:background="@color/C_FAFAFA_100" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/search_history_fragment_container" />
+            <androidx.fragment.app.FragmentContainerView android:name="lct.lomo.mediaeditor.search.SearchTopListFragment" android:id="@id/search_top_list_fragment_container" android:background="@color/C_FAFAFA_100" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/search_guess_you_like_fragment_container" />
+        </RelativeLayout>
+    </lct.lomo.mediaeditor.widget.SearchNestedScrollView>
+    <androidx.fragment.app.FragmentContainerView android:name="lct.lomo.mediaeditor.search.TemplateSearchResultFragment" android:id="@id/search_result_fragment_container" android:background="@color/C_FAFAFA_100" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/search_input_view" />
+</RelativeLayout>

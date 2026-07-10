@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.lomo.fpv.ui.normal.settings.photo.itemview.devicebeauty.DeviceBeautySettingSV2 android:fillViewport="true" style="@style/dji_setting_stage_sv"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/dji_setting_stage_voice_control_settings" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <dji.lomo.fpv.ui.normal.settings.photo.itemview.devicebeauty.DeviceBeautySwitch android:id="@id/dji_setting_item_device_beauty_switch" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_16_dp" setting_ui:titleText="@string/mimo_fpv_setting_skin_tone_list_title" setting_ui:typeFace="@string/ui_typeface_roboto_condensed_bold" style="@style/dji_setting_item_ll" />
+        <include android:id="@id/device_beauty_smooth_divider" layout="@layout/dji_setting_normal_stage_device_beauty_divider" />
+        <dji.lomo.fpv.ui.normal.settings.photo.itemview.devicebeauty.DeviceBeautySmoothView android:id="@id/device_beauty_snap_slider_smooth" android:layout_width="match_parent" android:layout_height="wrap_content" setting_ui:enableGradient="false" setting_ui:labelText="@string/mimo_fpv_setting_skin_tone_smooth_list_title" />
+        <include android:id="@id/device_beauty_bright_divider" layout="@layout/dji_setting_normal_stage_device_beauty_divider" />
+        <dji.lomo.fpv.ui.normal.settings.photo.itemview.devicebeauty.DeviceBeautyBrightView android:id="@id/device_beauty_snap_slider_bright" android:layout_width="match_parent" android:layout_height="wrap_content" setting_ui:enableGradient="false" setting_ui:labelText="@string/mimo_fpv_setting_skin_tone_bright_list_title" />
+        <include android:id="@id/device_beauty_temperature_divider" layout="@layout/dji_setting_normal_stage_device_beauty_divider" />
+        <dji.lomo.fpv.ui.normal.settings.photo.itemview.devicebeauty.DeviceBeautyTemperatureNewView android:id="@id/device_beauty_selector_temperature_new" android:layout_width="match_parent" android:layout_height="wrap_content" setting_ui:titleText="@string/mimo_fpv_setting_skin_tone_temperature_list_title" setting_ui:typeFace="@string/ui_typeface_roboto_condensed_bold" />
+    </LinearLayout>
+</dji.lomo.fpv.ui.normal.settings.photo.itemview.devicebeauty.DeviceBeautySettingSV2>

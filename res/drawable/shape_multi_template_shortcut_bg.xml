@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/editor_d_0_5_dp" android:top="@dimen/editor_d_0_5_dp" android:right="@dimen/editor_d_0_5_dp" android:bottom="@dimen/editor_d_0_5_dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/C_000000_20" />
+            <corners android:radius="@dimen/shape_multi_template_shortcut_bg_corners" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/editor_d_0_5_dp" android:color="@color/C_FFFFFF_20" />
+            <corners android:radius="@dimen/shape_multi_template_shortcut_bg_corners" />
+        </shape>
+    </item>
+</layer-list>

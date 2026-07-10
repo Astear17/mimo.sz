@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/d_20_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/zoom_value_show_211" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/d_120_dp" android:layout_alignParentStart="true" style="@style/TextStyleRobotoRegular" />
+    <dji.lomo.fpv.ui.base.zoom.DJICameraZoomSeekBar android:id="@id/zoom_info_seekbar_211" android:layout_width="@dimen/d_150_dp" android:layout_height="50.0dp" android:layout_centerVertical="true" android:paddingStart="@dimen/d_20_dp" android:paddingEnd="@dimen/d_20_dp" app:drawable_bigColor="@color/white" app:drawable_bigSize="@dimen/d_8_dp" app:drawable_hotspotColor="@color/white" app:drawable_hotspotSize="@dimen/d_30_dp" app:drawable_normalColor="@color/white_50" app:drawable_normalSize="@dimen/d_2_dp" app:drawable_strokeWidth="@dimen/d_3_dp" app:drawable_textColor="@color/white" app:drawable_textSize="@dimen/d_20_dp" app:hotAreaShrink="@dimen/d_30_dp" app:ratioShrink="singleDot" />
+</RelativeLayout>

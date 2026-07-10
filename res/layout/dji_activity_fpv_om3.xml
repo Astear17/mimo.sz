@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/preview_ly" android:layout_width="match_parent" android:layout_height="match_parent">
+        <dji.mimo.phonecamera.preview.DJILPPreviewTexture android:id="@id/preview_sf" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <dji.mimo.phonecamera.camera.refactor.advanced.AutoFitSurfaceView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+    <dji.lomo.fpv.om3.view.DJILPPhotoMaskView android:id="@id/take_photo_mask_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:layout_centerInParent="true" />
+    <dji.lomo.fpv.om3.view.DJILPCameraMaskViewRelativeLayout android:id="@id/layout_mask_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+        <dji.base.ui.widget.dji.DJIImageView android:layout_gravity="center" android:id="@id/switch_module_mask_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/camera_sleep_tip_tv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mimo_fpv_om_camera_rest_text_reminder" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </dji.lomo.fpv.om3.view.DJILPCameraMaskViewRelativeLayout>
+    <dji.lomo.fpv.om3.dollyzoom.widget.DJIDollyZoomDashLineRect android:id="@id/dolly_zoom_dash_line_rect" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    <View android:id="@id/float_view_virtual_target" android:background="@color/transparent" android:focusable="false" android:layout_width="1.0px" android:layout_height="1.0px" />
+    <include android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/dji_fpv_user_guide_slide" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="center" android:id="@id/view_creative_area" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+</RelativeLayout>

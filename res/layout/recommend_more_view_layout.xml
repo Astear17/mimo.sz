@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/recommend_more_root" android:layout_width="match_parent" android:layout_height="match_parent" app:behavior_hideable="false" app:behavior_peekHeight="@dimen/editor_d_0_dp" app:layout_behavior="@string/view_pager_bottom_sheet_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/recommend_layout_base" android:background="@drawable/mediaeditor_music_lib_bg_shape" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:id="@id/collapsed" android:layout_width="@dimen/editor_d_100_dp" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:src="@drawable/more_model_arrow" />
+            </LinearLayout>
+        </LinearLayout>
+        <lct.lomo.sdk.editor.widget.BaseRecyclerView android:id="@id/recommend_more_class_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_5_dp" android:layout_marginBottom="@dimen/editor_d_11_dp" android:nestedScrollingEnabled="false" />
+        <androidx.viewpager.widget.ViewPager android:id="@id/recommend_more_viewpager" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

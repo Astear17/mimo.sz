@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dji.playback.widget.DisallowInterceptLayout android:id="@id/lay_disallow_intercept_master_shot_preview" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dji.playback.ui.playbackPreviewActivity.widget.PlaybackInfoDrawerLayout android:id="@id/preview_gesture_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/preview_content_container" android:background="@color/bgd_master_shot_preview" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.dji.playback.editor.ui.widget.VideoViewByEditor android:id="@id/player_master_shot" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <com.dji.playback.editor.ui.widget.MediaControllerExpandFrame android:id="@id/video_controller" android:background="@android:color/transparent" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="@id/player_master_shot" app:layout_constraintEnd_toEndOf="@id/player_master_shot" app:layout_constraintStart_toStartOf="@id/player_master_shot" app:layout_constraintTop_toTopOf="@id/player_master_shot" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="1.0px" />
+        <com.dji.playback.ui.playbackPreviewActivity.widget.PlaybackInfoView android:orientation="vertical" android:id="@id/preview_bottom_info_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/guideline" />
+    </com.dji.playback.ui.playbackPreviewActivity.widget.PlaybackInfoDrawerLayout>
+</com.dji.playback.widget.DisallowInterceptLayout>

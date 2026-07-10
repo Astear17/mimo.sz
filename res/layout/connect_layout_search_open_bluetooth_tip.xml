@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/connect_open_bluetooth" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/device_connect_bluetooth" android:layout_centerInParent="true" />
+    <TextView android:textAppearance="@style/TV.Roboto.Regular" android:textSize="@dimen/d_15_dp" android:textColor="@color/dji_device_color_666666" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.5dp" android:text="@string/mimo_connection_bluetooth_warn_content" android:layout_below="@id/iv_empty" android:layout_centerInParent="true" />
+</RelativeLayout>

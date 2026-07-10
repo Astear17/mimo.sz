@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/template_edit_more_bg" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_32_dp" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_model_into_editor" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:src="@drawable/edit_more_icon" android:layout_centerVertical="true" android:layout_marginStart="@dimen/editor_d_9_dp" android:layout_marginEnd="@dimen/editor_d_4_dp" />
+    <TextView android:textSize="@dimen/editor_d_12_dp" android:textColor="@color/white" android:id="@id/tv_model_into_editor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/editor_d_10_dp" android:text="@string/light_model_videopreview_editormore" android:layout_toRightOf="@id/iv_model_into_editor" android:layout_centerVertical="true" />
+</RelativeLayout>

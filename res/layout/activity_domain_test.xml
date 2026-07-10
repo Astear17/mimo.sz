@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/d_16_dp" android:paddingTop="@dimen/d_30_dp" android:paddingRight="@dimen/d_16_dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Skypixel当前环境：" />
+        <TextView android:textColor="@color/red_record_pressed" android:id="@id/skypixel_env" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textColor="@color/red_record_pressed" android:id="@id/skypixel_url" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_7_dp" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_7_dp">
+        <Button android:id="@id/skypixel_kaifa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开发环境" android:layout_weight="1.0" android:onClick="onButtonClick" />
+        <Button android:id="@id/skypixel_ceshi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="测试环境" android:layout_weight="1.0" android:onClick="onButtonClick" />
+        <Button android:id="@id/skypixel_uat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="UAT环境" android:layout_weight="1.0" android:onClick="onButtonClick" />
+        <Button android:id="@id/skypixel_online" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="生产环境" android:layout_weight="1.0" android:onClick="onButtonClick" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_60_dp">
+        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="用户中心当前环境：" />
+        <TextView android:textColor="@color/red_record_pressed" android:id="@id/usercenter_env" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textColor="@color/red_record_pressed" android:id="@id/usercenter_url" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_7_dp" />
+    <LinearLayout android:id="@id/password_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_30_dp">
+        <EditText android:textColor="@color/black" android:textColorHint="@color/black_60" android:gravity="center_vertical" android:id="@id/password_et" android:layout_width="0.0dp" android:layout_height="match_parent" android:hint="线上环境请输入密码" android:layout_weight="1.0" />
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="确定" android:onClick="onPassWordClick" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_30_dp">
+        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="用户运行版本：" />
+        <TextView android:textColor="@color/red_record_pressed" android:id="@id/app_ui_version" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:id="@id/change_app_ui_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_5_dp" android:onClick="onVersionButtonClick" />
+    </LinearLayout>
+    <Button android:id="@id/ok_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_50_dp" android:text="关闭" android:onClick="onButtonClick" />
+    <TextView android:textColor="@color/red_record_pressed" android:gravity="bottom" android:id="@id/env_text" android:paddingBottom="@dimen/text_dp_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>

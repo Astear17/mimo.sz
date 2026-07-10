@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lctsdk.mediaeditor.tabviews.video.RoundRadiusLayout android:id="@id/ins_shoot_video_layout" android:layout_width="@dimen/editor_d_168_dp" android:layout_height="@dimen/editor_d_95_dp" android:layout_marginLeft="@dimen/editor_d_22_dp" app:roundRadius="@dimen/editor_d_10_dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/ins_simple_item_cover" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:radiusColor="@color/white" app:roundRadius="@dimen/editor_d_10_dp" />
+            <ImageView android:id="@id/model_item_video_play" android:layout_width="@dimen/editor_d_18_dp" android:layout_height="@dimen/editor_d_18_dp" android:layout_marginLeft="@dimen/editor_d_6_dp" android:layout_marginBottom="@dimen/editor_d_6_dp" android:src="@drawable/ic_play_min_normal" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+            <FrameLayout android:id="@id/ins_simple_item_video_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <FrameLayout android:id="@id/inspiration_item_video_controller" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <ImageView android:id="@id/must_shoot_iv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_8_dp" android:layout_marginTop="@dimen/editor_d_8_dp" android:src="@drawable/ic_shot_normal" />
+            <TextView android:textColor="@color/white" android:id="@id/tv_already_filmed" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/editor_d_6_dp" android:layout_marginBottom="@dimen/editor_d_6_dp" android:text="@string/light_afflatus_sample_taken_text" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/H_5_normal" />
+        </RelativeLayout>
+    </com.lctsdk.mediaeditor.tabviews.video.RoundRadiusLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_8_dp" android:layout_marginRight="@dimen/editor_d_8_dp">
+        <TextView android:textColor="@color/black_80" android:id="@id/tv_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/editor_d_3_dp" style="@style/H_5_normal" />
+    </LinearLayout>
+</LinearLayout>

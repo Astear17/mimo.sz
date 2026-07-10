@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/template_bottom_sheet_bg_solid" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/custom_closed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_18_dp" android:src="@drawable/ic_close_normal_new" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/custom_apply_all" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_25_dp" android:layout_marginRight="@dimen/editor_d_25_dp" android:layout_toLeftOf="@id/custom_done" android:layout_toRightOf="@id/custom_closed" android:layout_centerInParent="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/shape_custom_clip_retake_btn" android:paddingRight="@dimen/editor_d_10_dp" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_26_dp" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/editor_d_20_dp" android:layout_height="@dimen/editor_d_20_dp" android:layout_marginLeft="@dimen/editor_d_3_dp" android:src="@drawable/custom_apply_all_icon" />
+            <TextView android:textColor="@color/custom_menu_bottom_layout_textcolor" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_8_dp" android:text="@string/light_editor_tab1_function_apllyall_confirm" style="@style/H_5_normal" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:id="@id/custom_done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/editor_d_18_dp" android:src="@drawable/custom_bottom_right_new" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

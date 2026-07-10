@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/C_000000_80" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/tutorial_dialog_layout" android:background="@drawable/editor_guide_dialog_bg" android:layout_width="@dimen/editor_d_300_dp" android:layout_height="wrap_content">
+        <FrameLayout android:paddingLeft="@dimen/editor_d_1_dp" android:paddingTop="@dimen/editor_d_1_dp" android:paddingRight="@dimen/editor_d_1_dp" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_400_dp">
+            <LinearLayout android:orientation="vertical" android:id="@id/tutorial_layout" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.lct.uilib.widget.RoundRadiusLayout android:layout_gravity="center" android:id="@id/rl_model_item" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerHorizontal="true" app:roundRadiusLeftTop="@dimen/editor_d_15_dp" app:roundRadiusRightTop="@dimen/editor_d_15_dp">
+                    <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/video_cover" android:background="@color/C_E4E4E4_100" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:layout_centerHorizontal="true" app:radiusColor="@color/white" app:roundRadiusLeftTop="@dimen/editor_d_15_dp" app:roundRadiusRightTop="@dimen/editor_d_15_dp" />
+                    <FrameLayout android:id="@id/video_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+                    <FrameLayout android:id="@id/video_controller" android:layout_width="match_parent" android:layout_height="match_parent" />
+                    <ImageView android:layout_gravity="center" android:id="@id/play_icon" android:visibility="gone" android:layout_width="@dimen/editor_d_40_dp" android:layout_height="@dimen/editor_d_40_dp" android:src="@drawable/lctm_ic_play" />
+                </com.lct.uilib.widget.RoundRadiusLayout>
+            </LinearLayout>
+            <FrameLayout android:id="@id/load_layout" android:background="@drawable/editor_guide_dialog_video_bg" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="@dimen/editor_d_72_dp" android:layout_height="@dimen/editor_d_72_dp" android:indeterminateDrawable="@drawable/qingpai_guide_loading_progress" />
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/reload" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_reload" />
+                    <TextView android:textColor="@color/black" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_afflatus_novice_guide_retry_btn" style="@style/H_4_normal" />
+                </LinearLayout>
+            </FrameLayout>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/qingpai_guide_dialog_bottom_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:ellipsize="end" android:layout_gravity="center" android:id="@id/title" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_22_dp" android:lines="1" android:layout_marginStart="@dimen/editor_d_10_dp" android:layout_marginEnd="@dimen/editor_d_10_dp" style="@style/H_2_bold" />
+            <TextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/start" android:background="@drawable/personal_login_btn_bg" android:layout_width="@dimen/editor_d_128_dp" android:layout_height="@dimen/editor_d_40_dp" android:layout_marginTop="@dimen/editor_d_19_dp" android:layout_marginBottom="@dimen/editor_d_22_dp" android:text="@string/light_afflatus_novice_guide_pop_btn" android:paddingStart="@dimen/editor_d_21_dp" android:paddingEnd="@dimen/editor_d_21_dp" style="@style/H_3_bold" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

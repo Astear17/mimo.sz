@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/setting_djicare_purchase_banner_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.dji.device.insurance.care.banner.BannerView android:id="@id/contentBannerView" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/blue" android:id="@id/setting_djicare_banner_tv_link" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/d_16_dp" android:layout_toEndOf="@id/set_djicare_service_term_tv" style="@style/TextStyleRobotoRegular" />
+</LinearLayout>

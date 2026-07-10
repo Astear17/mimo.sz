@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SeekBar android:id="@id/dji_seekbar" android:paddingLeft="@dimen/d_8_dp" android:paddingRight="@dimen/d_8_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/d_4_dp" android:progressDrawable="@drawable/dji_seekbar_progress" android:minHeight="@dimen/d_4_dp" android:thumb="@drawable/dji_ic_item_seek_thumb" android:splitTrack="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

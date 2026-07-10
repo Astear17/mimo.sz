@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/new_custom_mode_settings_root_container" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/new_custom_mode_panel_container" android:layout_width="@dimen/d_380_dp" android:layout_height="@dimen/d_322_dp" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/d_50_dp" android:layout_alignParentEnd="true">
+        <include layout="@layout/dji_fpv_new_custom_mode_setting_container_layout" />
+        <include layout="@layout/dji_fpv_new_custom_mode_confirm_container_layout" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/multiple_menu_button_add_subtitle" android:layout_marginBottom="@dimen/editor_d_61_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/multiple_menu_button_add_font_style" style="@style/TextComponentsPasterEntrancePanelBtnGroup">
+        <androidx.appcompat.widget.AppCompatImageView android:src="@drawable/editor_add_subtitle_dark" style="@style/TextComponentsStickersEntrancePanelBtnImage" />
+        <TextView android:text="@string/light_template_text_page_text" style="@style/TextComponentsStickersEntrancePanelBtnText" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/multiple_menu_button_add_font_style" app:layout_constraintBottom_toBottomOf="@id/multiple_menu_button_add_subtitle" app:layout_constraintLeft_toRightOf="@id/multiple_menu_button_add_subtitle" app:layout_constraintRight_toLeftOf="@id/multiple_menu_button_add_sticker" app:layout_constraintTop_toTopOf="@id/multiple_menu_button_add_subtitle" style="@style/TextComponentsPasterEntrancePanelBtnGroup">
+        <androidx.appcompat.widget.AppCompatImageView android:src="@drawable/editor_add_font_style_dark" style="@style/TextComponentsStickersEntrancePanelBtnImage" />
+        <TextView android:text="@string/light_template_text_page_effects" style="@style/TextComponentsStickersEntrancePanelBtnText" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/multiple_menu_button_add_sticker" app:layout_constraintBottom_toBottomOf="@id/multiple_menu_button_add_subtitle" app:layout_constraintLeft_toRightOf="@id/multiple_menu_button_add_font_style" app:layout_constraintRight_toLeftOf="@id/multiple_menu_button_add_asr" app:layout_constraintTop_toTopOf="@id/multiple_menu_button_add_subtitle" style="@style/TextComponentsPasterEntrancePanelBtnGroup">
+        <androidx.appcompat.widget.AppCompatImageView android:src="@drawable/editor_add_sticker_dark" style="@style/TextComponentsStickersEntrancePanelBtnImage" />
+        <TextView android:text="@string/light_template_text_page_sticker" style="@style/TextComponentsStickersEntrancePanelBtnText" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/multiple_menu_button_add_asr" android:visibility="gone" app:layout_constraintBottom_toBottomOf="@id/multiple_menu_button_add_subtitle" app:layout_constraintLeft_toRightOf="@id/multiple_menu_button_add_sticker" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@id/multiple_menu_button_add_subtitle" style="@style/TextComponentsPasterEntrancePanelBtnGroup">
+        <androidx.appcompat.widget.AppCompatImageView android:src="@drawable/editor_add_asr" style="@style/TextComponentsStickersEntrancePanelBtnImage" />
+        <TextView android:text="@string/light_template_enter_subtitle_btn" style="@style/TextComponentsStickersEntrancePanelBtnText" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View android:id="@id/multiple_menu_button_add_asr_red_point" android:background="@drawable/subtitle_menu_add_asr_red_point_bg" android:visibility="gone" android:layout_width="@dimen/editor_d_5_dp" android:layout_height="@dimen/editor_d_5_dp" android:layout_marginTop="@dimen/editor_d_0_5_dp" android:layout_marginStart="@dimen/editor_d_25_dp" app:layout_constraintEnd_toEndOf="@id/multiple_menu_button_add_asr" app:layout_constraintStart_toStartOf="@id/multiple_menu_button_add_asr" app:layout_constraintTop_toTopOf="@id/multiple_menu_button_add_asr" />
+</androidx.constraintlayout.widget.ConstraintLayout>

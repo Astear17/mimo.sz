@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:id="@id/dji_settings_audio_gain_custom_slider_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/dji_settings_audio_gain_mic_bar" android:layout_width="match_parent" android:layout_height="@dimen/d_40_dp" android:paddingStart="@dimen/d_8_dp" android:paddingEnd="@dimen/d_14_dp">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/dji_settings_audio_gain_mic_icon" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:src="@drawable/ic_fpv_settings_microphone" android:scaleType="fitCenter" android:layout_marginEnd="@dimen/d_8_dp" />
+        <dji.base.ui.widget.audio.DJIVolumeIndicator android:layout_gravity="center_vertical" android:id="@id/dji_settings_audio_gain_mic_indicators" android:layout_width="match_parent" android:layout_height="@dimen/d_15_dp" app:volume_divider_size="4.0dp" app:volume_item_size="2.0dp" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/tv_custom_gain_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/dji_settings_audio_gain_custom_slider_ly" android:layout_width="match_parent" android:layout_height="@dimen/d_40_dp" android:splitMotionEvents="false">
+        <ImageView android:id="@id/dji_settings_audio_gain_custom_slider_down" android:paddingTop="@dimen/d_12_dp" android:paddingBottom="@dimen/d_12_dp" android:layout_width="@dimen/d_48_dp" android:layout_height="match_parent" android:src="@drawable/dji_ic_ev_sub" android:scaleType="fitCenter" android:paddingStart="@dimen/d_10_dp" android:paddingEnd="@dimen/d_10_dp" />
+        <dji.base.ui.widget.DJIItemViewSeekbar android:id="@id/dji_settings_audio_gain_custom_slider_seekbar" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/d_10_dp" android:layout_marginEnd="@dimen/d_10_dp" />
+        <ImageView android:id="@id/dji_settings_audio_gain_custom_slider_up" android:paddingTop="@dimen/d_12_dp" android:paddingBottom="@dimen/d_12_dp" android:layout_width="@dimen/d_48_dp" android:layout_height="match_parent" android:src="@drawable/dji_ic_ev_add" android:scaleType="fitCenter" android:paddingStart="@dimen/d_8_dp" android:paddingEnd="@dimen/d_8_dp" />
+    </LinearLayout>
+</merge>

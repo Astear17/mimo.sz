@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/dji_setting_stage_photo_white_balance_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textStyle="bold" android:textColor="@color/white_100" android:id="@id/tv_white_balance_title" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="色温" android:layout_marginStart="@dimen/d_16_dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/dji_setting_item_ll" />
+    <FrameLayout android:id="@id/seekbar_container" android:layout_width="0.0dp" android:layout_height="@dimen/d_72_dp" android:layout_marginTop="@dimen/d_16_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="@dimen/d_11_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="start|top" android:id="@id/tv_white_balance_value" android:paddingTop="@dimen/d_18_dp" android:paddingBottom="@dimen/d_2_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/d_40_dp" android:paddingStart="@dimen/d_6_dp" android:paddingEnd="@dimen/d_6_dp" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/dji_setting_stage_photo_wb_temperature_ly" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" android:splitMotionEvents="false">
+            <ImageView android:id="@id/dji_setting_stage_photo_wb_temperature_down" android:layout_width="@dimen/d_48_dp" android:layout_height="match_parent" android:src="@drawable/dji_ic_ev_sub" android:scaleType="center" />
+            <dji.base.ui.widget.DJIItemViewSeekbar android:id="@id/dji_setting_stage_photo_wb_temperature_seekbar" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+            <ImageView android:id="@id/dji_setting_stage_photo_wb_temperature_up" android:layout_width="@dimen/d_48_dp" android:layout_height="match_parent" android:src="@drawable/dji_ic_ev_add" android:scaleType="center" />
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

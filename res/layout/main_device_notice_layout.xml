@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/black_101010" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/devices_notice_view_group" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.34">
+        <ImageView android:layout_gravity="center" android:id="@id/notice_img" android:layout_width="@dimen/d_60_dp" android:layout_height="@dimen/d_60_dp" />
+        <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/color_666666" android:gravity="center" android:layout_gravity="center" android:id="@id/notice_tv" android:layout_width="@dimen/d_189_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp" style="@style/TextStyleRobotoRegular" />
+        <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/color_666666" android:gravity="center" android:layout_gravity="center" android:id="@id/notice_detail" android:visibility="gone" android:layout_width="@dimen/d_231_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp" style="@style/TextStyleRobotoRegular" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.mediaeditor.game.view.GameSubTabLayout android:id="@id/game_game_tab" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_45_dp" android:layout_marginLeft="@dimen/editor_d_13_dp" android:layout_marginRight="@dimen/editor_d_13_dp" android:layerType="software" app:layout_constraintTop_toTopOf="parent" app:tabMinWidth="@dimen/editor_d_60_dp" app:tabPaddingEnd="@dimen/editor_d_0_dp" app:tabPaddingStart="@dimen/editor_d_0_dp" app:tabTextAppearance="@style/TabLayoutTextStyle" />
+    <lct.lomo.mediaeditor.game.view.NestedScrollableHost android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_dp" android:layout_marginTop="@dimen/editor_d_6_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/game_game_tab">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/game_game_viewpager" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </lct.lomo.mediaeditor.game.view.NestedScrollableHost>
+</merge>

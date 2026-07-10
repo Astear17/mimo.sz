@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/navs" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/d_55_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/d_55_dp">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/rl_works" android:layout_width="0.0dp" android:layout_height="@dimen/d_55_dp" android:layout_weight="1.0">
+            <ImageView android:id="@id/mimo_user_info_work_icon" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:src="@drawable/mimo_user_info_works_dark" android:layout_marginEnd="@dimen/d_6_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/tv_works" app:layout_constraintTop_toTopOf="parent" app:tint="@color/black" />
+            <dji.base.ui.widget.DJITypefaceTextView android:textColor="@color/black" android:gravity="center" android:id="@id/tv_works" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/kino_account_work_text" app:layout_constraintEnd_toStartOf="@id/works_right_placeholder" style="@style/title_6_600" />
+            <View android:id="@id/works_right_placeholder" android:layout_width="0.0dp" android:layout_height="match_parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintWidth_percent="0.25" />
+            <View android:id="@id/v_works" android:background="@color/black" android:visibility="gone" android:layout_width="@dimen/d_24_dp" android:layout_height="2.5dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="@id/tv_works" app:layout_constraintRight_toRightOf="@id/tv_works" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/rl_likes" android:layout_width="0.0dp" android:layout_height="@dimen/d_55_dp" android:layout_weight="1.0">
+            <View android:id="@id/likes_left_placeholder" android:layout_width="0.0dp" android:layout_height="match_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintWidth_percent="0.45" />
+            <ImageView android:id="@id/mimo_user_info_like_icon" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:src="@drawable/mimo_user_info_like_dark" android:alpha="0.4" android:layout_marginEnd="@dimen/d_6_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/tv_likes" app:layout_constraintTop_toTopOf="parent" app:tint="@color/black" />
+            <dji.base.ui.widget.DJITypefaceTextView android:textColor="@color/black_60" android:gravity="center" android:id="@id/tv_likes" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/kino_account_likes_text" app:layout_constraintStart_toEndOf="@id/likes_left_placeholder" style="@style/title_6_600" />
+            <View android:id="@id/v_likes" android:background="@color/black" android:visibility="gone" android:layout_width="@dimen/d_24_dp" android:layout_height="2.5dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="@id/tv_likes" app:layout_constraintRight_toRightOf="@id/tv_likes" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <View android:background="@color/color_282828" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_1_dp" android:layout_alignParentBottom="true" />
+</RelativeLayout>

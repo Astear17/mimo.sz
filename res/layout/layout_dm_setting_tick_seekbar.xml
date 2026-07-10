@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/d_16_dp" android:paddingBottom="@dimen/d_16_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_12_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/seek_bar_title" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/dm_setting_title" />
+    <TextView android:id="@id/seek_bar_desc" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/dm_setting_value" />
+    <com.dji.mimo.accessory.dm300.CircleTickMarkSeekBar android:id="@id/seek_bar_setting" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp" android:maxHeight="@dimen/d_2_dp" android:progressDrawable="@drawable/dm300_setting_seek_bar_progress" android:minHeight="@dimen/d_2_dp" android:thumb="@drawable/seekbar_circle_thumb_radius_10_color_eaeaea" android:thumbOffset="0.0dp" android:splitTrack="false" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/seek_bar_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

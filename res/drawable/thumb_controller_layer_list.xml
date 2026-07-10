@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:height="@dimen/d_18_dp" android:width="@dimen/d_18_dp" android:drawable="@drawable/thumb_controller_center" />
+</layer-list>

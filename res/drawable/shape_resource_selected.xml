@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/editor_d_1_dp" android:color="@color/commom_main_color" />
+    <corners android:radius="@dimen/effect_tab_second_tab_item_bg_radius" />
+</shape>

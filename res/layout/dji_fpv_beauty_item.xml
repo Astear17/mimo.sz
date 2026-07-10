@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="@dimen/d_72_dp" android:layout_height="@dimen/d_64_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/fpv_beautify_type_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_beauty_auto_norm" />
+    <TextView android:textSize="@dimen/d_10_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/fpv_beautify_type_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_fpv_beauty_panel_auto_btn" />
+    <ImageView android:layout_gravity="center" android:id="@id/fpv_beautify_item_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_2_dp" android:src="@drawable/dji_fpv_beauty_item_dot_selected" />
+</LinearLayout>

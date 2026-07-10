@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:id="@id/success_circle_container" android:background="@color/black_101010" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:id="@id/circle_container2" android:layout_width="@dimen/device_dp_upgrade_circle" android:layout_height="@dimen/device_dp_upgrade_circle" android:layout_centerHorizontal="true">
+        <com.dji.device.upgrade.ui.CircleProgressBar android:id="@id/success_circle_progressbar" android:layout_width="@dimen/device_dp_upgrade_circle" android:layout_height="@dimen/device_dp_upgrade_circle" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" custom:normal_color="@color/dji_device_color_4CFFFFFF" custom:progress="360" custom:progress_color="@color/color_1fa3f6" custom:progress_style="STROKE" custom:stroke_width_int="15" custom:text="" custom:text_color="@color/dji_device_color_333" custom:text_size="30.0sp" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/upgrade_success_anim" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" custom:lottie_autoPlay="false" custom:lottie_fileName="device_upgrade_success.json" custom:lottie_loop="false" />
+    </RelativeLayout>
+</RelativeLayout>

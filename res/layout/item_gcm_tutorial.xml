@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/root_view" android:tag="layout/item_gcm_tutorial_0" android:layout_width="@dimen/d_320_dp" android:layout_height="wrap_content" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_16_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dji.videoplayer.view.VideoPlayerTrackView android:id="@id/gcm_tutorial_videoView" android:layout_width="@dimen/d_320_dp" android:layout_height="0.0dp" app:layout_constraintDimensionRatio="h,16:9" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:video_autoSetCoverController="true" app:video_autoSetVideoController="true" />
+</androidx.constraintlayout.widget.ConstraintLayout>

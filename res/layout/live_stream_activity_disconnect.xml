@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/live_stream_layout_title" />
+    <RelativeLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <ImageView android:id="@id/device_disconnect_icon" android:layout_width="@dimen/d_233_dp" android:layout_height="@dimen/d_135_dp" android:src="@drawable/live_stream_disconnect_device_icon" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/living_stream_finish_tip" android:visibility="visible" android:layout_width="@dimen/d_132_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_25_dp" android:text="@string/ac101_fpv_camera_lost_bluetooth_connection_page_content" android:layout_below="@id/device_disconnect_icon" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textAppearance="@style/TextStyleRobotoBold" android:textSize="@dimen/d_16_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/finish_page" android:background="@drawable/live_stream_button_bg_blue" android:layout_width="match_parent" android:layout_height="@dimen/d_50_dp" android:layout_margin="@dimen/d_16_dp" android:text="@string/ac101_fpv_small_dialog_confirm_btn" />
+</LinearLayout>

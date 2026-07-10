@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layout_title_bar_root" android:layout_width="match_parent" android:layout_height="64.0dp" android:paddingStart="24.0dp" android:paddingEnd="20.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_title_bar_left" android:layout_width="32.0dp" android:layout_height="32.0dp" android:scaleType="center" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/layout_title_bar_center_container" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textColor="@color/white_90" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_title_bar_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/title_6_600" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/layout_title_bar_right" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_title_bar_right" android:visibility="visible" android:layout_width="32.0dp" android:layout_height="32.0dp" android:scaleType="center" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textColor="@color/white_100" android:layout_gravity="center" android:id="@id/tv_title_bar_right" android:background="@drawable/bg_title_bar_right_text_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="16.0dp" android:paddingVertical="5.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/body_2_600" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@drawable/bg_radius_10_color_white_5" android:padding="@dimen/d_12_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_16_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_real_time_broadcast" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:src="@drawable/tx_realtime_unmute" android:layout_marginEnd="@dimen/d_4_dp" />
+    <TextView android:textAppearance="@style/TextStyleRobotoCondensedRegular" android:textSize="@dimen/d_12_dp" android:textColor="#121314" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_real_time_title_channel" android:background="@drawable/bg_radius_2_color_ffcc00" android:layout_width="wrap_content" android:layout_height="@dimen/d_18_dp" android:paddingStart="@dimen/d_4_dp" android:paddingEnd="@dimen/d_4_dp" android:textFontWeight="700" />
+    <com.dji.mimo.accessory.dm300.DMRealtimeLevelProgressBar android:layout_gravity="center_vertical" android:id="@id/pb_real_time_level" android:layout_width="match_parent" android:layout_height="@dimen/d_10_dp" android:layout_marginLeft="@dimen/d_10_dp" />
+</LinearLayout>

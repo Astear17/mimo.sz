@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/recommend_label_root_view" android:tag="layout/fragment_recommend_label_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/lens_all_view" android:tag="binding_1" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <include android:id="@id/lens_left_view" android:layout_width="@dimen/d_260_dp" android:layout_height="match_parent" android:layout_marginTop="@dimen/d_6_dp" android:layout_marginBottom="@dimen/d_6_dp" android:layout_marginStart="@dimen/d_48_dp" layout="@layout/layout_recommend_view" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/lens_right_view" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/d_6_dp" android:layout_marginBottom="@dimen/d_6_dp" android:layout_marginStart="@dimen/d_6_dp" android:layout_marginEnd="@dimen/d_100_dp">
+            <ImageView android:id="@id/lens_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dji_ic_arrow_left" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <dji.creation.aistory.ui.view.RecommendLensSkillsGuideView android:id="@id/recommend_lens_skills_guide" android:visibility="gone" android:layout_width="160.0dp" android:layout_height="200.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <dji.creation.aistory.ui.view.TakeSameStoryVideoGuideView android:id="@id/lens_guide_layout" android:background="@color/black_40" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

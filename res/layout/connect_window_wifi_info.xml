@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/window_container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/view_connect_card_dialog_bg">
+        <TextView android:id="@id/tv_title" android:text="@string/mimo_connection_manual_wifi_connection_small_dialog_title" style="@style/TV.ConnectCard.Dialog.Title" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_15_dp" android:layout_marginBottom="@dimen/d_28_dp" android:paddingStart="37.5dp" android:paddingEnd="37.5dp">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/connect_wifi_info_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/TV.RobotoCondensed.Regular" android:textSize="@dimen/d_15_dp" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_wifi_ssid" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/d_32_dp" android:lineSpacingExtra="@dimen/d_5_dp" />
+                <View android:layout_height="@dimen/d_0.5_dp" style="@style/view_connect_card_dialog_horizontal_divider" />
+                <TextView android:textAppearance="@style/TV.RobotoCondensed.Regular" android:textSize="@dimen/d_15_dp" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_wifi_pwd" android:layout_width="match_parent" android:layout_height="32.0dp" android:singleLine="true" android:lineSpacingExtra="@dimen/d_5_dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <View style="@style/view_connect_card_dialog_horizontal_divider" />
+        <LinearLayout style="@style/view_connect_card_dialog_button_container">
+            <TextView android:id="@id/tv_left" style="@style/view_connect_card_dialog_button_cancel" />
+            <View android:id="@id/separator" style="@style/view_connect_card_dialog_vertical_divider" />
+            <TextView android:id="@id/tv_right" android:text="@string/connect_dialog_wifi_setting" style="@style/view_connect_card_dialog_button_confirm" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dji.playback.ui.share.PlaybackShareLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="#18191a" app:cardCornerRadius="@dimen/d_16_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_20_dp" android:text="@string/v2_hg_Share" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/ivClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/playback_card_dialog_close" android:layout_marginEnd="@dimen/d_16_dp" app:layout_constraintBottom_toBottomOf="@id/textView" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/textView" />
+        <com.dji.playback.ui.share.DJIShareRecyclerView android:id="@id/recycler_view_preview_dialog" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_36_dp" android:layout_marginBottom="@dimen/d_24_dp" app:grid_item_line_count="3" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.dji.playback.ui.share.PlaybackShareLayout>

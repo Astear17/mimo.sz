@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/editor_d_20_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/editor_d_15_dp" android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/tv_save_exit" android:background="@drawable/bg_corner10_ffffff" android:padding="@dimen/editor_d_14_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mimo_editor_template_ai_menu_exit" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/editor_d_15_dp" android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/cancel" android:background="@drawable/bg_corner10_ffffff" android:padding="@dimen/editor_d_14_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_12_dp" android:layout_marginBottom="@dimen/editor_d_34_dp" android:text="@string/light_permissions_location_notifications_cancel" />
+</LinearLayout>

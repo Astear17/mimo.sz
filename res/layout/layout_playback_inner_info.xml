@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dji.playback.inner.PlaybackInnerInfoView android:background="#77000000" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="8.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/cameraInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="相机模式：" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="8.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/previewerInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="Previewer：" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/cameraInfo" />
+    <TextView android:textSize="8.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/mediaFileInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="MediaFile：" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/previewerInfo" />
+    <ScrollView android:id="@id/logScroll" android:layout_width="150.0dp" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" app:layout_constraintHeight_max="80.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/mediaFileInfo">
+        <TextView android:textSize="8.0sp" android:textColor="@color/white_100" android:id="@id/logView" android:padding="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <ImageView android:id="@id/closeIcon" android:layout_width="16.0dp" android:layout_height="16.0dp" android:src="@drawable/ic_playback_close" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/cameraInfo" />
+</com.dji.playback.inner.PlaybackInnerInfoView>

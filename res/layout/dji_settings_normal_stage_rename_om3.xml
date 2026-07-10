@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.lomo.fpv.om3.view.settings.general.DJIFpvSettingStageGeneralDeviceNameSV2 android:id="@id/dji_setting_stage_general_root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="8.0dp">
+        <dji.base.ui.widget.DJIItemViewEditText android:id="@id/dji_setting_general_device_name" android:paddingStart="@dimen/d_8_dp" android:paddingEnd="@dimen/d_10_dp" setting_ui:descText="@string/dji_setting_general_device_name_prefix_om3" setting_ui:descTextSize="@dimen/d_12_dp" setting_ui:editTvColor="@color/white" setting_ui:editTvSize="@dimen/text_dp_12" setting_ui:titleText="@string/hg302_fpv_setting_device_name_list_title_content" setting_ui:titleTextSize="@dimen/d_12_dp" setting_ui:typeFace="@string/ui_typeface_roboto_condensed_bold" style="@style/dji_setting_item_ll" />
+    </LinearLayout>
+</dji.lomo.fpv.om3.view.settings.general.DJIFpvSettingStageGeneralDeviceNameSV2>

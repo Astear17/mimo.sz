@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/black_70" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.base.ui.widget.dji.DJIImageView android:id="@id/wireless_mic_guide_close_button" android:padding="@dimen/d_12_dp" android:layout_width="@dimen/d_48_dp" android:layout_height="@dimen/d_48_dp" android:layout_marginTop="@dimen/d_10_dp" android:src="@drawable/ic_navigation_close_white" android:layout_marginEnd="@dimen/d_16_dp" android:layout_alignParentEnd="true" />
+    <dji.base.ui.widget.dji.DJIImageView android:id="@id/microphone_status_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_108_dp" android:src="@drawable/hg211_osd_mictips" android:layout_marginEnd="@dimen/d_28_dp" android:layout_toStartOf="@id/microphone_guide_view_guideline_vertical" />
+    <RelativeLayout android:id="@id/microphone_help" android:layout_width="@dimen/d_300_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_108_dp" android:layout_marginStart="@dimen/d_10_dp" android:layout_toEndOf="@id/microphone_guide_view_guideline_vertical">
+        <TextView android:textSize="@dimen/d_13_dp" android:id="@id/microphone_help_text_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/hg211_fpv_setting_connect_wireless_mic_tutorial_mask1_title" style="@style/TextStyleRobotoBold" />
+        <RelativeLayout android:id="@id/microphone_help_text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_25_dp" android:layout_below="@id/microphone_help_text_title">
+            <dji.base.ui.widget.dji.DJIImageView android:id="@id/microphone_connect_without_3p5" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:src="@drawable/hg211_micconnect_normal" android:layout_alignParentStart="true" />
+            <TextView android:textSize="@dimen/d_13_dp" android:id="@id/microphone_connect_wired_or_wireless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hg211_fpv_setting_connect_wireless_mic_tutorial_mask1_content1" android:layout_centerVertical="true" android:layout_toEndOf="@id/microphone_connect_without_3p5" style="@style/TextStyleRobotoRegular" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/microphone_help_text2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_25_dp" android:layout_below="@id/microphone_help_text1">
+            <dji.base.ui.widget.dji.DJIImageView android:id="@id/microphone_connect_with_3p5" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:src="@drawable/hg211_mic_wired_connect_normal" android:layout_alignParentStart="true" />
+            <TextView android:textSize="@dimen/d_13_dp" android:id="@id/microphone_connect_with_3p5_help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hg211_fpv_setting_connect_wireless_mic_tutorial_mask1_content2" android:layout_toEndOf="@id/microphone_connect_with_3p5" style="@style/TextStyleRobotoRegular" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:id="@id/microphone_guide_view_guideline_vertical" android:visibility="visible" android:layout_width="@dimen/d_1_dp" android:layout_height="match_parent" android:layout_centerHorizontal="true" />
+    <View android:id="@id/microphone_guide_view_guideline_horizotal" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/d_1_dp" android:layout_centerVertical="true" />
+</RelativeLayout>

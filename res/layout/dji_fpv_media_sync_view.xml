@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.lomo.fpv.ui.base.media.DJIMediaSyncView android:orientation="horizontal" android:background="@color/black_35" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_64_dp" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/fpv_media_sync_preview_img" android:padding="@dimen/d_10_dp" android:layout_width="@dimen/d_64_dp" android:layout_height="match_parent" android:src="@drawable/dji_fpv_mediasync_default_icon" android:scaleType="centerCrop" android:adjustViewBounds="true" android:cropToPadding="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:baselineAligned="false" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/text_dp_15" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="middle" android:gravity="left|center" android:id="@id/fpv_media_sync_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/dji_fpv_media_sync_tip" android:maxLines="2" />
+        <TextView android:textSize="@dimen/text_dp_10" android:textColor="@color/white_60" android:gravity="left|center" android:id="@id/fpv_media_sync_count" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_3_dp" android:text="@string/dji_fpv_media_sync_videos" />
+    </LinearLayout>
+    <View android:id="@id/fpv_media_sync_divider" android:background="@color/white_10" android:layout_width="@dimen/d_1_dp" android:layout_height="match_parent" />
+    <ImageView android:id="@id/fpv_media_sync_download_img" android:padding="@dimen/d_10_dp" android:layout_width="@dimen/d_64_dp" android:layout_height="match_parent" android:src="@drawable/dji_fpv_sync_download" android:scaleType="centerInside" android:adjustViewBounds="true" />
+</dji.lomo.fpv.ui.base.media.DJIMediaSyncView>

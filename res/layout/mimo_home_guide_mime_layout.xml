@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/home_user_guide_mime_container" style="@style/home_user_guide_root_view_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:src="@drawable/home_user_guide_item_star" android:layout_above="@id/home_user_guide_mime_content_container" style="@style/home_user_guide_star_style" />
+    <RelativeLayout android:id="@id/home_user_guide_mime_content_container" android:layout_above="@id/home_user_guide_mime_content_arrow" style="@style/home_user_guide_content_container_style">
+        <ImageView android:id="@id/home_user_guide_mime_content_image" android:src="@drawable/home_user_guide_content_icon_mime" style="@style/home_user_guide_content_image_style" />
+        <TextView android:id="@id/home_user_guide_mime_content_title" android:text="@string/mimo_home_icon_mine_content" android:layout_below="@id/home_user_guide_mime_content_image" style="@style/home_user_guide_content_title_style" />
+        <TextView android:id="@id/home_user_guide_mime_content_description" android:text="@string/mimo_home_teaching_my_tab_tips_toast_content" android:layout_below="@id/home_user_guide_mime_content_title" style="@style/home_user_guide_content_description_style" />
+    </RelativeLayout>
+    <ImageView android:id="@id/home_user_guide_mime_content_arrow" android:layout_above="@id/home_user_guide_mime_anchor" android:layout_marginEnd="@dimen/d_15_dp" android:layout_alignParentEnd="true" style="@style/home_user_guide_arrow_style" />
+    <ImageView android:id="@id/home_user_guide_mime_anchor" android:src="@drawable/home_user_guide_item_anchor_mime" android:layout_above="@id/home_user_guide_mime_bottom_margin_view" android:layout_marginEnd="@dimen/d_0_dp" android:layout_alignParentEnd="true" style="@style/home_user_guide_anchor_style" />
+    <TextView android:id="@id/home_user_guide_mime_bottom_margin_view" style="@style/home_user_guide_bottom_margin_view_style" />
+</RelativeLayout>

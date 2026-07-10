@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black_101010" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/upgrade_layout_title" />
+    <ScrollView android:paddingLeft="@dimen/d_20_dp" android:paddingRight="@dimen/d_20_dp" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/connect_guide_wlan_plus_description" />
+            <include layout="@layout/connect_guide_frequency_description" />
+            <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_18_dp" android:text="@string/mimo_connection_connection_help_android10_system_connection_caused_mimo_connection_fail_content" />
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:textAppearance="@style/TV.RobotoCondensed.Bold" android:textSize="@dimen/d_16_dp" android:textColor="@color/dji_device_color_1088F2" android:gravity="center" android:id="@id/contract_online_service" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_18_dp" android:layout_marginBottom="@dimen/d_32_dp" android:text="@string/mimo_connection_connection_help_connect_unusual_online_support_btn" android:layout_marginStart="@dimen/d_20_dp" android:layout_marginEnd="@dimen/d_20_dp" />
+</LinearLayout>

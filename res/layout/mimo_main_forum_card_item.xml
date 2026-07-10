@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/d_4_dp" android:paddingRight="@dimen/d_4_dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <dji.lomo.main.view.CustomImageView android:id="@id/forum_image_view" android:layout_width="@dimen/d_160_dp" android:layout_height="@dimen/d_90_dp" fresco:actualImageScaleType="centerCrop" fresco:failureImage="@drawable/recommend_banner_placeholder_shape" fresco:placeholderImage="@drawable/recommend_banner_placeholder_shape" fresco:roundedCornerRadius="@dimen/d_12_dp" />
+    <TextView android:textSize="@dimen/d_10_dp" android:textColor="@color/white_80" android:ellipsize="end" android:gravity="left" android:id="@id/forum_text_view" android:layout_width="match_parent" android:layout_height="@dimen/d_44_dp" android:layout_marginTop="@dimen/d_8_dp" android:maxLines="2" android:layout_marginHorizontal="@dimen/d_4_dp" android:lineHeight="@dimen/d_14_dp" />
+</LinearLayout>

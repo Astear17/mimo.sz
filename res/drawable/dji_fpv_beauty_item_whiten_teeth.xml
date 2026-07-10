@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/ic_fpv_beauty_white_tooth_selected" />
+    <item android:state_enabled="false" android:drawable="@drawable/ic_fpv_beauty_white_teeth_disable" />
+    <item android:drawable="@drawable/ic_fpv_beauty_white_tooth_normal" />
+</selector>

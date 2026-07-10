@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="50.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/wifi_set_cancel" android:background="@color/transparent" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/device_dialog_cancel" android:layout_weight="1.0" />
+    <View android:id="@id/separator" android:background="@color/white" android:layout_width="2.0dp" android:layout_height="match_parent" />
+    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/upgrade_progress_text" android:gravity="center" android:layout_gravity="center" android:id="@id/wifi_set_confirm" android:background="@color/transparent" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/device_dialog_confirm" android:layout_weight="1.0" />
+</LinearLayout>

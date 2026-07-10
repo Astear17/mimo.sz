@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/wave_view_rl" android:layout_width="@dimen/editor_d_37_dp" android:layout_height="@dimen/editor_d_37_dp" android:layout_marginTop="@dimen/editor_d_00_1_5_dp" android:layout_centerInParent="true">
+        <lct.lomo.sdk.editor.customtemp.qingpai.view.template.WaveView android:id="@id/wave_view" android:layout_width="@dimen/editor_d_37_dp" android:layout_height="@dimen/editor_d_37_dp" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/pre_local_normal_bg" android:background="@drawable/mediaeditor_qingpai_local_pop_shape_bg" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" android:layout_centerInParent="true" />
+        <lct.lomo.sdk.editor.widget.progress.RoundCornerImageView android:id="@id/pre_local_bg" android:layout_width="@dimen/editor_d_28_dp" android:layout_height="@dimen/editor_d_28_dp" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/pre_local_icon" android:layout_width="@dimen/editor_d_11_dp" android:layout_height="@dimen/editor_d_11_dp" android:src="@drawable/qingpai_pre_local_icon_player" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_65_dp" android:text="@string/light_afflatus_preview" android:layout_centerHorizontal="true" style="@style/H_5_normal" />
+</RelativeLayout>

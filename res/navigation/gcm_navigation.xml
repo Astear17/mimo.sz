@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/gcm_navigation" app:startDestination="@id/gcmRecordingFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="GCMRecordingFragment" android:name="com.dji.gcm.gcm.fragment.GcmRecordingFragment" android:id="@id/gcmRecordingFragment" />
+    <action android:id="@id/action_to_gcmRecordingFragment" app:destination="@id/gcmRecordingFragment" />
+    <fragment android:label="GCMResultFragment" android:name="com.dji.gcm.gcm.fragment.GcmResultFragment" android:id="@id/gcmResultFragment" />
+    <action android:id="@id/action_to_gcmResultFragment" app:destination="@id/gcmResultFragment" />
+</navigation>

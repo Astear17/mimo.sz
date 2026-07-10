@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/top_title" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/d_50_dp" android:layout_marginTop="@dimen/d_10_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/back" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title_back" android:layout_centerVertical="true" android:layout_marginStart="@dimen/d_24_dp" android:layout_alignParentStart="true" />
+    <LinearLayout android:id="@id/message_layout" android:paddingTop="@dimen/d_10_dp" android:paddingRight="@dimen/d_20_dp" android:paddingBottom="@dimen/d_10_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_15_dp">
+        <dji.lomo.main.view.MessageImageView android:id="@id/message" android:padding="@dimen/d_1_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/personal_ic_message" android:layout_toRightOf="@id/back" android:layout_centerVertical="true" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/more_layout" android:paddingLeft="@dimen/d_10_dp" android:paddingTop="@dimen/d_10_dp" android:paddingBottom="@dimen/d_10_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/d_15_dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/personal_ic_more" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/set_layout" android:paddingLeft="@dimen/d_10_dp" android:paddingTop="@dimen/d_10_dp" android:paddingRight="@dimen/d_10_dp" android:paddingBottom="@dimen/d_10_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_15_dp" android:layout_toLeftOf="@id/more_layout">
+        <ImageView android:id="@id/set" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/personal_ic_set" android:layout_centerVertical="true" />
+    </LinearLayout>
+</RelativeLayout>

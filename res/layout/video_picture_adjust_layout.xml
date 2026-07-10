@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/template_bottom_sheet_bg" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_170_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_mirror_rotate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_16_dp" android:layout_above="@id/mediaedit_menu_bottom_layout_id" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/editor_d_11_dp" android:textColor="@color/white_40" android:gravity="center" android:id="@id/tv_mirror" android:layout_width="@dimen/editor_d_46_dp" android:layout_height="@dimen/editor_d_50_dp" android:text="@string/general_playback_single_clip_edit_mirror_title" android:drawableTop="@drawable/mirror_icon" android:drawablePadding="@dimen/editor_d_4_dp" />
+        <TextView android:textSize="@dimen/editor_d_11_dp" android:textColor="@color/white_40" android:gravity="center" android:id="@id/tv_rotate" android:layout_width="@dimen/editor_d_46_dp" android:layout_height="@dimen/editor_d_50_dp" android:layout_marginLeft="@dimen/editor_d_62_dp" android:text="@string/light_model_videopreview_cut_rotate" android:drawableTop="@drawable/ic_cutomtemplate_editvideo_rotate" android:drawablePadding="@dimen/editor_d_4_dp" />
+    </LinearLayout>
+    <include android:id="@id/mediaedit_menu_bottom_layout_id" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/multiple_template_margin_bottom" android:layout_alignParentBottom="true" layout="@layout/custom_cutout_menu_bottom_layout" />
+</RelativeLayout>

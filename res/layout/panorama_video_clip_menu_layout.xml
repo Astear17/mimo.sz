@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/black" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_105_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lct.panorama.view.PanoramaClipTipsView android:id="@id/panorama_video_clip_action_tips_view" android:layout_width="@dimen/editor_d_0_dp" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_15_dp" app:layout_constraintBottom_toTopOf="@id/mediaedit_menu_bottom_layout_id" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <com.lct.panorama.view.PanoramaClipActionView android:id="@id/panorama_video_clip_action_pop_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/mediaedit_menu_bottom_layout_id" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <include android:id="@id/mediaedit_menu_bottom_layout_id" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_49_dp" app:layout_constraintBottom_toBottomOf="parent" layout="@layout/panorama_menu_bottom_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

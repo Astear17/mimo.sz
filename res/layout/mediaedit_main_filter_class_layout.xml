@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/edit_menu_bg_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/filter_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_28_dp" android:layout_above="@id/mediaedit_menu_bottom_layout_id" android:layout_centerHorizontal="true">
+        <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/filter_class_list" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <lct.lomo.sdk.editor.widget.FilterRecyclerView android:id="@id/filter_list" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_9_dp" />
+    </LinearLayout>
+    <lct.lomo.sdk.editor.resource.view.CloudResourceList android:id="@id/cloud_filter_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/editor_d_28_dp" android:layout_above="@id/mediaedit_menu_bottom_layout_id" />
+    <lct.lomo.sdk.editor.widget.FilterSeekbar android:id="@id/filter_tab_seekbar" android:visibility="gone" android:layout_width="@dimen/editor_d_250_dp" android:layout_height="@dimen/editor_d_30_dp" android:layout_marginBottom="@dimen/editor_d_20_dp" android:layout_above="@id/mediaedit_menu_bottom_layout_id" android:layout_centerHorizontal="true" />
+    <FrameLayout android:id="@id/cloud_resource_loading_layout" android:background="@color/mediaeditor_bg_color" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/mediaedit_menu_bottom_layout_id">
+        <ImageView android:layout_gravity="center" android:id="@id/cloud_resource_loading_iamge" android:layout_width="@dimen/editor_d_60_dp" android:layout_height="@dimen/editor_d_60_dp" android:src="@drawable/mediaeditor_base_loading_frame_list" />
+    </FrameLayout>
+    <include android:id="@id/mediaedit_menu_bottom_layout_id" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_49_dp" android:layout_alignParentBottom="true" layout="@layout/mediaeditor_menu_bottom_layout" />
+</RelativeLayout>

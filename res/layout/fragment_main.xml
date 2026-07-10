@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/om_fpv" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/lay_surface" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_gravity="top" android:layout_width="match_parent" android:layout_height="match_parent">
+            <dji.lomo.fpv.om.ui.main.preview.CameraSurfaceView android:id="@id/surface_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <dji.lomo.fpv.om.ui.main.preview.MaskOverlayView android:id="@id/preview_mask" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <dji.lomo.fpv.om.ui.main.tracking.DJILPPreviewGestureLayout android:id="@id/preview_gesture_layout" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <include android:id="@id/fpv_tk_frame_assist_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/dji_om_fpv_tk_frame_assist_view" />
+        </FrameLayout>
+        <dji.lomo.fpv.ui.base.camera.gridline.DJICameraGridLines android:id="@id/fpv_new_gridlines" android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_centerInParent="true" />
+    </FrameLayout>
+    <dji.lomo.fpv.om.ui.widget.BottomOperateAnchorView android:id="@id/bottom_operate_anchor" android:layout_width="0.0dp" android:layout_height="0.0dp" android:elevation="8.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <dji.lomo.fpv.om.ui.top.widgets.zoomdial.CameraZoomToolSwitcherView android:layout_gravity="center|bottom" android:id="@id/camera_zoom_seekbar_view_group" android:layout_width="@dimen/d_460_dp" android:layout_height="@dimen/d_460_dp" android:translationY="@dimen/zoom_dial_translation_y" />
+    </dji.lomo.fpv.om.ui.widget.BottomOperateAnchorView>
+    <FrameLayout android:visibility="gone" android:layout_width="@dimen/d_300_dp" android:layout_height="@dimen/d_300_dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <dji.lomo.fpv.om.ui.main.preview.multi.SmallCameraTextureView android:layout_gravity="center" android:id="@id/surface_view_small" android:layout_width="match_parent" android:layout_height="@dimen/d_300_dp" />
+        <Button android:layout_gravity="end|bottom" android:id="@id/open_camera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="多相机" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

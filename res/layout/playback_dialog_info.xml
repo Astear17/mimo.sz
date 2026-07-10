@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:background="#131414" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/playback_detail_info_grabber" android:layout_width="@dimen/d_40_dp" android:layout_height="@dimen/d_4_dp" android:layout_marginTop="@dimen/d_8_dp" android:layout_marginBottom="@dimen/d_4_dp" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_40" android:gravity="center" android:id="@id/playback_dialog_info_title" android:layout_width="wrap_content" android:layout_height="25.0dp" android:layout_marginLeft="@dimen/d_24_dp" android:layout_marginTop="@dimen/d_4_dp" android:layout_marginBottom="@dimen/d_8_dp" android:text="@string/fpv_replay_manage_file_info_dialog_title" />
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_20_dp" android:layout_marginEnd="@dimen/d_20_dp" app:cardBackgroundColor="#1d1e1f" app:cardCornerRadius="@dimen/d_14_dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:id="@id/fileName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_10_dp" android:layout_marginBottom="@dimen/d_10_dp" android:drawablePadding="@dimen/d_16_dp" android:drawableStart="@drawable/ic_playback_file_info_name" android:layout_marginStart="@dimen/d_20_dp" android:layout_marginEnd="@dimen/d_20_dp" />
+            <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_10_dp" android:layout_marginBottom="@dimen/d_10_dp" android:drawablePadding="@dimen/d_16_dp" android:drawableStart="@drawable/ic_playback_file_info_date" android:layout_marginStart="@dimen/d_20_dp" />
+            <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:id="@id/fileSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_10_dp" android:layout_marginBottom="@dimen/d_10_dp" android:drawablePadding="@dimen/d_16_dp" android:drawableStart="@drawable/ic_playback_file_info_size" android:layout_marginStart="@dimen/d_20_dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_10_dp" android:layout_marginBottom="@dimen/d_10_dp" android:layout_marginStart="@dimen/d_20_dp" android:layout_marginEnd="@dimen/d_20_dp" app:cardBackgroundColor="#1d1e1f" app:cardCornerRadius="@dimen/d_14_dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp" android:src="@drawable/ic_playback_file_info_device" android:layout_marginStart="@dimen/d_20_dp" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/deviceName" android:layout_width="match_parent" android:layout_height="@dimen/d_40_dp" android:paddingStart="@dimen/d_18_dp" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="@dimen/d_40_dp">
+                    <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_80" android:layout_gravity="center_vertical" android:id="@id/resolution" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_18_dp" />
+                    <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_80" android:layout_gravity="center_vertical" android:id="@id/frameRate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/d_12_dp" />
+                    <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_80" android:layout_gravity="center_vertical" android:id="@id/speedRate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/d_12_dp" />
+                    <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_80" android:layout_gravity="center_vertical" android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/d_12_dp" />
+                    <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_80" android:layout_gravity="center_vertical" android:id="@id/fileType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/d_12_dp" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/videoExtraInfoContainer" android:layout_width="match_parent" android:layout_height="@dimen/d_40_dp">
+                    <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_80" android:layout_gravity="center_vertical" android:id="@id/encodeType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_18_dp" />
+                    <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/white_80" android:layout_gravity="center_vertical" android:id="@id/colorMode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_12_dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</merge>

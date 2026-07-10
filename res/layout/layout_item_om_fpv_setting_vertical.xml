@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/vertical_teach" setting_ui:layout_constraintEnd_toEndOf="parent" setting_ui:layout_constraintTop_toTopOf="parent" style="@style/dji_setting_imageview_teach" />
+    <ImageView android:id="@id/iv_vertical_ic" android:layout_width="24.0dp" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:src="@drawable/ic_om_fpv_calibrate_horizon" android:scaleType="fitCenter" setting_ui:layout_constraintEnd_toEndOf="parent" setting_ui:layout_constraintStart_toStartOf="parent" setting_ui:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textColor="@color/white_90" android:gravity="center" android:id="@id/tv_vertical_des" android:paddingBottom="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" setting_ui:layout_constraintEnd_toEndOf="parent" setting_ui:layout_constraintStart_toStartOf="parent" setting_ui:layout_constraintTop_toBottomOf="@id/iv_vertical_ic" style="@style/body_2_600" />
+</merge>

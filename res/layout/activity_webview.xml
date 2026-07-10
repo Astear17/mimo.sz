@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/whole" android:background="@color/color_101010" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/title_layout_new_academy" android:paddingTop="@dimen/d_10_dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_50_dp" android:paddingStart="@dimen/d_6_dp" android:paddingEnd="@dimen/d_10_dp">
+            <ImageView android:id="@id/iv_new_academy_back" android:layout_width="wrap_content" android:layout_height="@dimen/d_54_dp" android:src="@drawable/ic_back_arrow" android:scaleType="centerInside" android:layout_centerVertical="true" android:paddingStart="@dimen/d_10_dp" android:layout_alignParentStart="true" />
+            <ImageView android:id="@id/iv_new_academy_close" android:visibility="gone" android:layout_width="@dimen/d_36_dp" android:layout_height="@dimen/d_54_dp" android:src="@drawable/webview_close" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_marginStart="@dimen/d_4_dp" android:layout_toEndOf="@id/iv_new_academy_back" />
+            <ImageView android:id="@id/iv_light_mode_close" android:visibility="gone" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/dji_ic_usercenter_close_tow" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/d_6_dp" android:layout_alignParentEnd="true" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/d_16_dp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/tv_new_academy_title_name" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_80_dp" android:layout_marginRight="@dimen/d_80_dp" android:maxLines="2" android:layout_centerInParent="true" android:autoSizeMinTextSize="@dimen/d_8_dp" />
+        </RelativeLayout>
+        <ProgressBar android:id="@id/explore_progress_pgb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="2.0dp" android:progress="0" android:indeterminate="false" android:progressDrawable="@drawable/store_loading_progress" style="?android:progressBarStyleHorizontal" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/title_layout" android:paddingTop="@dimen/d_10_dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_64_dp" android:paddingStart="@dimen/d_6_dp" android:paddingEnd="@dimen/d_10_dp">
+            <ImageView android:id="@id/back_iv" android:layout_width="wrap_content" android:layout_height="@dimen/d_54_dp" android:src="@drawable/dji_ic_usercenter_back" android:scaleType="centerInside" android:layout_centerVertical="true" android:paddingStart="@dimen/d_10_dp" android:layout_alignParentStart="true" />
+            <ImageView android:id="@id/close_iv" android:visibility="gone" android:layout_width="@dimen/d_36_dp" android:layout_height="@dimen/d_54_dp" android:src="@drawable/webview_close" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_marginStart="@dimen/d_4_dp" android:layout_toEndOf="@id/back_iv" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerInParent="true" android:paddingStart="@dimen/d_56_dp" android:paddingEnd="@dimen/d_56_dp">
+                <dji.lomo.main.view.CustomImageView android:id="@id/activity_webview_avatar" android:visibility="gone" android:layout_width="@dimen/d_22_dp" android:layout_height="@dimen/d_22_dp" style="@style/fresco_header_view_style" />
+                <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/d_8_dp" style="@style/TextStyleRobotoMedium" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/layout_dropdown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:paddingStart="@dimen/d_30_dp">
+                <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/tv_dropdown_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextStyleRobotoMedium" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_unfold" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:src="@drawable/mimo_ic_title_bar_unfold_white" />
+            </LinearLayout>
+        </RelativeLayout>
+        <FrameLayout android:id="@id/layout_divider" android:background="@color/color_dropdown_menu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_16_dp">
+            <View android:background="@color/color_404040" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <dji.lomo.main.web.BaseWebView android:id="@id/webview" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_no_network" android:paddingTop="@dimen/d_179_dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:id="@id/iv_no_network" android:layout_width="@dimen/d_60_dp" android:layout_height="@dimen/d_60_dp" android:src="@drawable/mimo_ic_no_network" />
+                <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/color_666666" android:id="@id/tv_no_network" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp" android:text="@string/kino_network_error" style="@style/TextStyleRobotoRegular" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/full_screen_video" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_getcontent_fail" android:paddingTop="@dimen/d_179_dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:id="@id/iv_fail" android:layout_width="@dimen/d_60_dp" android:layout_height="@dimen/d_60_dp" android:src="@drawable/mimo_ic_no_data" android:scaleType="centerInside" />
+                <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/color_666666" android:id="@id/tv_no_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp" android:text="@string/mimo_usercenter_feedback_connectFail_content" style="@style/TextStyleRobotoRegular" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view_dropdown" android:background="@color/color_101010" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </FrameLayout>
+    </LinearLayout>
+    <dji.lomo.main.web.tolight.ComposeProgressLayout android:id="@id/down_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_64_dp" android:layout_alignParentBottom="true" />
+</RelativeLayout>

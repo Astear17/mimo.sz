@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/operation_menu_divider" android:background="@color/mediaedit_subtilte_bar_split_color" android:layout_width="0.5dp" android:layout_height="match_parent" android:layout_alignParentRight="true" />
+    <RelativeLayout android:id="@id/rl_recycler_containr" android:background="@color/mediaedit_subtilte_bar_list_color" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toLeftOf="@id/operation_menu_divider">
+        <lct.lomo.sdk.editor.widget.LandRecyclerView android:id="@id/subtitle_editor_operate" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/editor_d_126_dp" android:layout_marginBottom="@dimen/editor_d_6_dp" android:layout_toLeftOf="@id/rl_recycler_containr" android:layout_alignParentBottom="true">
+        <com.lctsdk.mediaeditor.tabviews.sticker.StickerTrackLayout android:id="@id/subtitle_editor_layout" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/editor_d_126_dp" android:layout_toLeftOf="@id/rl_recycler_containr" android:layout_alignParentBottom="true">
+        <View android:id="@id/subtitle_editor_line" android:background="@drawable/editor_trackview_line_shape" android:visibility="visible" android:layout_width="@dimen/editor_d_2_dp" android:layout_height="@dimen/editor_d_108_dp" android:layout_marginTop="@dimen/editor_d_20_dp" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

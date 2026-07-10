@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/ui_function_set_rot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/device_monitor_view_root" android:layout_width="@dimen/editor_d_56_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_8_dp" android:layout_marginBottom="@dimen/editor_d_8_dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <RelativeLayout android:id="@id/device_monitor_view_vg" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" />
+        <TextView android:textSize="@dimen/editor_d_9_dp" android:textColor="@color/mediaeditor_color_FAFAFA" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lightcut_home_device" android:shadowColor="@color/mediaeditor_black_40" android:shadowRadius="2.0" />
+    </LinearLayout>
+    <lct.lomo.sdk.editor.customtemp.qingpai.inspirationlib.view.SkyDeviceTipPopView android:id="@id/qingpai_sky_device_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_20_dp" android:layout_marginTop="@dimen/editor_d_3_dp" android:layout_marginRight="@dimen/editor_d_02_dp" android:paddingStart="@dimen/editor_d_102_dp" android:elevation="@dimen/editor_d_5_dp" app:layout_constraintEnd_toStartOf="@id/device_monitor_view_root" app:layout_constraintTop_toTopOf="@id/device_monitor_view_root" />
+    <lct.lomo.sdk.editor.customtemp.qingpai.view.AdjustScrollView android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/function_set_root" android:layout_width="@dimen/editor_d_56_dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/device_monitor_view_root">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:splitMotionEvents="false">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/activity_qingpai_camera_switch_root" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/activity_qingpai_camera_switch" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:src="@drawable/shoot_camer_switch_icon" />
+                <TextView android:textSize="@dimen/editor_d_9_dp" android:textColor="@color/mediaeditor_color_FAFAFA" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/light_afflatus_overturn" android:shadowColor="@color/mediaeditor_black_40" android:shadowRadius="2.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/activity_qingpai_beauty_root" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_8_dp">
+                <ImageView android:id="@id/qingpai_main_detail_beauty" android:background="@drawable/qingpai_beauty_on_icon" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" />
+                <TextView android:textSize="@dimen/editor_d_9_dp" android:textColor="@color/mediaeditor_color_FAFAFA" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_afflatus_beautify_btn" android:shadowColor="@color/mediaeditor_black_40" android:shadowRadius="2.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/activity_qingpai_quality_root" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_8_dp">
+                <ImageView android:id="@id/qingpai_main_detail_quality" android:background="@drawable/qingpai_quality_on_icon" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" />
+                <TextView android:textSize="@dimen/editor_d_9_dp" android:textColor="@color/mediaeditor_color_FAFAFA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_afflatus_quality_on" android:shadowColor="@color/mediaeditor_black_40" android:shadowRadius="2.0" />
+            </LinearLayout>
+            <lct.lomo.sdk.editor.customtemp.qingpai.view.QingPaiTitlePop android:id="@id/activity_qingpai_title_pop" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </lct.lomo.sdk.editor.customtemp.qingpai.view.AdjustScrollView>
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/activity_qingpai_expand_root" android:layout_width="@dimen/editor_d_56_dp" android:layout_height="@dimen/editor_d_32_dp" android:layout_marginTop="@dimen/editor_d_8_dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/function_set_root">
+        <ImageView android:id="@id/retract" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:src="@drawable/retract" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

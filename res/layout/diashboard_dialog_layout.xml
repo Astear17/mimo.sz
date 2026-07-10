@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/dashboard_dialog_bgr" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/editor_d_15_dp" android:textStyle="bold" android:textColor="@color/C_ff000000" android:gravity="center" android:id="@id/dialog_dashboard_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_24_dp" />
+        <TextView android:textSize="@dimen/editor_d_13_dp" android:textStyle="normal" android:textColor="@color/black_80" android:gravity="left|top" android:id="@id/dialog_dashboard_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_8_dp" android:layout_marginBottom="@dimen/editor_d_20_dp" android:includeFontPadding="false" android:lineSpacingExtra="4.5dp" android:paddingStart="@dimen/editor_d_24_dp" android:paddingEnd="@dimen/editor_d_24_dp" />
+        <View android:id="@id/dialog_dashboard_hor_line" android:background="@color/C_ffE6E6E6" android:layout_width="match_parent" android:layout_height="0.5dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_50_dp">
+            <TextView android:textSize="@dimen/editor_d_15_dp" android:textStyle="normal" android:textColor="@color/C_99000000" android:gravity="center" android:id="@id/dialog_dashboard_neg_btn" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/ac204_playback_dashboard_data_authorize_btn4" android:layout_weight="1.0" />
+            <View android:id="@id/dialog_dashboard_sep_line" android:background="@color/C_ffE6E6E6" android:layout_width="0.5dp" android:layout_height="match_parent" />
+            <TextView android:textSize="@dimen/editor_d_15_dp" android:textStyle="bold" android:textColor="@color/C_ff000000" android:gravity="center" android:id="@id/dialog_dashboard_pos_btn" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/ac204_playback_dashboard_data_authorize_btn3" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_20_dp" android:layout_marginEnd="@dimen/d_20_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/fl_preview_parent" android:layout_width="match_parent" android:layout_height="@dimen/d_0_dp" android:elevation="@dimen/d_0_dp" fresco:cardCornerRadius="@dimen/d_12_dp" fresco:layout_constraintBottom_toTopOf="@id/rl_message_parent" fresco:layout_constraintDimensionRatio="16:9" fresco:layout_constraintEnd_toEndOf="parent" fresco:layout_constraintStart_toStartOf="parent" fresco:layout_constraintTop_toTopOf="parent">
+        <FrameLayout android:id="@id/video_container" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <FrameLayout android:id="@id/video_controller_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <dji.lomo.main.view.CustomImageView android:id="@id/iv_preview" android:background="@color/color_222222" android:layout_width="match_parent" android:layout_height="match_parent" fresco:actualImageScaleType="centerCrop" fresco:failureImageScaleType="centerCrop" fresco:placeholderImageScaleType="centerCrop" />
+        <ImageView android:layout_gravity="end|bottom" android:id="@id/iv_play" android:padding="@dimen/d_8_dp" android:layout_width="@dimen/d_40_dp" android:layout_height="@dimen/d_40_dp" android:layout_marginBottom="@dimen/d_4_dp" android:src="@drawable/home_work_icon_player" android:layout_marginEnd="@dimen/d_4_dp" />
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout android:id="@id/rl_message_parent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_14_dp" android:layout_marginBottom="@dimen/d_24_dp" fresco:layout_constraintBottom_toBottomOf="parent" fresco:layout_constraintTop_toBottomOf="@id/fl_preview_parent">
+        <dji.lomo.main.view.CustomImageView android:id="@id/iv_user_avatar" android:layout_width="@dimen/d_28_dp" android:layout_height="@dimen/d_28_dp" android:layout_centerVertical="true" style="@style/fresco_header_view_style" />
+        <LinearLayout android:orientation="vertical" android:id="@id/work_info_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/d_10_dp" android:layout_marginEnd="@dimen/d_10_dp" android:layout_toStartOf="@id/item_operate_container" android:layout_toEndOf="@id/iv_user_avatar">
+            <TextView android:textSize="@dimen/d_10_dp" android:textColor="@color/white_80" android:ellipsize="end" android:id="@id/tv_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/TextStyleRobotoMedium" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/d_10_dp" android:textColor="@color/white_40" android:ellipsize="end" android:id="@id/tv_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/d_200_dp" android:maxLines="1" style="@style/TextStyleRobotoRegular" />
+                <View android:layout_gravity="center_vertical" android:id="@id/view_line" android:background="@color/white_40" android:layout_width="0.5dp" android:layout_height="9.0dp" android:layout_marginLeft="@dimen/d_8_dp" android:layout_marginTop="@dimen/d_1_dp" android:layout_marginRight="@dimen/d_8_dp" />
+                <TextView android:textSize="@dimen/d_10_dp" android:textColor="@color/white_40" android:ellipsize="end" android:id="@id/tv_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/d_200_dp" android:maxLines="1" style="@style/TextStyleRobotoRegular" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/item_operate_container" android:layout_width="@dimen/d_60_dp" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/d_4_dp" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/bezier_like" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:src="@drawable/video_detail_praise_un_like" />
+            <ImageView android:id="@id/iv_share" android:visibility="visible" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:src="@drawable/video_detail_share" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/tip_root" android:background="@drawable/bg_guide_shape" android:paddingLeft="@dimen/editor_d_16_dp" android:paddingTop="@dimen/editor_d_8_dp" android:paddingRight="@dimen/editor_d_16_dp" android:paddingBottom="@dimen/editor_d_8_dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/first_layout" android:layout_width="@dimen/editor_d_40_dp" android:layout_height="@dimen/editor_d_40_dp">
+        <ImageView android:id="@id/first_icon" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:src="@drawable/panorama_editor_edit" />
+        <TextView android:textSize="@dimen/editor_d_9_dp" android:textColor="@color/C_E4E4E4_100" android:id="@id/first_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_editor_oq101_key_bar_editor" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/second_layout" android:layout_width="@dimen/editor_d_40_dp" android:layout_height="@dimen/editor_d_40_dp" android:layout_marginLeft="@dimen/editor_d_12_dp">
+        <ImageView android:id="@id/second_icon" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:src="@drawable/panorama_editor_delete" />
+        <TextView android:textSize="@dimen/editor_d_9_dp" android:textColor="@color/C_E4E4E4_100" android:id="@id/second_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_editor_oq101_key_bar_delete" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/third_layout" android:visibility="gone" android:layout_width="@dimen/editor_d_60_dp" android:layout_height="@dimen/editor_d_47_dp" android:layout_marginLeft="@dimen/editor_d_8_dp">
+        <ImageView android:id="@id/third_icon" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:src="@drawable/editor_rhythm_black" />
+        <TextView android:textSize="@dimen/editor_d_9_dp" android:textColor="@color/C_E4E4E4_100" android:id="@id/third_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

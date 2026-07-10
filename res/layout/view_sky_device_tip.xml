@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/mediaeditor_color_624128" android:ellipsize="end" android:gravity="center" android:id="@id/tip_tv" android:background="@drawable/connect_om_to_shoot_tips_bg" android:paddingLeft="@dimen/editor_d_8_dp" android:paddingRight="@dimen/editor_d_8_dp" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_20_dp" android:text="@string/light_afflatus_preview_sky_unosmb_text" android:maxLines="1" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/H_6_bold" />
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_white_0017" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_white_0016" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_white_0015" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_white_0014" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_white_0013" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_white_0012" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_white_0011" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_white_0010" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_white_0009" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_white_0008" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_white_0007" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_white_0006" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_white_0005" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_white_0004" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_white_0003" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_white_0002" />
+    <item android:duration="20" android:drawable="@drawable/qingpai_record_white_0001" />
+</animation-list>

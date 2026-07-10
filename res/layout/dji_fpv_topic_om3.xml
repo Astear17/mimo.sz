@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_48_dp" android:layout_marginEnd="@dimen/d_48_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_topic" android:background="@drawable/bg_yellow_meter" android:paddingTop="@dimen/d_6_dp" android:paddingBottom="@dimen/d_6_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/d_320_dp" android:minHeight="@dimen/d_30_dp" android:paddingStart="@dimen/d_12_dp" android:paddingEnd="@dimen/d_12_dp" style="@style/TextStyleRobotoCondensedBold" />
+    <FrameLayout android:id="@id/lay_creative" android:background="@color/black_35" android:visibility="gone" android:layout_width="@dimen/d_260_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_6_dp" android:maxWidth="@dimen/d_320_dp" android:minHeight="@dimen/d_80_dp">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_10_dp" android:layout_marginEnd="@dimen/d_10_dp">
+            <androidx.appcompat.widget.AppCompatImageView android:background="@color/white" android:layout_width="@dimen/d_80_dp" android:layout_height="@dimen/d_60_dp" android:src="@drawable/ic_fpv_pano_creative_normal" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/tv_creative_step_topic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_12_dp" style="@style/TextStyleRobotoCondensedBold" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|top" android:id="@id/img_close" android:padding="@dimen/d_6_dp" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:src="@drawable/ic_close_small" />
+    </FrameLayout>
+</LinearLayout>

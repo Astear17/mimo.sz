@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/improvement_rights_image" android:layout_width="@dimen/d_64_dp" android:layout_height="@dimen/d_64_dp" android:src="@drawable/d_cirsw_thumb" android:layout_centerVertical="true" android:layout_alignStart="@id/improvement_rights_image" />
+    <TextView android:textColor="@color/black_80" android:id="@id/improvement_rights_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_13_dp" android:text="@string/mimo_common_pip_activity_list_title" android:layout_toEndOf="@id/improvement_rights_image" style="@style/body_2_600" />
+    <TextView android:textColor="@color/black_80" android:id="@id/improvement_rights_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_4_dp" android:text="@string/mimo_common_pip_participate_list_content" android:layout_below="@id/improvement_rights_title" android:layout_toEndOf="@id/improvement_rights_image" style="@style/body_3_400" />
+</RelativeLayout>

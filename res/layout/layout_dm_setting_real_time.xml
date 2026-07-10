@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.dji.mimo.accessory.dm300.DMRealTimeLevelView android:orientation="horizontal" android:id="@id/view_real_time_level_tx1" android:paddingLeft="@dimen/d_20_dp" android:paddingTop="@dimen/d_20_dp" android:paddingRight="@dimen/d_20_dp" android:paddingBottom="@dimen/d_10_dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <com.dji.mimo.accessory.dm300.DMRealTimeLevelView android:orientation="horizontal" android:id="@id/view_real_time_level_tx2" android:paddingLeft="@dimen/d_20_dp" android:paddingTop="@dimen/d_10_dp" android:paddingRight="@dimen/d_20_dp" android:paddingBottom="@dimen/d_20_dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</merge>

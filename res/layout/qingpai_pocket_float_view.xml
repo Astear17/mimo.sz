@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/qianxianll" android:background="@drawable/shape_qingpai_pocket_float_bg" android:layout_width="@dimen/editor_d_72_dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_15_dp" android:layout_marginTop="@dimen/editor_d_15_dp" android:layout_marginRight="@dimen/editor_d_15_dp">
+        <FrameLayout android:layout_width="@dimen/editor_d_64_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_4_dp">
+            <lct.lomo.sdk.editor.widget.progress.RoundCornerImageView android:id="@id/qingpai_pocket_float_image" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_36_dp" android:scaleType="centerCrop" />
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/qingpai_pocket_float_play" />
+        </FrameLayout>
+        <TextView android:textColor="@color/C_000000_100" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_6_dp" android:layout_marginBottom="@dimen/editor_d_6_dp" android:text="@string/light_afflatus_preview_tips_text" style="@style/H_5_normal" />
+    </LinearLayout>
+    <View android:layout_width="@dimen/editor_d_0_dp" android:layout_height="@dimen/editor_d_57_dp" />
+</LinearLayout>

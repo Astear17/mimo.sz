@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/handle_focus_view" android:background="@color/C_1FA3F6_100" android:padding="@dimen/editor_d_15_dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/camera_change_focus" />
+    <com.lctsdk.camera.cameraview.layer.view.FocusWithExposureView android:layout_gravity="center" android:id="@id/focus_bind_exposure_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/camera_focal_distance_view" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_58_dp" android:minWidth="@dimen/editor_d_26_5_dp" android:text="@string/camera_focal_distance_default" android:shadowColor="@color/black_40" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="2.0" android:alpha="0.0" style="@style/H_1_bold" />
+    <com.lct.base.device.fpv.view.gesture.LctLPPreviewTrackingView android:id="@id/trackingView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

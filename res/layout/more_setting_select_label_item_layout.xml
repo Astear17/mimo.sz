@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/panorama_preview_low_root" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_16_dp" android:layout_marginRight="@dimen/editor_d_56_dp" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/editor_d_13_dp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/preview_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        <TextView android:textSize="@dimen/editor_d_11_dp" android:textColor="@color/C_7C7C7F_100" android:ellipsize="end" android:id="@id/preview_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_4_dp" android:maxLines="2" />
+    </LinearLayout>
+    <ImageView android:id="@id/preview_done" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:layout_marginRight="@dimen/editor_d_16_dp" android:src="@drawable/more_setting_preview_mode_done" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

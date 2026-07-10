@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="@android:color/transparent" app:cardCornerRadius="@dimen/editor_d_4_dp" app:cardElevation="@dimen/editor_d_0_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_28_dp">
+        <RelativeLayout android:id="@id/export_profile_layout" android:background="#337c7c7f" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:id="@id/export_button_icon" android:layout_width="@dimen/editor_d_16_dp" android:layout_height="@dimen/editor_d_16_dp" android:layout_marginLeft="@dimen/editor_d_8_dp" android:src="@drawable/panorama_video_normal_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/editor_d_13_dp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/export_profile_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_1_dp" android:layout_marginRight="@dimen/editor_d_2_dp" android:minWidth="@dimen/editor_d_40_dp" android:text="@string/light_editor_resolution_select_1080P" android:lines="1" android:layout_toRightOf="@id/export_button_icon" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/export_profile_arrow" android:layout_width="@dimen/editor_d_8_dp" android:layout_height="@dimen/editor_d_8_dp" android:layout_marginRight="@dimen/editor_d_8_dp" android:src="@drawable/mediaedit_main_titlebar_profile_arrow_unfold" android:layout_toRightOf="@id/export_profile_text" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/editor_d_13_dp" android:textStyle="bold" android:textColor="@color/C_000000_100" android:ellipsize="middle" android:gravity="center" android:id="@id/export_share_iv" android:background="@color/C_FFFFFF_100" android:paddingLeft="@dimen/editor_d_8_dp" android:paddingRight="@dimen/editor_d_8_dp" android:layout_width="@dimen/editor_d_76_dp" android:layout_height="@dimen/editor_d_28_dp" android:text="@string/panorama_single_fragment_exported" android:maxLines="1" android:layout_toRightOf="@id/export_profile_layout" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

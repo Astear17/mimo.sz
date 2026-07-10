@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/d_10_dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_selected_check" android:paddingBottom="@dimen/d_10_dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_brand_spinner_check" android:layout_alignTop="@id/setting_ui_widget_popupwindow_list_tv" android:layout_alignBottom="@id/setting_ui_widget_popupwindow_list_tv" android:paddingStart="@dimen/d_12_dp" android:layout_alignParentStart="true" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/mimo_spinner_popview_text_color" android:gravity="start|center" android:id="@id/setting_ui_widget_popupwindow_list_tv" android:paddingLeft="@dimen/d_8_dp" android:paddingBottom="@dimen/d_10_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/iv_selected_check" android:paddingEnd="@dimen/d_16_dp" style="@style/body_1_600" />
+    <View android:id="@id/divider" android:background="@color/white_12" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/ar_key_input_pop_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.6"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/editor_d_31_dp" android:textColor="@color/C_FFFFFF_100" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_pop_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:textAlignment="center" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/d_30_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextStyleRobotoCondensedBold" android:textSize="@dimen/d_10_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_camera_dynamic_ratio_times" android:background="@color/transparent_alpha_33" android:layout_width="@dimen/d_72_dp" android:layout_height="@dimen/d_22_dp" android:layout_margin="@dimen/d_4_dp" android:text="@string/ac201_fpv_slowmotion_shooting_slow_option" android:paddingStart="7.5dp" android:paddingEnd="7.5dp" />
+    <TextView android:textAppearance="@style/TextStyleRobotoCondensedBold" android:textSize="@dimen/d_10_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_camera_dynamic_ratio_normal" android:background="@color/transparent" android:layout_width="@dimen/d_72_dp" android:layout_height="@dimen/d_22_dp" android:layout_margin="@dimen/d_4_dp" android:text="@string/ratio_1x" android:paddingStart="7.5dp" android:paddingEnd="7.5dp" android:layout_marginStart="@dimen/d_8_dp" />
+</merge>

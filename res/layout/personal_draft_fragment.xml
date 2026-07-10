@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_draft_list" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/editor_d_12_dp" android:layout_marginRight="@dimen/editor_d_12_dp" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/empty_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_72_dp">
+        <ImageView android:layout_width="@dimen/editor_d_96_dp" android:layout_height="@dimen/editor_d_96_dp" android:src="@drawable/personal_empty_draft" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_editor_draft_no_description" style="@style/H_3_normal" />
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/tv_ai_edit" android:background="@drawable/personal_empty_draft_btn_shape" android:layout_width="@dimen/editor_d_135_dp" android:layout_height="@dimen/editor_d_44_dp" android:layout_marginTop="@dimen/editor_d_24_dp" android:text="@string/light_setting_feedback_type_aiEditor" style="@style/H_3_normal" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/no_permission_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_70_dp">
+        <ImageView android:layout_width="@dimen/editor_d_96_dp" android:layout_height="@dimen/editor_d_96_dp" android:src="@drawable/personal_no_permission" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_register_info_authorization_album_draft" style="@style/H_3_normal" />
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/permission_setting" android:background="@drawable/personal_no_permission_btn_shape" android:layout_width="@dimen/editor_d_135_dp" android:layout_height="@dimen/editor_d_44_dp" android:layout_marginTop="@dimen/editor_d_24_dp" android:text="@string/light_select_album_auth_dialog_all" style="@style/H_3_normal" />
+    </LinearLayout>
+</RelativeLayout>

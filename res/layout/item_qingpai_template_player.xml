@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/editor_d_275_dp" android:layout_height="@dimen/editor_d_275_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lctsdk.mediaeditor.tabviews.video.RoundRadiusLayout android:id="@id/item_qingpai_template_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:roundRadius="@dimen/editor_d_10_dp">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/item_qingpai_template_cover" android:background="@color/C_29292D_100" android:paddingLeft="@dimen/editor_d_0_5_dp" android:paddingRight="@dimen/editor_d_0_5_dp" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:radiusColor="@color/C_111116_100" app:roundRadius="@dimen/editor_d_10_dp" />
+            <ImageView android:layout_gravity="center" android:id="@id/item_qingpai_template_play" android:layout_width="@dimen/editor_d_50_dp" android:layout_height="@dimen/editor_d_50_dp" android:src="@drawable/qingpai_preview_ic_play" android:layout_centerInParent="true" />
+            <FrameLayout android:id="@id/item_qingpai_template_video_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <FrameLayout android:id="@id/item_qingpai_template_video_controller" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <TextView android:textColor="@color/white" android:id="@id/item_qingpai_template_label" android:background="@drawable/shape_qingpai_template_tag" android:paddingLeft="@dimen/editor_d_8_dp" android:paddingTop="@dimen/editor_d_2_dp" android:paddingRight="@dimen/editor_d_8_dp" android:paddingBottom="@dimen/editor_d_2_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/editor_d_4_dp" android:layout_alignRight="@id/item_qingpai_template_video_container" android:layout_alignBottom="@id/item_qingpai_template_video_container" style="@style/H_5_normal" />
+        </RelativeLayout>
+    </com.lctsdk.mediaeditor.tabviews.video.RoundRadiusLayout>
+    <TextView android:textColor="@color/white" android:id="@id/item_qingpai_template_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_6_dp" android:layout_below="@id/item_qingpai_template_item" style="@style/H_1_normal" />
+</RelativeLayout>

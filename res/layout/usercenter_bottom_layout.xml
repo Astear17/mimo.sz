@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.handheld.uikit.components.button.CustomButton android:id="@id/done_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_42_dp" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/d_16_dp" android:layout_marginEnd="@dimen/d_16_dp" app:customButtonColor="black" app:customButtonSize="large" app:customButtonState="disabled" app:customButtonText="Done"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

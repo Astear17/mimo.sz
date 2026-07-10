@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/black_90" android:id="@id/product_improvement_choose_plan_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mimo_common_pip_choose_list_title" style="@style/body_1_600" />
+    <TextView android:textColor="@color/color_blue" android:id="@id/improvement_plan_help_content_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" android:text="@string/mimo_common_pip_help_statement_list_title" style="@style/body_3_600" />
+    <dji.lomo.main.activity.productimprovement.ui.ProductImprovementPlanItem android:id="@id/improvement_normal_partner_layout" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <dji.lomo.main.activity.productimprovement.ui.ProductImprovementPlanItem android:id="@id/improvement_super_partner_layout" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <dji.lomo.main.activity.productimprovement.ui.ProductImprovementPlanItem android:id="@id/improvement_close_layout" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

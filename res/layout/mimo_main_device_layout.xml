@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/main_device_top_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/white" android:layout_gravity="left|center" android:id="@id/main_device_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_16_dp" />
+        <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/color_999999" android:gravity="center" android:id="@id/main_device_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/d_16_dp" android:text="@string/mimo_homepage_more" android:drawableRight="@drawable/set_item_arrow" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/main_device_recyclerview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp" android:layout_marginBottom="@dimen/d_36_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/main_device_top_layout" />
+</merge>

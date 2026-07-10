@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.lomo.fpv.om3.view.gimbal.DJILPFpvGimbalQuickSettingView android:orientation="horizontal" android:background="@color/black_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_gimbal_quick_set_config" android:clickable="true" android:layout_width="@dimen/d_77_dp" android:layout_height="@dimen/d_45_dp" android:src="@drawable/dji_gimbal_quick_follow" android:scaleType="center" app:layout_constraintLeft_toLeftOf="parent" />
+</dji.lomo.fpv.om3.view.gimbal.DJILPFpvGimbalQuickSettingView>

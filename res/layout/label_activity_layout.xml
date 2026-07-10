@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/bg_black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/label_title_layout" android:layout_width="match_parent" android:layout_height="@dimen/d_70_dp">
+        <ImageView android:id="@id/page_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_10_dp" android:src="@drawable/title_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_10_dp" android:layout_marginRight="@dimen/d_10_dp" android:layout_toLeftOf="@id/label_post" android:layout_toRightOf="@id/page_back" android:layout_centerVertical="true">
+            <ImageView android:id="@id/label_sign" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/d_1_dp" android:src="@drawable/icon_label" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/d_19_dp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/label_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toRightOf="@id/label_sign" android:layout_centerVertical="true" style="@style/TextStyleRobotoCondensedBold" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/d_19_dp" android:textColor="@color/label_post_text_color" android:id="@id/label_post" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/d_16_dp" android:text="@string/kino_event_detail_post" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/TextStyleRobotoCondensedBold" />
+    </RelativeLayout>
+    <com.liaoinstan.springview.widget.SpringView android:id="@id/label_refresh_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/d_12_dp" android:layout_marginRight="@dimen/d_12_dp" android:layout_below="@id/label_title_layout">
+        <dji.lomo.main.view.list.CustomRecyclerView android:id="@id/label_list" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" app:columns="2" app:leftDecoration="@dimen/d_4_dp" app:needHeader="false" app:rightDecoration="@dimen/d_4_dp" />
+    </com.liaoinstan.springview.widget.SpringView>
+    <ViewStub android:id="@id/label_status" android:layout="@layout/label_empty_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_100_dp" android:layout_centerHorizontal="true" />
+</RelativeLayout>

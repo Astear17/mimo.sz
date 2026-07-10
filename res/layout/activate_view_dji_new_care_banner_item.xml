@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/d_24_dp" android:paddingEnd="@dimen/d_24_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/color_198cff" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_32_dp" android:text="@string/mimo_activate_djicare_protection_plan_buy_1_year_title_content" android:textFontWeight="600" />
+    <TextView android:textSize="@dimen/d_20_dp" android:textColor="@color/black_80" android:id="@id/tv_subTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_16_dp" android:text="@string/mimo_activate_care_one_year_title" android:textFontWeight="600" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_16_dp">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/d_15_dp" android:paddingEnd="@dimen/d_15_dp">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/d_120_dp" android:layout_height="wrap_content">
+                <ImageView android:layout_width="@dimen/d_64_dp" android:layout_height="@dimen/d_64_dp" android:src="@drawable/activate_care_icon_change_new" />
+                <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/black_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_activate_care_replacement_title" android:minLines="2" android:lineHeight="@dimen/d_18_dp" android:textFontWeight="600" />
+            </LinearLayout>
+            <View android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_1_dp" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/d_120_dp" android:layout_height="wrap_content">
+                <ImageView android:layout_width="@dimen/d_64_dp" android:layout_height="@dimen/d_64_dp" android:src="@drawable/activate_care_icon_global" />
+                <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/black_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_activate_care_warranty_title" android:minLines="2" android:lineHeight="@dimen/d_18_dp" android:textFontWeight="600" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp" android:paddingStart="@dimen/d_15_dp" android:paddingEnd="@dimen/d_15_dp">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/d_120_dp" android:layout_height="wrap_content">
+                <ImageView android:layout_width="@dimen/d_64_dp" android:layout_height="@dimen/d_64_dp" android:src="@drawable/activate_care_icon_free" />
+                <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/black_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_activate_care_shipping_title" android:minLines="2" android:lineHeight="@dimen/d_18_dp" android:textFontWeight="600" />
+            </LinearLayout>
+            <View android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_1_dp" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/d_120_dp" android:layout_height="wrap_content">
+                <ImageView android:layout_width="@dimen/d_64_dp" android:layout_height="@dimen/d_64_dp" android:src="@drawable/activate_care_icon_online" />
+                <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/black_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_activate_care_exclusive_line_title" android:minLines="2" android:lineHeight="@dimen/d_18_dp" android:textFontWeight="600" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/selfie_stick_dismiss_task_list_actionbar_0" android:background="@color/playback_segment_editor_bg" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:textColor="@color/white" android:id="@id/cloudTaskActionBarBackBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gallery_ic_close" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white" android:id="@id/cloudTaskActionBarTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/general_playback_cloud_edit_task_page_title" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

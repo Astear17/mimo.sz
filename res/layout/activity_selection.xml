@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/color_101010" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/title_bar_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_title_back" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:layout_marginTop="@dimen/d_20_dp" android:layout_marginBottom="@dimen/d_16_dp" android:src="@drawable/title_back" android:layout_marginStart="@dimen/d_16_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/iv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kino_community_recommended_selected_tag_name" android:lines="1" android:paddingStart="@dimen/d_32_dp" android:paddingEnd="@dimen/d_32_dp" app:layout_constraintBottom_toBottomOf="@id/iv_title_back" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/iv_title_back" app:layout_constraintTop_toTopOf="@id/iv_title_back" style="@style/TextStyleRobotoMedium" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_error_hint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_179_dp" android:layout_below="@id/title_bar_layout" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/iv_error_hint" android:layout_width="@dimen/d_60_dp" android:layout_height="@dimen/d_60_dp" android:src="@drawable/mimo_ic_no_content" />
+        <TextView android:textSize="@dimen/text_dp_14" android:textColor="@color/color_666666" android:id="@id/tv_error_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_12_dp" android:text="@string/mimo_home_no_result_content" style="@style/TextStyleRobotoRegular" />
+    </LinearLayout>
+    <com.liaoinstan.springview.widget.SpringView android:id="@id/spring_view_selection" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/title_bar_layout">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view_selection" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </FrameLayout>
+    </com.liaoinstan.springview.widget.SpringView>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="@dimen/editor_d_52_dp" android:layout_height="@dimen/editor_d_52_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/pocket_small_bg" android:background="@drawable/panorama_record_pocket_view_bg_darker" android:layout_width="@dimen/d_28_dp" android:layout_height="@dimen/d_28_dp" android:layout_marginTop="@dimen/d_6_dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.cardview.widget.CardView android:id="@id/pocket_cv" android:layout_width="@dimen/editor_d_34_dp" android:layout_height="@dimen/editor_d_34_dp" app:cardBackgroundColor="@color/C_1A1A1F_100" app:cardCornerRadius="@dimen/editor_d_4_dp" app:cardElevation="@dimen/editor_d_0_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/pocket_iv" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+        <View android:background="@drawable/panorama_record_pocket_view_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    </androidx.cardview.widget.CardView>
+    <TextView android:textSize="@dimen/editor_d_13_dp" android:textColor="@color/C_FFFFFF_30" android:gravity="center" android:id="@id/pocket_count_tv" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:textFontWeight="500" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/icon_mask" android:background="@drawable/panorama_record_pocket_view_mask" android:layout_width="@dimen/d_0_dp" android:layout_height="@dimen/d_0_dp" app:layout_constraintBottom_toBottomOf="@id/pocket_cv" app:layout_constraintEnd_toEndOf="@id/pocket_cv" app:layout_constraintStart_toStartOf="@id/pocket_cv" app:layout_constraintTop_toTopOf="@id/pocket_cv" />
+</merge>

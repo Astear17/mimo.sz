@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="@dimen/d_10_dp" android:paddingEnd="@dimen/d_10_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/mediaeditor_selector_music_tab_text_color" android:gravity="top" android:layout_gravity="center" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="match_parent" android:includeFontPadding="false" android:textAllCaps="true" style="@style/TextStyleRobotoCondensedRegular" />
+</FrameLayout>

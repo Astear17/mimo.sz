@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/editor_d_1_dp" android:color="@color/effect_tab_second_tab_text_color_sel" />
+    <corners android:radius="@dimen/filter_tab_item_image_radius" />
+    <solid android:color="@color/transparent" />
+</shape>

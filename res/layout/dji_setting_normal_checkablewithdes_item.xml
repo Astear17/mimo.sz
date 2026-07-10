@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dji.lomo.fpv.widget.DJICheckableTextView android:id="@id/dji_checkableTextViewWithDes_checkbox" android:checked="false" android:checkMark="@drawable/dji_setting_stage_photo_wb_group_check_button" android:text="@string/wb_auto" android:paddingStart="@dimen/d_8_dp" android:paddingEnd="@dimen/d_8_dp" android:layout_marginStart="@dimen/d_8_dp" android:layout_marginEnd="@dimen/d_4_dp" app:typeFace="@string/ui_typeface_roboto_condensed_bold" style="@style/dji_setting_item_ll" />
+    <TextView android:id="@id/dji_checkableTextViewWithDes_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_8_dp" android:layout_marginEnd="@dimen/d_4_dp" />
+</LinearLayout>

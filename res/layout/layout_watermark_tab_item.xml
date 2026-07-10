@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/watermark_tab_item_root" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="60.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center|top" android:id="@id/tv_watermark_tab_text" android:layout_width="wrap_content" android:layout_height="22.0dp" android:maxLines="1" android:translationY="-0.5sp" style="@style/title_6_600" />
+    <View android:id="@id/watermark_tab_indicator" android:background="@drawable/ic_watermark_tab_selected_indicator" android:visibility="invisible" android:layout_width="12.0dp" android:layout_height="3.0dp" android:layout_marginTop="4.0dp" />
+</LinearLayout>

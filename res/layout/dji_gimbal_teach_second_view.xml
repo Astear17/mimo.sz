@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/black_70" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/gimbal_follow_flexible_layout" android:layout_width="@dimen/d_152_dp" android:layout_height="match_parent" android:layout_toLeftOf="@id/gimbal_teach_second_view_guideline1" android:layout_marginEnd="@dimen/d_40_dp">
+        <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/color_ffffff" android:id="@id/gimbal_follow_flexible_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_15_dp" android:layout_marginBottom="@dimen/d_15_dp" android:text="@string/hg211_fpv_gimbal_mode_turotial_mask2_flllow_flexible_title" android:layout_centerVertical="true" style="@style/TextStyleRobotoMedium" />
+        <TextView android:textSize="@dimen/d_12_dp" android:id="@id/gimbal_follow_flexible_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hg211_fpv_gimbal_mode_turotial_mask2_flllow_flexible_content" android:layout_below="@id/gimbal_follow_flexible_title" style="@style/TextStyleRobotoCondensedRegular" />
+        <RelativeLayout android:id="@id/gimbal_follow_flexible_video_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/gimbal_follow_flexible_title">
+            <dji.base.ui.widget.VideoViewByTexture android:id="@id/gimbal_follow_flexible_video" android:layout_width="@dimen/d_100_dp" android:layout_height="@dimen/d_100_dp" />
+            <ImageView android:id="@id/gimbal_follow_flexible_play_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dji_ic_play_button" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/gimbal_follow_soft_layout" android:layout_width="@dimen/d_152_dp" android:layout_height="match_parent" android:layout_marginStart="@dimen/d_40_dp" android:layout_toEndOf="@id/gimbal_teach_second_view_guideline1">
+        <TextView android:textColor="@color/color_ffffff" android:id="@id/gimbal_follow_soft_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_15_dp" android:layout_marginBottom="@dimen/d_15_dp" android:text="@string/hg211_fpv_gimbal_mode_turotial_mask2_flllow_soft_title" android:layout_centerVertical="true" style="@style/TextStyleRobotoMedium" />
+        <TextView android:textSize="@dimen/d_12_dp" android:id="@id/gimbal_follow_soft_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hg211_fpv_gimbal_mode_turotial_mask2_flllow_soft_content" android:layout_below="@id/gimbal_follow_soft_title" style="@style/TextStyleRobotoCondensedRegular" />
+        <RelativeLayout android:id="@id/gimbal_follow_soft_video_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/gimbal_follow_soft_title">
+            <dji.base.ui.widget.VideoViewByTexture android:id="@id/gimbal_follow_soft_video" android:layout_width="@dimen/d_100_dp" android:layout_height="@dimen/d_100_dp" />
+            <ImageView android:id="@id/gimbal_follow_soft_play_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dji_ic_play_button" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/d_21_dp" android:textColor="@color/color_ffffff" android:gravity="center_horizontal" android:id="@id/gimbal_sensitivity_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_20_dp" android:text="@string/hg211_fpv_gimbal_mode_turotial_mask2_title" android:layout_centerHorizontal="true" style="@style/TextStyleRobotoBold" />
+    <View android:id="@id/gimbal_teach_second_view_guideline1" android:layout_width="@dimen/d_1_dp" android:layout_height="match_parent" android:layout_centerHorizontal="true" />
+    <View android:id="@id/gimbal_teach_second_view_guideline2" android:layout_width="match_parent" android:layout_height="@dimen/d_1_dp" android:layout_centerVertical="true" />
+    <dji.base.ui.widget.dji.DJIImageView android:id="@id/gimbal_tutorial_second_close_button" android:padding="@dimen/d_12_dp" android:layout_width="@dimen/d_48_dp" android:layout_height="@dimen/d_48_dp" android:layout_marginTop="@dimen/d_10_dp" android:src="@drawable/ic_navigation_close_white" android:layout_marginEnd="@dimen/d_16_dp" android:layout_alignParentEnd="true" />
+</RelativeLayout>

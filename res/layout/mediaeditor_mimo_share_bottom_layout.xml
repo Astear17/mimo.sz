@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/progress_container" android:background="@color/mediaeditor_color_1A1A1A" android:layout_width="match_parent" android:layout_height="@dimen/d_50_dp">
+        <View android:id="@id/progress_view" android:background="@color/color_1fa3f6" android:layout_width="0.0dp" android:layout_height="match_parent" />
+        <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/progress_text_view" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/TextStyleRobotoRegular" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bottom_button_container" android:background="@color/color_101010" android:paddingTop="@dimen/d_16_dp" android:paddingBottom="@dimen/d_16_dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <lct.lomo.sdk.editor.widget.SdkLanguageTextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/negtive_btn" android:background="@drawable/mediaeditor_share_only_save_bg_color" android:layout_width="match_parent" android:layout_height="@dimen/d_50_dp" android:layout_marginLeft="@dimen/d_16_dp" android:layout_marginRight="@dimen/d_4_dp" android:text="@string/mimo_editor_share_save_btn" android:layout_weight="1.0" style="@style/TextStyleRobotoMedium" />
+        <lct.lomo.sdk.editor.widget.SdkLanguageTextView android:textSize="@dimen/d_15_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/positive_btn" android:background="@drawable/mediaeditor_share_save_bg_color" android:layout_width="match_parent" android:layout_height="@dimen/d_50_dp" android:layout_marginLeft="@dimen/d_4_dp" android:layout_marginRight="@dimen/d_16_dp" android:text="@string/mimo_editor_share_post_btn" android:layout_weight="1.0" style="@style/TextStyleRobotoBold" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.lomo.fpv.om3.view.timelapse.DJILPTimelapseSettingViewHg305 android:orientation="vertical" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="center" android:id="@id/timelapse_set_time" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/lp_timelapse_addtime_view_hg305" />
+    <RelativeLayout android:id="@id/timelapse_user_define_layout" android:background="@color/fpv_overlay_window_background" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/d_10_dp">
+        <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/white_40" android:gravity="left|center" android:id="@id/timelapse_user_define_title" android:paddingTop="@dimen/d_6_dp" android:paddingBottom="@dimen/d_5_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hg211_fpv_timelapse_mode_option_custom" android:paddingStart="@dimen/d_2_dp" style="@style/TextStyleRobotoCondensedBold" />
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:id="@id/recy_motionlapse_points_array" android:paddingTop="@dimen/d_4_dp" android:paddingBottom="@dimen/d_4_dp" android:visibility="visible" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="@dimen/d_60_dp" android:layout_below="@id/timelapse_user_define_title" android:overScrollMode="never" android:paddingStart="@dimen/d_4_dp" android:paddingEnd="0.0dp" />
+    </RelativeLayout>
+</dji.lomo.fpv.om3.view.timelapse.DJILPTimelapseSettingViewHg305>

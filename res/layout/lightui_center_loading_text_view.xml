@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/content_view" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:id="@id/loading_progress_bar" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:indeterminateDrawable="@drawable/loading_progress" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textStyle="normal" android:textColor="@color/C_000000_100" android:gravity="center" android:id="@id/loading_progress_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_16_dp" android:layout_marginTop="@dimen/editor_d_8_dp" android:layout_marginRight="@dimen/editor_d_16_dp" android:text="内容内容内容内容内容内容内容内容内容内容内容内容内容内内容内容内容内容内容内内容内容内容内容内容内容内容内容内容内容内容内容内容内容多不多多不多多不多" android:includeFontPadding="false" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/loading_progress_bar" style="@style/H_3_normal" />
+</merge>

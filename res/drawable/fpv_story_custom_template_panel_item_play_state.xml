@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/fpv_story_custom_template_panel_item_pause" android:state_activated="true" />
+    <item android:drawable="@drawable/fpv_story_custom_template_panel_item_play" />
+</selector>

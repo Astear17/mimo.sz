@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/editor_d_16_dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="6.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lct.lomo.sdk.editor.widget.QualitySeekbar android:id="@id/mediaeditor_quality_brightness" style="@style/edit_quality_seekbar_style" />
+    <lct.lomo.sdk.editor.widget.QualitySeekbar android:id="@id/mediaeditor_quality_contrast" style="@style/edit_quality_seekbar_style" />
+    <lct.lomo.sdk.editor.widget.QualitySeekbar android:id="@id/mediaeditor_quality_saturation" style="@style/edit_quality_seekbar_style" />
+    <lct.lomo.sdk.editor.widget.QualitySeekbar android:id="@id/mediaeditor_quality_temperate" style="@style/edit_quality_seekbar_style" />
+    <lct.lomo.sdk.editor.widget.QualitySeekbar android:id="@id/mediaeditor_quality_vignetting" style="@style/edit_quality_seekbar_style" />
+    <lct.lomo.sdk.editor.widget.QualitySeekbar android:id="@id/mediaeditor_quality_sharp_tune" style="@style/edit_quality_seekbar_style" />
+</LinearLayout>

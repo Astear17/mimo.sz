@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center" android:orientation="horizontal" android:id="@id/fpv_camera_metering_layout" android:visibility="visible" android:layout_width="@dimen/d_131_dp" android:layout_height="@dimen/d_200_dp" android:divider="@drawable/dji_divider_transparent_8" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/fpv_camera_focus" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dji_pic_center_meter" android:scaleType="centerInside" />
+</merge>

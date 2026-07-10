@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/black_90" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/fpv_pano_loading_content" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="@dimen/d_42_dp" android:layout_marginBottom="@dimen/d_16_dp" android:src="@drawable/dji_fpv_pano_loading" android:scaleType="centerInside" />
+        <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/fpv_pano_loading_progress_bar" android:layout_width="344.0dp" android:layout_height="@dimen/d_2_dp" android:max="100" android:indeterminate="false" android:progressDrawable="@drawable/dji_fpv_pano_loading_drawable" style="?android:progressBarStyleHorizontal" />
+        <TextView android:textSize="@dimen/d_18_dp" android:textColor="@color/white_80" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/fpv_pano_loading_progress_text" android:layout_width="match_parent" android:layout_height="@dimen/d_56_dp" style="@style/TextStyleRobotoCondensedBold" />
+    </LinearLayout>
+    <dji.base.ui.widget.SamplingScaleImageView android:id="@id/fpv_pano_loading_result" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    <com.dji.pano.sphere.DJISpherePanoView android:id="@id/fpv_pano_sphere_result" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/fpv_pano_loading_progress_close" android:background="@drawable/dji_fpv_pano_index_bg_white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_marginBottom="50.0dp" android:text="完成" android:layout_marginHorizontal="24.0dp" />
+</FrameLayout>

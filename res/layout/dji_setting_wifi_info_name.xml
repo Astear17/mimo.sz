@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/name_item" android:paddingLeft="15.0dp" android:paddingRight="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_12_dp" android:textStyle="bold" android:textColor="@color/white" android:gravity="left|center" android:layout_gravity="center" android:id="@id/tv_name_tag" android:background="@color/transparent" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/dij_setting_wifi_name" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@color/transparent" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <RelativeLayout android:gravity="center" android:layout_gravity="center" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/d_5_dp" android:layout_marginStart="@dimen/d_20_dp">
+            <EditText android:textSize="12.0dp" android:textColor="@color/white" android:gravity="end|center" android:layout_gravity="center" android:id="@id/et_name_value" android:background="@null" android:paddingTop="@dimen/d_5_dp" android:paddingBottom="@dimen/d_5_dp" android:layout_width="match_parent" android:layout_height="match_parent" android:singleLine="true" android:maxLength="20" android:imeOptions="actionDone|flagNoExtractUi" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

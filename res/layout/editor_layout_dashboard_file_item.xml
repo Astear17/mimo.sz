@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/editor_dashboard_rounded_corner_bg" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_80_dp" android:layout_marginTop="@dimen/editor_d_6_dp" android:paddingStart="@dimen/editor_d_20_dp" android:paddingEnd="@dimen/editor_d_20_dp" android:layout_marginStart="@dimen/editor_d_20_dp" android:layout_marginEnd="@dimen/editor_d_20_dp">
+        <ImageView android:id="@id/file_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/editor_dashboard_check_icon_default" android:layout_weight="0.0" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/editor_d_12_dp">
+            <TextView android:textSize="@dimen/editor_d_15_dp" android:textColor="@color/white_90" android:id="@id/file_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_4_dp" android:text="File Name" android:maxLines="1" />
+            <TextView android:textSize="@dimen/editor_d_10_dp" android:textColor="@color/white_60" android:ellipsize="end" android:id="@id/file_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Size" android:maxLines="1" />
+            <TextView android:textSize="@dimen/editor_d_10_dp" android:textColor="@color/white_60" android:id="@id/source" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Size" android:maxLines="1" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <ImageView android:id="@id/file_delete" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:src="@drawable/editor_dashboard_import_item_delete" android:layout_weight="0.0" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/playback_segment_editor_tab_bg" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="56.0dp" android:minHeight="28.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/tab_ic" android:visibility="gone" android:layout_width="16.0dp" android:layout_height="16.0dp" android:src="@drawable/playback_segment_editor_tab_ic" android:layout_weight="0.0" android:layout_marginEnd="4.0dp" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/playback_segment_editor_tab_tv_color" android:layout_gravity="center_vertical" android:id="@id/tab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tab" />
+</LinearLayout>

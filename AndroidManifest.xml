@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="35" android:compileSdkVersionCodename="15" android:requiredSplitTypes="base__abi" android:splitTypes="" package="mimo.sz" platformBuildVersionCode="35" platformBuildVersionName="15">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:maxSdkVersion="32" android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:maxSdkVersion="32" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" android:usesPermissionFlags="neverForLocation"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-feature android:name="android.hardware.usb.accessory" android:required="true"/>
+    <supports-screens android:largeScreens="true" android:normalScreens="true" android:smallScreens="false" android:xlargeScreens="true"/>
+    <queries>
+        <package android:name="com.tencent.mm"/>
+        <package android:name="com.xingin.xhs"/>
+        <package android:name="com.shcard.smartpay"/>
+        <package android:name="com.shinhancard.smartshinhan"/>
+        <package android:name="com.hyundaicard.appcard"/>
+        <package android:name="com.lumensoft.touchenappfree"/>
+        <package android:name="kr.co.samsungcard.mpocket"/>
+        <package android:name="nh.smart.nhallonepay"/>
+        <package android:name="com.kbcard.cxh.appcard"/>
+        <package android:name="com.kbstar.reboot"/>
+        <package android:name="com.kbstar.kbbank"/>
+        <package android:name="kvp.jjy.MispAndroid320"/>
+        <package android:name="com.lcacApp"/>
+        <package android:name="com.hanaskcard.paycla"/>
+        <package android:name="com.hanaskcard.rocomo.potal"/>
+        <package android:name="kr.co.hanamembers.hmscustomer"/>
+        <package android:name="kr.co.citibank.citimobile"/>
+        <package android:name="com.wooricard.wpay"/>
+        <package android:name="com.wooricard.smartapp"/>
+        <package android:name="com.wooribank.smart.npib"/>
+        <package android:name="viva.republica.toss"/>
+        <package android:name="net.ib.android.smcard"/>
+        <package android:name="com.nhnent.payapp"/>
+        <package android:name="com.ssg.serviceapp.android.egiftcertificate"/>
+        <package android:name="com.kakao.talk"/>
+        <package android:name="com.nhn.android.search"/>
+        <package android:name="com.lotte.lpay"/>
+        <package android:name="com.lottemembers.android"/>
+        <package android:name="com.samsung.android.spay"/>
+        <package android:name="com.samsung.android.spaylite"/>
+        <package android:name="com.lge.lgpay"/>
+        <package android:name="com.TouchEn.mVaccine.webs"/>
+        <package android:name="kr.co.shiftworks.vguardweb"/>
+        <package android:name="com.ahnlab.v3mobileplus"/>
+        <package android:name="com.kftc.bankpay.android"/>
+        <package android:name="com.sktelecom.minit"/>
+        <package android:name="Com.sktelecom.minit"/>
+        <package android:name="com.kt.ktauth"/>
+        <package android:name="com.lguplus.smartotp"/>
+        <package android:name="com.shinhan.smartcaremgr"/>
+        <package android:name="jp.ne.paypay.android.app"/>
+        <intent>
+            <action android:name="android.intent.action.SEND"/>
+            <data android:mimeType="text/plain"/>
+        </intent>
+        <package android:name="com.smile.gifmaker"/>
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT"/>
+        </intent>
+        <package android:name="com.tencent.mobileqq"/>
+        <package android:name="com.sina.weibo"/>
+        <package android:name="com.instagram.android"/>
+        <package android:name="com.whatsapp"/>
+        <package android:name="com.facebook.orca"/>
+        <package android:name="com.facebook.katana"/>
+        <package android:name="com.facebook.android"/>
+        <package android:name="com.dji.light"/>
+        <package android:name="com.lightcut.videoeditor"/>
+        <package android:name="com.hihonor.mediadatacenter"/>
+        <package android:name="com.samsung.android.gimbaltrackingkit"/>
+        <package android:name="tv.danmaku.bili"/>
+        <package android:name="com.ss.android.ugc.aweme"/>
+        <package android:name="com.ss.android.ugc.aweme.lite"/>
+        <package android:name="com.ss.android.ugc.live"/>
+        <package android:name="com.sina.weibog3"/>
+        <package android:name="com.android.creator"/>
+        <package android:name="com.mdid.msa"/>
+        <package android:name="com.samsung.android.deviceidservice"/>
+        <package android:name="com.coolpad.deviceidsupport"/>
+        <package android:name="com.heytap.openid"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="com.huawei.hms.core.aidlservice"/>
+        </intent>
+        <intent>
+            <action android:name="com.huawei.hms.core"/>
+        </intent>
+    </queries>
+    <permission android:name="mimo.sz.gimbal.service.permission.ACCESS_GIMBAL_SERVICE" android:protectionLevel="normal"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <permission android:name="mimo.sz.permission.POST_VIDEO" android:protectionLevel="normal"/>
+    <uses-permission android:name="mimo.sz.permission.POST_VIDEO"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="true"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>
+    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="samsung.android.permission.GTK_CALLER_SERVICE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="com.yxcorp.gifshow.thirdparty.auth.read"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROCESSING"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <meta-data android:name="android.max_aspect" android:value="2.2"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <permission android:name="mimo.sz.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="mimo.sz.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS"/>
+    <uses-permission android:name="freemme.permission.msa"/>
+    <permission android:name="mimo.sz.permission.MIPUSH_RECEIVE" android:protectionLevel="signature"/>
+    <uses-permission android:name="mimo.sz.permission.MIPUSH_RECEIVE"/>
+    <permission android:name="mimo.sz.permission.PROCESS_PUSH_MSG" android:protectionLevel="signature"/>
+    <permission android:name="mimo.sz.permission.PUSH_PROVIDER" android:protectionLevel="signature"/>
+    <permission android:name="mimo.sz.permission.PUSH_WRITE_PROVIDER" android:protectionLevel="signature"/>
+    <uses-permission android:name="mimo.sz.permission.PROCESS_PUSH_MSG"/>
+    <uses-permission android:name="mimo.sz.permission.PUSH_PROVIDER"/>
+    <application android:allowBackup="false" android:allowNativeHeapPointerTagging="false" android:appComponentFactory="com.AppGuard.AppGuard.MUYQF" android:extractNativeLibs="true" android:icon="@mipmap/ic_launcher_new" android:label="DJI Mimo" android:largeHeap="true" android:name="com.pairip.application.Application" android:networkSecurityConfig="@xml/network_security_config" android:requestLegacyExternalStorage="true" android:resizeableActivity="false" android:roundIcon="@drawable/ic_launcher_round" android:supportsRtl="false" android:theme="@style/MimoTheme">
+        <profileable android:shell="false"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <uses-native-library android:name="libOpenCL.so" android:required="false"/>
+        <uses-native-library android:name="libcdsprpc.so" android:required="false"/>
+        <activity android:exported="true" android:name="dji.mimo.main.DJILaunchActivity" android:screenOrientation="portrait" android:theme="@style/Theme.App.Starting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="x-dk"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="mimo.skypixel.com" android:pathPrefix="/pro" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="www.dji.com" android:pathPrefix="/mimo/nfc" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="mimo"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="dji.mimo.main.DJISplashActivity" android:screenOrientation="portrait"/>
+        <activity android:name="dji.mimo.main.DJIAdActivity" android:screenOrientation="portrait"/>
+        <activity android:name="dji.mimo.main.DJIRouteActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.mimo.main.privacy.LaunchTermsPrivacyActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.mimo.main.privacy.LaunchImprovementProjectActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.mimo.main.privacy.TermsPrivacyActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="dji.mimo.main.DJIAoaActivity" android:theme="@style/AoaTheme">
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"/>
+            </intent-filter>
+            <meta-data android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" android:resource="@xml/accessory_filter"/>
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED"/>
+            </intent-filter>
+            <meta-data android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" android:resource="@xml/device_filter"/>
+            <meta-data android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" android:resource="@xml/device_filter"/>
+        </activity>
+        <service android:exported="false" android:label="@string/app_name" android:name="dji.lomo.main.USBHIDService">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.hollyland.larkc1.ACTION_SERVICE"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="firebase_crashlytics_collection_enabled" android:value="false"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/ic_notification"/>
+        <meta-data android:name="playback.share.douyin" android:value="awmwh0xsptjwu2ft"/>
+        <meta-data android:name="playback.share.tiktok" android:value="aw2ho5pwna7rrq9f"/>
+        <uses-native-library android:name="libOpenCL.so" android:required="false"/>
+        <uses-native-library android:name="libcdsprpc.so" android:required="false"/>
+        <activity android:exported="false" android:name="gimbal.service.aidl.AIDLServicePermissionActivity"/>
+        <service android:enabled="true" android:exported="true" android:name="gimbal.service.aidl.GimbalAIDLService" android:permission="mimo.sz.gimbal.service.permission.ACCESS_GIMBAL_SERVICE"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="dji.lomo.fpv.om.OmFpvActivity" android:rotationAnimation="seamless" android:screenOrientation="portrait" android:theme="@style/SupportAppTheme" android:windowAnimationStyle="@android:style/Animation.Translucent">
+            <intent-filter>
+                <action android:name="mimo_om_fpv"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="dji.lomo.fpv.om.ui.guide.NewUserGuideActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NewUserGuide"/>
+        <activity android:name="dji.lomo.fpv.om.ui.guide.OMNewUserGuideSettingActivity" android:screenOrientation="portrait" android:theme="@style/SupportAppTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize" android:exported="true" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.lomo.fpv.ui.DJIFpvActivity" android:screenOrientation="landscape" android:theme="@style/SupportAppTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize" android:name="dji.lomo.fpv.om3.DJILPPermissionActivity" android:theme="@style/SupportAppTheme.DialogActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="dji.lomo.fpv.om3.OpenTrackingTipActivity" android:screenOrientation="sensor"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize" android:exported="true" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.lomo.fpv.om3.DJILPFpvActivity" android:screenOrientation="landscape" android:theme="@style/SupportAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="dji.mimo" android:path="/path" android:scheme="mimo"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="locale" android:name="dji.lomo.fpv.om3.DJILPHelpInfoActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize" android:name="dji.lomo.fpv.story.preview.FpvStoryPreviewActivity" android:screenOrientation="landscape" android:theme="@style/SupportAppTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize" android:name="dji.lomo.fpv.story.preview.FpvStoryDecorationActivity" android:screenOrientation="landscape" android:theme="@style/SupportAppTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize" android:name="dji.lomo.fpv.story.custom.save.FpvStorySaveCustomActivity" android:screenOrientation="landscape" android:theme="@style/SupportAppTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize" android:name="dji.lomo.fpv.story.draft.DJIStoryDraftActivity" android:screenOrientation="landscape" android:theme="@style/SupportAppTheme.StoryDraft"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize" android:name="dji.lomo.fpv.om3.playback.DJILPPlaybackListActivity" android:screenOrientation="sensor" android:theme="@style/PlaybackTheme"/>
+        <activity android:configChanges="keyboard" android:name="dji.lomo.fpv.om3.playback.preview.DJIPlaybackPreviewActivity" android:screenOrientation="sensor" android:theme="@style/PlaybackTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize" android:launchMode="singleTask" android:name="dji.lomo.fpv.om3.sleep.SleepActivity" android:screenOrientation="sensor" android:theme="@style/PlaybackTheme"/>
+        <activity android:name="dji.lomo.fpv.FPVTestActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize" android:launchMode="singleTop" android:name="dji.lomo.fpv.om3.sleep.CameraSleepActivity" android:screenOrientation="portrait" android:theme="@style/SleepTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:name="dji.lomo.mediaeditor.share.ShareActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.lomo.mediaeditor.share.widget.StoryShareActivity" android:screenOrientation="landscape" android:theme="@style/SupportAppTheme.Light" android:windowSoftInputMode="stateHidden"/>
+        <activity android:keepScreenOn="true" android:name="dji.lomo.mediaeditor.share.TagActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:name="dji.lomo.mediaeditor.share.LocationActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:name="dji.lomo.mediaeditor.share.CreateTagActivity" android:screenOrientation="portrait"/>
+        <activity android:name="dji.lomo.mediaeditor.importmedia.TestImportActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.lomo.mediaeditor.draft.DraftActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.dji.netdisk.page.NetdiskSetupActivity" android:screenOrientation="portrait" android:theme="@style/NetdiskTheme"/>
+        <activity android:name="com.dji.netdisk.page.NetdiskCompleteActivity" android:screenOrientation="portrait" android:theme="@style/NetdiskTheme"/>
+        <activity android:exported="false" android:name="com.dji.netdisk.page.NetdiskWebAuthActivity" android:screenOrientation="portrait" android:theme="@style/NetdiskTheme"/>
+        <activity android:name="com.dji.netdisk.page.NasHelpGuideActivity" android:screenOrientation="portrait" android:theme="@style/NetdiskTheme"/>
+        <activity android:launchMode="singleTask" android:name="com.dji.livestream.livetype.LiveStreamTypeActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.dji.livestream.settings.LiveStreamSettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.dji.livestream.living.LiveStreamLivingActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.dji.livestream.page.LiveStreamFinishActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.dji.livestream.page.LiveStreamDisconnectActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.dji.livestream.page.LiveStreamGuideActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.dji.livestream.page.LiveYouTubeGuideActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.dji.livestream.settings.DouyinLiveSettingBridgeActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.NoActionBar" android:windowSoftInputMode="adjustResize"/>
+        <provider android:authorities="mimo.sz.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.dji.livestream.utils.LiveFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/live_file_paths"/>
+        </provider>
+        <meta-data android:name="com.facebook.sdk.AutoLogAppEventsEnabled" android:value="false"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize|layoutDirection" android:exported="false" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.lomo.main.activity.MainActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="dji.mimo.nfcautoconnect"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.lomo.main.activity.LabelActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.lomo.main.activity.LocationGatherActivity" android:screenOrientation="portrait"/>
+        <activity android:name="dji.lomo.main.activity.VideoInfoActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="dji.lomo.main.activity.VideoInfoNewActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="dji.lomo.main.activity.swipe.SelectVideoSlideOneActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="dji.lomo.main.activity.swipe.SelectVideoSlideTwoActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="dji.lomo.main.activity.swipe.TagVideoSlideOneActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="dji.lomo.main.activity.swipe.TagVideoSlideTwoActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="dji.lomo.main.activity.swipe.DeviceVideoSlideOneActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="dji.lomo.main.activity.swipe.DeviceVideoSlideTwoActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="dji.lomo.main.videodetail.HomeVideoDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="locale" android:name="dji.lomo.main.support.SupportActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="locale" android:name="dji.lomo.main.set.SettingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="locale" android:name="dji.lomo.main.mimocenter.set.MimoCenterSettingPage" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="locale" android:name="dji.lomo.main.mimocenter.set.MimoCenterSettingSubPage" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="locale" android:name="dji.lomo.main.mimocenter.set.MimoCenterCleanCachePage" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="locale" android:name="dji.lomo.main.mimocenter.user.MimoCenterUserPage" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="dji.lomo.main.web.WebViewActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="dji.lomo.main.web.AcademyWebviewActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="dji.lomo.main.web.newacademy.MimoAcademyActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.lomo.main.web.CommonWebViewActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.lomo.main.activity.OtherUserActivity" android:screenOrientation="portrait"/>
+        <activity android:name="dji.lomo.main.activity.OtherUserActivityNew" android:screenOrientation="portrait"/>
+        <activity android:configChanges="locale" android:name="dji.lomo.main.set.SetLanguageActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.lomo.main.set.SetMediaSyncActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="locale" android:name="dji.lomo.main.activity.AboutKinoActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="locale" android:name="dji.lomo.main.activity.MimoCacheActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="locale" android:name="dji.lomo.main.activity.SetPrivacyActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="locale" android:name="dji.lomo.main.activity.MimoDeviceManagementListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="locale" android:name="dji.lomo.main.activity.MimoDeviceInformationActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="locale" android:name="dji.lomo.main.activity.MimoDeviceBindingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="locale" android:name="dji.lomo.main.activity.MimoDeviceBindingConfirmActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="locale" android:name="dji.lomo.main.activity.MimoDeviceBindingResultActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="locale" android:name="dji.lomo.main.activity.MimoDeviceUnBindActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="locale" android:name="dji.lomo.main.activity.UserActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="locale" android:name="dji.lomo.main.view.shotguide.ShotGuideListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="locale" android:name="dji.lomo.main.activity.DomainTestActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="dji.lomo.main.activity.SelectionActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.lomo.main.uploadlog.ui.DJILogUploadActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.lomo.main.uploadlog.ui.select.ItemSelectActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.lomo.main.activity.PlaybackMediaTransferActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.lomo.main.activity.productimprovement.ProductImprovementActivityNew" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.lomo.main.activity.productimprovement.HelpDescriptionActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.lomo.main.activity.productimprovement.BenefitDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="dji.lomo.main.activity.swipe.WhiteSelectVideoActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="dji.lomo.main.flutter.embeded.SingleFlutterActivity" android:screenOrientation="portrait" android:theme="@style/FlutterActivityMain"/>
+        <activity android:exported="false" android:name="dji.lomo.main.flutter.embeded.SingleFlutterDialogActivity" android:screenOrientation="portrait" android:theme="@style/FlutterActivityTranslucent"/>
+        <provider android:authorities="mimo.sz.update.provider" android:exported="false" android:grantUriPermissions="true" android:name="dji.lomo.main.appupgrade.upgrade.UpdateApkFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/update_apk_paths"/>
+        </provider>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.dji.mimo.accessory.dm300.DM300Activity" android:screenOrientation="portrait" android:theme="@style/AccessoriesTheme"/>
+        <activity android:launchMode="singleTask" android:name="com.dji.mimo.accessory.dm300.DM300GeneralActivity" android:screenOrientation="portrait" android:theme="@style/AccessoriesTheme"/>
+        <activity android:launchMode="singleTask" android:name="com.dji.mimo.accessory.dm303.DM303GeneralActivity" android:screenOrientation="portrait" android:theme="@style/AccessoriesTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.dji.mimo.accessory.dm300.AIModuleRxActivity" android:screenOrientation="portrait" android:theme="@style/AccessoriesTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.dji.mimo.accessory.dm303.DM303Activity" android:screenOrientation="portrait" android:theme="@style/AccessoriesTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.dji.mimo.accessory.dm303.DM303MoreSettingActivity" android:screenOrientation="portrait" android:theme="@style/AccessoriesTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.dji.mimo.accessory.dm303.DM303PasswordActivity" android:screenOrientation="portrait" android:theme="@style/AccessoriesTheme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|density|layoutDirection|fontScale" android:exported="true" android:hardwareAccelerated="true" android:name="com.dji.mimo.accessory.dm303.download.DMDownloadFlutterActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.dji.mimo.accessory.dm202.DM202Activity" android:screenOrientation="portrait" android:theme="@style/AccessoriesTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.dji.mimo.accessory.dm202.OM308Activity" android:screenOrientation="portrait" android:theme="@style/AccessoriesTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.dji.mimo.accessory.dm202.tx.DM202TxActivity" android:screenOrientation="portrait" android:theme="@style/AccessoriesTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.dji.mimo.accessory.dm202.tx.DM202TxGeneralActivity" android:screenOrientation="portrait" android:theme="@style/AccessoriesTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.dji.mimo.accessory.dm202.DM202GeneralActivity" android:screenOrientation="portrait" android:theme="@style/AccessoriesTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.dji.mimo.accessory.dm202.tx.DM202TxMoreSettingActivity" android:screenOrientation="portrait" android:theme="@style/AccessoriesTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.dji.mimo.accessory.dm202.tx.OM508TxMoreSettingActivity" android:screenOrientation="portrait" android:theme="@style/AccessoriesTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.dji.mimo.accessory.dm202.DM202CBoxActivity" android:screenOrientation="portrait" android:theme="@style/AccessoriesTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.dji.mimo.accessory.dm203.DM203Activity" android:screenOrientation="portrait" android:theme="@style/AccessoriesTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.dji.mimo.accessory.dm203.DM203GeneralActivity" android:screenOrientation="portrait" android:theme="@style/AccessoriesTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.dji.mimo.accessory.dm203.DM203RXMoreActivity" android:screenOrientation="portrait" android:theme="@style/AccessoriesTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.dji.mimo.accessory.dm203.tx.DM203TxMoreSettingActivity" android:screenOrientation="portrait" android:theme="@style/AccessoriesTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.dji.mimo.accessory.dm202.RC020Activity" android:screenOrientation="portrait" android:theme="@style/AccessoriesTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.dji.mimo.accessory.dm202.RC021Activity" android:screenOrientation="portrait" android:theme="@style/AccessoriesTheme"/>
+        <activity android:launchMode="singleTask" android:name="com.dji.device.upgrade.common_upgrade.page.ComUpgradeActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.dji.device.upgrade.page.UpgradeActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.dji.device.activate.page.ActivatePolicyActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.dji.device.activate.page.ActivateHomeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.dji.device.activate.page.AccountConfirmActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.dji.device.activate.page.ActivateOngoingActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.dji.device.activate.page.LPActivateNeedAddPhoneActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.dji.device.activate.page.ActivateSuccessActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.dji.device.insurance.ActivateInsuranceActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.dji.device.activate.page.ProductTutorialWebActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.dji.device.connect.page.ConnectPermissionActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.dji.device.connect.page.ConnectHomeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.dji.device.connect.page.ConnectHelpDeviceListActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:name="com.dji.device.connect.page.ConnectHelpProductListActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.dji.device.connect.page.ConnectHelpDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.dji.device.support.NotSupportTypeActivity" android:screenOrientation="portrait"/>
+        <activity android:keepScreenOn="true" android:name="com.dji.device.upgrade.page.AccessoryUpgradeActivity" android:screenOrientation="portrait"/>
+        <activity android:keepScreenOn="true" android:name="com.dji.device.ui.obstruction.ObstructedActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.dji.device.activate.page.manual.ManualActivity" android:screenOrientation="portrait" android:theme="@style/MyAppThemeManual"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.dji.device.connect.page.MultiMediaGuidePage" android:screenOrientation="fullSensor" android:theme="@style/myTransparent"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.dji.device.ui.PortraitPasswordInputActivity" android:screenOrientation="portrait" android:theme="@style/Theme.PortraitSheet" android:windowSoftInputMode="adjustResize"/>
+        <activity android:launchMode="singleTask" android:name="com.dji.device.upgrade.common_upgrade.page.WLFirmwareUpgradeActivity" android:screenOrientation="portrait" android:theme="@style/WLFirmwareUpgradeTheme"/>
+        <activity android:launchMode="singleTask" android:name="com.dji.device.upgrade.page.OmUpgradeActivity" android:screenOrientation="portrait"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice" android:name="com.dji.playback.background.DownloadNotificationService"/>
+        <provider android:authorities="mimo.sz.provider.media" android:enabled="true" android:exported="true" android:name="com.dji.playback.provider.DJIMediaProvider"/>
+        <provider android:authorities="mimo.sz.media.share.expand" android:exported="false" android:grantUriPermissions="true" android:name="com.dji.playback.provider.FileProviderExpandFilePath">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/playback_file_provider_paths"/>
+        </provider>
+        <provider android:authorities="mimo.sz.media.share.secondary" android:exported="false" android:grantUriPermissions="true" android:name="com.dji.playback.provider.PlaybackExternalStorageFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/playback_file_provider_paths"/>
+        </provider>
+        <provider android:authorities="mimo.sz.media.share" android:exported="false" android:grantUriPermissions="true" android:name="com.dji.playback.provider.FileProviderPlayback">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/playback_file_provider_paths"/>
+        </provider>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.dji.playback.ui.group.PlaybackPhotoGroupActivity" android:theme="@style/AppThemePlayback" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.dji.playback.ui.playbackPreviewActivity.DJIPlaybackPreviewActivity" android:screenOrientation="sensor" android:theme="@style/AppThemePlayback" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.dji.playback.ui.playbackPreviewActivityNew.DJIPlaybackPreviewActivityNew" android:theme="@style/NewVideoTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.dji.playback.ui.playbackPreviewActivity.MasterShotPreviewActivity" android:screenOrientation="sensor" android:theme="@style/AppThemePlayback" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.dji.playback.ui.playbackPreviewActivity.DJIPlaybackBurstPreviewActivity" android:screenOrientation="sensor" android:theme="@style/AppThemePlayback" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.dji.playback.main.PlaybackContainerActivity" android:screenOrientation="portrait" android:theme="@style/NewVideoTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.dji.playback.segment.editor.PlaybackSegmentEditorActivity" android:screenOrientation="sensor" android:theme="@style/NewVideoTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden" android:launchMode="singleTask" android:name="com.dji.playback.ui.editActivity.DJIGalleryDraftActivity" android:screenOrientation="sensor" android:theme="@style/NewVideoTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.dji.playback.ui.selectActivity.DJIGallerySelectActivity" android:screenOrientation="sensor" android:theme="@style/NewVideoTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.dji.playback.ui.selectActivity.DJIGalleryVideoMusicExtractActivity" android:screenOrientation="sensor" android:theme="@style/NewVideoTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.dji.playback.ui.selectActivity.DJIGalleryVideoMusicPreviewActivity" android:screenOrientation="sensor" android:theme="@style/NewVideoTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.dji.playback.ui.galleryPreviewActivity.DJIGalleryPreviewActivity" android:screenOrientation="sensor" android:theme="@style/NewVideoTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.dji.playback.ui.galleryPreviewActivityNew.DJIGalleryPreviewActivityNew" android:theme="@style/NewVideoTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.dji.playback.ui.editActivity.DJIGalleryCreateActivity" android:screenOrientation="sensorPortrait" android:theme="@style/NewVideoTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.dji.playback.ui.folderActivity.DJIGalleryFolderActivity" android:screenOrientation="sensor" android:theme="@style/NewVideoTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.dji.playback.ui.share.DJIGalleryShareActivity" android:screenOrientation="sensor" android:theme="@style/NewVideoTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.dji.playback.internal.livedatabase.live.BaseSharedViewModelActivity" android:screenOrientation="sensor" android:theme="@style/NewVideoTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.dji.playback.ui.videoPlayActivity.DJIGalleryVideoPlayActivity" android:screenOrientation="sensor" android:theme="@style/NewVideoTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.dji.playback.ui.share.skypixel.DJIGallerySkyPixelShareActivity" android:screenOrientation="sensor" android:theme="@style/NewVideoTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.dji.playback.ui.share.tiktok.TikTokEntryActivity" android:taskAffinity="mimo.sz"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.dji.playback.preview.cut.DJIPlaybackCutActivity" android:screenOrientation="sensor" android:theme="@style/AppThemePlayback"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.dji.playback.ui.mino.mimo2light.WebViewActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.dji.playback.ui.playbackPreviewActivity.segmentedit.export.SegmentExportActivity" android:screenOrientation="portrait" android:theme="@style/NewVideoTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.dji.playback.image.editor.view.ImageExportActivity" android:screenOrientation="portrait" android:theme="@style/NewVideoTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.dji.playback.ui.playbackPreviewActivity.segmentedit.selfiestick.task.list.SelfieStickDismissTaskListActivity" android:screenOrientation="sensor" android:theme="@style/NewVideoTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.dji.playback.ui.template.TemplateListActivity" android:screenOrientation="portrait" android:theme="@style/NewVideoTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.dji.playback.ui.mino.gcm.export.GCMExportActivity" android:screenOrientation="portrait" android:theme="@style/NewVideoTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.lomo.usercenter.view.UserCenterActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation" android:name="dji.lomo.usercenter.view.UserInfoActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible|adjustPan"/>
+        <activity android:configChanges="orientation" android:name="dji.lomo.usercenter.view.StateActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:label="@string/app_name" android:launchMode="singleTask" android:name="dji.mimo.wxapi.WXEntryActivity" android:taskAffinity="dji.mimo" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.dji.socialsdkfb.login.facebook.SocialFacebookActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="@string/app_name" android:name="com.facebook.FacebookActivity" android:theme="@style/com_facebook_activity_theme"/>
+        <activity android:exported="true" android:name="com.facebook.CustomTabActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/fb_login_protocol_scheme"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="cct.mimo.sz" android:scheme="fbconnect"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.dji.socialsdkgg.login.google.SocialGoogleActivity"/>
+        <activity android:name="dji.lomo.usercenter.view.SimOneClickLoginActivity" android:screenOrientation="portrait" android:theme="@style/TranslucentAppTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.mobile.auth.gatewayauth.LoginAuthActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.mobile.auth.gatewayauth.activity.AuthWebVeiwActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.mobile.auth.gatewayauth.PrivacyDialogActivity" android:screenOrientation="behind" android:theme="@style/authsdk_activity_dialog"/>
+        <activity android:exported="false" android:name="dji.lomo.usercenter.view.SimOneClickJumpActivity">
+            <intent-filter>
+                <action android:name="dji.mimo.login.oneclick.jump"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize|layoutDirection" android:keepScreenOn="true" android:name="dji.lomo.quiz.web.QuizWebViewActivity" android:screenOrientation="portrait" android:theme="@style/WebViewActivityTheme" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:configChanges="locale" android:name="mimo.train.sport.page.home.SportTrainHomePage" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="locale" android:name="mimo.train.sport.page.settings.SportTrainSettingPage" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="locale" android:name="mimo.train.sport.page.history.SportTrainHistoryPage" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="dji.mimo.phonecamera.storage.DJILPStorageGrantedActivity" android:screenOrientation="landscape"/>
+        <service android:name="com.dji.floatwindow.service.FloatWindowService"/>
+        <provider android:authorities="mimo.sz.midware.inner" android:enabled="true" android:exported="false" android:name="dji.midware.inner.MidwareContextProvider"/>
+        <activity android:exported="true" android:name="dji.go.v5.wxapi.WXEntryActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="dji.assets.obb.ObbDownloadActivity" android:screenOrientation="portrait" android:theme="@style/SupportAppThemeDisablePreview"/>
+        <service android:name="dji.assets.obb.data.ObbDownloadService"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="true" android:name="dji.mimo.dpush.DJIPushNavigatorActivity" android:screenOrientation="sensor" android:theme="@style/SupportAppTheme.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="mimo" android:pathPrefix="/" android:scheme="dji"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="mimo.sz.intent.action.NAVIGATE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_channel_id" android:value="dji.mimo.channel_id"/>
+        <meta-data android:name="com.huawei.hms.client.appid" android:value="@string/dji_push_hw_app_id"/>
+        <meta-data android:name="MI_PUSH_APP_ID" android:value="@string/dji_push_mi_app_id"/>
+        <meta-data android:name="MI_PUSH_APP_KEY" android:value="@string/dji_push_mi_app_key"/>
+        <activity android:name="com.dji.systemsettings.SystemSettingsDialogStubActivity" android:theme="@style/SupportAppTheme.DialogStub"/>
+        <activity android:exported="true" android:name="com.dji.thirdauth.platform.youtube.GoogleAuthReceiveActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/youtube_auth_schema"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="mimo.sz.KtxInstaller" android:exported="false" android:name="dji.mvvm.lib.base.Ktx"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="mimo.asset.pack.page.BundleStateCheckActivity" android:screenOrientation="portrait" android:theme="@style/AssetPackTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="dji.base.ui.thirdparty.permission.PermissionActivity" android:theme="@style/permission_PermissionActivity" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.base.ui.widget.gallery.GalleryActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.base.ui.widget.gallery.LiveCoverGalleryActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:name="dji.base.ui.widget.gallery.LiveCoverCropActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.base.ui.widget.webview.SimpleWebViewActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:label="基建 SDK 调试" android:name="com.lctsdk.fonda.debug.FondaDebugActivity" android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+        <provider android:authorities="mimo.sz.network.ConnectionProvider" android:enabled="true" android:exported="false" android:name="com.dji.connectivity.ConnectivityProvider"/>
+        <provider android:authorities="mimo.sz.gallery" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <activity android:name="com.handheld.uikit.demo.TitleBarTestActivity"/>
+        <activity android:name="com.handheld.uikit.demo.UIKitDemoActivity"/>
+        <activity android:name="com.handheld.uikit.demo.ButtonTestActivity"/>
+        <activity android:name="com.handheld.uikit.demo.FeaturePopupTestActivity"/>
+        <activity android:name="com.handheld.uikit.demo.ToastTestActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.handheld.uikit.demo.DialogTestActivity"/>
+        <activity android:name="com.handheld.uikit.demo.InputTestActivity"/>
+        <activity android:name="com.handheld.uikit.demo.ListTestActivity"/>
+        <activity android:name="com.handheld.uikit.demo.SwitchTestActivity"/>
+        <activity android:name="com.handheld.uikit.demo.SegmentControlTestActivity"/>
+        <activity android:name="com.handheld.uikit.demo.ProgressTestActivity"/>
+        <activity android:name="com.handheld.uikit.demo.PopoverTestActivity"/>
+        <activity android:name="com.handheld.uikit.demo.MixTestActivity"/>
+        <activity android:name="com.dji.mimo.dashboard.ui.DashboardImportActivity" android:screenOrientation="portrait" android:theme="@style/ImportTheme"/>
+        <activity android:name="com.dji.mimo.dashboard.ui.DashboardPrivacySetActivity" android:screenOrientation="portrait" android:theme="@style/ImportTheme"/>
+        <activity android:name="com.dji.mimo.dashboard.ui.HwIllustrateActivity" android:screenOrientation="portrait" android:theme="@style/ImportTheme"/>
+        <uses-native-library android:name="libOpenCL.so" android:required="false"/>
+        <uses-native-library android:name="libcdsprpc.so" android:required="false"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="lct.lomo.mediaeditor.share.ComposeShareActivity" android:theme="@style/BaseAppTheme" android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="lct.lomo.mediaeditor.share.GlobalShareActivity" android:theme="@style/GlobalShareTheme" android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <activity android:exported="false" android:keepScreenOn="true" android:name="lct.lomo.mediaeditor.share.TagActivity"/>
+        <activity android:exported="false" android:name="lct.lomo.mediaeditor.JumpIntervalActivity" android:screenOrientation="portrait" android:theme="@style/TranslucentTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="lct.lomo.mediaeditor.share.CreateTagActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="true" android:keepScreenOn="true" android:name="lct.lomo.mediaeditor.importmedia.MediaEditImportActivity" android:screenOrientation="portrait" android:theme="@style/MediaEditImportTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="ai_edit" android:scheme="light"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="manual_edit" android:scheme="light"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="lct.lomo.mediaeditor.hardware.FunctionIntroductionActivity" android:screenOrientation="portrait" android:theme="@style/FullScreenTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="lct.lomo.mediaeditor.model.TemplateActivity" android:screenOrientation="portrait" android:theme="@style/BaseAppTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="false" android:launchMode="singleTask" android:name="lct.lomo.mediaeditor.preview.MediaEditPreviewActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="lct.lomo.mediaeditor.model.activity.ModelContainerActivity" android:screenOrientation="portrait" android:theme="@style/BaseAppTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:launchMode="singleTask" android:name="lct.lomo.mediaeditor.draft.DraftActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="lct.lomo.mediaeditor.draft.lctdraft.LctSdkDraftActivity" android:screenOrientation="portrait" android:theme="@style/LctAppTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="lct.lomo.mediaeditor.video.details.VideoInfoNewActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="true" android:keepScreenOn="true" android:name="lct.lomo.mediaeditor.model.activity.ModelPreviewActivity" android:screenOrientation="behind" android:theme="@style/ModelPreviewTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="template_preview" android:scheme="light"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="lct.lomo.mediaeditor.game.preview.GamePreviewActivity" android:screenOrientation="behind" android:theme="@style/ModelPreviewTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="lct.lomo.mediaeditor.model.activity.ModelEditImportActivity" android:screenOrientation="portrait" android:theme="@style/LctAppTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="lct.lomo.mediaeditor.preview.MediaEditPreviewListActivity" android:screenOrientation="portrait" android:theme="@style/LctAppTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="lct.lomo.mediaeditor.model.activity.download.MediaDownloadActivity" android:screenOrientation="portrait" android:theme="@style/LctAppTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="lct.lomo.mediaeditor.editortutorial.EditorTutorialActivity" android:screenOrientation="portrait" android:theme="@style/LctAppTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="lct.lomo.mediaeditor.search.TemplateSearchActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="lct.lomo.mediaeditor.scantemplate.ScanTemplatePreviewActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="lct.lomo.mediaeditor.share.publish.UgcPublishActivity" android:screenOrientation="portrait" android:theme="@style/BaseAppTheme" android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <activity android:exported="false" android:name="lct.lomo.mediaeditor.share.publish.UgcCoverSelectActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="true" android:launchMode="singleTask" android:name="com.universal.statistics.android.sdk.dialog.SchemeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWUniBLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="sadf677ff1"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="lct.lomo.mediaeditor.highlight.PanoramaHighlightActivity" android:screenOrientation="portrait" android:theme="@style/LctAppTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="lct.lomo.mediaeditor.visualangle.PanoramaVisualAngleActivity" android:screenOrientation="portrait" android:theme="@style/LctAppTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="lct.lomo.mediaeditor.web.WebViewActivity" android:screenOrientation="portrait" android:theme="@style/BaseAppTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:launchMode="singleTask" android:name="lct.lomo.mediaeditor.templatelist.SdkTemplateListActivity" android:screenOrientation="portrait" android:theme="@style/BaseAppTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="lct.lomo.mediaeditor.dpad.ManualDpadSkipActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="lct.lomo.mediaeditor.aitemplate.ModelAITemplateCropActivity" android:screenOrientation="portrait" android:theme="@style/BaseAppTheme"/>
+        <service android:enabled="true" android:exported="false" android:foregroundServiceType="dataSync" android:name="lct.lomo.mediaeditor.ai.preload.AiEditForegroundService"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="lct.lomo.mediaeditor.aitemplate.multipleclip.ModelAiTemplateMultipleClipCropActivity" android:screenOrientation="portrait" android:theme="@style/BaseAppTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.publics.jiobject.djicrashactivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess" android:theme="@style/ActivityTranslucent" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:multiprocess="true" android:name="com.blankj.utilcode.util.UtilsTransActivity" android:theme="@style/ActivityTranslucent" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <provider android:authorities="mimo.sz.utilcode.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.blankj.utilcode.util.UtilsFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/util_code_provider_paths"/>
+        </provider>
+        <service android:exported="false" android:name="com.blankj.utilcode.util.MessengerUtils$ServerService">
+            <intent-filter>
+                <action android:name="mimo.sz.messenger"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.dji.fcmpack.FcmMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="firebase_messaging_auto_init_enabled" android:value="false"/>
+        <meta-data android:name="firebase_analytics_collection_enabled" android:value="false"/>
+        <receiver android:exported="true" android:name="com.dji.mipack.MiMessageReceiver">
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.huawei.hms.client.channel.androidMarket" android:value="false"/>
+        <service android:exported="false" android:name="com.dji.hwpack.HwMessageService">
+            <intent-filter>
+                <action android:name="com.huawei.push.action.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="com.lct.panorama.ui.PanoramaActivity" android:screenOrientation="portrait" android:theme="@style/LctAppTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="com.lct.panorama.share.ExportActivity" android:screenOrientation="portrait" android:theme="@style/LctAppTheme" android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <activity android:name="com.lct.dashboard.ui.MainActivity"/>
+        <activity android:name="com.lct.dashboard.ui.DashboardImportActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen.WithColor"/>
+        <activity android:name="com.lct.dashboard.ui.DashboardPrivacySetActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen.WithColor"/>
+        <activity android:name="com.lct.dashboard.ui.HwIllustrateActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen.WithColor"/>
+        <activity android:name="com.lct.dashboard.ui.DashboardToolsActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen.WithColor"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="lct.lomo.sdk.editor.template.ModelVideoCropActivity" android:screenOrientation="portrait" android:theme="@style/LctAppTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="lct.lomo.sdk.editor.multiple.template.MultipleTemplateActivity" android:screenOrientation="portrait" android:theme="@style/LctAppTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="lct.lomo.sdk.editor.multiple.template.FlyLandMultipleTemplateActivity" android:theme="@style/LctAppTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="com.lctsdk.mediaeditor.EditorActivity" android:screenOrientation="portrait" android:theme="@style/LctAppTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="true" android:keepScreenOn="true" android:name="lct.lomo.sdk.editor.customtemp.qingpai.QingPaiActivity" android:screenOrientation="portrait" android:theme="@style/QingPaiAppTheme" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="qingpai" android:scheme="light"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="inspire_detail" android:scheme="light"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="lct.lomo.sdk.editor.customtemp.qingpai.QingPaiPreviewActivity" android:screenOrientation="portrait" android:theme="@style/LctAppTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="com.lctsdk.mediaeditor.beat.EditorBeatsActivity" android:screenOrientation="portrait" android:theme="@style/LctAppTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="lct.lomo.sdk.editor.music.chooser.LocalLibraryActivity" android:screenOrientation="behind" android:theme="@style/LctAppTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.lctsdk.mediaeditor.dpad.EditorDpadSkipActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:name="lct.lomo.sdk.editor.locallut.view.LocalLutActivity" android:screenOrientation="portrait" android:theme="@style/LctAppTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:launchMode="singleTask" android:name="com.lctsdk.mediaeditor.livesplice.LiveSpliceActivity" android:screenOrientation="portrait" android:theme="@style/LctAppTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:keepScreenOn="true" android:launchMode="singleTask" android:name="com.lctsdk.mediaeditor.livesplice.LiveSpliceShareActivity" android:screenOrientation="portrait" android:theme="@style/LctAppTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="orientation" android:exported="false" android:name="com.lct.uilib.widget.gallery.GalleryActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation" android:exported="false" android:name="com.lct.uilib.permission.PermissionActivity" android:theme="@style/permission_PermissionActivity"/>
+        <provider android:authorities="mimo.sz.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="com.lct.base.app.AppInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.work.WorkManagerInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <activity android:configChanges="orientation" android:exported="false" android:name="com.lct.base.permission.PermissionActivity" android:theme="@style/permission_PermissionActivity"/>
+        <activity android:configChanges="orientation" android:exported="false" android:launchMode="singleTask" android:name="com.lct.base.device.ui.activity.DeviceConnectActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation" android:exported="false" android:name="com.lct.base.device.ui.activity.DeviceConnectHelpActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <meta-data android:name="ZEUS_PLUGIN_VIDEO" android:value="{                 apiVersionCode:313,                 packageName:com.byted.saas.video,                 minPluginVersion:20006,                 maxPluginVersion:99999,                 appKey:'14adbdb906c0a8c1601ecb546737bc80',                 appSecretKey:'a337bb0a0445d2b6cb75c0c86427ab2a',                 isSupportLibIsolate:true,                 dependentPackage:com.byted.ttm.player,                 signature:'MIIDSTCCAjGgAwIBAgIEaLy5tzANBgkqhkiG9w0BAQsFADBVMQswCQYDVQQGEwIxMTEMMAoGA1UECBMDMTExMQ4wDAYDVQQHEwUxMTExMTEMMAoGA1UEChMDMTExMQwwCgYDVQQLEwMxMTExDDAKBgNVBAMTAzExMTAeFw0yMDEyMDMxMjQyMTJaFw00NTExMjcxMjQyMTJaMFUxCzAJBgNVBAYTAjExMQwwCgYDVQQIEwMxMTExDjAMBgNVBAcTBTExMTExMQwwCgYDVQQKEwMxMTExDDAKBgNVBAsTAzExMTEMMAoGA1UEAxMDMTExMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA45E52YdkJm4gPCXZq7KDoM1h6pgSswllC/CwDOmh8pDGvX4ROaYP1vr2biRlXMHg7G0iXpxWVdlTtx+4QFd3dC+cGJQk0f6apGo2n2RpMA0zIsSf0VO1a3GjWLei5INo+4RDdciqJ4jfsoqBIjZETRkky+UU4eO/oyrAwOu4KdMln3Bg3u7eHWU4kMFrXxrRruT3Q/9gzlO90yQa0CZPWVDrk6cGJtJwJGhWm+62S3U8D26HE++eGP7ve83QBDGtKqx7HpCAFWUiYBgXGq12H0amQDkKcPcr/EFCaBlombSgkN0t6zBX80m+wcUPC75IBTmMV/DT2dXcgjZ2I1JSCQIDAQABoyEwHzAdBgNVHQ4EFgQUPDyIeKI0KhZFPHyn36gMMIYrpukwDQYJKoZIhvcNAQELBQADggEBAHkl0DoCRwn+XKsDJE+wGMpBBqUDzL6DSOnJx4SNqb7YZZU0ThcDK7jY4If3QRkvMio6ODrVZc2U/m/Tc3VeMk5h2W2UZRUWHNH3k9Xe0720uL20ZeH2Y6IG4L5HG8kIbTbFtX3gJpPG/xAcez+CzyCFLWQAZt1N+csG0syWkXJ0Nryq8VrgSCyCXD1KzFxrOe+65wtu50Vi68Vlbk7BZe/G8Qm0RhKmxq5BPMBJ4uY3be+03Ba5qC//o1XQHOEAjrJKXcN5wqHdFZTkmuxVyIPogZOzx4JlNl0zOrYGDJxp7aZfKF9FkXQyF7x0Ns3mZEtjx/+flXRzAAU9MDhPr/0='             }"/>
+        <meta-data android:name="VIDEO_API_VERSION_CODE" android:value="313"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Portrait" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Portrait2" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Portrait3" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Portrait4" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Portrait5" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Portrait6" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Portrait7" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Portrait8" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Portrait9" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Portrait10" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Portrait11" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Portrait12" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Portrait13" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Portrait14" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Portrait15" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Portrait16" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Portrait17" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Portrait18" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Portrait19" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Portrait20" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Landscape1" android:screenOrientation="landscape" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Landscape2" android:screenOrientation="landscape" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Landscape3" android:screenOrientation="landscape" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Landscape4" android:screenOrientation="landscape" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.dy.sdk.stub.VideoStubActivity$Activity_Landscape5" android:screenOrientation="landscape" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.bytedance.android.dy.sdk.stub.Video_Standard_Activity_DouyinWebAuthorizeActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:exported="true" android:name="com.bytedance.android.dy.sdk.stub.VideoAuthorizeActivityProxy"/>
+        <meta-data android:name="ZEUS_PLUGIN_BROADCAST" android:value="{                 apiVersionCode:1313,                 packageName:com.byted.broadcast.lite,                 minPluginVersion:131200,                 maxPluginVersion:2123456789,                 appKey:'63fed49bd0bad946b0886802de2fe8a4',                 appSecretKey:'50011b4cf949a84aa9c6d3e11093a6aa',                 isSupportLibIsolate:true,                 signature:'MIIDSTCCAjGgAwIBAgIEaLy5tzANBgkqhkiG9w0BAQsFADBVMQswCQYDVQQGEwIxMTEMMAoGA1UECBMDMTExMQ4wDAYDVQQHEwUxMTExMTEMMAoGA1UEChMDMTExMQwwCgYDVQQLEwMxMTExDDAKBgNVBAMTAzExMTAeFw0yMDEyMDMxMjQyMTJaFw00NTExMjcxMjQyMTJaMFUxCzAJBgNVBAYTAjExMQwwCgYDVQQIEwMxMTExDjAMBgNVBAcTBTExMTExMQwwCgYDVQQKEwMxMTExDDAKBgNVBAsTAzExMTEMMAoGA1UEAxMDMTExMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA45E52YdkJm4gPCXZq7KDoM1h6pgSswllC/CwDOmh8pDGvX4ROaYP1vr2biRlXMHg7G0iXpxWVdlTtx+4QFd3dC+cGJQk0f6apGo2n2RpMA0zIsSf0VO1a3GjWLei5INo+4RDdciqJ4jfsoqBIjZETRkky+UU4eO/oyrAwOu4KdMln3Bg3u7eHWU4kMFrXxrRruT3Q/9gzlO90yQa0CZPWVDrk6cGJtJwJGhWm+62S3U8D26HE++eGP7ve83QBDGtKqx7HpCAFWUiYBgXGq12H0amQDkKcPcr/EFCaBlombSgkN0t6zBX80m+wcUPC75IBTmMV/DT2dXcgjZ2I1JSCQIDAQABoyEwHzAdBgNVHQ4EFgQUPDyIeKI0KhZFPHyn36gMMIYrpukwDQYJKoZIhvcNAQELBQADggEBAHkl0DoCRwn+XKsDJE+wGMpBBqUDzL6DSOnJx4SNqb7YZZU0ThcDK7jY4If3QRkvMio6ODrVZc2U/m/Tc3VeMk5h2W2UZRUWHNH3k9Xe0720uL20ZeH2Y6IG4L5HG8kIbTbFtX3gJpPG/xAcez+CzyCFLWQAZt1N+csG0syWkXJ0Nryq8VrgSCyCXD1KzFxrOe+65wtu50Vi68Vlbk7BZe/G8Qm0RhKmxq5BPMBJ4uY3be+03Ba5qC//o1XQHOEAjrJKXcN5wqHdFZTkmuxVyIPogZOzx4JlNl0zOrYGDJxp7aZfKF9FkXQyF7x0Ns3mZEtjx/+flXRzAAU9MDhPr/0='             }"/>
+        <meta-data android:name="BROADCAST_API_VERSION_CODE" android:value="1313"/>
+        <activity android:exported="true" android:name="com.bytedance.android.openlive.broadcast.stub.activity.DouyinAuthorizeActivityProxy"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.openlive.broadcast.stub.activity.StubActivity$Activity_Portrait" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.openlive.broadcast.stub.activity.StubActivity$Activity_Landscape" android:screenOrientation="landscape" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.openlive.broadcast.stub.activity.StubActivity$Activity_Portrait2" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.openlive.broadcast.stub.activity.StubActivity$Activity_Portrait3" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.openlive.broadcast.stub.activity.StubActivity$Activity_Portrait4" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.openlive.broadcast.stub.activity.StubActivity$Activity_Portrait5" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:name="com.bytedance.bdinstall.migrate.MigrateDetectorActivity"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.byted.broadcast.lite.Activity_main_standard" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.byted.broadcast.lite.Activity_main_singleTask1" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.byted.broadcast.lite.Activity_main_singleTask2" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.byted.broadcast.lite.Activity_main_singleTop1" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <provider android:authorities="mimo.sz.zeus.servermanager.bytelive.com.byted.broadcast.lite" android:exported="false" android:name="com.byted.broadcast.lite.ServerManager_bytelive" android:process=":bytelive"/>
+        <provider android:authorities="mimo.sz.zeus.servermanager.push.com.byted.broadcast.lite" android:exported="false" android:name="com.byted.broadcast.lite.ServerManager_push" android:process=":push"/>
+        <provider android:authorities="mimo.sz.zeus.servermanager.downloader.com.byted.broadcast.lite" android:exported="false" android:name="com.byted.broadcast.lite.ServerManager_downloader" android:process=":downloader"/>
+        <meta-data android:name="ZEUS_PLUGIN_LIVE" android:value="{                 apiVersionCode:3130,                 packageName:com.byted.live.lite,                 minPluginVersion:211400,                 maxPluginVersion:999999,                 isSupportLibIsolate:true,                 appKey:'edc32eaa174b15a7a3771c37b451c080',                 appSecretKey:'2f906bdb2f32468a63c2fed4afd1e82e',                 signature:'MIIDSTCCAjGgAwIBAgIEaLy5tzANBgkqhkiG9w0BAQsFADBVMQswCQYDVQQGEwIxMTEMMAoGA1UECBMDMTExMQ4wDAYDVQQHEwUxMTExMTEMMAoGA1UEChMDMTExMQwwCgYDVQQLEwMxMTExDDAKBgNVBAMTAzExMTAeFw0yMDEyMDMxMjQyMTJaFw00NTExMjcxMjQyMTJaMFUxCzAJBgNVBAYTAjExMQwwCgYDVQQIEwMxMTExDjAMBgNVBAcTBTExMTExMQwwCgYDVQQKEwMxMTExDDAKBgNVBAsTAzExMTEMMAoGA1UEAxMDMTExMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA45E52YdkJm4gPCXZq7KDoM1h6pgSswllC/CwDOmh8pDGvX4ROaYP1vr2biRlXMHg7G0iXpxWVdlTtx+4QFd3dC+cGJQk0f6apGo2n2RpMA0zIsSf0VO1a3GjWLei5INo+4RDdciqJ4jfsoqBIjZETRkky+UU4eO/oyrAwOu4KdMln3Bg3u7eHWU4kMFrXxrRruT3Q/9gzlO90yQa0CZPWVDrk6cGJtJwJGhWm+62S3U8D26HE++eGP7ve83QBDGtKqx7HpCAFWUiYBgXGq12H0amQDkKcPcr/EFCaBlombSgkN0t6zBX80m+wcUPC75IBTmMV/DT2dXcgjZ2I1JSCQIDAQABoyEwHzAdBgNVHQ4EFgQUPDyIeKI0KhZFPHyn36gMMIYrpukwDQYJKoZIhvcNAQELBQADggEBAHkl0DoCRwn+XKsDJE+wGMpBBqUDzL6DSOnJx4SNqb7YZZU0ThcDK7jY4If3QRkvMio6ODrVZc2U/m/Tc3VeMk5h2W2UZRUWHNH3k9Xe0720uL20ZeH2Y6IG4L5HG8kIbTbFtX3gJpPG/xAcez+CzyCFLWQAZt1N+csG0syWkXJ0Nryq8VrgSCyCXD1KzFxrOe+65wtu50Vi68Vlbk7BZe/G8Qm0RhKmxq5BPMBJ4uY3be+03Ba5qC//o1XQHOEAjrJKXcN5wqHdFZTkmuxVyIPogZOzx4JlNl0zOrYGDJxp7aZfKF9FkXQyF7x0Ns3mZEtjx/+flXRzAAU9MDhPr/0='             }"/>
+        <meta-data android:name="LIVE_API_VERSION_CODE" android:value="3130"/>
+        <activity android:exported="true" android:name="com.bytedance.android.openliveplugin.stub.activity.DouyinAuthorizeActivityProxy"/>
+        <activity android:exported="true" android:name="com.bytedance.android.openliveplugin.stub.activity.DouyinAuthorizeActivityLiveProcessProxy" android:process=":bytelive"/>
+        <provider android:authorities="mimo.sz.bytedance.android.openliveplugin.process.server.LiveServerManager" android:exported="false" android:name="com.bytedance.android.openliveplugin.process.server.LiveServerManager" android:process=":bytelive"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait2" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait3" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait4" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|colorMode" android:name="com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait5" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.byted.live.lite.Activity_bytelive_standard" android:process=":bytelive" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.byted.live.lite.Activity_bytelive_singleTask4" android:process=":bytelive" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.byted.live.lite.Activity_bytelive_singleTop3" android:process=":bytelive" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.byted.live.lite.Activity_bytelive_singleTop2" android:process=":bytelive" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.byted.live.lite.Activity_bytelive_singleTop5" android:process=":bytelive" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.byted.live.lite.Activity_main_standard" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.byted.live.lite.Activity_bytelive_singleTop4" android:process=":bytelive" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.byted.live.lite.Activity_bytelive_standard" android:process=":bytelive" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.byted.live.lite.Activity_bytelive_singleTop1" android:process=":bytelive" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.byted.live.lite.Activity_bytelive_singleTask1" android:process=":bytelive" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.byted.live.lite.Activity_bytelive_singleTop6" android:process=":bytelive" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.byted.live.lite.Activity_bytelive_singleTask2" android:process=":bytelive" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.byted.live.lite.Activity_bytelive_singleTask3" android:process=":bytelive" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.byted.live.lite.Activity_main_singleTask1" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.byted.live.lite.Activity_main_singleTask2" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.byted.live.lite.Activity_main_singleTask3" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.byted.live.lite.Activity_main_singleTask4" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.byted.live.lite.Activity_main_standard" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.byted.live.lite.Activity_main_singleTop1" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.byted.live.lite.Activity_main_singleTop2" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.byted.live.lite.Activity_main_singleInstance1" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.byted.live.lite.Activity_main_singleTop5" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.byted.live.lite.Activity_main_singleTop6" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.byted.live.lite.Activity_main_singleTop3" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.byted.live.lite.Activity_main_singleTop4" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.byted.live.lite.Activity_bytelive_singleInstance1" android:process=":bytelive" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <provider android:authorities="mimo.sz.zeus.servermanager.bytelive.com.byted.live.lite" android:exported="false" android:name="com.byted.live.lite.ServerManager_bytelive" android:process=":bytelive"/>
+        <provider android:authorities="mimo.sz.zeus.servermanager.push.com.byted.live.lite" android:exported="false" android:name="com.byted.live.lite.ServerManager_push" android:process=":push"/>
+        <meta-data android:name="ZEUS_PLUGIN_COMMON_TTM_PLAYER" android:value="{                 apiVersionCode:313,                 packageName:com.byted.ttm.player,                 minPluginVersion:10000,                 maxPluginVersion:10099,                 appKey:'b759a5c22d90020d40d5450cf6abee55',                 appSecretKey:'3298eca929aa69b7104aac236f54abde',                 isSupportLibIsolate:true,                 internalVersionCode:1,                 signature:'MIIDSTCCAjGgAwIBAgIEaLy5tzANBgkqhkiG9w0BAQsFADBVMQswCQYDVQQGEwIxMTEMMAoGA1UECBMDMTExMQ4wDAYDVQQHEwUxMTExMTEMMAoGA1UEChMDMTExMQwwCgYDVQQLEwMxMTExDDAKBgNVBAMTAzExMTAeFw0yMDEyMDMxMjQyMTJaFw00NTExMjcxMjQyMTJaMFUxCzAJBgNVBAYTAjExMQwwCgYDVQQIEwMxMTExDjAMBgNVBAcTBTExMTExMQwwCgYDVQQKEwMxMTExDDAKBgNVBAsTAzExMTEMMAoGA1UEAxMDMTExMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA45E52YdkJm4gPCXZq7KDoM1h6pgSswllC/CwDOmh8pDGvX4ROaYP1vr2biRlXMHg7G0iXpxWVdlTtx+4QFd3dC+cGJQk0f6apGo2n2RpMA0zIsSf0VO1a3GjWLei5INo+4RDdciqJ4jfsoqBIjZETRkky+UU4eO/oyrAwOu4KdMln3Bg3u7eHWU4kMFrXxrRruT3Q/9gzlO90yQa0CZPWVDrk6cGJtJwJGhWm+62S3U8D26HE++eGP7ve83QBDGtKqx7HpCAFWUiYBgXGq12H0amQDkKcPcr/EFCaBlombSgkN0t6zBX80m+wcUPC75IBTmMV/DT2dXcgjZ2I1JSCQIDAQABoyEwHzAdBgNVHQ4EFgQUPDyIeKI0KhZFPHyn36gMMIYrpukwDQYJKoZIhvcNAQELBQADggEBAHkl0DoCRwn+XKsDJE+wGMpBBqUDzL6DSOnJx4SNqb7YZZU0ThcDK7jY4If3QRkvMio6ODrVZc2U/m/Tc3VeMk5h2W2UZRUWHNH3k9Xe0720uL20ZeH2Y6IG4L5HG8kIbTbFtX3gJpPG/xAcez+CzyCFLWQAZt1N+csG0syWkXJ0Nryq8VrgSCyCXD1KzFxrOe+65wtu50Vi68Vlbk7BZe/G8Qm0RhKmxq5BPMBJ4uY3be+03Ba5qC//o1XQHOEAjrJKXcN5wqHdFZTkmuxVyIPogZOzx4JlNl0zOrYGDJxp7aZfKF9FkXQyF7x0Ns3mZEtjx/+flXRzAAU9MDhPr/0='             }"/>
+        <provider android:authorities="mimo.sz.zeus.servermanager.main" android:exported="false" android:name="com.volcengine.zeus.servermanager.MainServerManager"/>
+        <provider android:authorities="mimo.sz.zeus.provider.proxy.main" android:exported="false" android:name="com.volcengine.zeus.provider.MainProcessProviderProxy"/>
+        <provider android:authorities="mimo.sz.zeus.fileprovider" android:grantUriPermissions="true" android:name="com.volcengine.zeus.FileProvider"/>
+        <meta-data android:name="com.bumptech.glide.integration.webp.WebpGlideModule" android:value="GlideModule"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:visibleToInstantApps="true"/>
+        <meta-data android:name="flutterProjectType" android:value="module"/>
+        <meta-data android:name="flutterEmbedding" android:value="2"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <provider android:authorities="mimo.sz.flutter.share_provider" android:exported="false" android:grantUriPermissions="true" android:name="dev.fluttercommunity.plus.share.ShareFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/flutter_share_file_paths"/>
+        </provider>
+        <receiver android:exported="false" android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent">
+            <intent-filter>
+                <action android:name="EXTRA_CHOSEN_COMPONENT"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="false" android:name="io.flutter.plugins.urllauncher.WebViewActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+            <meta-data android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED" android:value="true"/>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <property android:name="android.adservices.AD_SERVICES_CONFIG" android:resource="@xml/ga_ad_services_config"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.firebase.sessions.SessionLifecycleService"/>
+        <provider android:authorities="mimo.sz.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <service android:enabled="false" android:exported="true" android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService">
+            <meta-data android:name="com.google.android.play.core.assetpacks.versionCode" android:value="20202"/>
+        </service>
+        <service android:enabled="false" android:exported="false" android:foregroundServiceType="dataSync" android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="mimo.sz.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
+        <receiver android:exported="false" android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="wbsdk_version_name" android:value="13.10.4"/>
+        <meta-data android:name="wbsdk_version_code" android:value="2309"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.sina.weibo.sdk.web.WebActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:launchMode="singleTask" android:name="com.sina.weibo.sdk.share.ShareTransActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="mimo.sz.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.sina.weibo.sdk.content.FileProviderV2">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/wbsdk_filepaths"/>
+        </provider>
+        <provider android:authorities="mimo.sz.wbsdk.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.sina.weibo.sdk.content.WeiboSDKFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/wbsdk_filepaths"/>
+        </provider>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <uses-library android:name="android.ext.adservices" android:required="false"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <provider android:authorities="mimo.sz.com.squareup.picasso" android:exported="false" android:name="com.squareup.picasso.PicassoProvider"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="true" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.kwai.opensdk.sdk.openapi.KwaiHandlerActivity" android:screenOrientation="behind" android:taskAffinity="net.sourceforge.simcpux" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity-alias android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="true" android:name="mimo.sz.KwaiHandlerActivity" android:screenOrientation="behind" android:targetActivity="com.kwai.opensdk.sdk.openapi.KwaiHandlerActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/loading_activity_handler" android:name="com.kwai.opensdk.sdk.LoadingActivity" android:screenOrientation="behind" android:theme="@style/dialog_style"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.kwai.auth.login.kwailogin.h5login.KwaiH5LoginActivity" android:screenOrientation="behind" android:theme="@style/Kwai.Theme.CustomTranslucent"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="true" android:label="@string/title_activity_kwai_handler" android:name="com.kwai.auth.login.kwailogin.applogin.RouteHandlerActivity" android:screenOrientation="behind" android:theme="@style/Kwai.Theme.CustomTranslucent"/>
+        <activity-alias android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="true" android:name="mimo.sz.kwai.KwaiHandlerActivity" android:screenOrientation="behind" android:targetActivity="com.kwai.auth.login.kwailogin.applogin.RouteHandlerActivity"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="mimo.sz.apm" android:exported="false" android:name="com.bytedance.frameworks.core.apm.contentprovider.MonitorContentProvider"/>
+        <service android:enabled="true" android:exported="false" android:name="com.bytedance.apm6.traffic.TrafficTransportService"/>
+        <service android:exported="false" android:name="com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService" android:process=":downloader" android:stopWithTask="true"/>
+        <service android:exported="false" android:name="com.ss.android.socialbase.downloader.notification.DownloadNotificationService" android:stopWithTask="true"/>
+        <service android:exported="false" android:name="com.ss.android.socialbase.downloader.downloader.DownloadService" android:stopWithTask="true"/>
+        <service android:exported="false" android:name="com.ss.android.socialbase.downloader.impls.DownloadHandleService" android:stopWithTask="true"/>
+        <service android:exported="false" android:name="com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService" android:stopWithTask="true"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:ads-identifier" android:value="ads-identifier:3.4.39.302"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTask" android:name="net.openid.appauth.AuthorizationManagementActivity" android:theme="@style/Theme.AppCompat.Translucent.NoTitleBar"/>
+        <activity android:exported="true" android:name="net.openid.appauth.RedirectUriReceiverActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="mimo-netdisk-auth"/>
+                <data android:scheme="com.googleusercontent.apps.243194663647-9sbcdju5ob0f80riqinlvabn65k3abpc"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.facebook.soloader.enabled" android:value="false"/>
+        <uses-library android:name="com.huawei.camerakit.impl" android:required="false"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.bytedance.sdk.open.douyin.ui.DouYinWebAuthorizeActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:name="com.bytedance.sdk.open.tiktok.ui.TikTokWebAuthorizeActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.bilibili.lib.accountoauth.OauthWebActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <meta-data android:name="FAWKES_APP_KEY" android:value="android"/>
+        <meta-data android:name="BUILD_SN" android:value="0"/>
+        <meta-data android:name="MOBI_APP" android:value="android"/>
+        <meta-data android:name="NEURON_APPID" android:value="1"/>
+        <meta-data android:name="NS_APPID" android:value="live_android"/>
+        <meta-data android:name="CLIENT_TYPE" android:value="adr_zs"/>
+        <meta-data android:name="HY_CHANNEL" android:value="@string/hyberry_channel"/>
+        <meta-data android:name="HY_APPID" android:value="@string/hyberry_appid"/>
+        <meta-data android:name="HY_APPKEY" android:value="@string/hyberry_appkey"/>
+        <meta-data android:name="HY_VERSION" android:value="@string/hyberry_version"/>
+        <meta-data android:name="FB_APPID" android:value="@string/hy_fb_appid"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.huya.berry.webview.WebViewActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="true" android:name="com.bytedance.android.dy.sdk.api.router.DSRouterActivity"/>
+        <meta-data android:name="MIPUSH_SDK_VERSION_CODE" android:value="50602"/>
+        <meta-data android:name="MIPUSH_SDK_VERSION_NAME" android:value="5_6_2-C"/>
+        <service android:enabled="true" android:name="com.xiaomi.push.service.XMPushService" android:process=":pushservice"/>
+        <service android:enabled="true" android:exported="false" android:name="com.xiaomi.push.service.XMJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":pushservice"/>
+        <service android:enabled="true" android:exported="true" android:name="com.xiaomi.mipush.sdk.PushMessageHandler" android:permission="com.xiaomi.xmsf.permission.MIPUSH_RECEIVE"/>
+        <service android:enabled="true" android:name="com.xiaomi.mipush.sdk.MessageHandleService"/>
+        <receiver android:exported="false" android:name="com.xiaomi.push.service.receivers.PingReceiver" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.xiaomi.push.PING_TIMER"/>
+            </intent-filter>
+        </receiver>
+        <activity android:enabled="true" android:excludeFromRecents="true" android:exported="true" android:launchMode="singleInstance" android:name="com.xiaomi.mipush.sdk.NotificationClickedActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <meta-data android:name="supportStyle" android:value="scene|voip"/>
+        </activity>
+        <receiver android:directBootAware="true" android:exported="true" android:name="com.huawei.hms.support.api.push.PushMsgReceiver" android:permission="mimo.sz.permission.PROCESS_PUSH_MSG">
+            <intent-filter>
+                <action android:name="com.huawei.intent.action.PUSH_DELAY_NOTIFY"/>
+                <action android:name="com.huawei.intent.action.PUSH"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="true" android:exported="true" android:name="com.huawei.hms.support.api.push.PushReceiver" android:permission="mimo.sz.permission.PROCESS_PUSH_MSG">
+            <intent-filter>
+                <action android:name="com.huawei.android.push.intent.REGISTRATION"/>
+                <action android:name="com.huawei.android.push.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:enabled="true" android:exported="true" android:name="com.huawei.hms.support.api.push.service.HmsMsgService" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.huawei.push.msg.NOTIFY_MSG"/>
+                <action android:name="com.huawei.push.msg.PASSBY_MSG"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="mimo.sz.huawei.push.provider" android:exported="true" android:name="com.huawei.hms.support.api.push.PushProvider" android:readPermission="mimo.sz.permission.PUSH_PROVIDER" android:writePermission="mimo.sz.permission.PUSH_WRITE_PROVIDER"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:push" android:value="push:6.5.0.300"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:push:push" android:value="1"/>
+        <activity android:exported="false" android:name="com.huawei.hms.support.api.push.TransActivity"/>
+        <activity android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+        <provider android:authorities="mimo.sz.aaidinitprovider" android:exported="false" android:initOrder="500" android:name="com.huawei.hms.aaid.InitProvider"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:opendevice" android:value="opendevice:6.3.0.305"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:opendevice:push" android:value="1"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:base" android:value="base:6.5.0.300"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:base:hmscore" android:value="1"/>
+        <meta-data android:name="availableLoaded" android:value="yes"/>
+        <provider android:authorities="mimo.sz.UniversalDataContentProvider" android:enabled="true" android:exported="false" android:name="com.universal.statistics.android.sdk.data.UniversalDataContentProvider"/>
+        <meta-data android:name="com.universal.statistics.android.MainProcessName" android:value="mimo.sz"/>
+        <meta-data android:name="com.universal.statistics.android.version" android:value="0.2.10.0"/>
+        <activity android:configChanges="locale|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|layoutDirection|fontScale" android:excludeFromRecents="true" android:exported="false" android:hardwareAccelerated="true" android:name="com.huawei.hms.activity.BridgeActivity" android:screenOrientation="behind" android:theme="@style/Base_Translucent">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.huawei.hms.activity.EnableServiceActivity"/>
+        <provider android:authorities="mimo.sz.AGCInitializeProvider" android:exported="false" android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"/>
+        <service android:exported="false" android:name="com.huawei.agconnect.core.ServiceDiscovery"/>
+        <activity android:exported="false" android:name="com.pairip.licensecheck.LicenseActivity"/>
+        <meta-data android:name="com.android.vending.splits.required" android:value="true"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+        <meta-data android:name="com.android.vending.splits" android:resource="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="3"/>
+    </application>
+</manifest>

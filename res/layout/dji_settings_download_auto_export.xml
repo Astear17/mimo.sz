@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <dji.base.ui.widget.DJIItemViewSwitch android:orientation="vertical" android:id="@id/settings_switch" setting_ui:show_divider="false" setting_ui:titleText="@string/fpv_setting_camera_download_sync_save_title_list" setting_ui:typeFace="@string/ui_typeface_roboto_condensed_bold" style="@style/dji_setting_item_ll" />
+    <TextView android:layout_marginBottom="@dimen/d_5_dp" android:text="@string/fpv_setting_camera_download_sync_save_description_list" android:paddingStart="0.0dp" android:paddingEnd="0.0dp" style="@style/lp_setting_des_text" />
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="50.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dji.playback.segment.editor.view.widget.EdgeTransparentView android:layout_width="match_parent" android:layout_height="match_parent" app:edge_position="left|right" app:edge_width="50.0dp">
+        <com.dji.playback.segment.editor.view.widget.EditorSeekBar android:id="@id/seekbar" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </com.dji.playback.segment.editor.view.widget.EdgeTransparentView>
+    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/playback_seek_bar_needle" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout android:id="@id/audio_effect_page_tab_layout" android:paddingLeft="@dimen/editor_d_6_dp" android:paddingRight="@dimen/editor_d_6_dp" android:layout_width="@dimen/editor_d_0_dp" android:layout_height="@dimen/editor_d_32_dp" android:layout_marginTop="@dimen/editor_d_8_dp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:tabBackground="@color/transparent" app:tabGravity="fill" app:tabIndicatorHeight="@dimen/editor_d_0_dp" app:tabMode="scrollable" app:tabPaddingEnd="@dimen/editor_d_0_dp" app:tabPaddingStart="@dimen/editor_d_0_dp" app:tabRippleColor="@color/transparent" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/audio_effect_page_viewpager" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_dp" android:layout_marginTop="8.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/audio_effect_page_tab_layout" />
+</merge>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/fpv_overlay_window_background" android:padding="@dimen/d_16_dp" android:layout_width="@dimen/d_272_dp" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/white_80" android:id="@id/fpv_res_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_8_dp" android:text="@string/hg211_fpv_setting_resolution_left_panel_title" style="@style/TextStyleRobotoCondensedBold" />
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:id="@id/fpv_res_rv" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/white_80" android:id="@id/fpv_fps_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_8_dp" android:text="@string/hg211_fpv_setting_fps_left_panel_title" style="@style/TextStyleRobotoCondensedBold" />
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:id="@id/fpv_fps_rv" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="left" android:layout_gravity="center" android:id="@id/layout_res_fps_help" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_help_question" />
+            <TextView android:textSize="@dimen/d_12_dp" android:textColor="@color/grey_5" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_fpv_video_spec_disclaimer_title" style="@style/TextStyleRobotoCondensedBold" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/d_13_dp" android:textColor="@color/white_80" android:id="@id/fpv_ratio_title" android:paddingTop="@dimen/d_16_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_8_dp" android:text="@string/ac101_fpv_left_panel_setting_multiple_title" style="@style/TextStyleRobotoCondensedBold" />
+        <FrameLayout android:layout_gravity="center|bottom" android:id="@id/fpv_ratio_scroller" android:layout_width="match_parent" android:layout_height="@dimen/d_32_dp">
+            <dji.base.ui.widget.dji.spinnerwheel.WheelHorizontalView android:id="@id/fpv_ratio_wheel" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <ImageView android:layout_gravity="center|bottom" android:id="@id/iv_ratio_triangle" android:layout_width="@dimen/d_8_dp" android:layout_height="@dimen/d_5_dp" android:src="@drawable/dji_ic_wheel_triangle_top" android:scaleType="center" />
+        </FrameLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_64_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/activity_qingpai_back" android:paddingLeft="@dimen/editor_d_0_dp" android:paddingRight="@dimen/editor_d_0_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_22_dp" android:src="@drawable/ic_close_normal" android:layout_centerVertical="true" />
+</RelativeLayout>

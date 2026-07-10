@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="bottom" android:layout_width="@dimen/editor_d_68_dp" android:layout_height="@dimen/editor_d_90_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/item_sky_image_rl" android:layout_width="@dimen/editor_d_48_dp" android:layout_height="wrap_content" android:layout_below="@id/vip_identify_iv" android:layout_centerHorizontal="true">
+        <View android:id="@id/item_sky_effect_bg" android:background="@drawable/shape_sky_effect_bg" android:layout_width="@dimen/editor_d_44_dp" android:layout_height="@dimen/editor_d_44_dp" android:layout_marginTop="@dimen/editor_d_4_dp" android:layout_centerHorizontal="true" />
+        <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/item_sky_effect_image" android:background="@drawable/shape_image_stub" android:layout_width="@dimen/editor_d_44_dp" android:layout_height="@dimen/editor_d_44_dp" android:layout_marginTop="@dimen/editor_d_4_dp" android:layout_centerHorizontal="true" app:roundRadius="@dimen/editor_d_27_dp" />
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/item_sky_effect_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_4_dp" android:layout_marginBottom="@dimen/editor_d_7_dp" android:text="无" android:maxLines="1" android:layout_below="@id/item_sky_effect_bg" android:layout_centerHorizontal="true" android:alpha="0.5" style="@style/H_5_normal" />
+    </RelativeLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/vip_identify_iv" android:visibility="gone" android:layout_width="@dimen/editor_d_66_dp" android:layout_height="@dimen/editor_d_24_5_dp" android:layout_marginBottom="@dimen/editor_d_012_dp" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+</RelativeLayout>

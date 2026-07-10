@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/editor_d_32_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/bg" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
+    <ImageView android:id="@id/img" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/wide_angle_seek_bar_bg" android:scaleType="fitXY" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/circle_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+        <ImageView android:id="@id/circle_icon" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:src="@drawable/wide_angle_seek_bar_circle" android:scaleType="fitCenter" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

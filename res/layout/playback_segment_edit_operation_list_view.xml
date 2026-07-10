@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/playback_segment_op_list_topbar" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp">
+        <com.dji.playback.segment.editor.view.SegmentEditTitleView android:id="@id/resolutionSelectTv" android:background="@drawable/bg_segment_resolution_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/d_30_dp" android:paddingHorizontal="@dimen/d_16_dp" android:paddingVertical="@dimen/d_2_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/playback_segment_op_list_confirm" app:layout_constraintTop_toTopOf="parent" />
+        <dji.publics.DJIUI.DJIStateTextView android:textSize="@dimen/d_14_dp" android:textStyle="bold" android:textColor="@color/black_95" android:id="@id/playback_segment_op_list_confirm" android:background="@drawable/playback_segment_edit_export_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/general_playback_single_clip_edit_export_btn" android:layout_marginEnd="@dimen/d_12_dp" android:paddingHorizontal="@dimen/d_16_dp" android:paddingVertical="@dimen/d_2_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@id/divider" android:background="@color/white_10" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    <com.dji.playback.widget.PlaybackHorizontalScrollView android:layout_gravity="center_horizontal" android:id="@id/playback_segment_operation_list" android:layout_width="wrap_content" android:layout_height="@dimen/d_80_dp">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/d_80_dp" />
+    </com.dji.playback.widget.PlaybackHorizontalScrollView>
+</merge>

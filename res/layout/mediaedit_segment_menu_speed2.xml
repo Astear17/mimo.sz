@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="true" style="@style/edit_menu_bg_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lctsdk.mediaeditor.tabviews.speed.tablayout.SpeedMenuTabLayout android:id="@id/speed_menu_tab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <com.lctsdk.mediaeditor.tabviews.speed.ConventionalSpeedView android:id="@id/conventional_speedview" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/mediaedit_menu_bottom_layout_id" />
+    <com.lctsdk.mediaeditor.tabviews.speed.CurveSpeedView android:id="@id/curve_speedview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/mediaedit_menu_bottom_layout_id" android:layout_below="@id/speed_menu_tab" />
+    <include android:id="@id/mediaedit_menu_bottom_layout_id" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_49_dp" android:layout_alignParentBottom="true" layout="@layout/mediaeditor_menu_bottom_layout" />
+</RelativeLayout>

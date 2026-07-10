@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/dm300_rx_settings_title" android:text="@string/dm300rx_common_parameter_setting_rx_list_title" style="@style/v2_settings_group_title" />
+    <LinearLayout android:id="@id/dm300_settings_group_layout" style="@style/v2_settings_group_layout">
+        <com.dji.mimo.accessory.dm300.DMSettingNoiseReductionView android:paddingTop="@dimen/d_16_dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/v2_settings_item_layout" />
+        <LinearLayout android:id="@id/dm300_channel_layout" style="@style/v2_settings_item_layout">
+            <TextView android:id="@id/dm300_channel_title" android:text="@string/dm300rx_common_parameter_setting_channel_list_title" android:layout_weight="1.0" style="@style/v2_settings_item_title" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/dm300_channel_options" android:background="@drawable/v2_settings_chanel_layout_bg" android:padding="@dimen/d_2_dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/d_13_dp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/dm300_mono_channel" android:background="@drawable/selector_tv_channel_change" android:paddingTop="@dimen/d_3_dp" android:paddingBottom="@dimen/d_3_dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dm300rx_common_parameter_setting_mono_list_btn" android:paddingStart="@dimen/d_10_dp" android:paddingEnd="@dimen/d_10_dp" />
+                <TextView android:textSize="@dimen/d_13_dp" android:textStyle="bold" android:textColor="@color/white_60" android:id="@id/dm300_stereo_channel" android:background="@drawable/selector_tv_channel_change" android:paddingTop="@dimen/d_3_dp" android:paddingBottom="@dimen/d_3_dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dm300rx_common_parameter_setting_stereo_list_btn" android:paddingStart="@dimen/d_10_dp" android:paddingEnd="@dimen/d_10_dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.dji.mimo.accessory.dm300.DMSettingItemSwitchView android:id="@id/dm300_safe_track_layout" app:dm_setting_desc="@string/dm300rx_common_parameter_setting_safetytrack_list_content" app:dm_setting_title="@string/dm300rx_common_parameter_setting_safetytrack_list_title" style="@style/v2_settings_item_layout" />
+        <com.dji.mimo.accessory.dm300.DMSettingGainSeekBar android:id="@id/dm_gain_layout" style="@style/v2_settings_item_layout" />
+        <com.dji.mimo.accessory.dm300.DMSettingItemSwitchView android:id="@id/dm300_rx_low_cut_layout" app:dm_setting_desc="@string/dm300tx_common_parameter_setting_highpass_list_content" app:dm_setting_title="@string/dm300tx_common_parameter_setting_highpass_list_title" style="@style/v2_settings_item_layout" />
+        <com.dji.mimo.accessory.dm300.DMSettingItemSwitchView android:id="@id/dm300_noise_reduction_rx_layout" android:visibility="gone" app:dm_setting_desc="@string/dm300tx_common_parameter_setting_denoise_list_desc_rx" app:dm_setting_title="@string/dm300tx_common_parameter_setting_denosingbtn_list_title" style="@style/v2_settings_item_layout" />
+        <com.dji.mimo.accessory.dm300.DMSettingItemSwitchView android:id="@id/dm300_anti_explosion_function_layout" app:dm_setting_desc="@string/dm300tx_common_parameter_setting_suppressor_list_content" app:dm_setting_title="@string/dm300tx_common_parameter_setting_suppressor_list_title" style="@style/v2_settings_item_layout" />
+    </LinearLayout>
+</LinearLayout>

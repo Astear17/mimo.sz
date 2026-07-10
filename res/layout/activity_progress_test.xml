@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_white_1" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.handheld.uikit.components.progress.WLCircularProgressBar android:layout_gravity="center" android:id="@id/progress_bar_test_1" android:layout_width="160.0dp" android:layout_height="160.0dp" app:uiTheme="dark" />
+    </FrameLayout>
+    <FrameLayout android:background="@color/background_black_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.handheld.uikit.components.progress.WLCircularProgressBar android:layout_gravity="center" android:id="@id/progress_bar_test_2" android:layout_width="160.0dp" android:layout_height="160.0dp" app:uiTheme="light" />
+    </FrameLayout>
+</LinearLayout>

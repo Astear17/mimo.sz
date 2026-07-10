@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/d_24_dp" android:layout_marginBottom="@dimen/d_8_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.dji.mimo.accessory.dm303.timecode.SyncStatusImageView android:id="@id/iv_sync_status" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" />
+    <TextView android:textAppearance="@style/TextStyleRobotoRegular" android:textSize="@dimen/d_12_dp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tv_sync_status" android:layout_width="match_parent" android:layout_height="@dimen/d_24_dp" android:layout_marginStart="@dimen/d_8_dp" />
+</LinearLayout>

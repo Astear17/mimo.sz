@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_101010" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/title" layout="@layout/setting_title_layout" />
+    <include android:id="@id/setting_cellular" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" android:layout_marginTop="-6.0dp" layout="@layout/setting_item_switch" />
+    <include android:id="@id/setting_auto_download_fv" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" layout="@layout/setting_item_switch_auto_download_firmware" />
+    <include android:id="@id/setting_user_guide" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" layout="@layout/setting_item_text" />
+    <include android:id="@id/setting_clearcathe" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" layout="@layout/setting_item_text" />
+    <include android:id="@id/setting_clear_firmware_cache" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" layout="@layout/setting_item_text_clear_firmware_cache" />
+    <View android:layout_width="match_parent" android:layout_height="@dimen/d_15_dp" />
+    <include android:id="@id/setting_mediasync_option" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" layout="@layout/setting_item_text" />
+    <include android:id="@id/setting_pricavy" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" layout="@layout/setting_item_text" />
+    <View android:layout_width="match_parent" android:layout_height="@dimen/d_15_dp" />
+    <include android:id="@id/setting_device_management" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" layout="@layout/setting_item_text" />
+    <include android:id="@id/setting_language" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" layout="@layout/setting_item_text" />
+    <View android:layout_width="match_parent" android:layout_height="@dimen/d_15_dp" />
+    <include android:id="@id/setting_feedback" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" layout="@layout/setting_item_text" />
+    <include android:id="@id/customer_support" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" layout="@layout/setting_item_text" />
+    <include android:id="@id/dji_store" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" layout="@layout/setting_item_text" />
+    <include android:id="@id/setting_djikino" android:layout_width="match_parent" android:layout_height="@dimen/d_45_dp" layout="@layout/setting_item_text" />
+    <View android:layout_width="match_parent" android:layout_height="@dimen/d_15_dp" />
+    <TextView android:textSize="@dimen/d_16_dp" android:textColor="@color/white" android:gravity="center" android:id="@id/setting_logout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d_50_dp" android:text="@string/kino_setting_logout_tag_name" android:layout_marginStart="@dimen/d_16_dp" android:layout_marginEnd="@dimen/d_16_dp" style="@style/TextStyleRobotoMedium" />
+    <TextView android:textSize="@dimen/d_14_dp" android:textColor="@android:color/holo_red_dark" android:gravity="right|bottom" android:id="@id/main_debug_text" android:visibility="visible" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginRight="@dimen/d_16_dp" android:layout_marginBottom="@dimen/d_16_dp" android:layout_weight="1.0" style="@style/TextStyleRobotoCondensedBold" />
+</LinearLayout>

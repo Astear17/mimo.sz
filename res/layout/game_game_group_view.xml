@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.liaoinstan.springview.widget.SpringView android:id="@id/game_game_group_spring" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/game_game_group_recycle" android:paddingLeft="@dimen/editor_d_18_dp" android:paddingRight="@dimen/editor_d_18_dp" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </com.liaoinstan.springview.widget.SpringView>
+    <lct.lomo.mediaeditor.game.view.GameLoadingView android:id="@id/game_game_group_loading" android:layout_width="match_parent" android:layout_height="match_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

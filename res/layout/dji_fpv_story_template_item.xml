@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.base.ui.widget.ratio.RatioFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_24_dp" android:layout_marginEnd="@dimen/d_24_dp" app:aspectRatio="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/story_template_item_thumbnail" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <TextView android:textSize="@dimen/d_15_dp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="bottom" android:id="@id/story_template_item_title" android:padding="@dimen/d_8_dp" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="2" android:textAllCaps="true" android:autoSizeTextType="uniform" android:autoSizeStepGranularity="@dimen/d_1_dp" android:autoSizeMinTextSize="@dimen/d_13_dp" android:autoSizeMaxTextSize="@dimen/d_15_dp" style="@style/TextStyleRobotoCondensedBold" />
+    <ImageView android:layout_gravity="end" android:id="@id/story_template_item_custom_label" android:visibility="gone" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:layout_margin="@dimen/d_8_dp" android:src="@drawable/fpv_story_template_custom_item_label" />
+    <View android:id="@id/story_template_item_selected" android:background="@drawable/dji_story_template_item_selected" android:layout_width="match_parent" android:layout_height="match_parent" />
+</dji.base.ui.widget.ratio.RatioFrameLayout>

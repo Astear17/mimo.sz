@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/panorama_preview_low_root" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/editor_d_13_dp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/preview_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_16_dp" android:layout_marginRight="@dimen/editor_d_56_dp" android:maxLines="2" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/preview_done" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:layout_marginRight="@dimen/editor_d_16_dp" android:src="@drawable/more_setting_preview_mode_done" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/template_bottom_sheet_bg" android:layout_width="match_parent" android:layout_height="@dimen/template_common_bottom_sheet"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.sdk.editor.widget.BaseRecyclerView android:id="@id/recycler_view" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_40_dp" android:layout_marginBottom="@dimen/editor_d_24_dp" android:layout_above="@id/layout_recyclerview" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/layout_recyclerview" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_54_dp" android:layout_marginBottom="@dimen/editor_d_20_dp" android:layout_above="@id/ll_change_speed">
+        <lct.lomo.sdk.editor.customtemp.edit.EditVideoRecylerView android:id="@id/recycler" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_54_dp" android:layout_centerVertical="true" />
+        <lct.lomo.sdk.editor.customtemp.edit.CorpTouchView android:id="@id/crop_frame" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </RelativeLayout>
+    <lct.lomo.sdk.editor.customtemp.edit.EditVideoSpeedSeekBar android:id="@id/video_speed_menu" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_30_dp" android:layout_marginRight="@dimen/editor_d_30_dp" android:layout_marginBottom="@dimen/editor_d_68_dp" android:layout_above="@id/mediaedit_menu_bottom_layout_id" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_change_speed" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/editor_d_22_dp" android:layout_marginBottom="@dimen/editor_d_13_dp" android:layout_above="@id/mediaedit_menu_bottom_layout_id" android:layout_alignParentRight="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_change_speed" android:layout_width="@dimen/editor_d_24_dp" android:layout_height="@dimen/editor_d_24_dp" android:src="@drawable/ic_cutomtemplate_editvideo_speed" />
+        <TextView android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/tv_change_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_model_videopreview_speed" style="@style/H_4_normal" />
+    </LinearLayout>
+    <include android:id="@id/mediaedit_menu_bottom_layout_id" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/multiple_template_margin_bottom" android:layout_alignParentBottom="true" layout="@layout/custom_cutout_menu_bottom_layout" />
+</RelativeLayout>

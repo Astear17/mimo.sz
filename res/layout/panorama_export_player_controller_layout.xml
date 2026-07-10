@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mediaeditor_share_video_button" android:visibility="gone" android:layout_width="@dimen/editor_d_40_dp" android:layout_height="@dimen/editor_d_40_dp" android:src="@drawable/wechatshare_dialog_video_play_icon" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/panorama_export_player_time_bg" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_28_dp" android:layout_marginRight="@dimen/editor_d_10_dp" android:layout_marginBottom="@dimen/editor_d_10_dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <ImageView android:visibility="gone" android:layout_width="@dimen/editor_d_12_dp" android:layout_height="@dimen/editor_d_12_dp" android:layout_marginLeft="@dimen/editor_d_8_dp" android:layout_marginRight="@dimen/editor_d_1_5dp" android:src="@drawable/panorama_export_player_time_icon" />
+        <TextView android:textSize="@dimen/editor_d_12_dp" android:textColor="@color/white" android:id="@id/player_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_8_dp" android:layout_marginRight="@dimen/editor_d_8_dp" android:text="10:12" />
+    </LinearLayout>
+</RelativeLayout>

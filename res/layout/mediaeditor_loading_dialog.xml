@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/mediaeditor_white_dialog_bg" android:layout_width="@dimen/editor_d_57_dp" android:layout_height="@dimen/editor_d_57_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/progressbar" android:layout_width="@dimen/editor_d_28_dp" android:layout_height="@dimen/editor_d_28_dp" android:indeterminateDrawable="@drawable/shape_model_loading_progress" />
+</FrameLayout>

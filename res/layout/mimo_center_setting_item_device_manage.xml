@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/iv_mimo_center_item_device_manage_container" style="@style/MimoCenterItemContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_mimo_center_item_device_manage_icon" android:src="@drawable/mimo_center_item_icon_device_manage" style="@style/ImageView_MimoCenter_Item_Icon" />
+    <TextView android:id="@id/tv_mimo_center_item_device_manage_title" android:text="@string/mimo_common_device_management_list_title" android:layout_toStartOf="@id/iv_mimo_center_item_device_manage_arrow" android:layout_toEndOf="@id/iv_mimo_center_item_device_manage_icon" style="@style/TV.MimoCenter.Item.Title.Black" />
+    <ImageView android:id="@id/iv_mimo_center_item_device_manage_arrow" style="@style/ImageView_MimoCenter_Item_RightArrow" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/cardRoot" android:background="@drawable/bg_track_download_card" android:paddingTop="@dimen/editor_d_20_dp" android:paddingBottom="0.0dp" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_150_dp" android:paddingStart="@dimen/editor_d_24_dp" android:paddingEnd="@dimen/editor_d_24_dp">
+        <TextView android:textSize="16.0sp" android:textColor="#111111" android:gravity="center" android:id="@id/tvMessage" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:lineSpacingExtra="2.0dp" />
+        <View android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="0.5dp" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="48.0dp">
+            <TextView android:textSize="16.0sp" android:textColor="#999999" android:gravity="center" android:id="@id/cancel" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="" android:layout_weight="1.0" />
+            <View android:background="#e5e5e5" android:layout_width="0.5dp" android:layout_height="match_parent" />
+            <TextView android:textSize="16.0sp" android:textColor="#111111" android:gravity="center" android:id="@id/download" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

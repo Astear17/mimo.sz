@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/story_compose_pic_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/story_video_cover" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <View android:id="@id/story_compose_overlay" android:background="@color/fpv_overlay_window_background" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.github.ybq.android.spinkit.SpinKitView android:id="@id/story_compose_loading" android:background="@color/story_compose_loading_bg_color" android:padding="@dimen/d_11_dp" android:visibility="gone" android:layout_width="@dimen/d_49_dp" android:layout_height="@dimen/d_49_dp" android:layout_centerInParent="true" app:SpinKit_Color="@android:color/white" style="@style/SpinKitView.CubeGrid" />
+    <TextView android:textSize="@dimen/d_30_dp" android:textColor="@color/white" android:id="@id/story_loading_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_15_dp" android:layout_below="@id/story_compose_loading" android:layout_centerHorizontal="true" style="@style/TextStyleRobotoCondensedBold" />
+    <TextView android:textSize="@dimen/d_19_dp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/story_cancel" android:layout_width="wrap_content" android:layout_height="@dimen/d_49_dp" android:text="@string/dji_story_cancel_button_text" android:paddingStart="@dimen/d_16_dp" android:paddingEnd="@dimen/d_16_dp" android:layout_alignParentStart="true" style="@style/TextStyleRobotoCondensedBold" />
+</RelativeLayout>

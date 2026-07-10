@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lct.panorama.view.components.EdgeTransparentView android:id="@id/filter_tab_container" android:paddingTop="@dimen/d_6_dp" android:paddingBottom="@dimen/d_2_dp" android:layout_width="match_parent" android:layout_height="@dimen/d_36_dp" app:edge_position="left|right" app:edge_width="@dimen/d_50_dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.lct.panorama.view.components.EditorRecyclerView android:id="@id/tab_list" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </com.lct.panorama.view.components.EdgeTransparentView>
+    <FrameLayout android:id="@id/key_container" android:layout_width="match_parent" android:layout_height="76.0dp" android:layout_marginBottom="@dimen/d_6_dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/filter_tab_container">
+        <com.lct.panorama.view.components.EditorRecyclerView android:id="@id/key_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/d_56_dp" android:layout_height="@dimen/d_56_dp" android:src="@drawable/panorama_editor_filter_item_board" />
+        <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:id="@id/local_filter_management" android:visibility="gone" android:layout_width="@dimen/d_56_dp" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_12_dp">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/d_48_dp" android:layout_height="@dimen/d_48_dp" android:src="@drawable/playback_segment_editor_filter_custom_lut_entry" />
+            <TextView android:textSize="@dimen/editor_d_11_dp" android:textColor="@color/playback_segment_editor_class_tv" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_8_dp" android:text="@string/mimo_playback_single_clip_edit_filter_localcube_add_btn" android:maxLines="1" />
+        </LinearLayout>
+    </FrameLayout>
+    <com.lct.panorama.view.components.EditorSlider android:layout_gravity="center_horizontal" android:id="@id/segment_color_value_centered_seekbar" android:layout_width="match_parent" android:layout_height="@dimen/d_60_dp" android:layout_marginBottom="-8.0dp" app:layout_constraintBottom_toTopOf="@id/layoutCutActionBar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layoutCutActionBar" android:layout_width="match_parent" android:layout_height="@dimen/d_48_dp" android:paddingStart="@dimen/d_24_dp" android:paddingEnd="@dimen/d_24_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <ImageView android:id="@id/iv_color_cancel" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/gallery_segment_edit_close" />
+        <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white_90" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/light_editor_filter_tab" android:layout_weight="1.0" />
+        <ImageView android:id="@id/iv_color_confirm" android:layout_width="@dimen/d_32_dp" android:layout_height="@dimen/d_32_dp" android:src="@drawable/gallery_segment_edit_comfirm" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <FrameLayout android:id="@id/cloud_resource_loading_layout" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="@dimen/editor_d_40_dp" android:layout_height="@dimen/editor_d_40_dp" android:indeterminateDrawable="@drawable/panorama_loading_progress" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

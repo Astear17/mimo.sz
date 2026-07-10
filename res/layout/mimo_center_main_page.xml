@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/d_20_dp" android:paddingEnd="@dimen/d_20_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/mimo_center_item_message" />
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/mimo_center_setting_item_user_info" />
+            <TextView android:text="@string/mimo_common_mytab_more_service_title" style="@style/TV.MimoCenter.Set.Title" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/mimo_center_item_radius_bg" android:paddingTop="@dimen/d_8_dp" android:paddingBottom="@dimen/d_8_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_68_dp">
+                <include layout="@layout/mimo_center_setting_item_device_manage" />
+                <include layout="@layout/mimo_center_setting_item_netdisk" />
+                <include layout="@layout/mimo_center_setting_item_store" />
+                <include layout="@layout/mimo_center_setting_item_support" />
+                <include layout="@layout/mimo_center_setting_item_forum" />
+                <include layout="@layout/mimo_center_setting_item_sport_train" />
+                <include layout="@layout/mimo_center_setting_item_clear_cache" />
+                <include layout="@layout/mimo_center_setting_dm_setting" />
+                <include layout="@layout/mimo_center_setting_item_setting" />
+                <include layout="@layout/mimo_center_setting_item_about_mimo" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

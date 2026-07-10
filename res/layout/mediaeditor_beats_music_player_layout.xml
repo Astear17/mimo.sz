@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/editor_beats_blur_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <View android:background="@color/mediaeditor_beats_blur_cover_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/editor_beats_icon" android:layout_width="@dimen/editor_d_190_dp" android:layout_height="@dimen/editor_d_190_dp" android:layout_centerHorizontal="true" app:radiusColor="@color/C_111116_100" app:roundRadius="@dimen/editor_beats_icon_radius" />
+        <ImageView android:id="@id/editor_beats_icon_bg" android:background="@drawable/mediaeditor_beats_icon_bg" android:layout_width="@dimen/editor_d_190_dp" android:layout_height="@dimen/editor_d_190_dp" android:layout_centerHorizontal="true" />
+        <TextView android:textColor="@color/white" android:id="@id/music_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_21_dp" android:layout_below="@id/editor_beats_icon" android:layout_centerHorizontal="true" style="@style/H_3_normal" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/action_btn_layout" android:layout_width="@dimen/editor_d_50_dp" android:layout_height="@dimen/editor_d_50_dp" android:layout_marginTop="@dimen/editor_d_14_dp" android:layout_below="@id/music_name" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center" android:id="@id/action_btn" android:layout_width="@dimen/editor_d_30_dp" android:layout_height="@dimen/editor_d_30_dp" android:src="@drawable/lctm_mediaedit_video_play_icon" android:scaleType="centerInside" />
+    </FrameLayout>
+</merge>

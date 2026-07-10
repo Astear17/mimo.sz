@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/lct_player_cover_root_id" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/template_loading" android:visibility="visible" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:src="@drawable/custom_template_loading_frame_list" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/template_play_btn" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/qingpai_template_preview_ic_play" android:layout_centerInParent="true" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_retry" android:visibility="visible" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:src="@drawable/meidaedit_ic_reload" android:layout_centerInParent="true" />
+    <TextView android:textColor="@color/white_45" android:layout_gravity="center_vertical" android:id="@id/tv_lable" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_12_dp" android:text="@string/light_model_myStory_loading_text" android:layout_below="@id/iv_retry" android:layout_centerHorizontal="true" style="@style/H_5_normal" />
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" style="@style/dji_setting_stage_sv"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <dji.lomo.fpv.om.ui.settings.general.OmFpvSettingGeneralContainer android:id="@id/om_fpv_setting_general_container" android:layout_marginBottom="20.0dp" android:splitMotionEvents="false" style="@style/dji_setting_stage_ll">
+        <TextView android:text="@string/mimo_connection_card_connect_title" style="@style/om_fpv_setting_sub_title" />
+        <com.handheld.uikit.components.item.SettingItemView android:id="@id/om_setting_general_connect" android:background="@drawable/bg_round_om_fpv_setting" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/d_8_dp" setting_ui:iconSrc="@drawable/ic_om_fpv_connect" setting_ui:rightText="@string/mimo_common_cloud_switch_title" setting_ui:rightTextColor="@color/blue" setting_ui:rightType="text" />
+        <TextView android:id="@id/om_setting_general_photo_spec_title" android:layout_marginTop="@dimen/om_fpv_setting_vertical_space" android:text="@string/mimo_fpv_genneral_setting_photo_specification" style="@style/om_fpv_setting_sub_title" />
+        <LinearLayout android:id="@id/om_setting_general_photo_spec_layout" style="@style/mimo_divide_ll">
+            <dji.lomo.fpv.om.ui.settings.general.camera.OmFpvSettingPhotoRatioSpinner android:layout_width="match_parent" android:layout_height="wrap_content" setting_ui:title_text="@string/hg303_fpv_setting_picture_frame_drop_list_title" />
+        </LinearLayout>
+        <TextView android:layout_marginTop="@dimen/om_fpv_setting_vertical_space" android:text="@string/mimo_fpv_gimbal_others_title" style="@style/om_fpv_setting_sub_title" />
+        <LinearLayout style="@style/mimo_divide_ll">
+            <dji.lomo.fpv.om.ui.settings.general.OmFpvSettingCameraSleepItemView android:id="@id/dji_setting_item_general_camera_sleep" android:layout_width="match_parent" android:layout_height="wrap_content" setting_ui:title_text="@string/mimo_fpv_om_camera_rest_setting" />
+            <dji.lomo.fpv.om.ui.settings.general.camera.OmFpvSettingCompositionGridSpinner android:layout_width="match_parent" android:layout_height="wrap_content" setting_ui:title_text="@string/hg302_fpv_setting_grid" setting_ui:typeFace="@string/ui_typeface_roboto_condensed_bold" />
+            <dji.lomo.fpv.om.ui.settings.general.OmFpvSettingSelfieMirrorView android:id="@id/dji_setting_item_general_selfie_mirror" setting_ui:titleText="@string/hg302_fpv_setting_mirror_reflection_list_btn" style="@style/om_fpv_setting_switch" />
+            <dji.lomo.fpv.om.ui.settings.general.DJIOmSettingPanoSaveOriItemView android:id="@id/dji_setting_item_general_pano_save_ori" setting_ui:titleText="@string/hg302_fpv_setting_pano_save_original" style="@style/om_fpv_setting_switch" />
+            <dji.lomo.fpv.om.ui.settings.general.OmFpvSettingMoreModes setting_ui:descText="@string/mimo_fpv_genneral_setting_others_show_more_model_tips" setting_ui:titleText="@string/mimo_fpv_genneral_setting_others_show_more_model" style="@style/om_fpv_setting_switch" />
+            <dji.lomo.fpv.om.ui.settings.general.OmFpvSettingStorySaveClips setting_ui:titleText="@string/mimo_fpv_genneral_setting_others_story_save_all" style="@style/om_fpv_setting_switch" />
+        </LinearLayout>
+        <TextView android:id="@id/om_setting_general_device_info_title" android:layout_marginTop="@dimen/om_fpv_setting_vertical_space" android:text="@string/mimo_common_device_management_device_info" style="@style/om_fpv_setting_sub_title" />
+        <LinearLayout android:id="@id/om_setting_general_device_info_tab" style="@style/mimo_divide_ll">
+            <dji.lomo.fpv.om.ui.settings.general.OmFpvSettingDeviceName android:id="@id/om_setting_general_rename" android:layout_width="match_parent" android:layout_height="wrap_content" setting_ui:rightIcon="@drawable/ic_edit_24_light" setting_ui:rightText="@string/not_available" setting_ui:rightTextColor="@color/white_60" setting_ui:rightType="text" setting_ui:titleText="@string/hg302_fpv_setting_device_name_list_top_title_content" />
+            <com.handheld.uikit.components.item.SettingItemView android:id="@id/dji_setting_general_firmware_version" setting_ui:rightText="@string/dji_setting_general_firmware_version_default" setting_ui:titleText="@string/hg302_fpv_setting_firmware_type_info" style="@style/om_fpv_setting_text" />
+            <com.handheld.uikit.components.item.SettingItemView android:id="@id/hg302_fpv_setting_equipment_serial_number" setting_ui:rightText="@string/dji_setting_general_firmware_sn_default" setting_ui:titleText="@string/hg302_fpv_setting_equipment_serial_number" style="@style/om_fpv_setting_text" />
+            <dji.lomo.fpv.om.ui.settings.general.OmShowingModeSwitchView android:id="@id/dji_setting_item_general_showing_mode" setting_ui:descText="@string/hg302_fpv_setting_show_instructions_list_content" setting_ui:titleText="@string/hg302_fpv_settings_show_list_title" style="@style/om_fpv_setting_switch" />
+        </LinearLayout>
+        <TextView android:layout_marginTop="@dimen/om_fpv_setting_vertical_space" android:text="@string/mimo_fpv_open_tracking_usage_page_title" style="@style/om_fpv_setting_sub_title" />
+        <LinearLayout style="@style/mimo_divide_ll">
+            <dji.lomo.fpv.om.ui.settings.general.OmUserNoticeView android:id="@id/dji_setting_notice_for_user" setting_ui:rightIcon="@drawable/ic_setting_item_arrow_right_24_light" setting_ui:titleText="@string/hg303_fpv_instruction_small_dialog_title" style="@style/om_fpv_setting_text" />
+        </LinearLayout>
+    </dji.lomo.fpv.om.ui.settings.general.OmFpvSettingGeneralContainer>
+</androidx.core.widget.NestedScrollView>

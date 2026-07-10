@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/d_16_dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/story_draft_empty_image" android:layout_width="@dimen/d_104_dp" android:layout_height="@dimen/d_104_dp" android:layout_marginBottom="@dimen/d_24_dp" android:src="@drawable/story_draft_empty_view" android:scaleType="fitCenter" />
+    <TextView android:textSize="@dimen/d_16_dp" android:textColor="#ff666666" android:gravity="center" android:id="@id/story_draft_empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_12_dp" android:text="@string/mimo_fpv_story_drafts_null_page_title" style="@style/TextStyleRobotoRegular" />
+    <TextView android:textSize="@dimen/d_14_dp" android:textColor="#ff666666" android:gravity="center" android:id="@id/story_draft_empty_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mimo_fpv_story_drafts_null_page_content" style="@style/TextStyleRobotoRegular" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/mediaeditor_clip_guide_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_marginTop="@dimen/editor_d_14_dp" android:layout_marginBottom="@dimen/editor_d_15_dp" android:maxWidth="@dimen/editor_d_200_dp" android:text="@string/light_useguide_editorClip_content" style="@style/guide_text_style" />
+</FrameLayout>

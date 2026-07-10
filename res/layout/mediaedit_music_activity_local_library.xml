@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/C_111116_100" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/mediaedit_music_include_music_title_bar" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_174_dp">
+        <ImageView android:layout_width="@dimen/editor_d_104_dp" android:layout_height="@dimen/editor_d_104_dp" android:src="@drawable/mediaeditor_music_local_library_empty" />
+        <TextView android:textColor="@color/C_7C7C7F_100" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_22_dp" android:text="@string/light_editor_localmusiclibrary_toast_empty" style="@style/H_3_normal" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+</LinearLayout>

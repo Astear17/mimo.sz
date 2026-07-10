@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/editor_d_32_dp" android:paddingTop="@dimen/editor_d_20_dp" android:paddingRight="@dimen/editor_d_32_dp" android:paddingBottom="@dimen/editor_d_20_dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_buffering_speed" android:layout_width="@dimen/editor_d_28_dp" android:layout_height="@dimen/editor_d_28_dp" android:src="@drawable/icon_loading_progress" />
+        <TextView android:textSize="@dimen/editor_d_13_dp" android:textColor="@color/white" android:id="@id/tv_buffering_speed" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_16_dp" />
+        <ImageView android:id="@id/iv_buffering_close" android:visibility="gone" android:layout_width="@dimen/editor_d_32_dp" android:layout_height="@dimen/editor_d_32_dp" android:layout_marginTop="@dimen/editor_d_48_dp" android:src="@drawable/icon_loading_close" />
+    </LinearLayout>
+</FrameLayout>

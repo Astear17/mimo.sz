@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root_layout" android:paddingTop="@dimen/d_16_dp" android:paddingBottom="@dimen/d_16_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_12_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tv_title" android:text="@string/dm303rx_common_parameter_setting_listening_setting_list_title" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/dm_setting_title" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_open" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dji_set_arrow_right" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/monitor_indicator" android:background="@drawable/bg_radius_10_color_white_5" android:padding="@dimen/d_12_dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_10_dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_title">
+        <LinearLayout android:gravity="center" android:layout_gravity="start" android:orientation="horizontal" android:layout_width="@dimen/d_140_dp" android:layout_height="@dimen/d_40_dp">
+            <ImageView android:layout_width="@dimen/d_18_dp" android:layout_height="@dimen/d_18_dp" android:src="@drawable/earphone" android:scaleType="centerInside" android:layout_marginEnd="@dimen/d_8_dp" />
+            <TextView android:textAppearance="@style/TextStyleRobotoCondensedRegular" android:textSize="@dimen/d_13_dp" android:textColor="@color/white_80" android:id="@id/monitor_tx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="end" android:orientation="horizontal" android:layout_width="@dimen/d_140_dp" android:layout_height="@dimen/d_40_dp">
+            <ImageView android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:src="@drawable/broadcast" android:scaleType="centerInside" android:layout_marginEnd="@dimen/d_8_dp" />
+            <TextView android:textAppearance="@style/TextStyleRobotoRegular" android:textSize="@dimen/d_13_dp" android:textColor="@color/white_80" android:id="@id/monitor_db" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dm303rx_common_parameter_setting_dB_list_title" android:maxLines="1" />
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

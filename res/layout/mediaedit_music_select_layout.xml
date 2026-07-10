@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lct.lomo.sdk.editor.music.select.MusicSelectView android:id="@id/music_select_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <lct.lomo.sdk.editor.music.select.CustomerWaveFormView android:id="@id/music_select_view_real" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <lct.lomo.sdk.editor.music.select.MarkerView android:id="@id/music_marker_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+</merge>

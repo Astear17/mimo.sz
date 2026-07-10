@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lctsdk.mediaeditor.tabviews.video.RoundRadiusLayout android:id="@id/rl_model_item" android:layout_width="@dimen/editor_d_160_dp" android:layout_height="@dimen/editor_d_160_dp" app:roundRadius="@dimen/editor_d_10_dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <lct.lomo.sdk.editor.widget.RoundRadiusImageView android:id="@id/item_inspiration_cover" android:background="@color/C_F4F4F4_100" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" app:radiusColor="@color/white" app:roundRadius="@dimen/editor_d_10_dp" />
+            <lct.lomo.sdk.editor.customtemp.qingpai.inspirationlib.view.LabelView android:orientation="horizontal" android:id="@id/label_root" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_6_dp" android:layout_marginRight="@dimen/editor_d_0_dp" android:layout_marginBottom="@dimen/editor_d_8_dp" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </com.lctsdk.mediaeditor.tabviews.video.RoundRadiusLayout>
+    <TextView android:textColor="@color/C_000000_100" android:id="@id/item_inspiration_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_4_dp" android:layout_below="@id/rl_model_item" style="@style/H_3_bold" />
+    <TextView android:textColor="@color/black_60" android:ellipsize="end" android:id="@id/item_inspiration_describe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_2_dp" android:lines="2" android:layout_below="@id/item_inspiration_type" style="@style/H_5_normal" />
+</RelativeLayout>

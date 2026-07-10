@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_8_dp" android:layout_marginRight="@dimen/editor_d_8_dp">
+        <ImageView android:layout_width="@dimen/view_special_effect_guide_item_wh" android:layout_height="@dimen/view_special_effect_guide_item_wh" android:src="@drawable/special_effect_guide_add" />
+        <TextView android:textSize="@dimen/editor_d_9_dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_editor_effecttab_editor_add" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_8_dp" android:layout_marginRight="@dimen/editor_d_8_dp">
+        <ImageView android:layout_width="@dimen/view_special_effect_guide_item_wh" android:layout_height="@dimen/view_special_effect_guide_item_wh" android:src="@drawable/special_effect_guide_replace" />
+        <TextView android:textSize="@dimen/editor_d_9_dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_editor_effecttab_editor_replace" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_8_dp" android:layout_marginRight="@dimen/editor_d_8_dp">
+        <ImageView android:layout_width="@dimen/view_special_effect_guide_item_wh" android:layout_height="@dimen/view_special_effect_guide_item_wh" android:src="@drawable/special_effect_guide_copy" />
+        <TextView android:textSize="@dimen/editor_d_9_dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_editor_effecttab_editor_copy" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_8_dp" android:layout_marginRight="@dimen/editor_d_8_dp">
+        <ImageView android:layout_width="@dimen/view_special_effect_guide_item_wh" android:layout_height="@dimen/view_special_effect_guide_item_wh" android:src="@drawable/special_effect_guide_delete" />
+        <TextView android:textSize="@dimen/editor_d_9_dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_editor_effecttab_editor_delete" />
+    </LinearLayout>
+</LinearLayout>

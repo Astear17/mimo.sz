@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/lay_gravity" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_300_dp">
+        <TextView android:textSize="@dimen/editor_d_12_dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/inter_show_toast_message" android:background="@drawable/editor_common_show_toast_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/editor_d_290_dp" android:minWidth="@dimen/editor_d_115_dp" android:minHeight="@dimen/editor_d_40_dp" android:maxLines="3" android:includeFontPadding="false" android:paddingHorizontal="@dimen/editor_d_16_dp" android:paddingVertical="@dimen/editor_d_8_dp" style="@style/TextStyleRobotoRegular" />
+    </FrameLayout>
+</FrameLayout>

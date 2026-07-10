@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/qingpai_beauty_tab_btns1" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_d_32_dp" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/qingpai_beauty_close" android:padding="@dimen/editor_d_10_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/editor_d_12_dp" android:src="@drawable/qingpai_beauty_arrow_down" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <View android:id="@id/qingpai_main_detail_shoot" android:layout_width="@dimen/editor_d_44_dp" android:layout_height="@dimen/editor_d_44_dp" android:layout_centerInParent="true" />
+        <lct.lomo.sdk.editor.customtemp.qingpai.view.QingPaiBeautyCheckbox android:id="@id/qingpai_beauty_checkbox" android:padding="@dimen/editor_d_10_dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/editor_d_12_dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <lct.lomo.sdk.editor.customtemp.qingpai.view.QingPaiBeautySeekView android:id="@id/qingpai_beauty_tab_seekbar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_70_dp" android:layout_marginLeft="@dimen/editor_d_56_dp" android:layout_marginRight="@dimen/editor_d_56_dp" android:layout_marginBottom="@dimen/editor_d_103_dp" android:layout_alignParentBottom="true" />
+    <lct.lomo.sdk.editor.customtemp.qingpai.view.QingPaiQualitySeekView android:id="@id/qingpai_quality_tab_seekbar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_70_dp" android:layout_marginLeft="@dimen/editor_d_56_dp" android:layout_marginRight="@dimen/editor_d_56_dp" android:layout_marginBottom="@dimen/editor_d_103_dp" android:layout_alignParentBottom="true" />
+</RelativeLayout>

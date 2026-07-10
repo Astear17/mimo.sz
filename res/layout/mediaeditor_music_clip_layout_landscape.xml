@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lctsdk.mediaeditor.tabviews.music.MusicScrollView android:id="@id/scroll_container" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="@dimen/editor_d_60_dp" android:layout_centerHorizontal="true">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+            <lct.lomo.sdk.editor.music.wave.MusicWaveView android:id="@id/music_wave_view" android:layout_width="wrap_content" android:layout_height="match_parent" />
+        </FrameLayout>
+    </com.lctsdk.mediaeditor.tabviews.music.MusicScrollView>
+    <lct.lomo.sdk.editor.music.select.MusicMarkerView android:id="@id/music_crop_frame_container" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_60_dp" />
+    <TextView android:textColor="@color/C_FFFFFF_100" android:id="@id/music_frame_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_202_dp" android:layout_marginTop="@dimen/editor_d_9_dp" android:text="00:00:00" android:layout_below="@id/music_crop_frame_container" android:layout_alignParentLeft="true" style="@style/H_4_normal" />
+    <TextView android:textColor="@color/C_FFFFFF_100" android:id="@id/music_frame_end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_9_dp" android:layout_marginRight="@dimen/editor_d_202_dp" android:text="00:00:00" android:layout_below="@id/music_crop_frame_container" android:layout_alignParentRight="true" style="@style/H_4_normal" />
+</RelativeLayout>

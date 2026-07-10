@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_101010" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/model_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/model_bottom_view" android:splitMotionEvents="false" />
+    <dji.lomo.mediaeditor.model.view.EditModelBottomView android:id="@id/model_bottom_view" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="@dimen/d_70_dp" android:layout_alignParentBottom="true" android:splitMotionEvents="false" />
+</RelativeLayout>

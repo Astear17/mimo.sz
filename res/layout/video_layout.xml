@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/top_title_blank" android:layout_width="match_parent" android:layout_height="@dimen/d_70_dp" android:layout_alignParentTop="true" />
+    <View android:id="@id/video_top_blank" android:layout_width="match_parent" android:layout_height="@dimen/d_90_dp" android:layout_below="@id/top_title_blank" />
+    <View android:id="@id/bottom_tab_blank" android:layout_width="match_parent" android:layout_height="@dimen/d_49_dp" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@id/video_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/bottom_tab_blank" android:layout_below="@id/video_top_blank" />
+    <FrameLayout android:id="@id/cover_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/bottom_tab_blank" android:layout_below="@id/video_top_blank">
+        <dji.lomo.main.view.CustomImageView android:id="@id/video_cover" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/fresco_cover_view_style" />
+    </FrameLayout>
+    <View android:id="@id/full_screen_top_cover" android:background="@drawable/full_screen_top_cover_shape_bg" android:layout_width="match_parent" android:layout_height="@dimen/d_100_dp" android:layout_alignParentTop="true" />
+    <View android:id="@id/full_screen_bottom_cover" android:background="@drawable/full_screen_bottom_cover_shape_bg" android:layout_width="match_parent" android:layout_height="@dimen/d_170_dp" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/operation_btn" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_240_dp" android:src="@drawable/video_start_sign" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/video_error_refresh_layout" android:background="@color/color_232323" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <ImageView android:id="@id/video_error_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selected_empty" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/d_15_dp" android:textColor="@color/color_666666" android:gravity="top" android:layout_gravity="center_horizontal" android:id="@id/video_error_text" android:paddingTop="@dimen/d_22_dp" android:layout_width="wrap_content" android:layout_height="0.0dp" android:text="@string/mimo_community_video_fail" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

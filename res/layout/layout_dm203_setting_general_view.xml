@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white_90" android:id="@id/dm303_setting_general_device_name" android:layout_marginLeft="@dimen/d_4_dp" android:layout_marginTop="@dimen/d_24_dp" android:layout_marginBottom="@dimen/d_16_dp" android:text="RX" style="@style/v2_settings_item_info_value" />
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/d_8_dp" android:paddingBottom="@dimen/d_8_dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/v2_settings_group_layout">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_edit_name" style="@style/v2_settings_item_layout">
+            <TextView android:textAppearance="@style/TextStyleRobotoRegular" android:textSize="@dimen/d_15_dp" android:textColor="@color/white" android:id="@id/dm303_device_name_key" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dm102_fpv_setting_device_name_title" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/name_group" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_8_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/dm303_device_name_key" app:layout_constraintTop_toTopOf="parent">
+                <TextView android:textColor="@color/white_60" android:gravity="end" android:id="@id/dm_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textFontWeight="400" style="@style/v2_settings_item_info_value" />
+                <ImageView android:id="@id/dm_name_edit" android:layout_width="@dimen/d_24_dp" android:layout_height="@dimen/d_24_dp" android:src="@drawable/dm_name_edit" android:scaleType="centerInside" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout android:id="@id/dm303_device_sn_layout" style="@style/v2_settings_item_layout">
+            <TextView android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/dm303_device_sn_key" android:text="@string/dm300rx_common_device_sn_list_title" style="@style/v2_settings_item_info_key" />
+            <TextView android:textColor="@color/white_60" android:layout_gravity="center_vertical" android:id="@id/dm303_device_sn_value" android:text="@string/dm300_device_sn_value" android:textFontWeight="400" style="@style/v2_settings_item_info_value" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/dm300_firmware_version_layout" style="@style/v2_settings_item_layout">
+            <TextView android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/dm303_firmware_version_key" android:text="@string/dm300rx_common_device_firmware_list_title" style="@style/v2_settings_item_info_key" />
+            <TextView android:textColor="@color/white_60" android:layout_gravity="center_vertical" android:id="@id/dm303_firmware_version_value" android:text="@string/dm300_firmware_version_value" android:textFontWeight="400" style="@style/v2_settings_item_info_value" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/set_privacy_container" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/mimo_common_mytab_my_sum_setting_title" style="@style/TV.MimoCenter.Set.Title.Gray" />
+    <LinearLayout style="@style/TV.MimoCenter.Item.Type.Container.White">
+        <include layout="@layout/mimo_center_setting_item_mobile_network" />
+        <include layout="@layout/mimo_center_setting_item_auto_download_firmware" />
+        <include android:visibility="gone" layout="@layout/mimo_center_setting_item_auto_play_work" />
+        <include android:visibility="gone" layout="@layout/mimo_center_setting_item_gps_location" />
+        <include layout="@layout/mimo_center_setting_item_multi_media" />
+        <include layout="@layout/mimo_center_setting_item_analysis_improve" />
+        <include layout="@layout/mimo_center_setting_item_personal_information" />
+        <include layout="@layout/mimo_center_setting_item_third_platform_sdk_info_list" />
+    </LinearLayout>
+</LinearLayout>

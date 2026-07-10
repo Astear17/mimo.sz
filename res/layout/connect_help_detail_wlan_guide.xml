@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/connect_help_detail_wlan_plus_container" android:background="@drawable/device_button_radius_bg" android:padding="@dimen/d_16_dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/connect_help_detail_wlan_plus_title" android:text="@string/mimo_connection_connection_help_wlan_plus_closed_turorial_btn" style="@style/TV.ConnectHelp.Detail.Title" />
+    <include layout="@layout/connect_help_detail_wlan_brand_info" />
+    <TextView android:id="@id/connect_help_detail_frequency_description_info" android:text="@string/mimo_connection_connection_help_unsupport_5p8g_main_content" style="@style/TV.ConnectHelp.Detail.Description" />
+    <View android:layout_width="match_parent" android:layout_height="@dimen/d_2_dp" />
+    <TextView android:id="@id/connect_help_detail_remove_from_system_operation" android:text="@string/mimo_connection_connection_help_android10_system_connection_caused_mimo_connection_fail_content" style="@style/TV.ConnectHelp.Detail.Description" />
+</LinearLayout>

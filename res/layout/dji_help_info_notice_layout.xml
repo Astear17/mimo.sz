@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mimo_fpv_video_spec_disclaimer_text1" style="@style/TextStyleRobotoBold" />
+    <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_14_dp" android:text="@string/mimo_fpv_video_spec_disclaimer_text2" />
+    <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_30_dp" android:text="@string/mimo_fpv_video_spec_disclaimer_text3" style="@style/TextStyleRobotoBold" />
+    <TextView android:textSize="@dimen/d_14_dp" android:textColor="@color/white_80" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_14_dp" android:text="@string/mimo_fpv_video_spec_disclaimer_text4" />
+</LinearLayout>

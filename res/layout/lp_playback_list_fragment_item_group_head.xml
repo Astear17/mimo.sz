@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/d_46_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d_14_dp" android:textColor="#999999" android:gravity="bottom" android:id="@id/lp_playback_groupitem_date" android:paddingBottom="@dimen/d_8_dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="@dimen/d_12_dp" android:paddingEnd="@dimen/d_12_dp" style="@style/TextStyleRobotoCondensedBold" />
+    <ImageView android:layout_gravity="end" android:id="@id/lp_playback_groupitem_select" android:paddingTop="@dimen/d_8_dp" android:paddingBottom="@dimen/d_8_dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/lp_selector_playback_group_select" android:scaleType="fitEnd" android:paddingStart="@dimen/d_22_dp" android:paddingEnd="@dimen/d_12_dp" />
+</FrameLayout>

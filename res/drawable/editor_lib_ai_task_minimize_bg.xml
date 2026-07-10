@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/transparent" />
+    <corners android:radius="@dimen/editor_d_4_dp" />
+    <stroke android:width="@dimen/editor_d_1_dp" android:color="@color/C_FFFFFF_20" />
+    <padding android:left="@dimen/editor_d_24_dp" android:top="@dimen/editor_d_6_dp" android:right="@dimen/editor_d_24_dp" android:bottom="@dimen/editor_d_6_dp" />
+</shape>

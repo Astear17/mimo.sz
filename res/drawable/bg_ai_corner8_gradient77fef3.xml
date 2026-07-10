@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/editor_d_8_5_dp" android:topRightRadius="@dimen/editor_d_8_5_dp" android:bottomLeftRadius="@dimen/editor_d_8_5_dp" android:bottomRightRadius="@dimen/editor_d_0_dp" />
+    <gradient android:startColor="@color/C_77FEF3_100" android:endColor="@color/C_ECFFD1_100" android:angle="0.0" />
+    <padding android:left="@dimen/editor_d_12_dp" android:top="@dimen/editor_d_2_dp" android:right="@dimen/editor_d_12_dp" android:bottom="@dimen/editor_d_2_dp" />
+</shape>

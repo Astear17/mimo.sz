@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/ins_template_back_view" android:background="@color/C_000000_20" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/ins_template_tab" android:background="@drawable/shape_ins_template_white_bg" android:paddingLeft="@dimen/editor_d_22_dp" android:paddingRight="@dimen/editor_d_22_dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/black" android:id="@id/ins_template_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_22_dp" android:layout_marginBottom="@dimen/editor_d_8_dp" style="@style/H_3_bold" />
+        <lct.lomo.sdk.editor.customtemp.qingpai.inspirationlib.preview.INSTemplatePreview android:id="@id/ins_template_preview" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <TextView android:textColor="@color/black" android:layout_gravity="center" android:id="@id/ins_template_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_d_20_dp" style="@style/H_4_bold" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_d_6_dp" android:layout_marginTop="@dimen/editor_d_35_dp" android:layout_marginRight="@dimen/editor_d_6_dp" android:layout_marginBottom="@dimen/editor_d_54_dp" android:splitMotionEvents="false">
+            <TextView android:textColor="@color/C_F22443_100" android:gravity="center" android:id="@id/ins_preview_btn" android:background="@drawable/inspiration_preview_layout_bg" android:layout_width="0.0dp" android:layout_height="@dimen/editor_d_47_dp" android:layout_marginRight="@dimen/editor_d_8_dp" android:text="@string/light_afflatus_material_pool_go_edit_btn" android:layout_weight="1.0" style="@style/H_3_bold" />
+            <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/ins_shot_btn" android:background="@drawable/inspiration_shot_red_button_bg" android:layout_width="0.0dp" android:layout_height="@dimen/editor_d_47_dp" android:text="@string/light_afflatus_preview_keep_shooting" android:layout_weight="1.0" style="@style/H_3_bold" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

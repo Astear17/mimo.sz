@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/media_edit_root_view" android:background="@color/mediaedit_mediaedit_activity_model_import_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lct.lomo.mediaeditor.importmedia.titlebar.EditTitleBar android:id="@id/mediaedit_importmedia_title_bar" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/mediaedit_import_title_shadow_layer" android:background="@color/mediaedit_import_shadow_layer_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_63_dp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/media_container" android:layout_width="match_parent" android:layout_height="@dimen/editor_d_0_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/mediaedit_importmedia_title_bar" />
+</androidx.constraintlayout.widget.ConstraintLayout>
